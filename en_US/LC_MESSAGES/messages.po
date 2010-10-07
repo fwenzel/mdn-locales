@@ -259,7 +259,8 @@ msgid "Correspondence on Twitter from the Web developer community."
 msgstr "Correspondence on Twitter from the Web developer community."
 
 #: apps/landing/templates/landing/home.html:23
-msgid "Customize your profile &amp; fine-tune your participation within MDN."
+#, fuzzy
+msgid "Customize your profile & fine-tune your participation within MDN."
 msgstr "Customize your profile &amp; fine-tune your participation within MDN."
 
 #. DEVMO is the nickname for MDN.

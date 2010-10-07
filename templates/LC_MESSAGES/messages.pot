@@ -549,7 +549,7 @@ msgid "Already a member?"
 msgstr ""
 
 #: apps/landing/templates/landing/home.html:23
-msgid "Customize your profile &amp; fine-tune your participation within MDN."
+msgid "Customize your profile & fine-tune your participation within MDN."
 msgstr ""
 
 #: apps/landing/templates/landing/home.html:24
