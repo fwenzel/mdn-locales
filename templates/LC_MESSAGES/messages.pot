@@ -1,0 +1,203 @@
+#: apps/devmo/__init__.py:6
+#: apps/landing/templates/landing/addons.html:7
+#: apps/landing/templates/landing/home.html:125
+msgid "Add-ons"
+msgstr ""
+
+#: apps/devmo/__init__.py:12
+#: apps/landing/templates/landing/apps.html:7
+#: apps/landing/templates/landing/home.html:134
+msgid "Applications"
+msgstr ""
+
+#: apps/devmo/__init__.py:18
+#: apps/landing/templates/landing/home.html:117
+#: apps/landing/templates/landing/mobile.html:7
+msgid "Mobile"
+msgstr ""
+
+#: apps/devmo/__init__.py:24
+#: apps/landing/templates/landing/web.html:7
+msgid "Web"
+msgstr ""
+
+#: apps/docs/templates/docs/docs.html:7
+#: apps/landing/templates/landing/home.html:107
+msgid "Docs"
+msgstr ""
+
+#: apps/landing/templates/landing/addons.html:93
+msgid "Correspondence on Twitter from the Add-ons developer community."
+msgstr ""
+
+#: apps/landing/templates/landing/apps.html:112
+msgid "Correspondence on Twitter from the Applications developer community."
+msgstr ""
+
+#. a.k.a. stands for 'also known as'. Followed by 'DEVMO'.
+#: apps/landing/templates/landing/home.html:10
+msgid "Welcome to the Mozilla Developer Network, a.k.a.:"
+msgstr ""
+
+#. DEVMO is the nickname for MDN.
+#: apps/landing/templates/landing/home.html:13
+msgid "DEVMO"
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:15
+msgid "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:16
+msgid "Learn the history behind Project <em>Devmo</em>"
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:18
+msgid "New to MDN?"
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:19
+msgid "Want to help make our network even better?"
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:20
+msgid "Here's how to get started"
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:22
+msgid "Already a member?"
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:23
+msgid "Customize your profile &amp; fine-tune your participation within MDN."
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:24
+msgid "Log in"
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:34
+#: apps/landing/templates/landing/home.html:43
+msgid "School of Webcraft"
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:35
+#: apps/landing/templates/landing/home.html:59
+msgid "HTML5"
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:36
+#: apps/landing/templates/landing/home.html:73
+msgid "Firefox 4 Beta"
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:37
+#: apps/landing/templates/landing/home.html:88
+msgid "Addons Builder Preview"
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:45
+msgid ""
+"Mozilla and <a href=\"%(p2pu)s\">P2PU</a> are creating the <a href=\"%"
+"(p2pu_drumbeat)s\">School of Webcraft</a>, a powerful new way to teach and "
+"learn web developer skills. Classes are globally accessible, 100%% free, and "
+"powered entirely by learners, mentors and contributors like you people. Our "
+"goal: a vibrant, peer-led system that helps people around the world easily "
+"access and build careers on open web technology."
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:53
+#: apps/landing/templates/landing/home.html:67
+#: apps/landing/templates/landing/home.html:82
+#: apps/landing/templates/landing/home.html:97
+msgid "More"
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:61
+msgid ""
+"Mozilla continues to lead the charge in the adoption of HTML5 and other "
+"evolving open Web technologies. Find out more about the <a href=\"%"
+"(devmo_html5)s\">HTML5 spec</a> and the latest enhancements in HTML5, CSS3 "
+"and other <a href=\"%(devmo_fx4dev)s\">developer features for Firefox 4</a>."
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:75
+msgid ""
+"Test the <a href=\"%(fx4_features)s\">next version of Firefox</a> and help us "
+"make the world's best browser even better. Firefox 4 advances the modern web "
+"and we have a <a href=\"%(fx4_tech)s\">big chart full of check marks</a> to "
+"prove it."
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:90
+msgid ""
+"Use Add-ons Builder to quickly and easily develop an extension for Firefox "
+"using common web technologies. There is a <a href=\"%"
+"(tutorial)s\">tutorial</a> to get you started and a <a href=\"%(api)s\">variety "
+"of APIs in the core library</a> to add functionality to Firefox."
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:104
+msgid "Highlights From Around the Network"
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:109
+msgid "Key Topics for <a href=\"%(web_url)s\" class=\"web\">Web</a> Developers"
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:119
+msgid ""
+"Learn more about <a href=\"%(devmo_mobile)s\">Fennec</a> and mobile-specific "
+"technologies like <a href=\"%(devmo_geo)s\">geolocation</a>.</p>"
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:127
+msgid ""
+"<a href=\"%(builder_url)s\">Build your own add-ons</a> and discuss them with "
+"the <a href=\"%(dev_url)s\">add-on developer community</a>."
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:136
+msgid ""
+"See how you can <a href=\"%(devmo_participate)s\">participate</a> in <a href=\""
+"%(devmo_l10n)s\">localization</a>, <a href=\"%(devmo_qa)s\">quality "
+"assurance</a>, and other Mozilla projects."
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:146
+msgid "News & Updates"
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:147
+msgid "Highlighted Mozilla Developer News & Updates"
+msgstr ""
+
+#: apps/landing/templates/landing/home.html:156
+msgid "Correspondence on Twitter from around the Mozilla Developer Network."
+msgstr ""
+
+#: apps/landing/templates/landing/mobile.html:127
+msgid "Correspondence on Twitter from the Mobile developer community."
+msgstr ""
+
+#: apps/landing/templates/landing/searchresults.html:7
+msgid "Search Results"
+msgstr ""
+
+#: apps/landing/templates/landing/web.html:100
+msgid "Correspondence on Twitter from the Web developer community."
+msgstr ""
+
+#: templates/404.html:3
+#: templates/404.html:5
+msgid "Not Found"
+msgstr ""
+
+#: templates/500.html:3
+#: templates/500.html:5
+msgid "Internal Server Error"
+msgstr ""
+
+#: templates/base.html:4
+msgid "Mozilla Developer Network"
+msgstr ""
