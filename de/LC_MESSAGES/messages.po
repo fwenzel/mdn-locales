@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2010-10-07 18:50+0200\n"
+"PO-Revision-Date: 2010-10-07 23:17+0200\n"
 "Last-Translator: Frederic <fwenzel@mozilla.com>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -262,6 +262,8 @@ msgstr "Korrespondenz auf Twitter von der Web-Entwicklergemeinde"
 #: apps/landing/templates/landing/home.html:23
 msgid "Customize your profile & fine-tune your participation within MDN."
 msgstr ""
+"Passen Sie Ihr Profil an und stellen Sie genau ein, wie Sie an MDN "
+"teilnehmen möchten."
 
 #. DEVMO is the nickname for MDN.
 #: apps/landing/templates/landing/home.html:13
