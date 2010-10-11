@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2010-10-07 23:17+0200\n"
+"PO-Revision-Date: 2010-10-11 16:15+0200\n"
 "Last-Translator: Frederic <fwenzel@mozilla.com>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -98,19 +98,19 @@ msgstr "Add-ons"
 
 #: apps/docs/templates/docs/docs.html:91
 msgid "Add-ons Builder"
-msgstr "Add-on-Fabrik"
+msgstr "Add-on-Builder"
 
 #: apps/landing/templates/landing/addons.html:39
 msgid "Add-ons Builder SDK Docs"
-msgstr "Add-on-Fabrik SDK Dokumentation"
+msgstr "Add-on-Builder SDK Dokumentation"
 
 #: apps/landing/templates/landing/addons.html:70
 msgid "Add-ons Builder [Preview]"
-msgstr "Add-on-Fabrik [Vorschau]"
+msgstr "Add-on-Builder [Vorschau]"
 
 #: apps/landing/templates/landing/home.html:37 apps/landing/templates/landing/home.html:88
 msgid "Addons Builder Preview"
-msgstr "Add-on-Fabrik Vorschau"
+msgstr "Add-on-Builder Vorschau"
 
 #: apps/landing/templates/landing/addons.html:81
 msgid "All add-on development tools"
@@ -751,15 +751,20 @@ msgstr "Twitter"
 
 #: apps/landing/templates/landing/addons.html:71
 msgid "Use Add-ons Builder to quickly and easily develop an extension for Firefox using common web technologies."
-msgstr "Verwenden Sie die Add-on-Fabrik, um einfach und schnell eine Erweiterung für Firefox zu entwickeln, die auf üblichen Web-Technologien basiert."
+msgstr ""
+"Verwenden Sie den Add-on-Builder, um einfach und schnell eine Erweiterung "
+"für Firefox zu entwickeln, die auf üblichen Web-Technologien basiert."
 
 #: apps/landing/templates/landing/home.html:90
 msgid ""
 "Use Add-ons Builder to quickly and easily develop an extension for Firefox using common web technologies. There is a <a href=\"%(tutorial)s\">tutorial</a> to get you started and a <a href=\"%(api)s"
 "\">variety of APIs in the core library</a> to add functionality to Firefox."
 msgstr ""
-"Verwenden Sie die Add-on-Fabrik, um einfach und schnell eine Erweiterung für Firefox zu entwickeln, die auf üblichen Web-Technologien basiert. Es gibt ein <a href=\"%(tutorial)s\">Tutorial</a>, um "
-"den Einstieg zu vereinfachen, und eine <a href=\"%(api)s\">Meine APIs in der Kern-Library</a>, um Funktionen zu Firefox hinzuzufügen."
+"Verwenden Sie den Add-on-Builder, um einfach und schnell eine Erweiterung "
+"für Firefox zu entwickeln, die auf üblichen Web-Technologien basiert. Es "
+"gibt ein <a href=\"%(tutorial)s\">Tutorial</a>, um den Einstieg zu "
+"vereinfachen, und eine <a href=\"%(api)s\">Menge APIs in der Standard-"
+"Bibliothek</a>, um Funktionen zu Firefox hinzuzufügen."
 
 #: apps/docs/templates/docs/docs.html:100 apps/landing/templates/landing/apps.html:57
 msgid "Using Mozilla code in other projects"
