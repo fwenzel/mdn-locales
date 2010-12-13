@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2010-12-09 17:56+0200\n"
+"PO-Revision-Date: 2010-12-13 09:48+0200\n"
 "Last-Translator: Ernest <dwchiang@mail.moztw.org>\n"
 "Language-Team: none\n"
 "Language: zh_TW\n"
@@ -55,7 +55,7 @@ msgstr ""
 
 #: templates/base.html:42
 msgid "A comprehensive, usable, and accurate resource for everyone developing for the Open Web."
-msgstr ""
+msgstr "提供大眾開發 Open Web 時所需之全面的、有用的且準確的資源。"
 
 #: apps/landing/templates/landing/web.html:48
 msgid "A great resource for anyone working with JS."
@@ -164,7 +164,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/mobile.html:164
 msgid "Android APIs"
-msgstr ""
+msgstr "Android API"
 
 #: apps/landing/templates/landing/web.html:83
 msgid "Another great Firefox/Firebug Add-on that helps you view and manage cookies in your browser."
@@ -187,12 +187,14 @@ msgid "Be Heard."
 msgstr ""
 
 #: templates/includes/login.html:3
+#, fuzzy
 msgid "Become an MDN member"
-msgstr ""
+msgstr "成為 MDN 的一份子"
 
 #: apps/landing/templates/landing/mozilla.html:98
+#, fuzzy
 msgid "Bugzilla"
-msgstr ""
+msgstr "Bugzilla"
 
 #: apps/landing/templates/landing/addons.html:78
 msgid "Build Add-on in 5 Minutes"
@@ -203,8 +205,9 @@ msgid "Build Great Mobile Add-ons"
 msgstr ""
 
 #: apps/docs/templates/docs/docs.html:44 apps/docs/templates/docs/glossary.html:5 apps/landing/templates/landing/web.html:51
+#, fuzzy
 msgid "CSS"
-msgstr ""
+msgstr "CSS"
 
 #: apps/docs/templates/docs/glossary.html:21
 msgid "CSS Gradients"
@@ -219,8 +222,9 @@ msgid "CSS Transforms"
 msgstr ""
 
 #: apps/docs/templates/docs/glossary.html:10
+#, fuzzy
 msgid "Canvas"
-msgstr ""
+msgstr "Canvas"
 
 #: apps/docs/templates/docs/docs.html:45
 msgid "Cascading Style Sheets provide advanced layout and formatting of web content."
@@ -232,7 +236,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/addons.html:60
 msgid "Case Studies"
-msgstr ""
+msgstr "案例研究"
 
 #: apps/landing/templates/landing/addons.html:105
 msgid "Check your add-on for common problems and errors. Open to anyone, not just add-ons hosted here."
@@ -303,15 +307,15 @@ msgstr ""
 
 #: apps/landing/templates/landing/web.html:16
 msgid "Develop for an open and participatory Web."
-msgstr ""
+msgstr "為了一個開放與鼓勵參與的 Web 而開發。"
 
 #: apps/landing/templates/landing/home.html:211
 msgid "Developing Add-ons"
-msgstr ""
+msgstr "開發附加元件"
 
 #: apps/landing/templates/landing/home.html:218
 msgid "Developing add-ons and content for Firefox mobile."
-msgstr ""
+msgstr "開發給 Firefox 行動版使用的附加元件與內容。"
 
 #: apps/landing/templates/landing/home.html:217
 msgid "Developing for Mobile"
@@ -332,7 +336,7 @@ msgstr ""
 #. Label used before a list of links to download the video
 #: templates/includes/video_player.html:5
 msgid "Download Formats:"
-msgstr ""
+msgstr "下載格式："
 
 #: apps/docs/templates/docs/glossary.html:19
 msgid "Drag and Drop"
@@ -437,13 +441,15 @@ msgid "Go"
 msgstr ""
 
 #: apps/docs/templates/docs/docs.html:32 apps/docs/templates/docs/glossary.html:4 apps/landing/templates/landing/home.html:193
+#, fuzzy
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: apps/docs/templates/docs/docs.html:36 apps/docs/templates/docs/glossary.html:7 apps/landing/templates/landing/home.html:47 apps/landing/templates/landing/home.html:86
 #: apps/landing/templates/landing/web.html:43
+#, fuzzy
 msgid "HTML5"
-msgstr ""
+msgstr "HTML5"
 
 #: apps/landing/templates/landing/web.html:39
 msgid "Hacks Demos"
@@ -455,7 +461,7 @@ msgstr ""
 
 #: templates/base.html:99
 msgid "Help"
-msgstr ""
+msgstr "說明"
 
 #: apps/landing/templates/landing/mobile.html:73
 msgid "Help build Firefox for Mobile"
@@ -570,11 +576,11 @@ msgstr ""
 
 #: apps/landing/templates/landing/home.html:24 templates/includes/login.html:2
 msgid "Log in"
-msgstr ""
+msgstr "登入"
 
 #: templates/includes/login.html:6
 msgid "Log out"
-msgstr ""
+msgstr "登出"
 
 #: apps/landing/templates/sidebar/twitter.html:3
 msgid "MDN on Twitter"
