@@ -244,9 +244,7 @@ msgstr "Schließen"
 
 #: apps/landing/templates/landing/addons.html:57
 msgid "Complete documentation for developing extensions for Mozilla applications."
-msgstr ""
-"Vollständige Dokumentation für die Add-on Entwicklung auf Mozilla-"
-"Anwendungen"
+msgstr "Vollständige Dokumentation für die Add-on Entwicklung auf Mozilla-Anwendungen"
 
 #: templates/base.html:95
 msgid "Content is available under <a href=\"%(copyright_url)s\">these licenses</a>"
@@ -274,8 +272,7 @@ msgstr "Sind Sie der große Gewinner?"
 
 #: apps/landing/templates/landing/home.html:212
 msgid "Creating extensions, themes, and plug-ins for Firefox and Thunderbird."
-msgstr ""
-"Erweiterungen, Themes und Plugins für Firefox und Thunderbird erstellen."
+msgstr "Erweiterungen, Themes und Plugins für Firefox und Thunderbird erstellen."
 
 #: apps/landing/templates/landing/home.html:23
 msgid "Customize your profile & fine-tune your participation within MDN."
@@ -303,10 +300,8 @@ msgid ""
 "Develop an awesome add-on for Firefox mobile for your chance to win a trip to Barcelona, cash, prizes and tons of priceless exposure! <a href=\"%(cup_enter)s\">Enter now</a> until <strong>January "
 "7, 2011</strong>. Good luck!"
 msgstr ""
-"Entwickeln Sie ein tolles Add-on für Firefox Mobile und gewinnen Sie eine "
-"Reise nach Barcelona, Bargeld, weitere Preise und jede Menge unbezahlbare "
-"Aufmerksamkeit! <a href=\"%(cup_enter)s\">Nehmen Sie jetzt teil</a> (bis "
-"<strong>7. Januar 2011</strong>). Viel Glück!"
+"Entwickeln Sie ein tolles Add-on für Firefox Mobile und gewinnen Sie eine Reise nach Barcelona, Bargeld, weitere Preise und jede Menge unbezahlbare Aufmerksamkeit! <a href=\"%(cup_enter)s\">Nehmen "
+"Sie jetzt teil</a> (bis <strong>7. Januar 2011</strong>). Viel Glück!"
 
 #: apps/landing/templates/landing/web.html:16
 msgid "Develop for an open and participatory Web."
@@ -782,17 +777,11 @@ msgstr "Sicherheit"
 
 #: apps/landing/templates/landing/mobile.html:104
 msgid "See Ragavan demo Firefox Sync on his Android phone. Learn about purpose and goals behind the development of Firefox Sync."
-msgstr ""
-"Ragavan zeigt Ihnen Firefox Sync auf seinem Android-Telefon. Lernen Sie "
-"welchen Zweck und welche Ziele hinter der Entwicklung von Firefox Sync "
-"stecken."
+msgstr "Ragavan zeigt Ihnen Firefox Sync auf seinem Android-Telefon. Lernen Sie welchen Zweck und welche Ziele hinter der Entwicklung von Firefox Sync stecken."
 
 #: apps/landing/templates/landing/mobile.html:120
 msgid "See Stuart demo HTML5 capabilities on pre-alpha Fennec. Learn about the purpose and goals behind the development of Firefox 4 for mobile."
-msgstr ""
-"Stuart zeigt Ihnen die HTML5-Funktionen von einer frühen Testversion von "
-"Fennec. Lernen Sie, welcher Zweck und welche Ziele hinter der Entwicklung "
-"von Firefox 4 für Mobiltelefone steckt."
+msgstr "Stuart zeigt Ihnen die HTML5-Funktionen von einer frühen Testversion von Fennec. Lernen Sie, welcher Zweck und welche Ziele hinter der Entwicklung von Firefox 4 für Mobiltelefone steckt."
 
 #: apps/landing/templates/landing/home.html:165
 msgid "See how you can <a href=\"%(devmo_participate)s\">participate</a> in <a href=\"%(devmo_l10n)s\">localization</a>, <a href=\"%(devmo_qa)s\">quality assurance</a>, and other Mozilla projects."
@@ -802,9 +791,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/home.html:186
 msgid "See what's new for web developers in the latest version of Firefox"
-msgstr ""
-"Lernen Sie, was sich in der neuesten Version von Firefox für Web-Entwickler "
-"geändert hat."
+msgstr "Lernen Sie, was sich in der neuesten Version von Firefox für Web-Entwickler geändert hat."
 
 #: apps/landing/templates/landing/addons.html:61
 msgid "Start-to-finish success stories. See how add-on developers made magic with Mozilla."
@@ -824,10 +811,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/web.html:56
 msgid "The DOM is the architecture for Web documents; learn how to use the DOM and its API to look at and manipulate Web content."
-msgstr ""
-"Das DOM ist die Architektur von Web-Dokumenten. Lernen Sie, wie Sie das DOM "
-"und seine API verwenden können, um Web-Inhalte zu analysieren und "
-"modifizieren."
+msgstr "Das DOM ist die Architektur von Web-Dokumenten. Lernen Sie, wie Sie das DOM und seine API verwenden können, um Web-Inhalte zu analysieren und modifizieren."
 
 #: apps/landing/templates/landing/home.html:206
 msgid "The Document Object Model describes the layout and content of web pages."
@@ -883,12 +867,8 @@ msgid ""
 "This video requires a browser with support for open video: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 or greater</li> <li><a href=\"http://www.apple.com/safari/\">Safari</"
 "a> 3.1 or greater</li> </ul> or the <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Alternatively, you may use the video download links provided."
 msgstr ""
-"Dieses Video benötigt einen Browser, der Open Video anzeigen kann: "
-"<ul><li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 oder "
-"neuer</li><li><a href=\"http://www.apple.com/safari/\">Safari</a> 3.1 oder "
-"neuer</li></ul> oder den <a "
-"href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. "
-"Alternativ können Sie auch die Videodatei direkt herunterladen."
+"Dieses Video benötigt einen Browser, der Open Video anzeigen kann: <ul><li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 oder neuer</li><li><a href=\"http://www.apple.com/safari/"
+"\">Safari</a> 3.1 oder neuer</li></ul> oder den <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Alternativ können Sie auch die Videodatei direkt herunterladen."
 
 #: apps/landing/templates/landing/addons.html:18 apps/landing/templates/landing/mobile.html:18 apps/landing/templates/landing/mozilla.html:18 apps/landing/templates/landing/web.html:18
 msgid "Twitter"
@@ -932,9 +912,7 @@ msgstr "<span class=\"mobile\">Mobile</span> Videos ansehen"
 
 #: apps/landing/templates/landing/addons.html:81
 msgid "Watch Myk Melez create an Add-on in 5 minutes using the new Add-on Builder!"
-msgstr ""
-"Sehen Sie Myk Melez dabei zu, wie er in nur 5 Minuten ein Add-on im Add-on "
-"Builder erstellt!"
+msgstr "Sehen Sie Myk Melez dabei zu, wie er in nur 5 Minuten ein Add-on im Add-on Builder erstellt!"
 
 #: apps/landing/templates/landing/addons.html:75 apps/landing/templates/landing/mobile.html:95 apps/landing/templates/landing/mobile.html:111
 msgid "Watch this video"
@@ -1057,55 +1035,3 @@ msgstr "vor {timedelta}"
 
 #~ msgid "Welcome to the Apps Developer Community:"
 #~ msgstr "Willkommen zur Anwendungs-Entwicklergemeinschaft:"
-
-#: apps/devmo/__init__.py:12
-#: apps/docs/templates/docs/docs.html:71
-#: apps/docs/templates/docs/docs.html:97
-#: apps/landing/templates/landing/apps.html:7
-#: apps/landing/templates/landing/home.html:134
-#: templates/base.html:64
-msgid "Applications"
-msgstr "Anwendungen"
-
-#: apps/landing/templates/landing/apps.html:13
-msgid "Apps"
-msgstr "Anwendungen"
-
-#: templates/base.html:69
-msgid "Community"
-msgstr "Gemeinschaft"
-
-#: apps/landing/templates/landing/home.html:156
-msgid "Correspondence on Twitter from around the Mozilla Developer Network."
-msgstr "Korrespondenz auf Twitter von und über Mozilla"
-
-#: apps/landing/templates/landing/apps.html:124
-msgid "Correspondence on Twitter from the Applications developer community."
-msgstr "Korrespondenz auf Twitter von der Anwendungs-Entwicklergemeinde"
-
-#. Please escape HTML entities here, like &amp;
-#: apps/landing/templates/landing/apps.html:94
-msgid "Favorite <span class=\"apps\">Applications</span> Tools"
-msgstr "Beliebte <span class=\"apps\">Anwendungs</span>-Werkzeuge"
-
-#: apps/landing/templates/landing/home.html:104
-msgid "Highlights From Around the Network"
-msgstr "Ausgewählte Nachrichten aus dem Netzwerk"
-
-#: apps/landing/templates/landing/apps.html:20
-msgid "Join the Apps discussions!"
-msgstr "Diskutieren Sie mit über Anwendungen!"
-
-#. Please escape HTML entities here, like &amp;
-#: apps/landing/templates/landing/apps.html:34
-msgid "Popular <span class=\"apps\">Applications</span> Documentation"
-msgstr "Beliebte <span class=\"apps\">Anwendungs</span>-Dokumentation"
-
-#. Please escape HTML entities here, like &amp;
-#: apps/landing/templates/landing/apps.html:112
-msgid "Recent <span class=\"apps\">Applications</span> News &amp; Updates"
-msgstr "Neuigkeiten und Updates zu <span class=\"apps\">Anwendungen</span>"
-
-#: apps/landing/templates/landing/apps.html:12
-msgid "Welcome to the Apps Developer Community:"
-msgstr "Willkommen zur Anwendungs-Entwicklergemeinschaft:"
