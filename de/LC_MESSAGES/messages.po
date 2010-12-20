@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2010-10-11 16:15+0200\n"
+"PO-Revision-Date: 2010-12-20 19:33+0200\n"
 "Last-Translator: Frederic <fwenzel@mozilla.com>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.3\n"
+"X-Generator: Pootle 2.1.4\n"
 
 #: apps/landing/templates/landing/mobile.html:154
 msgid ""
@@ -184,7 +184,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/home.html:231
 msgid "Be Heard."
-msgstr ""
+msgstr "Sprechen Sie es an."
 
 #: templates/includes/login.html:3
 msgid "Become an MDN member"
@@ -196,7 +196,7 @@ msgstr "Bugzilla"
 
 #: apps/landing/templates/landing/addons.html:78
 msgid "Build Add-on in 5 Minutes"
-msgstr ""
+msgstr "Ein Add-on in nur 5 Minuten erstellen"
 
 #: apps/landing/templates/landing/mobile.html:49
 msgid "Build Great Mobile Add-ons"
@@ -212,7 +212,7 @@ msgstr "Farbverläufe in CSS"
 
 #: apps/landing/templates/landing/home.html:197
 msgid "CSS Reference"
-msgstr ""
+msgstr "CSS-Referenz"
 
 #: apps/docs/templates/docs/glossary.html:20
 msgid "CSS Transforms"
@@ -228,7 +228,7 @@ msgstr "Cascading Style Sheets erlauben Ihnen, Layout und Format von Webinhalten
 
 #: apps/landing/templates/landing/home.html:198
 msgid "Cascading Style Sheets."
-msgstr ""
+msgstr "Cascading Style Sheets."
 
 #: apps/landing/templates/landing/addons.html:60
 msgid "Case Studies"
@@ -240,11 +240,13 @@ msgstr "Überprüfen Sie Ihr Add-on auf häufige Probleme und Fehler. Verfügbar
 
 #: templates/includes/video_player.html:3
 msgid "Close"
-msgstr ""
+msgstr "Schließen"
 
 #: apps/landing/templates/landing/addons.html:57
 msgid "Complete documentation for developing extensions for Mozilla applications."
 msgstr ""
+"Vollständige Dokumentation für die Add-on Entwicklung auf Mozilla-"
+"Anwendungen"
 
 #: templates/base.html:95
 msgid "Content is available under <a href=\"%(copyright_url)s\">these licenses</a>"
@@ -259,7 +261,6 @@ msgid "Correspondence on Twitter from the Mobile developer community."
 msgstr "Korrespondenz auf Twitter von der Mobile-Entwicklergemeinde"
 
 #: apps/landing/templates/landing/mozilla.html:124
-#, fuzzy
 msgid "Correspondence on Twitter from the Mozilla developer community."
 msgstr "Korrespondenz auf Twitter von der Mobile-Entwicklergemeinde"
 
@@ -269,11 +270,12 @@ msgstr "Korrespondenz auf Twitter von der Web-Entwicklergemeinde"
 
 #: apps/landing/templates/landing/home.html:55
 msgid "Could you be the big winner?"
-msgstr ""
+msgstr "Sind Sie der große Gewinner?"
 
 #: apps/landing/templates/landing/home.html:212
 msgid "Creating extensions, themes, and plug-ins for Firefox and Thunderbird."
 msgstr ""
+"Erweiterungen, Themes und Plugins für Firefox und Thunderbird erstellen."
 
 #: apps/landing/templates/landing/home.html:23
 msgid "Customize your profile & fine-tune your participation within MDN."
@@ -301,6 +303,10 @@ msgid ""
 "Develop an awesome add-on for Firefox mobile for your chance to win a trip to Barcelona, cash, prizes and tons of priceless exposure! <a href=\"%(cup_enter)s\">Enter now</a> until <strong>January "
 "7, 2011</strong>. Good luck!"
 msgstr ""
+"Entwickeln Sie ein tolles Add-on für Firefox Mobile und gewinnen Sie eine "
+"Reise nach Barcelona, Bargeld, weitere Preise und jede Menge unbezahlbare "
+"Aufmerksamkeit! <a href=\"%(cup_enter)s\">Nehmen Sie jetzt teil</a> (bis "
+"<strong>7. Januar 2011</strong>). Viel Glück!"
 
 #: apps/landing/templates/landing/web.html:16
 msgid "Develop for an open and participatory Web."
@@ -308,20 +314,19 @@ msgstr "Entwickeln Sie für ein offenes und Web, an dem alle teilhaben können."
 
 #: apps/landing/templates/landing/home.html:211
 msgid "Developing Add-ons"
-msgstr ""
+msgstr "Add-ons entwickeln"
 
 #: apps/landing/templates/landing/home.html:218
 msgid "Developing add-ons and content for Firefox mobile."
-msgstr ""
+msgstr "Add-ons und Inhalte für Firefox Mobile entwickeln."
 
 #: apps/landing/templates/landing/home.html:217
-#, fuzzy
 msgid "Developing for Mobile"
-msgstr "Helfen Sie dabei, Firefox Mobile zu entwickeln"
+msgstr "Für Firefox Mobile entwickeln"
 
 #: apps/docs/templates/docs/docs.html:7 templates/base.html:68
 msgid "Doc Center"
-msgstr ""
+msgstr "Doku-Center"
 
 #: apps/docs/templates/docs/docs.html:124
 msgid "Doc Of The Day"
@@ -334,7 +339,7 @@ msgstr "Dokumentation"
 #. Label used before a list of links to download the video
 #: templates/includes/video_player.html:5
 msgid "Download Formats:"
-msgstr ""
+msgstr "Download-Formate:"
 
 #: apps/docs/templates/docs/glossary.html:19
 msgid "Drag and Drop"
@@ -346,7 +351,7 @@ msgstr "Bewerten Sie die Geschwindigkeit von Webseiten mit diesem Firefox/Firebu
 
 #: apps/landing/templates/landing/home.html:224
 msgid "Everything from filing bugs to fixing them."
-msgstr ""
+msgstr "Alles, vom anlegen von Bugs zu deren Auflösung."
 
 #: apps/docs/templates/docs/docs.html:89 apps/landing/templates/landing/addons.html:56
 msgid "Extensions"
@@ -364,9 +369,8 @@ msgstr "Beliebte <span class=\"mobile\">Mobile</span>-Werkzeuge"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:94
-#, fuzzy
 msgid "Favorite <span class=\"moz\">Mozilla</span> Tools"
-msgstr "Beliebte <span class=\"addons\">Add-on</span>-Werkzeuge"
+msgstr "Beliebte <span class=\"addons\">Mozilla</span>-Werkzeuge"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:65
@@ -375,7 +379,7 @@ msgstr "Beliebte <span class=\"web\">Web</span>-Entwicklerwerkzeuge"
 
 #: apps/landing/templates/landing/mobile.html:115
 msgid "Fennec"
-msgstr ""
+msgstr "Fennec"
 
 #: apps/docs/templates/docs/glossary.html:18
 msgid "Files"
@@ -398,9 +402,8 @@ msgid "Firefox Mobile for developers"
 msgstr "Firefox Mobile für Entwickler"
 
 #: apps/landing/templates/landing/mobile.html:99
-#, fuzzy
 msgid "Firefox Sync"
-msgstr "Firefox 4 Beta"
+msgstr "Firefox Sync"
 
 #: apps/landing/templates/landing/mobile.html:136
 msgid "Firefox for mobile: What's coming next"
@@ -421,11 +424,11 @@ msgstr "Diese coolen Demos sind eine tolle Möglichkeit, neue Dokumentation übe
 
 #: templates/base.html:69
 msgid "Forums"
-msgstr ""
+msgstr "Diskussionsforen"
 
 #: apps/landing/templates/landing/home.html:234
 msgid "Get Started Today!"
-msgstr ""
+msgstr "Fangen Sie noch heute an!"
 
 #: apps/landing/templates/landing/addons.html:49
 msgid "Get add-on development guidance in a top-notch collection of tutorials, articles, and more."
@@ -441,7 +444,7 @@ msgstr "Bekommen Sie die letzten Neuigkeiten, Status, und Entwicklerdokumentatio
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
-msgstr ""
+msgstr "Los"
 
 #: apps/docs/templates/docs/docs.html:32 apps/docs/templates/docs/glossary.html:4 apps/landing/templates/landing/home.html:193
 msgid "HTML"
@@ -485,9 +488,8 @@ msgid "HyperText Markup Language, the core language of the web."
 msgstr "HyperText Markup Language, die Haupt-Sprache des Webs."
 
 #: apps/landing/templates/landing/home.html:194
-#, fuzzy
 msgid "Hypertext Markup Language, the core technology of the web."
-msgstr "HyperText Markup Language, die Haupt-Sprache des Webs."
+msgstr "Hypertext Markup Language, die Haupt-Technologie des Webs."
 
 #: apps/landing/templates/landing/addons.html:41
 msgid "If you are comfortable with a command line and prefer working locally, the Add-ons Builder SDK gives you a development environment on your own computer."
@@ -514,9 +516,8 @@ msgid "Join the Mobile discussions!"
 msgstr "Diskutieren Sie mit über Mobile!"
 
 #: apps/landing/templates/landing/mozilla.html:20
-#, fuzzy
 msgid "Join the Mozilla discussions!"
-msgstr "Diskutieren Sie mit über Mobile!"
+msgstr "Diskutieren Sie mit!"
 
 #: apps/landing/templates/landing/web.html:20
 msgid "Join the Web discussions!"
@@ -607,9 +608,8 @@ msgid "Mobile"
 msgstr "Mobile"
 
 #: apps/landing/templates/landing/home.html:45
-#, fuzzy
 msgid "Mobile Add-ons Cup"
-msgstr "Erstellen Sie großartige Mobile Add-ons"
+msgstr "Wettbewerb für mobile Add-ons"
 
 #: apps/landing/templates/landing/mobile.html:39
 msgid "Mobile Wiki"
@@ -630,9 +630,8 @@ msgstr "Die aktivsten Dokumente"
 
 #: apps/devmo/__init__.py:12 apps/docs/templates/docs/docs.html:71 apps/docs/templates/docs/docs.html:97 apps/landing/templates/landing/home.html:163 apps/landing/templates/landing/mozilla.html:7
 #: apps/landing/templates/landing/mozilla.html:13 templates/base.html:64
-#, fuzzy
 msgid "Mozilla"
-msgstr "Bugzilla"
+msgstr "Mozilla"
 
 #: apps/landing/templates/landing/mozilla.html:39
 msgid "Mozilla Developer Guide"
@@ -678,10 +677,9 @@ msgstr "Nichts gefunden"
 
 #: templates/includes/lang_switcher.html:2
 msgid "Other languages:"
-msgstr ""
+msgstr "Weitere Sprachen:"
 
 #: apps/landing/templates/landing/home.html:223
-#, fuzzy
 msgid "Participating in the Mozilla Project"
 msgstr "Am Mozilla-Projekt teilnehmen"
 
@@ -705,9 +703,8 @@ msgstr "Beliebte <span class=\"mobile\">Mobile</span>-Dokumentation"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:34
-#, fuzzy
 msgid "Popular <span class=\"moz\">Mozilla</span> Documentation"
-msgstr "Beliebte <span class=\"mobile\">Mobile</span>-Dokumentation"
+msgstr "Beliebte <span class=\"mobile\">Mozilla</span>-Dokumentation"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:34
@@ -716,7 +713,7 @@ msgstr "Beliebte <span class=\"web\">Web</span>-Dokumentation"
 
 #: apps/landing/templates/landing/home.html:190
 msgid "Popular Docs"
-msgstr ""
+msgstr "Beliebte Dokumente"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/docs/templates/docs/docs.html:28
@@ -725,7 +722,7 @@ msgstr "Beliebte Themen für <span class=\"web\">Web</span>-Entwickler"
 
 #: apps/landing/templates/landing/mobile.html:119
 msgid "Pre-Alpha Fennec and HTML5 Demos"
-msgstr ""
+msgstr "Pre-Alpha Fennec und HTML5-Demos"
 
 #: apps/docs/templates/docs/docs.html:102
 msgid "Quality Assurance"
@@ -743,9 +740,8 @@ msgstr "Neuigkeiten und Updates zu <span class=\"mobile\">Mobile</span>"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:112
-#, fuzzy
 msgid "Recent <span class=\"moz\">Mozilla</span> News &amp; Updates"
-msgstr "Neuigkeiten und Updates zu <span class=\"mobile\">Mobile</span>"
+msgstr "Neuigkeiten und Updates zu <span class=\"moz\">Mozilla</span>"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:92
@@ -765,9 +761,8 @@ msgid "Search"
 msgstr "Suchen"
 
 #: templates/base.html:51
-#, fuzzy
 msgid "Search MDN"
-msgstr "Suchen"
+msgstr "MDN durchsuchen"
 
 #: apps/docs/templates/docs/docs.html:17
 msgid "Search MDN Documentation"
@@ -788,10 +783,16 @@ msgstr "Sicherheit"
 #: apps/landing/templates/landing/mobile.html:104
 msgid "See Ragavan demo Firefox Sync on his Android phone. Learn about purpose and goals behind the development of Firefox Sync."
 msgstr ""
+"Ragavan zeigt Ihnen Firefox Sync auf seinem Android-Telefon. Lernen Sie "
+"welchen Zweck und welche Ziele hinter der Entwicklung von Firefox Sync "
+"stecken."
 
 #: apps/landing/templates/landing/mobile.html:120
 msgid "See Stuart demo HTML5 capabilities on pre-alpha Fennec. Learn about the purpose and goals behind the development of Firefox 4 for mobile."
 msgstr ""
+"Stuart zeigt Ihnen die HTML5-Funktionen von einer frühen Testversion von "
+"Fennec. Lernen Sie, welcher Zweck und welche Ziele hinter der Entwicklung "
+"von Firefox 4 für Mobiltelefone steckt."
 
 #: apps/landing/templates/landing/home.html:165
 msgid "See how you can <a href=\"%(devmo_participate)s\">participate</a> in <a href=\"%(devmo_l10n)s\">localization</a>, <a href=\"%(devmo_qa)s\">quality assurance</a>, and other Mozilla projects."
@@ -802,6 +803,8 @@ msgstr ""
 #: apps/landing/templates/landing/home.html:186
 msgid "See what's new for web developers in the latest version of Firefox"
 msgstr ""
+"Lernen Sie, was sich in der neuesten Version von Firefox für Web-Entwickler "
+"geändert hat."
 
 #: apps/landing/templates/landing/addons.html:61
 msgid "Start-to-finish success stories. See how add-on developers made magic with Mozilla."
@@ -822,9 +825,11 @@ msgstr ""
 #: apps/landing/templates/landing/web.html:56
 msgid "The DOM is the architecture for Web documents; learn how to use the DOM and its API to look at and manipulate Web content."
 msgstr ""
+"Das DOM ist die Architektur von Web-Dokumenten. Lernen Sie, wie Sie das DOM "
+"und seine API verwenden können, um Web-Inhalte zu analysieren und "
+"modifizieren."
 
 #: apps/landing/templates/landing/home.html:206
-#, fuzzy
 msgid "The Document Object Model describes the layout and content of web pages."
 msgstr "Das Document Object Model beschreibt die Struktur und den Inhalt von Webseiten."
 
@@ -878,6 +883,12 @@ msgid ""
 "This video requires a browser with support for open video: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 or greater</li> <li><a href=\"http://www.apple.com/safari/\">Safari</"
 "a> 3.1 or greater</li> </ul> or the <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Alternatively, you may use the video download links provided."
 msgstr ""
+"Dieses Video benötigt einen Browser, der Open Video anzeigen kann: "
+"<ul><li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 oder "
+"neuer</li><li><a href=\"http://www.apple.com/safari/\">Safari</a> 3.1 oder "
+"neuer</li></ul> oder den <a "
+"href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. "
+"Alternativ können Sie auch die Videodatei direkt herunterladen."
 
 #: apps/landing/templates/landing/addons.html:18 apps/landing/templates/landing/mobile.html:18 apps/landing/templates/landing/mozilla.html:18 apps/landing/templates/landing/web.html:18
 msgid "Twitter"
@@ -912,22 +923,22 @@ msgid "Want to help make our network even better?"
 msgstr "Möchten Sie helfen, unser Netzwerk noch besser zu machen?"
 
 #: apps/landing/templates/landing/addons.html:69
-#, fuzzy
 msgid "Watch <span class=\"addons\">Add-on</span> Videos"
-msgstr "Beliebte <span class=\"addons\">Add-on</span>-Werkzeuge"
+msgstr "<span class=\"addons\">Add-on</span> Videos ansehen"
 
 #: apps/landing/templates/landing/mobile.html:89
-#, fuzzy
 msgid "Watch <span class=\"mobile\">Mobile</span> Videos"
-msgstr "Beliebte <span class=\"mobile\">Mobile</span>-Werkzeuge"
+msgstr "<span class=\"mobile\">Mobile</span> Videos ansehen"
 
 #: apps/landing/templates/landing/addons.html:81
 msgid "Watch Myk Melez create an Add-on in 5 minutes using the new Add-on Builder!"
 msgstr ""
+"Sehen Sie Myk Melez dabei zu, wie er in nur 5 Minuten ein Add-on im Add-on "
+"Builder erstellt!"
 
 #: apps/landing/templates/landing/addons.html:75 apps/landing/templates/landing/mobile.html:95 apps/landing/templates/landing/mobile.html:111
 msgid "Watch this video"
-msgstr ""
+msgstr "Dieses Video ansehen"
 
 #: apps/devmo/__init__.py:24 apps/landing/templates/landing/web.html:7 apps/landing/templates/landing/web.html:13 templates/base.html:61
 msgid "Web"
@@ -958,7 +969,6 @@ msgid "Welcome to the Mobile Developer Community:"
 msgstr "Willkommen zur Mobile-Entwicklergemeinschaft:"
 
 #: apps/landing/templates/landing/mozilla.html:12
-#, fuzzy
 msgid "Welcome to the Mozilla Developer Community:"
 msgstr "Willkommen zur Mobile-Entwicklergemeinschaft:"
 
@@ -981,7 +991,7 @@ msgstr "Egal, ob Sie ein alter Hase sind oder gerade erst anfangen, dies ist der
 
 #: apps/landing/templates/landing/mobile.html:103
 msgid "Why Sync up, Security and More"
-msgstr ""
+msgstr "\"Warum Sync?\", Sicherheit und mehr."
 
 #: apps/landing/templates/landing/newsfeed.html:12
 msgid "Written by %(authorlink)s on %(entrydate)s"
@@ -1047,3 +1057,55 @@ msgstr "vor {timedelta}"
 
 #~ msgid "Welcome to the Apps Developer Community:"
 #~ msgstr "Willkommen zur Anwendungs-Entwicklergemeinschaft:"
+
+#: apps/devmo/__init__.py:12
+#: apps/docs/templates/docs/docs.html:71
+#: apps/docs/templates/docs/docs.html:97
+#: apps/landing/templates/landing/apps.html:7
+#: apps/landing/templates/landing/home.html:134
+#: templates/base.html:64
+msgid "Applications"
+msgstr "Anwendungen"
+
+#: apps/landing/templates/landing/apps.html:13
+msgid "Apps"
+msgstr "Anwendungen"
+
+#: templates/base.html:69
+msgid "Community"
+msgstr "Gemeinschaft"
+
+#: apps/landing/templates/landing/home.html:156
+msgid "Correspondence on Twitter from around the Mozilla Developer Network."
+msgstr "Korrespondenz auf Twitter von und über Mozilla"
+
+#: apps/landing/templates/landing/apps.html:124
+msgid "Correspondence on Twitter from the Applications developer community."
+msgstr "Korrespondenz auf Twitter von der Anwendungs-Entwicklergemeinde"
+
+#. Please escape HTML entities here, like &amp;
+#: apps/landing/templates/landing/apps.html:94
+msgid "Favorite <span class=\"apps\">Applications</span> Tools"
+msgstr "Beliebte <span class=\"apps\">Anwendungs</span>-Werkzeuge"
+
+#: apps/landing/templates/landing/home.html:104
+msgid "Highlights From Around the Network"
+msgstr "Ausgewählte Nachrichten aus dem Netzwerk"
+
+#: apps/landing/templates/landing/apps.html:20
+msgid "Join the Apps discussions!"
+msgstr "Diskutieren Sie mit über Anwendungen!"
+
+#. Please escape HTML entities here, like &amp;
+#: apps/landing/templates/landing/apps.html:34
+msgid "Popular <span class=\"apps\">Applications</span> Documentation"
+msgstr "Beliebte <span class=\"apps\">Anwendungs</span>-Dokumentation"
+
+#. Please escape HTML entities here, like &amp;
+#: apps/landing/templates/landing/apps.html:112
+msgid "Recent <span class=\"apps\">Applications</span> News &amp; Updates"
+msgstr "Neuigkeiten und Updates zu <span class=\"apps\">Anwendungen</span>"
+
+#: apps/landing/templates/landing/apps.html:12
+msgid "Welcome to the Apps Developer Community:"
+msgstr "Willkommen zur Anwendungs-Entwicklergemeinschaft:"
