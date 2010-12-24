@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2010-12-22 17:25+0200\n"
+"PO-Revision-Date: 2010-12-24 16:59+0200\n"
 "Last-Translator: Benoit <benoit.leseul@gmail.com>\n"
 "Language-Team: none\n"
 "Language: fr\n"
@@ -109,7 +109,7 @@ msgstr "Validateur de modules"
 #: apps/devmo/__init__.py:6 apps/docs/templates/docs/docs.html:70 apps/docs/templates/docs/docs.html:86 apps/landing/templates/landing/addons.html:7 apps/landing/templates/landing/addons.html:13
 #: apps/landing/templates/landing/home.html:154 templates/base.html:63
 msgid "Add-ons"
-msgstr "Modules complémentaires"
+msgstr "Modules"
 
 #: apps/docs/templates/docs/docs.html:91
 msgid "Add-ons Builder"
