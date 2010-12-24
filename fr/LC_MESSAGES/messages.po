@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2010-12-24 16:59+0200\n"
+"PO-Revision-Date: 2010-12-24 17:22+0200\n"
 "Last-Translator: Benoit <benoit.leseul@gmail.com>\n"
 "Language-Team: none\n"
 "Language: fr\n"
@@ -71,8 +71,8 @@ msgstr ""
 #: templates/base.html:42
 msgid "A comprehensive, usable, and accurate resource for everyone developing for the Open Web."
 msgstr ""
-"Une ressource complète, utilisable et correcte pour tous ceux qui "
-"développent pour le web ouvert."
+"Une ressource complète, utilisable et fiable pour tous ceux qui développent "
+"pour le web ouvert."
 
 #: apps/landing/templates/landing/web.html:48
 msgid "A great resource for anyone working with JS."
@@ -197,7 +197,7 @@ msgstr "Audio"
 msgid "Auto-generate add-on packaging by entering basic info and picking UI parts. Get working without setup."
 msgstr ""
 "Générez automatiquement les paquets de modules en saisissant les "
-"informations de base et et choisissant des éléments d'interface. Fonctionne "
+"informations de base et en choisissant des éléments d'interface. Fonctionne "
 "sans aucune préparation."
 
 #: apps/landing/templates/landing/home.html:231
@@ -447,9 +447,9 @@ msgid ""
 "helpful <a href=\"%(snippets_url)s\">Code Snippets</a>, and more so you can build innovative add-ons for Firefox on Android and Firefox on Nokia's Meego platform."
 msgstr ""
 "Firefox est le premier navigateur mobile à proposer des modules "
-"complémentaires . Découvrez les <a href=\"%(basics_url)s\">bases concernant "
-"les modules</a>, les <a href=\"%(best_practices_url)s\">meilleures pratiques "
-"pour les extensions</a> des <a href=\"%(snippets_url)s\">extraits de code</a> "
+"complémentaires. Découvrez les <a href=\"%(basics_url)s\">bases concernant les "
+"modules</a>, les <a href=\"%(best_practices_url)s\">meilleures pratiques pour "
+"les extensions</a> des <a href=\"%(snippets_url)s\">extraits de code</a> "
 "pratiques et d'autres choses qui vous aideront à créer des modules innovants "
 "pour Firefox sur les plateformes Android et Nokia Meego."
 
@@ -727,7 +727,7 @@ msgstr ""
 "Mozilla continue à montrer le chemin vers l'adoption d'HTML5 et d'autres "
 "technologies en évolution du web ouvert. Découvrez la <a href=\"%"
 "(devmo_html5)s\">spécification HTML5</a> et les dernières améliorations en "
-"HTML, CSS3 et d'autres <a href=\"%(devmo_html5)s\">fonctionnalités pour "
+"HTML5, CSS3 et d'autres <a href=\"%(devmo_fx4dev)s\">fonctionnalités pour "
 "développeurs dans Firefox 4</a>."
 
 #: apps/landing/templates/landing/mozilla.html:69
@@ -1084,7 +1084,7 @@ msgstr "Bienvenue dans la communauté des développeurs web :"
 #: templates/base.html:82
 msgid "What do you think of the new MDN? Please <a href=\"%(uservoice_url)s\">share your feedback</a> with us."
 msgstr ""
-"Que pensez-vous du nouveau MDN . Veuillez nous <a href=\"%"
+"Que pensez-vous du nouveau MDN ? Veuillez nous <a href=\"%"
 "(uservoice_url)s\">donner votre avis</a>."
 
 #: apps/landing/templates/landing/mozilla.html:41
