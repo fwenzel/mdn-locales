@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2010-12-24 15:30+0200\n"
+"PO-Revision-Date: 2011-01-01 21:18+0200\n"
 "Last-Translator: Ricardo <rpmdisguise-otros@yahoo.es>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -209,7 +209,7 @@ msgstr "Hazte oír."
 
 #: templates/includes/login.html:3
 msgid "Become an MDN member"
-msgstr "Conviértete en un miembro de MDN"
+msgstr "Hazte miembro de MDN"
 
 #: apps/landing/templates/landing/mozilla.html:98
 msgid "Bugzilla"
