@@ -1,57 +1,68 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2010-12-13 09:48+0200\n"
-"Last-Translator: Ernest <dwchiang@mail.moztw.org>\n"
+"PO-Revision-Date: 2011-01-21 20:10+0200\n"
+"Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: none\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.1.3\n"
+"X-Generator: Pootle 2.1.4\n"
 
 #: apps/landing/templates/landing/mobile.html:154
 msgid ""
 "\"'Hands down, the developer pool for HTML / JS rock stars is tenfold larger [and] there is no download attrition. You simply point people at a URL and there you go -- it's installed.' The fact "
 "that apps can be directly installed by URL rather than by waiting for an App Store download means that developers reduce barriers to virality.\""
 msgstr ""
+"\"'Hands down, the developer pool for HTML / JS rock stars is tenfold larger "
+"[and] there is no download attrition. You simply point people at a URL and "
+"there you go -- it's installed.' The fact that apps can be directly "
+"installed by URL rather than by waiting for an App Store download means that "
+"developers reduce barriers to virality.\""
 
 #: apps/landing/templates/landing/web.html:71
 msgid "\"An absolute necessity for anyone doing serious web development. Awesome!!!!\""
 msgstr ""
+"\"An absolute necessity for anyone doing serious web development. "
+"Awesome!!!!\""
 
 #: apps/docs/templates/docs/docs.html:53
 msgid "\"Asynchronous JavaScript and XML\" is a term that describes the use of all these technologies together to create powerful web applications."
 msgstr ""
+"\"Asynchronous JavaScript and XML\" is a term that describes the use of all "
+"these technologies together to create powerful web applications."
 
 #: apps/landing/templates/landing/mobile.html:146
 msgid "\"HTML5 is Great for Mobile, Developers Say\""
-msgstr ""
+msgstr "「開發者說，HTML5 非常適合行動版」"
 
 #: apps/landing/templates/sidebar/twitter.html:9
 msgid "%(author)s from %(section)s says:"
-msgstr ""
+msgstr "%(section)s 的 %(author)s 說:"
 
 #: apps/landing/templates/landing/discussions.html:6
 msgid "%(authorlink)s wrote %(summary)s"
-msgstr ""
+msgstr "%(authorlink)s 寫了 %(summary)s"
 
 #: apps/docs/views.py:33
 msgid "(multiple)"
-msgstr ""
+msgstr "（多重）"
 
 #: apps/landing/templates/landing/home.html:156
 msgid "<a href=\"%(builder_url)s\">Build your own add-ons</a> and discuss them with the <a href=\"%(dev_url)s\">add-on developer community</a>."
 msgstr ""
+"<a href=\"%(builder_url)s\">開發您的附加元件</a> 並與 <a href=\"%"
+"(dev_url)s\">附加元件開發者社群</a> 進行討論。"
 
 #: apps/landing/templates/landing/mozilla.html:103
 msgid "A Mozilla source tree browser."
-msgstr ""
+msgstr "Mozilla 的一個原始碼瀏覽器。"
 
 #: apps/docs/templates/docs/docs.html:60
 msgid "A comprehensive list of terms to help Web developers find the documentation they need."
-msgstr ""
+msgstr "一個全面性的詞彙清單以幫助網頁開發者找到他們所需的文件。"
 
 #: templates/base.html:42
 msgid "A comprehensive, usable, and accurate resource for everyone developing for the Open Web."
@@ -59,108 +70,104 @@ msgstr "提供大眾開發 Open Web 時所需之全面的、有用的且準確�
 
 #: apps/landing/templates/landing/web.html:48
 msgid "A great resource for anyone working with JS."
-msgstr ""
+msgstr "一個提供任何使用 JS 的人的資源。"
 
 #: apps/docs/templates/docs/docs.html:52 apps/docs/templates/docs/glossary.html:11
-#, fuzzy
 msgid "AJAX"
 msgstr "AJAX"
 
 #: apps/docs/templates/docs/docs.html:88
-#, fuzzy
 msgid "AMO Developer Hub"
 msgstr "AMO 開發者中心"
 
 #: apps/landing/templates/landing/addons.html:52
-#, fuzzy
 msgid "API & Language Reference"
 msgstr "API 與 程式語言參考資料"
 
 #: templates/base.html:98
-#, fuzzy
 msgid "About MDN"
 msgstr "關於 MDN"
 
 #: apps/landing/templates/landing/mobile.html:166
 msgid "Access Android APIs on this Android Developer page."
-msgstr ""
+msgstr "在這個 Android 開發者頁面存取 Android API。"
 
 #: apps/landing/templates/landing/addons.html:100
 msgid "Add-on Packager"
-msgstr ""
+msgstr "附加元件包裝器"
 
 #: apps/landing/templates/landing/addons.html:104
 msgid "Add-on Validator"
-msgstr ""
+msgstr "附加元件驗證器"
 
 #: apps/devmo/__init__.py:6 apps/docs/templates/docs/docs.html:70 apps/docs/templates/docs/docs.html:86 apps/landing/templates/landing/addons.html:7 apps/landing/templates/landing/addons.html:13
 #: apps/landing/templates/landing/home.html:154 templates/base.html:63
 msgid "Add-ons"
-msgstr ""
+msgstr "附加元件"
 
 #: apps/docs/templates/docs/docs.html:91
 msgid "Add-ons Builder"
-msgstr ""
+msgstr "附加元件開發工具"
 
 #: apps/landing/templates/landing/addons.html:39
 msgid "Add-ons Builder SDK Docs"
-msgstr ""
+msgstr "附加元件開發工具 SDK 文件"
 
 #: apps/landing/templates/landing/addons.html:96
 msgid "Add-ons Builder [Preview]"
-msgstr ""
+msgstr "附加元件開發工具 [預覽]"
 
 #: apps/landing/templates/landing/home.html:49 apps/landing/templates/landing/home.html:115
 msgid "Addons Builder Preview"
-msgstr ""
+msgstr "附加元件開發工具預覽"
 
 #: apps/landing/templates/landing/addons.html:107
 msgid "All add-on development tools"
-msgstr ""
+msgstr "所有的附加元件開發工具"
 
 #: apps/landing/templates/landing/addons.html:64
 msgid "All add-ons development documentation"
-msgstr ""
+msgstr "所有的附加元件開發文件"
 
 #: apps/landing/templates/landing/addons.html:119
 msgid "All add-ons development entries"
-msgstr ""
+msgstr "所有的附加元件開發項目"
 
 #: apps/landing/templates/landing/mozilla.html:117
 msgid "All application development entries"
-msgstr ""
+msgstr "所有的應用程式開發項目"
 
 #: apps/landing/templates/landing/mozilla.html:105
 msgid "All application development tools"
-msgstr ""
+msgstr "所有的應用程式開發工具"
 
 #: apps/landing/templates/landing/mozilla.html:88
 msgid "All applications development documentation"
-msgstr ""
+msgstr "所有的應用程式開發文件"
 
 #: apps/landing/templates/landing/mobile.html:84
 msgid "All mobile development documentation"
-msgstr ""
+msgstr "所有的行動開發文件"
 
 #: apps/landing/templates/landing/mobile.html:182
 msgid "All mobile development entries"
-msgstr ""
+msgstr "所有的行動開發項目"
 
 #: apps/landing/templates/landing/web.html:59
 msgid "All web development documentation"
-msgstr ""
+msgstr "所有的網頁開發文件"
 
 #: apps/landing/templates/landing/web.html:97
 msgid "All web development entries"
-msgstr ""
+msgstr "所有的網頁開發項目"
 
 #: apps/landing/templates/landing/web.html:85
 msgid "All web development tools"
-msgstr ""
+msgstr "所有的網頁開發工具"
 
 #: apps/landing/templates/landing/home.html:22
 msgid "Already a member?"
-msgstr ""
+msgstr "已經是會員了？"
 
 #: apps/landing/templates/landing/mobile.html:164
 msgid "Android APIs"
@@ -168,142 +175,140 @@ msgstr "Android API"
 
 #: apps/landing/templates/landing/web.html:83
 msgid "Another great Firefox/Firebug Add-on that helps you view and manage cookies in your browser."
-msgstr ""
+msgstr "另一個很棒的 Firefox/Firebug 附加元件可以幫助您檢視與管理瀏覽器的 Cookies。"
 
 #: apps/landing/templates/landing/addons.html:16 apps/landing/templates/landing/mozilla.html:16
 msgid "Are you ready to make browsing better?"
-msgstr ""
+msgstr "準備好創造更好的瀏覽體驗了嗎?"
 
 #: apps/docs/templates/docs/glossary.html:15
 msgid "Audio"
-msgstr ""
+msgstr "音訊"
 
 #: apps/landing/templates/landing/addons.html:101
 msgid "Auto-generate add-on packaging by entering basic info and picking UI parts. Get working without setup."
-msgstr ""
+msgstr "輸入基本資訊並選擇 UI 組件以自動產生打包好的附加元件。不用設定立即可用。"
 
 #: apps/landing/templates/landing/home.html:231
 msgid "Be Heard."
-msgstr ""
+msgstr "被聽見。"
 
 #: templates/includes/login.html:3
-#, fuzzy
 msgid "Become an MDN member"
 msgstr "成為 MDN 的一份子"
 
 #: apps/landing/templates/landing/mozilla.html:98
-#, fuzzy
 msgid "Bugzilla"
 msgstr "Bugzilla"
 
 #: apps/landing/templates/landing/addons.html:78
 msgid "Build Add-on in 5 Minutes"
-msgstr ""
+msgstr "在 5 分鐘之內建立附加元件"
 
 #: apps/landing/templates/landing/mobile.html:49
 msgid "Build Great Mobile Add-ons"
-msgstr ""
+msgstr "建立很棒的行動版附加元件"
 
 #: apps/docs/templates/docs/docs.html:44 apps/docs/templates/docs/glossary.html:5 apps/landing/templates/landing/web.html:51
-#, fuzzy
 msgid "CSS"
 msgstr "CSS"
 
 #: apps/docs/templates/docs/glossary.html:21
 msgid "CSS Gradients"
-msgstr ""
+msgstr "CSS 漸層"
 
 #: apps/landing/templates/landing/home.html:197
 msgid "CSS Reference"
-msgstr ""
+msgstr "CSS 參照"
 
 #: apps/docs/templates/docs/glossary.html:20
 msgid "CSS Transforms"
-msgstr ""
+msgstr "CSS 變形 (Transforms)"
 
 #: apps/docs/templates/docs/glossary.html:10
-#, fuzzy
 msgid "Canvas"
 msgstr "Canvas"
 
 #: apps/docs/templates/docs/docs.html:45
 msgid "Cascading Style Sheets provide advanced layout and formatting of web content."
-msgstr ""
+msgstr "CSS (Cascading Style Sheets) 提供更進階的版型呈現以及網頁內容格式。"
 
 #: apps/landing/templates/landing/home.html:198
 msgid "Cascading Style Sheets."
-msgstr ""
+msgstr "Cascading Style Sheets。"
 
 #: apps/landing/templates/landing/addons.html:60
 msgid "Case Studies"
-msgstr "案例研究"
+msgstr "個案研究"
 
 #: apps/landing/templates/landing/addons.html:105
 msgid "Check your add-on for common problems and errors. Open to anyone, not just add-ons hosted here."
-msgstr ""
+msgstr "檢查您的附加元件，看看有沒有常見的問題或錯誤。開放任何人使用，不只是這裡的附加元件。"
 
 #: templates/includes/video_player.html:3
 msgid "Close"
-msgstr ""
+msgstr "關閉"
 
 #: apps/landing/templates/landing/addons.html:57
 msgid "Complete documentation for developing extensions for Mozilla applications."
-msgstr ""
+msgstr "完成 Mozilla 應用程式擴充套件的開發文件。"
 
 #: templates/base.html:95
 msgid "Content is available under <a href=\"%(copyright_url)s\">these licenses</a>"
-msgstr ""
+msgstr "本站內容皆採用 <a href=\"%(copyright_url)s\">這些授權</a> 大眾使用"
 
 #: apps/landing/templates/landing/addons.html:126
 msgid "Correspondence on Twitter from the Add-ons developer community."
-msgstr ""
+msgstr "附加元件開發者社群在 Twitter 上的消息。"
 
 #: apps/landing/templates/landing/mobile.html:194
 msgid "Correspondence on Twitter from the Mobile developer community."
-msgstr ""
+msgstr "行動版網頁開發者社群在 Twitter 上的消息。"
 
 #: apps/landing/templates/landing/mozilla.html:124
 msgid "Correspondence on Twitter from the Mozilla developer community."
-msgstr ""
+msgstr "Mozilla 開發者社群在 Twitter 上的消息。"
 
 #: apps/landing/templates/landing/web.html:104
 msgid "Correspondence on Twitter from the Web developer community."
-msgstr ""
+msgstr "網頁開發者社群在 Twitter 上的消息。"
 
 #: apps/landing/templates/landing/home.html:55
 msgid "Could you be the big winner?"
-msgstr ""
+msgstr "您會是大贏家嗎？"
 
 #: apps/landing/templates/landing/home.html:212
 msgid "Creating extensions, themes, and plug-ins for Firefox and Thunderbird."
-msgstr ""
+msgstr "建立 Firefox 及 Thunderbird 的擴充套件、佈景主題，以及外掛程式。"
 
 #: apps/landing/templates/landing/home.html:23
 msgid "Customize your profile & fine-tune your participation within MDN."
-msgstr ""
+msgstr "在 MDN 內自訂您的設定檔並微調您的參與。"
 
 #. DEVMO is the nickname for MDN.
 #: apps/landing/templates/landing/home.html:13
 msgid "DEVMO"
-msgstr ""
+msgstr "DEVMO"
 
 #: apps/docs/templates/docs/docs.html:48 apps/docs/templates/docs/glossary.html:8 apps/landing/templates/landing/home.html:205 apps/landing/templates/landing/web.html:55
 msgid "DOM"
-msgstr ""
+msgstr "DOM"
 
 #: apps/landing/templates/landing/mozilla.html:67
 msgid "Debugging"
-msgstr ""
+msgstr "除錯"
 
 #: apps/docs/templates/docs/docs.html:81
 msgid "Detecting device orientation"
-msgstr ""
+msgstr "正在偵測裝置方向"
 
 #: apps/landing/templates/landing/home.html:57
 msgid ""
 "Develop an awesome add-on for Firefox mobile for your chance to win a trip to Barcelona, cash, prizes and tons of priceless exposure! <a href=\"%(cup_enter)s\">Enter now</a> until <strong>January "
 "7, 2011</strong>. Good luck!"
 msgstr ""
+"在 <strong>2011 年 1 月 7 日</strong>前開發出一套超棒的 Firefox "
+"行動版附加元件以贏得無數的曝光機會，還有獎品、現金，或是到巴賽隆納一遊！<a href=\"%(cup_enter)s\">立刻參加</a>。祝好運！"
 
 #: apps/landing/templates/landing/web.html:16
 msgid "Develop for an open and participatory Web."
@@ -319,19 +324,19 @@ msgstr "開發給 Firefox 行動版使用的附加元件與內容。"
 
 #: apps/landing/templates/landing/home.html:217
 msgid "Developing for Mobile"
-msgstr ""
+msgstr "開發行動版元件"
 
 #: apps/docs/templates/docs/docs.html:7 templates/base.html:68
 msgid "Doc Center"
-msgstr ""
+msgstr "文件中心"
 
 #: apps/docs/templates/docs/docs.html:124
 msgid "Doc Of The Day"
-msgstr ""
+msgstr "每日一文件"
 
 #: apps/landing/templates/landing/home.html:136
 msgid "Docs"
-msgstr ""
+msgstr "文件"
 
 #. Label used before a list of links to download the video
 #: templates/includes/video_player.html:5
@@ -340,124 +345,126 @@ msgstr "下載格式："
 
 #: apps/docs/templates/docs/glossary.html:19
 msgid "Drag and Drop"
-msgstr ""
+msgstr "拖曳 (Drag and Drop)"
 
 #: apps/landing/templates/landing/web.html:79
 msgid "Evaluate performance of web pages with this Firefox/Firebug Add-on"
-msgstr ""
+msgstr "使用此 Firefox/Firebug 附加元件以評估網頁效能"
 
 #: apps/landing/templates/landing/home.html:224
 msgid "Everything from filing bugs to fixing them."
-msgstr ""
+msgstr "回報 Bug 以修復它們。"
 
 #: apps/docs/templates/docs/docs.html:89 apps/landing/templates/landing/addons.html:56
 msgid "Extensions"
-msgstr ""
+msgstr "擴充套件"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/addons.html:92
 msgid "Favorite <span class=\"addons\">Add-on</span> Tools"
-msgstr ""
+msgstr "最愛的 <span class=\"addons\">附加元件</span> 工具"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mobile.html:132
 msgid "Favorite <span class=\"mobile\">Mobile</span> Articles"
-msgstr ""
+msgstr "最愛的 <span class=\"mobile\">行動版</span> 文章"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:94
 msgid "Favorite <span class=\"moz\">Mozilla</span> Tools"
-msgstr ""
+msgstr "最愛的 <span class=\"moz\">Mozilla</span> 工具"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:65
 msgid "Favorite <span class=\"web\">Web</span> Developer Tools"
-msgstr ""
+msgstr "最愛的 <span class=\"web\">網頁</span> 開發者工具"
 
 #: apps/landing/templates/landing/mobile.html:115
 msgid "Fennec"
-msgstr ""
+msgstr "Fennec"
 
 #: apps/docs/templates/docs/glossary.html:18
 msgid "Files"
-msgstr ""
+msgstr "檔案"
 
 #: apps/landing/templates/landing/web.html:44
 msgid "Find out what HTML5 is really all about and how you can develop for a better Web through open standards."
-msgstr ""
+msgstr "看看 HTML5 到底是什麼，以及您可以如何透過開放標準開發出一個更好的網頁。"
 
 #: apps/landing/templates/landing/home.html:48 apps/landing/templates/landing/home.html:100
 msgid "Firefox 4 Beta"
-msgstr ""
+msgstr "Firefox 4 Beta"
 
 #: apps/landing/templates/landing/web.html:75
 msgid "Firefox Add-on that adds a lot of great developer tools that are just a click away."
-msgstr ""
+msgstr "可以新增許多強大開發者工具的 Firefox 附加元件只差滑鼠一點"
 
 #: apps/docs/templates/docs/docs.html:80
 msgid "Firefox Mobile for developers"
-msgstr ""
+msgstr "開發者的 Firefox 行動版"
 
 #: apps/landing/templates/landing/mobile.html:99
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync"
 
 #: apps/landing/templates/landing/mobile.html:136
 msgid "Firefox for mobile: What's coming next"
-msgstr ""
+msgstr "Firefox 行動版。接下來會出現什麼"
 
 #: apps/landing/templates/landing/mobile.html:51
 msgid ""
 "Firefox is the world's first Web browser to support mobile add-ons. Learn about <a href=\"%(basics_url)s\">Extension Basics</a>, <a href=\"%(best_practices_url)s\">Extension Best Practices</a>, "
 "helpful <a href=\"%(snippets_url)s\">Code Snippets</a>, and more so you can build innovative add-ons for Firefox on Android and Firefox on Nokia's Meego platform."
 msgstr ""
+"Firefox 是全世界第一個支援行動附加元件的網頁瀏覽器。看看 <a href=\"%(basics_url)s\">擴充套件入門</a>、<a "
+"href=\"%(best_practices_url)s\">擴充套件最佳實作</a>，以及有用的 <a href=\"%"
+"(snippets_url)s\">程式碼範例</a>，還有更多可以讓您於 Android 和 Nokia 的 Meego 平台上建立創新的 "
+"Firefox 附加元件。"
 
 #: apps/landing/templates/landing/web.html:40
 msgid "For the latest in open Web technologies, these cool demos are a great way to discover new documentation."
-msgstr ""
+msgstr "對於最新的開放網頁技術，這些很酷的範例是一個可以幫助您探索新文件的方式。"
 
 #: templates/base.html:69
 msgid "Forums"
-msgstr ""
+msgstr "討論區"
 
 #: apps/landing/templates/landing/home.html:234
 msgid "Get Started Today!"
-msgstr ""
+msgstr "今天就開始！"
 
 #: apps/landing/templates/landing/addons.html:49
 msgid "Get add-on development guidance in a top-notch collection of tutorials, articles, and more."
-msgstr ""
+msgstr "從頂尖的教學文章當中取得附加元件開發指引。"
 
 #: apps/docs/templates/docs/docs.html:69
 msgid "Get involved in the %(mobile_link)s, %(addons_link)s, & %(apps_link)s Developer Communities:"
-msgstr ""
+msgstr "參與 %(mobile_link)s、%(addons_link)s，以及 %(apps_link)s 開發者社群:"
 
 #: apps/landing/templates/landing/mobile.html:41
 msgid "Get the latest news, status and developer documentation on the Mozilla mobile project. Check out the mobile project's goals, and how you can help out and get involved!"
-msgstr ""
+msgstr "取得 Mozilla 行動專案的最新消息、狀態，與開發者文件。看看行動專案的目標，以及您能參與並幫助什麼！"
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
-msgstr ""
+msgstr "衝"
 
 #: apps/docs/templates/docs/docs.html:32 apps/docs/templates/docs/glossary.html:4 apps/landing/templates/landing/home.html:193
-#, fuzzy
 msgid "HTML"
 msgstr "HTML"
 
 #: apps/docs/templates/docs/docs.html:36 apps/docs/templates/docs/glossary.html:7 apps/landing/templates/landing/home.html:47 apps/landing/templates/landing/home.html:86
 #: apps/landing/templates/landing/web.html:43
-#, fuzzy
 msgid "HTML5"
 msgstr "HTML5"
 
 #: apps/landing/templates/landing/web.html:39
 msgid "Hacks Demos"
-msgstr ""
+msgstr "Hacks Demos"
 
 #: apps/landing/templates/landing/mobile.html:148
 msgid "Hear from other developers about the advantages of HTML5 and developing for the mobile Web in this article from ReadWriteWeb:"
-msgstr ""
+msgstr "在這篇 ReadWriteWeb 的文章當中看看其他開發者提到關於 HTML5 的優點，以及行動網頁開發的開發:"
 
 #: templates/base.html:99
 msgid "Help"
@@ -465,114 +472,120 @@ msgstr "說明"
 
 #: apps/landing/templates/landing/mobile.html:73
 msgid "Help build Firefox for Mobile"
-msgstr ""
+msgstr "幫忙建立 Firefox 行動版"
 
 #: apps/landing/templates/landing/home.html:20
 msgid "Here's how to get started"
-msgstr ""
+msgstr "這裡是如何開始的方法"
 
 #: apps/landing/templates/landing/home.html:133
 msgid "Highlighted Mozilla Developer News & Updates"
-msgstr ""
+msgstr "反白的 Mozilla 開發者新聞與最新消息"
 
 #: apps/landing/templates/landing/addons.html:48
 msgid "How-to Library"
-msgstr ""
+msgstr "How-to Library"
 
 #: apps/docs/templates/docs/docs.html:33
 msgid "HyperText Markup Language, the core language of the web."
-msgstr ""
+msgstr "HyperText Markup Language，網頁的核心語言。"
 
 #: apps/landing/templates/landing/home.html:194
 msgid "Hypertext Markup Language, the core technology of the web."
-msgstr ""
+msgstr "Hypertext Markup Language，網頁的核心技術。"
 
 #: apps/landing/templates/landing/addons.html:41
 msgid "If you are comfortable with a command line and prefer working locally, the Add-ons Builder SDK gives you a development environment on your own computer."
-msgstr ""
+msgstr "如果您對於命令列模式很熟悉，並且比較喜歡在本地工作，那麼附加元件開發工具 SDK 可以提供您的電腦一個開發環境。"
 
 #: apps/docs/templates/docs/glossary.html:23
 msgid "IndexedDB"
-msgstr ""
+msgstr "IndexedDB"
 
 #: templates/500.html:3 templates/500.html:5
 msgid "Internal Server Error"
-msgstr ""
+msgstr "伺服器內部錯誤"
 
 #: apps/docs/templates/docs/docs.html:40 apps/docs/templates/docs/glossary.html:6 apps/landing/templates/landing/home.html:201 apps/landing/templates/landing/web.html:47
 msgid "JavaScript"
-msgstr ""
+msgstr "JavaScript"
 
 #: apps/landing/templates/landing/addons.html:20
 msgid "Join the Add-ons discussions!"
-msgstr ""
+msgstr "參與附加元件的討論！"
 
 #: apps/landing/templates/landing/mobile.html:20
 msgid "Join the Mobile discussions!"
-msgstr ""
+msgstr "參與行動版的討論！"
 
 #: apps/landing/templates/landing/mozilla.html:20
 msgid "Join the Mozilla discussions!"
-msgstr ""
+msgstr "參與 Mozilla 的討論！"
 
 #: apps/landing/templates/landing/web.html:20
 msgid "Join the Web discussions!"
-msgstr ""
+msgstr "參與網頁的討論！"
 
 #: apps/landing/templates/landing/home.html:138
 msgid "Key Topics for <a href=\"%(web_url)s\" class=\"web\">Web</a> Developers"
-msgstr ""
+msgstr "<a href=\"%(web_url)s\" class=\"web\">Web</a> 開發者的重點主題"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/docs/templates/docs/docs.html:59
 msgid "Key Topics for <span class=\"web\">Web</span> Developers"
-msgstr ""
+msgstr "<span class=\"web\">Web</span> 開發者的重點主題"
 
 #: apps/docs/templates/docs/docs.html:117
 msgid "Last edited by:"
-msgstr ""
+msgstr "最後編輯者:"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/addons.html:146
 msgid "Latest <span class=\"addons\">Add-ons</span> Comments from Our Community:"
-msgstr ""
+msgstr "我們的社群當中最新的 <span class=\"addons\">附加元件</span> 回應:"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/addons.html:138
 msgid "Latest <span class=\"addons\">Add-ons</span> Discussions from Our Forums:"
-msgstr ""
+msgstr "我們的社群當中最新的 <span class=\"addons\">附加元件</span> 討論:"
 
 #: apps/landing/templates/landing/mobile.html:65
 msgid ""
 "Learn how to use the <a href=\"%(geo_url)s\">Geolocation API</a> and put people on the right path. Location-Aware Browsing is a must when you're out and about on your mobile. Learn how to build "
 "innovative apps that delight your audience."
 msgstr ""
+"了解如何使用 <a href=\"%(geo_url)s\">地理位置資訊 API</a> "
+"並讓使用者不會走錯路。適地性瀏覽是您在外所不可不用的的技術。了解如何建立創新的應用程式以讓您的使用者有更佳的體驗。"
 
 #: apps/landing/templates/landing/home.html:148
 msgid "Learn more about <a href=\"%(devmo_mobile)s\">Fennec</a> and mobile-specific technologies like <a href=\"%(devmo_geo)s\">geolocation</a>.</p>"
 msgstr ""
+"了解更多關於 <a href=\"%(devmo_mobile)s\">Fennec</a> 與像是 <a href=\"%"
+"(devmo_geo)s\">地理位置資訊</a> 的行動技術。"
 
 #: apps/landing/templates/landing/mozilla.html:50
 msgid "Learn more about the technologies at the core of Mozilla products and services."
-msgstr ""
+msgstr "了解更多關於核心 Mozilla 產品與服務的技術。"
 
 #: apps/landing/templates/landing/home.html:16
 msgid "Learn the history behind Project <em>Devmo</em>"
-msgstr ""
+msgstr "了解 <em>Devmo</em> 專案的歷史"
 
 #: apps/docs/templates/docs/docs.html:101 apps/landing/templates/landing/mozilla.html:77
 msgid "Localization"
-msgstr ""
+msgstr "在地化"
 
 #: apps/landing/templates/landing/mozilla.html:79
 msgid ""
 "Localization (L10n) is the process of translating software user interfaces from one language to another and adapting it to suit a foreign culture. These resources are about making Mozilla-based "
 "applications/extensions localizable."
 msgstr ""
+"在地化（L10n）是將軟體使用者介面從一種語言翻譯到另一種語言，並讓其融入該語言文化當中的過程。這些資源將讓這些以 Mozilla "
+"為基礎的應用程式/擴充套件可在地化。"
 
 #: apps/landing/templates/landing/mobile.html:63
 msgid "Location-Aware Applications"
-msgstr ""
+msgstr "適地性應用程式"
 
 #: apps/landing/templates/landing/home.html:24 templates/includes/login.html:2
 msgid "Log in"
@@ -584,54 +597,54 @@ msgstr "登出"
 
 #: apps/landing/templates/sidebar/twitter.html:3
 msgid "MDN on Twitter"
-msgstr ""
+msgstr "Twitter 上的 MDN"
 
 #: apps/landing/templates/landing/mozilla.html:102
 msgid "MXR"
-msgstr ""
+msgstr "MXR"
 
 #: apps/docs/templates/docs/glossary.html:12
 msgid "Media Queries"
-msgstr ""
+msgstr "媒體選擇（Media Queries）"
 
 #: apps/devmo/__init__.py:18 apps/docs/templates/docs/docs.html:69 apps/docs/templates/docs/docs.html:78 apps/landing/templates/landing/home.html:146 apps/landing/templates/landing/mobile.html:7
 #: apps/landing/templates/landing/mobile.html:13 templates/base.html:62
 msgid "Mobile"
-msgstr ""
+msgstr "行動版"
 
 #: apps/landing/templates/landing/home.html:45
 msgid "Mobile Add-ons Cup"
-msgstr ""
+msgstr "行動附加元件杯"
 
 #: apps/landing/templates/landing/mobile.html:39
 msgid "Mobile Wiki"
-msgstr ""
+msgstr "行動版 Wiki"
 
 #: apps/docs/templates/docs/docs.html:129
 msgid "Modified by %(author)s on %(updated)s"
-msgstr ""
+msgstr "由 %(author)s 於 %(updated)s 修改"
 
 #: apps/landing/templates/landing/home.html:64 apps/landing/templates/landing/home.html:80 apps/landing/templates/landing/home.html:94 apps/landing/templates/landing/home.html:109
 #: apps/landing/templates/landing/home.html:124
 msgid "More"
-msgstr ""
+msgstr "更多"
 
 #: apps/docs/templates/docs/docs.html:112
 msgid "Most Active Docs"
-msgstr ""
+msgstr "最活躍的文件"
 
 #: apps/devmo/__init__.py:12 apps/docs/templates/docs/docs.html:71 apps/docs/templates/docs/docs.html:97 apps/landing/templates/landing/home.html:163 apps/landing/templates/landing/mozilla.html:7
 #: apps/landing/templates/landing/mozilla.html:13 templates/base.html:64
 msgid "Mozilla"
-msgstr ""
+msgstr "Mozilla"
 
 #: apps/landing/templates/landing/mozilla.html:39
 msgid "Mozilla Developer Guide"
-msgstr ""
+msgstr "Mozilla 開發者指南"
 
 #: templates/base.html:4
 msgid "Mozilla Developer Network"
-msgstr ""
+msgstr "Mozilla Developer Network"
 
 #: apps/landing/templates/landing/home.html:72
 msgid ""
@@ -639,213 +652,224 @@ msgid ""
 "accessible, 100%% free, and powered entirely by learners, mentors and contributors like you people. Our goal: a vibrant, peer-led system that helps people around the world easily access and build "
 "careers on open web technology."
 msgstr ""
+"Mozilla 與 <a href=\"%(p2pu)s\">P2PU</a> 正在建立 <a href=\"%"
+"(p2pu_drumbeat)s\">School of Webcraft</a>，一個新的有效網頁開發技術。在全世界都可以上課，且完全免費；並完整由學生"
+"、指導者，以及像您這樣的貢獻者所支援。我們的目標是建立一個充滿活力，由同儕所領導的系統，透過開放的網頁科技來幫助全世界的人簡單地使用並建立工作機會。"
 
 #: apps/landing/templates/landing/home.html:88
 msgid ""
 "Mozilla continues to lead the charge in the adoption of HTML5 and other evolving open Web technologies. Find out more about the <a href=\"%(devmo_html5)s\">HTML5 spec</a> and the latest "
 "enhancements in HTML5, CSS3 and other <a href=\"%(devmo_fx4dev)s\">developer features for Firefox 4</a>."
 msgstr ""
+"Mozilla 持續帶領採用 HTML5 以及其他進化中的開放網頁技術。看看更多關於 <a href=\"%(devmo_html5)s\">HTML5 "
+"的標準</a> 以及 HTML5、CSS3，以及 <a href=\"%(devmo_fx4dev)s\">Firefox 4</a> "
+"開發者工具的最新改進。"
 
 #: apps/landing/templates/landing/mozilla.html:69
 msgid "Mozilla developers have come up with not just technologies and features to help you debug code, but have devised tips and techniques that can help too."
-msgstr ""
+msgstr "Mozilla 開發者所想到的不只是幫助您除蟲的技術和功能，還有在設計上也可以幫助您的小點子和技術。"
 
 #: apps/landing/templates/landing/home.html:18
 msgid "New to MDN?"
-msgstr ""
+msgstr "剛來 MDN？"
 
 #: apps/landing/templates/landing/home.html:132
 msgid "News & Updates"
-msgstr ""
+msgstr "新聞與最新消息"
 
 #: templates/404.html:3 templates/404.html:5
 msgid "Not Found"
-msgstr ""
+msgstr "找不到網頁"
 
 #: templates/includes/lang_switcher.html:2
 msgid "Other languages:"
-msgstr ""
+msgstr "其他語言:"
 
 #: apps/landing/templates/landing/home.html:223
 msgid "Participating in the Mozilla Project"
-msgstr ""
+msgstr "參與 Mozilla 專案"
 
 #: apps/docs/templates/docs/docs.html:99
 msgid "Participating in the Mozilla project"
-msgstr ""
+msgstr "參與 Mozilla 專案"
 
 #: apps/docs/templates/docs/docs.html:90
 msgid "Plugins"
-msgstr ""
+msgstr "外掛程式"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/addons.html:34
 msgid "Popular <span class=\"addons\">Add-ons</span> Documentation"
-msgstr ""
+msgstr "熱門 <span class=\"addons\">附加元件</span> 文件"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mobile.html:34
 msgid "Popular <span class=\"mobile\">Mobile</span> Documentation"
-msgstr ""
+msgstr "熱門 <span class=\"mobile\">行動版</span> 文件"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:34
 msgid "Popular <span class=\"moz\">Mozilla</span> Documentation"
-msgstr ""
+msgstr "熱門 <span class=\"moz\">Mozilla</span> 文件"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:34
 msgid "Popular <span class=\"web\">Web</span> Documentation"
-msgstr ""
+msgstr "熱門 <span class=\"web\">網頁</span> 文件"
 
 #: apps/landing/templates/landing/home.html:190
 msgid "Popular Docs"
-msgstr ""
+msgstr "熱門文件"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/docs/templates/docs/docs.html:28
 msgid "Popular Topics for <span class=\"web\">Web</span> Developers"
-msgstr ""
+msgstr "<span class=\"web\">網頁</span> 開發者的熱門主題"
 
 #: apps/landing/templates/landing/mobile.html:119
 msgid "Pre-Alpha Fennec and HTML5 Demos"
-msgstr ""
+msgstr "Pre-Alpha 版本的 Fennec 以及 HTML5 示範"
 
 #: apps/docs/templates/docs/docs.html:102
 msgid "Quality Assurance"
-msgstr ""
+msgstr "品質保證 (QA)"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/addons.html:114
 msgid "Recent <span class=\"addons\">Add-ons</span> News &amp; Updates"
-msgstr ""
+msgstr "最近的 <span class=\"addons\">附加元件</span> 新聞與更新"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mobile.html:177
 msgid "Recent <span class=\"mobile\">Mobile</span> News &amp; Updates"
-msgstr ""
+msgstr "最近的 <span class=\"mobile\">行動版</span> 新聞與更新"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:112
 msgid "Recent <span class=\"moz\">Mozilla</span> News &amp; Updates"
-msgstr ""
+msgstr "最近的 <span class=\"moz\">Mozilla</span> 新聞與更新"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:92
 msgid "Recent <span class=\"web\">Web</span> News &amp; Updates"
-msgstr ""
+msgstr "最近的 <span class=\"web\">網頁</span> 新聞與更新"
 
 #: apps/docs/templates/docs/glossary.html:9
 msgid "SVG"
-msgstr ""
+msgstr "SVG"
 
 #: apps/landing/templates/landing/home.html:46 apps/landing/templates/landing/home.html:70
 msgid "School of Webcraft"
-msgstr ""
+msgstr "School of Webcraft"
 
 #: apps/docs/templates/docs/docs.html:18 templates/base.html:52
 msgid "Search"
-msgstr ""
+msgstr "搜尋"
 
 #: templates/base.html:51
 msgid "Search MDN"
-msgstr ""
+msgstr "搜尋 MDN"
 
 #: apps/docs/templates/docs/docs.html:17
 msgid "Search MDN Documentation"
-msgstr ""
+msgstr "搜尋 MDN 文件"
 
 #: apps/landing/templates/landing/searchresults.html:7
 msgid "Search Results"
-msgstr ""
+msgstr "搜尋結果"
 
 #: apps/docs/templates/docs/docs.html:93
 msgid "Search engine plugins"
-msgstr ""
+msgstr "搜尋引擎外掛"
 
 #: apps/docs/templates/docs/glossary.html:22
 msgid "Security"
-msgstr ""
+msgstr "安全性"
 
 #: apps/landing/templates/landing/mobile.html:104
 msgid "See Ragavan demo Firefox Sync on his Android phone. Learn about purpose and goals behind the development of Firefox Sync."
-msgstr ""
+msgstr "看看 Ragavan 在他的 Android 手機展示 Firefox Sync。了解更多 Firefox Sync 發展的目的和目標。"
 
 #: apps/landing/templates/landing/mobile.html:120
 msgid "See Stuart demo HTML5 capabilities on pre-alpha Fennec. Learn about the purpose and goals behind the development of Firefox 4 for mobile."
 msgstr ""
+"看看 Stuart 在 Fennec 的 pre-alpha 版本上展示 HTML5 能力。了解更多 Firefox 4 行動版的開發目的和目標。"
 
 #: apps/landing/templates/landing/home.html:165
 msgid "See how you can <a href=\"%(devmo_participate)s\">participate</a> in <a href=\"%(devmo_l10n)s\">localization</a>, <a href=\"%(devmo_qa)s\">quality assurance</a>, and other Mozilla projects."
 msgstr ""
+"看看您可以如何 <a href=\"%(devmo_participate)s\">參與</a> <a href=\"%"
+"(devmo_l10n)s\">在地化</a>、<a href=\"%(devmo_qa)s\">品質保證</a>，以及其他的 Mozilla 專案。"
 
 #: apps/landing/templates/landing/home.html:186
 msgid "See what's new for web developers in the latest version of Firefox"
-msgstr ""
+msgstr "看看最新版本的 Firefox 當中有什麼給網頁開發者的新東西"
 
 #: apps/landing/templates/landing/addons.html:61
 msgid "Start-to-finish success stories. See how add-on developers made magic with Mozilla."
-msgstr ""
+msgstr "自始至終的成功故事。看看附加元件開發者是怎麼和 Mozilla 一起變魔術的。"
 
 #: apps/landing/templates/landing/addons.html:19 apps/landing/templates/landing/mobile.html:19 apps/landing/templates/landing/mozilla.html:19 apps/landing/templates/landing/web.html:19
 msgid "Subscribe"
-msgstr ""
+msgstr "訂閱"
 
 #: apps/landing/templates/landing/home.html:102
 msgid ""
 "Test the <a href=\"%(fx4_features)s\">next version of Firefox</a> and help us make the world's best browser even better. Firefox 4 advances the modern web and we have a <a href=\"%(fx4_tech)s\">big "
 "chart full of check marks</a> to prove it."
 msgstr ""
+"測試 <a href=\"%(fx4_features)s\">下一個版本的 Firefox</a> 並幫助我們讓全世界最棒的瀏覽器變得更讚。Firefox "
+"4 讓現在的網頁更進一步，我們有個 <a href=\"%(fx4_tech)s\">很大的對照表</a> 可以證明。"
 
 #: apps/landing/templates/landing/web.html:56
 msgid "The DOM is the architecture for Web documents; learn how to use the DOM and its API to look at and manipulate Web content."
-msgstr ""
+msgstr "DOM 是網頁文件的結構；了解如何使用 DOM 與其 API 以控制網頁內容。"
 
 #: apps/landing/templates/landing/home.html:206
 msgid "The Document Object Model describes the layout and content of web pages."
-msgstr ""
+msgstr "文件物件模型（Document Object Model）描述了網頁的版面與內容。"
 
 #: apps/docs/templates/docs/docs.html:49
 msgid "The Document Object Model describes the structure and content of web pages."
-msgstr ""
+msgstr "Document Object Model 描述了網頁的結構與內容。"
 
 #: apps/landing/templates/landing/mozilla.html:48
 msgid "The Mozilla Platform"
-msgstr ""
+msgstr "Mozilla 平台"
 
 #: apps/landing/templates/landing/mozilla.html:99
 msgid "The main issue-tracker for Mozilla projects."
-msgstr ""
+msgstr "Mozilla 專案的最主要的議題追蹤系統（issue-tracker）"
 
 #: apps/landing/templates/landing/web.html:70
 msgid "The most popular and powerful web development tool."
-msgstr ""
+msgstr "最知名也最強大的網頁開發工具。"
 
 #: apps/docs/templates/docs/docs.html:37
 msgid "The next generation of HTML, HTML5 adds powerful new capabilities for web sites and web applications."
-msgstr ""
+msgstr "下一代的 HTML，HTML 新增了給網頁和網路應用程式所使用的強大的全新功能。"
 
 #: apps/landing/templates/landing/addons.html:53
 msgid "The official documentation on APIs and languages. What you need, when you need it, to create your masterpiece."
-msgstr ""
+msgstr "API 與程式語言的官方文件，在您創作時所需的文件。"
 
 #: apps/landing/templates/landing/mobile.html:138
 msgid ""
 "The projects and planning never stops. We're cooking up some amazing new features and improvements for our next major release. Check it out and see how you can help us continue to make the world's "
 "best mobile Web browser."
-msgstr ""
+msgstr "專案規劃從來不會停止。我們準備在下次的主要發行時推出一些更棒的功能與改進。看看您能如何幫助我們持續改進世界上最棒的行動網頁瀏覽器。"
 
 #: apps/docs/templates/docs/docs.html:41 apps/landing/templates/landing/home.html:202
 msgid "The scripting language that powers modern web applications."
-msgstr ""
+msgstr "讓現代網頁應用程式如虎添翼的指令碼語言。"
 
 #: apps/docs/templates/docs/docs.html:92
 msgid "Themes"
-msgstr ""
+msgstr "佈景主題"
 
 #: apps/landing/templates/landing/mozilla.html:59
 msgid "There are several ways you can use Mozilla code in your own project. Find everything you need to develop \"powered by Mozilla\" applications."
-msgstr ""
+msgstr "有許多可以讓您在自己的專案當中使用 Mozilla 程式碼的方式。找找所有可以讓您開發「powered by Mozilla」應用程式的方式。"
 
 #. Browsers and Plugins useful for viewing video content
 #: templates/includes/video_player.html:7
@@ -853,132 +877,141 @@ msgid ""
 "This video requires a browser with support for open video: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 or greater</li> <li><a href=\"http://www.apple.com/safari/\">Safari</"
 "a> 3.1 or greater</li> </ul> or the <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Alternatively, you may use the video download links provided."
 msgstr ""
+"這段影片需要支援開放式影片標籤的瀏覽器：<ul> <li><a "
+"href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 或更新</li> <li><a "
+"href=\"http://www.apple.com/safari/\">Safari</a> 3.1 或更新</li> </ul> 或是 <a "
+"href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash "
+"Player</a>。或者是，您也可以直接透過所提供的鏈結下載它。"
 
 #: apps/landing/templates/landing/addons.html:18 apps/landing/templates/landing/mobile.html:18 apps/landing/templates/landing/mozilla.html:18 apps/landing/templates/landing/web.html:18
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: apps/landing/templates/landing/addons.html:97
 msgid "Use Add-ons Builder to quickly and easily develop an extension for Firefox using common web technologies."
-msgstr ""
+msgstr "使用附加元件開發工具以快速、簡單地使用常用的網頁技術開發出一個擴充套件。"
 
 #: apps/landing/templates/landing/home.html:117
 msgid ""
 "Use Add-ons Builder to quickly and easily develop an extension for Firefox using common web technologies. There is a <a href=\"%(tutorial)s\">tutorial</a> to get you started and a <a href=\"%(api)s"
 "\">variety of APIs in the core library</a> to add functionality to Firefox."
 msgstr ""
+"使用附加元件開發工具以快速、簡單地使用的網頁技術開發出一個擴充套件。這裡有些 <a href=\"%(tutorial)s\">教學</a> "
+"可以幫助您入門，還有一些 <a href=\"%(api)s\">核心程式庫當中的 API</a> 可以讓您新增 Firefox 的功能。"
 
 #: apps/docs/templates/docs/docs.html:100 apps/landing/templates/landing/mozilla.html:57
 msgid "Using Mozilla code in other projects"
-msgstr ""
+msgstr "在其他專案中使用 Mozilla 程式碼"
 
 #: apps/docs/templates/docs/docs.html:82
 msgid "Using geolocation"
-msgstr ""
+msgstr "使用地理位置資訊"
 
 #: apps/docs/templates/docs/glossary.html:16
 msgid "Video"
-msgstr ""
+msgstr "影片"
 
 #: apps/landing/templates/landing/home.html:19
 msgid "Want to help make our network even better?"
-msgstr ""
+msgstr "想要幫助我們讓網路變得更好？"
 
 #: apps/landing/templates/landing/addons.html:69
 msgid "Watch <span class=\"addons\">Add-on</span> Videos"
-msgstr ""
+msgstr "看看 <span class=\"addons\">附加元件</span> 影片"
 
 #: apps/landing/templates/landing/mobile.html:89
 msgid "Watch <span class=\"mobile\">Mobile</span> Videos"
-msgstr ""
+msgstr "看看 <span class=\"mobile\">行動版</span> 影片"
 
 #: apps/landing/templates/landing/addons.html:81
 msgid "Watch Myk Melez create an Add-on in 5 minutes using the new Add-on Builder!"
-msgstr ""
+msgstr "請看看 Myk Melez 使用附加元件開發工具，在五分鐘之內就產生出一套附加元件！"
 
 #: apps/landing/templates/landing/addons.html:75 apps/landing/templates/landing/mobile.html:95 apps/landing/templates/landing/mobile.html:111
 msgid "Watch this video"
-msgstr ""
+msgstr "播放此影片"
 
 #: apps/devmo/__init__.py:24 apps/landing/templates/landing/web.html:7 apps/landing/templates/landing/web.html:13 templates/base.html:61
 msgid "Web"
-msgstr ""
+msgstr "網頁"
 
 #: apps/docs/templates/docs/glossary.html:14
 msgid "Web Storage"
-msgstr ""
+msgstr "網頁儲存"
 
 #: apps/docs/templates/docs/glossary.html:17
 msgid "Web Workers"
-msgstr ""
+msgstr "Web Workers"
 
 #: apps/docs/templates/docs/glossary.html:13
 msgid "WebGL"
-msgstr ""
+msgstr "WebGL"
 
 #: templates/includes/login.html:5
 msgid "Welcome back"
-msgstr ""
+msgstr "歡迎回來"
 
 #: apps/landing/templates/landing/addons.html:12
 msgid "Welcome to the Add-ons Developer Community:"
-msgstr ""
+msgstr "歡迎來到附加元件開發者社群:"
 
 #: apps/landing/templates/landing/mobile.html:12
 msgid "Welcome to the Mobile Developer Community:"
-msgstr ""
+msgstr "歡迎來到行動版網頁開發者社群:"
 
 #: apps/landing/templates/landing/mozilla.html:12
 msgid "Welcome to the Mozilla Developer Community:"
-msgstr ""
+msgstr "歡迎來到 Mozilla 開發者社群:"
 
 #. a.k.a. stands for 'also known as'. Followed by 'DEVMO'.
 #: apps/landing/templates/landing/home.html:10
 msgid "Welcome to the Mozilla Developer Network, a.k.a.:"
-msgstr ""
+msgstr "歡迎來到 Mozilla 開發者社群，又稱為:"
 
 #: apps/landing/templates/landing/web.html:12
 msgid "Welcome to the Web Developer Community:"
-msgstr ""
+msgstr "歡迎來到網頁開發者社群:"
 
 #: templates/base.html:82
 msgid "What do you think of the new MDN? Please <a href=\"%(uservoice_url)s\">share your feedback</a> with us."
-msgstr ""
+msgstr "您覺得新的 MDN 如何？請和我們 <a href=\"%(uservoice_url)s\">分享您的意見回饋</a>。"
 
 #: apps/landing/templates/landing/mozilla.html:41
 msgid "Whether you're an old hand or just getting started, this is the best way to get started with Mozilla development."
-msgstr ""
+msgstr "不論你是新手還是老鳥，這是 Mozilla 開發的最佳入門方式。"
 
 #: apps/landing/templates/landing/mobile.html:103
 msgid "Why Sync up, Security and More"
-msgstr ""
+msgstr "為什麼要同步、安全性，還有更多資訊。"
 
 #: apps/landing/templates/landing/newsfeed.html:12
 msgid "Written by %(authorlink)s on %(entrydate)s"
-msgstr ""
+msgstr "由 %(authorlink)s 於 %(entrydate)s 撰寫"
 
 #: apps/landing/templates/landing/mobile.html:16
 msgid "You took back the Web. Now take it with you."
-msgstr ""
+msgstr "現在把網頁隨身帶著走。"
 
 #: apps/landing/templates/landing/web.html:52
 msgid "You'll find everything you need in the CSS reference and helpful tutorials to build pretty websites."
-msgstr ""
+msgstr "您可以在 CSS 的參考資料當中找到您所需要的東西，以及有幫助的教學以建立美觀的網站。"
 
 #: apps/landing/templates/landing/mobile.html:75
 msgid ""
 "Your help is vital to the success of Firefox. Provide feedback on our <a href=\"%(irc_url)s\">IRC channel</a>, <a href=\"%(meeting_url)s\">join our Wednesday development meeting</a>, or even <a "
 "href=\"%(bugzilla_url)s\">file some bugs</a>."
 msgstr ""
+"您的幫助是 Firefox 成功的關鍵。您可以在我們的 <a href=\"%(irc_url)s\">IRC 頻道</a>，<a href=\"%"
+"(meeting_url)s\">參加我們每週三的開發會議</a>，或是 <a href=\"%(bugzilla_url)s\">送出一些臭蟲回報</a>。"
 
 #: apps/landing/templates/landing/web.html:71
 msgid "geckoday via AMO"
-msgstr ""
+msgstr "AMO 的 geckoday "
 
 #: apps/landing/templates/landing/home.html:15
 msgid "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
-msgstr ""
+msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
 
 #: apps/landing/templates/sidebar/twitter.html:16
 msgid "{timedelta} ago"
-msgstr ""
+msgstr "{timedelta} 前"
