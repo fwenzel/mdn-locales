@@ -558,7 +558,7 @@ msgstr "Dowiedz się, jak używać <a href=\"%(geo_url)s\">API geolokalizacji</a
 
 #: apps/landing/templates/landing/home.html:148
 msgid "Learn more about <a href=\"%(devmo_mobile)s\">Fennec</a> and mobile-specific technologies like <a href=\"%(devmo_geo)s\">geolocation</a>.</p>"
-msgstr "Dowiedz się więcej o <a href=\"%(devmo_mobile)s\">Fenneku</a> i technologiach mobilnych, takich jak <a href=\"%(devmo_geo)s\">geolokalizacja</a>.</p>"
+msgstr "Dowiedz się więcej o <a href=\"%(devmo_mobile)s\">Fennecku</a> i technologiach mobilnych, takich jak <a href=\"%(devmo_geo)s\">geolokalizacja</a>.</p>"
 
 #: apps/landing/templates/landing/mozilla.html:50
 msgid "Learn more about the technologies at the core of Mozilla products and services."
