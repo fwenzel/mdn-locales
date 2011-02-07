@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2011-02-06 23:01+0100\n"
+"Project-Id-Version: 1.0\n"
+"PO-Revision-Date: 2011-02-07 01:34+0100\n"
 "Last-Translator: Leszek Życzkowski <leszekz@gmail.com>\n"
 "Language-Team: none\n"
 "Language: pl\n"
@@ -413,7 +413,7 @@ msgstr "Firefox Mobile: Co dalej?"
 
 #: apps/landing/templates/landing/mobile.html:51
 msgid "Firefox is the world's first Web browser to support mobile add-ons. Learn about <a href=\"%(basics_url)s\">Extension Basics</a>, <a href=\"%(best_practices_url)s\">Extension Best Practices</a>, helpful <a href=\"%(snippets_url)s\">Code Snippets</a>, and more so you can build innovative add-ons for Firefox on Android and Firefox on Nokia's Meego platform."
-msgstr "Firefox jest pierwszą na świecie przeglądarką internetową dla urządzeń przenośnych obsługującą dodatki. Dowiedz się więcej o <a href=\"%(basics_url)s\">podstawach tworzenia rozszerzeń</a>, <a href=\"%(best_practices_url)s\">dobrych praktykach</a>, <a href=\"%(snippets_url)s\">gotowych kodach</a> i innych, pomocnych przy tworzeniu innowacyjnych dodatków dla Firefoksa na Androida i platformę Nokii – Maemo."
+msgstr "Firefox jest pierwszą na świecie przeglądarką internetową dla urządzeń przenośnych obsługującą dodatki. Dowiedz się więcej o <a href=\"%(basics_url)s\">podstawach tworzenia rozszerzeń</a>, <a href=\"%(best_practices_url)s\">dobrych praktykach</a>, <a href=\"%(snippets_url)s\">gotowych kodach</a> i innych elementach pomocnych przy tworzeniu innowacyjnych dodatków dla Firefoksa na Androida i platformę Nokii – Maemo."
 
 #: apps/landing/templates/landing/web.html:40
 msgid "For the latest in open Web technologies, these cool demos are a great way to discover new documentation."
@@ -463,7 +463,7 @@ msgstr "Filmiki demonstracyjne"
 
 #: apps/landing/templates/landing/mobile.html:148
 msgid "Hear from other developers about the advantages of HTML5 and developing for the mobile Web in this article from ReadWriteWeb:"
-msgstr "Przeczytaj, co mówią inni twórcy o zaletach HTML5 i tworzeniu dla sieci mobilnej w artykule z ReadWriteWeb:"
+msgstr "Przeczytaj, co mówią inni twórcy o zaletach HTML5 i tworzeniu dla mobilnej Sieci w artykule z ReadWriteWeb:"
 
 #: templates/base.html:99
 msgid "Help"
@@ -545,12 +545,12 @@ msgstr "Ostatnio edytowany przez:"
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/addons.html:146
 msgid "Latest <span class=\"addons\">Add-ons</span> Comments from Our Community:"
-msgstr "Ostatnie komentarze naszej społeczności na temat<span class=\"addons\">dodatków</span>:"
+msgstr "Ostatnie komentarze naszej społeczności na temat <span class=\"addons\">dodatków</span>:"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/addons.html:138
 msgid "Latest <span class=\"addons\">Add-ons</span> Discussions from Our Forums:"
-msgstr "Ostatnie dyskusje na naszych forach na temat<span class=\"addons\">dodatków</span>:"
+msgstr "Ostatnie dyskusje na naszych forach na temat <span class=\"addons\">dodatków</span>:"
 
 #: apps/landing/templates/landing/mobile.html:65
 msgid "Learn how to use the <a href=\"%(geo_url)s\">Geolocation API</a> and put people on the right path. Location-Aware Browsing is a must when you're out and about on your mobile. Learn how to build innovative apps that delight your audience."
@@ -730,7 +730,7 @@ msgstr "Filmy demonstracyjne wersji Pre-Alpha Fennecka i HTML5"
 
 #: apps/docs/templates/docs/docs.html:102
 msgid "Quality Assurance"
-msgstr "Zapewnienie jakości"
+msgstr "Kontrola jakości"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/addons.html:114
