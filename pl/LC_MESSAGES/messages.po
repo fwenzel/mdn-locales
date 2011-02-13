@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-02-13 15:37+0100\n"
+"PO-Revision-Date: 2011-02-13 15:44+0100\n"
 "Last-Translator: Leszek Życzkowski <leszekz@gmail.com>\n"
 "Language-Team: none\n"
 "Language: pl\n"
@@ -14,7 +14,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/mobile.html:158
 msgid "\"'Hands down, the developer pool for HTML / JS rock stars is tenfold larger [and] there is no download attrition. You simply point people at a URL and there you go -- it's installed.' The fact that apps can be directly installed by URL rather than by waiting for an App Store download means that developers reduce barriers to virality.\""
-msgstr "„Czapki z głów, zasoby HTML / JS dla twórców są dziesięć razy większe i nie ma problemów z pobieraniem. Po prostu wskaż ludziom adres URL i już – zostało zainstalowane. Fakt, że aplikacje mogą być bezpośrednio instalowane przez podanie adresu URL, a nie trzeba czekać na pobranie ze sklepu z aplikacjami, oznacza, że twórcy przekroczyli bariery wirtuozerii”"
+msgstr "„Czapki z głów, zasoby HTML / JS dla twórców są dziesięć razy większe i nie ma problemów z pobieraniem. Po prostu wskaż ludziom adres URL i już – zostało zainstalowane. Fakt, że aplikacje mogą być bezpośrednio instalowane przez podanie adresu URL, a nie trzeba czekać na pobranie ze sklepu z aplikacjami, oznacza, że twórcy przekroczyli bariery wirtuozerii”."
 
 #: apps/landing/templates/landing/web.html:75
 msgid "\"An absolute necessity for anyone doing serious web development. Awesome!!!!\""
@@ -578,9 +578,8 @@ msgstr "Transformacje CSS"
 
 # 75%
 #: apps/demos/__init__.py:76
-#, fuzzy
 msgid "CSS3"
-msgstr "CSS"
+msgstr "CSS3"
 
 #: apps/demos/templates/demos/delete.html:49
 #: apps/demos/templates/demos/delete_comment.html:52
@@ -725,9 +724,8 @@ msgstr "Usunąć ten komentarz?"
 #: apps/demos/templates/demos/submit_noauth.html:19
 #: templates/base.html:77
 #: templates/base_compact.html:18
-#, fuzzy
 msgid "Demo Studio"
-msgstr "Opisy"
+msgstr "Demo Studio"
 
 #: apps/demos/templates/demos/detail.html:245
 msgid "Demo is inappropriate"
@@ -898,9 +896,8 @@ msgid "Featured demos"
 msgstr "Polecane dema"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:65
-#, fuzzy
 msgid "Feed"
-msgstr "Fennec"
+msgstr "Kanał"
 
 #: apps/landing/templates/landing/mobile.html:119
 msgid "Fennec"
@@ -957,9 +954,8 @@ msgid "Flag rejected by moderator"
 msgstr "Oznaczenie zostało odrzucone przez moderatora"
 
 #: apps/demos/templates/demos/flag.html:37
-#, fuzzy
 msgid "Flag this demo?"
-msgstr "Obejrzyj to wideo"
+msgstr "Zgłosić to wideo?"
 
 #: apps/contentflagging/models.py:27
 msgid "Flagged"
@@ -979,9 +975,8 @@ msgstr ""
 
 # 83%
 #: apps/demos/__init__.py:114
-#, fuzzy
 msgid "Forms"
-msgstr "Fora"
+msgstr "Formularze"
 
 #: templates/base.html:78
 #: templates/base_compact.html:27
@@ -993,9 +988,8 @@ msgid "GPL"
 msgstr "GPL"
 
 #: apps/demos/__init__.py:124
-#, fuzzy
 msgid "Geolocation"
-msgstr "Używanie geolokalizacji"
+msgstr "Geolokalizacja"
 
 #: apps/landing/templates/landing/home.html:218
 msgid "Get Started Today!"
@@ -1157,7 +1151,6 @@ msgstr "JavaScript to lekki, obiektowo zorientowany język programowania często
 
 # 90%
 #: apps/demos/__init__.py:134
-#, fuzzy
 msgid "Javascript"
 msgstr "JavaScript"
 
@@ -1209,9 +1202,8 @@ msgid "Latest <span class=\"addons\">Add-ons</span> Discussions from Our Forums:
 msgstr "Ostatnie dyskusje na naszych forach na temat <span class=\"addons\">dodatków</span>:"
 
 #: apps/demos/templates/demos/detail.html:78
-#, fuzzy
 msgid "Launch Demo"
-msgstr "Filmiki demonstracyjne"
+msgstr "Uruchom demo"
 
 #: apps/demos/templates/demos/elements/submission_thumb.html:20
 msgid "Launch {title}"
@@ -1303,9 +1295,8 @@ msgstr "MDN"
 #: apps/demos/__init__.py:237
 #: apps/demos/__init__.py:247
 #: apps/demos/__init__.py:257
-#, fuzzy
 msgid "MDN Documentation"
-msgstr "Przeszukaj dokumentację MDN"
+msgstr "Dokumentacja MDN"
 
 #: apps/demos/feeds.py:213
 msgid "MDN demo search for \"%s\""
@@ -1414,9 +1405,8 @@ msgid "Mozilla"
 msgstr "Mozilla"
 
 #: apps/demos/templates/demos/home.html:22
-#, fuzzy
 msgid "Mozilla Demo Studio"
-msgstr "Przewodnik po Mozilla Developer"
+msgstr "Mozilla Demo Studio"
 
 #: apps/landing/templates/landing/mozilla.html:43
 msgid "Mozilla Developer Guide"
@@ -1702,9 +1692,8 @@ msgid "Search for \"{q}\""
 msgstr "Szukajr \"{q}\""
 
 #: apps/demos/templates/demos/listing_search.html:14
-#, fuzzy
 msgid "Search results for \"{q}\""
-msgstr "Wyniki szukania"
+msgstr "Wyniki szukania dla „{q}”"
 
 #: apps/demos/feeds.py:214
 msgid "Search results for demo submissions matching \"%s\""
@@ -1783,9 +1772,8 @@ msgstr "Udostępnij na Facebooku"
 
 #: apps/demos/templates/demos/detail.html:100
 #: apps/demos/templates/demos/launch.html:47
-#, fuzzy
 msgid "Share on Twitter"
-msgstr "MDN na Twitterze"
+msgstr "Udostępnij na Twitterze"
 
 #: apps/demos/templates/demos/detail.html:95
 #: apps/demos/templates/demos/launch.html:43
@@ -2131,9 +2119,8 @@ msgid "WebGL"
 msgstr "WebGL"
 
 #: apps/demos/__init__.py:224
-#, fuzzy
 msgid "WebSockets"
-msgstr "Web Workers"
+msgstr "WebSockets"
 
 #: apps/demos/__init__.py:225
 msgid "WebSockets is a technology that makes it possible to open an interactive communication session between the user's browser and a server."
@@ -2659,12 +2646,11 @@ msgid "what is your demo's name?"
 msgstr "podaj nazwę demo"
 
 #: apps/demos/helpers.py:217
-#, fuzzy
 msgid "year"
 msgid_plural "years"
-msgstr[0] "Szukaj"
-msgstr[1] "Szukaj"
-msgstr[2] "Szukaj"
+msgstr[0] "rok"
+msgstr[1] "lata"
+msgstr[2] "lat"
 
 #: apps/demos/templates/demos/detail.html:126
 msgid "{comment_count} comments"
