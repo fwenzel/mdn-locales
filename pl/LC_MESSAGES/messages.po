@@ -315,7 +315,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/detail.html:181
 msgid "<p><a href=\"/Special:UserRegistration\">Register</a> or <a href=\"/Special:UserLogin\">log in</a> to add your own.</p>"
-msgstr "<p><a href=\"/Special:UserRegistration\">Xarejestruj sie</a> lub <a href=\"/Special:UserLogin\">zaloguj</a>, by dodać swój.</p>"
+msgstr "<p><a href=\"/Special:UserRegistration\">Zarejestruj się</a> lub <a href=\"/Special:UserLogin\">zaloguj</a>, by dodać swój.</p>"
 
 #: apps/demos/templates/demos/delete_comment.html:39
 msgid "<p>Are you sure that you would like to delete this comment?</p>"
@@ -323,7 +323,7 @@ msgstr "<p>Czy na pewno chcesz usunąć ten komentarz?</p>"
 
 #: apps/demos/templates/demos/submit.html:81
 msgid "<p>Tell us more about your demo, including the name, description and the technologies used. Please list the browsers you have tested it with.</p>"
-msgstr ""
+msgstr "<p>Podaj więcej danych o swoim demo: nazwę, opis i użyte technologie. Wskaż przeglądarki, na których było testowane.</p>"
 
 #: apps/demos/templates/demos/submit_noauth.html:65
 msgid "<p>To submit your demo, you need an <strong><a href=\"%(signup_url)s\">MDN account</a></strong>.</p>"
@@ -331,7 +331,7 @@ msgstr "<p>Aby przesłać demo musisz mieć <strong><a href=\"%(signup_url)s\">k
 
 #: apps/demos/templates/demos/submit.html:138
 msgid "<p>Upload a Zip file of your source code, in which the main page of your demo is named <code>index.html</code> in the root directory.</p>"
-msgstr ""
+msgstr "<p>Prześlij plik w formacie ZIP zawierający kod źródłowy, w którym w katalogu głównym musi się znajdować główna strona demo o nazwie <code>index.html</code>.</p>"
 
 #: apps/demos/templates/demos/home.html:23
 msgid "<p>Welcome to Mozilla Demo Studio, where developers like you can develop, share, demonstrate, and learn all about Web technologies. See what’s possible by exploring Demo Studio:</p> <ul> <li>View <strong>demos</strong> that showcase what HTML, CSS, and JavaScript can do.</li> <li>Inspect the <strong>source code</strong> for those demos so you can see how they work.</li> <li>Read <strong>documentation</strong> to learn about the open standards and technologies that power the Web.</li> </ul>"
@@ -343,7 +343,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/submit.html:67
 msgid "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other web developers.</p> <p>Please complete the form below to ensure your demo is submitted to the Demo Studio successfully.</p>"
-msgstr ""
+msgstr "<p>Czy tworzysz niezwykłe nowe sposoby korzystania z Internetu, czy tylko eksperymentujesz z najnowszymi technologiami, zapraszamy cię do przesłania swoich dem, by podzielić się nimi lub tylko je pokazać z innymi twórcami.</p> <p>Uzupełnij poniższy frormularz, by prawidłowo przesłać swoje demo do Demo Studio.</p>"
 
 #: apps/demos/templates/demos/detail.html:177
 msgid "<p>Why not <a href=\"#comment-post\">Add your own</a>?</p>"
