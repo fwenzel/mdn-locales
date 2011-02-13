@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-02-13 15:44+0100\n"
+"PO-Revision-Date: 2011-02-13 18:36+0100\n"
 "Last-Translator: Leszek Życzkowski <leszekz@gmail.com>\n"
 "Language-Team: none\n"
 "Language: pl\n"
@@ -172,16 +172,18 @@ msgid "/en/HTML"
 msgstr "HTML"
 
 #: apps/docs/templates/docs/glossary.html:10
+#, fuzzy
 msgid "/en/HTML/Element/canvas"
-msgstr ""
+msgstr "/en/HTML/Element/canvas"
 
 #: apps/docs/templates/docs/docs.html:36
 #: apps/docs/templates/docs/glossary.html:7
 #: apps/landing/templates/landing/home.html:72
 #: apps/landing/templates/landing/home.html:78
 #: apps/landing/templates/landing/web.html:47
+#, fuzzy
 msgid "/en/HTML/HTML5"
-msgstr ""
+msgstr "/en/HTML/HTML5"
 
 #: apps/docs/templates/docs/glossary.html:23
 #, fuzzy
@@ -226,8 +228,9 @@ msgstr "Wtyczki"
 
 #: apps/docs/templates/docs/docs.html:102
 #: apps/landing/templates/landing/home.html:150
+#, fuzzy
 msgid "/en/QA"
-msgstr ""
+msgstr "/en/QA"
 
 #: apps/docs/templates/docs/glossary.html:9
 #, fuzzy
@@ -256,8 +259,9 @@ msgstr "Motywy"
 
 #: apps/landing/templates/landing/mozilla.html:92
 #: apps/landing/templates/landing/mozilla.html:109
+#, fuzzy
 msgid "/en/Tools"
-msgstr ""
+msgstr "/en/Narzędzia"
 
 # 77%
 #: apps/docs/templates/docs/docs.html:100
@@ -311,7 +315,7 @@ msgstr "<a href=\"%(builder_url)s\">Twórz dodatki</a> i dyskutuj o nich z <a hr
 
 #: apps/demos/templates/demos/elements/comments_tree.html:9
 msgid "<cite class=\"author fn\">%(comment_profile_link)s</cite> said,"
-msgstr ""
+msgstr "<cite class=\"author fn\">%(comment_profile_link)s</cite> powiedział,"
 
 #: apps/demos/templates/demos/detail.html:181
 msgid "<p><a href=\"/Special:UserRegistration\">Register</a> or <a href=\"/Special:UserLogin\">log in</a> to add your own.</p>"
@@ -1344,7 +1348,7 @@ msgstr "Media Queries"
 
 #: apps/demos/__init__.py:87
 msgid "Media queries and orientation events let authors adjust their layout on hand-held devices such as mobile phones."
-msgstr ""
+msgstr "Media queries i detekcja orientacji umożliwiają autorom dostosować wygląd swoich aplikacji do urządzeń przenośnych, takich jak telefony komórkowe."
 
 #: apps/demos/__init__.py:174
 #: apps/devmo/__init__.py:18
@@ -2016,7 +2020,7 @@ msgstr "Twitter"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:11
 msgid "Up and Coming"
-msgstr ""
+msgstr "Najczęściej używane"
 
 #: apps/demos/templates/demos/submit.html:147
 msgid "Upload demo file&hellip;"
