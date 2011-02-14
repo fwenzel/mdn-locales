@@ -363,11 +363,11 @@ msgstr ""
 
 #: apps/demos/templates/demos/submit_noauth.html:53
 msgid "<ul> <li>Your demo’s source code should be packaged inside a <strong>ZIP file</strong>.</li> <li>The main page of your demo should be a file named <strong><code>index.html</code></strong> in the root of the ZIP.</li> <li>Your demo should be built on <strong>client-side technology</strong> (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use <strong>AJAX</strong> to access them.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
-msgstr "<ul> <li>Kod źródłowy dema powinien być spakowany w <strong>pliku ZIP</strong>.</li> <li>Strona główna dema powinna mieć nazwę <strong><code>index.html</code></strong> i znajdować się w katalogu gównym archiwum ZIP.</li> <li>Demo powinno być zbudowane w oparciu o technologie, takie jak HTML, CSS, JavaScript bazujące na <strong>operacjach wykonywanych po stronie klienta</strong>. Języki o architekturze klient-serwer, takie jak PHP i Ruby nie są obsługiwane.</li> <li>Jeśli demo wymaga zewnętrznych zasobów, by uzyskać do nich dostęp, powinno używać technologii <strong>AJAX</strong>.</li> <li>W polu szczegółowych informacji o demie podaj informacje o treściach innych podmiotów zawartych w demie, które nie mogą być udostępnione na zasadach wolnych licencji i zawrzyj odnośniki do stron internetowych ich autorów.</li> </ul>"
+msgstr "<ul> <li>Kod źródłowy dema powinien być spakowany w <strong>pliku ZIP</strong>.</li> <li>Strona główna dema powinna mieć nazwę <strong><code>index.html</code></strong> i znajdować się w katalogu gównym archiwum ZIP.</li> <li>Demo powinno być zbudowane w oparciu o technologie, takie jak HTML, CSS, JavaScript bazujące na <strong>operacjach wykonywanych po stronie klienta</strong>. Języki o architekturze klient-serwer, takie jak PHP i Ruby nie są obsługiwane.</li> <li>Jeśli demo wymaga zewnętrznych zasobów, by uzyskać do nich dostęp, powinno używać technologii <strong>AJAX</strong>.</li> <li>W polu szczegółowych informacji o demie podaj informacje o treściach innych podmiotów zawartych w demie, które nie mogą być udostępnione na zasadach wolnych licencji i dodaj odnośniki do stron internetowych ich autorów.</li> </ul>"
 
 #: apps/demos/templates/demos/submit.html:124
 msgid "<ul> <li>Your demo’s source code should be packaged inside a Zip file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the Zip.</li> <li>Your demo should be built on client-side technology (HTML, CSS, Javascript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use AJAX to access them.</li> <li>To submit your demo, you need an <a href=\"%(signup_url)s\">MDN account</a>.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
-msgstr "<ul> <li>Kod źródłowy dema powinien być spakowany w pliku ZIP.</li> <li>Strona główna dema powinna mieć nazwę <code>index.html</code> i znajdować się w katalogu gównym archiwum ZIP.</li> <li>Demo powinno być zbudowane w oparciu o technologie, takie jak HTML, CSS, JavaScript bazujące na operacjach wykonywanych po stronie klienta. Języki o architekturze klient-serwer, takie jak PHP i Ruby nie są obsługiwane.</li> <li>Jeśli demo wymaga zewnętrznych zasobów, by uzyskać do nich dostęp, powinno używać technologii AJAX.</li> <li>W polu szczegółowych informacji o demie podaj informacje o treściach innych podmiotów zawartych w demie, które nie mogą być udostępnione na zasadach wolnych licencji i zawrzyj odnośniki do stron internetowych ich autorów.</li> </ul>"
+msgstr "<ul> <li>Kod źródłowy dema powinien być spakowany w pliku ZIP.</li> <li>Strona główna dema powinna mieć nazwę <code>index.html</code> i znajdować się w katalogu gównym archiwum ZIP.</li> <li>Demo powinno być zbudowane w oparciu o technologie, takie jak HTML, CSS, JavaScript bazujące na operacjach wykonywanych po stronie klienta. Języki o architekturze klient-serwer, takie jak PHP i Ruby nie są obsługiwane.</li> <li>Jeśli demo wymaga zewnętrznych zasobów, by uzyskać do nich dostęp, powinno używać technologii AJAX.</li> <li>W polu szczegółowych informacji o demie podaj informacje o treściach innych podmiotów zawartych w demie, które nie mogą być udostępnione na zasadach wolnych licencji i dodaj odnośniki do stron internetowych ich autorów.</li> </ul>"
 
 #: apps/landing/templates/landing/mozilla.html:107
 msgid "A Mozilla source tree browser."
@@ -500,7 +500,7 @@ msgstr "Android API"
 
 #: apps/landing/templates/landing/web.html:87
 msgid "Another great Firefox/Firebug Add-on that helps you view and manage cookies in your browser."
-msgstr "Inny wspaniały dodatek dla Firefoksa/Firebug, który pomaga podejrzeć ciasteczka i zarządzać nimi w przeglądarce."
+msgstr "Inny wspaniały dodatek dla Firefoksa – Firebug, który pomaga podejrzeć ciasteczka i zarządzać nimi w przeglądarce."
 
 #: apps/demos/__init__.py:286
 msgid "Apache"
@@ -602,7 +602,7 @@ msgstr "Canvas"
 
 #: apps/demos/__init__.py:77
 msgid "Cascading Style Sheets level 3 (CSS3) provide serveral new features and properties to enhance the formatting and look of documents written in different kinds of markup languages like HTML or XML."
-msgstr "Kaskadowe arkusze stylów poziomu 3 (CSS3) dostarczają różne nowe funkcje i  możliwości rozszerzające formatowanie i wygląd dokumentów napisanych w różnych rodzajach języków, takich jakHTML czy XML."
+msgstr "Kaskadowe arkusze stylów poziomu 3 (CSS3) dostarczają różne nowe funkcje i możliwości rozszerzające formatowanie i wygląd dokumentów napisanych w różnych rodzajach języków, takich jak HTML czy XML."
 
 #: apps/docs/templates/docs/docs.html:45
 msgid "Cascading Style Sheets provide advanced layout and formatting of web content."
@@ -1136,7 +1136,7 @@ msgstr "Wewnętrzny błąd serwera"
 
 #: apps/demos/models.py:307
 msgid "Is your source code also available somewhere else on the web (e.g., github)? Please share the link."
-msgstr "Czy twój kod źródłowy jest dostępny jeszcze gdzieś w Internecie, np. w github? Podaj do niego odnośnik."
+msgstr "Jeśli kod źródłowy tego dema jest dostępny gdzieś w Internecie, np. w github, podaj do niego odnośnik"
 
 #: apps/demos/templates/demos/submit.html:116
 msgid "JPEG and PNG supported. Minimum size of 480x360."
@@ -1758,11 +1758,11 @@ msgstr "Zobacz profil {display_name}"
 
 #: apps/demos/models.py:310
 msgid "Select the license that applies to your source code."
-msgstr "Wybierz właściwą licencję dla tego kodu źródłowego."
+msgstr "Wybierz właściwą licencję dla tego kodu źródłowego"
 
 #: apps/demos/templates/demos/submit.html:92
 msgid "Select up to five technologies used in your demo."
-msgstr "Zaznacz maksymalnie pięć technologii użytych w tym demie."
+msgstr "Zaznacz maksymalnie pięć technologii użytych w tym demie"
 
 #: apps/demos/templates/demos/detail.html:99
 #: apps/demos/templates/demos/launch.html:43
@@ -1972,7 +1972,7 @@ msgstr[2] "Jest {count} komentarzy dla tego dema"
 
 #: apps/devmo/models.py:35
 msgid "This URL has an invalid format. Valid URLs look like http://example.com/my_page."
-msgstr ""
+msgstr "Ten adres URL ma nieprawidłowy format. Prawidłowy URL wygląda tak: http://przyklad.pl/moja_strona."
 
 #: apps/contentflagging/models.py:21
 msgid "This contains inappropriate content"
@@ -2238,7 +2238,7 @@ msgstr "W materiałach źródłowych CSS i pomocnych tutorialach znajdziesz wszy
 
 #: apps/landing/templates/landing/mobile.html:79
 msgid "Your help is vital to the success of Firefox. Provide feedback on our <a href=\"%(irc_url)s\">IRC channel</a>, <a href=\"%(meeting_url)s\">join our Wednesday development meeting</a>, or even <a href=\"%(bugzilla_url)s\">file some bugs</a>."
-msgstr "Twoja pomoc jest kluczem do sukcesu Firefoksa. Przekaż swoje opinie na naszym <a href=\"%(irc_url)s\">kanale IRC</a>, <a href=\"%(meeting_url)s\">dołącz do naszego co środowego spotkania programistów</ a> lub <a href = \"% (bugzilla_url) s\">zgłaszaj błędy</a>."
+msgstr "Twoja pomoc jest kluczem do sukcesu Firefoksa. Przekaż swoje opinie na naszym <a href=\"%(irc_url)s\">kanale IRC</a>, <a href=\"%(meeting_url)s\">dołącz do naszego co środowego spotkania programistów</a> lub <a href=\"% (bugzilla_url) s\">zgłaszaj błędy</a>."
 
 #: apps/demos/models.py:451
 msgid "ZIP file contains files that are too large"
