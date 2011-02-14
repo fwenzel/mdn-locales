@@ -327,19 +327,19 @@ msgstr "<p>Czy na pewno chcesz usunąć ten komentarz?</p>"
 
 #: apps/demos/templates/demos/submit.html:81
 msgid "<p>Tell us more about your demo, including the name, description and the technologies used. Please list the browsers you have tested it with.</p>"
-msgstr "<p>Podaj dane o swoim demo: nazwę, opis i użyte technologie. Wskaż przeglądarki, na których było testowane.</p>"
+msgstr "<p>Podaj dane o swoim demie: nazwę, opis i użyte technologie. Wskaż przeglądarki, na których było testowane.</p>"
 
 #: apps/demos/templates/demos/submit_noauth.html:65
 msgid "<p>To submit your demo, you need an <strong><a href=\"%(signup_url)s\">MDN account</a></strong>.</p>"
-msgstr "<p>Aby przesłać demo musisz mieć <strong><a href=\"%(signup_url)s\">konto MDN</a></strong>.</p>"
+msgstr "<p>Aby przesłać demo, musisz mieć <strong><a href=\"%(signup_url)s\">konto MDN</a></strong>.</p>"
 
 #: apps/demos/templates/demos/submit.html:138
 msgid "<p>Upload a Zip file of your source code, in which the main page of your demo is named <code>index.html</code> in the root directory.</p>"
-msgstr "<p>Prześlij plik w formacie ZIP zawierający kod źródłowy, w którym w katalogu głównym musi się znajdować główna strona demo o nazwie <code>index.html</code>.</p>"
+msgstr "<p>Prześlij plik w formacie ZIP zawierający kod źródłowy, w którym w katalogu głównym musi się znajdować główna strona dema o nazwie <code>index.html</code>.</p>"
 
 #: apps/demos/templates/demos/home.html:23
 msgid "<p>Welcome to Mozilla Demo Studio, where developers like you can develop, share, demonstrate, and learn all about Web technologies. See what’s possible by exploring Demo Studio:</p> <ul> <li>View <strong>demos</strong> that showcase what HTML, CSS, and JavaScript can do.</li> <li>Inspect the <strong>source code</strong> for those demos so you can see how they work.</li> <li>Read <strong>documentation</strong> to learn about the open standards and technologies that power the Web.</li> </ul>"
-msgstr "<p>Witamy w Mozilla Demo Studio, gdzie twórcy tacy, jak ty mogą rozwijać, dzielić się, pokazać i nauczyć się wszystkiego o technologiach internetowych. Zobacz, jakie możliwości daje zgłębianie zasobów Demo Studio:</p> <ul> <li>Obejrzyj <strong>dema</strong> prezentujące, czego HTML, CSS i JavaScript mogą dokonać.</li> <li>Sprawdź <strong>kod źródłowy</strong> tych demo, by zobaczyć, jak one działają.</li> <li>Zapoznaj się z <strong>dokumentacją</strong>, by dowiedzieć się więcej o otwartych standardach i technologiach stosowanych w Internecie.</li> </ul>"
+msgstr "<p>Witamy w Mozilla Demo Studio, gdzie twórcy tacy, jak ty mogą rozwijać, dzielić się, pokazać i nauczyć się wszystkiego o technologiach internetowych. Zobacz, jakie możliwości daje zgłębianie zasobów Demo Studio:</p> <ul> <li>Obejrzyj <strong>dema</strong> prezentujące, czego HTML, CSS i JavaScript mogą dokonać.</li> <li>Sprawdź <strong>kod źródłowy</strong> tych dem, by zobaczyć, jak one działają.</li> <li>Zapoznaj się z <strong>dokumentacją</strong>, by dowiedzieć się więcej o otwartych standardach i technologiach stosowanych w Internecie.</li> </ul>"
 
 #: apps/demos/templates/demos/submit_noauth.html:32
 msgid "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other web developers.</p>"
@@ -347,7 +347,7 @@ msgstr "<p>Czy tworzysz niezwykłe nowe sposoby korzystania z Internetu, czy tyl
 
 #: apps/demos/templates/demos/submit.html:67
 msgid "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other web developers.</p> <p>Please complete the form below to ensure your demo is submitted to the Demo Studio successfully.</p>"
-msgstr "<p>Czy tworzysz niezwykłe nowe sposoby korzystania z Internetu, czy tylko eksperymentujesz z najnowszymi technologiami, zapraszamy cię do przesłania swoich dem, by podzielić się nimi lub tylko je pokazać z innymi twórcami.</p> <p>Uzupełnij poniższy frormularz, by prawidłowo przesłać swoje demo do Demo Studio.</p>"
+msgstr "<p>Czy tworzysz niezwykłe nowe sposoby korzystania z Internetu, czy tylko eksperymentujesz z najnowszymi technologiami, zapraszamy cię do przesłania swoich dem, by podzielić się nimi lub tylko je pokazać z innymi twórcami.</p> <p>Uzupełnij poniższy frormularz, by prawidłowo przesłać demo do Demo Studio.</p>"
 
 #: apps/demos/templates/demos/detail.html:177
 msgid "<p>Why not <a href=\"#comment-post\">Add your own</a>?</p>"
@@ -355,7 +355,7 @@ msgstr "<p>Dlaczego nie <a href=\"#comment-post\">dodać swojego</a>?</p>"
 
 #: apps/demos/templates/demos/delete.html:40
 msgid "<p>You are about to remove <strong>%(demo_title)s</strong> from the Demo Studio.</p> <p>The Demo's listing, source code, and statistics will be <strong>deleted</strong>.</p> <p>This action <strong>cannot be undone</strong>."
-msgstr "<p>Zamierzasz usunąć <strong>%(demo_title)s</strong> z Demo Studio.</p> <p>Zostaną <strong>usunięte</strong> statystyki, kod źródłowy, a także ze wszystkich wykazów nazwa demo.</p> <p>Tej czynności <strong>nie można odwrócić</strong>."
+msgstr "<p>Zamierzasz usunąć <strong>%(demo_title)s</strong> z Demo Studio.</p> <p>Zostaną <strong>usunięte</strong> statystyki, kod źródłowy, a także ze wszystkich wykazów nazwa tego dema.</p> <p>Tej czynności <strong>nie można odwrócić</strong>."
 
 #: apps/demos/templates/demos/submit_noauth.html:41
 msgid "<ul> <li>You must be prepared to <strong>provide the source code</strong> for your demo. Demos are hosted on the Demo Studio’s servers.</li> <li>Your demo’s source code must be available under an <strong>open license</strong>, such as MPL, GPL, or BSD.</li> <li>Your demo should showcase <strong>open web technologies</strong>, such as HTML5 and CSS3.</li> <li>Your demo should support a wide range of <strong>modern web browsers</strong>, like Firefox, Chrome, Safari, and Opera.</li> </ul>"
@@ -363,11 +363,11 @@ msgstr ""
 
 #: apps/demos/templates/demos/submit_noauth.html:53
 msgid "<ul> <li>Your demo’s source code should be packaged inside a <strong>ZIP file</strong>.</li> <li>The main page of your demo should be a file named <strong><code>index.html</code></strong> in the root of the ZIP.</li> <li>Your demo should be built on <strong>client-side technology</strong> (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use <strong>AJAX</strong> to access them.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
-msgstr "<ul> <li>Kod źródłowy demo powinien być spakowany w <strong>pliku ZIP</strong>.</li> <li>Strona główna demo powinna mieć nazwę <strong><code>index.html</code></strong> i znajdować się w katalogu gównym archiwum ZIP.</li> <li>Demo powinno być zbudowane w oparciu o technologie, takie jak HTML, CSS, JavaScript bazujące na <strong>operacjach wykonywanych po stronie klienta</strong>. Języki o architekturze klient-serwer, takie jak PHP i Ruby nie są obsługiwane.</li> <li>Jeśli demo wymaga zewnętrznych zasobów, by uzyskać do nich dostęp, powinno używać technologii <strong>AJAX</strong>.</li> <li>W polu szczegółowych informacji o demo podaj informacje o treściach innych podmiotów zawartych w demo, które nie mogą być udostępnione na zasadach wolnych licencji i zawrzyj odnośniki do stron internetowych ich autorów.</li> </ul>"
+msgstr "<ul> <li>Kod źródłowy dema powinien być spakowany w <strong>pliku ZIP</strong>.</li> <li>Strona główna dema powinna mieć nazwę <strong><code>index.html</code></strong> i znajdować się w katalogu gównym archiwum ZIP.</li> <li>Demo powinno być zbudowane w oparciu o technologie, takie jak HTML, CSS, JavaScript bazujące na <strong>operacjach wykonywanych po stronie klienta</strong>. Języki o architekturze klient-serwer, takie jak PHP i Ruby nie są obsługiwane.</li> <li>Jeśli demo wymaga zewnętrznych zasobów, by uzyskać do nich dostęp, powinno używać technologii <strong>AJAX</strong>.</li> <li>W polu szczegółowych informacji o demie podaj informacje o treściach innych podmiotów zawartych w demie, które nie mogą być udostępnione na zasadach wolnych licencji i zawrzyj odnośniki do stron internetowych ich autorów.</li> </ul>"
 
 #: apps/demos/templates/demos/submit.html:124
 msgid "<ul> <li>Your demo’s source code should be packaged inside a Zip file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the Zip.</li> <li>Your demo should be built on client-side technology (HTML, CSS, Javascript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use AJAX to access them.</li> <li>To submit your demo, you need an <a href=\"%(signup_url)s\">MDN account</a>.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
-msgstr "<ul> <li>Kod źródłowy demo powinien być spakowany w pliku ZIP.</li> <li>Strona główna demo powinna mieć nazwę <code>index.html</code> i znajdować się w katalogu gównym archiwum ZIP.</li> <li>Demo powinno być zbudowane w oparciu o technologie, takie jak HTML, CSS, JavaScript bazujące na operacjach wykonywanych po stronie klienta. Języki o architekturze klient-serwer, takie jak PHP i Ruby nie są obsługiwane.</li> <li>Jeśli demo wymaga zewnętrznych zasobów, by uzyskać do nich dostęp, powinno używać technologii AJAX.</li> <li>W polu szczegółowych informacji o demo podaj informacje o treściach innych podmiotów zawartych w demo, które nie mogą być udostępnione na zasadach wolnych licencji i zawrzyj odnośniki do stron internetowych ich autorów.</li> </ul>"
+msgstr "<ul> <li>Kod źródłowy dema powinien być spakowany w pliku ZIP.</li> <li>Strona główna dema powinna mieć nazwę <code>index.html</code> i znajdować się w katalogu gównym archiwum ZIP.</li> <li>Demo powinno być zbudowane w oparciu o technologie, takie jak HTML, CSS, JavaScript bazujące na operacjach wykonywanych po stronie klienta. Języki o architekturze klient-serwer, takie jak PHP i Ruby nie są obsługiwane.</li> <li>Jeśli demo wymaga zewnętrznych zasobów, by uzyskać do nich dostęp, powinno używać technologii AJAX.</li> <li>W polu szczegółowych informacji o demie podaj informacje o treściach innych podmiotów zawartych w demie, które nie mogą być udostępnione na zasadach wolnych licencji i zawrzyj odnośniki do stron internetowych ich autorów.</li> </ul>"
 
 #: apps/landing/templates/landing/mozilla.html:107
 msgid "A Mozilla source tree browser."
@@ -627,7 +627,7 @@ msgstr "Zamknij"
 #: apps/demos/templates/demos/detail.html:200
 #: apps/demos/templates/demos/elements/comments_tree.html:50
 msgid "Comment"
-msgstr "Komentuj"
+msgstr "Prześlij"
 
 #: apps/landing/templates/landing/addons.html:61
 msgid "Complete documentation for developing extensions for Mozilla applications."
@@ -959,7 +959,7 @@ msgstr "Oznaczenie zostało odrzucone przez moderatora"
 
 #: apps/demos/templates/demos/flag.html:37
 msgid "Flag this demo?"
-msgstr "Zgłosić to wideo?"
+msgstr "Zgłosić to demo?"
 
 #: apps/contentflagging/models.py:27
 msgid "Flagged"
@@ -1030,7 +1030,7 @@ msgstr "Przejdź do ostatniej strony"
 #: apps/demos/templates/demos/detail.html:27
 #: apps/demos/templates/demos/launch.html:62
 msgid "Go to the next demo, {demo_title}"
-msgstr "Przejdź do następnego demo, {demo_title}"
+msgstr "Przejdź do następnego dema, {demo_title}"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:59
 msgid "Go to the next page"
@@ -1039,7 +1039,7 @@ msgstr "Przejdź do następnej strony"
 #: apps/demos/templates/demos/detail.html:23
 #: apps/demos/templates/demos/launch.html:58
 msgid "Go to the previous demo, {demo_title}"
-msgstr "Przejdź do poprzedniego demo, {demo_title}"
+msgstr "Przejdź do poprzedniego dema, {demo_title}"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:56
 msgid "Go to the previous page"
@@ -1379,7 +1379,7 @@ msgstr "Więcej"
 
 #: apps/demos/templates/demos/detail.html:165
 msgid "More About This Demo From The Author"
-msgstr "Więcej informacji od autora o tym demo"
+msgstr "Więcej informacji od autora o tym demie"
 
 #: apps/docs/templates/docs/docs.html:112
 msgid "Most Active Docs"
@@ -1550,7 +1550,7 @@ msgstr "Poprzedni"
 
 #: apps/demos/templates/demos/submit.html:107
 msgid "Provide at least one screenshot of your demo in action"
-msgstr "Dołącz przynajmniej jeden obrazek tego demo w działaniu"
+msgstr "Dołącz przynajmniej jeden obrazek tego dema w działaniu"
 
 #: apps/demos/templates/demos/submit.html:137
 msgid "Provide the Source Code"
@@ -1762,7 +1762,7 @@ msgstr "Wybierz właściwą licencję dla tego kodu źródłowego."
 
 #: apps/demos/templates/demos/submit.html:92
 msgid "Select up to five technologies used in your demo."
-msgstr "Zaznacz maksymalnie pięć technologii użytych w tym demo."
+msgstr "Zaznacz maksymalnie pięć technologii użytych w tym demie."
 
 #: apps/demos/templates/demos/detail.html:99
 #: apps/demos/templates/demos/launch.html:43
@@ -1786,7 +1786,7 @@ msgstr "Udostępnij to demo w swojej sieci społecznościowej"
 
 #: apps/demos/templates/demos/submit.html:103
 msgid "Show Off Your Demo"
-msgstr "Pochwal się swoimi demo"
+msgstr "Pochwal się swoimi demem"
 
 #: apps/demos/templates/demos/detail.html:63
 msgid "Show demo"
@@ -1966,9 +1966,9 @@ msgstr "Istnieją różne sposoby użycia kodu Mozilli we własnych projektach. 
 #: apps/demos/templates/demos/elements/submission_thumb.html:17
 msgid "There is {count} comment for this demo"
 msgid_plural "There are {count} comments for this demo"
-msgstr[0] "Jest {count} komentarz dla tego demo"
-msgstr[1] "Są {count} komentarze dla tego demo"
-msgstr[2] "Jest {count} komentarzy dla tego demo"
+msgstr[0] "Jest {count} komentarz dla tego dema"
+msgstr[1] "Są {count} komentarze dla tego dema"
+msgstr[2] "Jest {count} komentarzy dla tego dema"
 
 #: apps/devmo/models.py:35
 msgid "This URL has an invalid format. Valid URLs look like http://example.com/my_page."
@@ -2024,7 +2024,7 @@ msgstr "Najczęściej używane"
 
 #: apps/demos/templates/demos/submit.html:147
 msgid "Upload demo file&hellip;"
-msgstr "Prześli plik demo&hellip;"
+msgstr "Prześli plik dema&hellip;"
 
 #: apps/landing/templates/landing/addons.html:101
 msgid "Use Add-ons Builder to quickly and easily develop an extension for Firefox using common web technologies."
@@ -2300,7 +2300,7 @@ msgstr "opisz demo bardziej szczegółowo (opcjonalne)"
 
 #: apps/demos/models.py:255
 msgid "describe your demo in one line"
-msgstr "zawrzyj opis demo w tym wierszu"
+msgstr "zawrzyj opis dema w tym wierszu"
 
 #: apps/landing/templates/landing/web.html:75
 msgid "geckoday via AMO"
@@ -2308,7 +2308,7 @@ msgstr "geckoday przez AMO"
 
 #: apps/demos/models.py:295
 msgid "have a video of your demo in action? (optional)"
-msgstr "masz działające wideo tego demo? (opcjonalne)"
+msgstr "masz działające wideo tego dema? (opcjonalne)"
 
 #: apps/demos/__init__.py:293
 msgid "http://creativecommons.org/publicdomain/zero/1.0/"
@@ -2646,7 +2646,7 @@ msgstr[2] "tygodni"
 
 #: apps/demos/models.py:250
 msgid "what is your demo's name?"
-msgstr "podaj nazwę demo"
+msgstr "podaj nazwę dema"
 
 #: apps/demos/helpers.py:217
 msgid "year"
