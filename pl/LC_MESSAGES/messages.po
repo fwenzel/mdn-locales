@@ -1701,7 +1701,7 @@ msgstr "Wyniki szukania dla „{q}”"
 
 #: apps/demos/feeds.py:214
 msgid "Search results for demo submissions matching \"%s\""
-msgstr "Wyniki wyszukiwania demo spełniające zapytanie „%s”"
+msgstr "Wyniki wyszukiwania dem spełniających zapytanie „%s”"
 
 #: apps/demos/templates/demos/elements/search_form.html:4
 msgid "Search the Demo Studio"
@@ -2615,7 +2615,7 @@ msgstr "ID obiektu"
 
 #: apps/contentflagging/models.py:71
 msgid "please explain what content you feel is inappropriate"
-msgstr "wyjaśnij która część treści jest wg ciebie niewłaściwa"
+msgstr "wyjaśnij, która część treści jest wg ciebie niewłaściwa"
 
 #: apps/contentflagging/models.py:68
 msgid "reason for flagging the content"
@@ -2627,7 +2627,7 @@ msgstr "najnowsze"
 
 #: apps/demos/models.py:299
 msgid "select a ZIP file containing your demo"
-msgstr "wybierz plik .zip z tym demo"
+msgstr "wybierz plik .zip z tym demem"
 
 #: apps/demos/models.py:270
 msgid "select up to 5 tags that describe your demo"
