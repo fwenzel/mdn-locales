@@ -6,10 +6,10 @@ msgstr ""
 "PO-Revision-Date: 2011-01-07 19:11+0200\n"
 "Last-Translator: Edin <edo@mozilla-hr.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hr\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.1.4\n"
 
@@ -301,7 +301,7 @@ msgid "<p>To submit your demo, you need an <strong><a href=\"%(signup_url)s\">MD
 msgstr ""
 
 #: apps/demos/templates/demos/submit.html:138
-msgid "<p>Upload a Zip file of your source code, in which the main page of your demo is named <code>index.html</code> in the root directory.</p>"
+msgid "<p>Upload a ZIP file of your source code, in which the main page of your demo is named <code>index.html</code> in the root directory.</p>"
 msgstr ""
 
 #: apps/demos/templates/demos/home.html:23
@@ -350,8 +350,8 @@ msgstr ""
 
 #: apps/demos/templates/demos/submit.html:124
 msgid ""
-"<ul> <li>Your demo’s source code should be packaged inside a Zip file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the Zip.</li> <li>Your demo "
-"should be built on client-side technology (HTML, CSS, Javascript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use AJAX "
+"<ul> <li>Your demo’s source code should be packaged inside a ZIP file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the ZIP.</li> <li>Your demo "
+"should be built on client-side technology (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use AJAX "
 "to access them.</li> <li>To submit your demo, you need an <a href=\"%(signup_url)s\">MDN account</a>.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed "
 "under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
 msgstr ""
@@ -364,7 +364,7 @@ msgstr "Preglednik Mozillinog stabla izvornog koda."
 msgid "A comprehensive list of terms to help Web developers find the documentation they need."
 msgstr "Sveobuhvatan popis pojmova da bi pomogli web programerima u pronalasku dokumentacije koju trebaju."
 
-#: templates/base.html:48
+#: templates/base.html:49
 msgid "A comprehensive, usable, and accurate resource for everyone developing for the Open Web."
 msgstr "Sveobuhvatni, korisni i točni resurs za svakoga tko radi na razvoju za otvoreni web."
 
@@ -384,7 +384,7 @@ msgstr "AMO središte programera"
 msgid "API & Language Reference"
 msgstr "API & Jezičke reference"
 
-#: templates/base.html:109
+#: templates/base.html:110
 msgid "About MDN"
 msgstr "O MDNu"
 
@@ -405,7 +405,7 @@ msgid "Add-on Validator"
 msgstr "Add-on Validator"
 
 #: apps/devmo/__init__.py:6 apps/docs/templates/docs/docs.html:70 apps/docs/templates/docs/docs.html:86 apps/landing/templates/landing/addons.html:11 apps/landing/templates/landing/addons.html:17
-#: apps/landing/templates/landing/home.html:138 templates/base.html:71 templates/base_compact.html:24
+#: apps/landing/templates/landing/home.html:138 templates/base.html:72 templates/base_compact.html:24
 msgid "Add-ons"
 msgstr "Dodaci"
 
@@ -611,7 +611,7 @@ msgstr ""
 msgid "Content hidden by moderator"
 msgstr ""
 
-#: templates/base.html:106
+#: templates/base.html:107
 msgid "Content is available under <a href=\"%(copyright_url)s\">these licenses</a>"
 msgstr "Sadržaj je dostupan pod <a href=\"%(copyright_url)s\">ovim licencama</a>"
 
@@ -683,20 +683,20 @@ msgstr ""
 #: apps/demos/templates/demos/base.html:4 apps/demos/templates/demos/delete.html:21 apps/demos/templates/demos/delete_comment.html:21 apps/demos/templates/demos/detail.html:14
 #: apps/demos/templates/demos/flag.html:21 apps/demos/templates/demos/home.html:14 apps/demos/templates/demos/listing_all.html:18 apps/demos/templates/demos/listing_search.html:24
 #: apps/demos/templates/demos/listing_tag.html:19 apps/demos/templates/demos/profile_detail.html:23 apps/demos/templates/demos/submit.html:43 apps/demos/templates/demos/submit_noauth.html:19
-#: templates/base.html:77 templates/base_compact.html:18
+#: templates/base.html:78 templates/base_compact.html:18
 #, fuzzy
 msgid "Demo Studio"
 msgstr "Studije slučaja"
 
-#: apps/demos/templates/demos/detail.html:245
+#: apps/demos/templates/demos/detail.html:251
 msgid "Demo is inappropriate"
 msgstr ""
 
-#: apps/demos/templates/demos/detail.html:246
+#: apps/demos/templates/demos/detail.html:252
 msgid "Demo is not by this author"
 msgstr ""
 
-#: apps/demos/templates/demos/detail.html:244
+#: apps/demos/templates/demos/detail.html:250
 msgid "Demo is not working"
 msgstr ""
 
@@ -760,7 +760,7 @@ msgstr ""
 msgid "Do you like this demo?"
 msgstr ""
 
-#: apps/docs/templates/docs/docs.html:7 templates/base.html:76 templates/base_compact.html:26
+#: apps/docs/templates/docs/docs.html:7 templates/base.html:77 templates/base_compact.html:26
 msgid "Doc Center"
 msgstr "Dokumentacijski centar"
 
@@ -833,7 +833,8 @@ msgstr "Omiljeni članci vezani za <span class=\"mobile\">mobitele</span>"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:98
-msgid "Favorite <span class=\"moz\">Mozilla</span> Tools"
+#, fuzzy
+msgid "Favorite <span class=\"mozilla\">Mozilla</span> Tools"
 msgstr "Omiljeni <span class=\"moz\">Mozilla</span> alati"
 
 #. Please escape HTML entities here, like &amp;
@@ -937,7 +938,7 @@ msgstr ""
 msgid "Forms"
 msgstr "Forumi"
 
-#: templates/base.html:78 templates/base_compact.html:27
+#: templates/base.html:79 templates/base_compact.html:27
 msgid "Forums"
 msgstr "Forumi"
 
@@ -1023,7 +1024,7 @@ msgstr "Demo prikazi hakiranja"
 msgid "Hear from other developers about the advantages of HTML5 and developing for the mobile Web in this article from ReadWriteWeb:"
 msgstr "Saznajte od drugih programera o prednostima HTML5 i razvoja za mobilni web u ovom članku iz ReadWriteWeb:"
 
-#: templates/base.html:111
+#: templates/base.html:112
 msgid "Help"
 msgstr "Pomoć"
 
@@ -1274,7 +1275,7 @@ msgid "Media queries and orientation events let authors adjust their layout on h
 msgstr ""
 
 #: apps/demos/__init__.py:174 apps/devmo/__init__.py:18 apps/docs/templates/docs/docs.html:69 apps/docs/templates/docs/docs.html:78 apps/landing/templates/landing/home.html:130
-#: apps/landing/templates/landing/mobile.html:11 apps/landing/templates/landing/mobile.html:17 templates/base.html:70 templates/base_compact.html:23
+#: apps/landing/templates/landing/mobile.html:11 apps/landing/templates/landing/mobile.html:17 templates/base.html:71 templates/base_compact.html:23
 msgid "Mobile"
 msgstr "Mobilni"
 
@@ -1311,7 +1312,7 @@ msgid "Most Viewed"
 msgstr ""
 
 #: apps/devmo/__init__.py:12 apps/docs/templates/docs/docs.html:71 apps/docs/templates/docs/docs.html:97 apps/landing/templates/landing/home.html:147 apps/landing/templates/landing/mozilla.html:11
-#: apps/landing/templates/landing/mozilla.html:17 templates/base.html:72 templates/base_compact.html:25
+#: apps/landing/templates/landing/mozilla.html:17 templates/base.html:73 templates/base_compact.html:25
 msgid "Mozilla"
 msgstr "Mozilla"
 
@@ -1419,7 +1420,8 @@ msgstr "Popularna dokumentacija za <span class=\"mobile\">mobitele</span>"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:38
-msgid "Popular <span class=\"moz\">Mozilla</span> Documentation"
+#, fuzzy
+msgid "Popular <span class=\"mozilla\">Mozilla</span> Documentation"
 msgstr "Popularna dokumentacija o <span class=\"moz\">Mozilli</span>"
 
 #. Please escape HTML entities here, like &amp;
@@ -1486,7 +1488,8 @@ msgstr "Nedavne novosti i ažuriranja <span class=\"mobile\">mobitele</span>"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:116
-msgid "Recent <span class=\"moz\">Mozilla</span> News &amp; Updates"
+#, fuzzy
+msgid "Recent <span class=\"mozilla\">Mozilla</span> News &amp; Updates"
 msgstr "Najnovije <span class=\"moz\">Mozilla</span> novosti i ažuriranja"
 
 #. Please escape HTML entities here, like &amp;
@@ -1570,11 +1573,11 @@ msgstr ""
 msgid "Screenshot #5"
 msgstr ""
 
-#: apps/demos/templates/demos/elements/search_form.html:6 apps/docs/templates/docs/docs.html:18 templates/base.html:59
+#: apps/demos/templates/demos/elements/search_form.html:6 apps/docs/templates/docs/docs.html:18 templates/base.html:60
 msgid "Search"
 msgstr "Traži"
 
-#: templates/base.html:58
+#: templates/base.html:59
 msgid "Search MDN"
 msgstr "Pretraži MDN"
 
@@ -1711,7 +1714,7 @@ msgid "Sort demos by most views"
 msgstr ""
 
 #: apps/demos/templates/demos/submit.html:146
-msgid "Source code Zip file"
+msgid "Source code ZIP file"
 msgstr ""
 
 #: apps/landing/templates/landing/addons.html:65
@@ -1777,8 +1780,8 @@ msgid ""
 "Test the <a href=\"%(fx4_features)s\">next version of Firefox</a> and help us make the world's best browser even better. Firefox 4 advances the modern web and we have a <a href=\"%(fx4_tech)s\">big "
 "chart full of check marks</a> to prove it."
 msgstr ""
-"Isprobajte <a href=\"%(fx4_features)s\">narednu verziju Firefoxa</a> i pomozite nam da najbolji preglednik na svijetu napravimo još boljim. Firefox 4 unapređuje moderni web a mi imamo <a href=\"%"
-"(fx4_tech)s\">veliki popis pun upitnika</a> da dokažemo to."
+"Isprobajte <a href=\"%(fx4_features)s\">narednu verziju Firefoxa</a> i pomozite nam da najbolji preglednik na svijetu napravimo još boljim. Firefox 4 unapređuje moderni web a mi imamo <a href="
+"\"%(fx4_tech)s\">veliki popis pun upitnika</a> da dokažemo to."
 
 #: apps/demos/__init__.py:105
 msgid "The CSS3-Font specification contains enhanced features for fonts and typography like embedding own fonts via @font-face or controlling OpenType font features directly via CSS."
@@ -1878,7 +1881,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: apps/demos/templates/demos/detail.html:224
+#: apps/demos/templates/demos/detail.html:230
 msgid "This demo is released under the <a href=\"%(link)s\">%(title)s</a> license."
 msgstr ""
 
@@ -1973,7 +1976,7 @@ msgstr "Pogledajte video"
 msgid "We support YouTube and Vimeo"
 msgstr ""
 
-#: apps/devmo/__init__.py:24 apps/landing/templates/landing/web.html:11 apps/landing/templates/landing/web.html:17 templates/base.html:69 templates/base_compact.html:22
+#: apps/devmo/__init__.py:24 apps/landing/templates/landing/web.html:11 apps/landing/templates/landing/web.html:17 templates/base.html:70 templates/base_compact.html:22
 msgid "Web"
 msgstr "Web"
 
@@ -2027,7 +2030,7 @@ msgstr "Dobrodošli na Mozilla Developer Network, poznatu i kao:"
 msgid "Welcome to the Web Developer Community:"
 msgstr "Dobrodošli u zajednicu web programera:"
 
-#: templates/base.html:93
+#: templates/base.html:94
 msgid "What do you think of the new MDN? Please <a href=\"%(uservoice_url)s\">share your feedback</a> with us."
 msgstr "Što mislite o novom MDN? Molimo <a href=\"%(uservoice_url)s\">podijelite vaš komentar</a> s nama."
 

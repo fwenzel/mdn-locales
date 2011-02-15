@@ -245,9 +245,7 @@ msgstr "<cite class=\"author fn\">%(comment_profile_link)s</cite> 說，"
 
 #: apps/demos/templates/demos/detail.html:181
 msgid "<p><a href=\"/Special:UserRegistration\">Register</a> or <a href=\"/Special:UserLogin\">log in</a> to add your own.</p>"
-msgstr ""
-"<p><a href=\"/Special:UserRegistration\">註冊</a> 或 <a "
-"href=\"/Special:UserLogin\">登入</a> 以加入您的作品。</p>"
+msgstr "<p><a href=\"/Special:UserRegistration\">註冊</a> 或 <a href=\"/Special:UserLogin\">登入</a> 以加入您的作品。</p>"
 
 #: apps/demos/templates/demos/delete_comment.html:39
 msgid "<p>Are you sure that you would like to delete this comment?</p>"
@@ -259,11 +257,11 @@ msgstr "<p>告訴我們關於您的 demo 的資訊，包含名稱、說明，以
 
 #: apps/demos/templates/demos/submit_noauth.html:65
 msgid "<p>To submit your demo, you need an <strong><a href=\"%(signup_url)s\">MDN account</a></strong>.</p>"
-msgstr ""
-"<p>要送出您的 demo，您需要 <strong><a href=\"%(signup_url)s\">MDN 帳號</a></strong>。</p>"
+msgstr "<p>要送出您的 demo，您需要 <strong><a href=\"%(signup_url)s\">MDN 帳號</a></strong>。</p>"
 
 #: apps/demos/templates/demos/submit.html:138
-msgid "<p>Upload a Zip file of your source code, in which the main page of your demo is named <code>index.html</code> in the root directory.</p>"
+#, fuzzy
+msgid "<p>Upload a ZIP file of your source code, in which the main page of your demo is named <code>index.html</code> in the root directory.</p>"
 msgstr "<p>上傳您的原始碼的 Zip 壓縮當，當中您作品的主要頁面應該被命名為根目錄下的 <code>index.html</code>。</p>"
 
 #: apps/demos/templates/demos/home.html:23
@@ -272,11 +270,8 @@ msgid ""
 "<strong>demos</strong> that showcase what HTML, CSS, and JavaScript can do.</li> <li>Inspect the <strong>source code</strong> for those demos so you can see how they work.</li> <li>Read "
 "<strong>documentation</strong> to learn about the open standards and technologies that power the Web.</li> </ul>"
 msgstr ""
-"<p>歡迎來到 Mozilla Demo Studio，一個讓像您這樣的開發者可以開發、分享、展示，並學習網頁技術的地方。透過探索 Demo "
-"Studio，看看有什麼可能:</p> <ul> <li>檢視展示了 HTML、CSS、JavaScript 可以做什麼的 "
-"<strong>demo</strong>。</li> <li>檢測這些 demo 的 "
-"<strong>原始碼</strong>，看看它們是怎麼寫成的。</li> <li>閱讀 <strong>文件</strong> "
-"以了解開放原始碼與技術可以如何加強網頁。</li> </ul>"
+"<p>歡迎來到 Mozilla Demo Studio，一個讓像您這樣的開發者可以開發、分享、展示，並學習網頁技術的地方。透過探索 Demo Studio，看看有什麼可能:</p> <ul> <li>檢視展示了 HTML、CSS、JavaScript 可以做什麼的 "
+"<strong>demo</strong>。</li> <li>檢測這些 demo 的 <strong>原始碼</strong>，看看它們是怎麼寫成的。</li> <li>閱讀 <strong>文件</strong> 以了解開放原始碼與技術可以如何加強網頁。</li> </ul>"
 
 #: apps/demos/templates/demos/submit_noauth.html:32
 msgid ""
@@ -317,8 +312,8 @@ msgstr ""
 
 #: apps/demos/templates/demos/submit.html:124
 msgid ""
-"<ul> <li>Your demo’s source code should be packaged inside a Zip file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the Zip.</li> <li>Your demo "
-"should be built on client-side technology (HTML, CSS, Javascript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use AJAX "
+"<ul> <li>Your demo’s source code should be packaged inside a ZIP file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the ZIP.</li> <li>Your demo "
+"should be built on client-side technology (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use AJAX "
 "to access them.</li> <li>To submit your demo, you need an <a href=\"%(signup_url)s\">MDN account</a>.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed "
 "under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
 msgstr ""
@@ -331,7 +326,7 @@ msgstr "Mozilla 的原始碼瀏覽器。"
 msgid "A comprehensive list of terms to help Web developers find the documentation they need."
 msgstr "一個全面性的詞彙清單以幫助網頁開發者找到他們所需的文件。"
 
-#: templates/base.html:48
+#: templates/base.html:49
 msgid "A comprehensive, usable, and accurate resource for everyone developing for the Open Web."
 msgstr "提供大眾開發 Open Web 時所需之全面的、有用的且準確的資源。"
 
@@ -351,7 +346,7 @@ msgstr "AMO 開發者中心"
 msgid "API & Language Reference"
 msgstr "API 與 程式語言參考資料"
 
-#: templates/base.html:109
+#: templates/base.html:110
 msgid "About MDN"
 msgstr "關於 MDN"
 
@@ -372,7 +367,7 @@ msgid "Add-on Validator"
 msgstr "附加元件驗證器"
 
 #: apps/devmo/__init__.py:6 apps/docs/templates/docs/docs.html:70 apps/docs/templates/docs/docs.html:86 apps/landing/templates/landing/addons.html:11 apps/landing/templates/landing/addons.html:17
-#: apps/landing/templates/landing/home.html:138 templates/base.html:71 templates/base_compact.html:24
+#: apps/landing/templates/landing/home.html:138 templates/base.html:72 templates/base_compact.html:24
 msgid "Add-ons"
 msgstr "Add-ons"
 
@@ -539,9 +534,7 @@ msgstr "Canvas"
 #: apps/demos/__init__.py:77
 msgid ""
 "Cascading Style Sheets level 3 (CSS3) provide serveral new features and properties to enhance the formatting and look of documents written in different kinds of markup languages like HTML or XML."
-msgstr ""
-"Cascading Style Sheets level 3 (CSS3) 提供了一些新功能與屬性以增強像是 HTML 或 XML "
-"等不同類型的標記文件的樣式與格式化。"
+msgstr "Cascading Style Sheets level 3 (CSS3) 提供了一些新功能與屬性以增強像是 HTML 或 XML 等不同類型的標記文件的樣式與格式化。"
 
 #: apps/docs/templates/docs/docs.html:45
 msgid "Cascading Style Sheets provide advanced layout and formatting of web content."
@@ -579,7 +572,7 @@ msgstr "內容被管理者刪除"
 msgid "Content hidden by moderator"
 msgstr "內容被管理者隱藏"
 
-#: templates/base.html:106
+#: templates/base.html:107
 msgid "Content is available under <a href=\"%(copyright_url)s\">these licenses</a>"
 msgstr "本站內容皆採用 <a href=\"%(copyright_url)s\">這些授權方式</a> 授權大眾使用"
 
@@ -651,19 +644,19 @@ msgstr "刪除此回應？"
 #: apps/demos/templates/demos/base.html:4 apps/demos/templates/demos/delete.html:21 apps/demos/templates/demos/delete_comment.html:21 apps/demos/templates/demos/detail.html:14
 #: apps/demos/templates/demos/flag.html:21 apps/demos/templates/demos/home.html:14 apps/demos/templates/demos/listing_all.html:18 apps/demos/templates/demos/listing_search.html:24
 #: apps/demos/templates/demos/listing_tag.html:19 apps/demos/templates/demos/profile_detail.html:23 apps/demos/templates/demos/submit.html:43 apps/demos/templates/demos/submit_noauth.html:19
-#: templates/base.html:77 templates/base_compact.html:18
+#: templates/base.html:78 templates/base_compact.html:18
 msgid "Demo Studio"
 msgstr "Demo Studio"
 
-#: apps/demos/templates/demos/detail.html:245
+#: apps/demos/templates/demos/detail.html:251
 msgid "Demo is inappropriate"
 msgstr "不適合的 Demo"
 
-#: apps/demos/templates/demos/detail.html:246
+#: apps/demos/templates/demos/detail.html:252
 msgid "Demo is not by this author"
 msgstr "非由此作者製作的 Demo"
 
-#: apps/demos/templates/demos/detail.html:244
+#: apps/demos/templates/demos/detail.html:250
 msgid "Demo is not working"
 msgstr "Demo 壞掉了"
 
@@ -727,7 +720,7 @@ msgstr "放棄 Demo"
 msgid "Do you like this demo?"
 msgstr "您喜歡這個 Demo 嗎？"
 
-#: apps/docs/templates/docs/docs.html:7 templates/base.html:76 templates/base_compact.html:26
+#: apps/docs/templates/docs/docs.html:7 templates/base.html:77 templates/base_compact.html:26
 msgid "Doc Center"
 msgstr "Doc Center"
 
@@ -800,7 +793,8 @@ msgstr "最愛的 <span class=\"mobile\">行動版</span> 文章"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:98
-msgid "Favorite <span class=\"moz\">Mozilla</span> Tools"
+#, fuzzy
+msgid "Favorite <span class=\"mozilla\">Mozilla</span> Tools"
 msgstr "最愛的 <span class=\"moz\">Mozilla</span> 工具"
 
 #. Please escape HTML entities here, like &amp;
@@ -900,7 +894,7 @@ msgstr "HTML5 當中的 Form 元素與屬性提供一個比 HTML4 更深層的�
 msgid "Forms"
 msgstr "表單"
 
-#: templates/base.html:78 templates/base_compact.html:27
+#: templates/base.html:79 templates/base_compact.html:27
 msgid "Forums"
 msgstr "Forums"
 
@@ -985,7 +979,7 @@ msgstr "Hacks Demos"
 msgid "Hear from other developers about the advantages of HTML5 and developing for the mobile Web in this article from ReadWriteWeb:"
 msgstr "在這篇 ReadWriteWeb 的文章當中看看其他開發者提到關於 HTML5 的優點，以及行動網頁開發的開發:"
 
-#: templates/base.html:111
+#: templates/base.html:112
 msgid "Help"
 msgstr "說明"
 
@@ -1019,9 +1013,7 @@ msgstr "超文件標示語言，網頁的核心技術。"
 
 #: apps/demos/templates/demos/submit.html:165
 msgid "I accept the Mozilla Demo Studio <a href=\"%(terms_url)s#tfc\">Terms for Contributors</a> and <a href=\"%(terms_url)s#rrd\">Rights Representation Details</a>"
-msgstr ""
-"我接受 Mozilla Demo Studio 的 <a href=\"%(terms_url)s#tfc\">貢獻者條款</a> 與 <a href=\"%"
-"(terms_url)s#rrd\">權利代表資訊</a>"
+msgstr "我接受 Mozilla Demo Studio 的 <a href=\"%(terms_url)s#tfc\">貢獻者條款</a> 與 <a href=\"%(terms_url)s#rrd\">權利代表資訊</a>"
 
 #: apps/landing/templates/landing/addons.html:45
 msgid "If you are comfortable with a command line and prefer working locally, the Add-ons Builder SDK gives you a development environment on your own computer."
@@ -1231,7 +1223,7 @@ msgid "Media queries and orientation events let authors adjust their layout on h
 msgstr "媒體選擇與裝置方向事件可以讓作者在像手機之類的手持裝置上調整版面。"
 
 #: apps/demos/__init__.py:174 apps/devmo/__init__.py:18 apps/docs/templates/docs/docs.html:69 apps/docs/templates/docs/docs.html:78 apps/landing/templates/landing/home.html:130
-#: apps/landing/templates/landing/mobile.html:11 apps/landing/templates/landing/mobile.html:17 templates/base.html:70 templates/base_compact.html:23
+#: apps/landing/templates/landing/mobile.html:11 apps/landing/templates/landing/mobile.html:17 templates/base.html:71 templates/base_compact.html:23
 msgid "Mobile"
 msgstr "Mobile"
 
@@ -1268,7 +1260,7 @@ msgid "Most Viewed"
 msgstr "最多人檢視的"
 
 #: apps/devmo/__init__.py:12 apps/docs/templates/docs/docs.html:71 apps/docs/templates/docs/docs.html:97 apps/landing/templates/landing/home.html:147 apps/landing/templates/landing/mozilla.html:11
-#: apps/landing/templates/landing/mozilla.html:17 templates/base.html:72 templates/base_compact.html:25
+#: apps/landing/templates/landing/mozilla.html:17 templates/base.html:73 templates/base_compact.html:25
 msgid "Mozilla"
 msgstr "Mozilla"
 
@@ -1374,7 +1366,8 @@ msgstr "熱門 <span class=\"mobile\">行動網頁</span> 文件"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:38
-msgid "Popular <span class=\"moz\">Mozilla</span> Documentation"
+#, fuzzy
+msgid "Popular <span class=\"mozilla\">Mozilla</span> Documentation"
 msgstr "熱門 <span class=\"moz\">Mozilla</span> 文件"
 
 #. Please escape HTML entities here, like &amp;
@@ -1396,10 +1389,8 @@ msgid ""
 "Posted <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime=\"%(comment_isotime)s"
 "\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
 msgstr ""
-"貼出於 <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"%(display_name)s "
-"所送出的此回佣的永久鏈結\"><time class=\"published\" pubdate=\"pubdate\" datetime=\"%"
-"(comment_isotime)s\" title=\"%(comment_isotime)s\">%"
-"(comment_timesince)s</time></a>"
+"貼出於 <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"%(display_name)s 所送出的此回佣的永久鏈結\"><time class=\"published\" pubdate=\"pubdate\" datetime=\"%(comment_isotime)s\" title="
+"\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
 
 #: apps/landing/templates/landing/mobile.html:123
 msgid "Pre-Alpha Fennec and HTML5 Demos"
@@ -1445,7 +1436,8 @@ msgstr "最近的 <span class=\"mobile\">行動網頁</span> 新聞與更新"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:116
-msgid "Recent <span class=\"moz\">Mozilla</span> News &amp; Updates"
+#, fuzzy
+msgid "Recent <span class=\"mozilla\">Mozilla</span> News &amp; Updates"
 msgstr "最近的 <span class=\"moz\">Mozilla</span> 新聞與更新"
 
 #. Please escape HTML entities here, like &amp;
@@ -1529,11 +1521,11 @@ msgstr "畫面擷圖 #4"
 msgid "Screenshot #5"
 msgstr "畫面擷圖 #5"
 
-#: apps/demos/templates/demos/elements/search_form.html:6 apps/docs/templates/docs/docs.html:18 templates/base.html:59
+#: apps/demos/templates/demos/elements/search_form.html:6 apps/docs/templates/docs/docs.html:18 templates/base.html:60
 msgid "Search"
 msgstr "搜尋"
 
-#: templates/base.html:58
+#: templates/base.html:59
 msgid "Search MDN"
 msgstr "搜尋 MDN"
 
@@ -1668,7 +1660,7 @@ msgid "Sort demos by most views"
 msgstr ""
 
 #: apps/demos/templates/demos/submit.html:146
-msgid "Source code Zip file"
+msgid "Source code ZIP file"
 msgstr ""
 
 #: apps/landing/templates/landing/addons.html:65
@@ -1828,7 +1820,7 @@ msgid "This demo has been viewed {count} time"
 msgid_plural "This demo has been viewed {count} times"
 msgstr[0] ""
 
-#: apps/demos/templates/demos/detail.html:224
+#: apps/demos/templates/demos/detail.html:230
 msgid "This demo is released under the <a href=\"%(link)s\">%(title)s</a> license."
 msgstr ""
 
@@ -1923,7 +1915,7 @@ msgstr "播放此影片"
 msgid "We support YouTube and Vimeo"
 msgstr ""
 
-#: apps/devmo/__init__.py:24 apps/landing/templates/landing/web.html:11 apps/landing/templates/landing/web.html:17 templates/base.html:69 templates/base_compact.html:22
+#: apps/devmo/__init__.py:24 apps/landing/templates/landing/web.html:11 apps/landing/templates/landing/web.html:17 templates/base.html:70 templates/base_compact.html:22
 msgid "Web"
 msgstr "Web"
 
@@ -1977,7 +1969,7 @@ msgstr "歡迎來到 Mozilla 開發者社群，又稱為:"
 msgid "Welcome to the Web Developer Community:"
 msgstr "歡迎來到網頁開發者社群:"
 
-#: templates/base.html:93
+#: templates/base.html:94
 msgid "What do you think of the new MDN? Please <a href=\"%(uservoice_url)s\">share your feedback</a> with us."
 msgstr "您覺得新的 MDN 如何？請和我們 <a href=\"%(uservoice_url)s\">分享您的意見回饋</a>。"
 

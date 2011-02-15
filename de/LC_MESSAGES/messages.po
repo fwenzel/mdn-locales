@@ -4,10 +4,10 @@ msgstr ""
 "PO-Revision-Date: 2010-12-20 19:33+0200\n"
 "Last-Translator: Frederic <fwenzel@mozilla.com>\n"
 "Language-Team: none\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.1.4\n"
 
@@ -292,7 +292,7 @@ msgid "<p>To submit your demo, you need an <strong><a href=\"%(signup_url)s\">MD
 msgstr ""
 
 #: apps/demos/templates/demos/submit.html:138
-msgid "<p>Upload a Zip file of your source code, in which the main page of your demo is named <code>index.html</code> in the root directory.</p>"
+msgid "<p>Upload a ZIP file of your source code, in which the main page of your demo is named <code>index.html</code> in the root directory.</p>"
 msgstr ""
 
 #: apps/demos/templates/demos/home.html:23
@@ -341,8 +341,8 @@ msgstr ""
 
 #: apps/demos/templates/demos/submit.html:124
 msgid ""
-"<ul> <li>Your demo’s source code should be packaged inside a Zip file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the Zip.</li> <li>Your demo "
-"should be built on client-side technology (HTML, CSS, Javascript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use AJAX "
+"<ul> <li>Your demo’s source code should be packaged inside a ZIP file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the ZIP.</li> <li>Your demo "
+"should be built on client-side technology (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use AJAX "
 "to access them.</li> <li>To submit your demo, you need an <a href=\"%(signup_url)s\">MDN account</a>.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed "
 "under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
 msgstr ""
@@ -355,7 +355,7 @@ msgstr "Ein Browser für den Mozilla Source Code."
 msgid "A comprehensive list of terms to help Web developers find the documentation they need."
 msgstr "Eine ausführliche Liste von Begriffen, um Webentwicklern dabei zu helfen, die Dokumentation zu finden, die sie benötigen."
 
-#: templates/base.html:48
+#: templates/base.html:49
 msgid "A comprehensive, usable, and accurate resource for everyone developing for the Open Web."
 msgstr "Eine umfangreiche, einfache und genaue Quelle für alle, die für das offene Web entwickeln."
 
@@ -375,7 +375,7 @@ msgstr "AMO Entwicklerecke"
 msgid "API & Language Reference"
 msgstr "API- und Sprachreferenz"
 
-#: templates/base.html:109
+#: templates/base.html:110
 msgid "About MDN"
 msgstr "Über MDN"
 
@@ -396,7 +396,7 @@ msgid "Add-on Validator"
 msgstr "Add-on-Validierer"
 
 #: apps/devmo/__init__.py:6 apps/docs/templates/docs/docs.html:70 apps/docs/templates/docs/docs.html:86 apps/landing/templates/landing/addons.html:11 apps/landing/templates/landing/addons.html:17
-#: apps/landing/templates/landing/home.html:138 templates/base.html:71 templates/base_compact.html:24
+#: apps/landing/templates/landing/home.html:138 templates/base.html:72 templates/base_compact.html:24
 msgid "Add-ons"
 msgstr "Add-ons"
 
@@ -605,7 +605,7 @@ msgstr ""
 msgid "Content hidden by moderator"
 msgstr ""
 
-#: templates/base.html:106
+#: templates/base.html:107
 msgid "Content is available under <a href=\"%(copyright_url)s\">these licenses</a>"
 msgstr "Die Inhalte stehen unter <a href=\"%(copyright_url)s\">diesen Lizenzen</a>"
 
@@ -677,20 +677,20 @@ msgstr ""
 #: apps/demos/templates/demos/base.html:4 apps/demos/templates/demos/delete.html:21 apps/demos/templates/demos/delete_comment.html:21 apps/demos/templates/demos/detail.html:14
 #: apps/demos/templates/demos/flag.html:21 apps/demos/templates/demos/home.html:14 apps/demos/templates/demos/listing_all.html:18 apps/demos/templates/demos/listing_search.html:24
 #: apps/demos/templates/demos/listing_tag.html:19 apps/demos/templates/demos/profile_detail.html:23 apps/demos/templates/demos/submit.html:43 apps/demos/templates/demos/submit_noauth.html:19
-#: templates/base.html:77 templates/base_compact.html:18
+#: templates/base.html:78 templates/base_compact.html:18
 #, fuzzy
 msgid "Demo Studio"
 msgstr "Fallbeispiele"
 
-#: apps/demos/templates/demos/detail.html:245
+#: apps/demos/templates/demos/detail.html:251
 msgid "Demo is inappropriate"
 msgstr ""
 
-#: apps/demos/templates/demos/detail.html:246
+#: apps/demos/templates/demos/detail.html:252
 msgid "Demo is not by this author"
 msgstr ""
 
-#: apps/demos/templates/demos/detail.html:244
+#: apps/demos/templates/demos/detail.html:250
 msgid "Demo is not working"
 msgstr ""
 
@@ -754,7 +754,7 @@ msgstr ""
 msgid "Do you like this demo?"
 msgstr ""
 
-#: apps/docs/templates/docs/docs.html:7 templates/base.html:76 templates/base_compact.html:26
+#: apps/docs/templates/docs/docs.html:7 templates/base.html:77 templates/base_compact.html:26
 msgid "Doc Center"
 msgstr "Doku-Center"
 
@@ -827,7 +827,8 @@ msgstr "Beliebte <span class=\"mobile\">Mobile</span>-Werkzeuge"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:98
-msgid "Favorite <span class=\"moz\">Mozilla</span> Tools"
+#, fuzzy
+msgid "Favorite <span class=\"mozilla\">Mozilla</span> Tools"
 msgstr "Beliebte <span class=\"addons\">Mozilla</span>-Werkzeuge"
 
 #. Please escape HTML entities here, like &amp;
@@ -931,7 +932,7 @@ msgstr ""
 msgid "Forms"
 msgstr "Diskussionsforen"
 
-#: templates/base.html:78 templates/base_compact.html:27
+#: templates/base.html:79 templates/base_compact.html:27
 msgid "Forums"
 msgstr "Diskussionsforen"
 
@@ -1017,7 +1018,7 @@ msgstr "Hacks Demos"
 msgid "Hear from other developers about the advantages of HTML5 and developing for the mobile Web in this article from ReadWriteWeb:"
 msgstr "Erfahren Sie von anderen Entwicklern die Vorteile von HTML5 und der Entwicklung für das mobile Web in diesem Artikel von ReadWriteWeb:"
 
-#: templates/base.html:111
+#: templates/base.html:112
 msgid "Help"
 msgstr "Hilfe"
 
@@ -1268,7 +1269,7 @@ msgid "Media queries and orientation events let authors adjust their layout on h
 msgstr ""
 
 #: apps/demos/__init__.py:174 apps/devmo/__init__.py:18 apps/docs/templates/docs/docs.html:69 apps/docs/templates/docs/docs.html:78 apps/landing/templates/landing/home.html:130
-#: apps/landing/templates/landing/mobile.html:11 apps/landing/templates/landing/mobile.html:17 templates/base.html:70 templates/base_compact.html:23
+#: apps/landing/templates/landing/mobile.html:11 apps/landing/templates/landing/mobile.html:17 templates/base.html:71 templates/base_compact.html:23
 msgid "Mobile"
 msgstr "Mobile"
 
@@ -1305,7 +1306,7 @@ msgid "Most Viewed"
 msgstr ""
 
 #: apps/devmo/__init__.py:12 apps/docs/templates/docs/docs.html:71 apps/docs/templates/docs/docs.html:97 apps/landing/templates/landing/home.html:147 apps/landing/templates/landing/mozilla.html:11
-#: apps/landing/templates/landing/mozilla.html:17 templates/base.html:72 templates/base_compact.html:25
+#: apps/landing/templates/landing/mozilla.html:17 templates/base.html:73 templates/base_compact.html:25
 msgid "Mozilla"
 msgstr "Mozilla"
 
@@ -1413,7 +1414,8 @@ msgstr "Beliebte <span class=\"mobile\">Mobile</span>-Dokumentation"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:38
-msgid "Popular <span class=\"moz\">Mozilla</span> Documentation"
+#, fuzzy
+msgid "Popular <span class=\"mozilla\">Mozilla</span> Documentation"
 msgstr "Beliebte <span class=\"mobile\">Mozilla</span>-Dokumentation"
 
 #. Please escape HTML entities here, like &amp;
@@ -1480,7 +1482,8 @@ msgstr "Neuigkeiten und Updates zu <span class=\"mobile\">Mobile</span>"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:116
-msgid "Recent <span class=\"moz\">Mozilla</span> News &amp; Updates"
+#, fuzzy
+msgid "Recent <span class=\"mozilla\">Mozilla</span> News &amp; Updates"
 msgstr "Neuigkeiten und Updates zu <span class=\"moz\">Mozilla</span>"
 
 #. Please escape HTML entities here, like &amp;
@@ -1564,11 +1567,11 @@ msgstr ""
 msgid "Screenshot #5"
 msgstr ""
 
-#: apps/demos/templates/demos/elements/search_form.html:6 apps/docs/templates/docs/docs.html:18 templates/base.html:59
+#: apps/demos/templates/demos/elements/search_form.html:6 apps/docs/templates/docs/docs.html:18 templates/base.html:60
 msgid "Search"
 msgstr "Suchen"
 
-#: templates/base.html:58
+#: templates/base.html:59
 msgid "Search MDN"
 msgstr "MDN durchsuchen"
 
@@ -1705,7 +1708,7 @@ msgid "Sort demos by most views"
 msgstr ""
 
 #: apps/demos/templates/demos/submit.html:146
-msgid "Source code Zip file"
+msgid "Source code ZIP file"
 msgstr ""
 
 #: apps/landing/templates/landing/addons.html:65
@@ -1870,7 +1873,7 @@ msgid_plural "This demo has been viewed {count} times"
 msgstr[0] ""
 msgstr[1] ""
 
-#: apps/demos/templates/demos/detail.html:224
+#: apps/demos/templates/demos/detail.html:230
 msgid "This demo is released under the <a href=\"%(link)s\">%(title)s</a> license."
 msgstr ""
 
@@ -1965,7 +1968,7 @@ msgstr "Dieses Video ansehen"
 msgid "We support YouTube and Vimeo"
 msgstr ""
 
-#: apps/devmo/__init__.py:24 apps/landing/templates/landing/web.html:11 apps/landing/templates/landing/web.html:17 templates/base.html:69 templates/base_compact.html:22
+#: apps/devmo/__init__.py:24 apps/landing/templates/landing/web.html:11 apps/landing/templates/landing/web.html:17 templates/base.html:70 templates/base_compact.html:22
 msgid "Web"
 msgstr "Web"
 
@@ -2019,7 +2022,7 @@ msgstr "Willkommen zum Mozilla Developer Network:"
 msgid "Welcome to the Web Developer Community:"
 msgstr "Willkommen zur Web-Entwicklergemeinschaft:"
 
-#: templates/base.html:93
+#: templates/base.html:94
 msgid "What do you think of the new MDN? Please <a href=\"%(uservoice_url)s\">share your feedback</a> with us."
 msgstr "Was halten Sie vom neuen MDN? Bitte <a href=\"%(uservoice_url)s\">teilen Sie uns Ihre Meinung mit</a>."
 
