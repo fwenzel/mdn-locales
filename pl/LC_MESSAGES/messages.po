@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-02-15 10:26+0100\n"
+"PO-Revision-Date: 2011-02-15 14:19+0100\n"
 "Last-Translator: Leszek Życzkowski <leszekz@gmail.com>\n"
 "Language-Team: none\n"
 "Language: pl\n"
@@ -90,9 +90,8 @@ msgstr[1] "%(number)d lata temu"
 msgstr[2] "%(number)d lat temu"
 
 #: apps/demos/feeds.py:199
-#, fuzzy
 msgid "%s's MDN demos"
-msgstr "%s's dema MDN"
+msgstr "Dema autorstwa %s"
 
 #: apps/docs/views.py:33
 msgid "(multiple)"
@@ -890,7 +889,7 @@ msgstr "Nieobsługiwany typ pliku"
 
 #: apps/landing/templates/landing/web.html:48
 msgid "Find out what HTML5 is really all about and how you can develop for a better Web through open standards."
-msgstr "Dowiedz się, co to jest naprawdę HTML5, i jak możesz rozwijać Internet w oparciu o otwarte standardy."
+msgstr "Dowiedz się, co to jest naprawdę HTML5 i jak możesz rozwijać Internet w oparciu o otwarte standardy."
 
 #: apps/landing/templates/landing/home.html:47
 #: apps/landing/templates/landing/home.html:84
@@ -943,7 +942,7 @@ msgstr "Czcionki i typ"
 
 #: apps/landing/templates/landing/web.html:44
 msgid "For the latest in open Web technologies, these cool demos are a great way to discover new documentation."
-msgstr "Te fajne dema są najlepszym sposobem zapoznania się z najnowszymi technologiami otwartej Sieci."
+msgstr "Te fajne dema są najlepszym sposobem zapoznania się z najnowszymi technologiami otwartego Internetu."
 
 #: apps/demos/__init__.py:115
 msgid "Form elements and attributes in HTML5 provide a greater degree of semantic mark-up than HTML4 and remove a great deal of the need for tedious scripting and styling that was required in HTML4."
@@ -2276,7 +2275,7 @@ msgstr "zawrzyj opis dema w tym wierszu"
 
 #: apps/landing/templates/landing/web.html:75
 msgid "geckoday via AMO"
-msgstr "geckoday przez AMO"
+msgstr "pisze geckoday na AMO"
 
 #: apps/demos/models.py:295
 msgid "have a video of your demo in action? (optional)"
