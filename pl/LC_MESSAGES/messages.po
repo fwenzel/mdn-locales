@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-02-13 18:36+0100\n"
+"PO-Revision-Date: 2011-02-15 02:16+0100\n"
 "Last-Translator: Leszek Życzkowski <leszekz@gmail.com>\n"
 "Language-Team: none\n"
 "Language: pl\n"
@@ -359,11 +359,11 @@ msgstr "<p>Zamierzasz usunąć <strong>%(demo_title)s</strong> z Demo Studio.</p
 
 #: apps/demos/templates/demos/submit_noauth.html:41
 msgid "<ul> <li>You must be prepared to <strong>provide the source code</strong> for your demo. Demos are hosted on the Demo Studio’s servers.</li> <li>Your demo’s source code must be available under an <strong>open license</strong>, such as MPL, GPL, or BSD.</li> <li>Your demo should showcase <strong>open web technologies</strong>, such as HTML5 and CSS3.</li> <li>Your demo should support a wide range of <strong>modern web browsers</strong>, like Firefox, Chrome, Safari, and Opera.</li> </ul>"
-msgstr ""
+msgstr "<ul> <li>Musisz być przygotowany do <strong>dostarczenia kodu źródłowego</strong> dema. Dema są utrzymywane na serwerach Demo Studio.</li> <li>Kod źródłowy dema musi być udostępniany na zasadach <strong>otwartych licencji</strong>, takich jak MPL, GPL, lub BSD.</li> <li>Demo powinno być pokazem <strong>otwartych technologii internetowych</strong>, takich jak HTML5 i CSS3.</li> <li>Demo powinno działać na wielu <strong>nowoczesnych przeglądarkach internetowych</strong> jak Firefox, Chrome, Safari, i Opera.</li> </ul>"
 
 #: apps/demos/templates/demos/submit_noauth.html:53
 msgid "<ul> <li>Your demo’s source code should be packaged inside a <strong>ZIP file</strong>.</li> <li>The main page of your demo should be a file named <strong><code>index.html</code></strong> in the root of the ZIP.</li> <li>Your demo should be built on <strong>client-side technology</strong> (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use <strong>AJAX</strong> to access them.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
-msgstr "<ul> <li>Kod źródłowy dema powinien być spakowany w <strong>pliku ZIP</strong>.</li> <li>Strona główna dema powinna mieć nazwę <strong><code>index.html</code></strong> i znajdować się w katalogu gównym archiwum ZIP.</li> <li>Demo powinno być zbudowane w oparciu o technologie, takie jak HTML, CSS, JavaScript bazujące na <strong>operacjach wykonywanych po stronie klienta</strong>. Języki o architekturze klient-serwer, takie jak PHP i Ruby nie są obsługiwane.</li> <li>Jeśli demo wymaga zewnętrznych zasobów, by uzyskać do nich dostęp, powinno używać technologii <strong>AJAX</strong>.</li> <li>W polu szczegółowych informacji o demie podaj informacje o treściach innych podmiotów zawartych w demie, które nie mogą być udostępnione na zasadach wolnych licencji i dodaj odnośniki do stron internetowych ich autorów.</li> </ul>"
+msgstr "<ul> <li>Kod źródłowy dema powinien być spakowany w <strong>pliku ZIP</strong>.</li> <li>Strona główna dema powinna mieć nazwę <strong><code>index.html</code></strong> i znajdować się w katalogu głównym archiwum ZIP.</li> <li>Demo powinno być zbudowane w oparciu o technologie, takie jak HTML, CSS, JavaScript bazujące na <strong>operacjach wykonywanych po stronie klienta</strong>. Języki o architekturze klient-serwer, takie jak PHP i Ruby nie są obsługiwane.</li> <li>Jeśli demo wymaga zewnętrznych zasobów, by uzyskać do nich dostęp, powinno używać technologii <strong>AJAX</strong>.</li> <li>W polu szczegółowych informacji o demie podaj informacje o treściach innych podmiotów zawartych w demie, które nie mogą być udostępnione na zasadach wolnych licencji i dodaj odnośniki do stron internetowych ich autorów.</li> </ul>"
 
 #: apps/demos/templates/demos/submit.html:124
 msgid "<ul> <li>Your demo’s source code should be packaged inside a Zip file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the Zip.</li> <li>Your demo should be built on client-side technology (HTML, CSS, Javascript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use AJAX to access them.</li> <li>To submit your demo, you need an <a href=\"%(signup_url)s\">MDN account</a>.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
@@ -975,7 +975,7 @@ msgstr "Te fajne dema są najlepszym sposobem zapoznania się z najnowszymi tech
 
 #: apps/demos/__init__.py:115
 msgid "Form elements and attributes in HTML5 provide a greater degree of semantic mark-up than HTML4 and remove a great deal of the need for tedious scripting and styling that was required in HTML4."
-msgstr ""
+msgstr "Elementy i atrybuty formularza w HTML5 dostarczają wyższy stopień semantycznych znaczników niż HTML4 i znacznie zmniejszają potrzebę tworzenia żmudnych skryptów i stylizacji niż było to wymagane w HTML4."
 
 # 83%
 #: apps/demos/__init__.py:114
@@ -1436,7 +1436,7 @@ msgstr "Programiści Mozilli nie tylko dostosowali technologie i funkcje, by pom
 
 #: apps/demos/__init__.py:57
 msgid "Mozilla's Audio Data API extends the current HTML5 API and allows web developers to read and write raw audio data."
-msgstr ""
+msgstr "API Audio Data Mozilli rozszerza obecny API HTML5 i umożliwia twórcom zasobów i treści internetowych czytanie i zapisywanie nieprzetworzonych danych audio."
 
 #: apps/demos/__init__.py:254
 msgid "Multi-touch"
@@ -1473,7 +1473,7 @@ msgstr "Wsparcie offline"
 
 #: apps/demos/__init__.py:185
 msgid "Offline caching of web applications' resources using the application cache and local storage."
-msgstr ""
+msgstr "Buforowanie w trybie offline zasobów aplikacji internetowych za pomocą pamięci podręcznej aplikacji i pamięci lokalnej."
 
 #: templates/includes/lang_switcher.html:2
 msgid "Other languages:"
@@ -1526,11 +1526,11 @@ msgstr "Popularne tematy dla twórców <span class=\"web\">stron</span>"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:19
 msgid "Posted <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime=\"%(comment_isotime)s\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
-msgstr ""
+msgstr "Zamieszczone <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime=\"%(comment_isotime)s\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
 
 #: apps/landing/templates/landing/mobile.html:123
 msgid "Pre-Alpha Fennec and HTML5 Demos"
-msgstr "Filmy demonstracyjne wersji Pre-Alpha Fennecka i HTML5"
+msgstr "Filmy demonstracyjne wersji Pre-Alfa Fennecka i HTML5"
 
 #: apps/demos/templates/demos/submit.html:123
 #: apps/demos/templates/demos/submit_noauth.html:52
@@ -1891,7 +1891,7 @@ msgstr "Testuj <a href=\"%(fx4_features)s\">następną wersję Firefoksa</a> i p
 
 #: apps/demos/__init__.py:105
 msgid "The CSS3-Font specification contains enhanced features for fonts and typography like embedding own fonts via @font-face or controlling OpenType font features directly via CSS."
-msgstr ""
+msgstr "Specyfikacja CSS3-Font zawiera udoskonalone funkcje czcionek i typografii, takie jak umieszczanie własnych czcionek za pomocą @ font-face lub kontrolowanie funkcji czcionek OpenType bezpośrednio za pomocą CSS."
 
 #: apps/landing/templates/landing/web.html:60
 msgid "The DOM is the architecture for Web documents; learn how to use the DOM and its API to look at and manipulate Web content."
@@ -1907,7 +1907,7 @@ msgstr "Obiektowy model dokumentu (DOM) opisuje strukturę i zawartość stron i
 
 #: apps/demos/__init__.py:96
 msgid "The File API allows web developers to use file objects in web applications, as well as selecting and accessing their data."
-msgstr ""
+msgstr "API file umożliwia programistom internetowym korzystanie z obiektów file w aplikacjach internetowych, jak również wybór i dostęp do ich danych."
 
 #: apps/demos/__init__.py:125
 msgid "The Geolocation API allows web applications to access the user's geographical location."
