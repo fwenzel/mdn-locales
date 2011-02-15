@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-02-15 02:35+0100\n"
+"PO-Revision-Date: 2011-02-15 10:26+0100\n"
 "Last-Translator: Leszek Życzkowski <leszekz@gmail.com>\n"
 "Language-Team: none\n"
 "Language: pl\n"
@@ -100,30 +100,25 @@ msgstr "(wiele)"
 
 #: apps/docs/templates/docs/docs.html:52
 #: apps/docs/templates/docs/glossary.html:11
-#, fuzzy
 msgid "/en/AJAX"
-msgstr "AJAX"
+msgstr "/pl/AJAX"
 
 #: apps/docs/templates/docs/docs.html:44
 #: apps/docs/templates/docs/glossary.html:5
 #: apps/landing/templates/landing/home.html:181
 #: apps/landing/templates/landing/web.html:55
-#, fuzzy
 msgid "/en/CSS"
-msgstr "CSS"
+msgstr "/en/CSS"
 
 #: apps/docs/templates/docs/glossary.html:12
-#, fuzzy
 msgid "/en/CSS/Media_queries"
-msgstr "Media Queries"
+msgstr "/en/CSS/Media_queries"
 
 #: apps/docs/templates/docs/glossary.html:20
-#, fuzzy
 msgid "/en/CSS/Using_CSS_transforms"
 msgstr "/en/CSS/Using_CSS_transforms"
 
 #: apps/docs/templates/docs/docs.html:93
-#, fuzzy
 msgid "/en/Creating_OpenSearch_plugins_for_Firefox"
 msgstr "/en/Creating_OpenSearch_plugins_for_Firefox"
 
@@ -131,52 +126,43 @@ msgstr "/en/Creating_OpenSearch_plugins_for_Firefox"
 #: apps/docs/templates/docs/glossary.html:8
 #: apps/landing/templates/landing/home.html:189
 #: apps/landing/templates/landing/web.html:59
-#, fuzzy
 msgid "/en/DOM"
 msgstr "DOM"
 
 #: apps/landing/templates/landing/mozilla.html:71
-#, fuzzy
 msgid "/en/Debugging"
-msgstr "Debugowanie"
+msgstr "/en/Debugging"
 
 # 81%
 #: apps/docs/templates/docs/docs.html:81
-#, fuzzy
 msgid "/en/Detecting_device_orientation"
-msgstr "Wykrywanie pozycji urządzenia"
+msgstr "/en/Detecting_device_orientation"
 
 #: apps/landing/templates/landing/mozilla.html:43
-#, fuzzy
 msgid "/en/Developer_Guide"
-msgstr "Przewodnik po Mozilla Developer"
+msgstr "/en/Developer_Guide"
 
 #: apps/docs/templates/docs/glossary.html:19
-#, fuzzy
 msgid "/en/DragDrop/Drag_and_Drop"
 msgstr "/en/DragDrop/Drag_and_Drop"
 
 #: apps/docs/templates/docs/docs.html:89
 #: apps/landing/templates/landing/addons.html:60
-#, fuzzy
 msgid "/en/Extensions"
-msgstr "Rozszerzenia"
+msgstr "/en/Extensions"
 
 #: apps/landing/templates/landing/home.html:72
 #: apps/landing/templates/landing/home.html:166
-#, fuzzy
 msgid "/en/Firefox_4_for_developers"
-msgstr "Firefox Mobile dla twórców"
+msgstr "/en/Firefox_4_for_developers"
 
 #: apps/docs/templates/docs/docs.html:32
 #: apps/docs/templates/docs/glossary.html:4
 #: apps/landing/templates/landing/home.html:177
-#, fuzzy
 msgid "/en/HTML"
-msgstr "HTML"
+msgstr "/en/HTML"
 
 #: apps/docs/templates/docs/glossary.html:10
-#, fuzzy
 msgid "/en/HTML/Element/canvas"
 msgstr "/en/HTML/Element/canvas"
 
@@ -185,103 +171,86 @@ msgstr "/en/HTML/Element/canvas"
 #: apps/landing/templates/landing/home.html:72
 #: apps/landing/templates/landing/home.html:78
 #: apps/landing/templates/landing/web.html:47
-#, fuzzy
 msgid "/en/HTML/HTML5"
 msgstr "/en/HTML/HTML5"
 
 #: apps/docs/templates/docs/glossary.html:23
-#, fuzzy
 msgid "/en/IndexedDB"
-msgstr "IndexedDB"
+msgstr "/en/IndexedDB"
 
 #: apps/docs/templates/docs/docs.html:40
 #: apps/docs/templates/docs/glossary.html:6
 #: apps/landing/templates/landing/home.html:185
 #: apps/landing/templates/landing/web.html:51
-#, fuzzy
 msgid "/en/JavaScript"
-msgstr "JavaScript"
+msgstr "/en/JavaScript"
 
 # 75%
 #: apps/docs/templates/docs/docs.html:101
 #: apps/landing/templates/landing/home.html:150
 #: apps/landing/templates/landing/mozilla.html:81
-#, fuzzy
 msgid "/en/Localization"
-msgstr "Lokalizacja"
+msgstr "/en/Localization"
 
 #: apps/docs/templates/docs/docs.html:80
 #: apps/landing/templates/landing/home.html:132
 #: apps/landing/templates/landing/mobile.html:88
-#, fuzzy
 msgid "/en/Mobile"
-msgstr "Mobile"
+msgstr "/en/Mobile"
 
 # 80%
 #: apps/docs/templates/docs/docs.html:99
 #: apps/landing/templates/landing/home.html:149
 #: apps/landing/templates/landing/home.html:207
-#, fuzzy
 msgid "/en/Participating_in_the_Mozilla_project"
-msgstr "Uczestnictwo w projekcie Mozilla"
+msgstr "/en/Participating_in_the_Mozilla_project"
 
 #: apps/docs/templates/docs/docs.html:90
-#, fuzzy
 msgid "/en/Plugins"
-msgstr "Wtyczki"
+msgstr "/en/Plugins"
 
 #: apps/docs/templates/docs/docs.html:102
 #: apps/landing/templates/landing/home.html:150
-#, fuzzy
 msgid "/en/QA"
 msgstr "/en/QA"
 
 #: apps/docs/templates/docs/glossary.html:9
-#, fuzzy
 msgid "/en/SVG"
-msgstr "SVG"
+msgstr "/en/SVG"
 
 #: apps/docs/templates/docs/glossary.html:22
-#, fuzzy
 msgid "/en/Security"
-msgstr "Bezpieczeństwo"
+msgstr "/en/Security"
 
 #: apps/docs/templates/docs/glossary.html:14
-#, fuzzy
 msgid "/en/Storage"
-msgstr "Web Storage"
+msgstr "/en/Storage"
 
 #: apps/landing/templates/landing/mozilla.html:52
-#, fuzzy
 msgid "/en/The_Mozilla_platform"
-msgstr "Platforma Mozilli"
+msgstr "/en/The_Mozilla_platform"
 
 #: apps/docs/templates/docs/docs.html:92
-#, fuzzy
 msgid "/en/Themes"
-msgstr "Motywy"
+msgstr "/en/Themes"
 
 #: apps/landing/templates/landing/mozilla.html:92
 #: apps/landing/templates/landing/mozilla.html:109
-#, fuzzy
 msgid "/en/Tools"
-msgstr "/en/Narzędzia"
+msgstr "/en/Tools"
 
 # 77%
 #: apps/docs/templates/docs/docs.html:100
 #: apps/landing/templates/landing/mozilla.html:61
-#, fuzzy
 msgid "/en/Using_Mozilla_code_in_other_projects"
-msgstr "Używanie kodu Mozilli w innych projektach"
+msgstr "/en/Using_Mozilla_code_in_other_projects"
 
 #: apps/docs/templates/docs/glossary.html:15
 #: apps/docs/templates/docs/glossary.html:16
-#, fuzzy
 msgid "/en/Using_audio_and_video_in_Firefox"
 msgstr "/en/Using_audio_and_video_in_Firefox"
 
 #: apps/docs/templates/docs/glossary.html:18
-#, fuzzy
 msgid "/en/Using_files_from_web_applications"
 msgstr "/en/Using_files_from_web_applications"
 
@@ -289,34 +258,28 @@ msgstr "/en/Using_files_from_web_applications"
 #: apps/docs/templates/docs/docs.html:82
 #: apps/landing/templates/landing/home.html:132
 #: apps/landing/templates/landing/mobile.html:69
-#, fuzzy
 msgid "/en/Using_geolocation"
-msgstr "Używanie geolokalizacji"
+msgstr "/en/Using_geolocation"
 
 #: apps/docs/templates/docs/glossary.html:21
-#, fuzzy
 msgid "/en/Using_gradients"
 msgstr "/en/Using_gradients"
 
 #: apps/docs/templates/docs/glossary.html:17
-#, fuzzy
 msgid "/en/Using_web_workers"
 msgstr "/en/Using_web_workers"
 
 #: apps/docs/templates/docs/glossary.html:13
-#, fuzzy
 msgid "/en/WebGL"
-msgstr "WebGL"
+msgstr "/en/WebGL"
 
 #: apps/landing/templates/landing/web.html:63
-#, fuzzy
 msgid "/en/Web_Development"
 msgstr "/en/Web_Development"
 
 #: apps/landing/templates/landing/home.html:201
-#, fuzzy
 msgid "/en/mobile"
-msgstr "Mobile"
+msgstr "/en/mobile"
 
 #: apps/landing/templates/landing/home.html:140
 msgid "<a href=\"%(builder_url)s\">Build your own add-ons</a> and discuss them with the <a href=\"%(dev_url)s\">add-on developer community</a>."
@@ -2340,103 +2303,84 @@ msgid "http://dev.w3.org/html5/webstorage/"
 msgstr "http://dev.w3.org/html5/webstorage/"
 
 #: apps/demos/__init__.py:70
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Canvas_element"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://pl.wikipedia.org/wiki/HTML5_Canvas"
 
 #: apps/demos/__init__.py:80
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Cascading_Style_Sheets"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://pl.wikipedia.org/wiki/Kaskadowe_arkusze_styl%C3%B3w"
 
 #: apps/demos/__init__.py:168
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Drag-and-drop"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://pl.wikipedia.org/wiki/Przeci%C4%85gnij_i_upu%C5%9B%C4%87"
 
 #: apps/demos/__init__.py:60
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/HTML5_audio"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/HTML5_audio"
 
 #: apps/demos/__init__.py:208
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/HTML5_video"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://pl.wikipedia.org/wiki/HTML5_video"
 
 #: apps/demos/__init__.py:118
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/HTML_forms"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/HTML_forms"
 
 #: apps/demos/__init__.py:148
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Html5"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://pl.wikipedia.org/wiki/HTML_5"
 
 #: apps/demos/__init__.py:158
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/IndexedDB"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/IndexedDB"
 
 #: apps/demos/__init__.py:138
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/JavaScript"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://pl.wikipedia.org/wiki/JavaScript"
 
 #: apps/demos/__init__.py:178
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Mobile_web"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://pl.wikipedia.org/wiki/Mobilny_Internet"
 
 #: apps/landing/templates/landing/home.html:15
 msgid "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
 msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
 
 #: apps/demos/__init__.py:258
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Multi-touch"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://pl.wikipedia.org/wiki/Multi-Touch"
 
 #: apps/demos/__init__.py:198
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Scalable_Vector_Graphics"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://pl.wikipedia.org/wiki/SVG"
 
 #: apps/demos/__init__.py:128
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/W3C_Geolocation_API"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/W3C_Geolocation_API"
 
 #: apps/demos/__init__.py:218
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/WebGL"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://pl.wikipedia.org/wiki/WebGL"
 
 #: apps/demos/__init__.py:228
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_Sockets"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://pl.wikipedia.org/wiki/WebSocket"
 
 #: apps/demos/__init__.py:188
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_Storage"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Web_Storag"
 
 #: apps/demos/__init__.py:238
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_Workers"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Web_Workers"
 
 #: apps/demos/__init__.py:108
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_typography"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Web_typography"
 
 #: apps/demos/__init__.py:248
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/XMLHttpRequest"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://pl.wikipedia.org/wiki/XMLHttpRequest"
 
 #: apps/demos/__init__.py:287
 msgid "http://www.apache.org/licenses/"
