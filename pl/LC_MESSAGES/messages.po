@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-02-15 02:16+0100\n"
+"PO-Revision-Date: 2011-02-15 02:35+0100\n"
 "Last-Translator: Leszek Życzkowski <leszekz@gmail.com>\n"
 "Language-Team: none\n"
 "Language: pl\n"
@@ -90,8 +90,9 @@ msgstr[1] "%(number)d lata temu"
 msgstr[2] "%(number)d lat temu"
 
 #: apps/demos/feeds.py:199
+#, fuzzy
 msgid "%s's MDN demos"
-msgstr ""
+msgstr "%s's dema MDN"
 
 #: apps/docs/views.py:33
 msgid "(multiple)"
@@ -117,12 +118,14 @@ msgid "/en/CSS/Media_queries"
 msgstr "Media Queries"
 
 #: apps/docs/templates/docs/glossary.html:20
+#, fuzzy
 msgid "/en/CSS/Using_CSS_transforms"
-msgstr ""
+msgstr "/en/CSS/Using_CSS_transforms"
 
 #: apps/docs/templates/docs/docs.html:93
+#, fuzzy
 msgid "/en/Creating_OpenSearch_plugins_for_Firefox"
-msgstr ""
+msgstr "/en/Creating_OpenSearch_plugins_for_Firefox"
 
 #: apps/docs/templates/docs/docs.html:48
 #: apps/docs/templates/docs/glossary.html:8
@@ -149,8 +152,9 @@ msgid "/en/Developer_Guide"
 msgstr "Przewodnik po Mozilla Developer"
 
 #: apps/docs/templates/docs/glossary.html:19
+#, fuzzy
 msgid "/en/DragDrop/Drag_and_Drop"
-msgstr ""
+msgstr "/en/DragDrop/Drag_and_Drop"
 
 #: apps/docs/templates/docs/docs.html:89
 #: apps/landing/templates/landing/addons.html:60
@@ -272,12 +276,14 @@ msgstr "Używanie kodu Mozilli w innych projektach"
 
 #: apps/docs/templates/docs/glossary.html:15
 #: apps/docs/templates/docs/glossary.html:16
+#, fuzzy
 msgid "/en/Using_audio_and_video_in_Firefox"
-msgstr ""
+msgstr "/en/Using_audio_and_video_in_Firefox"
 
 #: apps/docs/templates/docs/glossary.html:18
+#, fuzzy
 msgid "/en/Using_files_from_web_applications"
-msgstr ""
+msgstr "/en/Using_files_from_web_applications"
 
 # 76%
 #: apps/docs/templates/docs/docs.html:82
@@ -288,12 +294,14 @@ msgid "/en/Using_geolocation"
 msgstr "Używanie geolokalizacji"
 
 #: apps/docs/templates/docs/glossary.html:21
+#, fuzzy
 msgid "/en/Using_gradients"
-msgstr ""
+msgstr "/en/Using_gradients"
 
 #: apps/docs/templates/docs/glossary.html:17
+#, fuzzy
 msgid "/en/Using_web_workers"
-msgstr ""
+msgstr "/en/Using_web_workers"
 
 #: apps/docs/templates/docs/glossary.html:13
 #, fuzzy
@@ -301,8 +309,9 @@ msgid "/en/WebGL"
 msgstr "WebGL"
 
 #: apps/landing/templates/landing/web.html:63
+#, fuzzy
 msgid "/en/Web_Development"
-msgstr ""
+msgstr "/en/Web_Development"
 
 #: apps/landing/templates/landing/home.html:201
 #, fuzzy
@@ -910,7 +919,7 @@ msgstr "Fennec"
 #: apps/demos/__init__.py:95
 #: apps/docs/templates/docs/glossary.html:18
 msgid "Files"
-msgstr "Pliki"
+msgstr "Files"
 
 #: apps/demos/models.py:157
 msgid "Filetype not supported."
@@ -918,7 +927,7 @@ msgstr "Nieobsługiwany typ pliku"
 
 #: apps/landing/templates/landing/web.html:48
 msgid "Find out what HTML5 is really all about and how you can develop for a better Web through open standards."
-msgstr "Dowiedz się, co to jest naprawdę HTML5 i jak możesz rozwijać Internet w oparciu o otwarte standardy."
+msgstr "Dowiedz się, co to jest naprawdę HTML5, i jak możesz rozwijać Internet w oparciu o otwarte standardy."
 
 #: apps/landing/templates/landing/home.html:47
 #: apps/landing/templates/landing/home.html:84
@@ -1428,7 +1437,7 @@ msgstr "Mozilla i <a href=\"%(p2pu)s\">P2PU</a> tworzą <a href=\"%(p2pu_drumbea
 
 #: apps/landing/templates/landing/home.html:72
 msgid "Mozilla continues to lead the charge in the adoption of HTML5 and other evolving open Web technologies. Find out more about the <a href=\"%(devmo_html5)s\">HTML5 spec</a> and the latest enhancements in HTML5, CSS3 and other <a href=\"%(devmo_fx4dev)s\">developer features for Firefox 4</a>."
-msgstr "Mozilla dokonuje wysiłku, by wprowadzić HTML5 i inne rozwijające się technologie otwartej sieci. Dowiedz się więcej o <a href=\"%(devmo_html5)s\">specyfikacji HTML5</a> i najnowszych rozszerzeniach HTML5, CSS3 i innych <a href=\"%(devmo_fx4dev)s\">funkcjach programistycznych w Firefoksie 4</a>."
+msgstr "Mozilla dokonuje wysiłku, by wprowadzić HTML5 i inne rozwijające się technologie otwartej sieci. Dowiedz się więcej o <a href=\"%(devmo_html5)s\">specyfikacji HTML5</a> i najnowszych udoskonaleniach HTML5, CSS3 i innych <a href=\"%(devmo_fx4dev)s\">funkcjach programistycznych w Firefoksie 4</a>."
 
 #: apps/landing/templates/landing/mozilla.html:73
 msgid "Mozilla developers have come up with not just technologies and features to help you debug code, but have devised tips and techniques that can help too."
@@ -1436,7 +1445,7 @@ msgstr "Programiści Mozilli nie tylko dostosowali technologie i funkcje, by pom
 
 #: apps/demos/__init__.py:57
 msgid "Mozilla's Audio Data API extends the current HTML5 API and allows web developers to read and write raw audio data."
-msgstr "API Audio Data Mozilli rozszerza obecny API HTML5 i umożliwia twórcom zasobów i treści internetowych czytanie i zapisywanie nieprzetworzonych danych audio."
+msgstr "API Audio Data Mozilli udoskonala obecny API HTML5 i umożliwia twórcom zasobów i treści internetowych czytanie i zapisywanie nieprzetworzonych danych audio."
 
 #: apps/demos/__init__.py:254
 msgid "Multi-touch"
