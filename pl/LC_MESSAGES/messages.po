@@ -2209,7 +2209,7 @@ msgstr "W materiałach źródłowych CSS i pomocnych tutorialach znajdziesz wszy
 
 #: apps/landing/templates/landing/mobile.html:79
 msgid "Your help is vital to the success of Firefox. Provide feedback on our <a href=\"%(irc_url)s\">IRC channel</a>, <a href=\"%(meeting_url)s\">join our Wednesday development meeting</a>, or even <a href=\"%(bugzilla_url)s\">file some bugs</a>."
-msgstr "Twoja pomoc jest kluczem do sukcesu Firefoksa. Przekaż swoje opinie na naszym <a href=\"%(irc_url)s\">kanale IRC</a>, <a href=\"%(meeting_url)s\">dołącz do naszego co środowego spotkania programistów</a> lub <a href=\"% (bugzilla_url) s\">zgłaszaj błędy</a>."
+msgstr "Twoja pomoc jest kluczem do sukcesu Firefoksa. Przekaż swoje opinie na naszym <a href=\"%(irc_url)s\">kanale IRC</a>, <a href=\"%(meeting_url)s\">dołącz do naszego co środowego spotkania programistów</a> lub <a href=\"%(bugzilla_url)s\">zgłaszaj błędy</a>."
 
 #: apps/demos/models.py:451
 msgid "ZIP file contains files that are too large"
