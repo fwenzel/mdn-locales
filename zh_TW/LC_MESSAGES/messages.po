@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2011-02-15 08:12+0200\n"
+"PO-Revision-Date: 2011-02-17 11:18+0200\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: none\n"
 "Language: zh_TW\n"
@@ -80,7 +80,7 @@ msgstr[0] "%(number)d 年前"
 
 #: apps/demos/feeds.py:199
 msgid "%s's MDN demos"
-msgstr "%s 的 MDN 展示"
+msgstr "%s 的 MDN Demo"
 
 #: apps/docs/views.py:33
 msgid "(multiple)"
@@ -88,11 +88,11 @@ msgstr "（多重）"
 
 #: apps/docs/templates/docs/docs.html:52 apps/docs/templates/docs/glossary.html:11
 msgid "/en/AJAX"
-msgstr "/en/AJAX"
+msgstr "/zh_TW/AJAX"
 
 #: apps/docs/templates/docs/docs.html:44 apps/docs/templates/docs/glossary.html:5 apps/landing/templates/landing/home.html:181 apps/landing/templates/landing/web.html:55
 msgid "/en/CSS"
-msgstr "/en/CSS"
+msgstr "/zh_TW/CSS"
 
 #: apps/docs/templates/docs/glossary.html:12
 msgid "/en/CSS/Media_queries"
@@ -108,7 +108,7 @@ msgstr "/en/Creating_OpenSearch_plugins_for_Firefox"
 
 #: apps/docs/templates/docs/docs.html:48 apps/docs/templates/docs/glossary.html:8 apps/landing/templates/landing/home.html:189 apps/landing/templates/landing/web.html:59
 msgid "/en/DOM"
-msgstr "/en/DOM"
+msgstr "/zh_TW/DOM"
 
 #: apps/landing/templates/landing/mozilla.html:71
 msgid "/en/Debugging"
@@ -132,11 +132,11 @@ msgstr "/en/Extensions"
 
 #: apps/landing/templates/landing/home.html:72 apps/landing/templates/landing/home.html:166
 msgid "/en/Firefox_4_for_developers"
-msgstr "/en/Firefox_4_for_developers"
+msgstr "/zh_TW/Firefox_4_for_developers"
 
 #: apps/docs/templates/docs/docs.html:32 apps/docs/templates/docs/glossary.html:4 apps/landing/templates/landing/home.html:177
 msgid "/en/HTML"
-msgstr "/en/HTML"
+msgstr "/zh_TW/HTML"
 
 #: apps/docs/templates/docs/glossary.html:10
 msgid "/en/HTML/Element/canvas"
@@ -153,7 +153,7 @@ msgstr "/en/IndexedDB"
 
 #: apps/docs/templates/docs/docs.html:40 apps/docs/templates/docs/glossary.html:6 apps/landing/templates/landing/home.html:185 apps/landing/templates/landing/web.html:51
 msgid "/en/JavaScript"
-msgstr "/en/JavaScript"
+msgstr "/zh_TW/JavaScript"
 
 #: apps/docs/templates/docs/docs.html:101 apps/landing/templates/landing/home.html:150 apps/landing/templates/landing/mozilla.html:81
 msgid "/en/Localization"
@@ -177,7 +177,7 @@ msgstr "/en/QA"
 
 #: apps/docs/templates/docs/glossary.html:9
 msgid "/en/SVG"
-msgstr "/en/SVG"
+msgstr "/zh_TW/SVG"
 
 #: apps/docs/templates/docs/glossary.html:22
 msgid "/en/Security"
@@ -260,7 +260,6 @@ msgid "<p>To submit your demo, you need an <strong><a href=\"%(signup_url)s\">MD
 msgstr "<p>要送出您的 demo，您需要 <strong><a href=\"%(signup_url)s\">MDN 帳號</a></strong>。</p>"
 
 #: apps/demos/templates/demos/submit.html:138
-#, fuzzy
 msgid "<p>Upload a ZIP file of your source code, in which the main page of your demo is named <code>index.html</code> in the root directory.</p>"
 msgstr "<p>上傳您的原始碼的 Zip 壓縮當，當中您作品的主要頁面應該被命名為根目錄下的 <code>index.html</code>。</p>"
 
@@ -928,7 +927,7 @@ msgstr "取得 Mozilla 行動專案的最新消息、狀態，與開發者文件
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
-msgstr "衝"
+msgstr "移動"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:54
 msgid "Go to the first page"
@@ -1719,7 +1718,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/terms.html:21
 msgid "Terms of Use"
-msgstr ""
+msgstr "使用條款"
 
 #: apps/landing/templates/landing/home.html:86
 msgid ""
@@ -1889,7 +1888,7 @@ msgstr "影片"
 #: apps/demos/__init__.py:129 apps/demos/__init__.py:149 apps/demos/__init__.py:159 apps/demos/__init__.py:169 apps/demos/__init__.py:179 apps/demos/__init__.py:189 apps/demos/__init__.py:199
 #: apps/demos/__init__.py:209 apps/demos/__init__.py:229 apps/demos/__init__.py:239 apps/demos/__init__.py:249 apps/demos/__init__.py:259
 msgid "W3C Spec"
-msgstr ""
+msgstr "W3C 規格"
 
 #: apps/landing/templates/landing/home.html:19
 msgid "Want to help make our network even better?"
@@ -1913,7 +1912,7 @@ msgstr "播放此影片"
 
 #: apps/demos/templates/demos/submit.html:118
 msgid "We support YouTube and Vimeo"
-msgstr ""
+msgstr "我們支援 YouTube 與 Vimeo"
 
 #: apps/devmo/__init__.py:24 apps/landing/templates/landing/web.html:11 apps/landing/templates/landing/web.html:17 templates/base.html:70 templates/base_compact.html:22
 msgid "Web"
@@ -1985,7 +1984,7 @@ msgstr "為什麼要同步、安全性，還有更多資訊。"
 #: apps/demos/__init__.py:148 apps/demos/__init__.py:158 apps/demos/__init__.py:168 apps/demos/__init__.py:178 apps/demos/__init__.py:188 apps/demos/__init__.py:198 apps/demos/__init__.py:208
 #: apps/demos/__init__.py:218 apps/demos/__init__.py:228 apps/demos/__init__.py:238 apps/demos/__init__.py:248 apps/demos/__init__.py:258
 msgid "Wikipedia Article"
-msgstr ""
+msgstr "維基百科文章"
 
 #: apps/landing/templates/landing/newsfeed.html:12
 msgid "Written by %(authorlink)s on %(entrydate)s"
@@ -2052,7 +2051,7 @@ msgstr ""
 
 #: apps/demos/views.py:62 apps/demos/views.py:204 apps/demos/views.py:228 apps/demos/views.py:241 apps/demos/views.py:254
 msgid "access denied"
-msgstr ""
+msgstr "存取被拒。"
 
 #: apps/demos/templates/demos/detail.html:43
 #, fuzzy
