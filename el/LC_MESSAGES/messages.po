@@ -305,7 +305,7 @@ msgstr ""
 
 #: apps/demos/__init__.py:134
 msgid "Javascript"
-msgstr ""
+msgstr "Javascript"
 
 #: apps/demos/__init__.py:135
 msgid "JavaScript is a lightweight, object-oriented programming language, commonly used for scripting interactive behavior on web pages and in web applications."
@@ -334,7 +334,7 @@ msgstr ""
 #: apps/landing/templates/landing/home.html:70
 #: apps/landing/templates/landing/web.html:47
 msgid "HTML5"
-msgstr ""
+msgstr "HTML5"
 
 #: apps/demos/__init__.py:145
 msgid "HTML5 is the newest version of the HTML standard, currently under development."
@@ -355,7 +355,7 @@ msgstr ""
 #: apps/demos/__init__.py:154
 #: apps/docs/templates/docs/glossary.html:23
 msgid "IndexedDB"
-msgstr ""
+msgstr "IndexedDB"
 
 #: apps/demos/__init__.py:155
 msgid "IndexedDB is an API for client-side storage of significant amounts of structured data and for high performance searches on this data using indexes."
@@ -424,7 +424,7 @@ msgstr ""
 
 #: apps/demos/__init__.py:184
 msgid "Offline Support"
-msgstr ""
+msgstr "Offline Support"
 
 #: apps/demos/__init__.py:185
 msgid "Offline caching of web applications' resources using the application cache and local storage."
@@ -445,7 +445,7 @@ msgstr ""
 #: apps/demos/__init__.py:194
 #: apps/docs/templates/docs/glossary.html:9
 msgid "SVG"
-msgstr ""
+msgstr "SVG"
 
 #: apps/demos/__init__.py:195
 msgid "Scalable Vector Graphics (SVG) is an XML based language for describing two-dimensional vector graphics."
@@ -466,7 +466,7 @@ msgstr ""
 #: apps/demos/__init__.py:204
 #: apps/docs/templates/docs/glossary.html:16
 msgid "Video"
-msgstr ""
+msgstr "Video"
 
 #: apps/demos/__init__.py:205
 msgid "The HTML5 video element provides integrated support for playing video media without requiring plug-ins."
@@ -487,7 +487,7 @@ msgstr ""
 #: apps/demos/__init__.py:214
 #: apps/docs/templates/docs/glossary.html:13
 msgid "WebGL"
-msgstr ""
+msgstr "WebGL"
 
 #: apps/demos/__init__.py:215
 msgid "In the context of the HTML canvas element WebGL provides an API for 3D graphics in the browser."
@@ -503,7 +503,7 @@ msgstr ""
 
 #: apps/demos/__init__.py:219
 msgid "Khronos Spec"
-msgstr ""
+msgstr "Khronos Spec"
 
 #: apps/demos/__init__.py:219
 msgid "http://www.khronos.org/webgl/"
@@ -511,7 +511,7 @@ msgstr ""
 
 #: apps/demos/__init__.py:224
 msgid "WebSockets"
-msgstr ""
+msgstr "WebSockets"
 
 #: apps/demos/__init__.py:225
 msgid "WebSockets is a technology that makes it possible to open an interactive communication session between the user's browser and a server."
@@ -532,7 +532,7 @@ msgstr ""
 #: apps/demos/__init__.py:234
 #: apps/docs/templates/docs/glossary.html:17
 msgid "Web Workers"
-msgstr ""
+msgstr "Web Workers"
 
 #: apps/demos/__init__.py:235
 msgid "Web Workers provide a simple means for web content to run scripts in background threads."
@@ -552,7 +552,7 @@ msgstr ""
 
 #: apps/demos/__init__.py:244
 msgid "XMLHttpRequest"
-msgstr ""
+msgstr "XMLHttpRequest"
 
 #: apps/demos/__init__.py:245
 msgid "XMLHttpRequest (XHR) is used to send HTTP requests directly to a webserver and load the response data directly back into the script."
@@ -592,7 +592,7 @@ msgstr ""
 
 #: apps/demos/__init__.py:268
 msgid "MPL/GPL/LGPL"
-msgstr ""
+msgstr "MPL/GPL/LGPL"
 
 #: apps/demos/__init__.py:269
 msgid "http://www.mozilla.org/MPL/"
@@ -600,7 +600,7 @@ msgstr ""
 
 #: apps/demos/__init__.py:274
 msgid "GPL"
-msgstr ""
+msgstr "GPL"
 
 #: apps/demos/__init__.py:275
 msgid "http://www.opensource.org/licenses/gpl-license.php"
@@ -608,7 +608,7 @@ msgstr ""
 
 #: apps/demos/__init__.py:280
 msgid "BSD"
-msgstr ""
+msgstr "BSD"
 
 #: apps/demos/__init__.py:281
 msgid "http://www.opensource.org/licenses/bsd-license.php"
@@ -616,7 +616,7 @@ msgstr ""
 
 #: apps/demos/__init__.py:286
 msgid "Apache"
-msgstr ""
+msgstr "Apache"
 
 #: apps/demos/__init__.py:287
 msgid "http://www.apache.org/licenses/"
@@ -685,26 +685,26 @@ msgstr ""
 #: apps/demos/helpers.py:217
 msgid "year"
 msgid_plural "years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "έτος"
+msgstr[1] "έτη"
 
 #: apps/demos/helpers.py:218
 msgid "month"
 msgid_plural "months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "μήνας"
+msgstr[1] "μήνες"
 
 #: apps/demos/helpers.py:219
 msgid "week"
 msgid_plural "weeks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "εβδομάδα"
+msgstr[1] "εβδομάδες"
 
 #: apps/demos/helpers.py:220
 msgid "day"
 msgid_plural "days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ημέρα"
+msgstr[1] "ημέρες"
 
 #: apps/demos/helpers.py:228
 msgid "%(number)d %(type)s"
@@ -901,7 +901,7 @@ msgstr ""
 #: apps/demos/templates/demos/submit.html:42
 #: apps/demos/templates/demos/submit_noauth.html:18
 msgid "MDN"
-msgstr ""
+msgstr "MDN"
 
 #: apps/demos/templates/demos/delete.html:26
 #: apps/demos/templates/demos/delete_comment.html:26
@@ -931,16 +931,16 @@ msgstr ""
 #: apps/demos/templates/demos/delete_comment.html:52
 #: apps/demos/templates/demos/flag.html:44
 msgid "Cancel"
-msgstr ""
+msgstr "Ακύρωση"
 
 #: apps/demos/templates/demos/delete_comment.html:10
 #: apps/demos/templates/demos/delete_comment.html:22
 msgid "Delete Comment"
-msgstr ""
+msgstr "Διαγραφή σχολίου"
 
 #: apps/demos/templates/demos/delete_comment.html:38
 msgid "Delete this comment?"
-msgstr ""
+msgstr "Να διαγραφεί το σχόλιο;"
 
 #: apps/demos/templates/demos/delete_comment.html:39
 msgid "<p>Are you sure that you would like to delete this comment?</p>"
@@ -948,7 +948,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/delete_comment.html:51
 msgid "Delete comment"
-msgstr ""
+msgstr "Διαγραφή σχολίου"
 
 #: apps/demos/templates/demos/detail.html:23
 #: apps/demos/templates/demos/launch.html:58
@@ -958,7 +958,7 @@ msgstr ""
 #: apps/demos/templates/demos/detail.html:23
 #: apps/demos/templates/demos/launch.html:58
 msgid "Prev"
-msgstr ""
+msgstr "Προηγούμενο"
 
 #: apps/demos/templates/demos/detail.html:27
 #: apps/demos/templates/demos/launch.html:62
@@ -971,7 +971,7 @@ msgstr ""
 #: apps/demos/templates/demos/launch.html:62
 #: apps/demos/templates/demos/elements/submission_listing.html:59
 msgid "Next"
-msgstr ""
+msgstr "Επόμενο"
 
 #: apps/demos/templates/demos/detail.html:43
 msgid "by %(creator_link)s on %(create_date)s"
@@ -1121,7 +1121,7 @@ msgstr ""
 #: apps/demos/templates/demos/detail.html:200
 #: apps/demos/templates/demos/elements/comments_tree.html:50
 msgid "Comment"
-msgstr ""
+msgstr "Σχόλιο"
 
 #: apps/demos/templates/demos/detail.html:211
 msgid "Get the Source Code"
@@ -1256,7 +1256,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/listing_tag.html:39
 msgid "Learn More"
-msgstr ""
+msgstr "Μάθετε περισότερα"
 
 #: apps/demos/templates/demos/profile_detail.html:8
 msgid "{display_name}"
@@ -1348,7 +1348,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/submit.html:180
 msgid "Submit demo"
-msgstr ""
+msgstr "Υποβολή demo"
 
 #: apps/demos/templates/demos/submit.html:181
 msgid "Discard Demo"
@@ -1356,7 +1356,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/submit.html:183
 msgid "Save changes"
-msgstr ""
+msgstr "Αποθήκευση αλλαγών"
 
 #: apps/demos/templates/demos/submit.html:184
 msgid "Discard Changes"
@@ -1384,11 +1384,11 @@ msgstr ""
 
 #: apps/demos/templates/demos/submit_noauth.html:70
 msgid "Create an Account"
-msgstr ""
+msgstr "Δημιουργία λογαριασμού"
 
 #: apps/demos/templates/demos/submit_noauth.html:71
 msgid "Log In to Account"
-msgstr ""
+msgstr "Σύνδεση σε λογαριασμό"
 
 #: apps/demos/templates/demos/terms.html:10
 #: apps/demos/templates/demos/terms.html:35
@@ -1397,7 +1397,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/terms.html:21
 msgid "Terms of Use"
-msgstr ""
+msgstr "Όροι χρήσης"
 
 #: apps/demos/templates/demos/terms.html:122
 msgid "Rights Representation Details"
@@ -1417,7 +1417,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/elements/comments_tree.html:31
 msgid "Reply"
-msgstr ""
+msgstr "Απάντηση"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:34
 msgid "Report this comment"
@@ -1425,7 +1425,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/elements/comments_tree.html:34
 msgid "Report"
-msgstr ""
+msgstr "Αναφορά"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:37
 msgid "Edit this comment"
@@ -1433,7 +1433,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/elements/comments_tree.html:37
 msgid "Edit"
-msgstr ""
+msgstr "Επεξεργασία"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:40
 msgid "Delete this comment"
@@ -1441,7 +1441,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/elements/comments_tree.html:40
 msgid "Delete"
-msgstr ""
+msgstr "Διαγραφή"
 
 #: apps/demos/templates/demos/elements/profile_link.html:2
 #: apps/demos/templates/demos/elements/submission_creator.html:2
@@ -1456,7 +1456,7 @@ msgstr ""
 #: apps/docs/templates/docs/docs.html:18
 #: templates/base.html:60
 msgid "Search"
-msgstr ""
+msgstr "Αναζήτηση"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:8
 msgid "{count} Demo"
@@ -1557,7 +1557,7 @@ msgstr ""
 #: templates/base.html:72
 #: templates/base_compact.html:24
 msgid "Add-ons"
-msgstr ""
+msgstr "Πρόσθετα"
 
 #: apps/devmo/__init__.py:12
 #: apps/docs/templates/docs/docs.html:71
@@ -1568,7 +1568,7 @@ msgstr ""
 #: templates/base.html:73
 #: templates/base_compact.html:25
 msgid "Mozilla"
-msgstr ""
+msgstr "Mozilla"
 
 #: apps/devmo/__init__.py:24
 #: apps/landing/templates/landing/web.html:11
@@ -1611,7 +1611,7 @@ msgstr ""
 #: apps/docs/templates/docs/glossary.html:4
 #: apps/landing/templates/landing/home.html:177
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: apps/docs/templates/docs/docs.html:33
 msgid "HyperText Markup Language, the core language of the web."
@@ -1641,7 +1641,7 @@ msgstr ""
 #: apps/landing/templates/landing/home.html:185
 #: apps/landing/templates/landing/web.html:51
 msgid "JavaScript"
-msgstr ""
+msgstr "JavaScript"
 
 #: apps/docs/templates/docs/docs.html:41
 #: apps/landing/templates/landing/home.html:186
@@ -1659,7 +1659,7 @@ msgstr ""
 #: apps/docs/templates/docs/glossary.html:5
 #: apps/landing/templates/landing/web.html:55
 msgid "CSS"
-msgstr ""
+msgstr "CSS"
 
 #: apps/docs/templates/docs/docs.html:45
 msgid "Cascading Style Sheets provide advanced layout and formatting of web content."
@@ -1677,7 +1677,7 @@ msgstr ""
 #: apps/landing/templates/landing/home.html:189
 #: apps/landing/templates/landing/web.html:59
 msgid "DOM"
-msgstr ""
+msgstr "DOM"
 
 #: apps/docs/templates/docs/docs.html:49
 msgid "The Document Object Model describes the structure and content of web pages."
@@ -1691,7 +1691,7 @@ msgstr ""
 #: apps/docs/templates/docs/docs.html:52
 #: apps/docs/templates/docs/glossary.html:11
 msgid "AJAX"
-msgstr ""
+msgstr "AJAX"
 
 #: apps/docs/templates/docs/docs.html:53
 msgid "\"Asynchronous JavaScript and XML\" is a term that describes the use of all these technologies together to create powerful web applications."
@@ -1750,7 +1750,7 @@ msgstr ""
 #: apps/docs/templates/docs/docs.html:89
 #: apps/landing/templates/landing/addons.html:60
 msgid "Extensions"
-msgstr ""
+msgstr "Επεκτάσεις"
 
 #: apps/docs/templates/docs/docs.html:90
 msgid "/en/Plugins"
@@ -1758,7 +1758,7 @@ msgstr ""
 
 #: apps/docs/templates/docs/docs.html:90
 msgid "Plugins"
-msgstr ""
+msgstr "Πρόσθετες λειτουργίες"
 
 #: apps/docs/templates/docs/docs.html:91
 msgid "Add-ons Builder"
@@ -1770,7 +1770,7 @@ msgstr ""
 
 #: apps/docs/templates/docs/docs.html:92
 msgid "Themes"
-msgstr ""
+msgstr "Θέματα εμφάνισης"
 
 #: apps/docs/templates/docs/docs.html:93
 msgid "/en/Creating_OpenSearch_plugins_for_Firefox"
@@ -1903,7 +1903,7 @@ msgstr ""
 
 #: apps/docs/templates/docs/glossary.html:22
 msgid "Security"
-msgstr ""
+msgstr "Ασφάλεια"
 
 #: apps/docs/templates/docs/glossary.html:23
 msgid "/en/IndexedDB"
@@ -1923,14 +1923,14 @@ msgstr ""
 #: apps/landing/templates/landing/mozilla.html:22
 #: apps/landing/templates/landing/web.html:22
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: apps/landing/templates/landing/addons.html:23
 #: apps/landing/templates/landing/mobile.html:23
 #: apps/landing/templates/landing/mozilla.html:23
 #: apps/landing/templates/landing/web.html:23
 msgid "Subscribe"
-msgstr ""
+msgstr "Συνδρομή"
 
 #: apps/landing/templates/landing/addons.html:24
 msgid "Join the Add-ons discussions!"
@@ -1971,7 +1971,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/addons.html:64
 msgid "Case Studies"
-msgstr ""
+msgstr "Μελέτες"
 
 #: apps/landing/templates/landing/addons.html:65
 msgid "Start-to-finish success stories. See how add-on developers made magic with Mozilla."
@@ -1989,7 +1989,7 @@ msgstr ""
 #: apps/landing/templates/landing/mobile.html:99
 #: apps/landing/templates/landing/mobile.html:115
 msgid "Watch this video"
-msgstr ""
+msgstr "Παρακολουθήστε το βίντεο"
 
 #: apps/landing/templates/landing/addons.html:82
 msgid "Build Add-on in 5 Minutes"
@@ -2062,12 +2062,12 @@ msgstr ""
 #. a.k.a. stands for 'also known as'. Followed by 'DEVMO'.
 #: apps/landing/templates/landing/home.html:10
 msgid "Welcome to the Mozilla Developer Network, a.k.a.:"
-msgstr ""
+msgstr "Καλώς ορίσατε στο Mozilla Developer Network, γνωστό και ως:"
 
 #. DEVMO is the nickname for MDN.
 #: apps/landing/templates/landing/home.html:13
 msgid "DEVMO"
-msgstr ""
+msgstr "DEVMO"
 
 #: apps/landing/templates/landing/home.html:15
 msgid "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
@@ -2079,7 +2079,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/home.html:18
 msgid "New to MDN?"
-msgstr ""
+msgstr "Είστε νέοι στο MDN;"
 
 #: apps/landing/templates/landing/home.html:19
 msgid "Want to help make our network even better?"
@@ -2087,11 +2087,11 @@ msgstr ""
 
 #: apps/landing/templates/landing/home.html:20
 msgid "Here's how to get started"
-msgstr ""
+msgstr "Ιδού πως να ξεκινήσετε"
 
 #: apps/landing/templates/landing/home.html:22
 msgid "Already a member?"
-msgstr ""
+msgstr "Είστε ήδη μέλος;"
 
 #: apps/landing/templates/landing/home.html:23
 msgid "Customize your profile & fine-tune your participation within MDN."
@@ -2100,7 +2100,7 @@ msgstr ""
 #: apps/landing/templates/landing/home.html:24
 #: templates/includes/login.html:6
 msgid "Log in"
-msgstr ""
+msgstr "Σύνδεση"
 
 #: apps/landing/templates/landing/home.html:45
 #: apps/landing/templates/landing/home.html:54
@@ -2110,7 +2110,7 @@ msgstr ""
 #: apps/landing/templates/landing/home.html:47
 #: apps/landing/templates/landing/home.html:84
 msgid "Firefox 4 Beta"
-msgstr ""
+msgstr "Δοκιμαστική έκδοση του Firefox 4"
 
 #: apps/landing/templates/landing/home.html:48
 #: apps/landing/templates/landing/home.html:99
@@ -2126,7 +2126,7 @@ msgstr ""
 #: apps/landing/templates/landing/home.html:93
 #: apps/landing/templates/landing/home.html:108
 msgid "More"
-msgstr ""
+msgstr "Περισσότερα"
 
 #: apps/landing/templates/landing/home.html:72
 msgid "Mozilla continues to lead the charge in the adoption of HTML5 and other evolving open Web technologies. Find out more about the <a href=\"%(devmo_html5)s\">HTML5 spec</a> and the latest enhancements in HTML5, CSS3 and other <a href=\"%(devmo_fx4dev)s\">developer features for Firefox 4</a>."
@@ -2147,7 +2147,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/home.html:116
 msgid "News & Updates"
-msgstr ""
+msgstr "Νέα & Ενημερώσεις"
 
 #: apps/landing/templates/landing/home.html:117
 msgid "Highlighted Mozilla Developer News & Updates"
@@ -2155,7 +2155,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/home.html:120
 msgid "Docs"
-msgstr ""
+msgstr "Έγγραφα"
 
 #: apps/landing/templates/landing/home.html:122
 msgid "Key Topics for <a href=\"%(web_url)s\" class=\"web\">Web</a> Developers"
@@ -2179,7 +2179,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/home.html:174
 msgid "Popular Docs"
-msgstr ""
+msgstr "Δημοφιλή έγγραφα"
 
 #: apps/landing/templates/landing/home.html:178
 msgid "Hypertext Markup Language, the core technology of the web."
@@ -2199,7 +2199,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/home.html:195
 msgid "Developing Add-ons"
-msgstr ""
+msgstr "Ανάπτυξη πρόσθετων"
 
 #: apps/landing/templates/landing/home.html:196
 msgid "Creating extensions, themes, and plug-ins for Firefox and Thunderbird."
@@ -2231,7 +2231,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/home.html:218
 msgid "Get Started Today!"
-msgstr ""
+msgstr "Ξεκινήστε σήμερα κιόλας!"
 
 #: apps/landing/templates/landing/mobile.html:16
 msgid "Welcome to the Mobile Developer Community:"
@@ -2276,7 +2276,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/mobile.html:77
 msgid "Help build Firefox for Mobile"
-msgstr ""
+msgstr "Βοηθήστε στην ανάπτυξη του Firefox για κινητά"
 
 #: apps/landing/templates/landing/mobile.html:79
 msgid "Your help is vital to the success of Firefox. Provide feedback on our <a href=\"%(irc_url)s\">IRC channel</a>, <a href=\"%(meeting_url)s\">join our Wednesday development meeting</a>, or even <a href=\"%(bugzilla_url)s\">file some bugs</a>."
@@ -2292,7 +2292,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/mobile.html:103
 msgid "Firefox Sync"
-msgstr ""
+msgstr "Firefox Sync"
 
 #: apps/landing/templates/landing/mobile.html:107
 msgid "Why Sync up, Security and More"
@@ -2304,7 +2304,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/mobile.html:119
 msgid "Fennec"
-msgstr ""
+msgstr "Fennec"
 
 #: apps/landing/templates/landing/mobile.html:123
 msgid "Pre-Alpha Fennec and HTML5 Demos"
@@ -2341,7 +2341,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/mobile.html:168
 msgid "Android APIs"
-msgstr ""
+msgstr "Android APIs"
 
 #: apps/landing/templates/landing/mobile.html:170
 msgid "Access Android APIs on this Android Developer page."
@@ -2391,7 +2391,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/mozilla.html:52
 msgid "The Mozilla Platform"
-msgstr ""
+msgstr "Η πλατφόρμα Mozilla"
 
 #: apps/landing/templates/landing/mozilla.html:54
 msgid "Learn more about the technologies at the core of Mozilla products and services."
@@ -2433,7 +2433,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/mozilla.html:102
 msgid "Bugzilla"
-msgstr ""
+msgstr "Bugzilla"
 
 #: apps/landing/templates/landing/mozilla.html:103
 msgid "The main issue-tracker for Mozilla projects."
@@ -2441,7 +2441,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/mozilla.html:106
 msgid "MXR"
-msgstr ""
+msgstr "MXR"
 
 #: apps/landing/templates/landing/mozilla.html:107
 msgid "A Mozilla source tree browser."
@@ -2470,7 +2470,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/searchresults.html:7
 msgid "Search Results"
-msgstr ""
+msgstr "Αποτελέσματα αναζήτησης"
 
 #: apps/landing/templates/landing/web.html:16
 msgid "Welcome to the Web Developer Community:"
@@ -2478,7 +2478,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/web.html:20
 msgid "Develop for an open and participatory Web."
-msgstr ""
+msgstr "Γράψτε εφαρμογές για ένα ανοικτό και συμμετοχικό διαδίκτυο"
 
 #: apps/landing/templates/landing/web.html:24
 msgid "Join the Web discussions!"
@@ -2569,7 +2569,7 @@ msgstr ""
 
 #: apps/landing/templates/sidebar/twitter.html:3
 msgid "MDN on Twitter"
-msgstr ""
+msgstr "Το MDN στο Twitter"
 
 #: apps/landing/templates/sidebar/twitter.html:9
 msgid "%(author)s from %(section)s says:"
@@ -2577,17 +2577,17 @@ msgstr ""
 
 #: apps/landing/templates/sidebar/twitter.html:16
 msgid "{timedelta} ago"
-msgstr ""
+msgstr "{timedelta} πριν"
 
 #: templates/404.html:3
 #: templates/404.html:5
 msgid "Not Found"
-msgstr ""
+msgstr "Δεν βρέθηκε"
 
 #: templates/500.html:3
 #: templates/500.html:5
 msgid "Internal Server Error"
-msgstr ""
+msgstr "Εσωτερικό σφάλμα διακομιστή"
 
 #: templates/base.html:49
 msgid "A comprehensive, usable, and accurate resource for everyone developing for the Open Web."
@@ -2595,62 +2595,62 @@ msgstr ""
 
 #: templates/base.html:59
 msgid "Search MDN"
-msgstr ""
+msgstr "Αναζήτηση στο MDN"
 
 #: templates/base.html:79
 #: templates/base_compact.html:27
 msgid "Forums"
-msgstr ""
+msgstr "Φόρουμ"
 
 #: templates/base.html:94
 msgid "What do you think of the new MDN? Please <a href=\"%(uservoice_url)s\">share your feedback</a> with us."
-msgstr ""
+msgstr "Πως σας φαίνεται το νέο MDN; Σας παρακαλούμε να μας <a href=\"%(uservoice_url)s\">πείτε τα σχόλια σας</a>."
 
 #: templates/base.html:107
 msgid "Content is available under <a href=\"%(copyright_url)s\">these licenses</a>"
-msgstr ""
+msgstr "Το περιεχόμενο διατίθεται σύμφωνα με <a href=\"%(copyright_url)s\">αυτές τις άδειες χρήσης</a>"
 
 #: templates/base.html:110
 msgid "About MDN"
-msgstr ""
+msgstr "Περί MDN"
 
 #: templates/base.html:112
 msgid "Help"
-msgstr ""
+msgstr "Βοήθεια"
 
 #: templates/includes/lang_switcher.html:2
 msgid "Other languages:"
-msgstr ""
+msgstr "Άλλες γλώσσες:"
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
-msgstr ""
+msgstr "Μετάβαση"
 
 #: templates/includes/login.html:2
 #: templates/includes/login.html:9
 msgid "Welcome back"
-msgstr ""
+msgstr "Καλώς ήλθατε ξανά"
 
 #: templates/includes/login.html:3
 #: templates/includes/login.html:10
 msgid "Log out"
-msgstr ""
+msgstr "Αποσύνδεση"
 
 #: templates/includes/login.html:7
 msgid "Become an MDN member"
-msgstr ""
+msgstr "Γίνετε μέλος του MDN"
 
 #: templates/includes/video_player.html:3
 msgid "Close"
-msgstr ""
+msgstr "Κλείσιμο"
 
 #. Label used before a list of links to download the video
 #: templates/includes/video_player.html:5
 msgid "Download Formats:"
-msgstr ""
+msgstr "Μορφές για λήψη:"
 
 #. Browsers and Plugins useful for viewing video content
 #: templates/includes/video_player.html:7
 msgid "This video requires a browser with support for open video: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 or greater</li> <li><a href=\"http://www.apple.com/safari/\">Safari</a> 3.1 or greater</li> </ul> or the <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Alternatively, you may use the video download links provided."
-msgstr ""
+msgstr "Αυτό το βίντεο απαιτεί περιηγητή που να υποστηρίζει ανοιχτές μορφές βίντεο: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 ή μεταγενέστερο</li> <li><a href=\"http://www.apple.com/safari/\">Safari</a> 3.1 ή μεταγενέστερο</li> </ul> ή το <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Εναλλακτικά, μπορείτε να κάνετε λήψη του βίντεο μέσω των δεσμών που παρέχουμε."
 
