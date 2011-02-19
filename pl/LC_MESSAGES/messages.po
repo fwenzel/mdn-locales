@@ -938,7 +938,7 @@ msgstr "Oznaczone"
 
 #: apps/demos/__init__.py:104
 msgid "Fonts & Type"
-msgstr "Czcionki i typ"
+msgstr "Czcionki"
 
 #: apps/landing/templates/landing/web.html:44
 msgid "For the latest in open Web technologies, these cool demos are a great way to discover new documentation."
@@ -1440,7 +1440,7 @@ msgstr "Nie znaleziono"
 
 #: apps/demos/__init__.py:184
 msgid "Offline Support"
-msgstr "Wsparcie offline"
+msgstr "Obsługa offline"
 
 #: apps/demos/__init__.py:185
 msgid "Offline caching of web applications' resources using the application cache and local storage."
