@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-12-22 23:25+0200\n"
-"PO-Revision-Date: 2011-02-20 13:34+0200\n"
+"PO-Revision-Date: 2011-02-20 13:36+0200\n"
 "Last-Translator: Edin <edo@mozilla-hr.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -818,9 +818,8 @@ msgstr "Omiljeni članci vezani za <span class=\"mobile\">mobitele</span>"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:98
-#, fuzzy
 msgid "Favorite <span class=\"mozilla\">Mozilla</span> Tools"
-msgstr "Omiljeni <span class=\"moz\">Mozilla</span> alati"
+msgstr "Omiljeni <span class=\"mozilla\">Mozilla</span> alati"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:69
@@ -1409,9 +1408,8 @@ msgstr "Popularna dokumentacija za <span class=\"mobile\">mobitele</span>"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:38
-#, fuzzy
 msgid "Popular <span class=\"mozilla\">Mozilla</span> Documentation"
-msgstr "Popularna dokumentacija o <span class=\"moz\">Mozilli</span>"
+msgstr "Popularna dokumentacija o <span class=\"mozilla\">Mozilli</span>"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:38
@@ -1481,9 +1479,8 @@ msgstr "Nedavne novosti i ažuriranja <span class=\"mobile\">mobitele</span>"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:116
-#, fuzzy
 msgid "Recent <span class=\"mozilla\">Mozilla</span> News &amp; Updates"
-msgstr "Najnovije <span class=\"moz\">Mozilla</span> novosti i ažuriranja"
+msgstr "Najnovije <span class=\"mozilla\">Mozilla</span> novosti i ažuriranja"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:96
