@@ -2366,7 +2366,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/mozilla.html:24
 msgid "Join the Mozilla discussions!"
-msgstr ""
+msgstr "Συμμετέχετε στις συζητήσεις Mozilla!"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:38
@@ -2387,7 +2387,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/mozilla.html:52
 msgid "/en/The_Mozilla_platform"
-msgstr ""
+msgstr "/en/The_Mozilla_platform"
 
 #: apps/landing/templates/landing/mozilla.html:52
 msgid "The Mozilla Platform"
@@ -2395,7 +2395,7 @@ msgstr "Η πλατφόρμα Mozilla"
 
 #: apps/landing/templates/landing/mozilla.html:54
 msgid "Learn more about the technologies at the core of Mozilla products and services."
-msgstr ""
+msgstr "Μάθετε περισσότερα για την τεχνολογία που χρησιμοποιείται στον πυρήνα των εφαρμογών και των υπηρεσιών Mozilla."
 
 #: apps/landing/templates/landing/mozilla.html:63
 msgid "There are several ways you can use Mozilla code in your own project. Find everything you need to develop \"powered by Mozilla\" applications."
@@ -2403,11 +2403,11 @@ msgstr ""
 
 #: apps/landing/templates/landing/mozilla.html:71
 msgid "/en/Debugging"
-msgstr ""
+msgstr "/en/Debugging"
 
 #: apps/landing/templates/landing/mozilla.html:71
 msgid "Debugging"
-msgstr ""
+msgstr "Αποσφαλμάτωση"
 
 #: apps/landing/templates/landing/mozilla.html:73
 msgid "Mozilla developers have come up with not just technologies and features to help you debug code, but have devised tips and techniques that can help too."
@@ -2420,7 +2420,7 @@ msgstr ""
 #: apps/landing/templates/landing/mozilla.html:92
 #: apps/landing/templates/landing/mozilla.html:109
 msgid "/en/Tools"
-msgstr ""
+msgstr "/en/Tools"
 
 #: apps/landing/templates/landing/mozilla.html:92
 msgid "All applications development documentation"
@@ -2454,7 +2454,7 @@ msgstr ""
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:116
 msgid "Recent <span class=\"mozilla\">Mozilla</span> News &amp; Updates"
-msgstr ""
+msgstr "Πρόσφατες ενημερώσεις &amp; νέα από το έργο <span class=\"mozilla\">Mozilla</span>"
 
 #: apps/landing/templates/landing/mozilla.html:121
 msgid "All application development entries"
@@ -2466,7 +2466,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/newsfeed.html:12
 msgid "Written by %(authorlink)s on %(entrydate)s"
-msgstr ""
+msgstr "Γράφτηκε από τον/την %(authorlink)s στις %(entrydate)s"
 
 #: apps/landing/templates/landing/searchresults.html:7
 msgid "Search Results"
@@ -2515,7 +2515,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/web.html:63
 msgid "/en/Web_Development"
-msgstr ""
+msgstr "/en/Web_Development"
 
 #: apps/landing/templates/landing/web.html:63
 msgid "All web development documentation"
