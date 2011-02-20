@@ -3,15 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-12-22 23:25+0200\n"
-"PO-Revision-Date: 2011-01-07 19:11+0200\n"
+"PO-Revision-Date: 2011-02-20 13:34+0200\n"
 "Last-Translator: Edin <edo@mozilla-hr.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pootle 2.1.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.1.5\n"
 
 #: apps/landing/templates/landing/mobile.html:158
 msgid ""
@@ -43,56 +44,56 @@ msgstr "%(authorlink)s je napisao %(summary)s"
 
 #: apps/demos/helpers.py:228
 msgid "%(number)d %(type)s"
-msgstr ""
+msgstr "%(number)d %(type)s"
 
 #: apps/demos/helpers.py:302
 msgid "%(number)d day ago"
 msgid_plural "%(number)d days ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "prije %(number)d dan"
+msgstr[1] "prije %(number)d dana"
+msgstr[2] "prije %(number)d dana"
 
 #: apps/demos/helpers.py:304
 msgid "%(number)d hour ago"
 msgid_plural "%(number)d hours ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "prije %(number)d sat"
+msgstr[1] "prije %(number)d sata"
+msgstr[2] "prije %(number)d sati"
 
 #: apps/demos/helpers.py:306
 msgid "%(number)d minute ago"
 msgid_plural "%(number)d minutes ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "prije %(number)d minut"
+msgstr[1] "prije %(number)d minute"
+msgstr[2] "prije %(number)d minuta"
 
 #: apps/demos/helpers.py:298
 msgid "%(number)d month ago"
 msgid_plural "%(number)d months ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "prije %(number)d mjesec"
+msgstr[1] "prije %(number)d mjeseca"
+msgstr[2] "prije %(number)d mjeseci"
 
 #: apps/demos/helpers.py:308
 msgid "%(number)d second ago"
 msgid_plural "%(number)d seconds ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "prije %(number)d sekund"
+msgstr[1] "prije %(number)d sekunde"
+msgstr[2] "prije %(number)d sekundi"
 
 #: apps/demos/helpers.py:300
 msgid "%(number)d week ago"
 msgid_plural "%(number)d weeks ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "prije %(number)d tjedan"
+msgstr[1] "prije %(number)d tjedna"
+msgstr[2] "prije %(number)d tjedana"
 
 #: apps/demos/helpers.py:296
 msgid "%(number)d year ago"
 msgid_plural "%(number)d years ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "prije %(number)d godinu"
+msgstr[1] "prije %(number)d godine"
+msgstr[2] "prije %(number)d godina"
 
 #: apps/demos/feeds.py:199
 msgid "%s's MDN demos"
@@ -103,178 +104,153 @@ msgid "(multiple)"
 msgstr "(višestruk)"
 
 #: apps/docs/templates/docs/docs.html:52 apps/docs/templates/docs/glossary.html:11
-#, fuzzy
 msgid "/en/AJAX"
-msgstr "AJAX"
+msgstr "/en/AJAX"
 
 #: apps/docs/templates/docs/docs.html:44 apps/docs/templates/docs/glossary.html:5 apps/landing/templates/landing/home.html:181 apps/landing/templates/landing/web.html:55
-#, fuzzy
 msgid "/en/CSS"
-msgstr "CSS"
+msgstr "/en/CSS"
 
 #: apps/docs/templates/docs/glossary.html:12
-#, fuzzy
 msgid "/en/CSS/Media_queries"
-msgstr "Upiti medija"
+msgstr "/en/CSS/Media_queries"
 
 #: apps/docs/templates/docs/glossary.html:20
 msgid "/en/CSS/Using_CSS_transforms"
-msgstr ""
+msgstr "/en/CSS/Using_CSS_transforms"
 
 #: apps/docs/templates/docs/docs.html:93
 msgid "/en/Creating_OpenSearch_plugins_for_Firefox"
-msgstr ""
+msgstr "/en/Creating_OpenSearch_plugins_for_Firefox"
 
 #: apps/docs/templates/docs/docs.html:48 apps/docs/templates/docs/glossary.html:8 apps/landing/templates/landing/home.html:189 apps/landing/templates/landing/web.html:59
-#, fuzzy
 msgid "/en/DOM"
-msgstr "DOM"
+msgstr "/en/DOM"
 
 #: apps/landing/templates/landing/mozilla.html:71
-#, fuzzy
 msgid "/en/Debugging"
-msgstr "Debugging"
+msgstr "/en/Debugging"
 
 #: apps/docs/templates/docs/docs.html:81
-#, fuzzy
 msgid "/en/Detecting_device_orientation"
-msgstr "Otkrivanje orijentacije uređaja"
+msgstr "/en/Detecting_device_orientation"
 
 #: apps/landing/templates/landing/mozilla.html:43
-#, fuzzy
 msgid "/en/Developer_Guide"
-msgstr "Vodič za Mozilla programere"
+msgstr "/en/Developer_Guide"
 
 #: apps/docs/templates/docs/glossary.html:19
 msgid "/en/DragDrop/Drag_and_Drop"
-msgstr ""
+msgstr "/en/DragDrop/Drag_and_Drop"
 
 #: apps/docs/templates/docs/docs.html:89 apps/landing/templates/landing/addons.html:60
-#, fuzzy
 msgid "/en/Extensions"
-msgstr "Proširenja"
+msgstr "/en/Extensions"
 
 #: apps/landing/templates/landing/home.html:72 apps/landing/templates/landing/home.html:166
-#, fuzzy
 msgid "/en/Firefox_4_for_developers"
-msgstr "Firefox za mobitele - za programere"
+msgstr "/en/Firefox_4_for_developers"
 
 #: apps/docs/templates/docs/docs.html:32 apps/docs/templates/docs/glossary.html:4 apps/landing/templates/landing/home.html:177
-#, fuzzy
 msgid "/en/HTML"
-msgstr "HTML"
+msgstr "/en/HTML"
 
 #: apps/docs/templates/docs/glossary.html:10
 msgid "/en/HTML/Element/canvas"
-msgstr ""
+msgstr "/en/HTML/Element/canvas"
 
 #: apps/docs/templates/docs/docs.html:36 apps/docs/templates/docs/glossary.html:7 apps/landing/templates/landing/home.html:72 apps/landing/templates/landing/home.html:78
 #: apps/landing/templates/landing/web.html:47
 msgid "/en/HTML/HTML5"
-msgstr ""
+msgstr "/en/HTML/HTML5"
 
 #: apps/docs/templates/docs/glossary.html:23
-#, fuzzy
 msgid "/en/IndexedDB"
-msgstr "IndexedDB"
+msgstr "/en/IndexedDB"
 
 #: apps/docs/templates/docs/docs.html:40 apps/docs/templates/docs/glossary.html:6 apps/landing/templates/landing/home.html:185 apps/landing/templates/landing/web.html:51
-#, fuzzy
 msgid "/en/JavaScript"
-msgstr "JavaScript"
+msgstr "/en/JavaScript"
 
 #: apps/docs/templates/docs/docs.html:101 apps/landing/templates/landing/home.html:150 apps/landing/templates/landing/mozilla.html:81
-#, fuzzy
 msgid "/en/Localization"
-msgstr "Lokalizacija"
+msgstr "/en/Localization"
 
 #: apps/docs/templates/docs/docs.html:80 apps/landing/templates/landing/home.html:132 apps/landing/templates/landing/mobile.html:88
-#, fuzzy
 msgid "/en/Mobile"
-msgstr "Mobilni"
+msgstr "/en/Mobile"
 
 #: apps/docs/templates/docs/docs.html:99 apps/landing/templates/landing/home.html:149 apps/landing/templates/landing/home.html:207
-#, fuzzy
 msgid "/en/Participating_in_the_Mozilla_project"
-msgstr "Sudjelovanje u Mozilla projektu"
+msgstr "/en/Participating_in_the_Mozilla_project"
 
 #: apps/docs/templates/docs/docs.html:90
-#, fuzzy
 msgid "/en/Plugins"
-msgstr "Priključci"
+msgstr "/en/Plugins"
 
 #: apps/docs/templates/docs/docs.html:102 apps/landing/templates/landing/home.html:150
 msgid "/en/QA"
-msgstr ""
+msgstr "/en/QA"
 
 #: apps/docs/templates/docs/glossary.html:9
-#, fuzzy
 msgid "/en/SVG"
-msgstr "SVG"
+msgstr "/en/SVG"
 
 #: apps/docs/templates/docs/glossary.html:22
-#, fuzzy
 msgid "/en/Security"
-msgstr "Sigurnost"
+msgstr "/en/Security"
 
 #: apps/docs/templates/docs/glossary.html:14
-#, fuzzy
 msgid "/en/Storage"
-msgstr "Web pohrana"
+msgstr "/en/Storage"
 
 #: apps/landing/templates/landing/mozilla.html:52
-#, fuzzy
 msgid "/en/The_Mozilla_platform"
-msgstr "Mozilla Platforma"
+msgstr "/en/The_Mozilla_platform"
 
 #: apps/docs/templates/docs/docs.html:92
-#, fuzzy
 msgid "/en/Themes"
-msgstr "Teme"
+msgstr "/en/Themes"
 
 #: apps/landing/templates/landing/mozilla.html:92 apps/landing/templates/landing/mozilla.html:109
 msgid "/en/Tools"
-msgstr ""
+msgstr "/en/Tools"
 
 #: apps/docs/templates/docs/docs.html:100 apps/landing/templates/landing/mozilla.html:61
-#, fuzzy
 msgid "/en/Using_Mozilla_code_in_other_projects"
-msgstr "Korištenje Mozilla koda u drugim projektima"
+msgstr "/en/Using_Mozilla_code_in_other_projects"
 
 #: apps/docs/templates/docs/glossary.html:15 apps/docs/templates/docs/glossary.html:16
 msgid "/en/Using_audio_and_video_in_Firefox"
-msgstr ""
+msgstr "/en/Using_audio_and_video_in_Firefox"
 
 #: apps/docs/templates/docs/glossary.html:18
 msgid "/en/Using_files_from_web_applications"
-msgstr ""
+msgstr "/en/Using_files_from_web_applications"
 
 #: apps/docs/templates/docs/docs.html:82 apps/landing/templates/landing/home.html:132 apps/landing/templates/landing/mobile.html:69
-#, fuzzy
 msgid "/en/Using_geolocation"
-msgstr "Upotreba geolokacije"
+msgstr "/en/Using_geolocation"
 
 #: apps/docs/templates/docs/glossary.html:21
 msgid "/en/Using_gradients"
-msgstr ""
+msgstr "/en/Using_gradients"
 
 #: apps/docs/templates/docs/glossary.html:17
 msgid "/en/Using_web_workers"
-msgstr ""
+msgstr "/en/Using_web_workers"
 
 #: apps/docs/templates/docs/glossary.html:13
-#, fuzzy
 msgid "/en/WebGL"
-msgstr "WebGL"
+msgstr "/en/WebGL"
 
 #: apps/landing/templates/landing/web.html:63
 msgid "/en/Web_Development"
-msgstr ""
+msgstr "/en/Web_Development"
 
 #: apps/landing/templates/landing/home.html:201
-#, fuzzy
 msgid "/en/mobile"
-msgstr "Mobilni"
+msgstr "/en/mobile"
 
 #: apps/landing/templates/landing/home.html:140
 msgid "<a href=\"%(builder_url)s\">Build your own add-ons</a> and discuss them with the <a href=\"%(dev_url)s\">add-on developer community</a>."
@@ -282,15 +258,17 @@ msgstr "<a href=\"%(builder_url)s\">Napravite svoje dodatke</a> i razgovarajte o
 
 #: apps/demos/templates/demos/elements/comments_tree.html:9
 msgid "<cite class=\"author fn\">%(comment_profile_link)s</cite> said,"
-msgstr ""
+msgstr "<cite class=\"author fn\">%(comment_profile_link)s</cite> napisao je,"
 
 #: apps/demos/templates/demos/detail.html:181
 msgid "<p><a href=\"/Special:UserRegistration\">Register</a> or <a href=\"/Special:UserLogin\">log in</a> to add your own.</p>"
 msgstr ""
+"<p><a href=\"/Special:UserRegistration\">Registrirajte se</a> ili <a "
+"href=\"/Special:UserLogin\">prijavite se</a> da biste dodali vlastiti.</p>"
 
 #: apps/demos/templates/demos/delete_comment.html:39
 msgid "<p>Are you sure that you would like to delete this comment?</p>"
-msgstr ""
+msgstr "<p>Sigurno želite pobrisati ovaj komentar?</p>"
 
 #: apps/demos/templates/demos/submit.html:81
 msgid "<p>Tell us more about your demo, including the name, description and the technologies used. Please list the browsers you have tested it with.</p>"
@@ -299,6 +277,8 @@ msgstr ""
 #: apps/demos/templates/demos/submit_noauth.html:65
 msgid "<p>To submit your demo, you need an <strong><a href=\"%(signup_url)s\">MDN account</a></strong>.</p>"
 msgstr ""
+"<p>Da biste podnijeli vaš demo, potreban vam je <strong><a href=\"%"
+"(signup_url)s\">MDN račun</a></strong>.</p>"
 
 #: apps/demos/templates/demos/submit.html:138
 msgid "<p>Upload a ZIP file of your source code, in which the main page of your demo is named <code>index.html</code> in the root directory.</p>"
@@ -325,7 +305,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/detail.html:177
 msgid "<p>Why not <a href=\"#comment-post\">Add your own</a>?</p>"
-msgstr ""
+msgstr "<p>Zašto ne <a href=\"#comment-post\">dodate vaš</a>?</p>"
 
 #: apps/demos/templates/demos/delete.html:40
 msgid ""
@@ -394,7 +374,7 @@ msgstr "Pristupite Android APIjima na ovoj stranici razvoja za Android."
 
 #: apps/demos/templates/demos/detail.html:198
 msgid "Add your comment"
-msgstr ""
+msgstr "Dodajte vaš komentar"
 
 #: apps/landing/templates/landing/addons.html:104
 msgid "Add-on Packager"
@@ -483,7 +463,7 @@ msgstr "Još jedan izvrsni Firefox/Firebug dodatak koji vam pomaže u pregledu i
 
 #: apps/demos/__init__.py:286
 msgid "Apache"
-msgstr ""
+msgstr "Apache"
 
 #: apps/landing/templates/landing/addons.html:20 apps/landing/templates/landing/mozilla.html:20
 msgid "Are you ready to make browsing better?"
@@ -499,7 +479,7 @@ msgstr "Automatski generirajte pakiranje dodatka unosom osnovnih podataka i odab
 
 #: apps/demos/__init__.py:280
 msgid "BSD"
-msgstr ""
+msgstr "BSD"
 
 #: apps/landing/templates/landing/home.html:215
 msgid "Be Heard."
@@ -511,7 +491,7 @@ msgstr "Postanite MDN član"
 
 #: apps/demos/templates/demos/submit_noauth.html:40
 msgid "Before You Begin"
-msgstr ""
+msgstr "Prije nego što počnete"
 
 #: apps/demos/templates/demos/listing_all.html:5 apps/demos/templates/demos/listing_all.html:19 apps/demos/templates/demos/listing_all.html:31
 msgid "Browse all demos"
@@ -519,7 +499,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/elements/tags_list.html:2
 msgid "Browse by Technology"
-msgstr ""
+msgstr "Pretražite po tehnologiji"
 
 #: apps/landing/templates/landing/mozilla.html:102
 msgid "Bugzilla"
@@ -535,7 +515,7 @@ msgstr "Stvorite izvrsne dodatke za mobilne uređaje"
 
 #: apps/demos/templates/demos/detail.html:114
 msgid "Built using"
-msgstr ""
+msgstr "Kreiran upotrebom"
 
 #: apps/docs/templates/docs/docs.html:44 apps/docs/templates/docs/glossary.html:5 apps/landing/templates/landing/web.html:55
 msgid "CSS"
@@ -554,17 +534,16 @@ msgid "CSS Transforms"
 msgstr "CSS transforme"
 
 #: apps/demos/__init__.py:76
-#, fuzzy
 msgid "CSS3"
-msgstr "CSS"
+msgstr "CSS3"
 
 #: apps/demos/templates/demos/delete.html:49 apps/demos/templates/demos/delete_comment.html:52 apps/demos/templates/demos/flag.html:44
 msgid "Cancel"
-msgstr ""
+msgstr "Odustani"
 
 #: apps/demos/forms.py:135
 msgid "Cannot process image"
-msgstr ""
+msgstr "Nije moguće obraditi sliku"
 
 #: apps/demos/__init__.py:66 apps/docs/templates/docs/glossary.html:10
 msgid "Canvas"
@@ -574,6 +553,9 @@ msgstr "Canvas"
 msgid ""
 "Cascading Style Sheets level 3 (CSS3) provide serveral new features and properties to enhance the formatting and look of documents written in different kinds of markup languages like HTML or XML."
 msgstr ""
+"Cascading Style Sheets level 3 (CSS3) pruža nekoliko novih značajki i "
+"svojstava da bi poboljšao formatiranje i izgled dokumenata napisanih u "
+"različitim vrstama markup jezika kao što su HTML ili XML."
 
 #: apps/docs/templates/docs/docs.html:45
 msgid "Cascading Style Sheets provide advanced layout and formatting of web content."
@@ -597,7 +579,7 @@ msgstr "Zatvori"
 
 #: apps/demos/templates/demos/detail.html:200 apps/demos/templates/demos/elements/comments_tree.html:50
 msgid "Comment"
-msgstr ""
+msgstr "Komentar"
 
 #: apps/landing/templates/landing/addons.html:61
 msgid "Complete documentation for developing extensions for Mozilla applications."
@@ -605,11 +587,11 @@ msgstr "Potpuna dokumentacija o razvoju proširenja za Mozilline aplikacije."
 
 #: apps/contentflagging/models.py:31
 msgid "Content deleted by moderator"
-msgstr ""
+msgstr "Sadržaj izbrisan od strane moderatora"
 
 #: apps/contentflagging/models.py:30
 msgid "Content hidden by moderator"
-msgstr ""
+msgstr "Sadržaj skriven od strane moderatora"
 
 #: templates/base.html:107
 msgid "Content is available under <a href=\"%(copyright_url)s\">these licenses</a>"
@@ -633,7 +615,7 @@ msgstr "Korespodencija na Twitteru iz zajednice web programera."
 
 #: apps/demos/templates/demos/submit_noauth.html:70
 msgid "Create an Account"
-msgstr ""
+msgstr "Kreirajte račun"
 
 #: apps/landing/templates/landing/home.html:196
 msgid "Creating extensions, themes, and plug-ins for Firefox and Thunderbird."
@@ -641,7 +623,7 @@ msgstr "Stvaranje proširenja, tema i dodataka za Firefox i Thunderbird."
 
 #: apps/contentflagging/models.py:29
 msgid "Creator notified"
-msgstr ""
+msgstr "Autor obaviješten"
 
 #: apps/landing/templates/landing/home.html:23
 msgid "Customize your profile & fine-tune your participation within MDN."
@@ -662,43 +644,42 @@ msgstr "Debugging"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:40
 msgid "Delete"
-msgstr ""
+msgstr "Obriši"
 
 #: apps/demos/templates/demos/delete_comment.html:10 apps/demos/templates/demos/delete_comment.html:22
 msgid "Delete Comment"
-msgstr ""
+msgstr "Obriši komentar"
 
 #: apps/demos/templates/demos/delete_comment.html:51
 msgid "Delete comment"
-msgstr ""
+msgstr "Obriši komentar"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:40
 msgid "Delete this comment"
-msgstr ""
+msgstr "Obriši ovaj komentar"
 
 #: apps/demos/templates/demos/delete_comment.html:38
 msgid "Delete this comment?"
-msgstr ""
+msgstr "Obriši ovaj komentar?"
 
 #: apps/demos/templates/demos/base.html:4 apps/demos/templates/demos/delete.html:21 apps/demos/templates/demos/delete_comment.html:21 apps/demos/templates/demos/detail.html:14
 #: apps/demos/templates/demos/flag.html:21 apps/demos/templates/demos/home.html:14 apps/demos/templates/demos/listing_all.html:18 apps/demos/templates/demos/listing_search.html:24
 #: apps/demos/templates/demos/listing_tag.html:19 apps/demos/templates/demos/profile_detail.html:23 apps/demos/templates/demos/submit.html:43 apps/demos/templates/demos/submit_noauth.html:19
 #: templates/base.html:78 templates/base_compact.html:18
-#, fuzzy
 msgid "Demo Studio"
-msgstr "Studije slučaja"
+msgstr "Demo Studio"
 
 #: apps/demos/templates/demos/detail.html:251
 msgid "Demo is inappropriate"
-msgstr ""
+msgstr "Demo je neprikladan"
 
 #: apps/demos/templates/demos/detail.html:252
 msgid "Demo is not by this author"
-msgstr ""
+msgstr "Demo nije od ovog autora"
 
 #: apps/demos/templates/demos/detail.html:250
 msgid "Demo is not working"
-msgstr ""
+msgstr "Demo ne radi"
 
 #: apps/demos/feeds.py:167
 msgid "Demos featured on MDN"
@@ -722,7 +703,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/submit.html:79
 msgid "Describe Your Demo"
-msgstr ""
+msgstr "Opišite vaš demo"
 
 #: apps/docs/templates/docs/docs.html:81
 msgid "Detecting device orientation"
@@ -746,19 +727,19 @@ msgstr "Programiranje za mobilne uređaje"
 
 #: apps/demos/__init__.py:86
 msgid "Device"
-msgstr ""
+msgstr "Uređaj"
 
 #: apps/demos/templates/demos/submit.html:184
 msgid "Discard Changes"
-msgstr ""
+msgstr "Odbaci izmjene"
 
 #: apps/demos/templates/demos/submit.html:181
 msgid "Discard Demo"
-msgstr ""
+msgstr "Odbaci demo"
 
 #: apps/demos/templates/demos/detail.html:90 apps/demos/templates/demos/launch.html:39
 msgid "Do you like this demo?"
-msgstr ""
+msgstr "Sviđa vam se ovaj demo?"
 
 #: apps/docs/templates/docs/docs.html:7 templates/base.html:77 templates/base_compact.html:26
 msgid "Doc Center"
@@ -780,34 +761,38 @@ msgstr "Formati za preuzimanje:"
 #: apps/demos/templates/demos/detail.html:212
 msgid "Download the Source <span class=\"note\">%(file_ksize)s KB &middot; ZIP File</span>"
 msgstr ""
+"Preuzmite izvor <span class=\"note\">%(file_ksize)s KB &middot; ZIP "
+"datoteka</span>"
 
 #: apps/demos/__init__.py:164 apps/docs/templates/docs/glossary.html:19
 msgid "Drag and Drop"
-msgstr "Povucite i ispustite"
+msgstr "Prevuci i ispusti"
 
 #: apps/demos/__init__.py:165
 msgid "Drag and Drop features allow the user to move elements on the screen using the mouse pointer."
 msgstr ""
+"Značajka prevuci i ispusti omogućava korisnicima da premjeste elemente na "
+"ekranu koristeći pokazivač miša."
 
 #: apps/demos/__init__.py:139
 msgid "ECMA Spec"
-msgstr ""
+msgstr "ECMA Specifikacije"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:37
 msgid "Edit"
-msgstr ""
+msgstr "Uredi"
 
 #: apps/demos/templates/demos/detail.html:53
 msgid "Edit Demo"
-msgstr ""
+msgstr "Uredi demo"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:37
 msgid "Edit this comment"
-msgstr ""
+msgstr "Uredi komentar"
 
 #: apps/demos/templates/demos/submit.html:8 apps/demos/templates/demos/submit.html:45 apps/demos/templates/demos/submit.html:60
 msgid "Edit {demo_title}"
-msgstr ""
+msgstr "Uredi {demo_title}"
 
 #: apps/landing/templates/landing/web.html:83
 msgid "Evaluate performance of web pages with this Firefox/Firebug Add-on"
@@ -851,9 +836,8 @@ msgid "Featured demos"
 msgstr ""
 
 #: apps/demos/templates/demos/elements/submission_listing.html:65
-#, fuzzy
 msgid "Feed"
-msgstr "Fennec"
+msgstr "Kanal"
 
 #: apps/landing/templates/landing/mobile.html:119
 msgid "Fennec"
@@ -865,7 +849,7 @@ msgstr "Datoteke"
 
 #: apps/demos/models.py:157
 msgid "Filetype not supported."
-msgstr ""
+msgstr "Vrsta datoteke nije podržana."
 
 #: apps/landing/templates/landing/web.html:48
 msgid "Find out what HTML5 is really all about and how you can develop for a better Web through open standards."
@@ -882,6 +866,8 @@ msgstr "Firefox dodatak koji dodaje mnogo izvrsnih alata za programere koji su u
 #: apps/demos/__init__.py:175
 msgid "Firefox Mobile brings the true Web experience to mobile phones and other non-PC devices."
 msgstr ""
+"Firefox za mobitele donosi stvarni doživljaj weba na mobilne uređaje i "
+"ostale ne-računalne uređaje."
 
 #: apps/docs/templates/docs/docs.html:80
 msgid "Firefox Mobile for developers"
@@ -913,9 +899,8 @@ msgid "Flag rejected by moderator"
 msgstr ""
 
 #: apps/demos/templates/demos/flag.html:37
-#, fuzzy
 msgid "Flag this demo?"
-msgstr "Pogledajte video"
+msgstr ""
 
 #: apps/contentflagging/models.py:27
 msgid "Flagged"
@@ -923,7 +908,7 @@ msgstr ""
 
 #: apps/demos/__init__.py:104
 msgid "Fonts & Type"
-msgstr ""
+msgstr "Fontovi & Vrsta"
 
 #: apps/landing/templates/landing/web.html:44
 msgid "For the latest in open Web technologies, these cool demos are a great way to discover new documentation."
@@ -934,9 +919,8 @@ msgid "Form elements and attributes in HTML5 provide a greater degree of semanti
 msgstr ""
 
 #: apps/demos/__init__.py:114
-#, fuzzy
 msgid "Forms"
-msgstr "Forumi"
+msgstr "Forme"
 
 #: templates/base.html:79 templates/base_compact.html:27
 msgid "Forums"
@@ -944,12 +928,11 @@ msgstr "Forumi"
 
 #: apps/demos/__init__.py:274
 msgid "GPL"
-msgstr ""
+msgstr "GPL"
 
 #: apps/demos/__init__.py:124
-#, fuzzy
 msgid "Geolocation"
-msgstr "Upotreba geolokacije"
+msgstr "Geolokacija"
 
 #: apps/landing/templates/landing/home.html:218
 msgid "Get Started Today!"
@@ -957,7 +940,9 @@ msgstr "Započnite još danas!"
 
 #: apps/landing/templates/landing/addons.html:53
 msgid "Get add-on development guidance in a top-notch collection of tutorials, articles, and more."
-msgstr "Nabavite smjernice razvoja dodataka u vrhunskoj zbirci tutorijala, članaka, i još mnogo toga."
+msgstr ""
+"Preuzmite smjernice razvoja dodataka u vrhunskoj zbirci tutorijala, članaka, "
+"i još mnogo toga."
 
 #: apps/docs/templates/docs/docs.html:69
 msgid "Get involved in the %(mobile_link)s, %(addons_link)s, & %(apps_link)s Developer Communities:"
@@ -965,7 +950,7 @@ msgstr "Pridružite se u %(mobile_link)s, %(addons_link)s, & %(apps_link)s zajed
 
 #: apps/demos/templates/demos/detail.html:211
 msgid "Get the Source Code"
-msgstr ""
+msgstr "Preuzmite izvorni kod"
 
 #: apps/landing/templates/landing/mobile.html:45
 msgid "Get the latest news, status and developer documentation on the Mozilla mobile project. Check out the mobile project's goals, and how you can help out and get involved!"
@@ -977,27 +962,27 @@ msgstr "Idi"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:54
 msgid "Go to the first page"
-msgstr ""
+msgstr "Idi na prvu stranicu"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:61
 msgid "Go to the last page"
-msgstr ""
+msgstr "Idi na zadnju stranicu"
 
 #: apps/demos/templates/demos/detail.html:27 apps/demos/templates/demos/launch.html:62
 msgid "Go to the next demo, {demo_title}"
-msgstr ""
+msgstr "Idi na sljedeći demo, {demo_title}"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:59
 msgid "Go to the next page"
-msgstr ""
+msgstr "Idi na sljedeću stranicu"
 
 #: apps/demos/templates/demos/detail.html:23 apps/demos/templates/demos/launch.html:58
 msgid "Go to the previous demo, {demo_title}"
-msgstr ""
+msgstr "Idi na prethodni demo, {demo_title}"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:56
 msgid "Go to the previous page"
-msgstr ""
+msgstr "Idi na prethodnu stranicu"
 
 #: apps/docs/templates/docs/docs.html:32 apps/docs/templates/docs/glossary.html:4 apps/landing/templates/landing/home.html:177
 msgid "HTML"
@@ -1005,7 +990,7 @@ msgstr "HTML"
 
 #: apps/demos/models.py:454
 msgid "HTML index not found in ZIP"
-msgstr ""
+msgstr "HTML indeks nije pronađen u ZIP"
 
 #: apps/demos/__init__.py:144 apps/docs/templates/docs/docs.html:36 apps/docs/templates/docs/glossary.html:7 apps/landing/templates/landing/home.html:46 apps/landing/templates/landing/home.html:70
 #: apps/landing/templates/landing/web.html:47
@@ -1014,7 +999,7 @@ msgstr "HTML5"
 
 #: apps/demos/__init__.py:145
 msgid "HTML5 is the newest version of the HTML standard, currently under development."
-msgstr ""
+msgstr "HTML5 je najnovija verzija HTML standarda, trenutno u razvoju."
 
 #: apps/landing/templates/landing/web.html:43
 msgid "Hacks Demos"
@@ -1038,7 +1023,7 @@ msgstr "Ovdje je kako možete započeti"
 
 #: apps/demos/templates/demos/detail.html:66
 msgid "Hide demo"
-msgstr ""
+msgstr "Skrij demo"
 
 #: apps/landing/templates/landing/home.html:117
 msgid "Highlighted Mozilla Developer News & Updates"
@@ -1083,10 +1068,12 @@ msgstr "Interna pogreška poslužitelja"
 #: apps/demos/models.py:307
 msgid "Is your source code also available somewhere else on the web (e.g., github)? Please share the link."
 msgstr ""
+"Da li je vaš izvorni kod dostupan još negdje na webu (npr. github)? Molimo "
+"podijelite link."
 
 #: apps/demos/templates/demos/submit.html:116
 msgid "JPEG and PNG supported. Minimum size of 480x360."
-msgstr ""
+msgstr "JPEG i PNG podržan. Minimalna veličina 480x360."
 
 #: apps/docs/templates/docs/docs.html:40 apps/docs/templates/docs/glossary.html:6 apps/landing/templates/landing/home.html:185 apps/landing/templates/landing/web.html:51
 msgid "JavaScript"
@@ -1097,9 +1084,8 @@ msgid "JavaScript is a lightweight, object-oriented programming language, common
 msgstr ""
 
 #: apps/demos/__init__.py:134
-#, fuzzy
 msgid "Javascript"
-msgstr "JavaScript"
+msgstr "Javascript"
 
 #: apps/landing/templates/landing/addons.html:24
 msgid "Join the Add-ons discussions!"
@@ -1128,11 +1114,11 @@ msgstr "Ključne teme za <span class=\"web\">web </span> programere"
 
 #: apps/demos/__init__.py:219
 msgid "Khronos Spec"
-msgstr ""
+msgstr "Khronos Specifikacije"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:61
 msgid "Last"
-msgstr ""
+msgstr "Zadnje"
 
 #: apps/docs/templates/docs/docs.html:117
 msgid "Last edited by:"
@@ -1149,17 +1135,16 @@ msgid "Latest <span class=\"addons\">Add-ons</span> Discussions from Our Forums:
 msgstr "Najnovije rasprave o <span class=\"addons\">dodacima</span> iz naših foruma:"
 
 #: apps/demos/templates/demos/detail.html:78
-#, fuzzy
 msgid "Launch Demo"
-msgstr "Demo prikazi hakiranja"
+msgstr "Pokreni demo"
 
 #: apps/demos/templates/demos/elements/submission_thumb.html:20
 msgid "Launch {title}"
-msgstr ""
+msgstr "Pokreni {title}"
 
 #: apps/demos/templates/demos/listing_tag.html:39
 msgid "Learn More"
-msgstr ""
+msgstr "Saznajte više"
 
 #: apps/landing/templates/landing/mobile.html:69
 msgid ""
@@ -1183,7 +1168,7 @@ msgstr "Saznajte više o povijesti projekta <em>Devmo</em>"
 
 #: apps/demos/templates/demos/detail.html:90 apps/demos/templates/demos/launch.html:39
 msgid "Like It"
-msgstr ""
+msgstr "Sviđa vam se"
 
 #: apps/docs/templates/docs/docs.html:101 apps/landing/templates/landing/mozilla.html:81
 msgid "Localization"
@@ -1203,7 +1188,7 @@ msgstr "Lokacija-Svjestan Aplikacije"
 
 #: apps/demos/templates/demos/submit_noauth.html:71
 msgid "Log In to Account"
-msgstr ""
+msgstr "Prijavite se u račun"
 
 #: apps/landing/templates/landing/home.html:24 templates/includes/login.html:6
 msgid "Log in"
@@ -1217,18 +1202,17 @@ msgstr "Odjavi se"
 #: apps/demos/templates/demos/listing_all.html:17 apps/demos/templates/demos/listing_search.html:23 apps/demos/templates/demos/listing_tag.html:18 apps/demos/templates/demos/profile_detail.html:22
 #: apps/demos/templates/demos/submit.html:42 apps/demos/templates/demos/submit_noauth.html:18
 msgid "MDN"
-msgstr ""
+msgstr "MDN"
 
 #: apps/demos/__init__.py:59 apps/demos/__init__.py:69 apps/demos/__init__.py:79 apps/demos/__init__.py:89 apps/demos/__init__.py:98 apps/demos/__init__.py:107 apps/demos/__init__.py:117
 #: apps/demos/__init__.py:127 apps/demos/__init__.py:137 apps/demos/__init__.py:147 apps/demos/__init__.py:157 apps/demos/__init__.py:167 apps/demos/__init__.py:177 apps/demos/__init__.py:187
 #: apps/demos/__init__.py:197 apps/demos/__init__.py:207 apps/demos/__init__.py:217 apps/demos/__init__.py:227 apps/demos/__init__.py:237 apps/demos/__init__.py:247 apps/demos/__init__.py:257
-#, fuzzy
 msgid "MDN Documentation"
-msgstr "Pretražite MDN dokumentaciju"
+msgstr "MDN Dokumentacija"
 
 #: apps/demos/feeds.py:213
 msgid "MDN demo search for \"%s\""
-msgstr ""
+msgstr "MDN pretraga demo za \"%s\""
 
 #: apps/demos/feeds.py:87
 msgid "MDN demos"
@@ -1256,7 +1240,7 @@ msgstr ""
 
 #: apps/demos/__init__.py:268
 msgid "MPL/GPL/LGPL"
-msgstr ""
+msgstr "MPL/GPL/LGPL"
 
 #: apps/landing/templates/landing/mozilla.html:106
 msgid "MXR"
@@ -1264,7 +1248,7 @@ msgstr "MXR"
 
 #: apps/demos/models.py:107
 msgid "Maximum of %s tags allowed"
-msgstr ""
+msgstr "Maksimalno %s oznaka dozvoljeno"
 
 #: apps/docs/templates/docs/glossary.html:12
 msgid "Media Queries"
@@ -1293,7 +1277,7 @@ msgstr "Više"
 
 #: apps/demos/templates/demos/detail.html:165
 msgid "More About This Demo From The Author"
-msgstr ""
+msgstr "Više o ovom demo od autora"
 
 #: apps/docs/templates/docs/docs.html:112
 msgid "Most Active Docs"
@@ -1305,11 +1289,11 @@ msgstr ""
 
 #: apps/demos/templates/demos/elements/submission_listing.html:16
 msgid "Most Recent"
-msgstr ""
+msgstr "Najnoviji"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:14
 msgid "Most Viewed"
-msgstr ""
+msgstr "Najgledanije"
 
 #: apps/devmo/__init__.py:12 apps/docs/templates/docs/docs.html:71 apps/docs/templates/docs/docs.html:97 apps/landing/templates/landing/home.html:147 apps/landing/templates/landing/mozilla.html:11
 #: apps/landing/templates/landing/mozilla.html:17 templates/base.html:73 templates/base_compact.html:25
@@ -1317,9 +1301,8 @@ msgid "Mozilla"
 msgstr "Mozilla"
 
 #: apps/demos/templates/demos/home.html:22
-#, fuzzy
 msgid "Mozilla Demo Studio"
-msgstr "Vodič za Mozilla programere"
+msgstr "Mozilla Demo Studio"
 
 #: apps/landing/templates/landing/mozilla.html:43
 msgid "Mozilla Developer Guide"
@@ -1335,9 +1318,12 @@ msgid ""
 "accessible, 100%% free, and powered entirely by learners, mentors and contributors like you people. Our goal: a vibrant, peer-led system that helps people around the world easily access and build "
 "careers on open web technology."
 msgstr ""
-"Mozilla i <a href=\"%(p2pu)s\">P2Pu</a> kreiraju <a href=\"%(p2pu_drumbeat)s\">Školu web zanata</a>, snažan novi način podučavanja i učenja web programiranja. Razredi su dostupni globalno, 100%% "
-"besplatni, vođeni učenicima, mentorima i suradnicima kao što ste vi. Naš cilj: vitalni, peer-vođen sistem koji pomaže ljudima diljem svijeta u jednostavnom pristupu i gradnji karijera na "
-"tehnologiji otvorenog weba."
+"Mozilla i <a href=\"%(p2pu)s\">P2PU</a> kreiraju <a href=\"%"
+"(p2pu_drumbeat)s\">Školu web zanata</a>, snažan novi način podučavanja i "
+"učenja web programiranja. Razredi su dostupni globalno, 100%% besplatni, "
+"vođeni učenicima, mentorima i suradnicima kao što ste vi. Naš cilj: vitalni, "
+"peer-vođen sistem koji pomaže ljudima diljem svijeta u jednostavnom "
+"pristupu i gradnji karijera na tehnologiji otvorenog weba."
 
 #: apps/landing/templates/landing/home.html:72
 msgid ""
@@ -1354,6 +1340,8 @@ msgstr "Mozilla programeri nisu samo pronašli tehnologije i značajke da pomogn
 #: apps/demos/__init__.py:57
 msgid "Mozilla's Audio Data API extends the current HTML5 API and allows web developers to read and write raw audio data."
 msgstr ""
+"Mozillin Audio Data API proširuje trenutni HTML5 API i omogućava web "
+"programerima da čitaju i zapisuju neobrađene audio podatke."
 
 #: apps/demos/__init__.py:254
 msgid "Multi-touch"
@@ -1370,11 +1358,11 @@ msgstr "Novosti & Ažuriranja"
 #: apps/demos/templates/demos/detail.html:27 apps/demos/templates/demos/detail.html:133 apps/demos/templates/demos/home.html:44 apps/demos/templates/demos/launch.html:62
 #: apps/demos/templates/demos/elements/submission_listing.html:59
 msgid "Next"
-msgstr ""
+msgstr "Sljedeće"
 
 #: apps/demos/templates/demos/detail.html:172
 msgid "No comments yet."
-msgstr ""
+msgstr "Još nema komentara."
 
 #: templates/404.html:3 templates/404.html:5
 msgid "Not Found"
@@ -1382,7 +1370,7 @@ msgstr "Nije pronađeno"
 
 #: apps/demos/__init__.py:184
 msgid "Offline Support"
-msgstr ""
+msgstr "Izvanmrežna podrška"
 
 #: apps/demos/__init__.py:185
 msgid "Offline caching of web applications' resources using the application cache and local storage."
@@ -1403,6 +1391,7 @@ msgstr "Sudjelovanje u Mozilla projektu"
 #: apps/demos/models.py:153
 msgid "Please keep filesize under %s. Current filesize %s"
 msgstr ""
+"Molimo zadržite veličinu datoteke ispod %s. Trenutna veličina datoteke je %s"
 
 #: apps/docs/templates/docs/docs.html:90
 msgid "Plugins"
@@ -1443,6 +1432,10 @@ msgid ""
 "Posted <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime=\"%(comment_isotime)s"
 "\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
 msgstr ""
+"Objavljeno <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent "
+"link to this comment by %(display_name)s\"><time class=\"published\" "
+"pubdate=\"pubdate\" datetime=\"%(comment_isotime)s\" title=\"%"
+"(comment_isotime)s\">%(comment_timesince)s</time></a>"
 
 #: apps/landing/templates/landing/mobile.html:123
 msgid "Pre-Alpha Fennec and HTML5 Demos"
@@ -1450,15 +1443,15 @@ msgstr "Pre-alfa Fennec i HTML5 demo"
 
 #: apps/demos/templates/demos/submit.html:123 apps/demos/templates/demos/submit_noauth.html:52
 msgid "Preparing Your Demo"
-msgstr ""
+msgstr "Priprema vašeg demo"
 
 #: apps/demos/templates/demos/detail.html:23 apps/demos/templates/demos/launch.html:58
 msgid "Prev"
-msgstr ""
+msgstr "Pret"
 
 #: apps/demos/templates/demos/detail.html:132 apps/demos/templates/demos/home.html:43 apps/demos/templates/demos/elements/submission_listing.html:56
 msgid "Previous"
-msgstr ""
+msgstr "Prethodni"
 
 #: apps/demos/templates/demos/submit.html:107
 msgid "Provide at least one screenshot of your demo in action"
@@ -1503,35 +1496,35 @@ msgstr ""
 
 #: apps/demos/templates/demos/delete.html:48 apps/demos/templates/demos/detail.html:58
 msgid "Remove demo"
-msgstr ""
+msgstr "Uklonite demo"
 
 #: apps/demos/templates/demos/delete.html:38
 msgid "Remove this demo?"
-msgstr ""
+msgstr "Ukloni ovaj demo?"
 
 #: apps/demos/templates/demos/launch.html:67
 msgid "Remove this toolbar"
-msgstr ""
+msgstr "Ukloni ovu alatnu traku"
 
 #: apps/demos/templates/demos/launch.html:67
 msgid "Remove toolbar"
-msgstr ""
+msgstr "Uklonite alatnu traku"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:31
 msgid "Reply"
-msgstr ""
+msgstr "Odgovori"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:31
 msgid "Reply to this comment by {full_name}"
-msgstr ""
+msgstr "Odgovorite na ovaj komentar od {full_name}"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:34
 msgid "Report"
-msgstr ""
+msgstr "Prijavi"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:34
 msgid "Report this comment"
-msgstr ""
+msgstr "Prijavite ovaj komentar"
 
 #: apps/demos/templates/demos/terms.html:122
 msgid "Rights Representation Details"
@@ -1543,7 +1536,7 @@ msgstr "SVG"
 
 #: apps/demos/templates/demos/submit.html:183
 msgid "Save changes"
-msgstr ""
+msgstr "Spremi izmjene"
 
 #: apps/demos/__init__.py:195
 msgid "Scalable Vector Graphics (SVG) is an XML based language for describing two-dimensional vector graphics."
@@ -1589,9 +1582,10 @@ msgstr "Pretražite MDN dokumentaciju"
 msgid "Search Results"
 msgstr "Rezultati pretraživanja"
 
+# 79%
 #: apps/demos/templates/demos/listing_search.html:25 apps/demos/templates/demos/listing_search.html:37
 msgid "Search demos for \"{q}\""
-msgstr ""
+msgstr "Pretraži demo za \"{q}\""
 
 #: apps/docs/templates/docs/docs.html:93
 msgid "Search engine plugins"
@@ -1599,12 +1593,11 @@ msgstr "Priključci tražilica"
 
 #: apps/demos/templates/demos/listing_search.html:10
 msgid "Search for \"{q}\""
-msgstr ""
+msgstr "Traži za \"{q}\""
 
 #: apps/demos/templates/demos/listing_search.html:14
-#, fuzzy
 msgid "Search results for \"{q}\""
-msgstr "Rezultati pretraživanja"
+msgstr "Rezultati pretraživanja za \"{q}\""
 
 #: apps/demos/feeds.py:214
 msgid "Search results for demo submissions matching \"%s\""
@@ -1612,7 +1605,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/elements/search_form.html:4
 msgid "Search the Demo Studio"
-msgstr ""
+msgstr "Pretraži Demo Studio"
 
 #: apps/docs/templates/docs/glossary.html:22
 msgid "Security"
@@ -1634,7 +1627,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/elements/submission_thumb.html:5
 msgid "See more about {title} by {author}"
-msgstr ""
+msgstr "Pogledajte više o {title} od {author}"
 
 #: apps/demos/templates/demos/detail.html:116
 msgid "See more demos made with {tag_title}"
@@ -1642,7 +1635,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/detail.html:133
 msgid "See the next image"
-msgstr ""
+msgstr "Pogledajte sljedeću sliku"
 
 #: apps/demos/templates/demos/home.html:44
 msgid "See the next three demos"
@@ -1650,7 +1643,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/detail.html:132
 msgid "See the previous image"
-msgstr ""
+msgstr "Poggledajte prethodnu sliku"
 
 #: apps/demos/templates/demos/home.html:43
 msgid "See the previous three demos"
@@ -1662,32 +1655,31 @@ msgstr "Pogledajte što je novo za web programere u najnovijoj verziji Firefoxa"
 
 #: apps/demos/templates/demos/elements/profile_link.html:2 apps/demos/templates/demos/elements/submission_creator.html:2
 msgid "See {display_name}'s profile"
-msgstr ""
+msgstr "Pogledajte profil od {display_name}'s"
 
 #: apps/demos/models.py:310
 msgid "Select the license that applies to your source code."
-msgstr ""
+msgstr "Odaberite licencu koja se primjenjuje na vaš izvorni kod."
 
 #: apps/demos/templates/demos/submit.html:92
 msgid "Select up to five technologies used in your demo."
-msgstr ""
+msgstr "Odaberite do pet tehnologija korištenih u vašem demu."
 
 #: apps/demos/templates/demos/detail.html:99 apps/demos/templates/demos/launch.html:43
 msgid "Share It"
-msgstr ""
+msgstr "Podijeli"
 
 #: apps/demos/templates/demos/detail.html:101 apps/demos/templates/demos/launch.html:48
 msgid "Share on Facebook"
-msgstr ""
+msgstr "Podijeli na Facebook"
 
 #: apps/demos/templates/demos/detail.html:100 apps/demos/templates/demos/launch.html:47
-#, fuzzy
 msgid "Share on Twitter"
-msgstr "MDN na Twitteru"
+msgstr "Podijeli na Twitter"
 
 #: apps/demos/templates/demos/detail.html:95 apps/demos/templates/demos/launch.html:43
 msgid "Share this demo with your social network"
-msgstr ""
+msgstr "Podijelite ovaj demo sa vašom društvenom mrežom"
 
 #: apps/demos/templates/demos/submit.html:103
 msgid "Show Off Your Demo"
@@ -1695,11 +1687,11 @@ msgstr ""
 
 #: apps/demos/templates/demos/detail.html:63
 msgid "Show demo"
-msgstr ""
+msgstr "Prikaži demo"
 
 #: apps/demos/forms.py:147
 msgid "Show us you're human"
-msgstr ""
+msgstr "Pokažite nam da ste čovjek"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:15
 msgid "Sort demos by most likes"
@@ -1724,20 +1716,20 @@ msgstr "Od početka-do-kraja priče uspjeha. Pogledajte kako su programeri dodat
 #: apps/demos/templates/demos/delete.html:26 apps/demos/templates/demos/delete_comment.html:26 apps/demos/templates/demos/flag.html:26 apps/demos/templates/demos/home.html:33
 #: apps/demos/templates/demos/listing_all.html:22 apps/demos/templates/demos/listing_search.html:28 apps/demos/templates/demos/listing_tag.html:23 apps/demos/templates/demos/profile_detail.html:27
 msgid "Submit a Demo"
-msgstr ""
+msgstr "Podnesite demo"
 
 #: apps/demos/templates/demos/submit.html:10 apps/demos/templates/demos/submit.html:47 apps/demos/templates/demos/submit.html:62 apps/demos/templates/demos/submit_noauth.html:10
 #: apps/demos/templates/demos/submit_noauth.html:20 apps/demos/templates/demos/submit_noauth.html:30
 msgid "Submit a New Demo"
-msgstr ""
+msgstr "Podnesite novi demo"
 
 #: apps/demos/templates/demos/submit.html:180
 msgid "Submit demo"
-msgstr ""
+msgstr "Podnesite demo"
 
 #: apps/demos/templates/demos/feed_item_description.html:7
 msgid "Submitted by:"
-msgstr ""
+msgstr "Podnešen od:"
 
 #: apps/landing/templates/landing/addons.html:23 apps/landing/templates/landing/mobile.html:23 apps/landing/templates/landing/mozilla.html:23 apps/landing/templates/landing/web.html:23
 msgid "Subscribe"
@@ -1765,15 +1757,15 @@ msgstr ""
 
 #: apps/demos/templates/demos/feed_item_description.html:9
 msgid "Tagged as:"
-msgstr ""
+msgstr "Označen kao:"
 
 #: apps/demos/templates/demos/terms.html:10 apps/demos/templates/demos/terms.html:35
 msgid "Terms for Contributors"
-msgstr ""
+msgstr "Uvjeti za suradnike"
 
 #: apps/demos/templates/demos/terms.html:21
 msgid "Terms of Use"
-msgstr ""
+msgstr "Uvjeti korištenja"
 
 #: apps/landing/templates/landing/home.html:86
 msgid ""
@@ -1821,7 +1813,7 @@ msgstr "Mozilla Platforma"
 
 #: apps/contentflagging/models.py:23
 msgid "The author is fake"
-msgstr ""
+msgstr "Autor je varalica"
 
 #: apps/landing/templates/landing/mozilla.html:103
 msgid "The main issue-tracker for Mozilla projects."
@@ -1862,17 +1854,19 @@ msgstr "Postoji nekoliko načina kako možete koristiti Mozillin kod u vašim pr
 #: apps/demos/templates/demos/detail.html:126 apps/demos/templates/demos/elements/submission_thumb.html:17
 msgid "There is {count} comment for this demo"
 msgid_plural "There are {count} comments for this demo"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Postoji {count} komentar za ovaj demo"
+msgstr[1] "Postoji {count} komentara za ovaj demo"
+msgstr[2] "Postoji {count} komentara za ovaj demo"
 
 #: apps/devmo/models.py:35
 msgid "This URL has an invalid format. Valid URLs look like http://example.com/my_page."
 msgstr ""
+"URL je u nevažećem formatu. Ispravni ULR izgleda kao "
+"http://primjer.com/moja_stranica."
 
 #: apps/contentflagging/models.py:21
 msgid "This contains inappropriate content"
-msgstr ""
+msgstr "Ovo sadrži neprikladan sadržaj"
 
 #: apps/demos/templates/demos/detail.html:124 apps/demos/templates/demos/elements/submission_thumb.html:15
 msgid "This demo has been viewed {count} time"
@@ -1883,11 +1877,11 @@ msgstr[2] ""
 
 #: apps/demos/templates/demos/detail.html:230
 msgid "This demo is released under the <a href=\"%(link)s\">%(title)s</a> license."
-msgstr ""
+msgstr "Demo je objavljen pod <a href=\"%(link)s\">%(title)s</a> licencom."
 
 #: apps/contentflagging/models.py:20
 msgid "This is not working for me"
-msgstr ""
+msgstr "Ovo ne radi za mene"
 
 #. Browsers and Plugins useful for viewing video content
 #: templates/includes/video_player.html:7
@@ -1900,11 +1894,11 @@ msgstr ""
 
 #: apps/contentflagging/models.py:22
 msgid "This was not created by the author"
-msgstr ""
+msgstr "Autor nije kreirao ovo"
 
 #: apps/demos/helpers.py:362
 msgid "Today at %s"
-msgstr ""
+msgstr "Danas u %s"
 
 #: apps/demos/__init__.py:255
 msgid "Track the movement of the user's finger on a touch screen, monitoring the raw touch events generated by the system."
@@ -1920,7 +1914,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/submit.html:147
 msgid "Upload demo file&hellip;"
-msgstr ""
+msgstr "Učitajte demo datoteku&hellip;"
 
 #: apps/landing/templates/landing/addons.html:101
 msgid "Use Add-ons Builder to quickly and easily develop an extension for Firefox using common web technologies."
@@ -1950,7 +1944,7 @@ msgstr "Video"
 #: apps/demos/__init__.py:129 apps/demos/__init__.py:149 apps/demos/__init__.py:159 apps/demos/__init__.py:169 apps/demos/__init__.py:179 apps/demos/__init__.py:189 apps/demos/__init__.py:199
 #: apps/demos/__init__.py:209 apps/demos/__init__.py:229 apps/demos/__init__.py:239 apps/demos/__init__.py:249 apps/demos/__init__.py:259
 msgid "W3C Spec"
-msgstr ""
+msgstr "W3C Specifikacije"
 
 #: apps/landing/templates/landing/home.html:19
 msgid "Want to help make our network even better?"
@@ -1974,7 +1968,7 @@ msgstr "Pogledajte video"
 
 #: apps/demos/templates/demos/submit.html:118
 msgid "We support YouTube and Vimeo"
-msgstr ""
+msgstr "Podržavamo YouTube i Vimeo"
 
 #: apps/devmo/__init__.py:24 apps/landing/templates/landing/web.html:11 apps/landing/templates/landing/web.html:17 templates/base.html:70 templates/base_compact.html:22
 msgid "Web"
@@ -1986,7 +1980,7 @@ msgstr "Web pohrana"
 
 #: apps/demos/__init__.py:234 apps/docs/templates/docs/glossary.html:17
 msgid "Web Workers"
-msgstr "Web radnici"
+msgstr "Web Workers"
 
 #: apps/demos/__init__.py:235
 msgid "Web Workers provide a simple means for web content to run scripts in background threads."
@@ -1997,9 +1991,8 @@ msgid "WebGL"
 msgstr "WebGL"
 
 #: apps/demos/__init__.py:224
-#, fuzzy
 msgid "WebSockets"
-msgstr "Web radnici"
+msgstr "WebSockets"
 
 #: apps/demos/__init__.py:225
 msgid "WebSockets is a technology that makes it possible to open an interactive communication session between the user's browser and a server."
@@ -2046,7 +2039,7 @@ msgstr "Zašto Sync up, sigurnost i ostalo"
 #: apps/demos/__init__.py:148 apps/demos/__init__.py:158 apps/demos/__init__.py:168 apps/demos/__init__.py:178 apps/demos/__init__.py:188 apps/demos/__init__.py:198 apps/demos/__init__.py:208
 #: apps/demos/__init__.py:218 apps/demos/__init__.py:228 apps/demos/__init__.py:238 apps/demos/__init__.py:248 apps/demos/__init__.py:258
 msgid "Wikipedia Article"
-msgstr ""
+msgstr "Wikipedia članak"
 
 #: apps/landing/templates/landing/newsfeed.html:12
 msgid "Written by %(authorlink)s on %(entrydate)s"
@@ -2054,7 +2047,7 @@ msgstr "Napisao je %(authorlink)s na dan %(entrydate)s"
 
 #: apps/demos/__init__.py:244
 msgid "XMLHttpRequest"
-msgstr ""
+msgstr "XMLHttpRequest"
 
 #: apps/demos/__init__.py:245
 msgid "XMLHttpRequest (XHR) is used to send HTTP requests directly to a webserver and load the response data directly back into the script."
@@ -2114,16 +2107,15 @@ msgstr ""
 
 #: apps/demos/views.py:62 apps/demos/views.py:204 apps/demos/views.py:228 apps/demos/views.py:241 apps/demos/views.py:254
 msgid "access denied"
-msgstr ""
+msgstr "pristup nije dozvoljen"
 
 #: apps/demos/templates/demos/detail.html:43
-#, fuzzy
 msgid "by %(creator_link)s on %(create_date)s"
-msgstr "Napisao je %(authorlink)s na dan %(entrydate)s"
+msgstr "od %(creator_link)s %(create_date)s"
 
 #: apps/demos/templates/demos/launch.html:25
 msgid "by %(profile_link)s"
-msgstr ""
+msgstr "od %(profile_link)s"
 
 #: apps/contentflagging/models.py:65
 msgid "current status of flag review"
@@ -2131,30 +2123,30 @@ msgstr ""
 
 #: apps/demos/models.py:316
 msgid "date created"
-msgstr ""
+msgstr "datum kreiranja"
 
 #: apps/actioncounters/models.py:90 apps/contentflagging/models.py:99 apps/demos/models.py:318
 msgid "date last modified"
-msgstr ""
+msgstr "datum zadnje preinake"
 
 #: apps/contentflagging/models.py:96
 msgid "date submitted"
-msgstr ""
+msgstr "datum podnošenja"
 
 #: apps/demos/helpers.py:220
 msgid "day"
 msgid_plural "days"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "dan"
+msgstr[1] "dana"
+msgstr[2] "dana"
 
 #: apps/demos/models.py:258
 msgid "describe your demo in more detail (optional)"
-msgstr ""
+msgstr "opišite vaš demo detaljnije (opcionalno)"
 
 #: apps/demos/models.py:255
 msgid "describe your demo in one line"
-msgstr ""
+msgstr "opišite vaš demo u jednoj rečenici"
 
 #: apps/landing/templates/landing/web.html:75
 msgid "geckoday via AMO"
@@ -2166,309 +2158,290 @@ msgstr ""
 
 #: apps/demos/__init__.py:293
 msgid "http://creativecommons.org/publicdomain/zero/1.0/"
-msgstr ""
+msgstr "http://creativecommons.org/publicdomain/zero/1.0/"
 
 #: apps/demos/__init__.py:129
 msgid "http://dev.w3.org/geo/api/spec-source.html"
-msgstr ""
+msgstr "http://dev.w3.org/geo/api/spec-source.html"
 
 #: apps/demos/__init__.py:149
 msgid "http://dev.w3.org/html5/spec/Overview.html"
-msgstr ""
+msgstr "http://dev.w3.org/html5/spec/Overview.html"
 
 #: apps/demos/__init__.py:229
 msgid "http://dev.w3.org/html5/websockets/"
-msgstr ""
+msgstr "http://dev.w3.org/html5/websockets/"
 
 #: apps/demos/__init__.py:189
 msgid "http://dev.w3.org/html5/webstorage/"
-msgstr ""
+msgstr "http://dev.w3.org/html5/webstorage/"
 
 #: apps/demos/__init__.py:70
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Canvas_element"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Canvas_element"
 
 #: apps/demos/__init__.py:80
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Cascading_Style_Sheets"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Cascading_Style_Sheets"
 
 #: apps/demos/__init__.py:168
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Drag-and-drop"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Drag-and-drop"
 
 #: apps/demos/__init__.py:60
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/HTML5_audio"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/HTML5_audio"
 
 #: apps/demos/__init__.py:208
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/HTML5_video"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/HTML5_video"
 
 #: apps/demos/__init__.py:118
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/HTML_forms"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/HTML_forms"
 
 #: apps/demos/__init__.py:148
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Html5"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Html5"
 
 #: apps/demos/__init__.py:158
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/IndexedDB"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/IndexedDB"
 
 #: apps/demos/__init__.py:138
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/JavaScript"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/JavaScript"
 
 #: apps/demos/__init__.py:178
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Mobile_web"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Mobile_web"
 
 #: apps/landing/templates/landing/home.html:15
 msgid "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
 msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
 
 #: apps/demos/__init__.py:258
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Multi-touch"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Multi-touch"
 
 #: apps/demos/__init__.py:198
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Scalable_Vector_Graphics"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Scalable_Vector_Graphics"
 
 #: apps/demos/__init__.py:128
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/W3C_Geolocation_API"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/W3C_Geolocation_API"
 
 #: apps/demos/__init__.py:218
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/WebGL"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/WebGL"
 
 #: apps/demos/__init__.py:228
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_Sockets"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Web_Sockets"
 
 #: apps/demos/__init__.py:188
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_Storage"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Web_Storage"
 
 #: apps/demos/__init__.py:238
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_Workers"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Web_Workers"
 
 #: apps/demos/__init__.py:108
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_typography"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Web_typography"
 
 #: apps/demos/__init__.py:248
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/XMLHttpRequest"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/XMLHttpRequest"
 
 #: apps/demos/__init__.py:287
 msgid "http://www.apache.org/licenses/"
-msgstr ""
+msgstr "http://www.apache.org/licenses/"
 
 #: apps/demos/__init__.py:139
 msgid "http://www.ecma-international.org/publications/standards/Ecma-262.htm"
-msgstr ""
+msgstr "http://www.ecma-international.org/publications/standards/Ecma-262.htm"
 
 #: apps/demos/__init__.py:219
 msgid "http://www.khronos.org/webgl/"
-msgstr ""
+msgstr "http://www.khronos.org/webgl/"
 
 #: apps/demos/__init__.py:269
 msgid "http://www.mozilla.org/MPL/"
-msgstr ""
+msgstr "http://www.mozilla.org/MPL/"
 
 #: apps/demos/__init__.py:281
 msgid "http://www.opensource.org/licenses/bsd-license.php"
-msgstr ""
+msgstr "http://www.opensource.org/licenses/bsd-license.php"
 
 #: apps/demos/__init__.py:275
 msgid "http://www.opensource.org/licenses/gpl-license.php"
-msgstr ""
+msgstr "http://www.opensource.org/licenses/gpl-license.php"
 
 #: apps/demos/__init__.py:259
 msgid "http://www.w3.org/2010/webevents/charter/"
-msgstr ""
+msgstr "http://www.w3.org/2010/webevents/charter/"
 
 #: apps/demos/__init__.py:179
 msgid "http://www.w3.org/Mobile/"
-msgstr ""
+msgstr "http://www.w3.org/Mobile/"
 
 #: apps/demos/__init__.py:99
 msgid "http://www.w3.org/TR/FileAPI/"
-msgstr ""
+msgstr "http://www.w3.org/TR/FileAPI/"
 
 #: apps/demos/__init__.py:159
 msgid "http://www.w3.org/TR/IndexedDB/"
-msgstr ""
+msgstr "http://www.w3.org/TR/IndexedDB/"
 
 #: apps/demos/__init__.py:199
 msgid "http://www.w3.org/TR/SVG11/"
-msgstr ""
+msgstr "http://www.w3.org/TR/SVG11/"
 
 #: apps/demos/__init__.py:249
 msgid "http://www.w3.org/TR/XMLHttpRequest/"
-msgstr ""
+msgstr "http://www.w3.org/TR/XMLHttpRequest/"
 
 #: apps/demos/__init__.py:109
 msgid "http://www.w3.org/TR/css3-fonts/"
-msgstr ""
+msgstr "http://www.w3.org/TR/css3-fonts/"
 
 #: apps/demos/__init__.py:90
 msgid "http://www.w3.org/TR/css3-mediaqueries/"
-msgstr ""
+msgstr "http://www.w3.org/TR/css3-mediaqueries/"
 
 #: apps/demos/__init__.py:81
 msgid "http://www.w3.org/TR/css3-roadmap/"
-msgstr ""
+msgstr "http://www.w3.org/TR/css3-roadmap/"
 
 #: apps/demos/__init__.py:169
 msgid "http://www.w3.org/TR/html5/dnd.html"
-msgstr ""
+msgstr "http://www.w3.org/TR/html5/dnd.html"
 
 #: apps/demos/__init__.py:119
 msgid "http://www.w3.org/TR/html5/forms.html"
-msgstr ""
+msgstr "http://www.w3.org/TR/html5/forms.html"
 
 #: apps/demos/__init__.py:71
 msgid "http://www.w3.org/TR/html5/the-canvas-element.html"
-msgstr ""
+msgstr "http://www.w3.org/TR/html5/the-canvas-element.html"
 
 #: apps/demos/__init__.py:209
 msgid "http://www.w3.org/TR/html5/video.html"
-msgstr ""
+msgstr "http://www.w3.org/TR/html5/video.html"
 
 #: apps/demos/__init__.py:61
 msgid "http://www.w3.org/TR/html5/video.html#audio"
-msgstr ""
+msgstr "http://www.w3.org/TR/html5/video.html#audio"
 
 #: apps/demos/__init__.py:239
 msgid "http://www.w3.org/TR/workers/"
-msgstr ""
+msgstr "http://www.w3.org/TR/workers/"
 
 #: apps/demos/__init__.py:177
 msgid "https://developer.mozilla.org/En/Mobile"
-msgstr ""
+msgstr "https://developer.mozilla.org/En/Mobile"
 
 #: apps/demos/__init__.py:207
 msgid "https://developer.mozilla.org/En/Using_audio_and_video_in_Firefox"
-msgstr ""
+msgstr "https://developer.mozilla.org/En/Using_audio_and_video_in_Firefox"
 
 #: apps/demos/__init__.py:127
 msgid "https://developer.mozilla.org/En/Using_geolocation"
-msgstr ""
+msgstr "https://developer.mozilla.org/En/Using_geolocation"
 
 #: apps/demos/__init__.py:237
 msgid "https://developer.mozilla.org/En/Using_web_workers"
-msgstr ""
+msgstr "https://developer.mozilla.org/En/Using_web_workers"
 
 #: apps/demos/__init__.py:247
 msgid "https://developer.mozilla.org/En/XMLHttpRequest/Using_XMLHttpRequest"
-msgstr ""
+msgstr "https://developer.mozilla.org/En/XMLHttpRequest/Using_XMLHttpRequest"
 
 #: apps/demos/__init__.py:79
 msgid "https://developer.mozilla.org/en/CSS"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/CSS"
 
 #: apps/demos/__init__.py:257
 msgid "https://developer.mozilla.org/en/DOM/Touch_events"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/DOM/Touch_events"
 
 #: apps/demos/__init__.py:89
 msgid "https://developer.mozilla.org/en/Detecting_device_orientation"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/Detecting_device_orientation"
 
 #: apps/demos/__init__.py:167
 msgid "https://developer.mozilla.org/en/DragDrop/Drag_and_Drop"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/DragDrop/Drag_and_Drop"
 
 #: apps/demos/__init__.py:69
 msgid "https://developer.mozilla.org/en/HTML/Canvas"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/HTML/Canvas"
 
 #: apps/demos/__init__.py:147
 msgid "https://developer.mozilla.org/en/HTML/HTML5"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/HTML/HTML5"
 
 #: apps/demos/__init__.py:117
 msgid "https://developer.mozilla.org/en/HTML/HTML5/Forms_in_HTML5"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/HTML/HTML5/Forms_in_HTML5"
 
 #: apps/demos/__init__.py:157
 msgid "https://developer.mozilla.org/en/IndexedDB"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/IndexedDB"
 
 #: apps/demos/__init__.py:59
 msgid "https://developer.mozilla.org/en/Introducing_the_Audio_API_Extension"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/Introducing_the_Audio_API_Extension"
 
 #: apps/demos/__init__.py:197
 msgid "https://developer.mozilla.org/en/SVG"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/SVG"
 
 #: apps/demos/__init__.py:217
 msgid "https://developer.mozilla.org/en/WebGL"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/WebGL"
 
 #: apps/demos/__init__.py:227
 msgid "https://developer.mozilla.org/en/WebSockets"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/WebSockets"
 
 #: apps/demos/__init__.py:107
 msgid "https://developer.mozilla.org/en/css/@font-face"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/css/@font-face"
 
 #: apps/demos/__init__.py:187
 msgid "https://developer.mozilla.org/en/dom/storage#localStorage"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/dom/storage#localStorage"
 
 #: apps/demos/__init__.py:137
 msgid "https://developer.mozilla.org/en/javascript"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/javascript"
 
 #: apps/demos/__init__.py:98
 msgid "https://developer.mozilla.org/en/using_files_from_web_applications"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/using_files_from_web_applications"
 
 #: apps/demos/helpers.py:218
 msgid "month"
 msgid_plural "months"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "mjesec"
+msgstr[1] "mjeseca"
+msgstr[2] "mjeseci"
 
 #: apps/actioncounters/models.py:75
 msgid "name of the action"
-msgstr ""
+msgstr "naziv akcije"
 
 #: apps/actioncounters/models.py:71 apps/contentflagging/models.py:78
 msgid "object ID"
-msgstr ""
+msgstr "ID objekta"
 
 #: apps/contentflagging/models.py:71
 msgid "please explain what content you feel is inappropriate"
-msgstr ""
+msgstr "molimo pojasnite za koji sadržaj smatrate da je neprimjeren"
 
 #: apps/contentflagging/models.py:68
 msgid "reason for flagging the content"
@@ -2476,49 +2449,48 @@ msgstr ""
 
 #: apps/demos/templates/demos/home.html:65
 msgid "recent"
-msgstr ""
+msgstr "nedavno"
 
 #: apps/demos/models.py:299
 msgid "select a ZIP file containing your demo"
-msgstr ""
+msgstr "odaberite ZIP datoteku koja sadrži vaš demo"
 
 #: apps/demos/models.py:270
 msgid "select up to 5 tags that describe your demo"
-msgstr ""
+msgstr "odaberite do 5 oznaka koje opisuju vaš demo"
 
 #: apps/demos/models.py:252
 msgid "slug"
-msgstr ""
+msgstr "slug"
 
 #: apps/demos/helpers.py:219
 msgid "week"
 msgid_plural "weeks"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "tjedan"
+msgstr[1] "tjedna"
+msgstr[2] "tjedana"
 
 #: apps/demos/models.py:250
 msgid "what is your demo's name?"
-msgstr ""
+msgstr "kako se zove vaš demo?"
 
 #: apps/demos/helpers.py:217
-#, fuzzy
 msgid "year"
 msgid_plural "years"
-msgstr[0] "Traži"
-msgstr[1] "Traži"
-msgstr[2] "Traži"
+msgstr[0] "godina"
+msgstr[1] "godine"
+msgstr[2] "godina"
 
 #: apps/demos/templates/demos/detail.html:126
 msgid "{comment_count} comments"
-msgstr ""
+msgstr "{comment_count} komentara"
 
 #: apps/demos/templates/demos/detail.html:174
 msgid "{comments_total} comment so far"
 msgid_plural "{comments_total} comments so far"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "{comments_total} komentar do sada"
+msgstr[1] "{comments_total} komentara do sada"
+msgstr[2] "{comments_total} komentara do sada"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:8
 msgid "{count} Demo"
@@ -2544,17 +2516,17 @@ msgstr[2] ""
 #: apps/demos/templates/demos/detail.html:124
 msgid "{count} view"
 msgid_plural "{count} views"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "{count} pregled"
+msgstr[1] "{count} pregleda"
+msgstr[2] "{count} pregleda"
 
 #: apps/demos/templates/demos/profile_detail.html:8
 msgid "{display_name}"
-msgstr ""
+msgstr "{display_name}"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:49
 msgid "{start}&ndash;{end} of {total}"
-msgstr ""
+msgstr "{start}&ndash;{end} od {total}"
 
 #: apps/demos/templates/demos/delete.html:10 apps/demos/templates/demos/delete_comment.html:10 apps/demos/templates/demos/detail.html:5 apps/demos/templates/demos/flag.html:10
 #: apps/demos/templates/demos/launch.html:4 apps/demos/templates/demos/listing_all.html:5 apps/demos/templates/demos/listing_search.html:10 apps/demos/templates/demos/listing_tag.html:5
