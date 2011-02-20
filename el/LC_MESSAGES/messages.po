@@ -676,11 +676,11 @@ msgstr ""
 
 #: apps/demos/forms.py:135
 msgid "Cannot process image"
-msgstr ""
+msgstr "Δεν είναι δυνατή η επεξεργασία της εικόνας"
 
 #: apps/demos/forms.py:147
 msgid "Show us you're human"
-msgstr ""
+msgstr "Αποδείξτε ότι είστε άνθρωπος"
 
 #: apps/demos/helpers.py:217
 msgid "year"
@@ -713,52 +713,52 @@ msgstr ""
 #: apps/demos/helpers.py:296
 msgid "%(number)d year ago"
 msgid_plural "%(number)d years ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "πριν %(number)d χρόνο"
+msgstr[1] "πριν %(number)d χρόνια"
 
 #: apps/demos/helpers.py:298
 msgid "%(number)d month ago"
 msgid_plural "%(number)d months ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "πριν %(number)d μήνα"
+msgstr[1] "πριν %(number)d μήνες"
 
 #: apps/demos/helpers.py:300
 msgid "%(number)d week ago"
 msgid_plural "%(number)d weeks ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "πριν %(number)d εβδομάδα"
+msgstr[1] "πριν %(number)d εβδομάδες"
 
 #: apps/demos/helpers.py:302
 msgid "%(number)d day ago"
 msgid_plural "%(number)d days ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "πριν %(number)d ημέρα"
+msgstr[1] "πριν %(number)d ημέρες"
 
 #: apps/demos/helpers.py:304
 msgid "%(number)d hour ago"
 msgid_plural "%(number)d hours ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "πριν %(number)d ώρα"
+msgstr[1] "πριν %(number)d ώρες"
 
 #: apps/demos/helpers.py:306
 msgid "%(number)d minute ago"
 msgid_plural "%(number)d minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "πριν %(number)d λεπτό"
+msgstr[1] "πριν %(number)d λεπτά"
 
 #: apps/demos/helpers.py:308
 msgid "%(number)d second ago"
 msgid_plural "%(number)d seconds ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "πριν %(number)d δευτερόλεπτο"
+msgstr[1] "πριν %(number)d δευτερόλεπτα"
 
 #: apps/demos/helpers.py:362
 msgid "Today at %s"
-msgstr ""
+msgstr "Σήμερα στις %s"
 
 #: apps/demos/models.py:107
 msgid "Maximum of %s tags allowed"
-msgstr ""
+msgstr "Επιτρέπονται μέχρι %s ετικέτες"
 
 #: apps/demos/models.py:113
 msgid "Tag \"%s\" is not in the set of described tags"
@@ -766,11 +766,11 @@ msgstr ""
 
 #: apps/demos/models.py:153
 msgid "Please keep filesize under %s. Current filesize %s"
-msgstr ""
+msgstr "Παρακαλούμε το μέγεθος αρχείου να είναι μικρότερο από %s. Τρέχον μέγεθος αρχείου: %s"
 
 #: apps/demos/models.py:157
 msgid "Filetype not supported."
-msgstr ""
+msgstr "Δεν υποστηρίζεται αυτή η μορφή αρχείου."
 
 #: apps/demos/models.py:250
 msgid "what is your demo's name?"
@@ -794,23 +794,23 @@ msgstr ""
 
 #: apps/demos/models.py:274
 msgid "Screenshot #1"
-msgstr ""
+msgstr "Στιγμιότυπο οθόνης #1"
 
 #: apps/demos/models.py:278
 msgid "Screenshot #2"
-msgstr ""
+msgstr "Στιγμιότυπο οθόνης #2"
 
 #: apps/demos/models.py:282
 msgid "Screenshot #3"
-msgstr ""
+msgstr "Στιγμιότυπο οθόνης #3"
 
 #: apps/demos/models.py:286
 msgid "Screenshot #4"
-msgstr ""
+msgstr "Στιγμιότυπο οθόνης #4"
 
 #: apps/demos/models.py:290
 msgid "Screenshot #5"
-msgstr ""
+msgstr "Στιγμιότυπο οθόνης #5"
 
 #: apps/demos/models.py:295
 msgid "have a video of your demo in action? (optional)"
@@ -822,32 +822,32 @@ msgstr ""
 
 #: apps/demos/models.py:307
 msgid "Is your source code also available somewhere else on the web (e.g., github)? Please share the link."
-msgstr ""
+msgstr "Υπάρχει διαθέσιμος ο πηγαίος κώδικας σας κάπου άλλου στο διαδίκτυο (π.χ. στο github); Σας παρακαλούμε να δώσετε το δεσμό."
 
 #: apps/demos/models.py:310
 msgid "Select the license that applies to your source code."
-msgstr ""
+msgstr "Επιλέξτε την άδεια που έχει ισχύ στον πηγαίο κώδικα σας."
 
 #: apps/demos/models.py:316
 msgid "date created"
-msgstr ""
+msgstr "ημερομηνία που δημιουργήθηκε"
 
 #: apps/demos/models.py:432
 #: apps/demos/models.py:439
 msgid "ZIP file contains no acceptable files"
-msgstr ""
+msgstr "Το αρχείο ZIP δεν περιέχει αποδεκτά αρχεία"
 
 #: apps/demos/models.py:435
 msgid "ZIP file corrupted"
-msgstr ""
+msgstr "Το  αρχείο ZIP είναι κατεστραμμένο"
 
 #: apps/demos/models.py:451
 msgid "ZIP file contains files that are too large"
-msgstr ""
+msgstr "Το αρχείο ZIP περιλαμβάνει πολύ μεγάλα αρχεία"
 
 #: apps/demos/models.py:454
 msgid "HTML index not found in ZIP"
-msgstr ""
+msgstr "Δεν βρέθηκε HTML index στο αρχείο  ZIP"
 
 #: apps/demos/views.py:62
 #: apps/demos/views.py:204
@@ -855,7 +855,7 @@ msgstr ""
 #: apps/demos/views.py:241
 #: apps/demos/views.py:254
 msgid "access denied"
-msgstr ""
+msgstr "απαγορεύεται η πρόσβαση"
 
 #: apps/demos/templates/demos/base.html:4
 #: apps/demos/templates/demos/delete.html:21
