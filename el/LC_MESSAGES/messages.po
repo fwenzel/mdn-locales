@@ -408,19 +408,19 @@ msgstr "Κινητά"
 
 #: apps/demos/__init__.py:175
 msgid "Firefox Mobile brings the true Web experience to mobile phones and other non-PC devices."
-msgstr ""
+msgstr "Ο Firefox για κινητά προσφέρει την πραγματική εμπειρία του διαδικτύου σε κινητά τηλέφωνα κι άλλες συσκευές εκτός των υπολογιστών."
 
 #: apps/demos/__init__.py:177
 msgid "https://developer.mozilla.org/En/Mobile"
-msgstr ""
+msgstr "https://developer.mozilla.org/En/Mobile"
 
 #: apps/demos/__init__.py:178
 msgid "http://en.wikipedia.org/wiki/Mobile_web"
-msgstr ""
+msgstr "http://en.wikipedia.org/wiki/Mobile_web"
 
 #: apps/demos/__init__.py:179
 msgid "http://www.w3.org/Mobile/"
-msgstr ""
+msgstr "http://www.w3.org/Mobile/"
 
 #: apps/demos/__init__.py:184
 msgid "Offline Support"
@@ -596,7 +596,7 @@ msgstr "MPL/GPL/LGPL"
 
 #: apps/demos/__init__.py:269
 msgid "http://www.mozilla.org/MPL/"
-msgstr ""
+msgstr "http://www.mozilla.org/MPL/"
 
 #: apps/demos/__init__.py:274
 msgid "GPL"
@@ -604,7 +604,7 @@ msgstr "GPL"
 
 #: apps/demos/__init__.py:275
 msgid "http://www.opensource.org/licenses/gpl-license.php"
-msgstr ""
+msgstr "http://www.opensource.org/licenses/gpl-license.php"
 
 #: apps/demos/__init__.py:280
 msgid "BSD"
@@ -612,7 +612,7 @@ msgstr "BSD"
 
 #: apps/demos/__init__.py:281
 msgid "http://www.opensource.org/licenses/bsd-license.php"
-msgstr ""
+msgstr "http://www.opensource.org/licenses/bsd-license.php"
 
 #: apps/demos/__init__.py:286
 msgid "Apache"
@@ -620,7 +620,7 @@ msgstr "Apache"
 
 #: apps/demos/__init__.py:287
 msgid "http://www.apache.org/licenses/"
-msgstr ""
+msgstr "http://www.apache.org/licenses/"
 
 #: apps/demos/__init__.py:292
 msgid "Public Domain (where applicable by law)"
@@ -628,39 +628,39 @@ msgstr ""
 
 #: apps/demos/__init__.py:293
 msgid "http://creativecommons.org/publicdomain/zero/1.0/"
-msgstr ""
+msgstr "http://creativecommons.org/publicdomain/zero/1.0/"
 
 #: apps/demos/feeds.py:87
 msgid "MDN demos"
-msgstr ""
+msgstr "Δείγματα στο MDN"
 
 #: apps/demos/feeds.py:88
 msgid "Demos submitted by MDN users"
-msgstr ""
+msgstr "Δείγματα που έχουν δημιουργηθεί από χρήστες του MDN"
 
 #: apps/demos/feeds.py:154
 msgid "MDN recent demos"
-msgstr ""
+msgstr "Πρόσφατα δείγματα MDN"
 
 #: apps/demos/feeds.py:155
 msgid "Demos recently submitted to MDN"
-msgstr ""
+msgstr "Δείγματα που υποβλήθηκαν πρόσφατα στο MDN"
 
 #: apps/demos/feeds.py:166
 msgid "MDN featured demos"
-msgstr ""
+msgstr "Προβεβλημένα δείγματα στο MDN"
 
 #: apps/demos/feeds.py:167
 msgid "Demos featured on MDN"
-msgstr ""
+msgstr "Δείγματα που προβάλλονται στο MDN"
 
 #: apps/demos/feeds.py:181
 msgid "MDN demos tagged %s"
-msgstr ""
+msgstr "Δείγματα στο MDN με ετικέτα: %s"
 
 #: apps/demos/feeds.py:184
 msgid "MDN demos tagged \"%s\""
-msgstr ""
+msgstr "Δείγματα στο MDN με ετικέτα «%s»"
 
 #: apps/demos/feeds.py:199
 msgid "%s's MDN demos"
@@ -668,7 +668,7 @@ msgstr ""
 
 #: apps/demos/feeds.py:213
 msgid "MDN demo search for \"%s\""
-msgstr ""
+msgstr "Αναζήτηση στα δείγματα του MDN για «%s»"
 
 #: apps/demos/feeds.py:214
 msgid "Search results for demo submissions matching \"%s\""
@@ -782,15 +782,15 @@ msgstr ""
 
 #: apps/demos/models.py:255
 msgid "describe your demo in one line"
-msgstr ""
+msgstr "Περιγράψτε το δείγμα σας σε μια γραμμή"
 
 #: apps/demos/models.py:258
 msgid "describe your demo in more detail (optional)"
-msgstr ""
+msgstr "Περιγράψτε το δείγμα σε με περισσότερες λεπτομέρειες (προαιρετικό)"
 
 #: apps/demos/models.py:270
 msgid "select up to 5 tags that describe your demo"
-msgstr ""
+msgstr "Επιλέξτε μέχρι 5 ετικέτες που περιγράφουν το δείγμα σας"
 
 #: apps/demos/models.py:274
 msgid "Screenshot #1"
@@ -814,11 +814,11 @@ msgstr "Στιγμιότυπο οθόνης #5"
 
 #: apps/demos/models.py:295
 msgid "have a video of your demo in action? (optional)"
-msgstr ""
+msgstr "Έχετε βίντεο του δείγματος σας σε δράση; (προαιρετικό)"
 
 #: apps/demos/models.py:299
 msgid "select a ZIP file containing your demo"
-msgstr ""
+msgstr "Επιλέξτε ένα αρχείο ZIP που περιέχει το δείγμα σας"
 
 #: apps/demos/models.py:307
 msgid "Is your source code also available somewhere else on the web (e.g., github)? Please share the link."
@@ -912,11 +912,11 @@ msgstr "MDN"
 #: apps/demos/templates/demos/listing_tag.html:23
 #: apps/demos/templates/demos/profile_detail.html:27
 msgid "Submit a Demo"
-msgstr ""
+msgstr "Υποβολή δείγματος"
 
 #: apps/demos/templates/demos/delete.html:38
 msgid "Remove this demo?"
-msgstr ""
+msgstr "Αφαίρεση αυτού του δείγματος;"
 
 #: apps/demos/templates/demos/delete.html:40
 msgid "<p>You are about to remove <strong>%(demo_title)s</strong> from the Demo Studio.</p> <p>The Demo's listing, source code, and statistics will be <strong>deleted</strong>.</p> <p>This action <strong>cannot be undone</strong>."
@@ -925,7 +925,7 @@ msgstr ""
 #: apps/demos/templates/demos/delete.html:48
 #: apps/demos/templates/demos/detail.html:58
 msgid "Remove demo"
-msgstr ""
+msgstr "Αφαίρεση δείγματος"
 
 #: apps/demos/templates/demos/delete.html:49
 #: apps/demos/templates/demos/delete_comment.html:52
@@ -944,7 +944,7 @@ msgstr "Να διαγραφεί το σχόλιο;"
 
 #: apps/demos/templates/demos/delete_comment.html:39
 msgid "<p>Are you sure that you would like to delete this comment?</p>"
-msgstr ""
+msgstr "<p>Θέλετε σίγουρα να διαγράψετε αυτό το σχόλιο;</p>"
 
 #: apps/demos/templates/demos/delete_comment.html:51
 msgid "Delete comment"
@@ -953,7 +953,7 @@ msgstr "Διαγραφή σχολίου"
 #: apps/demos/templates/demos/detail.html:23
 #: apps/demos/templates/demos/launch.html:58
 msgid "Go to the previous demo, {demo_title}"
-msgstr ""
+msgstr "Μετάβαση στο προηγούμενο δείγμα, {demo_title}"
 
 #: apps/demos/templates/demos/detail.html:23
 #: apps/demos/templates/demos/launch.html:58
@@ -963,7 +963,7 @@ msgstr "Προηγούμενο"
 #: apps/demos/templates/demos/detail.html:27
 #: apps/demos/templates/demos/launch.html:62
 msgid "Go to the next demo, {demo_title}"
-msgstr ""
+msgstr "Μετάβαση στο επόμενο δείγμα, {demo_title}"
 
 #: apps/demos/templates/demos/detail.html:27
 #: apps/demos/templates/demos/detail.html:133
@@ -975,23 +975,23 @@ msgstr "Επόμενο"
 
 #: apps/demos/templates/demos/detail.html:43
 msgid "by %(creator_link)s on %(create_date)s"
-msgstr ""
+msgstr "Από τον/την %(creator_link)s στις %(create_date)s"
 
 #: apps/demos/templates/demos/detail.html:53
 msgid "Edit Demo"
-msgstr ""
+msgstr "Επεξεργασία δείγματος"
 
 #: apps/demos/templates/demos/detail.html:63
 msgid "Show demo"
-msgstr ""
+msgstr "Προβολή δείγματος"
 
 #: apps/demos/templates/demos/detail.html:66
 msgid "Hide demo"
-msgstr ""
+msgstr "Απόκρυψη δείγματος"
 
 #: apps/demos/templates/demos/detail.html:78
 msgid "Launch Demo"
-msgstr ""
+msgstr "Εκκίνηση δείγματος"
 
 #: apps/demos/templates/demos/detail.html:85
 #: apps/demos/templates/demos/launch.html:34
@@ -1006,7 +1006,7 @@ msgstr ""
 #: apps/demos/templates/demos/detail.html:90
 #: apps/demos/templates/demos/launch.html:39
 msgid "Do you like this demo?"
-msgstr ""
+msgstr "Σας αρέσει το δείγμα;"
 
 #: apps/demos/templates/demos/detail.html:90
 #: apps/demos/templates/demos/launch.html:39
@@ -1016,7 +1016,7 @@ msgstr ""
 #: apps/demos/templates/demos/detail.html:95
 #: apps/demos/templates/demos/launch.html:43
 msgid "Share this demo with your social network"
-msgstr ""
+msgstr "Μοιραστείτε αυτό το δείγμα στο κοινωνικό σας δίκτυο"
 
 #: apps/demos/templates/demos/detail.html:99
 #: apps/demos/templates/demos/launch.html:43
@@ -1035,31 +1035,31 @@ msgstr ""
 
 #: apps/demos/templates/demos/detail.html:114
 msgid "Built using"
-msgstr ""
+msgstr "Φτιάχτηκε με χρήση"
 
 #: apps/demos/templates/demos/detail.html:116
 msgid "See more demos made with {tag_title}"
-msgstr ""
+msgstr "Δείτε περισσότερα δείγματα που φτιάχτηκαν με {tag_title}"
 
 #: apps/demos/templates/demos/detail.html:124
 #: apps/demos/templates/demos/elements/submission_thumb.html:15
 msgid "This demo has been viewed {count} time"
 msgid_plural "This demo has been viewed {count} times"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Αυτό το δείγμα έχει προβληθεί {count} φορά"
+msgstr[1] "Αυτό το δείγμα έχει προβληθεί {count} φορές"
 
 #: apps/demos/templates/demos/detail.html:124
 msgid "{count} view"
 msgid_plural "{count} views"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{count} προβολή"
+msgstr[1] "{count} προβολές"
 
 #: apps/demos/templates/demos/detail.html:125
 #: apps/demos/templates/demos/elements/submission_thumb.html:16
 msgid "{count} person liked this demo"
 msgid_plural "{count} people liked this demo"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Αυτό το δείγμα αρέσει σε {count} άτομο"
+msgstr[1] "Αυτό το δείγμα αρέσει σε {count} άτομα"
 
 #: apps/demos/templates/demos/detail.html:125
 msgid "{count} like"
@@ -1071,52 +1071,52 @@ msgstr[1] ""
 #: apps/demos/templates/demos/elements/submission_thumb.html:17
 msgid "There is {count} comment for this demo"
 msgid_plural "There are {count} comments for this demo"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Υπάρχει {count} σχόλιο για αυτό το δείγμα"
+msgstr[1] "Υπάρχουν {count} σχόλια για αυτό το δείγμα"
 
 #: apps/demos/templates/demos/detail.html:126
 msgid "{comment_count} comments"
-msgstr ""
+msgstr "{comment_count} σχόλια"
 
 #: apps/demos/templates/demos/detail.html:132
 msgid "See the previous image"
-msgstr ""
+msgstr "Δείτε την προηγούμενη εικόνα"
 
 #: apps/demos/templates/demos/detail.html:132
 #: apps/demos/templates/demos/home.html:43
 #: apps/demos/templates/demos/elements/submission_listing.html:56
 msgid "Previous"
-msgstr ""
+msgstr "Προηγούμενη"
 
 #: apps/demos/templates/demos/detail.html:133
 msgid "See the next image"
-msgstr ""
+msgstr "Δείτε την επόμενη εικόνα"
 
 #: apps/demos/templates/demos/detail.html:165
 msgid "More About This Demo From The Author"
-msgstr ""
+msgstr "Περισσότερα σχετικά μ' αυτό το δείγμα από το δημιουργό του"
 
 #: apps/demos/templates/demos/detail.html:172
 msgid "No comments yet."
-msgstr ""
+msgstr "Δεν υπάρχουν σχόλια ως τώρα"
 
 #: apps/demos/templates/demos/detail.html:174
 msgid "{comments_total} comment so far"
 msgid_plural "{comments_total} comments so far"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{comments_total} σχόλιο ως τώρα"
+msgstr[1] "{comments_total} σχόλια ως τώρα"
 
 #: apps/demos/templates/demos/detail.html:177
 msgid "<p>Why not <a href=\"#comment-post\">Add your own</a>?</p>"
-msgstr ""
+msgstr "<p>Γιατί δεν <a href=\"#comment-post\">προσθέτετε το δικό σας</a>;</p>"
 
 #: apps/demos/templates/demos/detail.html:181
 msgid "<p><a href=\"/Special:UserRegistration\">Register</a> or <a href=\"/Special:UserLogin\">log in</a> to add your own.</p>"
-msgstr ""
+msgstr "<p><a href=\"/Special:UserRegistration\">Εγγραφείτε</a> ή <a href=\"/Special:UserLogin\">συνδεθείτε</a> για να προσθέσετε το δικό σας.</p>"
 
 #: apps/demos/templates/demos/detail.html:198
 msgid "Add your comment"
-msgstr ""
+msgstr "Προσθέστε το σχόλιο σας"
 
 #: apps/demos/templates/demos/detail.html:200
 #: apps/demos/templates/demos/elements/comments_tree.html:50
@@ -1125,23 +1125,23 @@ msgstr "Σχόλιο"
 
 #: apps/demos/templates/demos/detail.html:211
 msgid "Get the Source Code"
-msgstr ""
+msgstr "Δείτε τον πηγαίο κώδικα"
 
 #: apps/demos/templates/demos/detail.html:212
 msgid "Download the Source <span class=\"note\">%(file_ksize)s KB &middot; ZIP File</span>"
-msgstr ""
+msgstr "Κάντε λήψη του αρχείου <span class=\"note\">ZIP %(file_ksize)s KB &middot; με τον πηγαίο κώδικα</span>"
 
 #: apps/demos/templates/demos/detail.html:230
 msgid "This demo is released under the <a href=\"%(link)s\">%(title)s</a> license."
-msgstr ""
+msgstr "Αυτό το δείγμα διατίθεται σύμφωνα με την άδεια <a href=\"%(link)s\">%(title)s</a>."
 
 #: apps/demos/templates/demos/detail.html:250
 msgid "Demo is not working"
-msgstr ""
+msgstr "Το δείγμα δεν λειτουργεί"
 
 #: apps/demos/templates/demos/detail.html:251
 msgid "Demo is inappropriate"
-msgstr ""
+msgstr "Το δείγμα έχει ανάρμοστο περιεχόμενο"
 
 #: apps/demos/templates/demos/detail.html:252
 msgid "Demo is not by this author"
@@ -1149,11 +1149,11 @@ msgstr ""
 
 #: apps/demos/templates/demos/feed_item_description.html:7
 msgid "Submitted by:"
-msgstr ""
+msgstr "Υποβλήθηκε από:"
 
 #: apps/demos/templates/demos/feed_item_description.html:9
 msgid "Tagged as:"
-msgstr ""
+msgstr "Έχει ετικέτα:"
 
 #: apps/demos/templates/demos/flag.html:37
 msgid "Flag this demo?"
@@ -1166,15 +1166,15 @@ msgstr ""
 #: apps/demos/templates/demos/home.html:8
 #: apps/demos/templates/demos/listing_all.html:7
 msgid "Recent demos"
-msgstr ""
+msgstr "Πρόσφατα δείγματα"
 
 #: apps/demos/templates/demos/home.html:10
 msgid "Featured demos"
-msgstr ""
+msgstr "Προβεβλημένα δείγματα"
 
 #: apps/demos/templates/demos/home.html:22
 msgid "Mozilla Demo Studio"
-msgstr ""
+msgstr "Mozilla Demo Studio"
 
 #: apps/demos/templates/demos/home.html:23
 msgid "<p>Welcome to Mozilla Demo Studio, where developers like you can develop, share, demonstrate, and learn all about Web technologies. See whats possible by exploring Demo Studio:</p> <ul> <li>View <strong>demos</strong> that showcase what HTML, CSS, and JavaScript can do.</li> <li>Inspect the <strong>source code</strong> for those demos so you can see how they work.</li> <li>Read <strong>documentation</strong> to learn about the open standards and technologies that power the Web.</li> </ul>"
@@ -1182,15 +1182,15 @@ msgstr ""
 
 #: apps/demos/templates/demos/home.html:39
 msgid "Featured Demos"
-msgstr ""
+msgstr "Προβεβλημένα δείγματα"
 
 #: apps/demos/templates/demos/home.html:43
 msgid "See the previous three demos"
-msgstr ""
+msgstr "Δείτε τα προηγούμενα τρία δείγματα"
 
 #: apps/demos/templates/demos/home.html:44
 msgid "See the next three demos"
-msgstr ""
+msgstr "Δείτε τα επόμενα τρία δείγματα"
 
 #: apps/demos/templates/demos/home.html:65
 #: apps/demos/templates/demos/listing_tag.html:53
@@ -1199,31 +1199,31 @@ msgstr ""
 
 #: apps/demos/templates/demos/home.html:65
 msgid "recent"
-msgstr ""
+msgstr "πρόσφατο"
 
 #: apps/demos/templates/demos/launch.html:21
 #: templates/base.html:4
 #: templates/base_popup.html:4
 msgid "Mozilla Developer Network"
-msgstr ""
+msgstr "Mozilla Developer Network"
 
 #: apps/demos/templates/demos/launch.html:25
 msgid "by %(profile_link)s"
-msgstr ""
+msgstr "από τον/την %(profile_link)s"
 
 #: apps/demos/templates/demos/launch.html:67
 msgid "Remove this toolbar"
-msgstr ""
+msgstr "Αφαίρεση αυτής της εργαλειοθήκης"
 
 #: apps/demos/templates/demos/launch.html:67
 msgid "Remove toolbar"
-msgstr ""
+msgstr "Αφαίρεση της εργαλειοθήκης"
 
 #: apps/demos/templates/demos/listing_all.html:5
 #: apps/demos/templates/demos/listing_all.html:19
 #: apps/demos/templates/demos/listing_all.html:31
 msgid "Browse all demos"
-msgstr ""
+msgstr "Περιήγηση σε όλα τα δείγματα"
 
 #: apps/demos/templates/demos/listing_all.html:38
 msgid "Subscribe to a feed of all demos"
@@ -1231,7 +1231,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/listing_search.html:10
 msgid "Search for \"{q}\""
-msgstr ""
+msgstr "Αναζήτηση για «{q}»"
 
 #: apps/demos/templates/demos/listing_search.html:14
 msgid "Search results for \"{q}\""
