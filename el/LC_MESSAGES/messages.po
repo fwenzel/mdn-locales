@@ -26,59 +26,59 @@ msgstr ""
 #: apps/contentflagging/models.py:99
 #: apps/demos/models.py:318
 msgid "date last modified"
-msgstr ""
+msgstr "ημερομηνία τελευταίας τροποποίησης"
 
 #: apps/contentflagging/models.py:20
 msgid "This is not working for me"
-msgstr ""
+msgstr "Δεν δουλεύει στο σύστημα μου"
 
 #: apps/contentflagging/models.py:21
 msgid "This contains inappropriate content"
-msgstr ""
+msgstr "Περιέχει ανάρμοστο περιεχόμενο"
 
 #: apps/contentflagging/models.py:22
 msgid "This was not created by the author"
-msgstr ""
+msgstr "Δεν είναι δημιουργία του συντάκτη"
 
 #: apps/contentflagging/models.py:23
 msgid "The author is fake"
-msgstr ""
+msgstr "Τα στοιχεία του συντάκτη είναι ψευδή"
 
 #: apps/contentflagging/models.py:27
 msgid "Flagged"
-msgstr ""
+msgstr "Σημειωμένο"
 
 #: apps/contentflagging/models.py:28
 msgid "Flag rejected by moderator"
-msgstr ""
+msgstr "Η αναφορά σημείωσης απορρίφθηκε από τους διαχειριστές"
 
 #: apps/contentflagging/models.py:29
 msgid "Creator notified"
-msgstr ""
+msgstr "Ειδοποιήθηκε ο δημιουργός"
 
 #: apps/contentflagging/models.py:30
 msgid "Content hidden by moderator"
-msgstr ""
+msgstr "Το περιεχόμενο αποκρύφτηκε από τους διαχειριστές"
 
 #: apps/contentflagging/models.py:31
 msgid "Content deleted by moderator"
-msgstr ""
+msgstr "Το περιεχόμενο διαγράφτηκε από τους διαχειριστές"
 
 #: apps/contentflagging/models.py:65
 msgid "current status of flag review"
-msgstr ""
+msgstr "Τρέχουσα κατάσταση αξιολόγησης αναφοράς"
 
 #: apps/contentflagging/models.py:68
 msgid "reason for flagging the content"
-msgstr ""
+msgstr "Αιτία αναφοράς περιεχομένου"
 
 #: apps/contentflagging/models.py:71
 msgid "please explain what content you feel is inappropriate"
-msgstr ""
+msgstr "Παρακαλούμε εξηγήστε τι θεωρείτε ανάρμοστο στο περιεχόμενο"
 
 #: apps/contentflagging/models.py:96
 msgid "date submitted"
-msgstr ""
+msgstr "ημερομηνία υποβολής"
 
 #: apps/demos/__init__.py:56
 #: apps/docs/templates/docs/glossary.html:15
@@ -87,7 +87,7 @@ msgstr "Ήχος"
 
 #: apps/demos/__init__.py:57
 msgid "Mozilla's Audio Data API extends the current HTML5 API and allows web developers to read and write raw audio data."
-msgstr ""
+msgstr "Το Audio Data API του Mozilla, επεκτείνει το τρέχον HTML5 API και επιτρέπει στους προγραμματιστές δικτυακών εφαρμογών να διαβάσουν και να γράψουν ασυμπίεστα δεδομένα ήχου."
 
 #: apps/demos/__init__.py:59
 #: apps/demos/__init__.py:69
@@ -115,7 +115,7 @@ msgstr "Τεκμηρίωση MDN"
 
 #: apps/demos/__init__.py:59
 msgid "https://developer.mozilla.org/en/Introducing_the_Audio_API_Extension"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/Introducing_the_Audio_API_Extension"
 
 #: apps/demos/__init__.py:60
 #: apps/demos/__init__.py:70
@@ -163,11 +163,11 @@ msgstr "http://en.wikipedia.org/wiki/HTML5_audio"
 #: apps/demos/__init__.py:249
 #: apps/demos/__init__.py:259
 msgid "W3C Spec"
-msgstr ""
+msgstr "Προδιαγραφή W3C"
 
 #: apps/demos/__init__.py:61
 msgid "http://www.w3.org/TR/html5/video.html#audio"
-msgstr ""
+msgstr "http://www.w3.org/TR/html5/video.html#audio"
 
 #: apps/demos/__init__.py:66
 #: apps/docs/templates/docs/glossary.html:10
@@ -176,19 +176,19 @@ msgstr "Canvas"
 
 #: apps/demos/__init__.py:67
 msgid "The HTML5 canvas element allows to display scriptable renderings of 2D shapes and bitmap images."
-msgstr ""
+msgstr "Το στοιχείο HTML5 canvas επιτρέπει την προβολή  δισδιάστατων σχημάτων και εικόνων bitmap των οποίων η απεικόνιση μπορεί να γίνει μέσω σεναρίων εντολών."
 
 #: apps/demos/__init__.py:69
 msgid "https://developer.mozilla.org/en/HTML/Canvas"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/HTML/Canvas"
 
 #: apps/demos/__init__.py:70
 msgid "http://en.wikipedia.org/wiki/Canvas_element"
-msgstr ""
+msgstr "http://en.wikipedia.org/wiki/Canvas_element"
 
 #: apps/demos/__init__.py:71
 msgid "http://www.w3.org/TR/html5/the-canvas-element.html"
-msgstr ""
+msgstr "http://www.w3.org/TR/html5/the-canvas-element.html"
 
 #: apps/demos/__init__.py:76
 msgid "CSS3"
@@ -196,23 +196,23 @@ msgstr "CSS3"
 
 #: apps/demos/__init__.py:77
 msgid "Cascading Style Sheets level 3 (CSS3) provide serveral new features and properties to enhance the formatting and look of documents written in different kinds of markup languages like HTML or XML."
-msgstr ""
+msgstr "Η τρίτη έκδοση των επικαλυπτώμενων φύλλων στυλ ( Cascading Style Sheets - CSS3) παρέχει διάφορα νέα χαρακτηριστικά και ιδιότητες για τη βελτίωση της μορφοποίησης και της εμφάνισης εγγράφων γραμμένων με διάφορες γλώσσες markup, όπως η HTML ή η XML."
 
 #: apps/demos/__init__.py:79
 msgid "https://developer.mozilla.org/en/CSS"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/CSS"
 
 #: apps/demos/__init__.py:80
 msgid "http://en.wikipedia.org/wiki/Cascading_Style_Sheets"
-msgstr ""
+msgstr "http://en.wikipedia.org/wiki/Cascading_Style_Sheets"
 
 #: apps/demos/__init__.py:81
 msgid "http://www.w3.org/TR/css3-roadmap/"
-msgstr ""
+msgstr "http://www.w3.org/TR/css3-roadmap/"
 
 #: apps/demos/__init__.py:86
 msgid "Device"
-msgstr ""
+msgstr "Συσκευή"
 
 #: apps/demos/__init__.py:87
 msgid "Media queries and orientation events let authors adjust their layout on hand-held devices such as mobile phones."
@@ -220,28 +220,28 @@ msgstr ""
 
 #: apps/demos/__init__.py:89
 msgid "https://developer.mozilla.org/en/Detecting_device_orientation"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/Detecting_device_orientation"
 
 #: apps/demos/__init__.py:90
 msgid "http://www.w3.org/TR/css3-mediaqueries/"
-msgstr ""
+msgstr "http://www.w3.org/TR/css3-mediaqueries/"
 
 #: apps/demos/__init__.py:95
 #: apps/docs/templates/docs/glossary.html:18
 msgid "Files"
-msgstr ""
+msgstr "Αρχεία"
 
 #: apps/demos/__init__.py:96
 msgid "The File API allows web developers to use file objects in web applications, as well as selecting and accessing their data."
-msgstr ""
+msgstr "Το API αρχείων επιτρέπει στους προγραμματιστές δικτυακών εφαρμογών τη χρήση αντικειμέων αρχείων στις εφαρμογές τους καθώς και την πρόσβαση και επιλογή των δεδομένων τους."
 
 #: apps/demos/__init__.py:98
 msgid "https://developer.mozilla.org/en/using_files_from_web_applications"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/using_files_from_web_applications"
 
 #: apps/demos/__init__.py:99
 msgid "http://www.w3.org/TR/FileAPI/"
-msgstr ""
+msgstr "http://www.w3.org/TR/FileAPI/"
 
 #: apps/demos/__init__.py:104
 msgid "Fonts & Type"
@@ -253,55 +253,55 @@ msgstr ""
 
 #: apps/demos/__init__.py:107
 msgid "https://developer.mozilla.org/en/css/@font-face"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/css/@font-face"
 
 #: apps/demos/__init__.py:108
 msgid "http://en.wikipedia.org/wiki/Web_typography"
-msgstr ""
+msgstr "http://en.wikipedia.org/wiki/Web_typography"
 
 #: apps/demos/__init__.py:109
 msgid "http://www.w3.org/TR/css3-fonts/"
-msgstr ""
+msgstr "http://www.w3.org/TR/css3-fonts/"
 
 #: apps/demos/__init__.py:114
 msgid "Forms"
-msgstr ""
+msgstr "Φόρμες"
 
 #: apps/demos/__init__.py:115
 msgid "Form elements and attributes in HTML5 provide a greater degree of semantic mark-up than HTML4 and remove a great deal of the need for tedious scripting and styling that was required in HTML4."
-msgstr ""
+msgstr "Τα στοιχεία και οι ιδιότητες φορμών της HTML5 παρέχουν περισσότερο έλεγχο απ' ό,τι στην HTML4 και διευκολύνουν τη διαχείριση αφού δεν είναι πια αναγκαία η χρήση πολύπλοκων σεναρίων εντολών και η εφαρμογή στυλ που απαιτούσε η HTML4."
 
 #: apps/demos/__init__.py:117
 msgid "https://developer.mozilla.org/en/HTML/HTML5/Forms_in_HTML5"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/HTML/HTML5/Forms_in_HTML5"
 
 #: apps/demos/__init__.py:118
 msgid "http://en.wikipedia.org/wiki/HTML_forms"
-msgstr ""
+msgstr "http://en.wikipedia.org/wiki/HTML_forms"
 
 #: apps/demos/__init__.py:119
 msgid "http://www.w3.org/TR/html5/forms.html"
-msgstr ""
+msgstr "http://www.w3.org/TR/html5/forms.html"
 
 #: apps/demos/__init__.py:124
 msgid "Geolocation"
-msgstr ""
+msgstr "Γεωτοποθεσία"
 
 #: apps/demos/__init__.py:125
 msgid "The Geolocation API allows web applications to access the user's geographical location."
-msgstr ""
+msgstr "Το API γεωτοποθεσίας (Geolocation) επιτρέπει στις δικτυακές εφαρμογές την πρόσβαση σε δεδομένα γεωγραφικής τοποθεσίας του χρήστη."
 
 #: apps/demos/__init__.py:127
 msgid "https://developer.mozilla.org/En/Using_geolocation"
-msgstr ""
+msgstr "https://developer.mozilla.org/En/Using_geolocation"
 
 #: apps/demos/__init__.py:128
 msgid "http://en.wikipedia.org/wiki/W3C_Geolocation_API"
-msgstr ""
+msgstr "http://en.wikipedia.org/wiki/W3C_Geolocation_API"
 
 #: apps/demos/__init__.py:129
 msgid "http://dev.w3.org/geo/api/spec-source.html"
-msgstr ""
+msgstr "http://dev.w3.org/geo/api/spec-source.html"
 
 #: apps/demos/__init__.py:134
 msgid "Javascript"
@@ -309,23 +309,23 @@ msgstr "Javascript"
 
 #: apps/demos/__init__.py:135
 msgid "JavaScript is a lightweight, object-oriented programming language, commonly used for scripting interactive behavior on web pages and in web applications."
-msgstr ""
+msgstr "Η JavaScript είναι, μια ελαφριά, αντικειμενοστραφής γλώσσα προγραμματισμού, που χρησιμοποιείται συχνά για τη δημιουργία σεναρίων εντολών διαδραστικής αλληλεπίδρασης σε ιστοσελίδες και δικτυακές εφαρμογές."
 
 #: apps/demos/__init__.py:137
 msgid "https://developer.mozilla.org/en/javascript"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/javascript"
 
 #: apps/demos/__init__.py:138
 msgid "http://en.wikipedia.org/wiki/JavaScript"
-msgstr ""
+msgstr "http://en.wikipedia.org/wiki/JavaScript"
 
 #: apps/demos/__init__.py:139
 msgid "ECMA Spec"
-msgstr ""
+msgstr "Προδιαγραφή ECMA"
 
 #: apps/demos/__init__.py:139
 msgid "http://www.ecma-international.org/publications/standards/Ecma-262.htm"
-msgstr ""
+msgstr "http://www.ecma-international.org/publications/standards/Ecma-262.htm"
 
 #: apps/demos/__init__.py:144
 #: apps/docs/templates/docs/docs.html:36
@@ -338,19 +338,19 @@ msgstr "HTML5"
 
 #: apps/demos/__init__.py:145
 msgid "HTML5 is the newest version of the HTML standard, currently under development."
-msgstr ""
+msgstr "Η HTML5 είναι η νεότερη έκδοση του πρότυπου HTML και προς το παρόν βρίσκεται ακόμα υπό ανάπτυξη."
 
 #: apps/demos/__init__.py:147
 msgid "https://developer.mozilla.org/en/HTML/HTML5"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/HTML/HTML5"
 
 #: apps/demos/__init__.py:148
 msgid "http://en.wikipedia.org/wiki/Html5"
-msgstr ""
+msgstr "http://en.wikipedia.org/wiki/Html5"
 
 #: apps/demos/__init__.py:149
 msgid "http://dev.w3.org/html5/spec/Overview.html"
-msgstr ""
+msgstr "http://dev.w3.org/html5/spec/Overview.html"
 
 #: apps/demos/__init__.py:154
 #: apps/docs/templates/docs/glossary.html:23
@@ -359,40 +359,40 @@ msgstr "IndexedDB"
 
 #: apps/demos/__init__.py:155
 msgid "IndexedDB is an API for client-side storage of significant amounts of structured data and for high performance searches on this data using indexes."
-msgstr ""
+msgstr "Το IndexedDB είναι ένα  API για την αποθήκευση σημαντικού όγκου δομημένων δεδομένων  στην πλευρά του χρήστη και για υψηλών επιδόσεων αναζητήσεις με τη χρήση ευρετηρίων σ' αυτά τα δεδομένα."
 
 #: apps/demos/__init__.py:157
 msgid "https://developer.mozilla.org/en/IndexedDB"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/IndexedDB"
 
 #: apps/demos/__init__.py:158
 msgid "http://en.wikipedia.org/wiki/IndexedDB"
-msgstr ""
+msgstr "http://en.wikipedia.org/wiki/IndexedDB"
 
 #: apps/demos/__init__.py:159
 msgid "http://www.w3.org/TR/IndexedDB/"
-msgstr ""
+msgstr "http://www.w3.org/TR/IndexedDB/"
 
 #: apps/demos/__init__.py:164
 #: apps/docs/templates/docs/glossary.html:19
 msgid "Drag and Drop"
-msgstr ""
+msgstr "Σύρσιμο και απόθεση "
 
 #: apps/demos/__init__.py:165
 msgid "Drag and Drop features allow the user to move elements on the screen using the mouse pointer."
-msgstr ""
+msgstr "Τα χαρακτηριστικά για σύρσιμο και απόθεση (Drag and Drop) επιτρέπουν στον χρήστη τη μετακίνηση στοιχείων πάνω στην οθόνη με τη χρήση του ποντικιού."
 
 #: apps/demos/__init__.py:167
 msgid "https://developer.mozilla.org/en/DragDrop/Drag_and_Drop"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/DragDrop/Drag_and_Drop"
 
 #: apps/demos/__init__.py:168
 msgid "http://en.wikipedia.org/wiki/Drag-and-drop"
-msgstr ""
+msgstr "http://en.wikipedia.org/wiki/Drag-and-drop"
 
 #: apps/demos/__init__.py:169
 msgid "http://www.w3.org/TR/html5/dnd.html"
-msgstr ""
+msgstr "http://www.w3.org/TR/html5/dnd.html"
 
 #: apps/demos/__init__.py:174
 #: apps/devmo/__init__.py:18
@@ -404,7 +404,7 @@ msgstr ""
 #: templates/base.html:71
 #: templates/base_compact.html:23
 msgid "Mobile"
-msgstr ""
+msgstr "Κινητά"
 
 #: apps/demos/__init__.py:175
 msgid "Firefox Mobile brings the true Web experience to mobile phones and other non-PC devices."
