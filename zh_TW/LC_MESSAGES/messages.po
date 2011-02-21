@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2011-02-17 11:18+0200\n"
+"PO-Revision-Date: 2011-02-21 19:33+0200\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: none\n"
 "Language: zh_TW\n"
@@ -277,22 +277,28 @@ msgid ""
 "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other "
 "web developers.</p>"
 msgstr ""
+"<p>無論您要創造令人吃驚的新方式來體驗 Web 或者是只想要測試最新的技術，我們邀請您提交您自己的範例程式與其他 web 開發者分享 "
+"(或者炫耀一番)。</p>"
 
 #: apps/demos/templates/demos/submit.html:67
 msgid ""
 "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other "
 "web developers.</p> <p>Please complete the form below to ensure your demo is submitted to the Demo Studio successfully.</p>"
 msgstr ""
+"<p>不論您是正要建立一個全新的方式以體驗網頁，或正要實驗最新的技術，我們邀請您送出您的 demo 以與其他網頁開發者分享（或炫耀）。</p> "
+"<p>請完成下列表單以確定您的 demo 被成功送出到 Demo Studio。</p>"
 
 #: apps/demos/templates/demos/detail.html:177
 msgid "<p>Why not <a href=\"#comment-post\">Add your own</a>?</p>"
-msgstr ""
+msgstr "<p>何不 <a href=\"#comment-post\">新增一筆回應</a>？</p>"
 
 #: apps/demos/templates/demos/delete.html:40
 msgid ""
 "<p>You are about to remove <strong>%(demo_title)s</strong> from the Demo Studio.</p> <p>The Demo's listing, source code, and statistics will be <strong>deleted</strong>.</p> <p>This action "
 "<strong>cannot be undone</strong>."
 msgstr ""
+"<p>您正要自 Demo Studio 移除 <strong>%(demo_title)s</strong>。</p> <p>此 Demo "
+"的列名、原始碼、統計資料將會被 <strong>刪除</strong>。</p> <p>此行為將 <strong>無法復原</strong>。"
 
 #: apps/demos/templates/demos/submit_noauth.html:41
 msgid ""
@@ -300,6 +306,11 @@ msgid ""
 "<strong>open license</strong>, such as MPL, GPL, or BSD.</li> <li>Your demo should showcase <strong>open web technologies</strong>, such as HTML5 and CSS3.</li> <li>Your demo should support a wide "
 "range of <strong>modern web browsers</strong>, like Firefox, Chrome, Safari, and Opera.</li> </ul>"
 msgstr ""
+"<ul> <li>您必須準備好您 Demo 的 <strong>程式原始碼</strong>。Demo 將會被存放於 Demo Studio "
+"的伺服器。</li> <li>您 Demo 的原始碼必須透過一種 <strong>開放式授權</strong>，像是 MPL、GPL，或 BSD "
+"等進行授權。</li> <li>您的 Demo 應該要展示 <strong>開放式網頁技術</strong>，像是 HTML5 與 CSS3。</li> "
+"<li>您的 Demo 應該支援大多數的 <strong>現代網頁瀏覽器</strong>，像是 Firefox、Chrome、Safari，及 "
+"Opera。</li> </ul>"
 
 #: apps/demos/templates/demos/submit_noauth.html:53
 msgid ""
@@ -308,6 +319,12 @@ msgid ""
 "demo requires external resources, it should use <strong>AJAX</strong> to access them.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the CC-BY-"
 "SA license and include links to the authors' websites.</li> </ul>"
 msgstr ""
+"<ul> <li>您的 demo 的原始碼應該被封裝於 <strong>ZIP 檔案</strong> 當中。</li> <li>您的 demo "
+"的主要頁面應該是 ZIP 檔根目錄下一個被命名為 <strong><code>index.html</code></strong> 的檔案。</li> "
+"<li>您的 demo 應該使用 <strong>客戶端技術</strong> (HTML、CSS、JavaScript) 建立。不支援像是 PHP 或 "
+"Ruby 之類的伺服器端語言。</li> <li>若您的 demo 需要外部資源，應該使用 <strong>AJAX</strong> "
+"來進行存取。</li> <li>請在 demo 的詳情欄位當中明確列出無法透過 CC-BY-SA 進行授權的第三人內容，並包含作者的網站鏈結。</li> "
+"</ul>"
 
 #: apps/demos/templates/demos/submit.html:124
 msgid ""
@@ -316,6 +333,12 @@ msgid ""
 "to access them.</li> <li>To submit your demo, you need an <a href=\"%(signup_url)s\">MDN account</a>.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed "
 "under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
 msgstr ""
+"<ul> <li>您的 demo 的原始碼應該被封裝於 ZIP 當中。</li> <li>您的 demo 的主要頁面應該是 ZIP "
+"檔根目錄下一個被命名為 <code>index.html</code> 的檔案。</li> <li>您的 demo 應該使用客戶端技術 "
+"(HTML、CSS、JavaScript) 建立。不支援像是 PHP 或 Ruby 之類的伺服器端語言。</li> <li>若您的 demo "
+"需要外部資源，應該使用 AJAX 來進行存取。</li> <li>若要提交您的 demo，您需要一個 <a href=\"%"
+"(signup_url)s\">MDN 帳號</a>。</li> <li>請在 demo 的詳情欄位當中明確列出無法透過 CC-BY-SA "
+"進行授權的第三人內容，並包含作者的網站鏈結。</li> </ul>"
 
 #: apps/landing/templates/landing/mozilla.html:107
 msgid "A Mozilla source tree browser."
@@ -792,9 +815,8 @@ msgstr "最愛的 <span class=\"mobile\">行動版</span> 文章"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:98
-#, fuzzy
 msgid "Favorite <span class=\"mozilla\">Mozilla</span> Tools"
-msgstr "最愛的 <span class=\"moz\">Mozilla</span> 工具"
+msgstr "最愛的 <span class=\"mozilla\">Mozilla</span> 工具"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:69
@@ -1028,7 +1050,7 @@ msgstr "IndexedDB"
 
 #: apps/demos/__init__.py:155
 msgid "IndexedDB is an API for client-side storage of significant amounts of structured data and for high performance searches on this data using indexes."
-msgstr ""
+msgstr "IndexedDB 是個供客戶端儲存大量結構化資料以及使用索引以進行高效能搜尋的 API。"
 
 #: templates/500.html:3 templates/500.html:5
 msgid "Internal Server Error"
@@ -1365,9 +1387,8 @@ msgstr "熱門 <span class=\"mobile\">行動網頁</span> 文件"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:38
-#, fuzzy
 msgid "Popular <span class=\"mozilla\">Mozilla</span> Documentation"
-msgstr "熱門 <span class=\"moz\">Mozilla</span> 文件"
+msgstr "熱門 <span class=\"mozilla\">Mozilla</span> 文件"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:38
@@ -1435,9 +1456,8 @@ msgstr "最近的 <span class=\"mobile\">行動網頁</span> 新聞與更新"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:116
-#, fuzzy
 msgid "Recent <span class=\"mozilla\">Mozilla</span> News &amp; Updates"
-msgstr "最近的 <span class=\"moz\">Mozilla</span> 新聞與更新"
+msgstr "最近的 <span class=\"mozilla\">Mozilla</span> 新聞與更新"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:96
@@ -1538,7 +1558,7 @@ msgstr "搜尋結果"
 
 #: apps/demos/templates/demos/listing_search.html:25 apps/demos/templates/demos/listing_search.html:37
 msgid "Search demos for \"{q}\""
-msgstr ""
+msgstr "搜尋「{q}」的 demo"
 
 #: apps/docs/templates/docs/docs.html:93
 msgid "Search engine plugins"
@@ -1546,20 +1566,19 @@ msgstr "搜尋引擎外掛"
 
 #: apps/demos/templates/demos/listing_search.html:10
 msgid "Search for \"{q}\""
-msgstr ""
+msgstr "搜尋「{q}」"
 
 #: apps/demos/templates/demos/listing_search.html:14
-#, fuzzy
 msgid "Search results for \"{q}\""
-msgstr "搜尋結果"
+msgstr "「{q}」的搜尋結果"
 
 #: apps/demos/feeds.py:214
 msgid "Search results for demo submissions matching \"%s\""
-msgstr ""
+msgstr "符合「%s」的 demo 的搜尋結果"
 
 #: apps/demos/templates/demos/elements/search_form.html:4
 msgid "Search the Demo Studio"
-msgstr ""
+msgstr "搜尋 Demo Studio"
 
 #: apps/docs/templates/docs/glossary.html:22
 msgid "Security"
@@ -1579,27 +1598,27 @@ msgstr "看看您可以如何 <a href=\"%(devmo_participate)s\">參與</a> <a hr
 
 #: apps/demos/templates/demos/elements/submission_thumb.html:5
 msgid "See more about {title} by {author}"
-msgstr ""
+msgstr "看看更多關於 {author} 的 {title} 的資訊"
 
 #: apps/demos/templates/demos/detail.html:116
 msgid "See more demos made with {tag_title}"
-msgstr ""
+msgstr "看看更多使用 {tag_title} 製作的 demo"
 
 #: apps/demos/templates/demos/detail.html:133
 msgid "See the next image"
-msgstr ""
+msgstr "看下一張圖片"
 
 #: apps/demos/templates/demos/home.html:44
 msgid "See the next three demos"
-msgstr ""
+msgstr "看下三個 demo"
 
 #: apps/demos/templates/demos/detail.html:132
 msgid "See the previous image"
-msgstr ""
+msgstr "看上一張圖片"
 
 #: apps/demos/templates/demos/home.html:43
 msgid "See the previous three demos"
-msgstr ""
+msgstr "看上三個 demo"
 
 #: apps/landing/templates/landing/home.html:170
 msgid "See what's new for web developers in the latest version of Firefox"
@@ -1607,60 +1626,59 @@ msgstr "看看最新版本的 Firefox 當中有什麼給網頁開發者的新東
 
 #: apps/demos/templates/demos/elements/profile_link.html:2 apps/demos/templates/demos/elements/submission_creator.html:2
 msgid "See {display_name}'s profile"
-msgstr ""
+msgstr "看看 {display_name} 的使用者資料"
 
 #: apps/demos/models.py:310
 msgid "Select the license that applies to your source code."
-msgstr ""
+msgstr "選擇您原始碼的授權方式。"
 
 #: apps/demos/templates/demos/submit.html:92
 msgid "Select up to five technologies used in your demo."
-msgstr ""
+msgstr "選擇您的 demoe 當中所使用到的技術，最多五種。"
 
 #: apps/demos/templates/demos/detail.html:99 apps/demos/templates/demos/launch.html:43
 msgid "Share It"
-msgstr ""
+msgstr "與他人分享"
 
 #: apps/demos/templates/demos/detail.html:101 apps/demos/templates/demos/launch.html:48
 msgid "Share on Facebook"
-msgstr ""
+msgstr "分享到 Facebook"
 
 #: apps/demos/templates/demos/detail.html:100 apps/demos/templates/demos/launch.html:47
-#, fuzzy
 msgid "Share on Twitter"
-msgstr "Twitter 上的 MDN"
+msgstr "分享到 Twitter"
 
 #: apps/demos/templates/demos/detail.html:95 apps/demos/templates/demos/launch.html:43
 msgid "Share this demo with your social network"
-msgstr ""
+msgstr "在您選擇的社群網路上分享此 demo"
 
 #: apps/demos/templates/demos/submit.html:103
 msgid "Show Off Your Demo"
-msgstr ""
+msgstr "炫耀您的 Demo"
 
 #: apps/demos/templates/demos/detail.html:63
 msgid "Show demo"
-msgstr ""
+msgstr "顯示 demo"
 
 #: apps/demos/forms.py:147
 msgid "Show us you're human"
-msgstr ""
+msgstr "請證明您是人類"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:15
 msgid "Sort demos by most likes"
-msgstr ""
+msgstr "以最多人喜歡的 demo 排序"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:16
 msgid "Sort demos by most recently submitted"
-msgstr ""
+msgstr "以最近提交的 demo 排序"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:14
 msgid "Sort demos by most views"
-msgstr ""
+msgstr "以最多人檢視的 demo 排序"
 
 #: apps/demos/templates/demos/submit.html:146
 msgid "Source code ZIP file"
-msgstr ""
+msgstr "原始碼 zip 檔"
 
 #: apps/landing/templates/landing/addons.html:65
 msgid "Start-to-finish success stories. See how add-on developers made magic with Mozilla."
@@ -1669,20 +1687,20 @@ msgstr "自始至終的成功故事。看看附加元件開發者是怎麼和 Mo
 #: apps/demos/templates/demos/delete.html:26 apps/demos/templates/demos/delete_comment.html:26 apps/demos/templates/demos/flag.html:26 apps/demos/templates/demos/home.html:33
 #: apps/demos/templates/demos/listing_all.html:22 apps/demos/templates/demos/listing_search.html:28 apps/demos/templates/demos/listing_tag.html:23 apps/demos/templates/demos/profile_detail.html:27
 msgid "Submit a Demo"
-msgstr ""
+msgstr "提交一個 Demo"
 
 #: apps/demos/templates/demos/submit.html:10 apps/demos/templates/demos/submit.html:47 apps/demos/templates/demos/submit.html:62 apps/demos/templates/demos/submit_noauth.html:10
 #: apps/demos/templates/demos/submit_noauth.html:20 apps/demos/templates/demos/submit_noauth.html:30
 msgid "Submit a New Demo"
-msgstr ""
+msgstr "提交一個新的 Demo"
 
 #: apps/demos/templates/demos/submit.html:180
 msgid "Submit demo"
-msgstr ""
+msgstr "提交 demo"
 
 #: apps/demos/templates/demos/feed_item_description.html:7
 msgid "Submitted by:"
-msgstr ""
+msgstr "由此人提交: "
 
 #: apps/landing/templates/landing/addons.html:23 apps/landing/templates/landing/mobile.html:23 apps/landing/templates/landing/mozilla.html:23 apps/landing/templates/landing/web.html:23
 msgid "Subscribe"
@@ -1690,31 +1708,31 @@ msgstr "訂閱"
 
 #: apps/demos/templates/demos/listing_all.html:38
 msgid "Subscribe to a feed of all demos"
-msgstr ""
+msgstr "訂閱所有 demo 的消息來源"
 
 #: apps/demos/templates/demos/listing_search.html:44
 msgid "Subscribe to a feed of search results for \"{q}\""
-msgstr ""
+msgstr "訂閱「{q}」搜尋結果的消息來源"
 
 #: apps/demos/templates/demos/profile_detail.html:55
 msgid "Subscribe to a feed of {display_name}'s demos"
-msgstr ""
+msgstr "訂閱 {display_name} 的 demo 的消息來源"
 
 #: apps/demos/templates/demos/home.html:65 apps/demos/templates/demos/listing_tag.html:53
 msgid "Subscribe to a feed of {tag_title} demos"
-msgstr ""
+msgstr "訂閱 {tag_title} demo 的消息來源"
 
 #: apps/demos/models.py:113
 msgid "Tag \"%s\" is not in the set of described tags"
-msgstr ""
+msgstr "標籤「%s」並不在描述標籤組當中"
 
 #: apps/demos/templates/demos/feed_item_description.html:9
 msgid "Tagged as:"
-msgstr ""
+msgstr "被標籤為:"
 
 #: apps/demos/templates/demos/terms.html:10 apps/demos/templates/demos/terms.html:35
 msgid "Terms for Contributors"
-msgstr ""
+msgstr "貢獻者條款"
 
 #: apps/demos/templates/demos/terms.html:21
 msgid "Terms of Use"
@@ -1730,6 +1748,8 @@ msgstr ""
 #: apps/demos/__init__.py:105
 msgid "The CSS3-Font specification contains enhanced features for fonts and typography like embedding own fonts via @font-face or controlling OpenType font features directly via CSS."
 msgstr ""
+"CSS3-Font 規格包含了字形與排印上的功能加強，像是透過 @font-face 遷入自有字形、直接透過 CSS 控制 OpenType "
+"的字形屬性。"
 
 #: apps/landing/templates/landing/web.html:60
 msgid "The DOM is the architecture for Web documents; learn how to use the DOM and its API to look at and manipulate Web content."
@@ -1745,19 +1765,19 @@ msgstr "Document Object Model 描述了網頁的結構與內容。"
 
 #: apps/demos/__init__.py:96
 msgid "The File API allows web developers to use file objects in web applications, as well as selecting and accessing their data."
-msgstr ""
+msgstr "檔案 API 允許網頁開發者在網頁應用程式當中使用檔案物件，以及選擇並存取它們的資料。"
 
 #: apps/demos/__init__.py:125
 msgid "The Geolocation API allows web applications to access the user's geographical location."
-msgstr ""
+msgstr "地理位置 API 允許網頁應用程式讀取使用者的地理位置資料。"
 
 #: apps/demos/__init__.py:67
 msgid "The HTML5 canvas element allows to display scriptable renderings of 2D shapes and bitmap images."
-msgstr ""
+msgstr "HTML5 canvas 元素允許顯示透過程式產生的 2D 圖形與點陣圖。"
 
 #: apps/demos/__init__.py:205
 msgid "The HTML5 video element provides integrated support for playing video media without requiring plug-ins."
-msgstr ""
+msgstr "HTML video 元素提供不需安裝外掛程式即可撥放視訊媒體的整合支援。"
 
 #: apps/landing/templates/landing/mozilla.html:52
 msgid "The Mozilla Platform"
@@ -1765,7 +1785,7 @@ msgstr "Mozilla 平台"
 
 #: apps/contentflagging/models.py:23
 msgid "The author is fake"
-msgstr ""
+msgstr "假造的作者"
 
 #: apps/landing/templates/landing/mozilla.html:103
 msgid "The main issue-tracker for Mozilla projects."
@@ -1804,28 +1824,28 @@ msgstr "有許多可以讓您在自己的專案當中使用 Mozilla 程式碼的
 #: apps/demos/templates/demos/detail.html:126 apps/demos/templates/demos/elements/submission_thumb.html:17
 msgid "There is {count} comment for this demo"
 msgid_plural "There are {count} comments for this demo"
-msgstr[0] ""
+msgstr[0] "此 demo 有 {count} 條回應"
 
 #: apps/devmo/models.py:35
 msgid "This URL has an invalid format. Valid URLs look like http://example.com/my_page."
-msgstr ""
+msgstr "不正確的網址格式。有效的網址應該長得像是 http://example.com/my_page 。"
 
 #: apps/contentflagging/models.py:21
 msgid "This contains inappropriate content"
-msgstr ""
+msgstr "包含不適當的內容"
 
 #: apps/demos/templates/demos/detail.html:124 apps/demos/templates/demos/elements/submission_thumb.html:15
 msgid "This demo has been viewed {count} time"
 msgid_plural "This demo has been viewed {count} times"
-msgstr[0] ""
+msgstr[0] "此 demo 已被檢視 {count} 次"
 
 #: apps/demos/templates/demos/detail.html:230
 msgid "This demo is released under the <a href=\"%(link)s\">%(title)s</a> license."
-msgstr ""
+msgstr "此 demo 係以 <a href=\"%(link)s\">%(title)s</a> 條款進行授權。"
 
 #: apps/contentflagging/models.py:20
 msgid "This is not working for me"
-msgstr ""
+msgstr "對我無效"
 
 #. Browsers and Plugins useful for viewing video content
 #: templates/includes/video_player.html:7
@@ -1838,15 +1858,15 @@ msgstr ""
 
 #: apps/contentflagging/models.py:22
 msgid "This was not created by the author"
-msgstr ""
+msgstr "並非由作者所建立"
 
 #: apps/demos/helpers.py:362
 msgid "Today at %s"
-msgstr ""
+msgstr "今天的 %s"
 
 #: apps/demos/__init__.py:255
 msgid "Track the movement of the user's finger on a touch screen, monitoring the raw touch events generated by the system."
-msgstr ""
+msgstr "追蹤使用者手指在觸控螢幕上的移動，監控系統產生的原始觸控事件。"
 
 #: apps/landing/templates/landing/addons.html:22 apps/landing/templates/landing/mobile.html:22 apps/landing/templates/landing/mozilla.html:22 apps/landing/templates/landing/web.html:22
 msgid "Twitter"
@@ -1854,11 +1874,11 @@ msgstr "Twitter"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:11
 msgid "Up and Coming"
-msgstr ""
+msgstr "日益重要的"
 
 #: apps/demos/templates/demos/submit.html:147
 msgid "Upload demo file&hellip;"
-msgstr ""
+msgstr "上傳 demo 檔案 &hellip;"
 
 #: apps/landing/templates/landing/addons.html:101
 msgid "Use Add-ons Builder to quickly and easily develop an extension for Firefox using common web technologies."
@@ -1928,20 +1948,19 @@ msgstr "Web Workers"
 
 #: apps/demos/__init__.py:235
 msgid "Web Workers provide a simple means for web content to run scripts in background threads."
-msgstr ""
+msgstr "Web Workers 提供了一個讓指令碼以背景執行敘執行的簡單方法。"
 
 #: apps/demos/__init__.py:214 apps/docs/templates/docs/glossary.html:13
 msgid "WebGL"
 msgstr "WebGL"
 
 #: apps/demos/__init__.py:224
-#, fuzzy
 msgid "WebSockets"
-msgstr "Web Workers"
+msgstr "WebSockets"
 
 #: apps/demos/__init__.py:225
 msgid "WebSockets is a technology that makes it possible to open an interactive communication session between the user's browser and a server."
-msgstr ""
+msgstr "WebSockets 是一種讓使用者的瀏覽器與伺服器之間開啟互動連線變得可能的技術。"
 
 #: templates/includes/login.html:2 templates/includes/login.html:9
 msgid "Welcome back"
@@ -1992,35 +2011,35 @@ msgstr "由 %(authorlink)s 於 %(entrydate)s 撰寫"
 
 #: apps/demos/__init__.py:244
 msgid "XMLHttpRequest"
-msgstr ""
+msgstr "XMLHttpRequest"
 
 #: apps/demos/__init__.py:245
 msgid "XMLHttpRequest (XHR) is used to send HTTP requests directly to a webserver and load the response data directly back into the script."
-msgstr ""
+msgstr "XMLHttpRequest (XHR) 被用來像網頁伺服器直接傳送 HTTP 請求，並將回應直接讀取進指令碼。"
 
 #: apps/demos/templates/demos/detail.html:85 apps/demos/templates/demos/launch.html:34
 msgid "You Like"
-msgstr ""
+msgstr "您喜歡"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:15
 msgid "You are viewing demos by most likes"
-msgstr ""
+msgstr "您正依受人喜歡的程度檢視 demo"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:16
 msgid "You are viewing demos by most recently submitted"
-msgstr ""
+msgstr "您正依提交的時間先後檢視 demo"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:14
 msgid "You are viewing demos by most views"
-msgstr ""
+msgstr "您正依被檢視的次數檢視 demo"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:11
 msgid "You are viewing up and coming demos"
-msgstr ""
+msgstr "您正依重要程度檢視 demo"
 
 #: apps/demos/templates/demos/detail.html:85 apps/demos/templates/demos/launch.html:34
 msgid "You like this demo. Undo?"
-msgstr ""
+msgstr "您覺得這個 demo 很讚。還原？"
 
 #: apps/landing/templates/landing/mobile.html:20
 msgid "You took back the Web. Now take it with you."
@@ -2039,57 +2058,56 @@ msgstr ""
 
 #: apps/demos/models.py:451
 msgid "ZIP file contains files that are too large"
-msgstr ""
+msgstr "ZIP 檔當中包含了太大的檔案"
 
 #: apps/demos/models.py:432 apps/demos/models.py:439
 msgid "ZIP file contains no acceptable files"
-msgstr ""
+msgstr "ZIP 檔當中包含了不被接受的檔案"
 
 #: apps/demos/models.py:435
 msgid "ZIP file corrupted"
-msgstr ""
+msgstr "ZIP 檔已毀損"
 
 #: apps/demos/views.py:62 apps/demos/views.py:204 apps/demos/views.py:228 apps/demos/views.py:241 apps/demos/views.py:254
 msgid "access denied"
 msgstr "存取被拒。"
 
 #: apps/demos/templates/demos/detail.html:43
-#, fuzzy
 msgid "by %(creator_link)s on %(create_date)s"
-msgstr "由 %(authorlink)s 於 %(entrydate)s 撰寫"
+msgstr "由 %(creator_link)s 於 %(create_date)s 撰寫"
 
 #: apps/demos/templates/demos/launch.html:25
 msgid "by %(profile_link)s"
-msgstr ""
+msgstr "由 %(profile_link)s"
 
 #: apps/contentflagging/models.py:65
 msgid "current status of flag review"
-msgstr ""
+msgstr "被標示為需檢查的目前狀態"
 
 #: apps/demos/models.py:316
 msgid "date created"
-msgstr ""
+msgstr "建立日期"
 
 #: apps/actioncounters/models.py:90 apps/contentflagging/models.py:99 apps/demos/models.py:318
 msgid "date last modified"
-msgstr ""
+msgstr "最新修改日期"
 
 #: apps/contentflagging/models.py:96
 msgid "date submitted"
-msgstr ""
+msgstr "提交日期"
 
 #: apps/demos/helpers.py:220
 msgid "day"
 msgid_plural "days"
-msgstr[0] ""
+msgstr[0] "天"
 
 #: apps/demos/models.py:258
 msgid "describe your demo in more detail (optional)"
-msgstr ""
+msgstr "更詳細地描述您的 demo（非必要）"
 
 #: apps/demos/models.py:255
 msgid "describe your demo in one line"
-msgstr ""
+msgstr "用一行字描述您的 demo"
 
 #: apps/landing/templates/landing/web.html:75
 msgid "geckoday via AMO"
@@ -2097,394 +2115,374 @@ msgstr "AMO 的 geckoday "
 
 #: apps/demos/models.py:295
 msgid "have a video of your demo in action? (optional)"
-msgstr ""
+msgstr "有您 demo 的執行影片展示嗎?（非必要）"
 
 #: apps/demos/__init__.py:293
 msgid "http://creativecommons.org/publicdomain/zero/1.0/"
-msgstr ""
+msgstr "http://creativecommons.org/publicdomain/zero/1.0/"
 
 #: apps/demos/__init__.py:129
 msgid "http://dev.w3.org/geo/api/spec-source.html"
-msgstr ""
+msgstr "http://dev.w3.org/geo/api/spec-source.html"
 
 #: apps/demos/__init__.py:149
 msgid "http://dev.w3.org/html5/spec/Overview.html"
-msgstr ""
+msgstr "http://dev.w3.org/html5/spec/Overview.html"
 
 #: apps/demos/__init__.py:229
 msgid "http://dev.w3.org/html5/websockets/"
-msgstr ""
+msgstr "http://dev.w3.org/html5/websockets/"
 
 #: apps/demos/__init__.py:189
 msgid "http://dev.w3.org/html5/webstorage/"
-msgstr ""
+msgstr "http://dev.w3.org/html5/webstorage/"
 
 #: apps/demos/__init__.py:70
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Canvas_element"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://zh.wikipedia.org/wiki/Canvas_(HTML%E5%85%83%E7%B4%A0)"
 
 #: apps/demos/__init__.py:80
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Cascading_Style_Sheets"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://zh.wikipedia.org/wiki/CSS"
 
 #: apps/demos/__init__.py:168
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Drag-and-drop"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://zh.wikipedia.org/wiki/%E6%8B%96%E6%94%BE"
 
 #: apps/demos/__init__.py:60
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/HTML5_audio"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/HTML5_audio"
 
 #: apps/demos/__init__.py:208
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/HTML5_video"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/HTML5_video"
 
 #: apps/demos/__init__.py:118
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/HTML_forms"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/HTML_forms"
 
 #: apps/demos/__init__.py:148
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Html5"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://zh.wikipedia.org/wiki/HTML5"
 
 #: apps/demos/__init__.py:158
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/IndexedDB"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/IndexedDB"
 
 #: apps/demos/__init__.py:138
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/JavaScript"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://zh.wikipedia.org/wiki/JavaScript"
 
 #: apps/demos/__init__.py:178
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Mobile_web"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Mobile_web"
 
 #: apps/landing/templates/landing/home.html:15
 msgid "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
 msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
 
 #: apps/demos/__init__.py:258
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Multi-touch"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://zh.wikipedia.org/wiki/%E5%A4%9A%E9%BB%9E%E8%A7%B8%E6%8E%A7"
 
 #: apps/demos/__init__.py:198
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Scalable_Vector_Graphics"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://zh.wikipedia.org/wiki/SVG"
 
 #: apps/demos/__init__.py:128
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/W3C_Geolocation_API"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/W3C_Geolocation_API"
 
 #: apps/demos/__init__.py:218
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/WebGL"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://zh.wikipedia.org/wiki/WebGL"
 
 #: apps/demos/__init__.py:228
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_Sockets"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://zh.wikipedia.org/wiki/WebSocket"
 
 #: apps/demos/__init__.py:188
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_Storage"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Web_Storage"
 
 #: apps/demos/__init__.py:238
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_Workers"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Web_Workers"
 
 #: apps/demos/__init__.py:108
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_typography"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Web_typography"
 
 #: apps/demos/__init__.py:248
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/XMLHttpRequest"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://zh.wikipedia.org/wiki/XMLHTTP"
 
 #: apps/demos/__init__.py:287
 msgid "http://www.apache.org/licenses/"
-msgstr ""
+msgstr "http://www.apache.org/licenses/"
 
 #: apps/demos/__init__.py:139
 msgid "http://www.ecma-international.org/publications/standards/Ecma-262.htm"
-msgstr ""
+msgstr "http://www.ecma-international.org/publications/standards/Ecma-262.htm"
 
 #: apps/demos/__init__.py:219
 msgid "http://www.khronos.org/webgl/"
-msgstr ""
+msgstr "http://www.khronos.org/webgl/"
 
 #: apps/demos/__init__.py:269
 msgid "http://www.mozilla.org/MPL/"
-msgstr ""
+msgstr "http://www.mozilla.org/MPL/"
 
 #: apps/demos/__init__.py:281
 msgid "http://www.opensource.org/licenses/bsd-license.php"
-msgstr ""
+msgstr "http://www.opensource.org/licenses/bsd-license.php"
 
 #: apps/demos/__init__.py:275
 msgid "http://www.opensource.org/licenses/gpl-license.php"
-msgstr ""
+msgstr "http://www.opensource.org/licenses/gpl-license.php"
 
 #: apps/demos/__init__.py:259
 msgid "http://www.w3.org/2010/webevents/charter/"
-msgstr ""
+msgstr "http://www.w3.org/2010/webevents/charter/"
 
 #: apps/demos/__init__.py:179
 msgid "http://www.w3.org/Mobile/"
-msgstr ""
+msgstr "http://www.w3.org/Mobile/"
 
 #: apps/demos/__init__.py:99
 msgid "http://www.w3.org/TR/FileAPI/"
-msgstr ""
+msgstr "http://www.w3.org/TR/FileAPI/"
 
 #: apps/demos/__init__.py:159
 msgid "http://www.w3.org/TR/IndexedDB/"
-msgstr ""
+msgstr "http://www.w3.org/TR/IndexedDB/"
 
 #: apps/demos/__init__.py:199
 msgid "http://www.w3.org/TR/SVG11/"
-msgstr ""
+msgstr "http://www.w3.org/TR/SVG11/"
 
 #: apps/demos/__init__.py:249
 msgid "http://www.w3.org/TR/XMLHttpRequest/"
-msgstr ""
+msgstr "http://www.w3.org/TR/XMLHttpRequest/"
 
 #: apps/demos/__init__.py:109
 msgid "http://www.w3.org/TR/css3-fonts/"
-msgstr ""
+msgstr "http://www.w3.org/TR/css3-fonts/"
 
 #: apps/demos/__init__.py:90
 msgid "http://www.w3.org/TR/css3-mediaqueries/"
-msgstr ""
+msgstr "http://www.w3.org/TR/css3-mediaqueries/"
 
 #: apps/demos/__init__.py:81
 msgid "http://www.w3.org/TR/css3-roadmap/"
-msgstr ""
+msgstr "http://www.w3.org/TR/css3-roadmap/"
 
 #: apps/demos/__init__.py:169
 msgid "http://www.w3.org/TR/html5/dnd.html"
-msgstr ""
+msgstr "http://www.w3.org/TR/html5/dnd.html"
 
 #: apps/demos/__init__.py:119
 msgid "http://www.w3.org/TR/html5/forms.html"
-msgstr ""
+msgstr "http://www.w3.org/TR/html5/forms.html"
 
 #: apps/demos/__init__.py:71
 msgid "http://www.w3.org/TR/html5/the-canvas-element.html"
-msgstr ""
+msgstr "http://www.w3.org/TR/html5/the-canvas-element.html"
 
 #: apps/demos/__init__.py:209
 msgid "http://www.w3.org/TR/html5/video.html"
-msgstr ""
+msgstr "http://www.w3.org/TR/html5/video.html"
 
 #: apps/demos/__init__.py:61
 msgid "http://www.w3.org/TR/html5/video.html#audio"
-msgstr ""
+msgstr "http://www.w3.org/TR/html5/video.html#audio"
 
 #: apps/demos/__init__.py:239
 msgid "http://www.w3.org/TR/workers/"
-msgstr ""
+msgstr "http://www.w3.org/TR/workers/"
 
 #: apps/demos/__init__.py:177
 msgid "https://developer.mozilla.org/En/Mobile"
-msgstr ""
+msgstr "https://developer.mozilla.org/En/Mobile"
 
 #: apps/demos/__init__.py:207
 msgid "https://developer.mozilla.org/En/Using_audio_and_video_in_Firefox"
-msgstr ""
+msgstr "https://developer.mozilla.org/En/Using_audio_and_video_in_Firefox"
 
 #: apps/demos/__init__.py:127
 msgid "https://developer.mozilla.org/En/Using_geolocation"
-msgstr ""
+msgstr "https://developer.mozilla.org/En/Using_geolocation"
 
 #: apps/demos/__init__.py:237
 msgid "https://developer.mozilla.org/En/Using_web_workers"
-msgstr ""
+msgstr "https://developer.mozilla.org/En/Using_web_workers"
 
 #: apps/demos/__init__.py:247
 msgid "https://developer.mozilla.org/En/XMLHttpRequest/Using_XMLHttpRequest"
-msgstr ""
+msgstr "https://developer.mozilla.org/En/XMLHttpRequest/Using_XMLHttpRequest"
 
 #: apps/demos/__init__.py:79
 msgid "https://developer.mozilla.org/en/CSS"
-msgstr ""
+msgstr "https://developer.mozilla.org/zh_tw/CSS"
 
 #: apps/demos/__init__.py:257
 msgid "https://developer.mozilla.org/en/DOM/Touch_events"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/DOM/Touch_events"
 
 #: apps/demos/__init__.py:89
 msgid "https://developer.mozilla.org/en/Detecting_device_orientation"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/Detecting_device_orientation"
 
 #: apps/demos/__init__.py:167
 msgid "https://developer.mozilla.org/en/DragDrop/Drag_and_Drop"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/DragDrop/Drag_and_Drop"
 
 #: apps/demos/__init__.py:69
 msgid "https://developer.mozilla.org/en/HTML/Canvas"
-msgstr ""
+msgstr "https://developer.mozilla.org/zh_tw/HTML/Canvas"
 
 #: apps/demos/__init__.py:147
 msgid "https://developer.mozilla.org/en/HTML/HTML5"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/HTML/HTML5"
 
 #: apps/demos/__init__.py:117
 msgid "https://developer.mozilla.org/en/HTML/HTML5/Forms_in_HTML5"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/HTML/HTML5/Forms_in_HTML5"
 
 #: apps/demos/__init__.py:157
 msgid "https://developer.mozilla.org/en/IndexedDB"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/IndexedDB"
 
 #: apps/demos/__init__.py:59
 msgid "https://developer.mozilla.org/en/Introducing_the_Audio_API_Extension"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/Introducing_the_Audio_API_Extension"
 
 #: apps/demos/__init__.py:197
 msgid "https://developer.mozilla.org/en/SVG"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/SVG"
 
 #: apps/demos/__init__.py:217
 msgid "https://developer.mozilla.org/en/WebGL"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/WebGL"
 
 #: apps/demos/__init__.py:227
 msgid "https://developer.mozilla.org/en/WebSockets"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/WebSockets"
 
 #: apps/demos/__init__.py:107
 msgid "https://developer.mozilla.org/en/css/@font-face"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/css/@font-face"
 
 #: apps/demos/__init__.py:187
 msgid "https://developer.mozilla.org/en/dom/storage#localStorage"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/dom/storage#localStorage"
 
 #: apps/demos/__init__.py:137
 msgid "https://developer.mozilla.org/en/javascript"
-msgstr ""
+msgstr "https://developer.mozilla.org/zh_tw/JavaScript"
 
 #: apps/demos/__init__.py:98
 msgid "https://developer.mozilla.org/en/using_files_from_web_applications"
-msgstr ""
+msgstr "https://developer.mozilla.org/en/using_files_from_web_applications"
 
 #: apps/demos/helpers.py:218
 msgid "month"
 msgid_plural "months"
-msgstr[0] ""
+msgstr[0] "月"
 
 #: apps/actioncounters/models.py:75
 msgid "name of the action"
-msgstr ""
+msgstr "行為名稱"
 
 #: apps/actioncounters/models.py:71 apps/contentflagging/models.py:78
 msgid "object ID"
-msgstr ""
+msgstr "物件 ID"
 
 #: apps/contentflagging/models.py:71
 msgid "please explain what content you feel is inappropriate"
-msgstr ""
+msgstr "請解釋您覺得什麼內容是不適當的"
 
 #: apps/contentflagging/models.py:68
 msgid "reason for flagging the content"
-msgstr ""
+msgstr "標示內容的原因"
 
 #: apps/demos/templates/demos/home.html:65
 msgid "recent"
-msgstr ""
+msgstr "最近"
 
 #: apps/demos/models.py:299
 msgid "select a ZIP file containing your demo"
-msgstr ""
+msgstr "選擇一個包含您 demo 的 ZIP 檔"
 
 #: apps/demos/models.py:270
 msgid "select up to 5 tags that describe your demo"
-msgstr ""
+msgstr "選擇描述您 demo 的標籤，最多五個"
 
 #: apps/demos/models.py:252
 msgid "slug"
-msgstr ""
+msgstr "slug"
 
 #: apps/demos/helpers.py:219
 msgid "week"
 msgid_plural "weeks"
-msgstr[0] ""
+msgstr[0] "週"
 
 #: apps/demos/models.py:250
 msgid "what is your demo's name?"
-msgstr ""
+msgstr "您的 demo 名稱是?"
 
 #: apps/demos/helpers.py:217
-#, fuzzy
 msgid "year"
 msgid_plural "years"
-msgstr[0] "搜尋"
+msgstr[0] "年"
 
 #: apps/demos/templates/demos/detail.html:126
 msgid "{comment_count} comments"
-msgstr ""
+msgstr "{comment_count} 條回應"
 
 #: apps/demos/templates/demos/detail.html:174
 msgid "{comments_total} comment so far"
 msgid_plural "{comments_total} comments so far"
-msgstr[0] ""
+msgstr[0] "共有 {comments_total} 條回應"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:8
 msgid "{count} Demo"
 msgid_plural "{count} Demos"
-msgstr[0] ""
+msgstr[0] "{count} 個 Demo"
 
 #: apps/demos/templates/demos/detail.html:125
 msgid "{count} like"
 msgid_plural "{count} likes"
-msgstr[0] ""
+msgstr[0] "{count} 個人喜歡"
 
 #: apps/demos/templates/demos/detail.html:125 apps/demos/templates/demos/elements/submission_thumb.html:16
 msgid "{count} person liked this demo"
 msgid_plural "{count} people liked this demo"
-msgstr[0] ""
+msgstr[0] "{count} 個人喜歡此 demo"
 
 #: apps/demos/templates/demos/detail.html:124
 msgid "{count} view"
 msgid_plural "{count} views"
-msgstr[0] ""
+msgstr[0] "{count} 個檢視數"
 
 #: apps/demos/templates/demos/profile_detail.html:8
 msgid "{display_name}"
-msgstr ""
+msgstr "{display_name}"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:49
 msgid "{start}&ndash;{end} of {total}"
-msgstr ""
+msgstr "{total} 當中的 {start}&ndash;{end} "
 
 #: apps/demos/templates/demos/delete.html:10 apps/demos/templates/demos/delete_comment.html:10 apps/demos/templates/demos/detail.html:5 apps/demos/templates/demos/flag.html:10
 #: apps/demos/templates/demos/launch.html:4 apps/demos/templates/demos/listing_all.html:5 apps/demos/templates/demos/listing_search.html:10 apps/demos/templates/demos/listing_tag.html:5
 #: apps/demos/templates/demos/profile_detail.html:8 apps/demos/templates/demos/submit.html:8 apps/demos/templates/demos/submit.html:10 apps/demos/templates/demos/submit_noauth.html:10
 #: apps/demos/templates/demos/terms.html:10
 msgid "{subtitle} | Demo Studio"
-msgstr ""
+msgstr "{subtitle} | Demo Studio"
 
 #: apps/demos/templates/demos/listing_tag.html:5
 msgid "{tag_title} Demos"
-msgstr ""
+msgstr "{tag_title} Demo"
 
 #: apps/landing/templates/sidebar/twitter.html:16
 msgid "{timedelta} ago"
