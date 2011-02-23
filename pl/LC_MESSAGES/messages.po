@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-02-15 14:19+0100\n"
+"PO-Revision-Date: 2011-02-23 14:36+0100\n"
 "Last-Translator: Leszek Życzkowski <leszekz@gmail.com>\n"
 "Language-Team: none\n"
 "Language: pl\n"
@@ -14,7 +14,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/mobile.html:158
 msgid "\"'Hands down, the developer pool for HTML / JS rock stars is tenfold larger [and] there is no download attrition. You simply point people at a URL and there you go -- it's installed.' The fact that apps can be directly installed by URL rather than by waiting for an App Store download means that developers reduce barriers to virality.\""
-msgstr "„Czapki z głów, zasoby HTML / JS dla twórców są dziesięć razy większe i nie ma problemów z pobieraniem. Po prostu wskaż ludziom adres URL i już – zostało zainstalowane. Fakt, że aplikacje mogą być bezpośrednio instalowane przez podanie adresu URL, a nie trzeba czekać na pobranie ze sklepu z aplikacjami, oznacza, że twórcy przekroczyli bariery wirtuozerii”."
+msgstr "„Czapki z głów, zasoby HTML i JavaScriptu dla twórców są dziesięć razy większe i nie ma problemów z pobieraniem. Po prostu wskaż ludziom adres URL i już – zostało zainstalowane. Fakt, że aplikacje mogą być bezpośrednio instalowane przez podanie adresu URL, a nie trzeba czekać na pobranie ze sklepu z aplikacjami, oznacza, że twórcy przekroczyli bariery wirtuozerii”."
 
 #: apps/landing/templates/landing/web.html:75
 msgid "\"An absolute necessity for anyone doing serious web development. Awesome!!!!\""
@@ -983,9 +983,6 @@ msgid "Get the Source Code"
 msgstr "Pobierz kod źródłowy"
 
 #: apps/landing/templates/landing/mobile.html:45
-msgid "Get the latest news, status and developer documentation on the Mozilla mobile project. Check out the mobile project's goals, and how you can help out and get involved!"
-msgstr "Poznaj najnowsze wiadomości, status i dokumentację dla twórców projektu Mozilla Mobile. Zapoznaj się z celami projektu, jak możesz pomóc oraz, jak dołączyć do projektu!"
-
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
 msgstr "Przejdź"
