@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2011-02-21 19:33+0200\n"
+"PO-Revision-Date: 2011-02-23 17:03+0200\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: none\n"
 "Language: zh_TW\n"
@@ -277,7 +277,7 @@ msgid ""
 "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other "
 "web developers.</p>"
 msgstr ""
-"<p>無論您要創造令人吃驚的新方式來體驗 Web 或者是只想要測試最新的技術，我們邀請您提交您自己的範例程式與其他 web 開發者分享 "
+"<p>無論您要創造令人吃驚的新方式來體驗 Web 或者是只想要測試最新的技術，我們邀請您送出您自己的範例程式與其他 web 開發者分享 "
 "(或者炫耀一番)。</p>"
 
 #: apps/demos/templates/demos/submit.html:67
@@ -336,7 +336,7 @@ msgstr ""
 "<ul> <li>您的 demo 的原始碼應該被封裝於 ZIP 當中。</li> <li>您的 demo 的主要頁面應該是 ZIP "
 "檔根目錄下一個被命名為 <code>index.html</code> 的檔案。</li> <li>您的 demo 應該使用客戶端技術 "
 "(HTML、CSS、JavaScript) 建立。不支援像是 PHP 或 Ruby 之類的伺服器端語言。</li> <li>若您的 demo "
-"需要外部資源，應該使用 AJAX 來進行存取。</li> <li>若要提交您的 demo，您需要一個 <a href=\"%"
+"需要外部資源，應該使用 AJAX 來進行存取。</li> <li>若要送出您的 demo，您需要一個 <a href=\"%"
 "(signup_url)s\">MDN 帳號</a>。</li> <li>請在 demo 的詳情欄位當中明確列出無法透過 CC-BY-SA "
 "進行授權的第三人內容，並包含作者的網站鏈結。</li> </ul>"
 
@@ -949,7 +949,7 @@ msgstr "取得 Mozilla 行動專案的最新消息、狀態，與開發者文件
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
-msgstr "移動"
+msgstr "衝"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:54
 msgid "Go to the first page"
@@ -1670,7 +1670,7 @@ msgstr "以最多人喜歡的 demo 排序"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:16
 msgid "Sort demos by most recently submitted"
-msgstr "以最近提交的 demo 排序"
+msgstr "以最近送出的 demo 排序"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:14
 msgid "Sort demos by most views"
@@ -1687,20 +1687,20 @@ msgstr "自始至終的成功故事。看看附加元件開發者是怎麼和 Mo
 #: apps/demos/templates/demos/delete.html:26 apps/demos/templates/demos/delete_comment.html:26 apps/demos/templates/demos/flag.html:26 apps/demos/templates/demos/home.html:33
 #: apps/demos/templates/demos/listing_all.html:22 apps/demos/templates/demos/listing_search.html:28 apps/demos/templates/demos/listing_tag.html:23 apps/demos/templates/demos/profile_detail.html:27
 msgid "Submit a Demo"
-msgstr "提交一個 Demo"
+msgstr "送出一個 Demo"
 
 #: apps/demos/templates/demos/submit.html:10 apps/demos/templates/demos/submit.html:47 apps/demos/templates/demos/submit.html:62 apps/demos/templates/demos/submit_noauth.html:10
 #: apps/demos/templates/demos/submit_noauth.html:20 apps/demos/templates/demos/submit_noauth.html:30
 msgid "Submit a New Demo"
-msgstr "提交一個新的 Demo"
+msgstr "送出一個新的 Demo"
 
 #: apps/demos/templates/demos/submit.html:180
 msgid "Submit demo"
-msgstr "提交 demo"
+msgstr "送出 demo"
 
 #: apps/demos/templates/demos/feed_item_description.html:7
 msgid "Submitted by:"
-msgstr "由此人提交: "
+msgstr "由此人送出: "
 
 #: apps/landing/templates/landing/addons.html:23 apps/landing/templates/landing/mobile.html:23 apps/landing/templates/landing/mozilla.html:23 apps/landing/templates/landing/web.html:23
 msgid "Subscribe"
@@ -2027,7 +2027,7 @@ msgstr "您正依受人喜歡的程度檢視 demo"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:16
 msgid "You are viewing demos by most recently submitted"
-msgstr "您正依提交的時間先後檢視 demo"
+msgstr "您正依送出的時間先後檢視 demo"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:14
 msgid "You are viewing demos by most views"
@@ -2094,7 +2094,7 @@ msgstr "最新修改日期"
 
 #: apps/contentflagging/models.py:96
 msgid "date submitted"
-msgstr "提交日期"
+msgstr "送出日期"
 
 #: apps/demos/helpers.py:220
 msgid "day"
