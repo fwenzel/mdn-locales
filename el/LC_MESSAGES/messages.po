@@ -1490,11 +1490,11 @@ msgstr "Ταξινόμηση demo με βάση τα περισσότερα «μ
 
 #: apps/demos/templates/demos/elements/submission_listing.html:15
 msgid "You are viewing demos by most likes"
-msgstr ""
+msgstr "Βλέπετε τα demo που αρέσουν στους περισσότερους χρήστες"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:15
 msgid "Most Liked"
-msgstr ""
+msgstr "Περισσότερο αρεστά"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:16
 msgid "Sort demos by most recently submitted"
@@ -1502,7 +1502,7 @@ msgstr "Ταξινόμηση των demo με βάση τα πιο πρόσφα�
 
 #: apps/demos/templates/demos/elements/submission_listing.html:16
 msgid "You are viewing demos by most recently submitted"
-msgstr ""
+msgstr "Βλέπετε τα demo που έχουν υποβληθεί πιο πρόσφατα."
 
 #: apps/demos/templates/demos/elements/submission_listing.html:16
 msgid "Most Recent"
@@ -1580,7 +1580,7 @@ msgstr "Web"
 
 #: apps/devmo/models.py:35
 msgid "This URL has an invalid format. Valid URLs look like http://example.com/my_page."
-msgstr ""
+msgstr "Αυτό το URL έχει μη έγκυρη μορφή. Τα έγκυρα URL έχουν μορφή του στυλ: http://example.com/my_page."
 
 #: apps/docs/views.py:33
 msgid "(multiple)"
@@ -1605,7 +1605,7 @@ msgstr ""
 #: apps/docs/templates/docs/glossary.html:4
 #: apps/landing/templates/landing/home.html:177
 msgid "/en/HTML"
-msgstr ""
+msgstr "/en/HTML"
 
 #: apps/docs/templates/docs/docs.html:32
 #: apps/docs/templates/docs/glossary.html:4
@@ -1615,7 +1615,7 @@ msgstr "HTML"
 
 #: apps/docs/templates/docs/docs.html:33
 msgid "HyperText Markup Language, the core language of the web."
-msgstr ""
+msgstr "Η HyperText Markup Language, η βασική γλώσσα προγραμματισμού για το διαδίκτυο."
 
 #: apps/docs/templates/docs/docs.html:36
 #: apps/docs/templates/docs/glossary.html:7
@@ -1623,18 +1623,18 @@ msgstr ""
 #: apps/landing/templates/landing/home.html:78
 #: apps/landing/templates/landing/web.html:47
 msgid "/en/HTML/HTML5"
-msgstr ""
+msgstr "/en/HTML/HTML5"
 
 #: apps/docs/templates/docs/docs.html:37
 msgid "The next generation of HTML, HTML5 adds powerful new capabilities for web sites and web applications."
-msgstr ""
+msgstr "Η HTML5, η επόμενη γενιά της HTML, προσθέτει νέες πανίσχυρες δυνατότητες για ιστοσελίδες και διαδικτυακές εφαρμογές."
 
 #: apps/docs/templates/docs/docs.html:40
 #: apps/docs/templates/docs/glossary.html:6
 #: apps/landing/templates/landing/home.html:185
 #: apps/landing/templates/landing/web.html:51
 msgid "/en/JavaScript"
-msgstr ""
+msgstr "/en/JavaScript"
 
 #: apps/docs/templates/docs/docs.html:40
 #: apps/docs/templates/docs/glossary.html:6
@@ -1646,14 +1646,14 @@ msgstr "JavaScript"
 #: apps/docs/templates/docs/docs.html:41
 #: apps/landing/templates/landing/home.html:186
 msgid "The scripting language that powers modern web applications."
-msgstr ""
+msgstr "Η γλώσσα προγραμματισμού σεναρίων εντολών πάνω στην οποία υλοποιούνται όλες οι σύγχρονες διαδικτυακές εφαρμογές."
 
 #: apps/docs/templates/docs/docs.html:44
 #: apps/docs/templates/docs/glossary.html:5
 #: apps/landing/templates/landing/home.html:181
 #: apps/landing/templates/landing/web.html:55
 msgid "/en/CSS"
-msgstr ""
+msgstr "/en/CSS"
 
 #: apps/docs/templates/docs/docs.html:44
 #: apps/docs/templates/docs/glossary.html:5
@@ -1663,14 +1663,14 @@ msgstr "CSS"
 
 #: apps/docs/templates/docs/docs.html:45
 msgid "Cascading Style Sheets provide advanced layout and formatting of web content."
-msgstr ""
+msgstr "Τα αλληλοεπικαλυπτόμενα φύλλα στυλ (CSS) παρέχουν τη δυνατότητα για προχωρημένο έλεγχο στη σχεδίαση και τη μορφοποίηση του περιεχόμενου στο διαδίκτυο."
 
 #: apps/docs/templates/docs/docs.html:48
 #: apps/docs/templates/docs/glossary.html:8
 #: apps/landing/templates/landing/home.html:189
 #: apps/landing/templates/landing/web.html:59
 msgid "/en/DOM"
-msgstr ""
+msgstr "/en/DOM"
 
 #: apps/docs/templates/docs/docs.html:48
 #: apps/docs/templates/docs/glossary.html:8
@@ -1681,12 +1681,12 @@ msgstr "DOM"
 
 #: apps/docs/templates/docs/docs.html:49
 msgid "The Document Object Model describes the structure and content of web pages."
-msgstr ""
+msgstr "Το Document Object Model περιγράφει τη δομή και το περιεχόμενο των ιστοσελίδων."
 
 #: apps/docs/templates/docs/docs.html:52
 #: apps/docs/templates/docs/glossary.html:11
 msgid "/en/AJAX"
-msgstr ""
+msgstr "/en/AJAX"
 
 #: apps/docs/templates/docs/docs.html:52
 #: apps/docs/templates/docs/glossary.html:11
@@ -1695,12 +1695,12 @@ msgstr "AJAX"
 
 #: apps/docs/templates/docs/docs.html:53
 msgid "\"Asynchronous JavaScript and XML\" is a term that describes the use of all these technologies together to create powerful web applications."
-msgstr ""
+msgstr "Ο όρος «Asynchronous JavaScript και XML» περικλείει τη χρήση όλων αυτών των τεχνολογιών ταυτόχρονα για τη δημιουργία πανίσχυρων διαδικτυακών εφαρμογών."
 
 #. Please escape HTML entities here, like &amp;
 #: apps/docs/templates/docs/docs.html:59
 msgid "Key Topics for <span class=\"web\">Web</span> Developers"
-msgstr ""
+msgstr "Σημαντικά θέματα για δημιουργούς του <span class=\"web\">διαδικτύου</span>"
 
 #: apps/docs/templates/docs/docs.html:60
 msgid "A comprehensive list of terms to help Web developers find the documentation they need."
@@ -1838,15 +1838,15 @@ msgstr ""
 
 #: apps/docs/templates/docs/glossary.html:9
 msgid "/en/SVG"
-msgstr ""
+msgstr "/en/SVG"
 
 #: apps/docs/templates/docs/glossary.html:10
 msgid "/en/HTML/Element/canvas"
-msgstr ""
+msgstr "/en/HTML/Element/canvas"
 
 #: apps/docs/templates/docs/glossary.html:12
 msgid "/en/CSS/Media_queries"
-msgstr ""
+msgstr "/en/CSS/Media_queries"
 
 #: apps/docs/templates/docs/glossary.html:12
 msgid "Media Queries"
@@ -1854,11 +1854,11 @@ msgstr ""
 
 #: apps/docs/templates/docs/glossary.html:13
 msgid "/en/WebGL"
-msgstr ""
+msgstr "/en/WebGL"
 
 #: apps/docs/templates/docs/glossary.html:14
 msgid "/en/Storage"
-msgstr ""
+msgstr "/en/Storage"
 
 #: apps/docs/templates/docs/glossary.html:14
 msgid "Web Storage"
@@ -1867,23 +1867,23 @@ msgstr ""
 #: apps/docs/templates/docs/glossary.html:15
 #: apps/docs/templates/docs/glossary.html:16
 msgid "/en/Using_audio_and_video_in_Firefox"
-msgstr ""
+msgstr "/en/Using_audio_and_video_in_Firefox"
 
 #: apps/docs/templates/docs/glossary.html:17
 msgid "/en/Using_web_workers"
-msgstr ""
+msgstr "/en/Using_web_workers"
 
 #: apps/docs/templates/docs/glossary.html:18
 msgid "/en/Using_files_from_web_applications"
-msgstr ""
+msgstr "/en/Using_files_from_web_applications"
 
 #: apps/docs/templates/docs/glossary.html:19
 msgid "/en/DragDrop/Drag_and_Drop"
-msgstr ""
+msgstr "/en/DragDrop/Drag_and_Drop"
 
 #: apps/docs/templates/docs/glossary.html:20
 msgid "/en/CSS/Using_CSS_transforms"
-msgstr ""
+msgstr "/en/CSS/Using_CSS_transforms"
 
 #: apps/docs/templates/docs/glossary.html:20
 msgid "CSS Transforms"
@@ -1891,7 +1891,7 @@ msgstr ""
 
 #: apps/docs/templates/docs/glossary.html:21
 msgid "/en/Using_gradients"
-msgstr ""
+msgstr "/en/Using_gradients"
 
 #: apps/docs/templates/docs/glossary.html:21
 msgid "CSS Gradients"
@@ -1899,7 +1899,7 @@ msgstr ""
 
 #: apps/docs/templates/docs/glossary.html:22
 msgid "/en/Security"
-msgstr ""
+msgstr "/en/Security"
 
 #: apps/docs/templates/docs/glossary.html:22
 msgid "Security"
@@ -1907,7 +1907,7 @@ msgstr "Ασφάλεια"
 
 #: apps/docs/templates/docs/glossary.html:23
 msgid "/en/IndexedDB"
-msgstr ""
+msgstr "/en/IndexedDB"
 
 #: apps/landing/templates/landing/addons.html:16
 msgid "Welcome to the Add-ons Developer Community:"
@@ -2429,7 +2429,7 @@ msgstr ""
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:98
 msgid "Favorite <span class=\"mozilla\">Mozilla</span> Tools"
-msgstr ""
+msgstr "Δημοφιλή εργαλεία <span class=\"mozilla\">Mozilla</span>"
 
 #: apps/landing/templates/landing/mozilla.html:102
 msgid "Bugzilla"
@@ -2437,7 +2437,7 @@ msgstr "Bugzilla"
 
 #: apps/landing/templates/landing/mozilla.html:103
 msgid "The main issue-tracker for Mozilla projects."
-msgstr ""
+msgstr "Το βασικό εργαλείο καταγραφής προβλημάτων για όλα τα έργα του Mozilla."
 
 #: apps/landing/templates/landing/mozilla.html:106
 msgid "MXR"
@@ -2445,11 +2445,11 @@ msgstr "MXR"
 
 #: apps/landing/templates/landing/mozilla.html:107
 msgid "A Mozilla source tree browser."
-msgstr ""
+msgstr "Περιηγητής για το Mozilla source tree."
 
 #: apps/landing/templates/landing/mozilla.html:109
 msgid "All application development tools"
-msgstr ""
+msgstr "Όλα τα εργαλεία για ανάπτυξη εφαρμογών"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:116
@@ -2458,11 +2458,11 @@ msgstr "Πρόσφατες ενημερώσεις &amp; νέα από το έρ�
 
 #: apps/landing/templates/landing/mozilla.html:121
 msgid "All application development entries"
-msgstr ""
+msgstr "Όλες οι εγγραφές για ανάπτυξη εφαρμογών"
 
 #: apps/landing/templates/landing/mozilla.html:128
 msgid "Correspondence on Twitter from the Mozilla developer community."
-msgstr ""
+msgstr "Ανταποκρίσεις της κοινότητας Mozilla developer από το Twitter."
 
 #: apps/landing/templates/landing/newsfeed.html:12
 msgid "Written by %(authorlink)s on %(entrydate)s"
@@ -2482,36 +2482,36 @@ msgstr "Γράψτε εφαρμογές για ένα ανοικτό και συ
 
 #: apps/landing/templates/landing/web.html:24
 msgid "Join the Web discussions!"
-msgstr ""
+msgstr "Συμμετέχετε στις συζητήσεις για το διαδίκτυο!"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:38
 msgid "Popular <span class=\"web\">Web</span> Documentation"
-msgstr ""
+msgstr "Δημοφιλής τεκμηρίωση για το <span class=\"web\">διαδίκτυο</span>"
 
 #: apps/landing/templates/landing/web.html:43
 msgid "Hacks Demos"
-msgstr ""
+msgstr "Hacks Demo"
 
 #: apps/landing/templates/landing/web.html:44
 msgid "For the latest in open Web technologies, these cool demos are a great way to discover new documentation."
-msgstr ""
+msgstr "Αυτά τα φοβερά demo είναι ένας ωραίος τρόπος να ανακαλύψετε την τεκμηρίωση και να δείτε ό,τι νεώτερο υπάρχει στις ανοικτές τεχνολογίες για το διαδίκτυο."
 
 #: apps/landing/templates/landing/web.html:48
 msgid "Find out what HTML5 is really all about and how you can develop for a better Web through open standards."
-msgstr ""
+msgstr "Δείτε τι ακριβώς είναι η HTML5 και πως θα μπορέσετε να φτιάξετε εφαρμογές για ένα καλύτερο διαδίκτυο χρησιμοποιώντας ανοικτά πρότυπα."
 
 #: apps/landing/templates/landing/web.html:52
 msgid "A great resource for anyone working with JS."
-msgstr ""
+msgstr "Μια πηγή γνώσης για οποιονδήποτε ασχολείται με JS."
 
 #: apps/landing/templates/landing/web.html:56
 msgid "You'll find everything you need in the CSS reference and helpful tutorials to build pretty websites."
-msgstr ""
+msgstr "Στις παραπομπές CSS και τα βοηθητικά μαθήματα, θα βρείτε οτιδήποτε χρειάζεστε, για να φτιάξετε όμορφες ιστοσελίδες."
 
 #: apps/landing/templates/landing/web.html:60
 msgid "The DOM is the architecture for Web documents; learn how to use the DOM and its API to look at and manipulate Web content."
-msgstr ""
+msgstr "Το DOM είναι η αρχιτεκτονική των διαδικτυακών σελίδων· μάθετε πως να χρησιμοποιείτε το DOM και το  API του για να βλέπετε και να διαχειρίζεστε περιεχόμενο στο διαδίκτυο."
 
 #: apps/landing/templates/landing/web.html:63
 msgid "/en/Web_Development"
@@ -2519,49 +2519,49 @@ msgstr "/en/Web_Development"
 
 #: apps/landing/templates/landing/web.html:63
 msgid "All web development documentation"
-msgstr ""
+msgstr "Όλη η τεκμηρίωση για ανάπτυξη στο διαδίκτυο"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:69
 msgid "Favorite <span class=\"web\">Web</span> Developer Tools"
-msgstr ""
+msgstr "Δημοφιλή εργαλεία για ανάπτυξη στο <span class=\"web\">διαδίκτυο</span>"
 
 #: apps/landing/templates/landing/web.html:74
 msgid "The most popular and powerful web development tool."
-msgstr ""
+msgstr "Το πανίσχυρο και πιο δημοφιλές εργαλείο για την ανάπτυξη στο διαδίκτυο."
 
 #: apps/landing/templates/landing/web.html:75
 msgid "\"An absolute necessity for anyone doing serious web development. Awesome!!!!\""
-msgstr ""
+msgstr "«Απολύτως απαραίτητο για οποιονδήποτε ασχολείται σοβαρά με ανάπτυξη στο διαδίκτυο. Θαυμάσιο!!!!»"
 
 #: apps/landing/templates/landing/web.html:75
 msgid "geckoday via AMO"
-msgstr ""
+msgstr "geckoday μέσω του AMO"
 
 #: apps/landing/templates/landing/web.html:79
 msgid "Firefox Add-on that adds a lot of great developer tools that are just a click away."
-msgstr ""
+msgstr "Πρόσθετο για τον Firefox, προσθέτει πολλά σπουδαία εργαλεία ανάπτυξης που είναι διαθέσιμα πια με ένα κλικ."
 
 #: apps/landing/templates/landing/web.html:83
 msgid "Evaluate performance of web pages with this Firefox/Firebug Add-on"
-msgstr ""
+msgstr "Αξιολογήστε τις επιδόσεις ιστοσελίδων με αυτό το πρόσθετο για τον Firefox/Firebug"
 
 #: apps/landing/templates/landing/web.html:87
 msgid "Another great Firefox/Firebug Add-on that helps you view and manage cookies in your browser."
-msgstr ""
+msgstr "Άλλο ένα πρόσθετο για τον Firefox/Firebug που σας βοηθάει να δείτε και να διαχειριστείτε τα  cookies στον περιηγητή σας."
 
 #: apps/landing/templates/landing/web.html:89
 msgid "All web development tools"
-msgstr ""
+msgstr "Όλα τα εργαλεία για ανάπτυξη στο διαδίκτυο"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:96
 msgid "Recent <span class=\"web\">Web</span> News &amp; Updates"
-msgstr ""
+msgstr "Πρόσφατα νέα &amp; ενημερώσεις για το <span class=\"web\">διαδίκτυο</span>"
 
 #: apps/landing/templates/landing/web.html:101
 msgid "All web development entries"
-msgstr ""
+msgstr "Όλες οι εγγραφές για ανάπτυξη στο διαδίκτυο"
 
 #: apps/landing/templates/landing/web.html:108
 msgid "Correspondence on Twitter from the Web developer community."
@@ -2573,7 +2573,7 @@ msgstr "Το MDN στο Twitter"
 
 #: apps/landing/templates/sidebar/twitter.html:9
 msgid "%(author)s from %(section)s says:"
-msgstr ""
+msgstr "Ο/Η %(author)s από το τμήμα %(section)s λέει:"
 
 #: apps/landing/templates/sidebar/twitter.html:16
 msgid "{timedelta} ago"
@@ -2591,7 +2591,7 @@ msgstr "Εσωτερικό σφάλμα διακομιστή"
 
 #: templates/base.html:49
 msgid "A comprehensive, usable, and accurate resource for everyone developing for the Open Web."
-msgstr ""
+msgstr "Ένας περιεκτικός, εύχρηστος και ακριβής πόρος γνώσης για τον καθένα που αναπτύσσει για το ανοικτό διαδίκτυο."
 
 #: templates/base.html:59
 msgid "Search MDN"
