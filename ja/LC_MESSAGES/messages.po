@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2011-02-16 12:05+0200\n"
-"Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
+"PO-Revision-Date: 2011-02-27 15:12+0200\n"
+"Last-Translator: potappo <potappo@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr ""
 # web, Favorite Web Developer Tools - Firebug 上テキスト
 #: apps/landing/templates/landing/web.html:75
 msgid "\"An absolute necessity for anyone doing serious web development. Awesome!!!!\""
-msgstr "\"本格的な Web 開発を行う誰にとっても絶対に不可欠なものです。素晴らしい!!!\""
+msgstr "\"本格的な Web 開発を行う誰にとっても絶対に不可欠なものです。素晴らしい!!!!\""
 
 # docs, Popular Topics for Web Developers - AJAX
 #: apps/docs/templates/docs/docs.html:53
@@ -50,7 +50,6 @@ msgid "%(authorlink)s wrote %(summary)s"
 msgstr "%(authorlink)s によるコメント: %(summary)s"
 
 #: apps/demos/helpers.py:228
-#, fuzzy
 msgid "%(number)d %(type)s"
 msgstr "%(number)d %(type)s"
 
@@ -162,7 +161,7 @@ msgstr "/ja/HTML/HTML5"
 
 #: apps/docs/templates/docs/glossary.html:23
 msgid "/en/IndexedDB"
-msgstr ""
+msgstr "/ja/IndexedDB"
 
 #: apps/docs/templates/docs/docs.html:40 apps/docs/templates/docs/glossary.html:6 apps/landing/templates/landing/home.html:185 apps/landing/templates/landing/web.html:51
 msgid "/en/JavaScript"
@@ -174,11 +173,11 @@ msgstr "/ja/Localization"
 
 #: apps/docs/templates/docs/docs.html:80 apps/landing/templates/landing/home.html:132 apps/landing/templates/landing/mobile.html:88
 msgid "/en/Mobile"
-msgstr ""
+msgstr "/ja/Mobile"
 
 #: apps/docs/templates/docs/docs.html:99 apps/landing/templates/landing/home.html:149 apps/landing/templates/landing/home.html:207
 msgid "/en/Participating_in_the_Mozilla_project"
-msgstr ""
+msgstr "/ja/Participating_in_the_Mozilla_project"
 
 #: apps/docs/templates/docs/docs.html:90
 msgid "/en/Plugins"
@@ -196,52 +195,50 @@ msgstr "/ja/SVG"
 msgid "/en/Security"
 msgstr "/ja/Security"
 
+# /en/DOM/Storage  の間違い？ https://bugzilla.mozilla.org/show_bug.cgi?id=635488 にて報告
 #: apps/docs/templates/docs/glossary.html:14
-#, fuzzy
 msgid "/en/Storage"
-msgstr "/en/Storage"
+msgstr "/ja/DOM/Storage"
 
 #: apps/landing/templates/landing/mozilla.html:52
 msgid "/en/The_Mozilla_platform"
-msgstr ""
+msgstr "/ja/The_Mozilla_platform"
 
 #: apps/docs/templates/docs/docs.html:92
 msgid "/en/Themes"
 msgstr "/ja/Themes"
 
 #: apps/landing/templates/landing/mozilla.html:92 apps/landing/templates/landing/mozilla.html:109
-#, fuzzy
 msgid "/en/Tools"
-msgstr "/en/Tools"
+msgstr "/ja/Tools"
 
 #: apps/docs/templates/docs/docs.html:100 apps/landing/templates/landing/mozilla.html:61
 msgid "/en/Using_Mozilla_code_in_other_projects"
-msgstr ""
+msgstr "/ja/Using_Mozilla_code_in_other_projects"
 
 #: apps/docs/templates/docs/glossary.html:15 apps/docs/templates/docs/glossary.html:16
 msgid "/en/Using_audio_and_video_in_Firefox"
-msgstr ""
+msgstr "/ja/Using_audio_and_video_in_Firefox"
 
 #: apps/docs/templates/docs/glossary.html:18
 msgid "/en/Using_files_from_web_applications"
-msgstr ""
+msgstr "/ja/Using_files_from_web_applications"
 
 #: apps/docs/templates/docs/docs.html:82 apps/landing/templates/landing/home.html:132 apps/landing/templates/landing/mobile.html:69
 msgid "/en/Using_geolocation"
-msgstr ""
+msgstr "/ja/Using_geolocation"
 
 #: apps/docs/templates/docs/glossary.html:21
 msgid "/en/Using_gradients"
-msgstr ""
+msgstr "/ja/Using_gradients"
 
 #: apps/docs/templates/docs/glossary.html:17
 msgid "/en/Using_web_workers"
-msgstr ""
+msgstr "/ja/Using_web_workers"
 
 #: apps/docs/templates/docs/glossary.html:13
-#, fuzzy
 msgid "/en/WebGL"
-msgstr "/en/WebGL"
+msgstr "/ja/WebGL"
 
 #: apps/landing/templates/landing/web.html:63
 msgid "/en/Web_Development"
@@ -249,7 +246,7 @@ msgstr "/ja/Web_Development"
 
 #: apps/landing/templates/landing/home.html:201
 msgid "/en/mobile"
-msgstr ""
+msgstr "/ja/mobile"
 
 # home, DOCS タブ - ADD-ONS テキスト
 #: apps/landing/templates/landing/home.html:140
@@ -263,7 +260,6 @@ msgid "<cite class=\"author fn\">%(comment_profile_link)s</cite> said,"
 msgstr "<cite class=\"author fn\">%(comment_profile_link)s</cite> によるコメント"
 
 #: apps/demos/templates/demos/detail.html:181
-#, fuzzy
 msgid "<p><a href=\"/Special:UserRegistration\">Register</a> or <a href=\"/Special:UserLogin\">log in</a> to add your own.</p>"
 msgstr ""
 "<p><a href=\"/Special:UserRegistration\">ユーザ登録</a> または <a "
@@ -283,38 +279,59 @@ msgstr ""
 "<p>デモを投稿するには <strong><a href=\"%(signup_url)s\">MDN アカウント</a></strong> "
 "が必要です。</p>"
 
+# ログインユーザに対して表示されるソース投稿ページのアップロードファイル指定ボックスの説明文
 #: apps/demos/templates/demos/submit.html:138
 msgid "<p>Upload a ZIP file of your source code, in which the main page of your demo is named <code>index.html</code> in the root directory.</p>"
 msgstr ""
+"<p>ソースコードの ZIP ファイルをアップロードしてください。デモのメインページはルートディレクトリで "
+"<code>index.html</code> となっている必要があります。</p>"
 
+# トップページのサイト説明の文言
 #: apps/demos/templates/demos/home.html:23
 msgid ""
 "<p>Welcome to Mozilla Demo Studio, where developers like you can develop, share, demonstrate, and learn all about Web technologies. See whats possible by exploring Demo Studio:</p> <ul> <li>View "
 "<strong>demos</strong> that showcase what HTML, CSS, and JavaScript can do.</li> <li>Inspect the <strong>source code</strong> for those demos so you can see how they work.</li> <li>Read "
 "<strong>documentation</strong> to learn about the open standards and technologies that power the Web.</li> </ul>"
 msgstr ""
+"<p>Mozilla Demo Studio へようこそ。ここはあなたのような開発者が Web "
+"技術に関するあらゆることを開発したり、共有したり、デモしたり、そして、学んだりできるところです。Demo Studio "
+"サイト内で可能なことは次のことです:</p> <ul> <li>HTML、CSS、JavaScript で行えることのショーケースとしての<strong"
+">デモ</strong>を見る。</li><li>デモがどうやって動いているかを理解するためにその<strong>ソースコード</strong>を調べる"
+"。</li> <li>Web "
+"に力を与えているオープンな標準および技術について学ぶために<strong>ドキュメンテーション</strong>を読む。</li> </ul>"
 
+# ログイン後のデモ投稿画面の一番冒頭の文言
 #: apps/demos/templates/demos/submit_noauth.html:32
 msgid ""
 "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other "
 "web developers.</p>"
 msgstr ""
+"<p>あなたが作成したものが、まだ Web "
+"では体験したことがない、驚くような新しいものであるか、単に最新の技術の成果を体験できるものなだけであるかに関わらず、あなた自身のデモを他の Web "
+"開発者と共有、もしくは、お披露目するために投稿することをおすすめします。</p>"
 
 #: apps/demos/templates/demos/submit.html:67
 msgid ""
 "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other "
 "web developers.</p> <p>Please complete the form below to ensure your demo is submitted to the Demo Studio successfully.</p>"
 msgstr ""
+"<p>あなたが作成したものが、まだ Web "
+"では体験したことがない、驚くような新しいものであるか、単に最新の技術の成果を体験できるものなだけであるかに関わらず、あなた自身のデモを他の Web "
+"開発者と共有、もしくは、お披露目するために投稿することをおすすめします。</p> <p>Demo Studio "
+"にデモが上手く投稿されるようにするには、以下のフォームに必要事項を入力してください。</p>"
 
 #: apps/demos/templates/demos/detail.html:177
 msgid "<p>Why not <a href=\"#comment-post\">Add your own</a>?</p>"
-msgstr ""
+msgstr "<p><a href=\"#comment-post\">コメントを追加しませんか</a>?</p>"
 
 #: apps/demos/templates/demos/delete.html:40
 msgid ""
 "<p>You are about to remove <strong>%(demo_title)s</strong> from the Demo Studio.</p> <p>The Demo's listing, source code, and statistics will be <strong>deleted</strong>.</p> <p>This action "
 "<strong>cannot be undone</strong>."
 msgstr ""
+"<p>Demo Studio から <strong>%(demo_title)s</strong> を削除しようとしています。</p> "
+"<p>該当デモの公開リストへの登録、そのソースコードおよび統計データは<strong>削除</strong>されます。</p> "
+"<p>この操作は<strong>取り消せません</strong>。"
 
 #: apps/demos/templates/demos/submit_noauth.html:41
 msgid ""
@@ -322,6 +339,12 @@ msgid ""
 "<strong>open license</strong>, such as MPL, GPL, or BSD.</li> <li>Your demo should showcase <strong>open web technologies</strong>, such as HTML5 and CSS3.</li> <li>Your demo should support a wide "
 "range of <strong>modern web browsers</strong>, like Firefox, Chrome, Safari, and Opera.</li> </ul>"
 msgstr ""
+"<ul> <li>あなたのデモの<strong>ソースコードを提供する</strong>ための準備をしなければなりません。デモは Demo Studio "
+"のサーバーにホストされます。</li> <li>あなたのデモのソースコードのライセンスは、MPL, GPL, BSD "
+"のような<strong>オープンライセンス</strong>にしなけれればなりません。</li> <li>あなたのデモは、HTML5 および CSS3 "
+"のような<strong>オープンな Web 技術</strong>を披露するものでなければなりません。</li> "
+"<li>あなたのデモは、Firefox, Chrome, Safari そして Opera のような<strong>モダン Web "
+"ブラウザ</strong>を幅広くサポートしなくてはなりません。</li> </ul>"
 
 #: apps/demos/templates/demos/submit_noauth.html:53
 msgid ""
@@ -330,6 +353,13 @@ msgid ""
 "demo requires external resources, it should use <strong>AJAX</strong> to access them.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the CC-BY-"
 "SA license and include links to the authors' websites.</li> </ul>"
 msgstr ""
+"<ul> <li>あなたのデモのソースコードは <strong>ZIP ファイル</strong>に格納してください。</li> "
+"<li>あなたのデモのメインページは ZIP のルートディレクトリ内の <strong><code>index.html</code></strong> "
+"という名前のファイルにしてください。</li> <li>あなたのデモは<strong>クライアントサイドの技術</strong> (HTML, "
+"CSS, JavaScript) で作成されなければなりません。PHP や Ruby のようなサーバーサイド言語はサポートされていません。</li> "
+"<li>あなたのデモが外部リソースを必要とする場合は、それらに <strong>AJAX</strong> でアクセスしてください。</li> <li"
+">デモの詳細欄に、CC-BY-SA (表示-継承) の下でライセンスすることができないサードパーティのコンテンツを明記し、その作者の Web "
+"サイトへのリンクを記述してください。</li> </ul>"
 
 #: apps/demos/templates/demos/submit.html:124
 msgid ""
@@ -338,6 +368,13 @@ msgid ""
 "to access them.</li> <li>To submit your demo, you need an <a href=\"%(signup_url)s\">MDN account</a>.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed "
 "under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
 msgstr ""
+"<ul> <li>あなたのデモのソースコードは ZIP ファイルに格納してください。</li> <li>あなたのデモのメインページは ZIP "
+"のルートディレクトリ内の <code>index.html</code> という名前のファイルにしてください。</li> "
+"<li>あなたのデモはクライアントサイドの技術 (HTML, CSS, JavaScript) で作成されなければなりません。PHP や Ruby "
+"のようなサーバーサイド言語はサポートされていません。</li> <li>あなたのデモが外部リソースを必要とする場合は、それらに AJAX "
+"でアクセスしてください。</li> <li>あなたのデモを投稿するには、<a href=\"%(signup_url)s\">MDN "
+"アカウント</a>が必要です。</li> <li>デモの詳細欄に、CC-BY-SA (表示-継承) "
+"の下でライセンスすることができないサードパーティのコンテンツを明記し、その作者の Web サイトへのリンクを記述してください。</li> </ul>"
 
 # mozilla, Favorite Mozilla Tools - MXR テキスト
 #: apps/landing/templates/landing/mozilla.html:107
@@ -529,15 +566,15 @@ msgstr "MDN アカウント作成"
 
 #: apps/demos/templates/demos/submit_noauth.html:40
 msgid "Before You Begin"
-msgstr ""
+msgstr "始める前に"
 
 #: apps/demos/templates/demos/listing_all.html:5 apps/demos/templates/demos/listing_all.html:19 apps/demos/templates/demos/listing_all.html:31
 msgid "Browse all demos"
-msgstr ""
+msgstr "すべてのデモを見る"
 
 #: apps/demos/templates/demos/elements/tags_list.html:2
 msgid "Browse by Technology"
-msgstr ""
+msgstr "テクノロジ毎で見る"
 
 # mozilla, Favorite Mozilla Tools - リンクテキスト
 #: apps/landing/templates/landing/mozilla.html:102
@@ -556,7 +593,7 @@ msgstr "素晴らしいモバイルアドオンを作成する"
 
 #: apps/demos/templates/demos/detail.html:114
 msgid "Built using"
-msgstr ""
+msgstr "利用技術:"
 
 # docs, Key Topics for Web Developers - リスト項目、
 # web, Popular Web Documentation - リンクテキスト
@@ -674,16 +711,17 @@ msgstr "Web 開発者コミュニティからの Twitter でのメッセージ�
 
 #: apps/demos/templates/demos/submit_noauth.html:70
 msgid "Create an Account"
-msgstr ""
+msgstr "アカウント作成"
 
 # メインページ右 Popular Docs - Developing Add-ons テキスト
 #: apps/landing/templates/landing/home.html:196
 msgid "Creating extensions, themes, and plug-ins for Firefox and Thunderbird."
 msgstr "Firefox や Thunderbird 向けの拡張機能やテーマ、プラグインを作成する。"
 
+# 問題報告後の状態の一つ。
 #: apps/contentflagging/models.py:29
 msgid "Creator notified"
-msgstr ""
+msgstr "作者に通知されました"
 
 # メインページ, DEVMOヘッダ - Already a member? テキスト
 #: apps/landing/templates/landing/home.html:23
@@ -730,7 +768,6 @@ msgstr "このコメントを削除しますか？"
 #: apps/demos/templates/demos/flag.html:21 apps/demos/templates/demos/home.html:14 apps/demos/templates/demos/listing_all.html:18 apps/demos/templates/demos/listing_search.html:24
 #: apps/demos/templates/demos/listing_tag.html:19 apps/demos/templates/demos/profile_detail.html:23 apps/demos/templates/demos/submit.html:43 apps/demos/templates/demos/submit_noauth.html:19
 #: templates/base.html:78 templates/base_compact.html:18
-#, fuzzy
 msgid "Demo Studio"
 msgstr "Demo Studio"
 
@@ -748,27 +785,27 @@ msgstr "このデモは動作しません"
 
 #: apps/demos/feeds.py:167
 msgid "Demos featured on MDN"
-msgstr ""
+msgstr "MDN 注目のデモ"
 
 #: apps/demos/templates/demos/profile_detail.html:12
 msgid "Demos for {display_name}"
-msgstr ""
+msgstr "{display_name} のデモ"
 
 #: apps/demos/feeds.py:155
 msgid "Demos recently submitted to MDN"
-msgstr ""
+msgstr "MDN に最近投稿されたデモ"
 
 #: apps/demos/feeds.py:88
 msgid "Demos submitted by MDN users"
-msgstr ""
+msgstr "MDN ユーザにより投稿されたデモ"
 
 #: apps/demos/templates/demos/listing_tag.html:8
 msgid "Demos tagged {tag}"
-msgstr ""
+msgstr "{tag} タグの付いたデモ"
 
 #: apps/demos/templates/demos/submit.html:79
 msgid "Describe Your Demo"
-msgstr ""
+msgstr "あなたのデモを説明してください。"
 
 # docs, MOBILE - リスト項目
 #: apps/docs/templates/docs/docs.html:81
@@ -835,6 +872,7 @@ msgstr "次の形式でダウンロード:"
 #: apps/demos/templates/demos/detail.html:212
 msgid "Download the Source <span class=\"note\">%(file_ksize)s KB &middot; ZIP File</span>"
 msgstr ""
+"ソースをダウンロード <span class=\"note\">%(file_ksize)s KB &middot; ZIP ファイル</span>"
 
 # docs, Key Topics for Web Developers - リスト項目
 #: apps/demos/__init__.py:164 apps/docs/templates/docs/glossary.html:19
@@ -896,7 +934,7 @@ msgstr "おすすめの<span class=\"mobile\">モバイル</span>記事"
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:98
 msgid "Favorite <span class=\"mozilla\">Mozilla</span> Tools"
-msgstr ""
+msgstr "おすすめの <span class=\"mozilla\">Mozilla</span> ツール"
 
 # web, Favorite Web Developer Tools - タイトル
 #. Please escape HTML entities here, like &amp;
@@ -906,11 +944,11 @@ msgstr "おすすめの <span class=\"web\">Web</span> 開発者ツール"
 
 #: apps/demos/templates/demos/home.html:39
 msgid "Featured Demos"
-msgstr ""
+msgstr "注目のデモ"
 
 #: apps/demos/templates/demos/home.html:10
 msgid "Featured demos"
-msgstr ""
+msgstr "注目のデモ"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:65
 msgid "Feed"
@@ -947,7 +985,7 @@ msgstr "クリックするだけで使えるすばらしい開発者ツール群
 
 #: apps/demos/__init__.py:175
 msgid "Firefox Mobile brings the true Web experience to mobile phones and other non-PC devices."
-msgstr ""
+msgstr "Firefox Mobile は、Web の真の姿を携帯電話や他のモバイルデバイスにもたらします。"
 
 # docs, MOBILE - リスト項目
 #: apps/docs/templates/docs/docs.html:80
@@ -976,25 +1014,28 @@ msgstr ""
 "(snippets_url)s\">コードスニペット</a>などについて学ぶことで、Android 向け Firefox および Nokia の "
 "Meego プラットフォーム向け Firefox 向けの革新的なアドオンを作ることができます。"
 
+# デモ個別ページの Report a Problem のリンクをどれか押すと行ける、問題報告ページのボタン？
 #: apps/demos/templates/demos/flag.html:43
 msgid "Flag content"
-msgstr ""
+msgstr "上記内容を報告"
 
 #: apps/contentflagging/models.py:28
 msgid "Flag rejected by moderator"
-msgstr ""
+msgstr "モデレータにより問題の報告は却下されました。"
 
 #: apps/demos/templates/demos/flag.html:37
 msgid "Flag this demo?"
-msgstr ""
+msgstr "このデモの問題を報告しますか？"
 
+# https://github.com/fwenzel/mdn/blob/master/apps/contentflagging/models.py
 #: apps/contentflagging/models.py:27
 msgid "Flagged"
-msgstr ""
+msgstr "問題が報告されています。"
 
+# Browse by Technology の 1 項目
 #: apps/demos/__init__.py:104
 msgid "Fonts & Type"
-msgstr ""
+msgstr "Fonts & Type"
 
 # web, Popular Web Documentation - Hacks Demos テキスト
 #: apps/landing/templates/landing/web.html:44
@@ -1004,10 +1045,12 @@ msgstr "最新のオープンな Web 技術を取り上げているクールな�
 #: apps/demos/__init__.py:115
 msgid "Form elements and attributes in HTML5 provide a greater degree of semantic mark-up than HTML4 and remove a great deal of the need for tedious scripting and styling that was required in HTML4."
 msgstr ""
+"HTML5 での Form 関連要素とそれらの属性は HTML4 よりもさらに適切なセマンティックマークアップを提供し、HTML4 "
+"で必要であった冗長なスクリプトとスタイル設定の量を大幅に削減します。"
 
 #: apps/demos/__init__.py:114
 msgid "Forms"
-msgstr ""
+msgstr "Form"
 
 # メインページ, ヘッダ右 - リンクテキスト
 #: templates/base.html:79 templates/base_compact.html:27
@@ -1020,7 +1063,7 @@ msgstr "GPL"
 
 #: apps/demos/__init__.py:124
 msgid "Geolocation"
-msgstr ""
+msgstr "Geolocation"
 
 # メインページ, 右下黄色ボックス - 下部リンクテキスト
 #: apps/landing/templates/landing/home.html:218
@@ -1039,7 +1082,7 @@ msgstr "%(mobile_link)s、%(addons_link)s、および、 %(apps_link)s の開発
 
 #: apps/demos/templates/demos/detail.html:211
 msgid "Get the Source Code"
-msgstr ""
+msgstr "ソースコードを入手"
 
 # mobile, Popular Mobile Documentation - Mobile Wiki テキスト
 #: apps/landing/templates/landing/mobile.html:45
@@ -1054,27 +1097,27 @@ msgstr "移動"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:54
 msgid "Go to the first page"
-msgstr ""
+msgstr "最初のページへ戻る"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:61
 msgid "Go to the last page"
-msgstr ""
+msgstr "最後のページへ進む"
 
 #: apps/demos/templates/demos/detail.html:27 apps/demos/templates/demos/launch.html:62
 msgid "Go to the next demo, {demo_title}"
-msgstr ""
+msgstr "次のデモへ進む &rarr; {demo_title}"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:59
 msgid "Go to the next page"
-msgstr ""
+msgstr "次のページへ進む"
 
 #: apps/demos/templates/demos/detail.html:23 apps/demos/templates/demos/launch.html:58
 msgid "Go to the previous demo, {demo_title}"
-msgstr ""
+msgstr "前のデモへ戻る &rarr; {demo_title}"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:56
 msgid "Go to the previous page"
-msgstr ""
+msgstr "前のページへ戻る"
 
 #: apps/docs/templates/docs/docs.html:32 apps/docs/templates/docs/glossary.html:4 apps/landing/templates/landing/home.html:177
 msgid "HTML"
@@ -1082,7 +1125,7 @@ msgstr "HTML"
 
 #: apps/demos/models.py:454
 msgid "HTML index not found in ZIP"
-msgstr ""
+msgstr "ZIP パッケージ中に HTML の index ファイルがありません。"
 
 # docs, Popular Topics for Web Developers - リンクテキスト、
 # メインページ, スライド3 - タイトル
@@ -1144,9 +1187,12 @@ msgstr "HyperText Markup Language は、Web の基幹言語です。"
 msgid "Hypertext Markup Language, the core technology of the web."
 msgstr "Web の基幹言語、HyperText Markup Language"
 
+# デモを投稿する前にチェックしなければならないボタンの説明文
 #: apps/demos/templates/demos/submit.html:165
 msgid "I accept the Mozilla Demo Studio <a href=\"%(terms_url)s#tfc\">Terms for Contributors</a> and <a href=\"%(terms_url)s#rrd\">Rights Representation Details</a>"
 msgstr ""
+"Mozilla Demo Studio の <a href=\"%(terms_url)s#tfc\">貢献者規約</a> と<a href=\"%"
+"(terms_url)s#rrd\">権利表記に関する詳細</a>に同意しました。"
 
 # addons, Popular Add-ons Documentation - Add-ons Builder SDK Docs テキスト
 #: apps/landing/templates/landing/addons.html:45
@@ -1156,7 +1202,7 @@ msgstr ""
 
 #: apps/demos/__init__.py:215
 msgid "In the context of the HTML canvas element WebGL provides an API for 3D graphics in the browser."
-msgstr ""
+msgstr "HTML の Canvas 要素内において、WebGL は ブラウザでの 3D グラフィックのための API を提供します。"
 
 #: apps/demos/__init__.py:154 apps/docs/templates/docs/glossary.html:23
 msgid "IndexedDB"
@@ -1165,6 +1211,8 @@ msgstr "IndexedDB"
 #: apps/demos/__init__.py:155
 msgid "IndexedDB is an API for client-side storage of significant amounts of structured data and for high performance searches on this data using indexes."
 msgstr ""
+"IndexedDB は クライアントサイドストレージのための API です。これを用いることにより、 "
+"クライアント側にある大量の構造化されたデータをインデックスを用いて高速に検索できます。"
 
 #: templates/500.html:3 templates/500.html:5
 msgid "Internal Server Error"
@@ -1172,11 +1220,11 @@ msgstr "Internal Server Error"
 
 #: apps/demos/models.py:307
 msgid "Is your source code also available somewhere else on the web (e.g., github)? Please share the link."
-msgstr ""
+msgstr "ソースコードは別のサイト (github など) でもダウンロードできますか？ あれば、リンクを記入してください。"
 
 #: apps/demos/templates/demos/submit.html:116
 msgid "JPEG and PNG supported. Minimum size of 480x360."
-msgstr ""
+msgstr "JPEG および PNG 形式のみ対応しています。最小サイズは 480x360 ピクセルです。"
 
 #: apps/docs/templates/docs/docs.html:40 apps/docs/templates/docs/glossary.html:6 apps/landing/templates/landing/home.html:185 apps/landing/templates/landing/web.html:51
 msgid "JavaScript"
@@ -1185,6 +1233,8 @@ msgstr "JavaScript"
 #: apps/demos/__init__.py:135
 msgid "JavaScript is a lightweight, object-oriented programming language, commonly used for scripting interactive behavior on web pages and in web applications."
 msgstr ""
+"JavaScript は、軽量でオブジェクト指向のプログラミング言語です。一般的に Web ページや Web "
+"アプリケーション上で対話的な動作を記述するために使用されます。"
 
 #: apps/demos/__init__.py:134
 msgid "Javascript"
@@ -1222,11 +1272,11 @@ msgstr "<span class=\"web\">Web</span> 開発者向けのキートピックス"
 
 #: apps/demos/__init__.py:219
 msgid "Khronos Spec"
-msgstr ""
+msgstr "Khronos 仕様"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:61
 msgid "Last"
-msgstr ""
+msgstr "最後"
 
 # docs, 右 Most Active Docs - 各項目下部のテキスト
 #: apps/docs/templates/docs/docs.html:117
@@ -1250,13 +1300,12 @@ msgid "Launch Demo"
 msgstr "デモを実行"
 
 #: apps/demos/templates/demos/elements/submission_thumb.html:20
-#, fuzzy
 msgid "Launch {title}"
 msgstr "{title} を実行"
 
 #: apps/demos/templates/demos/listing_tag.html:39
 msgid "Learn More"
-msgstr ""
+msgstr "さらに学ぶ"
 
 # mobile, Popular Mobile Documentation - Location-Aware Applications テキスト
 #: apps/landing/templates/landing/mobile.html:69
@@ -1285,9 +1334,10 @@ msgstr "Mozilla の製品およびサービスの基幹技術について、さ�
 msgid "Learn the history behind Project <em>Devmo</em>"
 msgstr "<em>Devmo</em> プロジェクトの歴史について"
 
+# 押すと You Like になる（もう一度押すと戻る）
 #: apps/demos/templates/demos/detail.html:90 apps/demos/templates/demos/launch.html:39
 msgid "Like It"
-msgstr ""
+msgstr "このデモを評価する"
 
 # docs, Mozilla - リスト項目、
 # mozilla, Popular Mozilla Documentation - リンクテキスト
@@ -1312,7 +1362,7 @@ msgstr "場所を選ばないアプリケーション"
 
 #: apps/demos/templates/demos/submit_noauth.html:71
 msgid "Log In to Account"
-msgstr ""
+msgstr "アカウントにログイン"
 
 #: apps/landing/templates/landing/home.html:24 templates/includes/login.html:6
 msgid "Log in"
@@ -1336,23 +1386,23 @@ msgstr "MDN ドキュメンテーション"
 
 #: apps/demos/feeds.py:213
 msgid "MDN demo search for \"%s\""
-msgstr ""
+msgstr "MDN デモの \"%s\" での検索結果"
 
 #: apps/demos/feeds.py:87
 msgid "MDN demos"
-msgstr ""
+msgstr "MDN デモ"
 
 #: apps/demos/feeds.py:184
 msgid "MDN demos tagged \"%s\""
-msgstr ""
+msgstr "タグ \"%s\" が付けられた MDN デモ"
 
 #: apps/demos/feeds.py:181
 msgid "MDN demos tagged %s"
-msgstr ""
+msgstr "タグ \"%s\" が付けられた MDN デモ"
 
 #: apps/demos/feeds.py:166
 msgid "MDN featured demos"
-msgstr ""
+msgstr "MDN 注目のデモ"
 
 # 各ページ, 右 MDN on Twitter - タイトル
 #: apps/landing/templates/sidebar/twitter.html:3
@@ -1361,7 +1411,7 @@ msgstr "MDN on Twitter"
 
 #: apps/demos/feeds.py:154
 msgid "MDN recent demos"
-msgstr ""
+msgstr "MDN 最近のデモ"
 
 #: apps/demos/__init__.py:268
 msgid "MPL/GPL/LGPL"
@@ -1374,7 +1424,7 @@ msgstr "MXR"
 
 #: apps/demos/models.py:107
 msgid "Maximum of %s tags allowed"
-msgstr ""
+msgstr "タグは最大 %s 個まで付けられます"
 
 # docs, Key Topics for Web Developers - リスト項目
 #: apps/docs/templates/docs/glossary.html:12
@@ -1383,7 +1433,7 @@ msgstr "メディアクエリ"
 
 #: apps/demos/__init__.py:87
 msgid "Media queries and orientation events let authors adjust their layout on hand-held devices such as mobile phones."
-msgstr ""
+msgstr "メディアクエリと画面方向イベントは、ページ作者が携帯電話などの携帯デバイス上でレイアウトを調整できるようにします。"
 
 # メインヘッダ - リンクテキスト、
 # docs, Mobile - タイトル
@@ -1407,9 +1457,10 @@ msgstr "%(updated)s に %(author)s によって更新"
 msgid "More"
 msgstr "続きを見る"
 
+# 作者が詳細説明を記入していると表示される
 #: apps/demos/templates/demos/detail.html:165
 msgid "More About This Demo From The Author"
-msgstr ""
+msgstr "作者のこのデモについての詳細コメント"
 
 # docs, 右 Most Active Docs - タイトル
 #: apps/docs/templates/docs/docs.html:112
@@ -1418,15 +1469,15 @@ msgstr "最近更新されたドキュメント"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:15
 msgid "Most Liked"
-msgstr ""
+msgstr "被リンク順"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:16
 msgid "Most Recent"
-msgstr ""
+msgstr "日付順"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:14
 msgid "Most Viewed"
-msgstr ""
+msgstr "閲覧順"
 
 # メインヘッダ, リンクテキスト、
 # docs, Mozilla - タイトル
@@ -1482,6 +1533,7 @@ msgstr ""
 #: apps/demos/__init__.py:57
 msgid "Mozilla's Audio Data API extends the current HTML5 API and allows web developers to read and write raw audio data."
 msgstr ""
+"Mozilla の Audio Data API は、現在の HTML5 API を拡張し、Web 開発者が生の音声データを読み書きできるようにします。"
 
 #: apps/demos/__init__.py:254
 msgid "Multi-touch"
@@ -1499,11 +1551,11 @@ msgstr "ニュース & 更新情報"
 #: apps/demos/templates/demos/detail.html:27 apps/demos/templates/demos/detail.html:133 apps/demos/templates/demos/home.html:44 apps/demos/templates/demos/launch.html:62
 #: apps/demos/templates/demos/elements/submission_listing.html:59
 msgid "Next"
-msgstr ""
+msgstr "次へ"
 
 #: apps/demos/templates/demos/detail.html:172
 msgid "No comments yet."
-msgstr ""
+msgstr "まだコメントはありません。"
 
 #: templates/404.html:3 templates/404.html:5
 msgid "Not Found"
@@ -1511,11 +1563,11 @@ msgstr "ページが見つかりません"
 
 #: apps/demos/__init__.py:184
 msgid "Offline Support"
-msgstr ""
+msgstr "オフラインサポート"
 
 #: apps/demos/__init__.py:185
 msgid "Offline caching of web applications' resources using the application cache and local storage."
-msgstr ""
+msgstr "Web アプリケーションのリソースのオフラインキャッシュは、アプリケーションキャッシュとローカルストレージを使用します。"
 
 # フッタ右下
 #: templates/includes/lang_switcher.html:2
@@ -1534,7 +1586,7 @@ msgstr "Mozilla プロジェクトに参加する"
 
 #: apps/demos/models.py:153
 msgid "Please keep filesize under %s. Current filesize %s"
-msgstr ""
+msgstr "ファイルサイズを %s 以下にしてください (現在のファイルサイズ %s)。"
 
 # docs, Add-ons - リスト項目
 #: apps/docs/templates/docs/docs.html:90
@@ -1556,7 +1608,7 @@ msgstr "人気の <span class=\"mobile\">モバイル</span> ドキュメンテ�
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:38
 msgid "Popular <span class=\"mozilla\">Mozilla</span> Documentation"
-msgstr ""
+msgstr "人気の <span class=\"mozilla\">Mozilla</span> ドキュメンテーション"
 
 # web, Popular Web Documentation - タイトル
 #. Please escape HTML entities here, like &amp;
@@ -1575,7 +1627,6 @@ msgid "Popular Topics for <span class=\"web\">Web</span> Developers"
 msgstr "<span class=\"web\">Web</span> 開発者向けの人気のトピックス"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:19
-#, fuzzy
 msgid ""
 "Posted <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime=\"%(comment_isotime)s"
 "\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
@@ -1592,27 +1643,27 @@ msgstr "Fennec のプレアルファ版と HTML5 のデモ"
 
 #: apps/demos/templates/demos/submit.html:123 apps/demos/templates/demos/submit_noauth.html:52
 msgid "Preparing Your Demo"
-msgstr ""
+msgstr "デモ投稿のための準備"
 
 #: apps/demos/templates/demos/detail.html:23 apps/demos/templates/demos/launch.html:58
 msgid "Prev"
-msgstr ""
+msgstr "前へ"
 
 #: apps/demos/templates/demos/detail.html:132 apps/demos/templates/demos/home.html:43 apps/demos/templates/demos/elements/submission_listing.html:56
 msgid "Previous"
-msgstr ""
+msgstr "前へ"
 
 #: apps/demos/templates/demos/submit.html:107
 msgid "Provide at least one screenshot of your demo in action"
-msgstr ""
+msgstr "あなたのデモが動作しているところのスクリーンショットを一枚以上提供してください。"
 
 #: apps/demos/templates/demos/submit.html:137
 msgid "Provide the Source Code"
-msgstr ""
+msgstr "ソースコードを提供してください。"
 
 #: apps/demos/__init__.py:292
 msgid "Public Domain (where applicable by law)"
-msgstr ""
+msgstr "パブリックドメイン (法律により適用可能な地域に限る)"
 
 # docs, Mozilla - リスト項目
 #: apps/docs/templates/docs/docs.html:102
@@ -1634,7 +1685,7 @@ msgstr "最新の <span class=\"mobile\">モバイル</span> 開発情報"
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:116
 msgid "Recent <span class=\"mozilla\">Mozilla</span> News &amp; Updates"
-msgstr ""
+msgstr "最新の <span class=\"mozilla\">Mozilla</span> 開発情報"
 
 # web, Recent Web News & Updates - タイトル
 #. Please escape HTML entities here, like &amp;
@@ -1644,23 +1695,23 @@ msgstr "最新の <span class=\"web\">Web</span> 開発情報"
 
 #: apps/demos/templates/demos/home.html:8 apps/demos/templates/demos/listing_all.html:7
 msgid "Recent demos"
-msgstr ""
+msgstr "最近投稿されたデモ"
 
 #: apps/demos/templates/demos/delete.html:48 apps/demos/templates/demos/detail.html:58
 msgid "Remove demo"
-msgstr ""
+msgstr "デモを削除"
 
 #: apps/demos/templates/demos/delete.html:38
 msgid "Remove this demo?"
-msgstr ""
+msgstr "このデモを削除しますか？"
 
 #: apps/demos/templates/demos/launch.html:67
 msgid "Remove this toolbar"
-msgstr ""
+msgstr "このツールバーを削除"
 
 #: apps/demos/templates/demos/launch.html:67
 msgid "Remove toolbar"
-msgstr ""
+msgstr "ツールバーを削除"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:31
 msgid "Reply"
@@ -1680,7 +1731,7 @@ msgstr "このコメントを報告する"
 
 #: apps/demos/templates/demos/terms.html:122
 msgid "Rights Representation Details"
-msgstr ""
+msgstr "権利表記に関する詳細"
 
 # docs, Key Topics for Web Developers - リスト項目
 #: apps/demos/__init__.py:194 apps/docs/templates/docs/glossary.html:9
@@ -1689,7 +1740,7 @@ msgstr "SVG"
 
 #: apps/demos/templates/demos/submit.html:183
 msgid "Save changes"
-msgstr ""
+msgstr "変更を保存"
 
 #: apps/demos/__init__.py:195
 msgid "Scalable Vector Graphics (SVG) is an XML based language for describing two-dimensional vector graphics."
@@ -1702,23 +1753,23 @@ msgstr "School of Webcraft"
 
 #: apps/demos/models.py:274
 msgid "Screenshot #1"
-msgstr ""
+msgstr "スクリーンショット #1"
 
 #: apps/demos/models.py:278
 msgid "Screenshot #2"
-msgstr ""
+msgstr "スクリーンショット #2"
 
 #: apps/demos/models.py:282
 msgid "Screenshot #3"
-msgstr ""
+msgstr "スクリーンショット #3"
 
 #: apps/demos/models.py:286
 msgid "Screenshot #4"
-msgstr ""
+msgstr "スクリーンショット #4"
 
 #: apps/demos/models.py:290
 msgid "Screenshot #5"
-msgstr ""
+msgstr "スクリーンショット #5"
 
 # 検索ボタン
 #: apps/demos/templates/demos/elements/search_form.html:6 apps/docs/templates/docs/docs.html:18 templates/base.html:60
@@ -1742,7 +1793,7 @@ msgstr "検索結果"
 
 #: apps/demos/templates/demos/listing_search.html:25 apps/demos/templates/demos/listing_search.html:37
 msgid "Search demos for \"{q}\""
-msgstr ""
+msgstr "\"{q}\" でデモを検索"
 
 # docs, Add-ons - リスト項目
 #: apps/docs/templates/docs/docs.html:93
@@ -1751,19 +1802,19 @@ msgstr "検索プラグイン"
 
 #: apps/demos/templates/demos/listing_search.html:10
 msgid "Search for \"{q}\""
-msgstr ""
+msgstr "\"{q}\" で検索"
 
 #: apps/demos/templates/demos/listing_search.html:14
 msgid "Search results for \"{q}\""
-msgstr ""
+msgstr "\"{q}\" での検索結果"
 
 #: apps/demos/feeds.py:214
 msgid "Search results for demo submissions matching \"%s\""
-msgstr ""
+msgstr "\"%s\" にマッチする投稿デモの検索結果"
 
 #: apps/demos/templates/demos/elements/search_form.html:4
 msgid "Search the Demo Studio"
-msgstr ""
+msgstr "Demo Studio を検索"
 
 # docs, Key Topics for Web Developers - リスト項目
 #: apps/docs/templates/docs/glossary.html:22
@@ -1793,27 +1844,27 @@ msgstr ""
 
 #: apps/demos/templates/demos/elements/submission_thumb.html:5
 msgid "See more about {title} by {author}"
-msgstr ""
+msgstr "{author} による {title} の詳細を見る"
 
 #: apps/demos/templates/demos/detail.html:116
 msgid "See more demos made with {tag_title}"
-msgstr ""
+msgstr "{tag_title} が付けられたデモをもっと見る"
 
 #: apps/demos/templates/demos/detail.html:133
 msgid "See the next image"
-msgstr ""
+msgstr "次の画像を見る"
 
 #: apps/demos/templates/demos/home.html:44
 msgid "See the next three demos"
-msgstr ""
+msgstr "次の 3 つのデモを見る"
 
 #: apps/demos/templates/demos/detail.html:132
 msgid "See the previous image"
-msgstr ""
+msgstr "前の画像を見る"
 
 #: apps/demos/templates/demos/home.html:43
 msgid "See the previous three demos"
-msgstr ""
+msgstr "前の 3 つのデモを見る"
 
 # メインページ, 右上 Firefox 4 ボックス - テキスト
 #: apps/landing/templates/landing/home.html:170
@@ -1822,59 +1873,59 @@ msgstr "Firefox の最新バージョンにおける Web 開発者向け新機�
 
 #: apps/demos/templates/demos/elements/profile_link.html:2 apps/demos/templates/demos/elements/submission_creator.html:2
 msgid "See {display_name}'s profile"
-msgstr ""
+msgstr "{display_name} のプロフィールを見る"
 
 #: apps/demos/models.py:310
 msgid "Select the license that applies to your source code."
-msgstr ""
+msgstr "ソースコードに適用するライセンスを選択してください。"
 
 #: apps/demos/templates/demos/submit.html:92
 msgid "Select up to five technologies used in your demo."
-msgstr ""
+msgstr "デモに使用されている技術を 5 個まで選択してください。"
 
 #: apps/demos/templates/demos/detail.html:99 apps/demos/templates/demos/launch.html:43
 msgid "Share It"
-msgstr ""
+msgstr "このデモを共有"
 
 #: apps/demos/templates/demos/detail.html:101 apps/demos/templates/demos/launch.html:48
 msgid "Share on Facebook"
-msgstr ""
+msgstr "Facebook で共有する"
 
 #: apps/demos/templates/demos/detail.html:100 apps/demos/templates/demos/launch.html:47
 msgid "Share on Twitter"
-msgstr ""
+msgstr "Twitter で共有する"
 
 #: apps/demos/templates/demos/detail.html:95 apps/demos/templates/demos/launch.html:43
 msgid "Share this demo with your social network"
-msgstr ""
+msgstr "このデモをソーシャルネットワークで共有しましょう"
 
 #: apps/demos/templates/demos/submit.html:103
 msgid "Show Off Your Demo"
-msgstr ""
+msgstr "デモを公開する"
 
 #: apps/demos/templates/demos/detail.html:63
 msgid "Show demo"
-msgstr ""
+msgstr "デモを表示"
 
 #: apps/demos/forms.py:147
 msgid "Show us you're human"
-msgstr ""
+msgstr "あなたが人間であることを証明してください"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:15
 msgid "Sort demos by most likes"
-msgstr ""
+msgstr "評価順にデモを並び替え"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:16
 msgid "Sort demos by most recently submitted"
-msgstr ""
+msgstr "投稿日付順にデモを並び替え"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:14
 msgid "Sort demos by most views"
-msgstr ""
+msgstr "閲覧数順にデモを並び替え"
 
 #: apps/demos/templates/demos/submit.html:146
 msgid "Source code ZIP file"
-msgstr ""
+msgstr "ソースコードの ZIP ファイル"
 
 # addons, Popular Add-ons Documentation - Case Studies テキスト
 #: apps/landing/templates/landing/addons.html:65
@@ -1884,20 +1935,20 @@ msgstr "サクセスストーリーの初めから終わりまで。アドオン
 #: apps/demos/templates/demos/delete.html:26 apps/demos/templates/demos/delete_comment.html:26 apps/demos/templates/demos/flag.html:26 apps/demos/templates/demos/home.html:33
 #: apps/demos/templates/demos/listing_all.html:22 apps/demos/templates/demos/listing_search.html:28 apps/demos/templates/demos/listing_tag.html:23 apps/demos/templates/demos/profile_detail.html:27
 msgid "Submit a Demo"
-msgstr ""
+msgstr "デモを投稿"
 
 #: apps/demos/templates/demos/submit.html:10 apps/demos/templates/demos/submit.html:47 apps/demos/templates/demos/submit.html:62 apps/demos/templates/demos/submit_noauth.html:10
 #: apps/demos/templates/demos/submit_noauth.html:20 apps/demos/templates/demos/submit_noauth.html:30
 msgid "Submit a New Demo"
-msgstr ""
+msgstr "新しいデモを投稿"
 
 #: apps/demos/templates/demos/submit.html:180
 msgid "Submit demo"
-msgstr ""
+msgstr "デモを投稿する"
 
 #: apps/demos/templates/demos/feed_item_description.html:7
 msgid "Submitted by:"
-msgstr ""
+msgstr "投稿者:"
 
 # 各ページ, 2 段目ヘッダ - フィードリンク
 #: apps/landing/templates/landing/addons.html:23 apps/landing/templates/landing/mobile.html:23 apps/landing/templates/landing/mozilla.html:23 apps/landing/templates/landing/web.html:23
@@ -1906,31 +1957,31 @@ msgstr "ブログフィード"
 
 #: apps/demos/templates/demos/listing_all.html:38
 msgid "Subscribe to a feed of all demos"
-msgstr ""
+msgstr "すべてのデモのフィードを購読する"
 
 #: apps/demos/templates/demos/listing_search.html:44
 msgid "Subscribe to a feed of search results for \"{q}\""
-msgstr ""
+msgstr "\"{q}\" での検索結果のフィードを購読する"
 
 #: apps/demos/templates/demos/profile_detail.html:55
 msgid "Subscribe to a feed of {display_name}'s demos"
-msgstr ""
+msgstr "{display_name} のデモのフィードを購読する"
 
 #: apps/demos/templates/demos/home.html:65 apps/demos/templates/demos/listing_tag.html:53
 msgid "Subscribe to a feed of {tag_title} demos"
-msgstr ""
+msgstr "{tag_title} が付けられたデモのフィードを購読する"
 
 #: apps/demos/models.py:113
 msgid "Tag \"%s\" is not in the set of described tags"
-msgstr ""
+msgstr "\"%s\" というタグは登録されたタグにありません。"
 
 #: apps/demos/templates/demos/feed_item_description.html:9
 msgid "Tagged as:"
-msgstr ""
+msgstr "タグ:"
 
 #: apps/demos/templates/demos/terms.html:10 apps/demos/templates/demos/terms.html:35
 msgid "Terms for Contributors"
-msgstr ""
+msgstr "貢献者規約"
 
 #: apps/demos/templates/demos/terms.html:21
 msgid "Terms of Use"
@@ -1949,6 +2000,8 @@ msgstr ""
 #: apps/demos/__init__.py:105
 msgid "The CSS3-Font specification contains enhanced features for fonts and typography like embedding own fonts via @font-face or controlling OpenType font features directly via CSS."
 msgstr ""
+"CSS3-Font 仕様には、@font-face を通したフォントの埋め込みや CSS からの OpenType "
+"フォント機能の直接制御など、フォントとタイポグラフィの先進の機能が含まれます。"
 
 # web, Popular Web Documentation - DOM テキスト
 #: apps/landing/templates/landing/web.html:60
@@ -1969,18 +2022,20 @@ msgstr "Document Object Model は、Web ページの構造およびコンテン�
 #: apps/demos/__init__.py:96
 msgid "The File API allows web developers to use file objects in web applications, as well as selecting and accessing their data."
 msgstr ""
+"File API は、Web 開発者が Web "
+"アプリケーションでファイルオブジェクトを使用できるようにし、それらのデータの選択やアクセスを可能にします。"
 
 #: apps/demos/__init__.py:125
 msgid "The Geolocation API allows web applications to access the user's geographical location."
-msgstr ""
+msgstr "Geolocation API は、Web アプリケーションがユーザの地理位置情報へアクセスできるようにします。"
 
 #: apps/demos/__init__.py:67
 msgid "The HTML5 canvas element allows to display scriptable renderings of 2D shapes and bitmap images."
-msgstr ""
+msgstr "HTML5 キャンバス要素を用いることで スクリプトで操作可能な 2D 図形とビットマップ画像を描画できます。"
 
 #: apps/demos/__init__.py:205
 msgid "The HTML5 video element provides integrated support for playing video media without requiring plug-ins."
-msgstr ""
+msgstr "HTML5 の video 要素はプラグインを利用せずにビデオメディアを再生するための統合されたサポートを提供します。"
 
 # mozilla, Popular Mozilla Documentation - リンクテキスト
 #: apps/landing/templates/landing/mozilla.html:52
@@ -1989,7 +2044,7 @@ msgstr "Mozilla プラットフォーム"
 
 #: apps/contentflagging/models.py:23
 msgid "The author is fake"
-msgstr ""
+msgstr "この作者は偽者です"
 
 # mozilla, Favorite Mozilla Tools - Bugzilla テキスト
 #: apps/landing/templates/landing/mozilla.html:103
@@ -2041,28 +2096,28 @@ msgstr ""
 #: apps/demos/templates/demos/detail.html:126 apps/demos/templates/demos/elements/submission_thumb.html:17
 msgid "There is {count} comment for this demo"
 msgid_plural "There are {count} comments for this demo"
-msgstr[0] ""
+msgstr[0] "このデモには {count} 件のコメントがあります"
 
 #: apps/devmo/models.py:35
 msgid "This URL has an invalid format. Valid URLs look like http://example.com/my_page."
-msgstr ""
+msgstr "この URL の書式は正しくありません。正しい URL は「http://example.com/my_page」のようになります。"
 
 #: apps/contentflagging/models.py:21
 msgid "This contains inappropriate content"
-msgstr ""
+msgstr "不適切なコンテンツが含まれています。"
 
 #: apps/demos/templates/demos/detail.html:124 apps/demos/templates/demos/elements/submission_thumb.html:15
 msgid "This demo has been viewed {count} time"
 msgid_plural "This demo has been viewed {count} times"
-msgstr[0] ""
+msgstr[0] "このデモは {count} 回閲覧されました"
 
 #: apps/demos/templates/demos/detail.html:230
 msgid "This demo is released under the <a href=\"%(link)s\">%(title)s</a> license."
-msgstr ""
+msgstr "このデモは <a href=\"%(link)s\">%(title)s</a> ライセンスの下で公開されています。"
 
 #: apps/contentflagging/models.py:20
 msgid "This is not working for me"
-msgstr ""
+msgstr "このデモは動作しません"
 
 #. Browsers and Plugins useful for viewing video content
 #: templates/includes/video_player.html:7
@@ -2078,15 +2133,15 @@ msgstr ""
 
 #: apps/contentflagging/models.py:22
 msgid "This was not created by the author"
-msgstr ""
+msgstr "この作者により作成されたデモではありません"
 
 #: apps/demos/helpers.py:362
 msgid "Today at %s"
-msgstr ""
+msgstr "今日 %s"
 
 #: apps/demos/__init__.py:255
 msgid "Track the movement of the user's finger on a touch screen, monitoring the raw touch events generated by the system."
-msgstr ""
+msgstr "タッチスクリーン上でユーザの指の動きを追跡し、システムにより生成された生のタッチイベントを監視します。"
 
 # 各ページ, 2段目ヘッダ - Twitter リンク
 #: apps/landing/templates/landing/addons.html:22 apps/landing/templates/landing/mobile.html:22 apps/landing/templates/landing/mozilla.html:22 apps/landing/templates/landing/web.html:22
@@ -2095,11 +2150,11 @@ msgstr "Twitter"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:11
 msgid "Up and Coming"
-msgstr ""
+msgstr "有望なデモ"
 
 #: apps/demos/templates/demos/submit.html:147
 msgid "Upload demo file&hellip;"
-msgstr ""
+msgstr "デモのファイルをアップロード&hellip;"
 
 # addons, Favorite Add-on Tools - Add-ons Builder [Preview] テキスト
 #: apps/landing/templates/landing/addons.html:101
@@ -2165,7 +2220,7 @@ msgstr "この動画を再生します"
 
 #: apps/demos/templates/demos/submit.html:118
 msgid "We support YouTube and Vimeo"
-msgstr ""
+msgstr "YouTube および Vimeo をサポートしています"
 
 # メインヘッダ, リンク、
 # web, Web ヘッダ - タイトル
@@ -2185,7 +2240,7 @@ msgstr "Web Workers"
 
 #: apps/demos/__init__.py:235
 msgid "Web Workers provide a simple means for web content to run scripts in background threads."
-msgstr ""
+msgstr "Web Workers は、Web コンテンツをバックグラウンドのスレッドで実行するための簡単な手段を提供します。"
 
 # docs, Key Topics for Web Developers - リスト項目
 #: apps/demos/__init__.py:214 apps/docs/templates/docs/glossary.html:13
@@ -2266,29 +2321,30 @@ msgid "XMLHttpRequest (XHR) is used to send HTTP requests directly to a webserve
 msgstr ""
 "XMLHttpRequest (XHR) は、HTTP 要求を Web サーバへ直接送信し、その応答データをスクリプトへ直接読み込むために使用されます。"
 
+# Like it ボタンを押すとこの文字列に変化する
 #: apps/demos/templates/demos/detail.html:85 apps/demos/templates/demos/launch.html:34
 msgid "You Like"
-msgstr ""
+msgstr "評価済"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:15
 msgid "You are viewing demos by most likes"
-msgstr ""
+msgstr "評価順にデモを見る"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:16
 msgid "You are viewing demos by most recently submitted"
-msgstr ""
+msgstr "投稿順にデモを見る"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:14
 msgid "You are viewing demos by most views"
-msgstr ""
+msgstr "閲覧順にデモを見る"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:11
 msgid "You are viewing up and coming demos"
-msgstr ""
+msgstr "有望なデモを見る"
 
 #: apps/demos/templates/demos/detail.html:85 apps/demos/templates/demos/launch.html:34
 msgid "You like this demo. Undo?"
-msgstr ""
+msgstr "このデモを評価済です。取り消しますか？"
 
 # mobile, MOBILE ヘッダ - 右側キャッチコピー
 #: apps/landing/templates/landing/mobile.html:20
@@ -2313,56 +2369,56 @@ msgstr ""
 
 #: apps/demos/models.py:451
 msgid "ZIP file contains files that are too large"
-msgstr ""
+msgstr "ZIP ファイルにサイズの大きすぎるファイルが含まれています"
 
 #: apps/demos/models.py:432 apps/demos/models.py:439
 msgid "ZIP file contains no acceptable files"
-msgstr ""
+msgstr "ZIP ファイルに許容できないファイルが含まれています。"
 
 #: apps/demos/models.py:435
 msgid "ZIP file corrupted"
-msgstr ""
+msgstr "ZIP ファイルが壊れています"
 
 #: apps/demos/views.py:62 apps/demos/views.py:204 apps/demos/views.py:228 apps/demos/views.py:241 apps/demos/views.py:254
 msgid "access denied"
-msgstr ""
+msgstr "アクセスが拒否されました"
 
 #: apps/demos/templates/demos/detail.html:43
 msgid "by %(creator_link)s on %(create_date)s"
-msgstr ""
+msgstr "by %(creator_link)s on %(create_date)s"
 
 #: apps/demos/templates/demos/launch.html:25
 msgid "by %(profile_link)s"
-msgstr ""
+msgstr "by %(profile_link)s"
 
 #: apps/contentflagging/models.py:65
 msgid "current status of flag review"
-msgstr ""
+msgstr "問題報告レビューの現在の状態"
 
 #: apps/demos/models.py:316
 msgid "date created"
-msgstr ""
+msgstr "作成日"
 
 #: apps/actioncounters/models.py:90 apps/contentflagging/models.py:99 apps/demos/models.py:318
 msgid "date last modified"
-msgstr ""
+msgstr "最終変更日"
 
 #: apps/contentflagging/models.py:96
 msgid "date submitted"
-msgstr ""
+msgstr "投稿日"
 
 #: apps/demos/helpers.py:220
 msgid "day"
 msgid_plural "days"
-msgstr[0] ""
+msgstr[0] "日"
 
 #: apps/demos/models.py:258
 msgid "describe your demo in more detail (optional)"
-msgstr ""
+msgstr "あなたのデモについて詳しく記述してください (任意)"
 
 #: apps/demos/models.py:255
 msgid "describe your demo in one line"
-msgstr ""
+msgstr "あなたのデモについて一行で記述してください"
 
 # web, Favorite Web Developer Tools - Firebug テキスト末尾
 #: apps/landing/templates/landing/web.html:75
@@ -2371,7 +2427,7 @@ msgstr "geckoday（AMO のコメントより）"
 
 #: apps/demos/models.py:295
 msgid "have a video of your demo in action? (optional)"
-msgstr ""
+msgstr "あなたのデモが動作中の動画がありますか？ (任意)"
 
 #: apps/demos/__init__.py:293
 msgid "http://creativecommons.org/publicdomain/zero/1.0/"
@@ -2408,12 +2464,10 @@ msgstr ""
 "E3%82%A2%E3%83%B3%E3%83%89%E3%83%BB%E3%83%89%E3%83%AD%E3%83%83%E3%83%97"
 
 #: apps/demos/__init__.py:60
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/HTML5_audio"
 msgstr "http://en.wikipedia.org/wiki/HTML5_audio"
 
 #: apps/demos/__init__.py:208
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/HTML5_video"
 msgstr "http://en.wikipedia.org/wiki/HTML5_video"
 
@@ -2428,7 +2482,6 @@ msgid "http://en.wikipedia.org/wiki/Html5"
 msgstr "http://ja.wikipedia.org/wiki/HTML5"
 
 #: apps/demos/__init__.py:158
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/IndexedDB"
 msgstr "http://en.wikipedia.org/wiki/IndexedDB"
 
@@ -2437,17 +2490,15 @@ msgid "http://en.wikipedia.org/wiki/JavaScript"
 msgstr "http://ja.wikipedia.org/wiki/JavaScript"
 
 #: apps/demos/__init__.py:178
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Mobile_web"
 msgstr "http://en.wikipedia.org/wiki/Mobile_web"
 
-# wikipedia の日本語版記事は内容が古い。
+# wikipedia の日本語版記事は内容が古い。 
 #: apps/landing/templates/landing/home.html:15
 msgid "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
 msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
 
 #: apps/demos/__init__.py:258
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Multi-touch"
 msgstr "http://en.wikipedia.org/wiki/Multi-touch"
 
@@ -2456,7 +2507,6 @@ msgid "http://en.wikipedia.org/wiki/Scalable_Vector_Graphics"
 msgstr "http://ja.wikipedia.org/wiki/Scalable_Vector_Graphics"
 
 #: apps/demos/__init__.py:128
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/W3C_Geolocation_API"
 msgstr "http://en.wikipedia.org/wiki/W3C_Geolocation_API"
 
@@ -2469,17 +2519,14 @@ msgid "http://en.wikipedia.org/wiki/Web_Sockets"
 msgstr "http://ja.wikipedia.org/wiki/WebSocket"
 
 #: apps/demos/__init__.py:188
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_Storage"
 msgstr "http://en.wikipedia.org/wiki/Web_Storage"
 
 #: apps/demos/__init__.py:238
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_Workers"
 msgstr "http://en.wikipedia.org/wiki/Web_Workers"
 
 #: apps/demos/__init__.py:108
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_typography"
 msgstr "http://en.wikipedia.org/wiki/Web_typography"
 
@@ -2576,37 +2623,32 @@ msgid "https://developer.mozilla.org/En/Mobile"
 msgstr "https://developer.mozilla.org/Ja/Mobile"
 
 #: apps/demos/__init__.py:207
-#, fuzzy
 msgid "https://developer.mozilla.org/En/Using_audio_and_video_in_Firefox"
-msgstr "https://developer.mozilla.org/En/Using_audio_and_video_in_Firefox"
+msgstr "https://developer.mozilla.org/Ja/Using_audio_and_video_in_Firefox"
 
 #: apps/demos/__init__.py:127
 msgid "https://developer.mozilla.org/En/Using_geolocation"
 msgstr "https://developer.mozilla.org/ja/Using_geolocation"
 
 #: apps/demos/__init__.py:237
-#, fuzzy
 msgid "https://developer.mozilla.org/En/Using_web_workers"
-msgstr "https://developer.mozilla.org/En/Using_web_workers"
+msgstr "https://developer.mozilla.org/Ja/Using_web_workers"
 
 #: apps/demos/__init__.py:247
-#, fuzzy
 msgid "https://developer.mozilla.org/En/XMLHttpRequest/Using_XMLHttpRequest"
-msgstr "https://developer.mozilla.org/En/XMLHttpRequest/Using_XMLHttpRequest"
+msgstr "https://developer.mozilla.org/Ja/XMLHttpRequest/Using_XMLHttpRequest"
 
 #: apps/demos/__init__.py:79
 msgid "https://developer.mozilla.org/en/CSS"
 msgstr "https://developer.mozilla.org/ja/CSS"
 
 #: apps/demos/__init__.py:257
-#, fuzzy
 msgid "https://developer.mozilla.org/en/DOM/Touch_events"
-msgstr "https://developer.mozilla.org/en/DOM/Touch_events"
+msgstr "https://developer.mozilla.org/ja/DOM/Touch_events"
 
 #: apps/demos/__init__.py:89
-#, fuzzy
 msgid "https://developer.mozilla.org/en/Detecting_device_orientation"
-msgstr "https://developer.mozilla.org/en/Detecting_device_orientation"
+msgstr "https://developer.mozilla.org/ja/Detecting_device_orientation"
 
 #: apps/demos/__init__.py:167
 msgid "https://developer.mozilla.org/en/DragDrop/Drag_and_Drop"
@@ -2625,126 +2667,121 @@ msgid "https://developer.mozilla.org/en/HTML/HTML5/Forms_in_HTML5"
 msgstr "https://developer.mozilla.org/ja/HTML/HTML5/Forms_in_HTML5"
 
 #: apps/demos/__init__.py:157
-#, fuzzy
 msgid "https://developer.mozilla.org/en/IndexedDB"
-msgstr "https://developer.mozilla.org/en/IndexedDB"
+msgstr "https://developer.mozilla.org/ja/IndexedDB"
 
 #: apps/demos/__init__.py:59
-#, fuzzy
 msgid "https://developer.mozilla.org/en/Introducing_the_Audio_API_Extension"
-msgstr "https://developer.mozilla.org/en/Introducing_the_Audio_API_Extension"
+msgstr "https://developer.mozilla.org/ja/Introducing_the_Audio_API_Extension"
 
 #: apps/demos/__init__.py:197
 msgid "https://developer.mozilla.org/en/SVG"
 msgstr "https://developer.mozilla.org/ja/SVG"
 
 #: apps/demos/__init__.py:217
-#, fuzzy
 msgid "https://developer.mozilla.org/en/WebGL"
-msgstr "https://developer.mozilla.org/en/WebGL"
+msgstr "https://developer.mozilla.org/ja/WebGL"
 
 #: apps/demos/__init__.py:227
-#, fuzzy
 msgid "https://developer.mozilla.org/en/WebSockets"
-msgstr "https://developer.mozilla.org/en/WebSockets"
+msgstr "https://developer.mozilla.org/ja/WebSockets"
 
 #: apps/demos/__init__.py:107
 msgid "https://developer.mozilla.org/en/css/@font-face"
 msgstr "https://developer.mozilla.org/ja/CSS/@font-face"
 
 #: apps/demos/__init__.py:187
-#, fuzzy
 msgid "https://developer.mozilla.org/en/dom/storage#localStorage"
-msgstr "https://developer.mozilla.org/en/dom/storage#localStorage"
+msgstr "https://developer.mozilla.org/ja/dom/storage#localStorage"
 
 #: apps/demos/__init__.py:137
 msgid "https://developer.mozilla.org/en/javascript"
 msgstr "https://developer.mozilla.org/ja/javascript"
 
 #: apps/demos/__init__.py:98
-#, fuzzy
 msgid "https://developer.mozilla.org/en/using_files_from_web_applications"
-msgstr "https://developer.mozilla.org/en/using_files_from_web_applications"
+msgstr "https://developer.mozilla.org/ja/using_files_from_web_applications"
 
 #: apps/demos/helpers.py:218
 msgid "month"
 msgid_plural "months"
-msgstr[0] ""
+msgstr[0] "カ月"
 
 #: apps/actioncounters/models.py:75
 msgid "name of the action"
-msgstr ""
+msgstr "アクション名"
 
 #: apps/actioncounters/models.py:71 apps/contentflagging/models.py:78
 msgid "object ID"
-msgstr ""
+msgstr "オブジェクト ID"
 
 #: apps/contentflagging/models.py:71
 msgid "please explain what content you feel is inappropriate"
-msgstr ""
+msgstr "不適切だと感じたコンテンツについて説明してください"
 
 #: apps/contentflagging/models.py:68
 msgid "reason for flagging the content"
-msgstr ""
+msgstr "コンテンツの問題報告をした理由"
 
 #: apps/demos/templates/demos/home.html:65
 msgid "recent"
-msgstr ""
+msgstr "最近投稿された"
 
 #: apps/demos/models.py:299
 msgid "select a ZIP file containing your demo"
-msgstr ""
+msgstr "あなたのデモが含まれた ZIP ファイルを選択してください"
 
 #: apps/demos/models.py:270
 msgid "select up to 5 tags that describe your demo"
-msgstr ""
+msgstr "あなたのデモを説明できるタグを 5 個まで選択してください"
 
+# Django の用語。短いラベルを表す型（新聞用語）らしい。表には出てこないようなので、そのまま。
 #: apps/demos/models.py:252
 msgid "slug"
-msgstr ""
+msgstr "slug"
 
 #: apps/demos/helpers.py:219
 msgid "week"
 msgid_plural "weeks"
-msgstr[0] ""
+msgstr[0] "週間"
 
 #: apps/demos/models.py:250
 msgid "what is your demo's name?"
-msgstr ""
+msgstr "あなたのデモのタイトルは？"
 
 #: apps/demos/helpers.py:217
 msgid "year"
 msgid_plural "years"
-msgstr[0] ""
+msgstr[0] "年"
 
 #: apps/demos/templates/demos/detail.html:126
 msgid "{comment_count} comments"
-msgstr ""
+msgstr "コメント数 {comment_count} "
 
 #: apps/demos/templates/demos/detail.html:174
 msgid "{comments_total} comment so far"
 msgid_plural "{comments_total} comments so far"
-msgstr[0] ""
+msgstr[0] "{comments_total} 件のコメントがあります。"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:8
 msgid "{count} Demo"
 msgid_plural "{count} Demos"
-msgstr[0] ""
+msgstr[0] "{count} 個のデモ"
 
 #: apps/demos/templates/demos/detail.html:125
 msgid "{count} like"
 msgid_plural "{count} likes"
-msgstr[0] ""
+msgstr[0] "評価数 {count}"
 
 #: apps/demos/templates/demos/detail.html:125 apps/demos/templates/demos/elements/submission_thumb.html:16
 msgid "{count} person liked this demo"
 msgid_plural "{count} people liked this demo"
-msgstr[0] ""
+msgstr[0] "{count} 人がこのデモを評価しています。"
 
 #: apps/demos/templates/demos/detail.html:124
 msgid "{count} view"
 msgid_plural "{count} views"
-msgstr[0] ""
+msgstr[0] "閲覧数 {count}"
 
 #: apps/demos/templates/demos/profile_detail.html:8
 msgid "{display_name}"
@@ -2752,7 +2789,7 @@ msgstr "{display_name}"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:49
 msgid "{start}&ndash;{end} of {total}"
-msgstr ""
+msgstr "全 {total} 中 {start}&ndash;{end}"
 
 #: apps/demos/templates/demos/delete.html:10 apps/demos/templates/demos/delete_comment.html:10 apps/demos/templates/demos/detail.html:5 apps/demos/templates/demos/flag.html:10
 #: apps/demos/templates/demos/launch.html:4 apps/demos/templates/demos/listing_all.html:5 apps/demos/templates/demos/listing_search.html:10 apps/demos/templates/demos/listing_tag.html:5
@@ -2763,7 +2800,7 @@ msgstr "{subtitle} | Demo Studio"
 
 #: apps/demos/templates/demos/listing_tag.html:5
 msgid "{tag_title} Demos"
-msgstr ""
+msgstr "{tag_title} のデモ"
 
 # 右 Twitter サイドバー, コメント時刻
 #: apps/landing/templates/sidebar/twitter.html:16
