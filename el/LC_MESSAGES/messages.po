@@ -16,7 +16,7 @@ msgstr ""
 #: apps/actioncounters/models.py:71
 #: apps/contentflagging/models.py:78
 msgid "object ID"
-msgstr ""
+msgstr "object ID"
 
 #: apps/actioncounters/models.py:75
 msgid "name of the action"
@@ -216,7 +216,7 @@ msgstr "Συσκευή"
 
 #: apps/demos/__init__.py:87
 msgid "Media queries and orientation events let authors adjust their layout on hand-held devices such as mobile phones."
-msgstr ""
+msgstr "Τα Media queries και τα orientation events επιτρέπουν στους δημιουργούς να προσαρμόσουν το σχεδιασμό τους σε συσκευές παλάμης όπως τα κινητά και οι ταμπλέτες."
 
 #: apps/demos/__init__.py:89
 msgid "https://developer.mozilla.org/en/Detecting_device_orientation"
@@ -632,35 +632,35 @@ msgstr "http://creativecommons.org/publicdomain/zero/1.0/"
 
 #: apps/demos/feeds.py:87
 msgid "MDN demos"
-msgstr "Δείγματα στο MDN"
+msgstr "Demo στο MDN"
 
 #: apps/demos/feeds.py:88
 msgid "Demos submitted by MDN users"
-msgstr "Δείγματα που έχουν δημιουργηθεί από χρήστες του MDN"
+msgstr "Demo που έχουν δημιουργηθεί από χρήστες του MDN"
 
 #: apps/demos/feeds.py:154
 msgid "MDN recent demos"
-msgstr "Πρόσφατα δείγματα MDN"
+msgstr "Πρόσφατα demo του MDN"
 
 #: apps/demos/feeds.py:155
 msgid "Demos recently submitted to MDN"
-msgstr "Δείγματα που υποβλήθηκαν πρόσφατα στο MDN"
+msgstr "Demo που υποβλήθηκαν πρόσφατα στο MDN"
 
 #: apps/demos/feeds.py:166
 msgid "MDN featured demos"
-msgstr "Προβεβλημένα δείγματα στο MDN"
+msgstr "Προβεβλημένα demo στο MDN"
 
 #: apps/demos/feeds.py:167
 msgid "Demos featured on MDN"
-msgstr "Δείγματα που προβάλλονται στο MDN"
+msgstr "Demo που προβάλλονται στο MDN"
 
 #: apps/demos/feeds.py:181
 msgid "MDN demos tagged %s"
-msgstr "Δείγματα στο MDN με ετικέτα: %s"
+msgstr "Demo στο MDN με ετικέτα: %s"
 
 #: apps/demos/feeds.py:184
 msgid "MDN demos tagged \"%s\""
-msgstr "Δείγματα στο MDN με ετικέτα «%s»"
+msgstr "Demo στο MDN με ετικέτα «%s»"
 
 #: apps/demos/feeds.py:199
 msgid "%s's MDN demos"
@@ -668,7 +668,7 @@ msgstr "%s's MDN demo"
 
 #: apps/demos/feeds.py:213
 msgid "MDN demo search for \"%s\""
-msgstr "Αναζήτηση στα δείγματα του MDN για «%s»"
+msgstr "Αναζήτηση στα demo του MDN για «%s»"
 
 #: apps/demos/feeds.py:214
 msgid "Search results for demo submissions matching \"%s\""
@@ -708,7 +708,7 @@ msgstr[1] "ημέρες"
 
 #: apps/demos/helpers.py:228
 msgid "%(number)d %(type)s"
-msgstr ""
+msgstr "%(number)d %(type)s"
 
 #: apps/demos/helpers.py:296
 msgid "%(number)d year ago"
@@ -778,19 +778,19 @@ msgstr "Τι όνομα έχει το demo σας;"
 
 #: apps/demos/models.py:252
 msgid "slug"
-msgstr ""
+msgstr "slug"
 
 #: apps/demos/models.py:255
 msgid "describe your demo in one line"
-msgstr "Περιγράψτε το δείγμα σας σε μια γραμμή"
+msgstr "Περιγράψτε το demo σας σε μια γραμμή"
 
 #: apps/demos/models.py:258
 msgid "describe your demo in more detail (optional)"
-msgstr "Περιγράψτε το δείγμα σε με περισσότερες λεπτομέρειες (προαιρετικό)"
+msgstr "Περιγράψτε το demo σε με περισσότερες λεπτομέρειες (προαιρετικό)"
 
 #: apps/demos/models.py:270
 msgid "select up to 5 tags that describe your demo"
-msgstr "Επιλέξτε μέχρι 5 ετικέτες που περιγράφουν το δείγμα σας"
+msgstr "Επιλέξτε μέχρι 5 ετικέτες που περιγράφουν το demo σας"
 
 #: apps/demos/models.py:274
 msgid "Screenshot #1"
@@ -814,11 +814,11 @@ msgstr "Στιγμιότυπο οθόνης #5"
 
 #: apps/demos/models.py:295
 msgid "have a video of your demo in action? (optional)"
-msgstr "Έχετε βίντεο του δείγματος σας σε δράση; (προαιρετικό)"
+msgstr "Έχετε βίντεο του demo σας σε δράση; (προαιρετικό)"
 
 #: apps/demos/models.py:299
 msgid "select a ZIP file containing your demo"
-msgstr "Επιλέξτε ένα αρχείο ZIP που περιέχει το δείγμα σας"
+msgstr "Επιλέξτε ένα αρχείο ZIP που περιέχει το demo σας"
 
 #: apps/demos/models.py:307
 msgid "Is your source code also available somewhere else on the web (e.g., github)? Please share the link."
@@ -912,11 +912,11 @@ msgstr "MDN"
 #: apps/demos/templates/demos/listing_tag.html:23
 #: apps/demos/templates/demos/profile_detail.html:27
 msgid "Submit a Demo"
-msgstr "Υποβολή δείγματος"
+msgstr "Υποβολή demo"
 
 #: apps/demos/templates/demos/delete.html:38
 msgid "Remove this demo?"
-msgstr "Αφαίρεση αυτού του δείγματος;"
+msgstr "Αφαίρεση αυτού του demo;"
 
 #: apps/demos/templates/demos/delete.html:40
 msgid "<p>You are about to remove <strong>%(demo_title)s</strong> from the Demo Studio.</p> <p>The Demo's listing, source code, and statistics will be <strong>deleted</strong>.</p> <p>This action <strong>cannot be undone</strong>."
@@ -925,7 +925,7 @@ msgstr "<p>Πρόκειται να αφαιρέσετε το <strong>%(demo_titl
 #: apps/demos/templates/demos/delete.html:48
 #: apps/demos/templates/demos/detail.html:58
 msgid "Remove demo"
-msgstr "Αφαίρεση δείγματος"
+msgstr "Αφαίρεση demo"
 
 #: apps/demos/templates/demos/delete.html:49
 #: apps/demos/templates/demos/delete_comment.html:52
@@ -953,7 +953,7 @@ msgstr "Διαγραφή σχολίου"
 #: apps/demos/templates/demos/detail.html:23
 #: apps/demos/templates/demos/launch.html:58
 msgid "Go to the previous demo, {demo_title}"
-msgstr "Μετάβαση στο προηγούμενο δείγμα, {demo_title}"
+msgstr "Μετάβαση στο προηγούμενο demo, {demo_title}"
 
 #: apps/demos/templates/demos/detail.html:23
 #: apps/demos/templates/demos/launch.html:58
@@ -963,7 +963,7 @@ msgstr "Προηγούμενο"
 #: apps/demos/templates/demos/detail.html:27
 #: apps/demos/templates/demos/launch.html:62
 msgid "Go to the next demo, {demo_title}"
-msgstr "Μετάβαση στο επόμενο δείγμα, {demo_title}"
+msgstr "Μετάβαση στο επόμενο demo, {demo_title}"
 
 #: apps/demos/templates/demos/detail.html:27
 #: apps/demos/templates/demos/detail.html:133
@@ -979,19 +979,19 @@ msgstr "Από τον/την %(creator_link)s στις %(create_date)s"
 
 #: apps/demos/templates/demos/detail.html:53
 msgid "Edit Demo"
-msgstr "Επεξεργασία δείγματος"
+msgstr "Επεξεργασία demo"
 
 #: apps/demos/templates/demos/detail.html:63
 msgid "Show demo"
-msgstr "Προβολή δείγματος"
+msgstr "Προβολή demo"
 
 #: apps/demos/templates/demos/detail.html:66
 msgid "Hide demo"
-msgstr "Απόκρυψη δείγματος"
+msgstr "Απόκρυψη demo"
 
 #: apps/demos/templates/demos/detail.html:78
 msgid "Launch Demo"
-msgstr "Εκκίνηση δείγματος"
+msgstr "Εκκίνηση demo"
 
 #: apps/demos/templates/demos/detail.html:85
 #: apps/demos/templates/demos/launch.html:34
@@ -1006,7 +1006,7 @@ msgstr ""
 #: apps/demos/templates/demos/detail.html:90
 #: apps/demos/templates/demos/launch.html:39
 msgid "Do you like this demo?"
-msgstr "Σας αρέσει το δείγμα;"
+msgstr "Σας αρέσει το demo;"
 
 #: apps/demos/templates/demos/detail.html:90
 #: apps/demos/templates/demos/launch.html:39
@@ -1016,7 +1016,7 @@ msgstr "Μου άρεσει"
 #: apps/demos/templates/demos/detail.html:95
 #: apps/demos/templates/demos/launch.html:43
 msgid "Share this demo with your social network"
-msgstr "Μοιραστείτε αυτό το δείγμα στο κοινωνικό σας δίκτυο"
+msgstr "Μοιραστείτε αυτό το demo στο κοινωνικό σας δίκτυο"
 
 #: apps/demos/templates/demos/detail.html:99
 #: apps/demos/templates/demos/launch.html:43
@@ -1039,14 +1039,14 @@ msgstr "Φτιάχτηκε με χρήση"
 
 #: apps/demos/templates/demos/detail.html:116
 msgid "See more demos made with {tag_title}"
-msgstr "Δείτε περισσότερα δείγματα που φτιάχτηκαν με {tag_title}"
+msgstr "Δείτε περισσότερα demo που φτιάχτηκαν με {tag_title}"
 
 #: apps/demos/templates/demos/detail.html:124
 #: apps/demos/templates/demos/elements/submission_thumb.html:15
 msgid "This demo has been viewed {count} time"
 msgid_plural "This demo has been viewed {count} times"
-msgstr[0] "Αυτό το δείγμα έχει προβληθεί {count} φορά"
-msgstr[1] "Αυτό το δείγμα έχει προβληθεί {count} φορές"
+msgstr[0] "Αυτό το demo έχει προβληθεί {count} φορά"
+msgstr[1] "Αυτό το demo έχει προβληθεί {count} φορές"
 
 #: apps/demos/templates/demos/detail.html:124
 msgid "{count} view"
@@ -1058,8 +1058,8 @@ msgstr[1] "{count} προβολές"
 #: apps/demos/templates/demos/elements/submission_thumb.html:16
 msgid "{count} person liked this demo"
 msgid_plural "{count} people liked this demo"
-msgstr[0] "Αυτό το δείγμα αρέσει σε {count} άτομο"
-msgstr[1] "Αυτό το δείγμα αρέσει σε {count} άτομα"
+msgstr[0] "Αυτό το demo αρέσει σε {count} άτομο"
+msgstr[1] "Αυτό το demo αρέσει σε {count} άτομα"
 
 #: apps/demos/templates/demos/detail.html:125
 msgid "{count} like"
@@ -1071,8 +1071,8 @@ msgstr[1] "Αρέσει σε {count} άτομα"
 #: apps/demos/templates/demos/elements/submission_thumb.html:17
 msgid "There is {count} comment for this demo"
 msgid_plural "There are {count} comments for this demo"
-msgstr[0] "Υπάρχει {count} σχόλιο για αυτό το δείγμα"
-msgstr[1] "Υπάρχουν {count} σχόλια για αυτό το δείγμα"
+msgstr[0] "Υπάρχει {count} σχόλιο για αυτό το demo"
+msgstr[1] "Υπάρχουν {count} σχόλια για αυτό το demo"
 
 #: apps/demos/templates/demos/detail.html:126
 msgid "{comment_count} comments"
@@ -1094,7 +1094,7 @@ msgstr "Δείτε την επόμενη εικόνα"
 
 #: apps/demos/templates/demos/detail.html:165
 msgid "More About This Demo From The Author"
-msgstr "Περισσότερα σχετικά μ' αυτό το δείγμα από το δημιουργό του"
+msgstr "Περισσότερα σχετικά μ' αυτό το demo από το δημιουργό του"
 
 #: apps/demos/templates/demos/detail.html:172
 msgid "No comments yet."
@@ -1133,15 +1133,15 @@ msgstr "Κάντε λήψη του αρχείου <span class=\"note\">ZIP %(fil
 
 #: apps/demos/templates/demos/detail.html:230
 msgid "This demo is released under the <a href=\"%(link)s\">%(title)s</a> license."
-msgstr "Αυτό το δείγμα διατίθεται σύμφωνα με την άδεια <a href=\"%(link)s\">%(title)s</a>."
+msgstr "Αυτό το demo διατίθεται σύμφωνα με την άδεια <a href=\"%(link)s\">%(title)s</a>."
 
 #: apps/demos/templates/demos/detail.html:250
 msgid "Demo is not working"
-msgstr "Το δείγμα δεν λειτουργεί"
+msgstr "Το demo δεν λειτουργεί"
 
 #: apps/demos/templates/demos/detail.html:251
 msgid "Demo is inappropriate"
-msgstr "Το δείγμα έχει ανάρμοστο περιεχόμενο"
+msgstr "Το demo έχει ανάρμοστο περιεχόμενο"
 
 #: apps/demos/templates/demos/detail.html:252
 msgid "Demo is not by this author"
@@ -1166,11 +1166,11 @@ msgstr "Αναφορά περιεχομένου"
 #: apps/demos/templates/demos/home.html:8
 #: apps/demos/templates/demos/listing_all.html:7
 msgid "Recent demos"
-msgstr "Πρόσφατα δείγματα"
+msgstr "Πρόσφατα demo"
 
 #: apps/demos/templates/demos/home.html:10
 msgid "Featured demos"
-msgstr "Προβεβλημένα δείγματα"
+msgstr "Προβεβλημένα demo"
 
 #: apps/demos/templates/demos/home.html:22
 msgid "Mozilla Demo Studio"
@@ -1182,15 +1182,15 @@ msgstr "<p>Καλωσορίσατε στο Mozilla Demo Studio, όπου προ�
 
 #: apps/demos/templates/demos/home.html:39
 msgid "Featured Demos"
-msgstr "Προβεβλημένα δείγματα"
+msgstr "Προβεβλημένα demo"
 
 #: apps/demos/templates/demos/home.html:43
 msgid "See the previous three demos"
-msgstr "Δείτε τα προηγούμενα τρία δείγματα"
+msgstr "Δείτε τα προηγούμενα τρία demo"
 
 #: apps/demos/templates/demos/home.html:44
 msgid "See the next three demos"
-msgstr "Δείτε τα επόμενα τρία δείγματα"
+msgstr "Δείτε τα επόμενα τρία demo"
 
 #: apps/demos/templates/demos/home.html:65
 #: apps/demos/templates/demos/listing_tag.html:53
@@ -1223,7 +1223,7 @@ msgstr "Αφαίρεση της εργαλειοθήκης"
 #: apps/demos/templates/demos/listing_all.html:19
 #: apps/demos/templates/demos/listing_all.html:31
 msgid "Browse all demos"
-msgstr "Περιήγηση σε όλα τα δείγματα"
+msgstr "Περιήγηση σε όλα τα demo"
 
 #: apps/demos/templates/demos/listing_all.html:38
 msgid "Subscribe to a feed of all demos"
@@ -1409,7 +1409,7 @@ msgstr "Ο/Η <cite class=\"author fn\">%(comment_profile_link)s</cite> είπε
 
 #: apps/demos/templates/demos/elements/comments_tree.html:19
 msgid "Posted <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime=\"%(comment_isotime)s\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
-msgstr ""
+msgstr "Δημοσιεύτηκε <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"μόνιμος δεσμός προς το σχόλιο του/της %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime=\"%(comment_isotime)s\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:31
 msgid "Reply to this comment by {full_name}"
@@ -1599,7 +1599,7 @@ msgstr "Αναζήτηση στην τεκμηρίωση του MDN"
 #. Please escape HTML entities here, like &amp;
 #: apps/docs/templates/docs/docs.html:28
 msgid "Popular Topics for <span class=\"web\">Web</span> Developers"
-msgstr ""
+msgstr "Δημοφιλή θέματα για δημιουργούς <span class=\"web\">διαδικτύου</span>"
 
 #: apps/docs/templates/docs/docs.html:32
 #: apps/docs/templates/docs/glossary.html:4
@@ -1704,7 +1704,7 @@ msgstr "Σημαντικά θέματα για δημιουργούς του <sp
 
 #: apps/docs/templates/docs/docs.html:60
 msgid "A comprehensive list of terms to help Web developers find the documentation they need."
-msgstr ""
+msgstr "Μια περιεκτική λίστα όρων που βοηθάει τους δημιουργούς να βρουν την τεκμηρίωση που θέλουν."
 
 #: apps/docs/templates/docs/docs.html:69
 msgid "Get involved in the %(mobile_link)s, %(addons_link)s, & %(apps_link)s Developer Communities:"
@@ -1714,38 +1714,38 @@ msgstr ""
 #: apps/landing/templates/landing/home.html:132
 #: apps/landing/templates/landing/mobile.html:88
 msgid "/en/Mobile"
-msgstr ""
+msgstr "/en/Mobile"
 
 #: apps/docs/templates/docs/docs.html:80
 msgid "Firefox Mobile for developers"
-msgstr ""
+msgstr "Ο Firefox για κινητά για δημιουργούς"
 
 #: apps/docs/templates/docs/docs.html:81
 msgid "/en/Detecting_device_orientation"
-msgstr ""
+msgstr "/en/Detecting_device_orientation"
 
 #: apps/docs/templates/docs/docs.html:81
 msgid "Detecting device orientation"
-msgstr ""
+msgstr "Αναγνώριση προσανατολισμού συσκευής"
 
 #: apps/docs/templates/docs/docs.html:82
 #: apps/landing/templates/landing/home.html:132
 #: apps/landing/templates/landing/mobile.html:69
 msgid "/en/Using_geolocation"
-msgstr ""
+msgstr "/en/Using_geolocation"
 
 #: apps/docs/templates/docs/docs.html:82
 msgid "Using geolocation"
-msgstr ""
+msgstr "Χρήση γεωτοποθεσίας"
 
 #: apps/docs/templates/docs/docs.html:88
 msgid "AMO Developer Hub"
-msgstr ""
+msgstr "Ταμπλό δημιουργών AMO"
 
 #: apps/docs/templates/docs/docs.html:89
 #: apps/landing/templates/landing/addons.html:60
 msgid "/en/Extensions"
-msgstr ""
+msgstr "/en/Extensions"
 
 #: apps/docs/templates/docs/docs.html:89
 #: apps/landing/templates/landing/addons.html:60
@@ -1754,7 +1754,7 @@ msgstr "Επεκτάσεις"
 
 #: apps/docs/templates/docs/docs.html:90
 msgid "/en/Plugins"
-msgstr ""
+msgstr "/en/Plugins"
 
 #: apps/docs/templates/docs/docs.html:90
 msgid "Plugins"
@@ -1762,11 +1762,11 @@ msgstr "Πρόσθετες λειτουργίες"
 
 #: apps/docs/templates/docs/docs.html:91
 msgid "Add-ons Builder"
-msgstr ""
+msgstr "Add-ons Builder"
 
 #: apps/docs/templates/docs/docs.html:92
 msgid "/en/Themes"
-msgstr ""
+msgstr "/en/Themes"
 
 #: apps/docs/templates/docs/docs.html:92
 msgid "Themes"
@@ -1774,67 +1774,67 @@ msgstr "Θέματα εμφάνισης"
 
 #: apps/docs/templates/docs/docs.html:93
 msgid "/en/Creating_OpenSearch_plugins_for_Firefox"
-msgstr ""
+msgstr "/en/Creating_OpenSearch_plugins_for_Firefox"
 
 #: apps/docs/templates/docs/docs.html:93
 msgid "Search engine plugins"
-msgstr ""
+msgstr "Πρόσθετες λειτουργίες αναζήτησης"
 
 #: apps/docs/templates/docs/docs.html:99
 #: apps/landing/templates/landing/home.html:149
 #: apps/landing/templates/landing/home.html:207
 msgid "/en/Participating_in_the_Mozilla_project"
-msgstr ""
+msgstr "/en/Participating_in_the_Mozilla_project"
 
 #: apps/docs/templates/docs/docs.html:99
 msgid "Participating in the Mozilla project"
-msgstr ""
+msgstr "Συμμετέχοντας στο έργο Mozilla"
 
 #: apps/docs/templates/docs/docs.html:100
 #: apps/landing/templates/landing/mozilla.html:61
 msgid "/en/Using_Mozilla_code_in_other_projects"
-msgstr ""
+msgstr "/en/Using_Mozilla_code_in_other_projects"
 
 #: apps/docs/templates/docs/docs.html:100
 #: apps/landing/templates/landing/mozilla.html:61
 msgid "Using Mozilla code in other projects"
-msgstr ""
+msgstr "Χρησιμοποιώντας τον κώδικα του έργου Mozilla σε άλλα έργα λογισμικού"
 
 #: apps/docs/templates/docs/docs.html:101
 #: apps/landing/templates/landing/home.html:150
 #: apps/landing/templates/landing/mozilla.html:81
 msgid "/en/Localization"
-msgstr ""
+msgstr "/en/Localization"
 
 #: apps/docs/templates/docs/docs.html:101
 #: apps/landing/templates/landing/mozilla.html:81
 msgid "Localization"
-msgstr ""
+msgstr "Localization"
 
 #: apps/docs/templates/docs/docs.html:102
 #: apps/landing/templates/landing/home.html:150
 msgid "/en/QA"
-msgstr ""
+msgstr "/en/QA"
 
 #: apps/docs/templates/docs/docs.html:102
 msgid "Quality Assurance"
-msgstr ""
+msgstr "Quality Assurance"
 
 #: apps/docs/templates/docs/docs.html:112
 msgid "Most Active Docs"
-msgstr ""
+msgstr "Έγγραφα με την περισσότερη δραστηριότητα"
 
 #: apps/docs/templates/docs/docs.html:117
 msgid "Last edited by:"
-msgstr ""
+msgstr "Τελευταία επεξεργασία από:"
 
 #: apps/docs/templates/docs/docs.html:124
 msgid "Doc Of The Day"
-msgstr ""
+msgstr "Έγγραφο της ημέρας"
 
 #: apps/docs/templates/docs/docs.html:129
 msgid "Modified by %(author)s on %(updated)s"
-msgstr ""
+msgstr "Τροποποιήθηκε από τον/την %(author)s στις %(updated)s"
 
 #: apps/docs/templates/docs/glossary.html:9
 msgid "/en/SVG"
@@ -1850,7 +1850,7 @@ msgstr "/en/CSS/Media_queries"
 
 #: apps/docs/templates/docs/glossary.html:12
 msgid "Media Queries"
-msgstr ""
+msgstr "Media Queries"
 
 #: apps/docs/templates/docs/glossary.html:13
 msgid "/en/WebGL"
@@ -1862,7 +1862,7 @@ msgstr "/en/Storage"
 
 #: apps/docs/templates/docs/glossary.html:14
 msgid "Web Storage"
-msgstr ""
+msgstr "Web Storage"
 
 #: apps/docs/templates/docs/glossary.html:15
 #: apps/docs/templates/docs/glossary.html:16
@@ -1887,7 +1887,7 @@ msgstr "/en/CSS/Using_CSS_transforms"
 
 #: apps/docs/templates/docs/glossary.html:20
 msgid "CSS Transforms"
-msgstr ""
+msgstr "CSS Transforms"
 
 #: apps/docs/templates/docs/glossary.html:21
 msgid "/en/Using_gradients"
@@ -1895,7 +1895,7 @@ msgstr "/en/Using_gradients"
 
 #: apps/docs/templates/docs/glossary.html:21
 msgid "CSS Gradients"
-msgstr ""
+msgstr "CSS Gradients"
 
 #: apps/docs/templates/docs/glossary.html:22
 msgid "/en/Security"
@@ -1911,12 +1911,12 @@ msgstr "/en/IndexedDB"
 
 #: apps/landing/templates/landing/addons.html:16
 msgid "Welcome to the Add-ons Developer Community:"
-msgstr ""
+msgstr "Καλώς ορίσατε στην κοινότητα δημιουργών πρόσθετων:"
 
 #: apps/landing/templates/landing/addons.html:20
 #: apps/landing/templates/landing/mozilla.html:20
 msgid "Are you ready to make browsing better?"
-msgstr ""
+msgstr "Είστε έτοιμοι να κάνετε καλύτερη την περιήγηση στο διαδίκτυο;"
 
 #: apps/landing/templates/landing/addons.html:22
 #: apps/landing/templates/landing/mobile.html:22
@@ -1939,7 +1939,7 @@ msgstr ""
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/addons.html:38
 msgid "Popular <span class=\"addons\">Add-ons</span> Documentation"
-msgstr ""
+msgstr "Δημοφιλής τεκμηρίωση για <span class=\"addons\">πρόσθετα</span>"
 
 #: apps/landing/templates/landing/addons.html:43
 msgid "Add-ons Builder SDK Docs"
@@ -1951,7 +1951,7 @@ msgstr "Αν αισθάνεστε πιο άνετα με τη γραμμή εν�
 
 #: apps/landing/templates/landing/addons.html:52
 msgid "How-to Library"
-msgstr ""
+msgstr "Βιβλιοθήκη οδηγιών"
 
 #: apps/landing/templates/landing/addons.html:53
 msgid "Get add-on development guidance in a top-notch collection of tutorials, articles, and more."
@@ -2043,7 +2043,7 @@ msgstr "Όλες οι εγγραφές για ανάπτυξη πρόσθετω�
 
 #: apps/landing/templates/landing/addons.html:130
 msgid "Correspondence on Twitter from the Add-ons developer community."
-msgstr ""
+msgstr "Ανταποκρίσεις της κοινότητας δημιουργών πρόσθετων από το Twitter."
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/addons.html:142
@@ -2119,7 +2119,7 @@ msgstr "Προέκδοση του Addons Builder"
 
 #: apps/landing/templates/landing/home.html:56
 msgid "Mozilla and <a href=\"%(p2pu)s\">P2PU</a> are creating the <a href=\"%(p2pu_drumbeat)s\">School of Webcraft</a>, a powerful new way to teach and learn web developer skills. Classes are globally accessible, 100%% free, and powered entirely by learners, mentors and contributors like you people. Our goal: a vibrant, peer-led system that helps people around the world easily access and build careers on open web technology."
-msgstr ""
+msgstr "Η κοινότητα Mozilla και το <a href=\"%(p2pu)s\">P2PU</a>, δημιούργησαν το <a href=\"%(p2pu_drumbeat)s\">School of Webcraft</a>, μια νέα και παντοδύναμη προσέγγιση εκμάθησης και διδασκαλίας δεξιοτήτων ανάπτυξης για το διαδίκτυο. Η πρόσβαση στα μαθήματα είναι δυνατή από οποιοδήποτε μέρος του κόσμου, είναι 100% δωρεάν και συμμετέχουν αποκλειστικά εθελοντές, καθηγητές και μαθητές όπως κι εσείς. Ο στόχος της προσπάθειας αυτής: να δημιουργήσει ένα ενεργητικό σύστημα αλληλοβοήθειας ώστε να διευκολύνει ανθρώπους απ' όλο τον κόσμο έχουν πρόσβαση στις ανοικτές τεχνολογίες του διαδικτύου και να κάνουν καριέρα πάνω τους."
 
 #: apps/landing/templates/landing/home.html:64
 #: apps/landing/templates/landing/home.html:78
@@ -2130,7 +2130,7 @@ msgstr "Περισσότερα"
 
 #: apps/landing/templates/landing/home.html:72
 msgid "Mozilla continues to lead the charge in the adoption of HTML5 and other evolving open Web technologies. Find out more about the <a href=\"%(devmo_html5)s\">HTML5 spec</a> and the latest enhancements in HTML5, CSS3 and other <a href=\"%(devmo_fx4dev)s\">developer features for Firefox 4</a>."
-msgstr ""
+msgstr "Η κοινότητα Mozilla συνεχίζει να ηγείται της προσπάθειας για την υιοθέτηση της HTML5 κι άλλων ανερχόμενων ανοικτών τεχνολογιών για το διαδίκτυο. Μάθετε περισσότερα για τις <a href=\"%(devmo_html5)s\">προδιαγραφές της HTML5</a> και τις πιο πρόσφατες βελτιώσεις σε HTML5, CSS3 και άλλα <a href=\"%(devmo_fx4dev)s\">χαρακτηριστικά για δημιουργούς στον Firefox 4</a>."
 
 #: apps/landing/templates/landing/home.html:72
 #: apps/landing/templates/landing/home.html:166
@@ -2139,11 +2139,11 @@ msgstr "/en/Firefox_4_for_developers"
 
 #: apps/landing/templates/landing/home.html:86
 msgid "Test the <a href=\"%(fx4_features)s\">next version of Firefox</a> and help us make the world's best browser even better. Firefox 4 advances the modern web and we have a <a href=\"%(fx4_tech)s\">big chart full of check marks</a> to prove it."
-msgstr ""
+msgstr "Δοκιμάστε την <a href=\"%(fx4_features)s\">επόμενη έκδοση του Firefox</a> και βοηθήστε μας να κάνουμε τον καλύτερο περιηγητή του κόσμου, ακόμα πιο καλό. Ο Firefox 4 ωθεί το σύγχρονο διαδίκτυο ακόμα πιο μπροστά και έχουμε μια <a href=\"%(fx4_tech)s\">μεγάλη λίστα επιτευγμάτων</a> για να το αποδείξουμε."
 
 #: apps/landing/templates/landing/home.html:101
 msgid "Use Add-ons Builder to quickly and easily develop an extension for Firefox using common web technologies. There is a <a href=\"%(tutorial)s\">tutorial</a> to get you started and a <a href=\"%(api)s\">variety of APIs in the core library</a> to add functionality to Firefox."
-msgstr ""
+msgstr "Χρησιμοποιήστε το Add-ons Builder για να δημιουργήσετε γρήγορα και εύκολα μια επέκταση για τον Firefox χρησιμοποιώντας μόνο τεχνολογίες που χρησιμοποιείτε καθημερινά στο διαδίκτυο. Υπάρχουν <a href=\"%(tutorial)s\">οδηγίες</a> για να ξεκινήσετε και μια <a href=\"%(api)s\">πληθώρα API στη βασική βιβλιοθήκη</a> για να μπορείτε να προσθέσετε λειτουργίες στον Firefox."
 
 #: apps/landing/templates/landing/home.html:116
 msgid "News & Updates"
@@ -2195,7 +2195,7 @@ msgstr "Cascading Style Sheets."
 
 #: apps/landing/templates/landing/home.html:190
 msgid "The Document Object Model describes the layout and content of web pages."
-msgstr ""
+msgstr "Το Document Object Model περιγράφει το σχεδιασμό και το περιεχόμενο των ιστοσελίδων."
 
 #: apps/landing/templates/landing/home.html:195
 msgid "Developing Add-ons"
@@ -2227,7 +2227,7 @@ msgstr "Οτιδήποτε από την καταχώρηση ενός bug ως 
 
 #: apps/landing/templates/landing/home.html:215
 msgid "Be Heard."
-msgstr ""
+msgstr "Εκφραστείτε"
 
 #: apps/landing/templates/landing/home.html:218
 msgid "Get Started Today!"
@@ -2239,7 +2239,7 @@ msgstr "Καλως ορίσατε στην κοινότητα δημιουργώ
 
 #: apps/landing/templates/landing/mobile.html:20
 msgid "You took back the Web. Now take it with you."
-msgstr ""
+msgstr "Ανακαταλάβατε το διαδίκτυο. Τώρα πάρτε το και μαζί σας παντού."
 
 #: apps/landing/templates/landing/mobile.html:24
 msgid "Join the Mobile discussions!"
@@ -2264,15 +2264,15 @@ msgstr "Φτιάξτε εξαιρετικά πρόσθετα για κινητά
 
 #: apps/landing/templates/landing/mobile.html:55
 msgid "Firefox is the world's first Web browser to support mobile add-ons. Learn about <a href=\"%(basics_url)s\">Extension Basics</a>, <a href=\"%(best_practices_url)s\">Extension Best Practices</a>, helpful <a href=\"%(snippets_url)s\">Code Snippets</a>, and more so you can build innovative add-ons for Firefox on Android and Firefox on Nokia's Meego platform."
-msgstr ""
+msgstr "Ο Firefox είναι ο πρώτος περιηγητής παγκοσμίως που υποστηρίζει πρόσθετα σχεδιασμένα για κινητά. Μάθετε τα <a href=\"%(basics_url)s\">βασικά για επεκτάσεις</a>, τις <a href=\"%(best_practices_url)s\">καλύτερες πρακτικές για επεκτάσεις</a>, δείτε βοηθητικά <a href=\"%(snippets_url)s\">τμήματα κώδικα</a> κι ακόμα περισσότερα, ώστε να μπορείτε να φτιάξετε καινοτόμα πρόσθετα για τον  Firefox σε Android και στην πλατφόρμα Meego της Nokia."
 
 #: apps/landing/templates/landing/mobile.html:67
 msgid "Location-Aware Applications"
-msgstr ""
+msgstr "Εφαρμογές που χρησιμοποιούν τοποθεσίες"
 
 #: apps/landing/templates/landing/mobile.html:69
 msgid "Learn how to use the <a href=\"%(geo_url)s\">Geolocation API</a> and put people on the right path. Location-Aware Browsing is a must when you're out and about on your mobile. Learn how to build innovative apps that delight your audience."
-msgstr ""
+msgstr "Μάθετε πως να χρησιμοποιείτε το  <a href=\"%(geo_url)s\">API γεωτοποθεσίας (Geolocation)</a> και δείξτε στους άλλους το σωστό δρόμο. Η περιήγηση με βάση την τοποθεσία είναι σχεδόν απαραίτητη όταν χρησιμοποιείτε το κινητό για περιήγηση. Μάθετε πως να φτιάξετε καινοτόμες εφαρμογές που θα ενθουσιάσουν το κοινό σας."
 
 #: apps/landing/templates/landing/mobile.html:77
 msgid "Help build Firefox for Mobile"
@@ -2296,7 +2296,7 @@ msgstr "Firefox Sync"
 
 #: apps/landing/templates/landing/mobile.html:107
 msgid "Why Sync up, Security and More"
-msgstr ""
+msgstr "Γιατί να χρησιμοποιήσετε το Sync για συγχρονισμό, θέματα γύρω από την ασφάλεια του κι ακόμα περισσότερα"
 
 #: apps/landing/templates/landing/mobile.html:108
 msgid "See Ragavan demo Firefox Sync on his Android phone. Learn about purpose and goals behind the development of Firefox Sync."
@@ -2308,16 +2308,16 @@ msgstr "Fennec"
 
 #: apps/landing/templates/landing/mobile.html:123
 msgid "Pre-Alpha Fennec and HTML5 Demos"
-msgstr ""
+msgstr "Demo για την προέκδοση του Fennec και την HTML5"
 
 #: apps/landing/templates/landing/mobile.html:124
 msgid "See Stuart demo HTML5 capabilities on pre-alpha Fennec. Learn about the purpose and goals behind the development of Firefox 4 for mobile."
-msgstr ""
+msgstr "Δείτε το demo του Stuart για τις δυνατότητες της HTML5 σε μια προέκδοση του Fennec. Μάθετε περισσότερα για τους σκοπούς και τους στόχους της ανάπτυξης του Firefox 4 για κινητά."
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mobile.html:136
 msgid "Favorite <span class=\"mobile\">Mobile</span> Articles"
-msgstr ""
+msgstr "Δημοφιλή άρθρα για  <span class=\"mobile\">κινητά</span>"
 
 #: apps/landing/templates/landing/mobile.html:140
 msgid "Firefox for mobile: What's coming next"
@@ -2325,7 +2325,7 @@ msgstr "Firefox για κινητά: Τι θα ακολουθήσει"
 
 #: apps/landing/templates/landing/mobile.html:142
 msgid "The projects and planning never stops. We're cooking up some amazing new features and improvements for our next major release. Check it out and see how you can help us continue to make the world's best mobile Web browser."
-msgstr ""
+msgstr "Τα διάφορα έργα και ο σχεδιασμός δεν σταματούν ποτέ. Ετοιμάζουμε κάποια απίθανα νέα χαρακτηριστικά και βελτιώσεις για την επόμενη σταθερή μας έκδοση. Ρίξτε μια ματιά και δείτε πως μπορείτε να μας βοηθήσετε να συνεχίσουμε την ανάπτυξη του καλύτερου περιηγητή για κινητά στον κόσμο."
 
 #: apps/landing/templates/landing/mobile.html:150
 msgid "\"HTML5 is Great for Mobile, Developers Say\""
@@ -2350,19 +2350,19 @@ msgstr "Δείτε τα API του Android σ' αυτή τη σελίδα για
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mobile.html:181
 msgid "Recent <span class=\"mobile\">Mobile</span> News &amp; Updates"
-msgstr ""
+msgstr "Πρόσφατα νέα &amp; ενημερώσεις για<span class=\"mobile\">κινητά</span>"
 
 #: apps/landing/templates/landing/mobile.html:186
 msgid "All mobile development entries"
-msgstr ""
+msgstr "Όλες οι εγγραφές για ανάπτυξη σε κινητά"
 
 #: apps/landing/templates/landing/mobile.html:193
 msgid "Correspondence on Twitter from the Mobile developer community."
-msgstr ""
+msgstr "Ανταποκρίσεις της κοινότητας δημιουργών για κινητά από το Twitter."
 
 #: apps/landing/templates/landing/mozilla.html:16
 msgid "Welcome to the Mozilla Developer Community:"
-msgstr ""
+msgstr "Καλώς ορίσατε στην κοινότητα δημιουργών Mozilla:"
 
 #: apps/landing/templates/landing/mozilla.html:24
 msgid "Join the Mozilla discussions!"
@@ -2371,19 +2371,19 @@ msgstr "Συμμετέχετε στις συζητήσεις Mozilla!"
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:38
 msgid "Popular <span class=\"mozilla\">Mozilla</span> Documentation"
-msgstr ""
+msgstr "Δημοφιλής τεκμηρίωση <span class=\"mozilla\">Mozilla</span>"
 
 #: apps/landing/templates/landing/mozilla.html:43
 msgid "/en/Developer_Guide"
-msgstr ""
+msgstr "/en/Developer_Guide"
 
 #: apps/landing/templates/landing/mozilla.html:43
 msgid "Mozilla Developer Guide"
-msgstr ""
+msgstr "Οδηγός δημιουργών Mozilla"
 
 #: apps/landing/templates/landing/mozilla.html:45
 msgid "Whether you're an old hand or just getting started, this is the best way to get started with Mozilla development."
-msgstr ""
+msgstr "Είτε είστε παλιοσειρά, είτε ξεκινάτε μόλις τώρα, αυτός είναι ο καλύτερος τρόπος για να ξεκινήσετε με την ανάπτυξη του έργου Mozilla."
 
 #: apps/landing/templates/landing/mozilla.html:52
 msgid "/en/The_Mozilla_platform"
@@ -2399,7 +2399,7 @@ msgstr "Μάθετε περισσότερα για την τεχνολογία �
 
 #: apps/landing/templates/landing/mozilla.html:63
 msgid "There are several ways you can use Mozilla code in your own project. Find everything you need to develop \"powered by Mozilla\" applications."
-msgstr ""
+msgstr "Υπάρχουν διάφοροι τρόποι που μπορείτε να χρησιμοποιήσετε τον κώδικα του Mozilla στο δικό σας έργο. Βρείτε όλα όσα θα χρειαστείτε για να φτιάξετε εφαρμογές που θα είναι «powered by Mozilla»."
 
 #: apps/landing/templates/landing/mozilla.html:71
 msgid "/en/Debugging"
@@ -2411,11 +2411,11 @@ msgstr "Αποσφαλμάτωση"
 
 #: apps/landing/templates/landing/mozilla.html:73
 msgid "Mozilla developers have come up with not just technologies and features to help you debug code, but have devised tips and techniques that can help too."
-msgstr ""
+msgstr "Οι δημιουργοί του έργου Mozilla δεν έχουν φτιάξει μόνο την απαραίτητη τεχνολογία και τα εργαλεία για την αποσφαλμάτωση του κώδικα σας, αλλά διαθέτουν και σχεδιαστικές συμβουλές και τεχνικές που θα σας βοηθήσουν."
 
 #: apps/landing/templates/landing/mozilla.html:83
 msgid "Localization (L10n) is the process of translating software user interfaces from one language to another and adapting it to suit a foreign culture. These resources are about making Mozilla-based applications/extensions localizable."
-msgstr ""
+msgstr "Με τον όρο localization (L10n), εννοούμε τη διαδικασία μετάφρασης της διασύνδεσης χρήστη ενός προγράμματος από μια γλώσσα σε μια άλλη και την προσαρμογή του στην αντίστοιχη κουλτούρα και τις ανάγκες αυτής της γλώσσας. Αυτές οι πηγές αφορούν τη διαδικασία προετοιμασίας των εφαρμογών/επεκτάσεων που βασίζονται σε κώδικα του Mozilla για την υποστήριξη localization."
 
 #: apps/landing/templates/landing/mozilla.html:92
 #: apps/landing/templates/landing/mozilla.html:109
@@ -2462,7 +2462,7 @@ msgstr "Όλες οι εγγραφές για ανάπτυξη εφαρμογώ�
 
 #: apps/landing/templates/landing/mozilla.html:128
 msgid "Correspondence on Twitter from the Mozilla developer community."
-msgstr "Ανταποκρίσεις της κοινότητας Mozilla developer από το Twitter."
+msgstr "Ανταποκρίσεις της κοινότητας δημιουργών Mozilla από το Twitter."
 
 #: apps/landing/templates/landing/newsfeed.html:12
 msgid "Written by %(authorlink)s on %(entrydate)s"
@@ -2565,7 +2565,7 @@ msgstr "Όλες οι εγγραφές για ανάπτυξη στο διαδί
 
 #: apps/landing/templates/landing/web.html:108
 msgid "Correspondence on Twitter from the Web developer community."
-msgstr ""
+msgstr "Ανταποκρίσεις της κοινότητας δημιουργών για το διαδίκτυο από το Twitter."
 
 #: apps/landing/templates/sidebar/twitter.html:3
 msgid "MDN on Twitter"
@@ -2591,7 +2591,7 @@ msgstr "Εσωτερικό σφάλμα διακομιστή"
 
 #: templates/base.html:49
 msgid "A comprehensive, usable, and accurate resource for everyone developing for the Open Web."
-msgstr "Ένας περιεκτικός, εύχρηστος και ακριβής πόρος γνώσης για τον καθένα που αναπτύσσει για το ανοικτό διαδίκτυο."
+msgstr "Μια περιεκτική, εύχρηστη και ακριβής πηγή γνώσης για οποιονδήποτε αναπτύσσει για το ανοικτό διαδίκτυο."
 
 #: templates/base.html:59
 msgid "Search MDN"
