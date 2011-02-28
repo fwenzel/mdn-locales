@@ -245,7 +245,7 @@ msgstr "http://www.w3.org/TR/FileAPI/"
 
 #: apps/demos/__init__.py:104
 msgid "Fonts & Type"
-msgstr ""
+msgstr "Fonts & Type"
 
 #: apps/demos/__init__.py:105
 msgid "The CSS3-Font specification contains enhanced features for fonts and typography like embedding own fonts via @font-face or controlling OpenType font features directly via CSS."
@@ -1001,7 +1001,7 @@ msgstr ""
 #: apps/demos/templates/demos/detail.html:85
 #: apps/demos/templates/demos/launch.html:34
 msgid "You Like"
-msgstr ""
+msgstr "Σας αρέσει"
 
 #: apps/demos/templates/demos/detail.html:90
 #: apps/demos/templates/demos/launch.html:39
@@ -1324,7 +1324,7 @@ msgstr "Ετοιμάζοντας το demo σας"
 
 #: apps/demos/templates/demos/submit.html:124
 msgid "<ul> <li>Your demos source code should be packaged inside a ZIP file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the ZIP.</li> <li>Your demo should be built on client-side technology (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use AJAX to access them.</li> <li>To submit your demo, you need an <a href=\"%(signup_url)s\">MDN account</a>.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
-msgstr ""
+msgstr "<ul> <li>Ο πηγαίος κώδικας του demo σας θα πρέπει να είναι πακεταρισμένος σε αρχείο ZIP.</li> <li>Η κεντρική σελίδα του demo σας θα πρέπει να ένα αρχείο με όνομα <code>index.html</code> στο βασικό κατάλογο του ZIP.</li> <li>Το demo  σας θα πρέπει να χρησιμοποιεί μόνο τεχνολογία client-side (HTML, CSS, JavaScript). Δεν υποστηρίζονται γλώσσες server-side όπως η PHP και η Ruby.</li> <li>Αν το demo  σας απαιτεί εξωτερικούς πόρους, θα πρέπει να χρησιμοποιήσετε AJAX για την πρόσβαση τους.</li> <li>Για να υποβάλετε το demo σας, θα πρέπει να έχετε ένα <a href=\"%(signup_url)s\">λογαριασμό στο MDN</a>.</li> <li>Σας παρακαλούμε να γνωστοποιήσετε στο πλαίσιο λεπτομερειών του demo τυχών περιεχόμενο τρίτων που δεν μπορεί να διατεθεί σύμφωνα με την άδεια CC-BY-SA και να συμπεριλάβετε δεσμούς στις σελίδες των δημιουργών του.</li> </ul>"
 
 #: apps/demos/templates/demos/submit.html:137
 msgid "Provide the Source Code"
@@ -1546,7 +1546,7 @@ msgstr "Εκκίνηση {title}"
 
 #: apps/demos/templates/demos/elements/tags_list.html:2
 msgid "Browse by Technology"
-msgstr ""
+msgstr "Περιήγηση με βάση την τεχνολογία"
 
 #: apps/devmo/__init__.py:6
 #: apps/docs/templates/docs/docs.html:70
@@ -1584,7 +1584,7 @@ msgstr "Αυτό το URL έχει μη έγκυρη μορφή. Τα έγκυρ
 
 #: apps/docs/views.py:33
 msgid "(multiple)"
-msgstr ""
+msgstr "(πολλαπλά)"
 
 #: apps/docs/templates/docs/docs.html:7
 #: templates/base.html:77
@@ -1934,7 +1934,7 @@ msgstr "Συνδρομή"
 
 #: apps/landing/templates/landing/addons.html:24
 msgid "Join the Add-ons discussions!"
-msgstr ""
+msgstr "Συμμετέχετε στις συζητήσεις για πρόσθετα!"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/addons.html:38
@@ -2336,8 +2336,9 @@ msgid "Hear from other developers about the advantages of HTML5 and developing f
 msgstr "Ακούστε τι λένε άλλοι προγραμματιστές για τα πλεονεκτήματα της HTML5 και την ανάπτυξη στο ιστό για κινητά, σ' αυτό το άρθρο του ReadWriteWeb:"
 
 #: apps/landing/templates/landing/mobile.html:158
+#, fuzzy
 msgid "\"'Hands down, the developer pool for HTML / JS rock stars is tenfold larger [and] there is no download attrition. You simply point people at a URL and there you go -- it's installed.' The fact that apps can be directly installed by URL rather than by waiting for an App Store download means that developers reduce barriers to virality.\""
-msgstr ""
+msgstr "«Πολύ απλά, the developer pool for HTML / JS rock stars is tenfold larger [and] there is no download attrition. Απλά δίνεις ένα δεσμό για το URL στους χρήστες και γίνεται αυτόματα η εγκατάσταση.' Το γεγονός ότι οι εφαρμογές μπορούν να εγκατασταθούν από ένα οποιοδήποτε URL αντί να περιμένει ο χρήστης να κατεβάσει κάτι από ένα App Store, σημαίνει ότι έτσι οι δημιουργοί μειώνουν τους φραγμούς στη διαδικασία  προώθησης της εφαρμογής τους.»"
 
 #: apps/landing/templates/landing/mobile.html:168
 msgid "Android APIs"
@@ -2424,7 +2425,7 @@ msgstr "/en/Tools"
 
 #: apps/landing/templates/landing/mozilla.html:92
 msgid "All applications development documentation"
-msgstr ""
+msgstr "Όλη η τεκμηρίωση για ανάπτυξη εφαρμογών"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:98
