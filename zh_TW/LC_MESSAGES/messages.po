@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2011-02-23 17:03+0200\n"
+"PO-Revision-Date: 2011-03-01 20:12+0200\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: none\n"
 "Language: zh_TW\n"
@@ -470,9 +470,8 @@ msgstr "輸入基本資訊並選擇 UI 組件以自動產生打包好的附加�
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:38
-#, fuzzy
 msgid "Awesome <span class=\"web\">Web</span> Demos"
-msgstr "<span class=\"web\">Web</span> 開發者的重點主題"
+msgstr "超棒的 <span class=\"web\">Web</span> Demo"
 
 #: apps/demos/__init__.py:280
 msgid "BSD"
@@ -725,7 +724,7 @@ msgstr "裝置"
 
 #: apps/demos/models.py:313
 msgid "Disable navigation bar, launch demo in a new window"
-msgstr ""
+msgstr "停用導覽列，將 demo 在新視窗中開啟"
 
 #: apps/demos/templates/demos/submit.html:185
 msgid "Discard Changes"
@@ -741,7 +740,7 @@ msgstr "您喜歡這個 Demo 嗎？"
 
 #: apps/landing/templates/landing/web.html:48
 msgid "Do you want to show the world what the Web can do? Demo Studio is your place for sharing awesome demos and experiments with the latest Web standards and open technologies."
-msgstr ""
+msgstr "您想要向全世界展示網頁可以變成什麼樣子嗎？Demo Studio 是您分享超讚 demo 與實驗最新的網頁標準及開放技術的最好的地方。"
 
 #: apps/docs/templates/docs/docs.html:7 templates/base.html:77 templates/base_compact.html:26
 msgid "Doc Center"
@@ -986,9 +985,8 @@ msgid "HTML5 is the newest version of the HTML standard, currently under develop
 msgstr "HTML5 是最新版本的 HTML 標準，目前還在開發中。"
 
 #: apps/landing/templates/landing/web.html:51
-#, fuzzy
 msgid "Hacks Blog"
-msgstr "Hacks Demos"
+msgstr "Hacks Blog"
 
 #: apps/landing/templates/landing/mobile.html:152
 msgid "Hear from other developers about the advantages of HTML5 and developing for the mobile Web in this article from ReadWriteWeb:"
@@ -1036,7 +1034,7 @@ msgstr "如果您對於命令列模式很熟悉，並且比較喜歡在本地工
 
 #: apps/demos/templates/demos/submit.html:119
 msgid "If your demo has problems when displayed in an <iframe>, try changing this."
-msgstr ""
+msgstr "若您的 demo 在 <iframe> 當中顯示時會發生問題，請試著修改此項。"
 
 #: apps/demos/__init__.py:215
 msgid "In the context of the HTML canvas element WebGL provides an API for 3D graphics in the browser."
@@ -1141,7 +1139,7 @@ msgstr "了解更多關於 <a href=\"%(devmo_mobile)s\">Fennec</a> 與像是 <a 
 
 #: apps/landing/templates/landing/web.html:52
 msgid "Learn more about developer features and the latest technologies through articles and demos on the Hacks Blog."
-msgstr ""
+msgstr "於 Hacks Blog 透過文章與 demo 了解更多開發者功能與最新的技術。"
 
 #: apps/landing/templates/landing/mozilla.html:54
 msgid "Learn more about the technologies at the core of Mozilla products and services."
@@ -1768,7 +1766,6 @@ msgid "The Geolocation API allows web applications to access the user's geograph
 msgstr "地理位置 API 允許網頁應用程式讀取使用者的地理位置資料。"
 
 #: apps/demos/__init__.py:67
-#, fuzzy
 msgid "The HTML5 canvas element allows you to display scriptable renderings of 2D shapes and bitmap images."
 msgstr "HTML5 canvas 元素允許顯示透過程式產生的 2D 圖形與點陣圖。"
 
@@ -1891,7 +1888,7 @@ msgstr ""
 
 #: apps/demos/models.py:314
 msgid "Use navigation bar, display demo in <iframe>"
-msgstr ""
+msgstr "使用導覽列，將 demo 顯示於 <iframe> 之中"
 
 #: apps/docs/templates/docs/docs.html:100 apps/landing/templates/landing/mozilla.html:61
 msgid "Using Mozilla code in other projects"
@@ -1917,7 +1914,7 @@ msgstr "想要幫助我們讓網路變得更好？"
 
 #: apps/landing/templates/landing/web.html:44
 msgid "Want to see what the Web is really capable of? Explore the Web o' Wonder website and prepare to be amazed!"
-msgstr ""
+msgstr "想看看網頁可以有什麼潛力？探索 Web o' Wonder 網站並請準備好開始您的驚異奇航！"
 
 #: apps/landing/templates/landing/addons.html:73
 msgid "Watch <span class=\"addons\">Add-on</span> Videos"
@@ -1944,9 +1941,8 @@ msgid "Web"
 msgstr "Web"
 
 #: apps/landing/templates/landing/web.html:43
-#, fuzzy
 msgid "Web O' Wonder"
-msgstr "Web Workers"
+msgstr "Web O' Wonder"
 
 #: apps/docs/templates/docs/glossary.html:14
 msgid "Web Storage"
@@ -2067,14 +2063,12 @@ msgstr ""
 "您的幫助是 Firefox 成功的關鍵。您可以在我們的 <a href=\"%(irc_url)s\">IRC 頻道</a>，<a href=\"%(meeting_url)s\">參加我們每週三的開發會議</a>，或是 <a href=\"%(bugzilla_url)s\">送出一些臭蟲回報</a>。"
 
 #: apps/demos/models.py:507
-#, fuzzy
 msgid "ZIP file contains a file that is too large: %(filename)s"
-msgstr "ZIP 檔當中包含了太大的檔案"
+msgstr "ZIP 檔當中包含了太大的檔案: %(filename)s"
 
 #: apps/demos/models.py:516
-#, fuzzy
 msgid "ZIP file contains an unacceptable file: %(filename)s"
-msgstr "ZIP 檔當中包含了不被接受的檔案"
+msgstr "ZIP 檔當中包含了不被接受的檔案: %(filename)s"
 
 #: apps/demos/models.py:485 apps/demos/models.py:492
 msgid "ZIP file contains no acceptable files"
@@ -2098,7 +2092,7 @@ msgstr "由 %(profile_link)s"
 
 #: apps/demos/models.py:311
 msgid "control how your demo is launched"
-msgstr ""
+msgstr "控制如何執行您的 demo"
 
 #: apps/contentflagging/models.py:65
 msgid "current status of flag review"
