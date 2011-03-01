@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2011-03-01 18:27+0200\n"
-"Last-Translator: Michael <michael.koehler1@gmx.de>\n"
+"PO-Revision-Date: 2011-03-01 20:52+0200\n"
+"Last-Translator: Thomas <thomas.lendo@gmail.com>\n"
 "Language-Team: none\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -253,7 +253,10 @@ msgstr "<cite class=\"author fn\">%(comment_profile_link)s</cite> schrieb,"
 
 #: apps/demos/templates/demos/detail.html:183
 msgid "<p><a href=\"/Special:UserRegistration\">Register</a> or <a href=\"/Special:UserLogin\">log in</a> to add your own.</p>"
-msgstr "<p><a href=\"/Special:UserRegistration\">Registrieren Sie sich</a> oder <a href=\"/Special:UserLogin\">Melden Sie sich an</a>, um Ihre eigene hinzuzufügen.</p>"
+msgstr ""
+"<p><a href=\"/Special:UserRegistration\">Registrieren Sie sich</a> oder <a "
+"href=\"/Special:UserLogin\">melden Sie sich an</a>, um Ihre eigenen "
+"hinzuzufügen.</p>"
 
 #: apps/demos/templates/demos/delete_comment.html:39
 msgid "<p>Are you sure that you would like to delete this comment?</p>"
@@ -280,10 +283,15 @@ msgid ""
 "<strong>demos</strong> that showcase what HTML, CSS, and JavaScript can do.</li> <li>Inspect the <strong>source code</strong> for those demos so you can see how they work.</li> <li>Read "
 "<strong>documentation</strong> to learn about the open standards and technologies that power the Web.</li> </ul>"
 msgstr ""
-"<p>Willkommen beim Mozilla Demo Studio, wo Entwickler wie Sie entwickeln, sich austauschen, vorführen und alles über Web-Technologien erfahren können. Sehen Sie sich bei einer Erkundung des Demo "
-"Studios an, was möglich ist:</li> <ul> <li>Sehen Sie sich <strong>Demos</strong> an, die zeigen, was HTML, CSS und JavaScript vollbringen können.</li> <li>Sehen Sie sich den <strong>Quelltext</"
-"strong> dieser Demos an, so dass Sie sehen können, wie sie funktionieren.</li> <li>Lesen Sie <strong>Dokumentation</strong>, um mehr über offene Standards und Technologien zu erfahren, die das "
-"Internet vorantreiben.</li> </ul>"
+"<p>Willkommen beim Mozilla Demo-Studio, wo Entwickler wie Sie entwickeln, "
+"sich austauschen, vorführen und alles über Web-Technologien erfahren können. "
+"Sehen Sie sich bei einer Erkundung des Demo-Studios an, was möglich "
+"ist:</li> <ul> <li>Sehen Sie sich <strong>Demos</strong> an, die zeigen, was "
+"HTML, CSS und JavaScript vollbringen können.</li> <li>Sehen Sie sich den "
+"<strong>Quelltext</strong> dieser Demos an, so dass Sie sehen können, wie "
+"sie funktionieren.</li> <li>Lesen Sie <strong>Dokumentation</strong>, um "
+"mehr über offene Standards und Technologien zu erfahren, die das Internet "
+"vorantreiben.</li> </ul>"
 
 #: apps/demos/templates/demos/submit_noauth.html:32
 msgid ""
@@ -298,8 +306,12 @@ msgid ""
 "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other "
 "web developers.</p> <p>Please complete the form below to ensure your demo is submitted to the Demo Studio successfully.</p>"
 msgstr ""
-"<p>Egal ob Sie eine tolle neue Möglichkeit schaffen, um das Internet zu erleben, oder nur mit den neusten Technologien experimentieren, wir laden Sie ein, Ihre eigenen Demos mit anderen Entwicklern "
-"zu teilen (oder damit anzugeben).</p> <p>Bitte füllen Sie das folgende Formular aus, um sicherzustellen, dass Ihre Demo erfolgreich an das Demo Studio übermitteln wird.</p>"
+"<p>Egal ob Sie eine tolle neue Möglichkeit schaffen, um das Internet zu "
+"erleben, oder nur mit den neusten Technologien experimentieren, wir laden "
+"Sie ein, Ihre eigenen Demos mit anderen Entwicklern zu teilen (oder damit "
+"anzugeben).</p> <p>Bitte füllen Sie das folgende Formular aus, um "
+"sicherzustellen, dass Ihre Demo erfolgreich an das Demo-Studio übermitteln "
+"wird.</p>"
 
 #: apps/demos/templates/demos/detail.html:179
 msgid "<p>Why not <a href=\"#comment-post\">Add your own</a>?</p>"
@@ -310,8 +322,10 @@ msgid ""
 "<p>You are about to remove <strong>%(demo_title)s</strong> from the Demo Studio.</p> <p>The Demo's listing, source code, and statistics will be <strong>deleted</strong>.</p> <p>This action "
 "<strong>cannot be undone</strong>."
 msgstr ""
-"<p>Sie sind dabei <strong>%(demo_title)s</strong> aus dem Demo Studio zu entfernen.</p> <p>Der Listeneintrag, der Quelltext und die Statistiken der Demo werden dabei <strong>gelöscht</strong>.</p> "
-"<p>Dies kann <strong>nicht rückgängig gemacht werden</strong>."
+"<p>Sie sind dabei <strong>%(demo_title)s</strong> aus dem Demo-Studio zu "
+"entfernen.</p> <p>Der Listeneintrag, der Quelltext und die Statistiken der "
+"Demo werden dabei <strong>gelöscht</strong>.</p> <p>Dies kann <strong>nicht "
+"rückgängig gemacht werden</strong>."
 
 #: apps/demos/templates/demos/submit_noauth.html:41
 msgid ""
@@ -319,9 +333,14 @@ msgid ""
 "<strong>open license</strong>, such as MPL, GPL, or BSD.</li> <li>Your demo should showcase <strong>open web technologies</strong>, such as HTML5 and CSS3.</li> <li>Your demo should support a wide "
 "range of <strong>modern web browsers</strong>, like Firefox, Chrome, Safari, and Opera.</li> </ul>"
 msgstr ""
-"<ul> <li>Sie müssen bereit sein, den <strong>Quelltext Ihrer Demo zur Verfügung zu stellen</strong>. Demos werden auf den Servern der Web-Galerie gespeichert.</li> <li>Der Quelltext Ihrer Demo muss "
-"unter einer <strong>offenen Lizenz</strong> stehen, zum Beispiel Creative Commons, GPL oder BSD.</li> <li>Ihre Demo sollte <strong>Technologien des offenen Webs</strong> präsentieren, z.B. HTML5 "
-"und CSS3.</li> <li>Ihre Demo sollte eine große Zahl <strong>moderner Webbrowser</strong> unterstützen, z.B. Firefox, Chrome, Safari und Opera.</li> </ul>"
+"<ul> <li>Sie müssen bereit sein, den <strong>Quelltext Ihrer Demo zur "
+"Verfügung zu stellen</strong>. Demos werden auf den Servern von Demo-Studio "
+"gespeichert.</li> <li>Der Quelltext Ihrer Demo muss unter einer "
+"<strong>offenen Lizenz</strong> stehen, zum Beispiel Creative Commons, GPL "
+"oder BSD.</li> <li>Ihre Demo sollte <strong>Technologien des offenen "
+"Webs</strong> präsentieren, z.B. HTML5 und CSS3.</li> <li>Ihre Demo sollte "
+"eine große Zahl <strong>moderner Webbrowser</strong> unterstützen, z.B. "
+"Firefox, Chrome, Safari und Opera.</li> </ul>"
 
 #: apps/demos/templates/demos/submit_noauth.html:53
 msgid ""
@@ -692,7 +711,7 @@ msgstr "Diesen Kommentar löschen?"
 #: apps/demos/templates/demos/listing_tag.html:19 apps/demos/templates/demos/profile_detail.html:23 apps/demos/templates/demos/submit.html:43 apps/demos/templates/demos/submit_noauth.html:19
 #: apps/landing/templates/landing/web.html:47 templates/base.html:78 templates/base_compact.html:18
 msgid "Demo Studio"
-msgstr "Demo Studio"
+msgstr "Demo-Studio"
 
 #: apps/demos/templates/demos/detail.html:253
 msgid "Demo is inappropriate"
@@ -736,7 +755,7 @@ msgstr "Orientierung eines Gerätes bestimmen"
 
 #: apps/landing/templates/landing/web.html:20
 msgid "Develop for an open and participatory Web."
-msgstr "Entwickeln Sie für ein offenes und Web, an dem alle teilhaben können."
+msgstr "Entwickeln Sie für ein offenes Web, an dem alle teilhaben können."
 
 #: apps/landing/templates/landing/home.html:195
 msgid "Developing Add-ons"
@@ -773,9 +792,9 @@ msgstr "Gefällt Ihnen diese Demo?"
 #: apps/landing/templates/landing/web.html:48
 msgid "Do you want to show the world what the Web can do? Demo Studio is your place for sharing awesome demos and experiments with the latest Web standards and open technologies."
 msgstr ""
-"Möchten Sie der Welt zeigen, wozu das Internet fähig ist? Das Demo Studio "
+"Möchten Sie der Welt zeigen, wozu das Internet fähig ist? Das Demo-Studio "
 "ist Ihr Ort, an dem Sie wunderbare Demos und Experimente mit den neuesten "
-"Web-Standards und offenen Technologien weitergeben können."
+"Webstandards und offenen Technologien weitergeben können."
 
 #: apps/docs/templates/docs/docs.html:7 templates/base.html:77 templates/base_compact.html:26
 msgid "Doc Center"
@@ -1065,7 +1084,10 @@ msgstr "Hypertext Markup Language, die Haupt-Technologie des Webs."
 
 #: apps/demos/templates/demos/submit.html:166
 msgid "I accept the Mozilla Demo Studio <a href=\"%(terms_url)s#tfc\">Terms for Contributors</a> and <a href=\"%(terms_url)s#rrd\">Rights Representation Details</a>"
-msgstr "Ich akzeptiere die <a href=\"%(terms_url)s#tfc\">Bedingungen für Beitragende</a> des Mozilla Demo Studios und die <a href=\"%(terms_url)s#rrd\">Hinweise zur Repräsentation von Rechten</a>"
+msgstr ""
+"Ich akzeptiere die <a href=\"%(terms_url)s#tfc\">Bedingungen für "
+"Beitragende</a> des Mozilla Demo-Studios und die <a href=\"%"
+"(terms_url)s#rrd\">Hinweise zur Repräsentation von Rechten</a>"
 
 #: apps/landing/templates/landing/addons.html:45
 msgid "If you are comfortable with a command line and prefer working locally, the Add-ons Builder SDK gives you a development environment on your own computer."
@@ -1221,11 +1243,11 @@ msgstr "Mit Benutzerkonto anmelden"
 
 #: apps/landing/templates/landing/home.html:24 templates/includes/login.html:6
 msgid "Log in"
-msgstr "Einloggen"
+msgstr "Anmelden"
 
 #: templates/includes/login.html:3 templates/includes/login.html:10
 msgid "Log out"
-msgstr "Ausloggen"
+msgstr "Abmelden"
 
 #: apps/demos/templates/demos/delete.html:20 apps/demos/templates/demos/delete_comment.html:20 apps/demos/templates/demos/detail.html:13 apps/demos/templates/demos/flag.html:20
 #: apps/demos/templates/demos/listing_all.html:17 apps/demos/templates/demos/listing_search.html:23 apps/demos/templates/demos/listing_tag.html:18 apps/demos/templates/demos/profile_detail.html:22
@@ -1332,7 +1354,7 @@ msgstr "Mozilla"
 
 #: apps/demos/templates/demos/home.html:22
 msgid "Mozilla Demo Studio"
-msgstr "Mozilla Demo Studio"
+msgstr "Mozilla Demo-Studio"
 
 #: apps/landing/templates/landing/mozilla.html:43
 msgid "Mozilla Developer Guide"
@@ -1627,7 +1649,7 @@ msgstr "Surchergebnisse für Demo-Einreichungen, die zu &ldquo;%s&rdquo; passen"
 
 #: apps/demos/templates/demos/elements/search_form.html:4
 msgid "Search the Demo Studio"
-msgstr "Demo Studio durchsuchen"
+msgstr "Demo-Studio durchsuchen"
 
 #: apps/docs/templates/docs/glossary.html:22
 msgid "Security"
