@@ -17,21 +17,18 @@ msgid ""
 "\"'Hands down, the developer pool for HTML / JS rock stars is tenfold larger [and] there is no download attrition. You simply point people at a URL and there you go -- it's installed.' The fact "
 "that apps can be directly installed by URL rather than by waiting for an App Store download means that developers reduce barriers to virality.\""
 msgstr ""
-"\"「明らかに、HTML / JS のロックスターのための開発者層は10倍多く、ダウンロード数が減少することはありません。単に人々に URL "
-"を指し示すだけでいいのです。ほら、インストールしてくれたでしょう。」アプリケーションが App Store からダウンロードされるのを待つのではなく "
-"URL で直接インストールできることは、開発者の口コミを拡げるための敷居を減少させます。\""
+"\"「明らかに、HTML / JS のロックスターのための開発者層は10倍多く、ダウンロード数が減少することはありません。単に人々に URL を指し示すだけでいいのです。ほら、インストールしてくれたでしょう。」アプリ"
+"ケーションが App Store からダウンロードされるのを待つのではなく URL で直接インストールできることは、開発者の口コミを拡げるための敷居を減少させます。\""
 
 # web, Favorite Web Developer Tools - Firebug 上テキスト
-#: apps/landing/templates/landing/web.html:75
+#: apps/landing/templates/landing/web.html:93
 msgid "\"An absolute necessity for anyone doing serious web development. Awesome!!!!\""
 msgstr "\"本格的な Web 開発を行う誰にとっても絶対に不可欠なものです。素晴らしい!!!!\""
 
 # docs, Popular Topics for Web Developers - AJAX
 #: apps/docs/templates/docs/docs.html:53
 msgid "\"Asynchronous JavaScript and XML\" is a term that describes the use of all these technologies together to create powerful web applications."
-msgstr ""
-"\"Asynchronous JavaScript and XML\" は、これらの技術をすべて使い、パワフルな Web "
-"アプリケーションを作成することを指しています。"
+msgstr "\"Asynchronous JavaScript and XML\" は、これらの技術をすべて使い、パワフルな Web アプリケーションを作成することを指しています。"
 
 # mobile, Favorite Mobile Articles - リンク先記事タイトル
 # "HTML5 はモバイルにとって素晴らしい、と開発者は言う"
@@ -102,7 +99,7 @@ msgstr "(multiple)"
 msgid "/en/AJAX"
 msgstr "/ja/AJAX"
 
-#: apps/docs/templates/docs/docs.html:44 apps/docs/templates/docs/glossary.html:5 apps/landing/templates/landing/home.html:181 apps/landing/templates/landing/web.html:55
+#: apps/docs/templates/docs/docs.html:44 apps/docs/templates/docs/glossary.html:5 apps/landing/templates/landing/home.html:181 apps/landing/templates/landing/web.html:73
 msgid "/en/CSS"
 msgstr "/ja/CSS"
 
@@ -118,7 +115,7 @@ msgstr "/ja/CSS/Using_CSS_transforms"
 msgid "/en/Creating_OpenSearch_plugins_for_Firefox"
 msgstr "/ja/Creating_OpenSearch_plugins_for_Firefox"
 
-#: apps/docs/templates/docs/docs.html:48 apps/docs/templates/docs/glossary.html:8 apps/landing/templates/landing/home.html:189 apps/landing/templates/landing/web.html:59
+#: apps/docs/templates/docs/docs.html:48 apps/docs/templates/docs/glossary.html:8 apps/landing/templates/landing/home.html:189 apps/landing/templates/landing/web.html:77
 msgid "/en/DOM"
 msgstr "/ja/DOM"
 
@@ -155,7 +152,7 @@ msgid "/en/HTML/Element/canvas"
 msgstr "/ja/HTML/Element/canvas"
 
 #: apps/docs/templates/docs/docs.html:36 apps/docs/templates/docs/glossary.html:7 apps/landing/templates/landing/home.html:72 apps/landing/templates/landing/home.html:78
-#: apps/landing/templates/landing/web.html:47
+#: apps/landing/templates/landing/web.html:65
 msgid "/en/HTML/HTML5"
 msgstr "/ja/HTML/HTML5"
 
@@ -163,7 +160,7 @@ msgstr "/ja/HTML/HTML5"
 msgid "/en/IndexedDB"
 msgstr "/ja/IndexedDB"
 
-#: apps/docs/templates/docs/docs.html:40 apps/docs/templates/docs/glossary.html:6 apps/landing/templates/landing/home.html:185 apps/landing/templates/landing/web.html:51
+#: apps/docs/templates/docs/docs.html:40 apps/docs/templates/docs/glossary.html:6 apps/landing/templates/landing/home.html:185 apps/landing/templates/landing/web.html:69
 msgid "/en/JavaScript"
 msgstr "/ja/JavaScript"
 
@@ -240,7 +237,7 @@ msgstr "/ja/Using_web_workers"
 msgid "/en/WebGL"
 msgstr "/ja/WebGL"
 
-#: apps/landing/templates/landing/web.html:63
+#: apps/landing/templates/landing/web.html:81
 msgid "/en/Web_Development"
 msgstr "/ja/Web_Development"
 
@@ -251,19 +248,15 @@ msgstr "/ja/mobile"
 # home, DOCS タブ - ADD-ONS テキスト
 #: apps/landing/templates/landing/home.html:140
 msgid "<a href=\"%(builder_url)s\">Build your own add-ons</a> and discuss them with the <a href=\"%(dev_url)s\">add-on developer community</a>."
-msgstr ""
-"<a href=\"%(builder_url)s\">独自のアドオンを作成し</a>、<a href=\"%"
-"(dev_url)s\">アドオン開発者コミュニティ</a>で話し合ってください。"
+msgstr "<a href=\"%(builder_url)s\">独自のアドオンを作成し</a>、<a href=\"%(dev_url)s\">アドオン開発者コミュニティ</a>で話し合ってください。"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:9
 msgid "<cite class=\"author fn\">%(comment_profile_link)s</cite> said,"
 msgstr "<cite class=\"author fn\">%(comment_profile_link)s</cite> によるコメント"
 
-#: apps/demos/templates/demos/detail.html:181
+#: apps/demos/templates/demos/detail.html:183
 msgid "<p><a href=\"/Special:UserRegistration\">Register</a> or <a href=\"/Special:UserLogin\">log in</a> to add your own.</p>"
-msgstr ""
-"<p><a href=\"/Special:UserRegistration\">ユーザ登録</a> または <a "
-"href=\"/Special:UserLogin\">ログイン</a> してご自身で追加してください。</p>"
+msgstr "<p><a href=\"/Special:UserRegistration\">ユーザ登録</a> または <a href=\"/Special:UserLogin\">ログイン</a> してご自身で追加してください。</p>"
 
 #: apps/demos/templates/demos/delete_comment.html:39
 msgid "<p>Are you sure that you would like to delete this comment?</p>"
@@ -275,30 +268,24 @@ msgstr "<p>あなたのデモの名前や説明、使用されている技術に
 
 #: apps/demos/templates/demos/submit_noauth.html:65
 msgid "<p>To submit your demo, you need an <strong><a href=\"%(signup_url)s\">MDN account</a></strong>.</p>"
-msgstr ""
-"<p>デモを投稿するには <strong><a href=\"%(signup_url)s\">MDN アカウント</a></strong> "
-"が必要です。</p>"
+msgstr "<p>デモを投稿するには <strong><a href=\"%(signup_url)s\">MDN アカウント</a></strong> が必要です。</p>"
 
 # ログインユーザに対して表示されるソース投稿ページのアップロードファイル指定ボックスの説明文
-#: apps/demos/templates/demos/submit.html:138
+#: apps/demos/templates/demos/submit.html:139
 msgid "<p>Upload a ZIP file of your source code, in which the main page of your demo is named <code>index.html</code> in the root directory.</p>"
-msgstr ""
-"<p>ソースコードの ZIP ファイルをアップロードしてください。デモのメインページはルートディレクトリで "
-"<code>index.html</code> となっている必要があります。</p>"
+msgstr "<p>ソースコードの ZIP ファイルをアップロードしてください。デモのメインページはルートディレクトリで <code>index.html</code> となっている必要があります。</p>"
 
 # トップページのサイト説明の文言
 #: apps/demos/templates/demos/home.html:23
+#, fuzzy
 msgid ""
-"<p>Welcome to Mozilla Demo Studio, where developers like you can develop, share, demonstrate, and learn all about Web technologies. See whats possible by exploring Demo Studio:</p> <ul> <li>View "
+"<p>Welcome to Mozilla Demo Studio, where developers like you can develop, share, demonstrate, and learn all about Web technologies. See what’s possible by exploring Demo Studio:</p> <ul> <li>View "
 "<strong>demos</strong> that showcase what HTML, CSS, and JavaScript can do.</li> <li>Inspect the <strong>source code</strong> for those demos so you can see how they work.</li> <li>Read "
 "<strong>documentation</strong> to learn about the open standards and technologies that power the Web.</li> </ul>"
 msgstr ""
-"<p>Mozilla Demo Studio へようこそ。ここはあなたのような開発者が Web "
-"技術に関するあらゆることを開発したり、共有したり、デモしたり、そして、学んだりできるところです。Demo Studio "
-"サイト内で可能なことは次のことです:</p> <ul> <li>HTML、CSS、JavaScript で行えることのショーケースとしての<strong"
-">デモ</strong>を見る。</li><li>デモがどうやって動いているかを理解するためにその<strong>ソースコード</strong>を調べる"
-"。</li> <li>Web "
-"に力を与えているオープンな標準および技術について学ぶために<strong>ドキュメンテーション</strong>を読む。</li> </ul>"
+"<p>Mozilla Demo Studio へようこそ。ここはあなたのような開発者が Web 技術に関するあらゆることを開発したり、共有したり、デモしたり、そして、学んだりできるところです。Demo Studio サイト内で可能なことは"
+"次のことです:</p> <ul> <li>HTML、CSS、JavaScript で行えることのショーケースとしての<strong>デモ</strong>を見る。</li><li>デモがどうやって動いているかを理解するためにその<strong>ソースコード</strong>"
+"を調べる。</li> <li>Web に力を与えているオープンな標準および技術について学ぶために<strong>ドキュメンテーション</strong>を読む。</li> </ul>"
 
 # ログイン後のデモ投稿画面の一番冒頭の文言
 #: apps/demos/templates/demos/submit_noauth.html:32
@@ -306,21 +293,18 @@ msgid ""
 "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other "
 "web developers.</p>"
 msgstr ""
-"<p>あなたが作成したものが、まだ Web "
-"では体験したことがない、驚くような新しいものであるか、単に最新の技術の成果を体験できるものなだけであるかに関わらず、あなた自身のデモを他の Web "
-"開発者と共有、もしくは、お披露目するために投稿することをおすすめします。</p>"
+"<p>あなたが作成したものが、まだ Web では体験したことがない、驚くような新しいものであるか、単に最新の技術の成果を体験できるものなだけであるかに関わらず、あなた自身のデモを他の Web 開発者と共有、もし"
+"くは、お披露目するために投稿することをおすすめします。</p>"
 
 #: apps/demos/templates/demos/submit.html:67
 msgid ""
 "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other "
 "web developers.</p> <p>Please complete the form below to ensure your demo is submitted to the Demo Studio successfully.</p>"
 msgstr ""
-"<p>あなたが作成したものが、まだ Web "
-"では体験したことがない、驚くような新しいものであるか、単に最新の技術の成果を体験できるものなだけであるかに関わらず、あなた自身のデモを他の Web "
-"開発者と共有、もしくは、お披露目するために投稿することをおすすめします。</p> <p>Demo Studio "
-"にデモが上手く投稿されるようにするには、以下のフォームに必要事項を入力してください。</p>"
+"<p>あなたが作成したものが、まだ Web では体験したことがない、驚くような新しいものであるか、単に最新の技術の成果を体験できるものなだけであるかに関わらず、あなた自身のデモを他の Web 開発者と共有、もし"
+"くは、お披露目するために投稿することをおすすめします。</p> <p>Demo Studio にデモが上手く投稿されるようにするには、以下のフォームに必要事項を入力してください。</p>"
 
-#: apps/demos/templates/demos/detail.html:177
+#: apps/demos/templates/demos/detail.html:179
 msgid "<p>Why not <a href=\"#comment-post\">Add your own</a>?</p>"
 msgstr "<p><a href=\"#comment-post\">コメントを追加しませんか</a>?</p>"
 
@@ -329,52 +313,45 @@ msgid ""
 "<p>You are about to remove <strong>%(demo_title)s</strong> from the Demo Studio.</p> <p>The Demo's listing, source code, and statistics will be <strong>deleted</strong>.</p> <p>This action "
 "<strong>cannot be undone</strong>."
 msgstr ""
-"<p>Demo Studio から <strong>%(demo_title)s</strong> を削除しようとしています。</p> "
-"<p>該当デモの公開リストへの登録、そのソースコードおよび統計データは<strong>削除</strong>されます。</p> "
-"<p>この操作は<strong>取り消せません</strong>。"
+"<p>Demo Studio から <strong>%(demo_title)s</strong> を削除しようとしています。</p> <p>該当デモの公開リストへの登録、そのソースコードおよび統計データは<strong>削除</strong>されます。</p> <p>この操作"
+"は<strong>取り消せません</strong>。"
 
 #: apps/demos/templates/demos/submit_noauth.html:41
+#, fuzzy
 msgid ""
-"<ul> <li>You must be prepared to <strong>provide the source code</strong> for your demo. Demos are hosted on the Demo Studios servers.</li> <li>Your demos source code must be available under an "
+"<ul> <li>You must be prepared to <strong>provide the source code</strong> for your demo. Demos are hosted on the Demo Studio’s servers.</li> <li>Your demo’s source code must be available under an "
 "<strong>open license</strong>, such as MPL, GPL, or BSD.</li> <li>Your demo should showcase <strong>open web technologies</strong>, such as HTML5 and CSS3.</li> <li>Your demo should support a wide "
 "range of <strong>modern web browsers</strong>, like Firefox, Chrome, Safari, and Opera.</li> </ul>"
 msgstr ""
-"<ul> <li>あなたのデモの<strong>ソースコードを提供する</strong>ための準備をしなければなりません。デモは Demo Studio "
-"のサーバーにホストされます。</li> <li>あなたのデモのソースコードのライセンスは、MPL, GPL, BSD "
-"のような<strong>オープンライセンス</strong>にしなけれればなりません。</li> <li>あなたのデモは、HTML5 および CSS3 "
-"のような<strong>オープンな Web 技術</strong>を披露するものでなければなりません。</li> "
-"<li>あなたのデモは、Firefox, Chrome, Safari そして Opera のような<strong>モダン Web "
-"ブラウザ</strong>を幅広くサポートしなくてはなりません。</li> </ul>"
+"<ul> <li>あなたのデモの<strong>ソースコードを提供する</strong>ための準備をしなければなりません。デモは Demo Studio のサーバーにホストされます。</li> <li>あなたのデモのソースコードのライセンスは、"
+"MPL, GPL, BSD のような<strong>オープンライセンス</strong>にしなけれればなりません。</li> <li>あなたのデモは、HTML5 および CSS3 のような<strong>オープンな Web 技術</strong>を披露するものでなければな"
+"りません。</li> <li>あなたのデモは、Firefox, Chrome, Safari そして Opera のような<strong>モダン Web ブラウザ</strong>を幅広くサポートしなくてはなりません。</li> </ul>"
 
 #: apps/demos/templates/demos/submit_noauth.html:53
+#, fuzzy
 msgid ""
-"<ul> <li>Your demos source code should be packaged inside a <strong>ZIP file</strong>.</li> <li>The main page of your demo should be a file named <strong><code>index.html</code></strong> in the "
+"<ul> <li>Your demo’s source code should be packaged inside a <strong>ZIP file</strong>.</li> <li>The main page of your demo should be a file named <strong><code>index.html</code></strong> in the "
 "root of the ZIP.</li> <li>Your demo should be built on <strong>client-side technology</strong> (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your "
 "demo requires external resources, it should use <strong>AJAX</strong> to access them.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the CC-BY-"
 "SA license and include links to the authors' websites.</li> </ul>"
 msgstr ""
-"<ul> <li>あなたのデモのソースコードは <strong>ZIP ファイル</strong>に格納してください。</li> "
-"<li>あなたのデモのメインページは ZIP のルートディレクトリ内の <strong><code>index.html</code></strong> "
-"という名前のファイルにしてください。</li> <li>あなたのデモは<strong>クライアントサイドの技術</strong> (HTML, "
-"CSS, JavaScript) で作成されなければなりません。PHP や Ruby のようなサーバーサイド言語はサポートされていません。</li> "
-"<li>あなたのデモが外部リソースを必要とする場合は、それらに <strong>AJAX</strong> でアクセスしてください。</li> <li"
-">デモの詳細欄に、CC-BY-SA (表示-継承) の下でライセンスすることができないサードパーティのコンテンツを明記し、その作者の Web "
-"サイトへのリンクを記述してください。</li> </ul>"
+"<ul> <li>あなたのデモのソースコードは <strong>ZIP ファイル</strong>に格納してください。</li> <li>あなたのデモのメインページは ZIP のルートディレクトリ内の <strong><code>index.html</code></strong> と"
+"いう名前のファイルにしてください。</li> <li>あなたのデモは<strong>クライアントサイドの技術</strong> (HTML, CSS, JavaScript) で作成されなければなりません。PHP や Ruby のようなサーバーサイド言語はサ"
+"ポートされていません。</li> <li>あなたのデモが外部リソースを必要とする場合は、それらに <strong>AJAX</strong> でアクセスしてください。</li> <li>デモの詳細欄に、CC-BY-SA (表示-継承) の下でライセンスす"
+"ることができないサードパーティのコンテンツを明記し、その作者の Web サイトへのリンクを記述してください。</li> </ul>"
 
-#: apps/demos/templates/demos/submit.html:124
+#: apps/demos/templates/demos/submit.html:125
+#, fuzzy
 msgid ""
-"<ul> <li>Your demos source code should be packaged inside a ZIP file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the ZIP.</li> <li>Your demo "
+"<ul> <li>Your demo’s source code should be packaged inside a ZIP file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the ZIP.</li> <li>Your demo "
 "should be built on client-side technology (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use AJAX "
 "to access them.</li> <li>To submit your demo, you need an <a href=\"%(signup_url)s\">MDN account</a>.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed "
 "under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
 msgstr ""
-"<ul> <li>あなたのデモのソースコードは ZIP ファイルに格納してください。</li> <li>あなたのデモのメインページは ZIP "
-"のルートディレクトリ内の <code>index.html</code> という名前のファイルにしてください。</li> "
-"<li>あなたのデモはクライアントサイドの技術 (HTML, CSS, JavaScript) で作成されなければなりません。PHP や Ruby "
-"のようなサーバーサイド言語はサポートされていません。</li> <li>あなたのデモが外部リソースを必要とする場合は、それらに AJAX "
-"でアクセスしてください。</li> <li>あなたのデモを投稿するには、<a href=\"%(signup_url)s\">MDN "
-"アカウント</a>が必要です。</li> <li>デモの詳細欄に、CC-BY-SA (表示-継承) "
-"の下でライセンスすることができないサードパーティのコンテンツを明記し、その作者の Web サイトへのリンクを記述してください。</li> </ul>"
+"<ul> <li>あなたのデモのソースコードは ZIP ファイルに格納してください。</li> <li>あなたのデモのメインページは ZIP のルートディレクトリ内の <code>index.html</code> という名前のファイルにしてください。"
+"</li> <li>あなたのデモはクライアントサイドの技術 (HTML, CSS, JavaScript) で作成されなければなりません。PHP や Ruby のようなサーバーサイド言語はサポートされていません。</li> <li>あなたのデモが外部リ"
+"ソースを必要とする場合は、それらに AJAX でアクセスしてください。</li> <li>あなたのデモを投稿するには、<a href=\"%(signup_url)s\">MDN アカウント</a>が必要です。</li> <li>デモの詳細欄に、CC-BY-SA (表"
+"示-継承) の下でライセンスすることができないサードパーティのコンテンツを明記し、その作者の Web サイトへのリンクを記述してください。</li> </ul>"
 
 # mozilla, Favorite Mozilla Tools - MXR テキスト
 #: apps/landing/templates/landing/mozilla.html:107
@@ -392,7 +369,7 @@ msgid "A comprehensive, usable, and accurate resource for everyone developing fo
 msgstr "Open Web のために開発するすべての人のための、包括的で役立つ、正確なリソース。"
 
 # web, Popular Web Documentation - JavaScript テキスト
-#: apps/landing/templates/landing/web.html:52
+#: apps/landing/templates/landing/web.html:70
 msgid "A great resource for anyone working with JS."
 msgstr "JavaScript を使用する人向けの豊富なリソース。"
 
@@ -421,7 +398,7 @@ msgstr "MDN について"
 msgid "Access Android APIs on this Android Developer page."
 msgstr "Android Developer のページの Android API 群へのアクセス。"
 
-#: apps/demos/templates/demos/detail.html:198
+#: apps/demos/templates/demos/detail.html:200
 msgid "Add your comment"
 msgstr "コメントを追加"
 
@@ -501,17 +478,17 @@ msgid "All mobile development entries"
 msgstr "すべてのモバイル開発エントリー"
 
 # web, Popular Web Documentation - 下部のリンクテキスト
-#: apps/landing/templates/landing/web.html:63
+#: apps/landing/templates/landing/web.html:81
 msgid "All web development documentation"
 msgstr "すべての Web 開発ドキュメンテーション"
 
 # web, Recent Web News & Updates - 下部のリンクテキスト
-#: apps/landing/templates/landing/web.html:101
+#: apps/landing/templates/landing/web.html:119
 msgid "All web development entries"
 msgstr "すべての Web 開発エントリー"
 
 # web, Favorite Web Developer Tools - 下部のリンクテキスト
-#: apps/landing/templates/landing/web.html:89
+#: apps/landing/templates/landing/web.html:107
 msgid "All web development tools"
 msgstr "すべての Web 開発ツール"
 
@@ -526,7 +503,7 @@ msgid "Android APIs"
 msgstr "Android API 群"
 
 # web, Favorite Web Developer Tools - Firecookie テキスト
-#: apps/landing/templates/landing/web.html:87
+#: apps/landing/templates/landing/web.html:105
 msgid "Another great Firefox/Firebug Add-on that helps you view and manage cookies in your browser."
 msgstr "ブラウザ内の Cookie の閲覧と管理を支援する、もう一つの素晴らしい Firefox/Firebug アドオン。"
 
@@ -547,9 +524,13 @@ msgstr "Audio"
 # addons, Favorite Add-on Tools - Add-on Packager テキスト
 #: apps/landing/templates/landing/addons.html:105
 msgid "Auto-generate add-on packaging by entering basic info and picking UI parts. Get working without setup."
-msgstr ""
-"基本的な情報を入力し、UI "
-"のパーツを選択することによって、アドオンのパッケージングを自動で行うことができます。動作させるためにセットアップは必要ありません。"
+msgstr "基本的な情報を入力し、UI のパーツを選択することによって、アドオンのパッケージングを自動で行うことができます。動作させるためにセットアップは必要ありません。"
+
+#. Please escape HTML entities here, like &amp;
+#: apps/landing/templates/landing/web.html:38
+#, fuzzy
+msgid "Awesome <span class=\"web\">Web</span> Demos"
+msgstr "<span class=\"web\">Web</span> 開発者向けのキートピックス"
 
 #: apps/demos/__init__.py:280
 msgid "BSD"
@@ -597,7 +578,7 @@ msgstr "利用技術:"
 
 # docs, Key Topics for Web Developers - リスト項目、
 # web, Popular Web Documentation - リンクテキスト
-#: apps/docs/templates/docs/docs.html:44 apps/docs/templates/docs/glossary.html:5 apps/landing/templates/landing/web.html:55
+#: apps/docs/templates/docs/docs.html:44 apps/docs/templates/docs/glossary.html:5 apps/landing/templates/landing/web.html:73
 msgid "CSS"
 msgstr "CSS"
 
@@ -624,7 +605,7 @@ msgstr "CSS3"
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: apps/demos/forms.py:135
+#: apps/demos/forms.py:138
 msgid "Cannot process image"
 msgstr "画像を処理できません"
 
@@ -636,9 +617,7 @@ msgstr "Canvas"
 #: apps/demos/__init__.py:77
 msgid ""
 "Cascading Style Sheets level 3 (CSS3) provide serveral new features and properties to enhance the formatting and look of documents written in different kinds of markup languages like HTML or XML."
-msgstr ""
-"Cascading Style Sheets level 3 (CSS3) は、HTML や XML "
-"のような異なる種類のマークアップ言語で書かれたドキュメントの書式や外観を向上する、いくつかの新しい機能とプロパティを提供します。"
+msgstr "Cascading Style Sheets level 3 (CSS3) は、HTML や XML のような異なる種類のマークアップ言語で書かれたドキュメントの書式や外観を向上する、いくつかの新しい機能とプロパティを提供します。"
 
 # docs, Popular Topics for Web Developers - CSS
 #: apps/docs/templates/docs/docs.html:45
@@ -665,7 +644,7 @@ msgstr "よくある問題とエラーを発見するためにあなたのアド
 msgid "Close"
 msgstr "閉じる"
 
-#: apps/demos/templates/demos/detail.html:200 apps/demos/templates/demos/elements/comments_tree.html:50
+#: apps/demos/templates/demos/detail.html:202 apps/demos/templates/demos/elements/comments_tree.html:50
 msgid "Comment"
 msgstr "コメント"
 
@@ -685,9 +664,7 @@ msgstr "このコンテンツはモデレータにより非表示にされてい
 # メインページフッタ, copyright の下
 #: templates/base.html:107
 msgid "Content is available under <a href=\"%(copyright_url)s\">these licenses</a>"
-msgstr ""
-"このサイトのコンテンツは、<a href=\"%"
-"(copyright_url)s\">ライセンスページ</a>で説明されているライセンスの下において利用可能です。"
+msgstr "このサイトのコンテンツは、<a href=\"%(copyright_url)s\">ライセンスページ</a>で説明されているライセンスの下において利用可能です。"
 
 # addons, 右 Twitter サイドバー MDN on Twitter - テキスト
 #: apps/landing/templates/landing/addons.html:130
@@ -705,7 +682,7 @@ msgid "Correspondence on Twitter from the Mozilla developer community."
 msgstr "Mozilla 開発者コミュニティからの Twitter でのメッセージ。"
 
 # web, 右 Twitter サイドバー MDN on Twitter - テキスト
-#: apps/landing/templates/landing/web.html:108
+#: apps/landing/templates/landing/web.html:126
 msgid "Correspondence on Twitter from the Web developer community."
 msgstr "Web 開発者コミュニティからの Twitter でのメッセージ。"
 
@@ -735,7 +712,7 @@ msgid "DEVMO"
 msgstr "DEVMO"
 
 # docs, Key Topics for Web Developers - リスト項目
-#: apps/docs/templates/docs/docs.html:48 apps/docs/templates/docs/glossary.html:8 apps/landing/templates/landing/home.html:189 apps/landing/templates/landing/web.html:59
+#: apps/docs/templates/docs/docs.html:48 apps/docs/templates/docs/glossary.html:8 apps/landing/templates/landing/home.html:189 apps/landing/templates/landing/web.html:77
 msgid "DOM"
 msgstr "DOM"
 
@@ -767,19 +744,19 @@ msgstr "このコメントを削除しますか？"
 #: apps/demos/templates/demos/base.html:4 apps/demos/templates/demos/delete.html:21 apps/demos/templates/demos/delete_comment.html:21 apps/demos/templates/demos/detail.html:14
 #: apps/demos/templates/demos/flag.html:21 apps/demos/templates/demos/home.html:14 apps/demos/templates/demos/listing_all.html:18 apps/demos/templates/demos/listing_search.html:24
 #: apps/demos/templates/demos/listing_tag.html:19 apps/demos/templates/demos/profile_detail.html:23 apps/demos/templates/demos/submit.html:43 apps/demos/templates/demos/submit_noauth.html:19
-#: templates/base.html:78 templates/base_compact.html:18
+#: apps/landing/templates/landing/web.html:47 templates/base.html:78 templates/base_compact.html:18
 msgid "Demo Studio"
 msgstr "Demo Studio"
 
-#: apps/demos/templates/demos/detail.html:251
+#: apps/demos/templates/demos/detail.html:253
 msgid "Demo is inappropriate"
 msgstr "このデモは不適切です"
 
-#: apps/demos/templates/demos/detail.html:252
+#: apps/demos/templates/demos/detail.html:254
 msgid "Demo is not by this author"
 msgstr "このデモはこの作者によるものではありません"
 
-#: apps/demos/templates/demos/detail.html:250
+#: apps/demos/templates/demos/detail.html:252
 msgid "Demo is not working"
 msgstr "このデモは動作しません"
 
@@ -836,17 +813,25 @@ msgstr "モバイル向けの開発"
 msgid "Device"
 msgstr "デバイス"
 
-#: apps/demos/templates/demos/submit.html:184
+#: apps/demos/models.py:313
+msgid "Disable navigation bar, launch demo in a new window"
+msgstr ""
+
+#: apps/demos/templates/demos/submit.html:185
 msgid "Discard Changes"
 msgstr "変更を破棄"
 
-#: apps/demos/templates/demos/submit.html:181
+#: apps/demos/templates/demos/submit.html:182
 msgid "Discard Demo"
 msgstr "デモを破棄"
 
 #: apps/demos/templates/demos/detail.html:90 apps/demos/templates/demos/launch.html:39
 msgid "Do you like this demo?"
 msgstr "このデモは気に入りましたか？"
+
+#: apps/landing/templates/landing/web.html:48
+msgid "Do you want to show the world what the Web can do? Demo Studio is your place for sharing awesome demos and experiments with the latest Web standards and open technologies."
+msgstr ""
 
 # メインページヘッダ - 右のリンク
 #: apps/docs/templates/docs/docs.html:7 templates/base.html:77 templates/base_compact.html:26
@@ -869,10 +854,9 @@ msgstr "ドキュメント"
 msgid "Download Formats:"
 msgstr "次の形式でダウンロード:"
 
-#: apps/demos/templates/demos/detail.html:212
+#: apps/demos/templates/demos/detail.html:214
 msgid "Download the Source <span class=\"note\">%(file_ksize)s KB &middot; ZIP File</span>"
-msgstr ""
-"ソースをダウンロード <span class=\"note\">%(file_ksize)s KB &middot; ZIP ファイル</span>"
+msgstr "ソースをダウンロード <span class=\"note\">%(file_ksize)s KB &middot; ZIP ファイル</span>"
 
 # docs, Key Topics for Web Developers - リスト項目
 #: apps/demos/__init__.py:164 apps/docs/templates/docs/glossary.html:19
@@ -904,7 +888,7 @@ msgid "Edit {demo_title}"
 msgstr "{demo_title} を編集"
 
 # web, Favorite Web Developer Tools - Page Speed テキスト
-#: apps/landing/templates/landing/web.html:83
+#: apps/landing/templates/landing/web.html:101
 msgid "Evaluate performance of web pages with this Firefox/Firebug Add-on"
 msgstr "この Firefox/Firebug アドオンで Web ぺージのパフォーマンスを評価してください。"
 
@@ -938,7 +922,7 @@ msgstr "おすすめの <span class=\"mozilla\">Mozilla</span> ツール"
 
 # web, Favorite Web Developer Tools - タイトル
 #. Please escape HTML entities here, like &amp;
-#: apps/landing/templates/landing/web.html:69
+#: apps/landing/templates/landing/web.html:87
 msgid "Favorite <span class=\"web\">Web</span> Developer Tools"
 msgstr "おすすめの <span class=\"web\">Web</span> 開発者ツール"
 
@@ -964,12 +948,8 @@ msgstr "Fennec"
 msgid "Files"
 msgstr "ファイル"
 
-#: apps/demos/models.py:157
-msgid "Filetype not supported."
-msgstr "サポートされていないファイル形式です。"
-
 # web, Popular Web Documentation - HTML5 テキスト
-#: apps/landing/templates/landing/web.html:48
+#: apps/landing/templates/landing/web.html:66
 msgid "Find out what HTML5 is really all about and how you can develop for a better Web through open standards."
 msgstr "HTML5 についての真実のすべて、また、オープンスタンダードを通してより良い Web のためにどのように開発できるのかを知ってください。"
 
@@ -979,7 +959,7 @@ msgid "Firefox 4 Beta"
 msgstr "Firefox 4 Beta"
 
 # web, Favorite Web Developer Tools - Web Developer テキスト
-#: apps/landing/templates/landing/web.html:79
+#: apps/landing/templates/landing/web.html:97
 msgid "Firefox Add-on that adds a lot of great developer tools that are just a click away."
 msgstr "クリックするだけで使えるすばらしい開発者ツール群を追加する Firefox アドオン。"
 
@@ -1008,11 +988,8 @@ msgid ""
 "Firefox is the world's first Web browser to support mobile add-ons. Learn about <a href=\"%(basics_url)s\">Extension Basics</a>, <a href=\"%(best_practices_url)s\">Extension Best Practices</a>, "
 "helpful <a href=\"%(snippets_url)s\">Code Snippets</a>, and more so you can build innovative add-ons for Firefox on Android and Firefox on Nokia's Meego platform."
 msgstr ""
-"Firefox はモバイルアドオンをサポートする世界で最初の Web ブラウザです。<a href=\"%"
-"(basics_url)s\">拡張機能の基本</a>、<a href=\"%"
-"(best_practices_url)s\">拡張機能のベストプラクティス</a>、役立つ<a href=\"%"
-"(snippets_url)s\">コードスニペット</a>などについて学ぶことで、Android 向け Firefox および Nokia の "
-"Meego プラットフォーム向け Firefox 向けの革新的なアドオンを作ることができます。"
+"Firefox はモバイルアドオンをサポートする世界で最初の Web ブラウザです。<a href=\"%(basics_url)s\">拡張機能の基本</a>、<a href=\"%(best_practices_url)s\">拡張機能のベストプラクティス</a>、役立つ<a "
+"href=\"%(snippets_url)s\">コードスニペット</a>などについて学ぶことで、Android 向け Firefox および Nokia の Meego プラットフォーム向け Firefox 向けの革新的なアドオンを作ることができます。"
 
 # デモ個別ページの Report a Problem のリンクをどれか押すと行ける、問題報告ページのボタン？
 #: apps/demos/templates/demos/flag.html:43
@@ -1037,16 +1014,9 @@ msgstr "問題が報告されています。"
 msgid "Fonts & Type"
 msgstr "Fonts & Type"
 
-# web, Popular Web Documentation - Hacks Demos テキスト
-#: apps/landing/templates/landing/web.html:44
-msgid "For the latest in open Web technologies, these cool demos are a great way to discover new documentation."
-msgstr "最新のオープンな Web 技術を取り上げているクールなデモの数々を見ることは、新しいドキュメンテーションを発見するための素晴らしい方法です。"
-
 #: apps/demos/__init__.py:115
 msgid "Form elements and attributes in HTML5 provide a greater degree of semantic mark-up than HTML4 and remove a great deal of the need for tedious scripting and styling that was required in HTML4."
-msgstr ""
-"HTML5 での Form 関連要素とそれらの属性は HTML4 よりもさらに適切なセマンティックマークアップを提供し、HTML4 "
-"で必要であった冗長なスクリプトとスタイル設定の量を大幅に削減します。"
+msgstr "HTML5 での Form 関連要素とそれらの属性は HTML4 よりもさらに適切なセマンティックマークアップを提供し、HTML4 で必要であった冗長なスクリプトとスタイル設定の量を大幅に削減します。"
 
 #: apps/demos/__init__.py:114
 msgid "Forms"
@@ -1080,15 +1050,14 @@ msgstr "チュートリアルや記事などの一流のコレクションから
 msgid "Get involved in the %(mobile_link)s, %(addons_link)s, & %(apps_link)s Developer Communities:"
 msgstr "%(mobile_link)s、%(addons_link)s、および、 %(apps_link)s の開発者コミュニティに参加してください:"
 
-#: apps/demos/templates/demos/detail.html:211
+#: apps/demos/templates/demos/detail.html:213
 msgid "Get the Source Code"
 msgstr "ソースコードを入手"
 
 # mobile, Popular Mobile Documentation - Mobile Wiki テキスト
 #: apps/landing/templates/landing/mobile.html:45
 msgid "Get the latest news, status and developer documentation on the Mozilla mobile project. Check out the mobile project's goals, and how you can help out and get involved!"
-msgstr ""
-"Mozilla モバイルプロジェクト上の最新ニュースおよび開発状況、開発者向けドキュメント。モバイルプロジェクトの目標と参加する方法を確かめてください。"
+msgstr "Mozilla モバイルプロジェクト上の最新ニュースおよび開発状況、開発者向けドキュメント。モバイルプロジェクトの目標と参加する方法を確かめてください。"
 
 # JavaScript オフ時の表示言語切り替えボタン
 #: templates/includes/lang_switcher.html:10
@@ -1123,14 +1092,14 @@ msgstr "前のページへ戻る"
 msgid "HTML"
 msgstr "HTML"
 
-#: apps/demos/models.py:454
+#: apps/demos/models.py:521
 msgid "HTML index not found in ZIP"
 msgstr "ZIP パッケージ中に HTML の index ファイルがありません。"
 
 # docs, Popular Topics for Web Developers - リンクテキスト、
 # メインページ, スライド3 - タイトル
 #: apps/demos/__init__.py:144 apps/docs/templates/docs/docs.html:36 apps/docs/templates/docs/glossary.html:7 apps/landing/templates/landing/home.html:46 apps/landing/templates/landing/home.html:70
-#: apps/landing/templates/landing/web.html:47
+#: apps/landing/templates/landing/web.html:65
 msgid "HTML5"
 msgstr "HTML5"
 
@@ -1139,8 +1108,9 @@ msgid "HTML5 is the newest version of the HTML standard, currently under develop
 msgstr "HTML5 は、現在開発中の HTML 標準の新しいバージョンです。"
 
 # web, Popular Web Documentation - リンクテキスト
-#: apps/landing/templates/landing/web.html:43
-msgid "Hacks Demos"
+#: apps/landing/templates/landing/web.html:51
+#, fuzzy
+msgid "Hacks Blog"
 msgstr "Hacks Demos"
 
 # mobile, Favorite Mobile Articles - "HTML5 is Great for Mobile, Developers Say" テキスト
@@ -1188,17 +1158,18 @@ msgid "Hypertext Markup Language, the core technology of the web."
 msgstr "Web の基幹言語、HyperText Markup Language"
 
 # デモを投稿する前にチェックしなければならないボタンの説明文
-#: apps/demos/templates/demos/submit.html:165
+#: apps/demos/templates/demos/submit.html:166
 msgid "I accept the Mozilla Demo Studio <a href=\"%(terms_url)s#tfc\">Terms for Contributors</a> and <a href=\"%(terms_url)s#rrd\">Rights Representation Details</a>"
-msgstr ""
-"Mozilla Demo Studio の <a href=\"%(terms_url)s#tfc\">貢献者規約</a> と<a href=\"%"
-"(terms_url)s#rrd\">権利表記に関する詳細</a>に同意しました。"
+msgstr "Mozilla Demo Studio の <a href=\"%(terms_url)s#tfc\">貢献者規約</a> と<a href=\"%(terms_url)s#rrd\">権利表記に関する詳細</a>に同意しました。"
 
 # addons, Popular Add-ons Documentation - Add-ons Builder SDK Docs テキスト
 #: apps/landing/templates/landing/addons.html:45
 msgid "If you are comfortable with a command line and prefer working locally, the Add-ons Builder SDK gives you a development environment on your own computer."
+msgstr "コマンドラインに抵抗がなく、ローカルで作業することを好むなら、アドオンビルダー SDK があなた自身のコンピューター上に開発環境を提供してくれます。"
+
+#: apps/demos/templates/demos/submit.html:119
+msgid "If your demo has problems when displayed in an <iframe>, try changing this."
 msgstr ""
-"コマンドラインに抵抗がなく、ローカルで作業することを好むなら、アドオンビルダー SDK があなた自身のコンピューター上に開発環境を提供してくれます。"
 
 #: apps/demos/__init__.py:215
 msgid "In the context of the HTML canvas element WebGL provides an API for 3D graphics in the browser."
@@ -1210,15 +1181,13 @@ msgstr "IndexedDB"
 
 #: apps/demos/__init__.py:155
 msgid "IndexedDB is an API for client-side storage of significant amounts of structured data and for high performance searches on this data using indexes."
-msgstr ""
-"IndexedDB は クライアントサイドストレージのための API です。これを用いることにより、 "
-"クライアント側にある大量の構造化されたデータをインデックスを用いて高速に検索できます。"
+msgstr "IndexedDB は クライアントサイドストレージのための API です。これを用いることにより、 クライアント側にある大量の構造化されたデータをインデックスを用いて高速に検索できます。"
 
 #: templates/500.html:3 templates/500.html:5
 msgid "Internal Server Error"
 msgstr "Internal Server Error"
 
-#: apps/demos/models.py:307
+#: apps/demos/models.py:360
 msgid "Is your source code also available somewhere else on the web (e.g., github)? Please share the link."
 msgstr "ソースコードは別のサイト (github など) でもダウンロードできますか？ あれば、リンクを記入してください。"
 
@@ -1226,19 +1195,13 @@ msgstr "ソースコードは別のサイト (github など) でもダウンロ�
 msgid "JPEG and PNG supported. Minimum size of 480x360."
 msgstr "JPEG および PNG 形式のみ対応しています。最小サイズは 480x360 ピクセルです。"
 
-#: apps/docs/templates/docs/docs.html:40 apps/docs/templates/docs/glossary.html:6 apps/landing/templates/landing/home.html:185 apps/landing/templates/landing/web.html:51
+#: apps/demos/__init__.py:134 apps/docs/templates/docs/docs.html:40 apps/docs/templates/docs/glossary.html:6 apps/landing/templates/landing/home.html:185 apps/landing/templates/landing/web.html:69
 msgid "JavaScript"
 msgstr "JavaScript"
 
 #: apps/demos/__init__.py:135
 msgid "JavaScript is a lightweight, object-oriented programming language, commonly used for scripting interactive behavior on web pages and in web applications."
-msgstr ""
-"JavaScript は、軽量でオブジェクト指向のプログラミング言語です。一般的に Web ページや Web "
-"アプリケーション上で対話的な動作を記述するために使用されます。"
-
-#: apps/demos/__init__.py:134
-msgid "Javascript"
-msgstr "Javascript"
+msgstr "JavaScript は、軽量でオブジェクト指向のプログラミング言語です。一般的に Web ページや Web アプリケーション上で対話的な動作を記述するために使用されます。"
 
 # addons, ADD-ONS ヘッダ - フォーラムリンク (https://forums.mozilla.org/addons/)
 #: apps/landing/templates/landing/addons.html:24
@@ -1313,16 +1276,17 @@ msgid ""
 "Learn how to use the <a href=\"%(geo_url)s\">Geolocation API</a> and put people on the right path. Location-Aware Browsing is a must when you're out and about on your mobile. Learn how to build "
 "innovative apps that delight your audience."
 msgstr ""
-"<a href=\"%(geo_url)s\">Geolocation API</a> の使い方を学び、人々を正しい道へ導いてください。Location-"
-"Aware Browsing (場所を選ばないブラウジング) "
-"は、外出時のモバイル環境になくてはならないものです。皆を喜ばせる革新的なアプリの作り方を学んでください。"
+"<a href=\"%(geo_url)s\">Geolocation API</a> の使い方を学び、人々を正しい道へ導いてください。Location-Aware Browsing (場所を選ばないブラウジング) は、外出時のモバイル環境になくてはならないものです。"
+"皆を喜ばせる革新的なアプリの作り方を学んでください。"
 
 # メインページ, Docs タブ - MOBILE テキスト
 #: apps/landing/templates/landing/home.html:132
 msgid "Learn more about <a href=\"%(devmo_mobile)s\">Fennec</a> and mobile-specific technologies like <a href=\"%(devmo_geo)s\">geolocation</a>.</p>"
+msgstr "<a href=\"%(devmo_mobile)s\">Fennec</a> と <a href=\"%(devmo_geo)s\">geolocation</a> のようなモバイル特有の技術について、さらに学んでください。"
+
+#: apps/landing/templates/landing/web.html:52
+msgid "Learn more about developer features and the latest technologies through articles and demos on the Hacks Blog."
 msgstr ""
-"<a href=\"%(devmo_mobile)s\">Fennec</a> と <a href=\"%"
-"(devmo_geo)s\">geolocation</a> のようなモバイル特有の技術について、さらに学んでください。"
 
 # mozilla, Popular Mozilla Documentation - The Mozilla Platform テキスト
 #: apps/landing/templates/landing/mozilla.html:54
@@ -1351,9 +1315,8 @@ msgid ""
 "Localization (L10n) is the process of translating software user interfaces from one language to another and adapting it to suit a foreign culture. These resources are about making Mozilla-based "
 "applications/extensions localizable."
 msgstr ""
-"ローカライゼーション （L10n） "
-"は、ソフトウェアのインターフェースを、ある言語から別の言語へと翻訳し、異なる文化に適合させる作業です。これらの資料は、Mozilla "
-"ベースのアプリケーション/拡張機能をローカライズ可能にする方法ついて書かれています。"
+"ローカライゼーション （L10n） は、ソフトウェアのインターフェースを、ある言語から別の言語へと翻訳し、異なる文化に適合させる作業です。これらの資料は、Mozilla ベースのアプリケーション/拡張機能をローカ"
+"ライズ可能にする方法ついて書かれています。"
 
 # mobile, Popular Mobile Documentation - リンクテキスト
 #: apps/landing/templates/landing/mobile.html:67
@@ -1384,7 +1347,7 @@ msgstr "MDN"
 msgid "MDN Documentation"
 msgstr "MDN ドキュメンテーション"
 
-#: apps/demos/feeds.py:213
+#: apps/demos/feeds.py:214
 msgid "MDN demo search for \"%s\""
 msgstr "MDN デモの \"%s\" での検索結果"
 
@@ -1422,7 +1385,7 @@ msgstr "MPL/GPL/LGPL"
 msgid "MXR"
 msgstr "MXR"
 
-#: apps/demos/models.py:107
+#: apps/demos/models.py:158
 msgid "Maximum of %s tags allowed"
 msgstr "タグは最大 %s 個まで付けられます"
 
@@ -1458,7 +1421,7 @@ msgid "More"
 msgstr "続きを見る"
 
 # 作者が詳細説明を記入していると表示される
-#: apps/demos/templates/demos/detail.html:165
+#: apps/demos/templates/demos/detail.html:166
 msgid "More About This Demo From The Author"
 msgstr "作者のこのデモについての詳細コメント"
 
@@ -1507,11 +1470,9 @@ msgid ""
 "accessible, 100%% free, and powered entirely by learners, mentors and contributors like you people. Our goal: a vibrant, peer-led system that helps people around the world easily access and build "
 "careers on open web technology."
 msgstr ""
-"Mozilla と <a href=\"%(p2pu)s\">P2PU</a> は <a href=\"%(p2pu_drumbeat)s\">School "
-"of Webcraft</a> という、Web "
-"開発者の技術を教えたり学んだりするためのパワフルで新しい方法を作っています。クラスはグローバルにアクセス可能であり、100%% "
-"無料で、そして、学習者、メンター、貢献者の人々で完全に成り立っています。私たちの目標: "
-"活気に満ちた、仲間うちで教え合うシステムを作ることで、世界中の人々がオープンな Web 技術に簡単にアクセスし、キャリアを築くことを助けることです。"
+"Mozilla と <a href=\"%(p2pu)s\">P2PU</a> は <a href=\"%(p2pu_drumbeat)s\">School of Webcraft</a> という、Web 開発者の技術を教えたり学んだりするためのパワフルで新しい方法を作っています。クラスはグ"
+"ローバルにアクセス可能であり、100%% 無料で、そして、学習者、メンター、貢献者の人々で完全に成り立っています。私たちの目標: 活気に満ちた、仲間うちで教え合うシステムを作ることで、世界中の人々がオープン"
+"な Web 技術に簡単にアクセスし、キャリアを築くことを助けることです。"
 
 # メインページ, スライド3 - HTML5 テキスト
 #: apps/landing/templates/landing/home.html:72
@@ -1519,21 +1480,17 @@ msgid ""
 "Mozilla continues to lead the charge in the adoption of HTML5 and other evolving open Web technologies. Find out more about the <a href=\"%(devmo_html5)s\">HTML5 spec</a> and the latest "
 "enhancements in HTML5, CSS3 and other <a href=\"%(devmo_fx4dev)s\">developer features for Firefox 4</a>."
 msgstr ""
-"Mozilla は HTML5 とその他の革新的なオープンな Web 技術を採用することで変化をリードし続けます。<a href=\"%"
-"(devmo_html5)s\">HTML5 仕様</a>と HTML5、CSS3、その他の <a href=\"%"
-"(devmo_fx4dev)s\">Firefox 4 の開発者向け新機能</a> における最新の拡張について詳しく知ってください。"
+"Mozilla は HTML5 とその他の革新的なオープンな Web 技術を採用することで変化をリードし続けます。<a href=\"%(devmo_html5)s\">HTML5 仕様</a>と HTML5、CSS3、その他の <a href=\"%(devmo_fx4dev)s\">Firefox "
+"4 の開発者向け新機能</a> における最新の拡張について詳しく知ってください。"
 
 # mozilla, Popular Mozilla Documentation - Debugging テキスト
 #: apps/landing/templates/landing/mozilla.html:73
 msgid "Mozilla developers have come up with not just technologies and features to help you debug code, but have devised tips and techniques that can help too."
-msgstr ""
-"Mozilla 開発者たちはコードのデバッグを支援するための技術と機能を知るだけでなく、コードのデバッグの支援を可能にする Tips "
-"やテクニックを工夫する必要があります。"
+msgstr "Mozilla 開発者たちはコードのデバッグを支援するための技術と機能を知るだけでなく、コードのデバッグの支援を可能にする Tips やテクニックを工夫する必要があります。"
 
 #: apps/demos/__init__.py:57
 msgid "Mozilla's Audio Data API extends the current HTML5 API and allows web developers to read and write raw audio data."
-msgstr ""
-"Mozilla の Audio Data API は、現在の HTML5 API を拡張し、Web 開発者が生の音声データを読み書きできるようにします。"
+msgstr "Mozilla の Audio Data API は、現在の HTML5 API を拡張し、Web 開発者が生の音声データを読み書きできるようにします。"
 
 #: apps/demos/__init__.py:254
 msgid "Multi-touch"
@@ -1553,7 +1510,7 @@ msgstr "ニュース & 更新情報"
 msgid "Next"
 msgstr "次へ"
 
-#: apps/demos/templates/demos/detail.html:172
+#: apps/demos/templates/demos/detail.html:174
 msgid "No comments yet."
 msgstr "まだコメントはありません。"
 
@@ -1584,7 +1541,7 @@ msgstr "Mozilla プロジェクトに参加する"
 msgid "Participating in the Mozilla project"
 msgstr "Mozilla プロジェクトに参加する"
 
-#: apps/demos/models.py:153
+#: apps/demos/models.py:201
 msgid "Please keep filesize under %s. Current filesize %s"
 msgstr "ファイルサイズを %s 以下にしてください (現在のファイルサイズ %s)。"
 
@@ -1612,7 +1569,7 @@ msgstr "人気の <span class=\"mozilla\">Mozilla</span> ドキュメンテー�
 
 # web, Popular Web Documentation - タイトル
 #. Please escape HTML entities here, like &amp;
-#: apps/landing/templates/landing/web.html:38
+#: apps/landing/templates/landing/web.html:60
 msgid "Popular <span class=\"web\">Web</span> Documentation"
 msgstr "人気の <span class=\"web\">Web</span> ドキュメンテーション"
 
@@ -1631,17 +1588,15 @@ msgid ""
 "Posted <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime=\"%(comment_isotime)s"
 "\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
 msgstr ""
-"投稿日時: <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link "
-"to this comment by %(display_name)s\"><time class=\"published\" "
-"pubdate=\"pubdate\" datetime=\"%(comment_isotime)s\" title=\"%"
-"(comment_isotime)s\">%(comment_timesince)s</time></a>"
+"投稿日時: <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime="
+"\"%(comment_isotime)s\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
 
 # mobile, Watch Mobile Videos - Fennec の動画下
 #: apps/landing/templates/landing/mobile.html:123
 msgid "Pre-Alpha Fennec and HTML5 Demos"
 msgstr "Fennec のプレアルファ版と HTML5 のデモ"
 
-#: apps/demos/templates/demos/submit.html:123 apps/demos/templates/demos/submit_noauth.html:52
+#: apps/demos/templates/demos/submit.html:124 apps/demos/templates/demos/submit_noauth.html:52
 msgid "Preparing Your Demo"
 msgstr "デモ投稿のための準備"
 
@@ -1657,7 +1612,7 @@ msgstr "前へ"
 msgid "Provide at least one screenshot of your demo in action"
 msgstr "あなたのデモが動作しているところのスクリーンショットを一枚以上提供してください。"
 
-#: apps/demos/templates/demos/submit.html:137
+#: apps/demos/templates/demos/submit.html:138
 msgid "Provide the Source Code"
 msgstr "ソースコードを提供してください。"
 
@@ -1689,7 +1644,7 @@ msgstr "最新の <span class=\"mozilla\">Mozilla</span> 開発情報"
 
 # web, Recent Web News & Updates - タイトル
 #. Please escape HTML entities here, like &amp;
-#: apps/landing/templates/landing/web.html:96
+#: apps/landing/templates/landing/web.html:114
 msgid "Recent <span class=\"web\">Web</span> News &amp; Updates"
 msgstr "最新の <span class=\"web\">Web</span> 開発情報"
 
@@ -1738,7 +1693,7 @@ msgstr "権利表記に関する詳細"
 msgid "SVG"
 msgstr "SVG"
 
-#: apps/demos/templates/demos/submit.html:183
+#: apps/demos/templates/demos/submit.html:184
 msgid "Save changes"
 msgstr "変更を保存"
 
@@ -1751,23 +1706,23 @@ msgstr "Scalable Vector Graphics (SVG) は、二次元のベクターグラフ�
 msgid "School of Webcraft"
 msgstr "School of Webcraft"
 
-#: apps/demos/models.py:274
+#: apps/demos/models.py:328
 msgid "Screenshot #1"
 msgstr "スクリーンショット #1"
 
-#: apps/demos/models.py:278
+#: apps/demos/models.py:332
 msgid "Screenshot #2"
 msgstr "スクリーンショット #2"
 
-#: apps/demos/models.py:282
+#: apps/demos/models.py:336
 msgid "Screenshot #3"
 msgstr "スクリーンショット #3"
 
-#: apps/demos/models.py:286
+#: apps/demos/models.py:340
 msgid "Screenshot #4"
 msgstr "スクリーンショット #4"
 
-#: apps/demos/models.py:290
+#: apps/demos/models.py:344
 msgid "Screenshot #5"
 msgstr "スクリーンショット #5"
 
@@ -1808,7 +1763,7 @@ msgstr "\"{q}\" で検索"
 msgid "Search results for \"{q}\""
 msgstr "\"{q}\" での検索結果"
 
-#: apps/demos/feeds.py:214
+#: apps/demos/feeds.py:215
 msgid "Search results for demo submissions matching \"%s\""
 msgstr "\"%s\" にマッチする投稿デモの検索結果"
 
@@ -1824,23 +1779,17 @@ msgstr "セキュリティ"
 # mobile, Watch Mobile Videos - Why Sync up, Security and More テキスト
 #: apps/landing/templates/landing/mobile.html:108
 msgid "See Ragavan demo Firefox Sync on his Android phone. Learn about purpose and goals behind the development of Firefox Sync."
-msgstr ""
-"Ragavan 氏が彼の Android 携帯上で Firefox Sync をデモする様子をご覧ください。Firefox Sync "
-"の開発の裏側にある目的とそのゴールについて学んでください。"
+msgstr "Ragavan 氏が彼の Android 携帯上で Firefox Sync をデモする様子をご覧ください。Firefox Sync の開発の裏側にある目的とそのゴールについて学んでください。"
 
 # mobile, Watch Mobile Videos - Pre-Alpha Fennec and HTML5 Demos テキスト
 #: apps/landing/templates/landing/mobile.html:124
 msgid "See Stuart demo HTML5 capabilities on pre-alpha Fennec. Learn about the purpose and goals behind the development of Firefox 4 for mobile."
-msgstr ""
-"Stuart 氏がプレアルファ版 Fennec 上で HTML5 の能力をデモする様子をご覧ください。モバイル向け Firefox 4 "
-"の開発の背景にある目的とそのゴールについて学んでください。"
+msgstr "Stuart 氏がプレアルファ版 Fennec 上で HTML5 の能力をデモする様子をご覧ください。モバイル向け Firefox 4 の開発の背景にある目的とそのゴールについて学んでください。"
 
 # メインページ, Docs タブ - Mozilla テキスト
 #: apps/landing/templates/landing/home.html:149
 msgid "See how you can <a href=\"%(devmo_participate)s\">participate</a> in <a href=\"%(devmo_l10n)s\">localization</a>, <a href=\"%(devmo_qa)s\">quality assurance</a>, and other Mozilla projects."
-msgstr ""
-"<a href=\"%(devmo_l10n)s\">ローカライゼーション</a> や <a href=\"%(devmo_qa)s\">品質保証</a>、他の "
-"Mozilla プロジェクトへ <a href=\"%(devmo_participate)s\">参加するには</a>。"
+msgstr "<a href=\"%(devmo_l10n)s\">ローカライゼーション</a> や <a href=\"%(devmo_qa)s\">品質保証</a>、他の Mozilla プロジェクトへ <a href=\"%(devmo_participate)s\">参加するには</a>。"
 
 #: apps/demos/templates/demos/elements/submission_thumb.html:5
 msgid "See more about {title} by {author}"
@@ -1875,7 +1824,7 @@ msgstr "Firefox の最新バージョンにおける Web 開発者向け新機�
 msgid "See {display_name}'s profile"
 msgstr "{display_name} のプロフィールを見る"
 
-#: apps/demos/models.py:310
+#: apps/demos/models.py:363
 msgid "Select the license that applies to your source code."
 msgstr "ソースコードに適用するライセンスを選択してください。"
 
@@ -1907,7 +1856,7 @@ msgstr "デモを公開する"
 msgid "Show demo"
 msgstr "デモを表示"
 
-#: apps/demos/forms.py:147
+#: apps/demos/forms.py:150
 msgid "Show us you're human"
 msgstr "あなたが人間であることを証明してください"
 
@@ -1923,7 +1872,7 @@ msgstr "投稿日付順にデモを並び替え"
 msgid "Sort demos by most views"
 msgstr "閲覧数順にデモを並び替え"
 
-#: apps/demos/templates/demos/submit.html:146
+#: apps/demos/templates/demos/submit.html:147
 msgid "Source code ZIP file"
 msgstr "ソースコードの ZIP ファイル"
 
@@ -1942,7 +1891,7 @@ msgstr "デモを投稿"
 msgid "Submit a New Demo"
 msgstr "新しいデモを投稿"
 
-#: apps/demos/templates/demos/submit.html:180
+#: apps/demos/templates/demos/submit.html:181
 msgid "Submit demo"
 msgstr "デモを投稿する"
 
@@ -1971,7 +1920,7 @@ msgstr "{display_name} のデモのフィードを購読する"
 msgid "Subscribe to a feed of {tag_title} demos"
 msgstr "{tag_title} が付けられたデモのフィードを購読する"
 
-#: apps/demos/models.py:113
+#: apps/demos/models.py:164
 msgid "Tag \"%s\" is not in the set of described tags"
 msgstr "\"%s\" というタグは登録されたタグにありません。"
 
@@ -1993,21 +1942,17 @@ msgid ""
 "Test the <a href=\"%(fx4_features)s\">next version of Firefox</a> and help us make the world's best browser even better. Firefox 4 advances the modern web and we have a <a href=\"%(fx4_tech)s\">big "
 "chart full of check marks</a> to prove it."
 msgstr ""
-"<a href=\"%(fx4_features)s\">次のバージョンの Firefox</a> "
-"をテストし、今までにない世界一のブラウザにしましょう。私たちは、Firefox 4 がモダンな Web を促進することを示す、<a href=\"%"
-"(fx4_tech)s\">チェックマークでいっぱいの大きな図</a>を持っています。"
+"<a href=\"%(fx4_features)s\">次のバージョンの Firefox</a> をテストし、今までにない世界一のブラウザにしましょう。私たちは、Firefox 4 がモダンな Web を促進することを示す、<a href=\"%(fx4_tech)s\">"
+"チェックマークでいっぱいの大きな図</a>を持っています。"
 
 #: apps/demos/__init__.py:105
 msgid "The CSS3-Font specification contains enhanced features for fonts and typography like embedding own fonts via @font-face or controlling OpenType font features directly via CSS."
-msgstr ""
-"CSS3-Font 仕様には、@font-face を通したフォントの埋め込みや CSS からの OpenType "
-"フォント機能の直接制御など、フォントとタイポグラフィの先進の機能が含まれます。"
+msgstr "CSS3-Font 仕様には、@font-face を通したフォントの埋め込みや CSS からの OpenType フォント機能の直接制御など、フォントとタイポグラフィの先進の機能が含まれます。"
 
 # web, Popular Web Documentation - DOM テキスト
-#: apps/landing/templates/landing/web.html:60
+#: apps/landing/templates/landing/web.html:78
 msgid "The DOM is the architecture for Web documents; learn how to use the DOM and its API to look at and manipulate Web content."
-msgstr ""
-"DOM は、Web ドキュメントのための構造です。Web コンテンツを調べ、操作するために、DOM とその API の使用方法を学んでください。"
+msgstr "DOM は、Web ドキュメントのための構造です。Web コンテンツを調べ、操作するために、DOM とその API の使用方法を学んでください。"
 
 # メインページ, 右 Popular Docs - DOM テキスト
 #: apps/landing/templates/landing/home.html:190
@@ -2021,16 +1966,15 @@ msgstr "Document Object Model は、Web ページの構造およびコンテン�
 
 #: apps/demos/__init__.py:96
 msgid "The File API allows web developers to use file objects in web applications, as well as selecting and accessing their data."
-msgstr ""
-"File API は、Web 開発者が Web "
-"アプリケーションでファイルオブジェクトを使用できるようにし、それらのデータの選択やアクセスを可能にします。"
+msgstr "File API は、Web 開発者が Web アプリケーションでファイルオブジェクトを使用できるようにし、それらのデータの選択やアクセスを可能にします。"
 
 #: apps/demos/__init__.py:125
 msgid "The Geolocation API allows web applications to access the user's geographical location."
 msgstr "Geolocation API は、Web アプリケーションがユーザの地理位置情報へアクセスできるようにします。"
 
 #: apps/demos/__init__.py:67
-msgid "The HTML5 canvas element allows to display scriptable renderings of 2D shapes and bitmap images."
+#, fuzzy
+msgid "The HTML5 canvas element allows you to display scriptable renderings of 2D shapes and bitmap images."
 msgstr "HTML5 キャンバス要素を用いることで スクリプトで操作可能な 2D 図形とビットマップ画像を描画できます。"
 
 #: apps/demos/__init__.py:205
@@ -2052,7 +1996,7 @@ msgid "The main issue-tracker for Mozilla projects."
 msgstr "Mozilla プロジェクトのためのメインの問題追跡システム。"
 
 # web, Favorite Web Developer Tools - Firebug テキスト
-#: apps/landing/templates/landing/web.html:74
+#: apps/landing/templates/landing/web.html:92
 msgid "The most popular and powerful web development tool."
 msgstr "最も人気のある強力な Web 開発ツール。"
 
@@ -2072,8 +2016,8 @@ msgid ""
 "The projects and planning never stops. We're cooking up some amazing new features and improvements for our next major release. Check it out and see how you can help us continue to make the world's "
 "best mobile Web browser."
 msgstr ""
-"プロジェクトと計画に決して終わりはありません。私たちは次のメジャーリリースに向けた驚くべき新機能と改善に取り組んでいます。それらについてチェックし、世界"
-"で最高のモバイル Web ブラウザを作り続けるために協力する方法を知ってください。"
+"プロジェクトと計画に決して終わりはありません。私たちは次のメジャーリリースに向けた驚くべき新機能と改善に取り組んでいます。それらについてチェックし、世界で最高のモバイル Web ブラウザを作り続けるため"
+"に協力する方法を知ってください。"
 
 # docs, Popular Topics for Web Developers - JavaScript テキスト、
 # メインページ, 右 Popular Docs - JavaScript テキスト
@@ -2089,9 +2033,7 @@ msgstr "テーマ"
 # mozilla, Popular Mozilla Documentation - Using Mozilla code in other projects テキスト
 #: apps/landing/templates/landing/mozilla.html:63
 msgid "There are several ways you can use Mozilla code in your own project. Find everything you need to develop \"powered by Mozilla\" applications."
-msgstr ""
-"いくつかの方法で、あなた独自のプロジェクトに Mozilla のコードを利用できます。\"powered by Mozilla\" "
-"アプリケーションの開発に必要なすべてを得てください。"
+msgstr "いくつかの方法で、あなた独自のプロジェクトに Mozilla のコードを利用できます。\"powered by Mozilla\" アプリケーションの開発に必要なすべてを得てください。"
 
 #: apps/demos/templates/demos/detail.html:126 apps/demos/templates/demos/elements/submission_thumb.html:17
 msgid "There is {count} comment for this demo"
@@ -2111,7 +2053,7 @@ msgid "This demo has been viewed {count} time"
 msgid_plural "This demo has been viewed {count} times"
 msgstr[0] "このデモは {count} 回閲覧されました"
 
-#: apps/demos/templates/demos/detail.html:230
+#: apps/demos/templates/demos/detail.html:232
 msgid "This demo is released under the <a href=\"%(link)s\">%(title)s</a> license."
 msgstr "このデモは <a href=\"%(link)s\">%(title)s</a> ライセンスの下で公開されています。"
 
@@ -2125,11 +2067,8 @@ msgid ""
 "This video requires a browser with support for open video: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 or greater</li> <li><a href=\"http://www.apple.com/safari/\">Safari</"
 "a> 3.1 or greater</li> </ul> or the <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Alternatively, you may use the video download links provided."
 msgstr ""
-"この動画は、オープンビデオ形式に対応したブラウザでご覧ください: <ul> <li><a "
-"href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 以降</li> <li><a "
-"href=\"http://www.apple.com/safari/\">Safari</a> 3.1 以降</li> </ul> または、<a "
-"href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>。 "
-"代わりに、ダウンロードリンクから動画をダウンロードすることもできます。"
+"この動画は、オープンビデオ形式に対応したブラウザでご覧ください: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 以降</li> <li><a href=\"http://www.apple.com/safari/\">Safari</"
+"a> 3.1 以降</li> </ul> または、<a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>。 代わりに、ダウンロードリンクから動画をダウンロードすることもできます。"
 
 #: apps/contentflagging/models.py:22
 msgid "This was not created by the author"
@@ -2152,7 +2091,7 @@ msgstr "Twitter"
 msgid "Up and Coming"
 msgstr "有望なデモ"
 
-#: apps/demos/templates/demos/submit.html:147
+#: apps/demos/templates/demos/submit.html:148
 msgid "Upload demo file&hellip;"
 msgstr "デモのファイルをアップロード&hellip;"
 
@@ -2167,9 +2106,12 @@ msgid ""
 "Use Add-ons Builder to quickly and easily develop an extension for Firefox using common web technologies. There is a <a href=\"%(tutorial)s\">tutorial</a> to get you started and a <a href=\"%(api)s"
 "\">variety of APIs in the core library</a> to add functionality to Firefox."
 msgstr ""
-"一般的な Web 技術を用いた Firefox 向け拡張機能を素早く手軽に開発するためにアドオンビルダーを利用してください。始めるための<a "
-"href=\"%(tutorial)s\">チュートリアル</a>と Firefox に機能を追加するための <a href=\"%"
-"(api)s\">コアライブラリ内の様々な API</a> があります。"
+"一般的な Web 技術を用いた Firefox 向け拡張機能を素早く手軽に開発するためにアドオンビルダーを利用してください。始めるための<a href=\"%(tutorial)s\">チュートリアル</a>と Firefox に機能を追加するため"
+"の <a href=\"%(api)s\">コアライブラリ内の様々な API</a> があります。"
+
+#: apps/demos/models.py:314
+msgid "Use navigation bar, display demo in <iframe>"
+msgstr ""
 
 # docs, Mozilla - リスト項目、
 # mozilla, Popular Mozilla Documentation - リンクテキスト　/ リンク先日本語版のタイトルに合わせた
@@ -2197,6 +2139,10 @@ msgstr "W3C 仕様"
 #: apps/landing/templates/landing/home.html:19
 msgid "Want to help make our network even better?"
 msgstr "私たちのネットワークをより良くする手助けをしませんか？"
+
+#: apps/landing/templates/landing/web.html:44
+msgid "Want to see what the Web is really capable of? Explore the Web o' Wonder website and prepare to be amazed!"
+msgstr ""
 
 # addons, Watch Add-on Videos - タイトル
 #: apps/landing/templates/landing/addons.html:73
@@ -2227,6 +2173,12 @@ msgstr "YouTube および Vimeo をサポートしています"
 #: apps/devmo/__init__.py:24 apps/landing/templates/landing/web.html:11 apps/landing/templates/landing/web.html:17 templates/base.html:70 templates/base_compact.html:22
 msgid "Web"
 msgstr "Web"
+
+# docs, Key Topics for Web Developers - リスト項目
+#: apps/landing/templates/landing/web.html:43
+#, fuzzy
+msgid "Web O' Wonder"
+msgstr "Web Workers"
 
 # docs, Key Topics for Web Developers - リスト項目
 #: apps/docs/templates/docs/glossary.html:14
@@ -2318,8 +2270,7 @@ msgstr "XMLHttpRequest"
 
 #: apps/demos/__init__.py:245
 msgid "XMLHttpRequest (XHR) is used to send HTTP requests directly to a webserver and load the response data directly back into the script."
-msgstr ""
-"XMLHttpRequest (XHR) は、HTTP 要求を Web サーバへ直接送信し、その応答データをスクリプトへ直接読み込むために使用されます。"
+msgstr "XMLHttpRequest (XHR) は、HTTP 要求を Web サーバへ直接送信し、その応答データをスクリプトへ直接読み込むために使用されます。"
 
 # Like it ボタンを押すとこの文字列に変化する
 #: apps/demos/templates/demos/detail.html:85 apps/demos/templates/demos/launch.html:34
@@ -2352,7 +2303,7 @@ msgid "You took back the Web. Now take it with you."
 msgstr "取り戻した Web は今、あなたと共にあります。"
 
 # web, Popular Web Documentation - CSS テキスト
-#: apps/landing/templates/landing/web.html:56
+#: apps/landing/templates/landing/web.html:74
 msgid "You'll find everything you need in the CSS reference and helpful tutorials to build pretty websites."
 msgstr "CSS リファレンスと優れた Web サイトを作成する助けになるチュートリアルから必要なものすべてを見つけることができます。"
 
@@ -2362,24 +2313,28 @@ msgid ""
 "Your help is vital to the success of Firefox. Provide feedback on our <a href=\"%(irc_url)s\">IRC channel</a>, <a href=\"%(meeting_url)s\">join our Wednesday development meeting</a>, or even <a "
 "href=\"%(bugzilla_url)s\">file some bugs</a>."
 msgstr ""
-"あなたの助けが Firefox の成功にとても重要です。<a href=\"%(irc_url)s\">IRC "
-"チャンネル</a>でフィードバックしたり、<a href=\"%"
-"(meeting_url)s\">水曜日の開発ミーティングに参加したり</a>、あるいは、<a href=\"%"
-"(bugzilla_url)s\">バグを報告したりしてください</a>。"
+"あなたの助けが Firefox の成功にとても重要です。<a href=\"%(irc_url)s\">IRC チャンネル</a>でフィードバックしたり、<a href=\"%(meeting_url)s\">水曜日の開発ミーティングに参加したり</a>、あるいは、<a "
+"href=\"%(bugzilla_url)s\">バグを報告したりしてください</a>。"
 
-#: apps/demos/models.py:451
-msgid "ZIP file contains files that are too large"
+#: apps/demos/models.py:507
+#, fuzzy
+msgid "ZIP file contains a file that is too large: %(filename)s"
 msgstr "ZIP ファイルにサイズの大きすぎるファイルが含まれています"
 
-#: apps/demos/models.py:432 apps/demos/models.py:439
+#: apps/demos/models.py:516
+#, fuzzy
+msgid "ZIP file contains an unacceptable file: %(filename)s"
+msgstr "ZIP ファイルに許容できないファイルが含まれています。"
+
+#: apps/demos/models.py:485 apps/demos/models.py:492
 msgid "ZIP file contains no acceptable files"
 msgstr "ZIP ファイルに許容できないファイルが含まれています。"
 
-#: apps/demos/models.py:435
+#: apps/demos/models.py:488
 msgid "ZIP file corrupted"
 msgstr "ZIP ファイルが壊れています"
 
-#: apps/demos/views.py:62 apps/demos/views.py:204 apps/demos/views.py:228 apps/demos/views.py:241 apps/demos/views.py:254
+#: apps/demos/views.py:62 apps/demos/views.py:208 apps/demos/views.py:232 apps/demos/views.py:245 apps/demos/views.py:258
 msgid "access denied"
 msgstr "アクセスが拒否されました"
 
@@ -2391,15 +2346,19 @@ msgstr "by %(creator_link)s on %(create_date)s"
 msgid "by %(profile_link)s"
 msgstr "by %(profile_link)s"
 
+#: apps/demos/models.py:311
+msgid "control how your demo is launched"
+msgstr ""
+
 #: apps/contentflagging/models.py:65
 msgid "current status of flag review"
 msgstr "問題報告レビューの現在の状態"
 
-#: apps/demos/models.py:316
+#: apps/demos/models.py:369
 msgid "date created"
 msgstr "作成日"
 
-#: apps/actioncounters/models.py:90 apps/contentflagging/models.py:99 apps/demos/models.py:318
+#: apps/actioncounters/models.py:90 apps/contentflagging/models.py:99 apps/demos/models.py:371
 msgid "date last modified"
 msgstr "最終変更日"
 
@@ -2412,20 +2371,20 @@ msgid "day"
 msgid_plural "days"
 msgstr[0] "日"
 
-#: apps/demos/models.py:258
+#: apps/demos/models.py:304
 msgid "describe your demo in more detail (optional)"
 msgstr "あなたのデモについて詳しく記述してください (任意)"
 
-#: apps/demos/models.py:255
+#: apps/demos/models.py:301
 msgid "describe your demo in one line"
 msgstr "あなたのデモについて一行で記述してください"
 
 # web, Favorite Web Developer Tools - Firebug テキスト末尾
-#: apps/landing/templates/landing/web.html:75
+#: apps/landing/templates/landing/web.html:93
 msgid "geckoday via AMO"
 msgstr "geckoday（AMO のコメントより）"
 
-#: apps/demos/models.py:295
+#: apps/demos/models.py:349
 msgid "have a video of your demo in action? (optional)"
 msgstr "あなたのデモが動作中の動画がありますか？ (任意)"
 
@@ -2459,9 +2418,7 @@ msgstr "http://ja.wikipedia.org/wiki/Cascading_Style_Sheets"
 
 #: apps/demos/__init__.py:168
 msgid "http://en.wikipedia.org/wiki/Drag-and-drop"
-msgstr ""
-"http://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%83%83%E3%82%B0%E3%83%BB%"
-"E3%82%A2%E3%83%B3%E3%83%89%E3%83%BB%E3%83%89%E3%83%AD%E3%83%83%E3%83%97"
+msgstr "http://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%83%83%E3%82%B0%E3%83%BB%E3%82%A2%E3%83%B3%E3%83%89%E3%83%BB%E3%83%89%E3%83%AD%E3%83%83%E3%83%97"
 
 #: apps/demos/__init__.py:60
 msgid "http://en.wikipedia.org/wiki/HTML5_audio"
@@ -2473,9 +2430,7 @@ msgstr "http://en.wikipedia.org/wiki/HTML5_video"
 
 #: apps/demos/__init__.py:118
 msgid "http://en.wikipedia.org/wiki/HTML_forms"
-msgstr ""
-"http://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0_%28%E3%82%"
-"A6%E3%82%A7%E3%83%96%29"
+msgstr "http://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0_%28%E3%82%A6%E3%82%A7%E3%83%96%29"
 
 #: apps/demos/__init__.py:148
 msgid "http://en.wikipedia.org/wiki/Html5"
@@ -2727,16 +2682,16 @@ msgstr "コンテンツの問題報告をした理由"
 msgid "recent"
 msgstr "最近投稿された"
 
-#: apps/demos/models.py:299
+#: apps/demos/models.py:353
 msgid "select a ZIP file containing your demo"
 msgstr "あなたのデモが含まれた ZIP ファイルを選択してください"
 
-#: apps/demos/models.py:270
+#: apps/demos/models.py:324
 msgid "select up to 5 tags that describe your demo"
 msgstr "あなたのデモを説明できるタグを 5 個まで選択してください"
 
 # Django の用語。短いラベルを表す型（新聞用語）らしい。表には出てこないようなので、そのまま。
-#: apps/demos/models.py:252
+#: apps/demos/models.py:298
 msgid "slug"
 msgstr "slug"
 
@@ -2745,7 +2700,7 @@ msgid "week"
 msgid_plural "weeks"
 msgstr[0] "週間"
 
-#: apps/demos/models.py:250
+#: apps/demos/models.py:296
 msgid "what is your demo's name?"
 msgstr "あなたのデモのタイトルは？"
 
@@ -2758,7 +2713,7 @@ msgstr[0] "年"
 msgid "{comment_count} comments"
 msgstr "コメント数 {comment_count} "
 
-#: apps/demos/templates/demos/detail.html:174
+#: apps/demos/templates/demos/detail.html:176
 msgid "{comments_total} comment so far"
 msgid_plural "{comments_total} comments so far"
 msgstr[0] "{comments_total} 件のコメントがあります。"
@@ -2806,3 +2761,13 @@ msgstr "{tag_title} のデモ"
 #: apps/landing/templates/sidebar/twitter.html:16
 msgid "{timedelta} ago"
 msgstr "{timedelta} 前"
+
+#~ msgid "Filetype not supported."
+#~ msgstr "サポートされていないファイル形式です。"
+
+# web, Popular Web Documentation - Hacks Demos テキスト
+#~ msgid "For the latest in open Web technologies, these cool demos are a great way to discover new documentation."
+#~ msgstr "最新のオープンな Web 技術を取り上げているクールなデモの数々を見ることは、新しいドキュメンテーションを発見するための素晴らしい方法です。"
+
+#~ msgid "Javascript"
+#~ msgstr "Javascript"

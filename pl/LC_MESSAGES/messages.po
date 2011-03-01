@@ -13,10 +13,14 @@ msgstr ""
 "X-Generator: Pootle 2.1.5\n"
 
 #: apps/landing/templates/landing/mobile.html:158
-msgid "\"'Hands down, the developer pool for HTML / JS rock stars is tenfold larger [and] there is no download attrition. You simply point people at a URL and there you go -- it's installed.' The fact that apps can be directly installed by URL rather than by waiting for an App Store download means that developers reduce barriers to virality.\""
-msgstr "„Czapki z głów, zasoby HTML i JavaScriptu dla twórców są dziesięć razy większe i nie ma problemów z pobieraniem. Po prostu wskaż ludziom adres URL i już – zostało zainstalowane. Fakt, że aplikacje mogą być bezpośrednio instalowane przez podanie adresu URL, a nie trzeba czekać na pobranie ze sklepu z aplikacjami, oznacza, że twórcy przekroczyli bariery wirtuozerii”."
+msgid ""
+"\"'Hands down, the developer pool for HTML / JS rock stars is tenfold larger [and] there is no download attrition. You simply point people at a URL and there you go -- it's installed.' The fact "
+"that apps can be directly installed by URL rather than by waiting for an App Store download means that developers reduce barriers to virality.\""
+msgstr ""
+"„Czapki z głów, zasoby HTML i JavaScriptu dla twórców są dziesięć razy większe i nie ma problemów z pobieraniem. Po prostu wskaż ludziom adres URL i już – zostało zainstalowane. Fakt, że aplikacje "
+"mogą być bezpośrednio instalowane przez podanie adresu URL, a nie trzeba czekać na pobranie ze sklepu z aplikacjami, oznacza, że twórcy przekroczyli bariery wirtuozerii”."
 
-#: apps/landing/templates/landing/web.html:75
+#: apps/landing/templates/landing/web.html:93
 msgid "\"An absolute necessity for anyone doing serious web development. Awesome!!!!\""
 msgstr "„Absolutnie konieczny dla każdego, kto traktuje poważnie tworzenie stron internetowych. Fantastyczny!!”"
 
@@ -97,15 +101,11 @@ msgstr "Dema autorstwa %s"
 msgid "(multiple)"
 msgstr "(wiele)"
 
-#: apps/docs/templates/docs/docs.html:52
-#: apps/docs/templates/docs/glossary.html:11
+#: apps/docs/templates/docs/docs.html:52 apps/docs/templates/docs/glossary.html:11
 msgid "/en/AJAX"
 msgstr "/pl/AJAX"
 
-#: apps/docs/templates/docs/docs.html:44
-#: apps/docs/templates/docs/glossary.html:5
-#: apps/landing/templates/landing/home.html:181
-#: apps/landing/templates/landing/web.html:55
+#: apps/docs/templates/docs/docs.html:44 apps/docs/templates/docs/glossary.html:5 apps/landing/templates/landing/home.html:181 apps/landing/templates/landing/web.html:73
 msgid "/en/CSS"
 msgstr "/en/CSS"
 
@@ -121,10 +121,7 @@ msgstr "/en/CSS/Using_CSS_transforms"
 msgid "/en/Creating_OpenSearch_plugins_for_Firefox"
 msgstr "/en/Creating_OpenSearch_plugins_for_Firefox"
 
-#: apps/docs/templates/docs/docs.html:48
-#: apps/docs/templates/docs/glossary.html:8
-#: apps/landing/templates/landing/home.html:189
-#: apps/landing/templates/landing/web.html:59
+#: apps/docs/templates/docs/docs.html:48 apps/docs/templates/docs/glossary.html:8 apps/landing/templates/landing/home.html:189 apps/landing/templates/landing/web.html:77
 msgid "/en/DOM"
 msgstr "DOM"
 
@@ -145,19 +142,15 @@ msgstr "/en/Developer_Guide"
 msgid "/en/DragDrop/Drag_and_Drop"
 msgstr "/en/DragDrop/Drag_and_Drop"
 
-#: apps/docs/templates/docs/docs.html:89
-#: apps/landing/templates/landing/addons.html:60
+#: apps/docs/templates/docs/docs.html:89 apps/landing/templates/landing/addons.html:60
 msgid "/en/Extensions"
 msgstr "/en/Extensions"
 
-#: apps/landing/templates/landing/home.html:72
-#: apps/landing/templates/landing/home.html:166
+#: apps/landing/templates/landing/home.html:72 apps/landing/templates/landing/home.html:166
 msgid "/en/Firefox_4_for_developers"
 msgstr "/en/Firefox_4_for_developers"
 
-#: apps/docs/templates/docs/docs.html:32
-#: apps/docs/templates/docs/glossary.html:4
-#: apps/landing/templates/landing/home.html:177
+#: apps/docs/templates/docs/docs.html:32 apps/docs/templates/docs/glossary.html:4 apps/landing/templates/landing/home.html:177
 msgid "/en/HTML"
 msgstr "/en/HTML"
 
@@ -165,11 +158,8 @@ msgstr "/en/HTML"
 msgid "/en/HTML/Element/canvas"
 msgstr "/en/HTML/Element/canvas"
 
-#: apps/docs/templates/docs/docs.html:36
-#: apps/docs/templates/docs/glossary.html:7
-#: apps/landing/templates/landing/home.html:72
-#: apps/landing/templates/landing/home.html:78
-#: apps/landing/templates/landing/web.html:47
+#: apps/docs/templates/docs/docs.html:36 apps/docs/templates/docs/glossary.html:7 apps/landing/templates/landing/home.html:72 apps/landing/templates/landing/home.html:78
+#: apps/landing/templates/landing/web.html:65
 msgid "/en/HTML/HTML5"
 msgstr "/en/HTML/HTML5"
 
@@ -177,30 +167,21 @@ msgstr "/en/HTML/HTML5"
 msgid "/en/IndexedDB"
 msgstr "/en/IndexedDB"
 
-#: apps/docs/templates/docs/docs.html:40
-#: apps/docs/templates/docs/glossary.html:6
-#: apps/landing/templates/landing/home.html:185
-#: apps/landing/templates/landing/web.html:51
+#: apps/docs/templates/docs/docs.html:40 apps/docs/templates/docs/glossary.html:6 apps/landing/templates/landing/home.html:185 apps/landing/templates/landing/web.html:69
 msgid "/en/JavaScript"
 msgstr "/en/JavaScript"
 
 # 75%
-#: apps/docs/templates/docs/docs.html:101
-#: apps/landing/templates/landing/home.html:150
-#: apps/landing/templates/landing/mozilla.html:81
+#: apps/docs/templates/docs/docs.html:101 apps/landing/templates/landing/home.html:150 apps/landing/templates/landing/mozilla.html:81
 msgid "/en/Localization"
 msgstr "/en/Localization"
 
-#: apps/docs/templates/docs/docs.html:80
-#: apps/landing/templates/landing/home.html:132
-#: apps/landing/templates/landing/mobile.html:88
+#: apps/docs/templates/docs/docs.html:80 apps/landing/templates/landing/home.html:132 apps/landing/templates/landing/mobile.html:88
 msgid "/en/Mobile"
 msgstr "/en/Mobile"
 
 # 80%
-#: apps/docs/templates/docs/docs.html:99
-#: apps/landing/templates/landing/home.html:149
-#: apps/landing/templates/landing/home.html:207
+#: apps/docs/templates/docs/docs.html:99 apps/landing/templates/landing/home.html:149 apps/landing/templates/landing/home.html:207
 msgid "/en/Participating_in_the_Mozilla_project"
 msgstr "/en/Participating_in_the_Mozilla_project"
 
@@ -208,8 +189,7 @@ msgstr "/en/Participating_in_the_Mozilla_project"
 msgid "/en/Plugins"
 msgstr "/en/Plugins"
 
-#: apps/docs/templates/docs/docs.html:102
-#: apps/landing/templates/landing/home.html:150
+#: apps/docs/templates/docs/docs.html:102 apps/landing/templates/landing/home.html:150
 msgid "/en/QA"
 msgstr "/en/QA"
 
@@ -233,19 +213,16 @@ msgstr "/en/The_Mozilla_platform"
 msgid "/en/Themes"
 msgstr "/en/Themes"
 
-#: apps/landing/templates/landing/mozilla.html:92
-#: apps/landing/templates/landing/mozilla.html:109
+#: apps/landing/templates/landing/mozilla.html:92 apps/landing/templates/landing/mozilla.html:109
 msgid "/en/Tools"
 msgstr "/en/Tools"
 
 # 77%
-#: apps/docs/templates/docs/docs.html:100
-#: apps/landing/templates/landing/mozilla.html:61
+#: apps/docs/templates/docs/docs.html:100 apps/landing/templates/landing/mozilla.html:61
 msgid "/en/Using_Mozilla_code_in_other_projects"
 msgstr "/en/Using_Mozilla_code_in_other_projects"
 
-#: apps/docs/templates/docs/glossary.html:15
-#: apps/docs/templates/docs/glossary.html:16
+#: apps/docs/templates/docs/glossary.html:15 apps/docs/templates/docs/glossary.html:16
 msgid "/en/Using_audio_and_video_in_Firefox"
 msgstr "/en/Using_audio_and_video_in_Firefox"
 
@@ -254,9 +231,7 @@ msgid "/en/Using_files_from_web_applications"
 msgstr "/en/Using_files_from_web_applications"
 
 # 76%
-#: apps/docs/templates/docs/docs.html:82
-#: apps/landing/templates/landing/home.html:132
-#: apps/landing/templates/landing/mobile.html:69
+#: apps/docs/templates/docs/docs.html:82 apps/landing/templates/landing/home.html:132 apps/landing/templates/landing/mobile.html:69
 msgid "/en/Using_geolocation"
 msgstr "/en/Using_geolocation"
 
@@ -272,7 +247,7 @@ msgstr "/en/Using_web_workers"
 msgid "/en/WebGL"
 msgstr "/en/WebGL"
 
-#: apps/landing/templates/landing/web.html:63
+#: apps/landing/templates/landing/web.html:81
 msgid "/en/Web_Development"
 msgstr "/en/Web_Development"
 
@@ -288,7 +263,7 @@ msgstr "<a href=\"%(builder_url)s\">Twórz dodatki</a> i dyskutuj o nich z <a hr
 msgid "<cite class=\"author fn\">%(comment_profile_link)s</cite> said,"
 msgstr "<cite class=\"author fn\">%(comment_profile_link)s</cite> napisaał,"
 
-#: apps/demos/templates/demos/detail.html:181
+#: apps/demos/templates/demos/detail.html:183
 msgid "<p><a href=\"/Special:UserRegistration\">Register</a> or <a href=\"/Special:UserLogin\">log in</a> to add your own.</p>"
 msgstr "<p><a href=\"/Special:UserRegistration\">Zarejestruj się</a> lub <a href=\"/Special:UserLogin\">zaloguj</a>, by dodać swój.</p>"
 
@@ -304,41 +279,82 @@ msgstr "<p>Podaj dane o swoim demie: nazwę, opis i użyte technologie. Wskaż p
 msgid "<p>To submit your demo, you need an <strong><a href=\"%(signup_url)s\">MDN account</a></strong>.</p>"
 msgstr "<p>Aby przesłać demo, musisz mieć <strong><a href=\"%(signup_url)s\">konto MDN</a></strong>.</p>"
 
-#: apps/demos/templates/demos/submit.html:138
+#: apps/demos/templates/demos/submit.html:139
 msgid "<p>Upload a ZIP file of your source code, in which the main page of your demo is named <code>index.html</code> in the root directory.</p>"
 msgstr "<p>Prześlij plik w formacie ZIP zawierający kod źródłowy, w którym w katalogu głównym musi się znajdować główna strona dema o nazwie <code>index.html</code>.</p>"
 
 #: apps/demos/templates/demos/home.html:23
-msgid "<p>Welcome to Mozilla Demo Studio, where developers like you can develop, share, demonstrate, and learn all about Web technologies. See what’s possible by exploring Demo Studio:</p> <ul> <li>View <strong>demos</strong> that showcase what HTML, CSS, and JavaScript can do.</li> <li>Inspect the <strong>source code</strong> for those demos so you can see how they work.</li> <li>Read <strong>documentation</strong> to learn about the open standards and technologies that power the Web.</li> </ul>"
-msgstr "<p>Witamy w Mozilla Demo Studio, gdzie twórcy tacy, jak ty mogą rozwijać, dzielić się, pokazać i nauczyć się wszystkiego o technologiach internetowych. Zobacz, jakie możliwości daje zgłębianie zasobów Demo Studio:</p> <ul> <li>Obejrzyj <strong>dema</strong> prezentujące, czego HTML, CSS i JavaScript mogą dokonać.</li> <li>Sprawdź <strong>kod źródłowy</strong> tych dem, by zobaczyć, jak one działają.</li> <li>Zapoznaj się z <strong>dokumentacją</strong>, by dowiedzieć się więcej o otwartych standardach i technologiach stosowanych w Internecie.</li> </ul>"
+msgid ""
+"<p>Welcome to Mozilla Demo Studio, where developers like you can develop, share, demonstrate, and learn all about Web technologies. See what’s possible by exploring Demo Studio:</p> <ul> <li>View "
+"<strong>demos</strong> that showcase what HTML, CSS, and JavaScript can do.</li> <li>Inspect the <strong>source code</strong> for those demos so you can see how they work.</li> <li>Read "
+"<strong>documentation</strong> to learn about the open standards and technologies that power the Web.</li> </ul>"
+msgstr ""
+"<p>Witamy w Mozilla Demo Studio, gdzie twórcy tacy, jak ty mogą rozwijać, dzielić się, pokazać i nauczyć się wszystkiego o technologiach internetowych. Zobacz, jakie możliwości daje zgłębianie "
+"zasobów Demo Studio:</p> <ul> <li>Obejrzyj <strong>dema</strong> prezentujące, czego HTML, CSS i JavaScript mogą dokonać.</li> <li>Sprawdź <strong>kod źródłowy</strong> tych dem, by zobaczyć, jak "
+"one działają.</li> <li>Zapoznaj się z <strong>dokumentacją</strong>, by dowiedzieć się więcej o otwartych standardach i technologiach stosowanych w Internecie.</li> </ul>"
 
 #: apps/demos/templates/demos/submit_noauth.html:32
-msgid "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other web developers.</p>"
-msgstr "<p>Czy tworzysz niezwykłe nowe sposoby korzystania z Internetu, czy tylko eksperymentujesz z najnowszymi technologiami, zapraszamy cię do przesłania swoich prac, by podzielić się nimi z innymi twórcami lub tylko je pokazać.</p>"
+msgid ""
+"<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other "
+"web developers.</p>"
+msgstr ""
+"<p>Czy tworzysz niezwykłe nowe sposoby korzystania z Internetu, czy tylko eksperymentujesz z najnowszymi technologiami, zapraszamy cię do przesłania swoich prac, by podzielić się nimi z innymi "
+"twórcami lub tylko je pokazać.</p>"
 
 #: apps/demos/templates/demos/submit.html:67
-msgid "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other web developers.</p> <p>Please complete the form below to ensure your demo is submitted to the Demo Studio successfully.</p>"
-msgstr "<p>Czy tworzysz niezwykłe nowe sposoby korzystania z Internetu, czy tylko eksperymentujesz z najnowszymi technologiami, zapraszamy cię do przesłania swoich dem, by podzielić się nimi lub tylko je pokazać z innymi twórcami.</p> <p>Uzupełnij poniższy frormularz, by prawidłowo przesłać demo do Demo Studio.</p>"
+msgid ""
+"<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other "
+"web developers.</p> <p>Please complete the form below to ensure your demo is submitted to the Demo Studio successfully.</p>"
+msgstr ""
+"<p>Czy tworzysz niezwykłe nowe sposoby korzystania z Internetu, czy tylko eksperymentujesz z najnowszymi technologiami, zapraszamy cię do przesłania swoich dem, by podzielić się nimi lub tylko je "
+"pokazać z innymi twórcami.</p> <p>Uzupełnij poniższy frormularz, by prawidłowo przesłać demo do Demo Studio.</p>"
 
-#: apps/demos/templates/demos/detail.html:177
+#: apps/demos/templates/demos/detail.html:179
 msgid "<p>Why not <a href=\"#comment-post\">Add your own</a>?</p>"
 msgstr "<p>Dlaczego nie <a href=\"#comment-post\">dodać swojego</a>?</p>"
 
 #: apps/demos/templates/demos/delete.html:40
-msgid "<p>You are about to remove <strong>%(demo_title)s</strong> from the Demo Studio.</p> <p>The Demo's listing, source code, and statistics will be <strong>deleted</strong>.</p> <p>This action <strong>cannot be undone</strong>."
-msgstr "<p>Zamierzasz usunąć <strong>%(demo_title)s</strong> z Demo Studio.</p> <p>Zostaną <strong>usunięte</strong> statystyki, kod źródłowy, a także ze wszystkich wykazów nazwa tego dema.</p> <p>Tej czynności <strong>nie można odwrócić</strong>."
+msgid ""
+"<p>You are about to remove <strong>%(demo_title)s</strong> from the Demo Studio.</p> <p>The Demo's listing, source code, and statistics will be <strong>deleted</strong>.</p> <p>This action "
+"<strong>cannot be undone</strong>."
+msgstr ""
+"<p>Zamierzasz usunąć <strong>%(demo_title)s</strong> z Demo Studio.</p> <p>Zostaną <strong>usunięte</strong> statystyki, kod źródłowy, a także ze wszystkich wykazów nazwa tego dema.</p> <p>Tej "
+"czynności <strong>nie można odwrócić</strong>."
 
 #: apps/demos/templates/demos/submit_noauth.html:41
-msgid "<ul> <li>You must be prepared to <strong>provide the source code</strong> for your demo. Demos are hosted on the Demo Studio’s servers.</li> <li>Your demo’s source code must be available under an <strong>open license</strong>, such as MPL, GPL, or BSD.</li> <li>Your demo should showcase <strong>open web technologies</strong>, such as HTML5 and CSS3.</li> <li>Your demo should support a wide range of <strong>modern web browsers</strong>, like Firefox, Chrome, Safari, and Opera.</li> </ul>"
-msgstr "<ul> <li>Musisz być przygotowany do <strong>dostarczenia kodu źródłowego</strong> dema. Dema są utrzymywane na serwerach Demo Studio.</li> <li>Kod źródłowy dema musi być udostępniany na zasadach <strong>otwartych licencji</strong>, takich jak MPL, GPL, lub BSD.</li> <li>Demo powinno być pokazem <strong>otwartych technologii internetowych</strong>, takich jak HTML5 i CSS3.</li> <li>Demo powinno działać na wielu <strong>nowoczesnych przeglądarkach internetowych</strong> jak Firefox, Chrome, Safari, i Opera.</li> </ul>"
+msgid ""
+"<ul> <li>You must be prepared to <strong>provide the source code</strong> for your demo. Demos are hosted on the Demo Studio’s servers.</li> <li>Your demo’s source code must be available under an "
+"<strong>open license</strong>, such as MPL, GPL, or BSD.</li> <li>Your demo should showcase <strong>open web technologies</strong>, such as HTML5 and CSS3.</li> <li>Your demo should support a wide "
+"range of <strong>modern web browsers</strong>, like Firefox, Chrome, Safari, and Opera.</li> </ul>"
+msgstr ""
+"<ul> <li>Musisz być przygotowany do <strong>dostarczenia kodu źródłowego</strong> dema. Dema są utrzymywane na serwerach Demo Studio.</li> <li>Kod źródłowy dema musi być udostępniany na zasadach "
+"<strong>otwartych licencji</strong>, takich jak MPL, GPL, lub BSD.</li> <li>Demo powinno być pokazem <strong>otwartych technologii internetowych</strong>, takich jak HTML5 i CSS3.</li> <li>Demo "
+"powinno działać na wielu <strong>nowoczesnych przeglądarkach internetowych</strong> jak Firefox, Chrome, Safari, i Opera.</li> </ul>"
 
 #: apps/demos/templates/demos/submit_noauth.html:53
-msgid "<ul> <li>Your demo’s source code should be packaged inside a <strong>ZIP file</strong>.</li> <li>The main page of your demo should be a file named <strong><code>index.html</code></strong> in the root of the ZIP.</li> <li>Your demo should be built on <strong>client-side technology</strong> (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use <strong>AJAX</strong> to access them.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
-msgstr "<ul> <li>Kod źródłowy dema powinien być spakowany w <strong>pliku ZIP</strong>.</li> <li>Strona główna dema powinna mieć nazwę <strong><code>index.html</code></strong> i znajdować się w katalogu głównym archiwum ZIP.</li> <li>Demo powinno być zbudowane w oparciu o technologie, takie jak HTML, CSS, JavaScript bazujące na <strong>operacjach wykonywanych po stronie klienta</strong>. Języki o architekturze klient-serwer, takie jak PHP i Ruby nie są obsługiwane.</li> <li>Jeśli demo wymaga zewnętrznych zasobów, by uzyskać do nich dostęp, powinno używać technologii <strong>AJAX</strong>.</li> <li>W polu szczegółowych informacji o demie podaj informacje o treściach innych podmiotów zawartych w demie, które nie mogą być udostępnione na zasadach wolnych licencji i dodaj odnośniki do stron internetowych ich autorów.</li> </ul>"
+msgid ""
+"<ul> <li>Your demo’s source code should be packaged inside a <strong>ZIP file</strong>.</li> <li>The main page of your demo should be a file named <strong><code>index.html</code></strong> in the "
+"root of the ZIP.</li> <li>Your demo should be built on <strong>client-side technology</strong> (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your "
+"demo requires external resources, it should use <strong>AJAX</strong> to access them.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the CC-BY-"
+"SA license and include links to the authors' websites.</li> </ul>"
+msgstr ""
+"<ul> <li>Kod źródłowy dema powinien być spakowany w <strong>pliku ZIP</strong>.</li> <li>Strona główna dema powinna mieć nazwę <strong><code>index.html</code></strong> i znajdować się w katalogu "
+"głównym archiwum ZIP.</li> <li>Demo powinno być zbudowane w oparciu o technologie, takie jak HTML, CSS, JavaScript bazujące na <strong>operacjach wykonywanych po stronie klienta</strong>. Języki o "
+"architekturze klient-serwer, takie jak PHP i Ruby nie są obsługiwane.</li> <li>Jeśli demo wymaga zewnętrznych zasobów, by uzyskać do nich dostęp, powinno używać technologii <strong>AJAX</strong>.</"
+"li> <li>W polu szczegółowych informacji o demie podaj informacje o treściach innych podmiotów zawartych w demie, które nie mogą być udostępnione na zasadach wolnych licencji i dodaj odnośniki do "
+"stron internetowych ich autorów.</li> </ul>"
 
-#: apps/demos/templates/demos/submit.html:124
-msgid "<ul> <li>Your demo’s source code should be packaged inside a ZIP file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the ZIP.</li> <li>Your demo should be built on client-side technology (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use AJAX to access them.</li> <li>To submit your demo, you need an <a href=\"%(signup_url)s\">MDN account</a>.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
-msgstr "<ul> <li>Kod źródłowy dema powinien być spakowany w pliku ZIP.</li> <li>Strona główna dema powinna mieć nazwę <code>index.html</code> i znajdować się w katalogu gównym archiwum ZIP.</li> <li>Demo powinno być zbudowane w oparciu o technologie, takie jak HTML, CSS, JavaScript bazujące na operacjach wykonywanych po stronie klienta. Języki o architekturze klient-serwer, takie jak PHP i Ruby nie są obsługiwane.</li> <li>Jeśli demo wymaga zewnętrznych zasobów, by uzyskać do nich dostęp, powinno używać technologii AJAX.</li> <li>W polu szczegółowych informacji o demie podaj informacje o treściach innych podmiotów zawartych w demie, które nie mogą być udostępnione na zasadach wolnych licencji i dodaj odnośniki do stron internetowych ich autorów.</li> </ul>"
+#: apps/demos/templates/demos/submit.html:125
+msgid ""
+"<ul> <li>Your demo’s source code should be packaged inside a ZIP file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the ZIP.</li> <li>Your demo "
+"should be built on client-side technology (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use AJAX "
+"to access them.</li> <li>To submit your demo, you need an <a href=\"%(signup_url)s\">MDN account</a>.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed "
+"under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
+msgstr ""
+"<ul> <li>Kod źródłowy dema powinien być spakowany w pliku ZIP.</li> <li>Strona główna dema powinna mieć nazwę <code>index.html</code> i znajdować się w katalogu gównym archiwum ZIP.</li> <li>Demo "
+"powinno być zbudowane w oparciu o technologie, takie jak HTML, CSS, JavaScript bazujące na operacjach wykonywanych po stronie klienta. Języki o architekturze klient-serwer, takie jak PHP i Ruby nie "
+"są obsługiwane.</li> <li>Jeśli demo wymaga zewnętrznych zasobów, by uzyskać do nich dostęp, powinno używać technologii AJAX.</li> <li>W polu szczegółowych informacji o demie podaj informacje o "
+"treściach innych podmiotów zawartych w demie, które nie mogą być udostępnione na zasadach wolnych licencji i dodaj odnośniki do stron internetowych ich autorów.</li> </ul>"
 
 #: apps/landing/templates/landing/mozilla.html:107
 msgid "A Mozilla source tree browser."
@@ -352,12 +368,11 @@ msgstr "Obszerna lista zwrotów pomocnych twórcom stron w odnalezieniu potrzebn
 msgid "A comprehensive, usable, and accurate resource for everyone developing for the Open Web."
 msgstr "Obszerny, użyteczny i dokładny zasób wiedzy dla każdego kto tworzy dla platformy Open Web."
 
-#: apps/landing/templates/landing/web.html:52
+#: apps/landing/templates/landing/web.html:70
 msgid "A great resource for anyone working with JS."
 msgstr "Wspaniały zasób dla każdego kto pracuje z JS."
 
-#: apps/docs/templates/docs/docs.html:52
-#: apps/docs/templates/docs/glossary.html:11
+#: apps/docs/templates/docs/docs.html:52 apps/docs/templates/docs/glossary.html:11
 msgid "AJAX"
 msgstr "AJAX"
 
@@ -377,7 +392,7 @@ msgstr "Informacje o MDN"
 msgid "Access Android APIs on this Android Developer page."
 msgstr "Informacje o API Androida dostępne na tej stronie."
 
-#: apps/demos/templates/demos/detail.html:198
+#: apps/demos/templates/demos/detail.html:200
 msgid "Add your comment"
 msgstr "Dodaj komentarz"
 
@@ -389,14 +404,8 @@ msgstr "Kreator dodatków"
 msgid "Add-on Validator"
 msgstr "Weryfikator dodatków"
 
-#: apps/devmo/__init__.py:6
-#: apps/docs/templates/docs/docs.html:70
-#: apps/docs/templates/docs/docs.html:86
-#: apps/landing/templates/landing/addons.html:11
-#: apps/landing/templates/landing/addons.html:17
-#: apps/landing/templates/landing/home.html:138
-#: templates/base.html:72
-#: templates/base_compact.html:24
+#: apps/devmo/__init__.py:6 apps/docs/templates/docs/docs.html:70 apps/docs/templates/docs/docs.html:86 apps/landing/templates/landing/addons.html:11 apps/landing/templates/landing/addons.html:17
+#: apps/landing/templates/landing/home.html:138 templates/base.html:72 templates/base_compact.html:24
 msgid "Add-ons"
 msgstr "Dodatki"
 
@@ -412,8 +421,7 @@ msgstr "Kreator dodatków – dokumentacja SDK"
 msgid "Add-ons Builder [Preview]"
 msgstr "Konstruktor dodatków (prezentacja)"
 
-#: apps/landing/templates/landing/home.html:48
-#: apps/landing/templates/landing/home.html:99
+#: apps/landing/templates/landing/home.html:48 apps/landing/templates/landing/home.html:99
 msgid "Addons Builder Preview"
 msgstr "Konstruktor dodatków – prezentacja"
 
@@ -449,15 +457,15 @@ msgstr "Cała dokumentacja o tworzeniu Mobile"
 msgid "All mobile development entries"
 msgstr "Wszystkie wpisy o tworzeniu Mobile"
 
-#: apps/landing/templates/landing/web.html:63
+#: apps/landing/templates/landing/web.html:81
 msgid "All web development documentation"
 msgstr "Cała dokumentacja o tworzeniu stron"
 
-#: apps/landing/templates/landing/web.html:101
+#: apps/landing/templates/landing/web.html:119
 msgid "All web development entries"
 msgstr "Wszystkie wpisy o tworzeniu stron"
 
-#: apps/landing/templates/landing/web.html:89
+#: apps/landing/templates/landing/web.html:107
 msgid "All web development tools"
 msgstr "Wszystkie narzędzia dla tworzenia stron"
 
@@ -469,7 +477,7 @@ msgstr "Jesteś już członkiem?"
 msgid "Android APIs"
 msgstr "Android API"
 
-#: apps/landing/templates/landing/web.html:87
+#: apps/landing/templates/landing/web.html:105
 msgid "Another great Firefox/Firebug Add-on that helps you view and manage cookies in your browser."
 msgstr "Inny wspaniały dodatek dla Firefoksa – Firebug, który pomaga podejrzeć ciasteczka i zarządzać nimi w przeglądarce."
 
@@ -477,19 +485,23 @@ msgstr "Inny wspaniały dodatek dla Firefoksa – Firebug, który pomaga podejrz
 msgid "Apache"
 msgstr "Apache"
 
-#: apps/landing/templates/landing/addons.html:20
-#: apps/landing/templates/landing/mozilla.html:20
+#: apps/landing/templates/landing/addons.html:20 apps/landing/templates/landing/mozilla.html:20
 msgid "Are you ready to make browsing better?"
 msgstr "Jesteś gotowy do ulepszania przeglądania?"
 
-#: apps/demos/__init__.py:56
-#: apps/docs/templates/docs/glossary.html:15
+#: apps/demos/__init__.py:56 apps/docs/templates/docs/glossary.html:15
 msgid "Audio"
 msgstr "Audio"
 
 #: apps/landing/templates/landing/addons.html:105
 msgid "Auto-generate add-on packaging by entering basic info and picking UI parts. Get working without setup."
 msgstr "Automatyczne generowanie pakietu dodatku po podaniu podstawowych informacji i wskazaniu elementów interfejsu. Działa bez instalacji."
+
+#. Please escape HTML entities here, like &amp;
+#: apps/landing/templates/landing/web.html:38
+#, fuzzy
+msgid "Awesome <span class=\"web\">Web</span> Demos"
+msgstr "Najważniejsze tematy dla twórców <span class=\"web\">stron internetowych</span>"
 
 #: apps/demos/__init__.py:280
 msgid "BSD"
@@ -507,9 +519,7 @@ msgstr "Zostań członkiem MDN"
 msgid "Before You Begin"
 msgstr "Zanim zaczniesz"
 
-#: apps/demos/templates/demos/listing_all.html:5
-#: apps/demos/templates/demos/listing_all.html:19
-#: apps/demos/templates/demos/listing_all.html:31
+#: apps/demos/templates/demos/listing_all.html:5 apps/demos/templates/demos/listing_all.html:19 apps/demos/templates/demos/listing_all.html:31
 msgid "Browse all demos"
 msgstr "Przeglądaj dema"
 
@@ -533,9 +543,7 @@ msgstr "Twórz wspaniałe dodatki dla Firefoksa Mobile"
 msgid "Built using"
 msgstr "Użyte technologie:"
 
-#: apps/docs/templates/docs/docs.html:44
-#: apps/docs/templates/docs/glossary.html:5
-#: apps/landing/templates/landing/web.html:55
+#: apps/docs/templates/docs/docs.html:44 apps/docs/templates/docs/glossary.html:5 apps/landing/templates/landing/web.html:73
 msgid "CSS"
 msgstr "CSS"
 
@@ -556,24 +564,23 @@ msgstr "Transformacje CSS"
 msgid "CSS3"
 msgstr "CSS3"
 
-#: apps/demos/templates/demos/delete.html:49
-#: apps/demos/templates/demos/delete_comment.html:52
-#: apps/demos/templates/demos/flag.html:44
+#: apps/demos/templates/demos/delete.html:49 apps/demos/templates/demos/delete_comment.html:52 apps/demos/templates/demos/flag.html:44
 msgid "Cancel"
 msgstr "Anuluj"
 
-#: apps/demos/forms.py:135
+#: apps/demos/forms.py:138
 msgid "Cannot process image"
 msgstr "Nie można przetworzyć obrazka"
 
-#: apps/demos/__init__.py:66
-#: apps/docs/templates/docs/glossary.html:10
+#: apps/demos/__init__.py:66 apps/docs/templates/docs/glossary.html:10
 msgid "Canvas"
 msgstr "Canvas"
 
 #: apps/demos/__init__.py:77
-msgid "Cascading Style Sheets level 3 (CSS3) provide serveral new features and properties to enhance the formatting and look of documents written in different kinds of markup languages like HTML or XML."
-msgstr "Kaskadowe arkusze stylów poziomu 3 (CSS3) dostarczają różne nowe funkcje i możliwości rozszerzające formatowanie i wygląd dokumentów napisanych w różnych rodzajach języków, takich jak HTML czy XML."
+msgid ""
+"Cascading Style Sheets level 3 (CSS3) provide serveral new features and properties to enhance the formatting and look of documents written in different kinds of markup languages like HTML or XML."
+msgstr ""
+"Kaskadowe arkusze stylów poziomu 3 (CSS3) dostarczają różne nowe funkcje i możliwości rozszerzające formatowanie i wygląd dokumentów napisanych w różnych rodzajach języków, takich jak HTML czy XML."
 
 #: apps/docs/templates/docs/docs.html:45
 msgid "Cascading Style Sheets provide advanced layout and formatting of web content."
@@ -595,8 +602,7 @@ msgstr "Sprawdza dodatek w poszukiwaniu często występujących problemów i bł
 msgid "Close"
 msgstr "Zamknij"
 
-#: apps/demos/templates/demos/detail.html:200
-#: apps/demos/templates/demos/elements/comments_tree.html:50
+#: apps/demos/templates/demos/detail.html:202 apps/demos/templates/demos/elements/comments_tree.html:50
 msgid "Comment"
 msgstr "Prześlij"
 
@@ -628,7 +634,7 @@ msgstr "Wymieniaj się na Twitterze opiniami ze społecznością twórców Firef
 msgid "Correspondence on Twitter from the Mozilla developer community."
 msgstr "Wymieniaj się na Twitterze opiniami ze społecznością twórców Mozilli."
 
-#: apps/landing/templates/landing/web.html:108
+#: apps/landing/templates/landing/web.html:126
 msgid "Correspondence on Twitter from the Web developer community."
 msgstr "Wymieniaj się opiniami na Twitterze ze społecznością twórców stron internetowych."
 
@@ -653,10 +659,7 @@ msgstr "Ustaw profil i dostosuj swój udział w MDN."
 msgid "DEVMO"
 msgstr "DEVMO"
 
-#: apps/docs/templates/docs/docs.html:48
-#: apps/docs/templates/docs/glossary.html:8
-#: apps/landing/templates/landing/home.html:189
-#: apps/landing/templates/landing/web.html:59
+#: apps/docs/templates/docs/docs.html:48 apps/docs/templates/docs/glossary.html:8 apps/landing/templates/landing/home.html:189 apps/landing/templates/landing/web.html:77
 msgid "DOM"
 msgstr "DOM"
 
@@ -668,8 +671,7 @@ msgstr "Debugowanie"
 msgid "Delete"
 msgstr "Usuń"
 
-#: apps/demos/templates/demos/delete_comment.html:10
-#: apps/demos/templates/demos/delete_comment.html:22
+#: apps/demos/templates/demos/delete_comment.html:10 apps/demos/templates/demos/delete_comment.html:22
 msgid "Delete Comment"
 msgstr "Usuń komentarz"
 
@@ -685,32 +687,22 @@ msgstr "Usuń ten komentarz"
 msgid "Delete this comment?"
 msgstr "Usunąć ten komentarz?"
 
-#: apps/demos/templates/demos/base.html:4
-#: apps/demos/templates/demos/delete.html:21
-#: apps/demos/templates/demos/delete_comment.html:21
-#: apps/demos/templates/demos/detail.html:14
-#: apps/demos/templates/demos/flag.html:21
-#: apps/demos/templates/demos/home.html:14
-#: apps/demos/templates/demos/listing_all.html:18
-#: apps/demos/templates/demos/listing_search.html:24
-#: apps/demos/templates/demos/listing_tag.html:19
-#: apps/demos/templates/demos/profile_detail.html:23
-#: apps/demos/templates/demos/submit.html:43
-#: apps/demos/templates/demos/submit_noauth.html:19
-#: templates/base.html:78
-#: templates/base_compact.html:18
+#: apps/demos/templates/demos/base.html:4 apps/demos/templates/demos/delete.html:21 apps/demos/templates/demos/delete_comment.html:21 apps/demos/templates/demos/detail.html:14
+#: apps/demos/templates/demos/flag.html:21 apps/demos/templates/demos/home.html:14 apps/demos/templates/demos/listing_all.html:18 apps/demos/templates/demos/listing_search.html:24
+#: apps/demos/templates/demos/listing_tag.html:19 apps/demos/templates/demos/profile_detail.html:23 apps/demos/templates/demos/submit.html:43 apps/demos/templates/demos/submit_noauth.html:19
+#: apps/landing/templates/landing/web.html:47 templates/base.html:78 templates/base_compact.html:18
 msgid "Demo Studio"
 msgstr "Demo Studio"
 
-#: apps/demos/templates/demos/detail.html:251
+#: apps/demos/templates/demos/detail.html:253
 msgid "Demo is inappropriate"
 msgstr "Demo zawiera nieodpowiednie treści"
 
-#: apps/demos/templates/demos/detail.html:252
+#: apps/demos/templates/demos/detail.html:254
 msgid "Demo is not by this author"
 msgstr "Demo nie jest tego autora"
 
-#: apps/demos/templates/demos/detail.html:250
+#: apps/demos/templates/demos/detail.html:252
 msgid "Demo is not working"
 msgstr "Demo nie działa"
 
@@ -762,22 +754,27 @@ msgstr "Tworzenie dla Firefoksa Mobile"
 msgid "Device"
 msgstr "Urządzenia"
 
-#: apps/demos/templates/demos/submit.html:184
+#: apps/demos/models.py:313
+msgid "Disable navigation bar, launch demo in a new window"
+msgstr ""
+
+#: apps/demos/templates/demos/submit.html:185
 msgid "Discard Changes"
 msgstr "Odrzuć zmiany"
 
-#: apps/demos/templates/demos/submit.html:181
+#: apps/demos/templates/demos/submit.html:182
 msgid "Discard Demo"
 msgstr "Odrzuć demo"
 
-#: apps/demos/templates/demos/detail.html:90
-#: apps/demos/templates/demos/launch.html:39
+#: apps/demos/templates/demos/detail.html:90 apps/demos/templates/demos/launch.html:39
 msgid "Do you like this demo?"
 msgstr "Podoba ci się to demo?"
 
-#: apps/docs/templates/docs/docs.html:7
-#: templates/base.html:77
-#: templates/base_compact.html:26
+#: apps/landing/templates/landing/web.html:48
+msgid "Do you want to show the world what the Web can do? Demo Studio is your place for sharing awesome demos and experiments with the latest Web standards and open technologies."
+msgstr ""
+
+#: apps/docs/templates/docs/docs.html:7 templates/base.html:77 templates/base_compact.html:26
 msgid "Doc Center"
 msgstr "Artykuły"
 
@@ -794,12 +791,11 @@ msgstr "Artykuły"
 msgid "Download Formats:"
 msgstr "Formaty pobierania:"
 
-#: apps/demos/templates/demos/detail.html:212
+#: apps/demos/templates/demos/detail.html:214
 msgid "Download the Source <span class=\"note\">%(file_ksize)s KB &middot; ZIP File</span>"
 msgstr "Pobierz źródło <span class=\"note\">%(file_ksize)s KB &middot; Plik ZIP</span>"
 
-#: apps/demos/__init__.py:164
-#: apps/docs/templates/docs/glossary.html:19
+#: apps/demos/__init__.py:164 apps/docs/templates/docs/glossary.html:19
 msgid "Drag and Drop"
 msgstr "Przeciągnij i upuść"
 
@@ -823,13 +819,11 @@ msgstr "Edytuj demo"
 msgid "Edit this comment"
 msgstr "Edytuj ten komentarz"
 
-#: apps/demos/templates/demos/submit.html:8
-#: apps/demos/templates/demos/submit.html:45
-#: apps/demos/templates/demos/submit.html:60
+#: apps/demos/templates/demos/submit.html:8 apps/demos/templates/demos/submit.html:45 apps/demos/templates/demos/submit.html:60
 msgid "Edit {demo_title}"
 msgstr "Edytuj {demo_title}"
 
-#: apps/landing/templates/landing/web.html:83
+#: apps/landing/templates/landing/web.html:101
 msgid "Evaluate performance of web pages with this Firefox/Firebug Add-on"
 msgstr "Oceń wydajność stron internetowych za pomocą Page Speeda działającego w oparciu o dodatek Firebug."
 
@@ -837,8 +831,7 @@ msgstr "Oceń wydajność stron internetowych za pomocą Page Speeda działając
 msgid "Everything from filing bugs to fixing them."
 msgstr "Wszystko od zgłoszenia błędu do jego naprawienia."
 
-#: apps/docs/templates/docs/docs.html:89
-#: apps/landing/templates/landing/addons.html:60
+#: apps/docs/templates/docs/docs.html:89 apps/landing/templates/landing/addons.html:60
 msgid "Extensions"
 msgstr "Rozszerzenia"
 
@@ -858,7 +851,7 @@ msgid "Favorite <span class=\"mozilla\">Mozilla</span> Tools"
 msgstr "Ulubione narzędzia <span class=\"mozilla\">Mozilli</span>"
 
 #. Please escape HTML entities here, like &amp;
-#: apps/landing/templates/landing/web.html:69
+#: apps/landing/templates/landing/web.html:87
 msgid "Favorite <span class=\"web\">Web</span> Developer Tools"
 msgstr "Ulubione narzędzia twórców <span class=\"web\">stron</span>"
 
@@ -878,25 +871,19 @@ msgstr "Kanał"
 msgid "Fennec"
 msgstr "Fennec"
 
-#: apps/demos/__init__.py:95
-#: apps/docs/templates/docs/glossary.html:18
+#: apps/demos/__init__.py:95 apps/docs/templates/docs/glossary.html:18
 msgid "Files"
 msgstr "Pliki"
 
-#: apps/demos/models.py:157
-msgid "Filetype not supported."
-msgstr "Nieobsługiwany typ pliku"
-
-#: apps/landing/templates/landing/web.html:48
+#: apps/landing/templates/landing/web.html:66
 msgid "Find out what HTML5 is really all about and how you can develop for a better Web through open standards."
 msgstr "Dowiedz się, co to jest naprawdę HTML5 i jak możesz rozwijać Internet w oparciu o otwarte standardy."
 
-#: apps/landing/templates/landing/home.html:47
-#: apps/landing/templates/landing/home.html:84
+#: apps/landing/templates/landing/home.html:47 apps/landing/templates/landing/home.html:84
 msgid "Firefox 4 Beta"
 msgstr "Firefox 4 Beta"
 
-#: apps/landing/templates/landing/web.html:79
+#: apps/landing/templates/landing/web.html:97
 msgid "Firefox Add-on that adds a lot of great developer tools that are just a click away."
 msgstr "Dodatek dla Firefoksa, który dodaje wiele wspaniałych narzędzi dostępnych natychmiast po kliknięciu."
 
@@ -917,8 +904,13 @@ msgid "Firefox for mobile: What's coming next"
 msgstr "Firefox Mobile: Co dalej?"
 
 #: apps/landing/templates/landing/mobile.html:55
-msgid "Firefox is the world's first Web browser to support mobile add-ons. Learn about <a href=\"%(basics_url)s\">Extension Basics</a>, <a href=\"%(best_practices_url)s\">Extension Best Practices</a>, helpful <a href=\"%(snippets_url)s\">Code Snippets</a>, and more so you can build innovative add-ons for Firefox on Android and Firefox on Nokia's Meego platform."
-msgstr "Firefox jest pierwszą na świecie przeglądarką internetową dla urządzeń przenośnych obsługującą dodatki. Dowiedz się więcej o <a href=\"%(basics_url)s\">podstawach tworzenia rozszerzeń</a>, <a href=\"%(best_practices_url)s\">dobrych praktykach</a>, <a href=\"%(snippets_url)s\">gotowych kodach</a> i innych elementach pomocnych przy tworzeniu innowacyjnych dodatków dla Firefoksa na Androida i platformę Nokii – Maemo."
+msgid ""
+"Firefox is the world's first Web browser to support mobile add-ons. Learn about <a href=\"%(basics_url)s\">Extension Basics</a>, <a href=\"%(best_practices_url)s\">Extension Best Practices</a>, "
+"helpful <a href=\"%(snippets_url)s\">Code Snippets</a>, and more so you can build innovative add-ons for Firefox on Android and Firefox on Nokia's Meego platform."
+msgstr ""
+"Firefox jest pierwszą na świecie przeglądarką internetową dla urządzeń przenośnych obsługującą dodatki. Dowiedz się więcej o <a href=\"%(basics_url)s\">podstawach tworzenia rozszerzeń</a>, <a href="
+"\"%(best_practices_url)s\">dobrych praktykach</a>, <a href=\"%(snippets_url)s\">gotowych kodach</a> i innych elementach pomocnych przy tworzeniu innowacyjnych dodatków dla Firefoksa na Androida i "
+"platformę Nokii – Maemo."
 
 #: apps/demos/templates/demos/flag.html:43
 msgid "Flag content"
@@ -940,21 +932,18 @@ msgstr "Oznaczone"
 msgid "Fonts & Type"
 msgstr "Czcionki"
 
-#: apps/landing/templates/landing/web.html:44
-msgid "For the latest in open Web technologies, these cool demos are a great way to discover new documentation."
-msgstr "Te fajne dema są najlepszym sposobem zapoznania się z najnowszymi technologiami otwartego Internetu."
-
 #: apps/demos/__init__.py:115
 msgid "Form elements and attributes in HTML5 provide a greater degree of semantic mark-up than HTML4 and remove a great deal of the need for tedious scripting and styling that was required in HTML4."
-msgstr "Elementy i atrybuty formularza w HTML5 dostarczają wyższy stopień semantycznych znaczników niż HTML4 i znacznie zmniejszają potrzebę tworzenia żmudnych skryptów i stylizacji niż było to wymagane w HTML4."
+msgstr ""
+"Elementy i atrybuty formularza w HTML5 dostarczają wyższy stopień semantycznych znaczników niż HTML4 i znacznie zmniejszają potrzebę tworzenia żmudnych skryptów i stylizacji niż było to wymagane w "
+"HTML4."
 
 # 83%
 #: apps/demos/__init__.py:114
 msgid "Forms"
 msgstr "Formularze"
 
-#: templates/base.html:79
-#: templates/base_compact.html:27
+#: templates/base.html:79 templates/base_compact.html:27
 msgid "Forums"
 msgstr "Fora"
 
@@ -978,11 +967,14 @@ msgstr "Pobierz z najlepszej kolekcji tutoriali i artykułów wskazówki dotycz�
 msgid "Get involved in the %(mobile_link)s, %(addons_link)s, & %(apps_link)s Developer Communities:"
 msgstr "Dołącz do społeczności twórców %(mobile_link)s, %(addons_link)s i %(apps_link)s:"
 
-#: apps/demos/templates/demos/detail.html:211
+#: apps/demos/templates/demos/detail.html:213
 msgid "Get the Source Code"
 msgstr "Pobierz kod źródłowy"
 
 #: apps/landing/templates/landing/mobile.html:45
+msgid "Get the latest news, status and developer documentation on the Mozilla mobile project. Check out the mobile project's goals, and how you can help out and get involved!"
+msgstr ""
+
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
 msgstr "Przejdź"
@@ -995,8 +987,7 @@ msgstr "Przejdź do pierwszej strony"
 msgid "Go to the last page"
 msgstr "Przejdź do ostatniej strony"
 
-#: apps/demos/templates/demos/detail.html:27
-#: apps/demos/templates/demos/launch.html:62
+#: apps/demos/templates/demos/detail.html:27 apps/demos/templates/demos/launch.html:62
 msgid "Go to the next demo, {demo_title}"
 msgstr "Przejdź do następnego dema, {demo_title}"
 
@@ -1004,8 +995,7 @@ msgstr "Przejdź do następnego dema, {demo_title}"
 msgid "Go to the next page"
 msgstr "Przejdź do następnej strony"
 
-#: apps/demos/templates/demos/detail.html:23
-#: apps/demos/templates/demos/launch.html:58
+#: apps/demos/templates/demos/detail.html:23 apps/demos/templates/demos/launch.html:58
 msgid "Go to the previous demo, {demo_title}"
 msgstr "Przejdź do poprzedniego dema, {demo_title}"
 
@@ -1013,22 +1003,16 @@ msgstr "Przejdź do poprzedniego dema, {demo_title}"
 msgid "Go to the previous page"
 msgstr "Przejdź do poprzedniej strony"
 
-#: apps/docs/templates/docs/docs.html:32
-#: apps/docs/templates/docs/glossary.html:4
-#: apps/landing/templates/landing/home.html:177
+#: apps/docs/templates/docs/docs.html:32 apps/docs/templates/docs/glossary.html:4 apps/landing/templates/landing/home.html:177
 msgid "HTML"
 msgstr "HTML"
 
-#: apps/demos/models.py:454
+#: apps/demos/models.py:521
 msgid "HTML index not found in ZIP"
 msgstr "W archiwum ZIP nie znaleziono indeksu HTML"
 
-#: apps/demos/__init__.py:144
-#: apps/docs/templates/docs/docs.html:36
-#: apps/docs/templates/docs/glossary.html:7
-#: apps/landing/templates/landing/home.html:46
-#: apps/landing/templates/landing/home.html:70
-#: apps/landing/templates/landing/web.html:47
+#: apps/demos/__init__.py:144 apps/docs/templates/docs/docs.html:36 apps/docs/templates/docs/glossary.html:7 apps/landing/templates/landing/home.html:46 apps/landing/templates/landing/home.html:70
+#: apps/landing/templates/landing/web.html:65
 msgid "HTML5"
 msgstr "HTML5"
 
@@ -1036,8 +1020,9 @@ msgstr "HTML5"
 msgid "HTML5 is the newest version of the HTML standard, currently under development."
 msgstr "HTML5 to najnowsza wersja standardu HTML nadal w fazie rozwoju."
 
-#: apps/landing/templates/landing/web.html:43
-msgid "Hacks Demos"
+#: apps/landing/templates/landing/web.html:51
+#, fuzzy
+msgid "Hacks Blog"
 msgstr "Filmiki demonstracyjne"
 
 #: apps/landing/templates/landing/mobile.html:152
@@ -1076,7 +1061,7 @@ msgstr "Język HTML (HyperText Markup Language) – główny język tworzenia st
 msgid "Hypertext Markup Language, the core technology of the web."
 msgstr "Język HTML (HyperText Markup Language) – główna technologia tworzenia stron internetowych."
 
-#: apps/demos/templates/demos/submit.html:165
+#: apps/demos/templates/demos/submit.html:166
 msgid "I accept the Mozilla Demo Studio <a href=\"%(terms_url)s#tfc\">Terms for Contributors</a> and <a href=\"%(terms_url)s#rrd\">Rights Representation Details</a>"
 msgstr "Akceptuję <a href=\"%(terms_url)s#tfc\">regulamin dla autorów</a> Mozilla Demo Studio i <a href=\"%(terms_url)s#rrd\">postanowienia prawne</a>."
 
@@ -1084,12 +1069,15 @@ msgstr "Akceptuję <a href=\"%(terms_url)s#tfc\">regulamin dla autorów</a> Mozi
 msgid "If you are comfortable with a command line and prefer working locally, the Add-ons Builder SDK gives you a development environment on your own computer."
 msgstr "Jeśli wiersz poleceń nie stanowi dla ciebie tabu i preferujesz pracę lokalnie, SDK konstruktora dodatków udostępnia ci środowisko programistyczne na twój komputer."
 
+#: apps/demos/templates/demos/submit.html:119
+msgid "If your demo has problems when displayed in an <iframe>, try changing this."
+msgstr ""
+
 #: apps/demos/__init__.py:215
 msgid "In the context of the HTML canvas element WebGL provides an API for 3D graphics in the browser."
 msgstr "Korzystając z występującego w HTML5 elementu canvas, WebGL zapewnia dostęp do trójwymiarowego API w przeglądarce internetowej."
 
-#: apps/demos/__init__.py:154
-#: apps/docs/templates/docs/glossary.html:23
+#: apps/demos/__init__.py:154 apps/docs/templates/docs/glossary.html:23
 msgid "IndexedDB"
 msgstr "IndexedDB"
 
@@ -1097,12 +1085,11 @@ msgstr "IndexedDB"
 msgid "IndexedDB is an API for client-side storage of significant amounts of structured data and for high performance searches on this data using indexes."
 msgstr "IndexedDB to API dla przechowywania po stronie klienta znacznych ilości danych strukturalnych i wysokiej skuteczności przeszukiwania tych danych za pomocą indeksów."
 
-#: templates/500.html:3
-#: templates/500.html:5
+#: templates/500.html:3 templates/500.html:5
 msgid "Internal Server Error"
 msgstr "Wewnętrzny błąd serwera"
 
-#: apps/demos/models.py:307
+#: apps/demos/models.py:360
 msgid "Is your source code also available somewhere else on the web (e.g., github)? Please share the link."
 msgstr "Jeśli kod źródłowy tego dema jest dostępny gdzieś w Internecie, np. w github, podaj do niego odnośnik"
 
@@ -1110,21 +1097,13 @@ msgstr "Jeśli kod źródłowy tego dema jest dostępny gdzieś w Internecie, np
 msgid "JPEG and PNG supported. Minimum size of 480x360."
 msgstr "Obsługiwane formaty: JPEG i PNG. Minimalny rozmiar 480x360."
 
-#: apps/docs/templates/docs/docs.html:40
-#: apps/docs/templates/docs/glossary.html:6
-#: apps/landing/templates/landing/home.html:185
-#: apps/landing/templates/landing/web.html:51
+#: apps/demos/__init__.py:134 apps/docs/templates/docs/docs.html:40 apps/docs/templates/docs/glossary.html:6 apps/landing/templates/landing/home.html:185 apps/landing/templates/landing/web.html:69
 msgid "JavaScript"
 msgstr "JavaScript"
 
 #: apps/demos/__init__.py:135
 msgid "JavaScript is a lightweight, object-oriented programming language, commonly used for scripting interactive behavior on web pages and in web applications."
 msgstr "JavaScript to lekki, obiektowo zorientowany język programowania często używany do tworzenia skryptów interaktywnych zachowań na stronach i w aplikacjach internetowych."
-
-# 90%
-#: apps/demos/__init__.py:134
-msgid "Javascript"
-msgstr "JavaScript"
 
 #: apps/landing/templates/landing/addons.html:24
 msgid "Join the Add-ons discussions!"
@@ -1186,12 +1165,20 @@ msgid "Learn More"
 msgstr "Dowiedz się więcej"
 
 #: apps/landing/templates/landing/mobile.html:69
-msgid "Learn how to use the <a href=\"%(geo_url)s\">Geolocation API</a> and put people on the right path. Location-Aware Browsing is a must when you're out and about on your mobile. Learn how to build innovative apps that delight your audience."
-msgstr "Dowiedz się, jak używać <a href=\"%(geo_url)s\">API geolokalizacji</a> i skierować ludzi na właściwą ścieżkę. Gdy jesteś poza domem, przeglądanie uwzględniające położenie jest koniecznością w twoim telefonie. Dowiedz się, jak zbudować innowacyjne programy wzbudzające ogólny zachwyt."
+msgid ""
+"Learn how to use the <a href=\"%(geo_url)s\">Geolocation API</a> and put people on the right path. Location-Aware Browsing is a must when you're out and about on your mobile. Learn how to build "
+"innovative apps that delight your audience."
+msgstr ""
+"Dowiedz się, jak używać <a href=\"%(geo_url)s\">API geolokalizacji</a> i skierować ludzi na właściwą ścieżkę. Gdy jesteś poza domem, przeglądanie uwzględniające położenie jest koniecznością w twoim "
+"telefonie. Dowiedz się, jak zbudować innowacyjne programy wzbudzające ogólny zachwyt."
 
 #: apps/landing/templates/landing/home.html:132
 msgid "Learn more about <a href=\"%(devmo_mobile)s\">Fennec</a> and mobile-specific technologies like <a href=\"%(devmo_geo)s\">geolocation</a>.</p>"
 msgstr "Dowiedz się więcej o <a href=\"%(devmo_mobile)s\">Fennecku</a> i technologiach mobilnych, takich jak <a href=\"%(devmo_geo)s\">geolokalizacja</a>.</p>"
+
+#: apps/landing/templates/landing/web.html:52
+msgid "Learn more about developer features and the latest technologies through articles and demos on the Hacks Blog."
+msgstr ""
 
 #: apps/landing/templates/landing/mozilla.html:54
 msgid "Learn more about the technologies at the core of Mozilla products and services."
@@ -1201,19 +1188,21 @@ msgstr "Dowiedz się więcej o technologiach w centrum produktów i usług Mozil
 msgid "Learn the history behind Project <em>Devmo</em>"
 msgstr "Poznaj historię projektu <em>Devmo</em>"
 
-#: apps/demos/templates/demos/detail.html:90
-#: apps/demos/templates/demos/launch.html:39
+#: apps/demos/templates/demos/detail.html:90 apps/demos/templates/demos/launch.html:39
 msgid "Like It"
 msgstr "Podoba mi się"
 
-#: apps/docs/templates/docs/docs.html:101
-#: apps/landing/templates/landing/mozilla.html:81
+#: apps/docs/templates/docs/docs.html:101 apps/landing/templates/landing/mozilla.html:81
 msgid "Localization"
 msgstr "Lokalizacja"
 
 #: apps/landing/templates/landing/mozilla.html:83
-msgid "Localization (L10n) is the process of translating software user interfaces from one language to another and adapting it to suit a foreign culture. These resources are about making Mozilla-based applications/extensions localizable."
-msgstr "Lokalizacja (L10n) to proces tłumaczenia interfejsu użytkownika oprogramowania z jednego języka na drugi z uwzględnieniem uwarunkowań kulturowych. Te zasoby zawierają wszystko, co potrzebne, by programy/rozszerzenia bazujące na technologii Mozilli można było lokalizować."
+msgid ""
+"Localization (L10n) is the process of translating software user interfaces from one language to another and adapting it to suit a foreign culture. These resources are about making Mozilla-based "
+"applications/extensions localizable."
+msgstr ""
+"Lokalizacja (L10n) to proces tłumaczenia interfejsu użytkownika oprogramowania z jednego języka na drugi z uwzględnieniem uwarunkowań kulturowych. Te zasoby zawierają wszystko, co potrzebne, by "
+"programy/rozszerzenia bazujące na technologii Mozilli można było lokalizować."
 
 #: apps/landing/templates/landing/mobile.html:67
 msgid "Location-Aware Applications"
@@ -1223,54 +1212,27 @@ msgstr "Przeglądanie uwzględniające położenie"
 msgid "Log In to Account"
 msgstr "Zaloguj się"
 
-#: apps/landing/templates/landing/home.html:24
-#: templates/includes/login.html:6
+#: apps/landing/templates/landing/home.html:24 templates/includes/login.html:6
 msgid "Log in"
 msgstr "Zaloguj się"
 
-#: templates/includes/login.html:3
-#: templates/includes/login.html:10
+#: templates/includes/login.html:3 templates/includes/login.html:10
 msgid "Log out"
 msgstr "Wyloguj się"
 
-#: apps/demos/templates/demos/delete.html:20
-#: apps/demos/templates/demos/delete_comment.html:20
-#: apps/demos/templates/demos/detail.html:13
-#: apps/demos/templates/demos/flag.html:20
-#: apps/demos/templates/demos/listing_all.html:17
-#: apps/demos/templates/demos/listing_search.html:23
-#: apps/demos/templates/demos/listing_tag.html:18
-#: apps/demos/templates/demos/profile_detail.html:22
-#: apps/demos/templates/demos/submit.html:42
-#: apps/demos/templates/demos/submit_noauth.html:18
+#: apps/demos/templates/demos/delete.html:20 apps/demos/templates/demos/delete_comment.html:20 apps/demos/templates/demos/detail.html:13 apps/demos/templates/demos/flag.html:20
+#: apps/demos/templates/demos/listing_all.html:17 apps/demos/templates/demos/listing_search.html:23 apps/demos/templates/demos/listing_tag.html:18 apps/demos/templates/demos/profile_detail.html:22
+#: apps/demos/templates/demos/submit.html:42 apps/demos/templates/demos/submit_noauth.html:18
 msgid "MDN"
 msgstr "MDN"
 
-#: apps/demos/__init__.py:59
-#: apps/demos/__init__.py:69
-#: apps/demos/__init__.py:79
-#: apps/demos/__init__.py:89
-#: apps/demos/__init__.py:98
-#: apps/demos/__init__.py:107
-#: apps/demos/__init__.py:117
-#: apps/demos/__init__.py:127
-#: apps/demos/__init__.py:137
-#: apps/demos/__init__.py:147
-#: apps/demos/__init__.py:157
-#: apps/demos/__init__.py:167
-#: apps/demos/__init__.py:177
-#: apps/demos/__init__.py:187
-#: apps/demos/__init__.py:197
-#: apps/demos/__init__.py:207
-#: apps/demos/__init__.py:217
-#: apps/demos/__init__.py:227
-#: apps/demos/__init__.py:237
-#: apps/demos/__init__.py:247
-#: apps/demos/__init__.py:257
+#: apps/demos/__init__.py:59 apps/demos/__init__.py:69 apps/demos/__init__.py:79 apps/demos/__init__.py:89 apps/demos/__init__.py:98 apps/demos/__init__.py:107 apps/demos/__init__.py:117
+#: apps/demos/__init__.py:127 apps/demos/__init__.py:137 apps/demos/__init__.py:147 apps/demos/__init__.py:157 apps/demos/__init__.py:167 apps/demos/__init__.py:177 apps/demos/__init__.py:187
+#: apps/demos/__init__.py:197 apps/demos/__init__.py:207 apps/demos/__init__.py:217 apps/demos/__init__.py:227 apps/demos/__init__.py:237 apps/demos/__init__.py:247 apps/demos/__init__.py:257
 msgid "MDN Documentation"
 msgstr "Dokumentacja MDN"
 
-#: apps/demos/feeds.py:213
+#: apps/demos/feeds.py:214
 msgid "MDN demo search for \"%s\""
 msgstr "Wyszukiwanie demo dla zapytania „%s”"
 
@@ -1306,7 +1268,7 @@ msgstr "MPL/GPL/LGPL"
 msgid "MXR"
 msgstr "MXR"
 
-#: apps/demos/models.py:107
+#: apps/demos/models.py:158
 msgid "Maximum of %s tags allowed"
 msgstr "Dozwolone jest maksymalnie %s etykiet"
 
@@ -1318,15 +1280,8 @@ msgstr "Media Queries"
 msgid "Media queries and orientation events let authors adjust their layout on hand-held devices such as mobile phones."
 msgstr "Media queries i detekcja orientacji umożliwiają autorom dostosować wygląd swoich aplikacji do urządzeń przenośnych, takich jak telefony komórkowe."
 
-#: apps/demos/__init__.py:174
-#: apps/devmo/__init__.py:18
-#: apps/docs/templates/docs/docs.html:69
-#: apps/docs/templates/docs/docs.html:78
-#: apps/landing/templates/landing/home.html:130
-#: apps/landing/templates/landing/mobile.html:11
-#: apps/landing/templates/landing/mobile.html:17
-#: templates/base.html:71
-#: templates/base_compact.html:23
+#: apps/demos/__init__.py:174 apps/devmo/__init__.py:18 apps/docs/templates/docs/docs.html:69 apps/docs/templates/docs/docs.html:78 apps/landing/templates/landing/home.html:130
+#: apps/landing/templates/landing/mobile.html:11 apps/landing/templates/landing/mobile.html:17 templates/base.html:71 templates/base_compact.html:23
 msgid "Mobile"
 msgstr "Mobile"
 
@@ -1338,14 +1293,11 @@ msgstr "Mobile Wiki"
 msgid "Modified by %(author)s on %(updated)s"
 msgstr "Zmodyfikowano przez %(author)s dnia %(updated)s"
 
-#: apps/landing/templates/landing/home.html:64
-#: apps/landing/templates/landing/home.html:78
-#: apps/landing/templates/landing/home.html:93
-#: apps/landing/templates/landing/home.html:108
+#: apps/landing/templates/landing/home.html:64 apps/landing/templates/landing/home.html:78 apps/landing/templates/landing/home.html:93 apps/landing/templates/landing/home.html:108
 msgid "More"
 msgstr "Więcej"
 
-#: apps/demos/templates/demos/detail.html:165
+#: apps/demos/templates/demos/detail.html:166
 msgid "More About This Demo From The Author"
 msgstr "Więcej informacji od autora o tym demie"
 
@@ -1365,14 +1317,8 @@ msgstr "Najnowsze"
 msgid "Most Viewed"
 msgstr "Najczęściej oglądane"
 
-#: apps/devmo/__init__.py:12
-#: apps/docs/templates/docs/docs.html:71
-#: apps/docs/templates/docs/docs.html:97
-#: apps/landing/templates/landing/home.html:147
-#: apps/landing/templates/landing/mozilla.html:11
-#: apps/landing/templates/landing/mozilla.html:17
-#: templates/base.html:73
-#: templates/base_compact.html:25
+#: apps/devmo/__init__.py:12 apps/docs/templates/docs/docs.html:71 apps/docs/templates/docs/docs.html:97 apps/landing/templates/landing/home.html:147 apps/landing/templates/landing/mozilla.html:11
+#: apps/landing/templates/landing/mozilla.html:17 templates/base.html:73 templates/base_compact.html:25
 msgid "Mozilla"
 msgstr "Mozilla"
 
@@ -1384,19 +1330,27 @@ msgstr "Mozilla Demo Studio"
 msgid "Mozilla Developer Guide"
 msgstr "Przewodnik po Mozilla Developer"
 
-#: apps/demos/templates/demos/launch.html:21
-#: templates/base.html:4
-#: templates/base_popup.html:4
+#: apps/demos/templates/demos/launch.html:21 templates/base.html:4 templates/base_popup.html:4
 msgid "Mozilla Developer Network"
 msgstr "Mozilla Developer Network"
 
 #: apps/landing/templates/landing/home.html:56
-msgid "Mozilla and <a href=\"%(p2pu)s\">P2PU</a> are creating the <a href=\"%(p2pu_drumbeat)s\">School of Webcraft</a>, a powerful new way to teach and learn web developer skills. Classes are globally accessible, 100%% free, and powered entirely by learners, mentors and contributors like you people. Our goal: a vibrant, peer-led system that helps people around the world easily access and build careers on open web technology."
-msgstr "Mozilla i <a href=\"%(p2pu)s\">P2PU</a> tworzą <a href=\"%(p2pu_drumbeat)s\">School of Webcraft</a>, szkołę dla twórców stron internetowych, potężny nowy sposób nauczania i zdobywania umiejętności. Zajęcia są dostępne na całym świecie, w 100%% darmowe, w których udział biorą uczniowie, opiekunowie i uczestnicy – ludzie tacy, jak ty. Naszym celem jest dynamiczny, peer-led system (system wzajemnej pomocy i edukacji), który umożliwia ludziom na całym świecie łatwy dostęp do wiedzy i budowanie kariery opartej na otwartej technologii internetowej."
+msgid ""
+"Mozilla and <a href=\"%(p2pu)s\">P2PU</a> are creating the <a href=\"%(p2pu_drumbeat)s\">School of Webcraft</a>, a powerful new way to teach and learn web developer skills. Classes are globally "
+"accessible, 100%% free, and powered entirely by learners, mentors and contributors like you people. Our goal: a vibrant, peer-led system that helps people around the world easily access and build "
+"careers on open web technology."
+msgstr ""
+"Mozilla i <a href=\"%(p2pu)s\">P2PU</a> tworzą <a href=\"%(p2pu_drumbeat)s\">School of Webcraft</a>, szkołę dla twórców stron internetowych, potężny nowy sposób nauczania i zdobywania umiejętności. "
+"Zajęcia są dostępne na całym świecie, w 100%% darmowe, w których udział biorą uczniowie, opiekunowie i uczestnicy – ludzie tacy, jak ty. Naszym celem jest dynamiczny, peer-led system (system "
+"wzajemnej pomocy i edukacji), który umożliwia ludziom na całym świecie łatwy dostęp do wiedzy i budowanie kariery opartej na otwartej technologii internetowej."
 
 #: apps/landing/templates/landing/home.html:72
-msgid "Mozilla continues to lead the charge in the adoption of HTML5 and other evolving open Web technologies. Find out more about the <a href=\"%(devmo_html5)s\">HTML5 spec</a> and the latest enhancements in HTML5, CSS3 and other <a href=\"%(devmo_fx4dev)s\">developer features for Firefox 4</a>."
-msgstr "Mozilla dokonuje wysiłku, by wprowadzić HTML5 i inne rozwijające się technologie otwartej sieci. Dowiedz się więcej o <a href=\"%(devmo_html5)s\">specyfikacji HTML5</a> i najnowszych udoskonaleniach HTML5, CSS3 i innych <a href=\"%(devmo_fx4dev)s\">funkcjach programistycznych w Firefoksie 4</a>."
+msgid ""
+"Mozilla continues to lead the charge in the adoption of HTML5 and other evolving open Web technologies. Find out more about the <a href=\"%(devmo_html5)s\">HTML5 spec</a> and the latest "
+"enhancements in HTML5, CSS3 and other <a href=\"%(devmo_fx4dev)s\">developer features for Firefox 4</a>."
+msgstr ""
+"Mozilla dokonuje wysiłku, by wprowadzić HTML5 i inne rozwijające się technologie otwartej sieci. Dowiedz się więcej o <a href=\"%(devmo_html5)s\">specyfikacji HTML5</a> i najnowszych "
+"udoskonaleniach HTML5, CSS3 i innych <a href=\"%(devmo_fx4dev)s\">funkcjach programistycznych w Firefoksie 4</a>."
 
 #: apps/landing/templates/landing/mozilla.html:73
 msgid "Mozilla developers have come up with not just technologies and features to help you debug code, but have devised tips and techniques that can help too."
@@ -1418,20 +1372,16 @@ msgstr "Nowy w MDN?"
 msgid "News & Updates"
 msgstr "Aktualności i aktualizacje"
 
-#: apps/demos/templates/demos/detail.html:27
-#: apps/demos/templates/demos/detail.html:133
-#: apps/demos/templates/demos/home.html:44
-#: apps/demos/templates/demos/launch.html:62
+#: apps/demos/templates/demos/detail.html:27 apps/demos/templates/demos/detail.html:133 apps/demos/templates/demos/home.html:44 apps/demos/templates/demos/launch.html:62
 #: apps/demos/templates/demos/elements/submission_listing.html:59
 msgid "Next"
 msgstr "Następne"
 
-#: apps/demos/templates/demos/detail.html:172
+#: apps/demos/templates/demos/detail.html:174
 msgid "No comments yet."
 msgstr "Nie ma jeszcze komentarzy"
 
-#: templates/404.html:3
-#: templates/404.html:5
+#: templates/404.html:3 templates/404.html:5
 msgid "Not Found"
 msgstr "Nie znaleziono"
 
@@ -1455,7 +1405,7 @@ msgstr "Uczestnictwo w projekcie Mozilla"
 msgid "Participating in the Mozilla project"
 msgstr "Uczestnictwo w projekcie Mozilla"
 
-#: apps/demos/models.py:153
+#: apps/demos/models.py:201
 msgid "Please keep filesize under %s. Current filesize %s"
 msgstr "Rozmiar pliku nie powinien być większy niż %s. Aktualny rozmiar %s."
 
@@ -1475,11 +1425,12 @@ msgstr "Popularna dokumentacja o <span class=\"mobile\">Mobile</span>"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:38
-msgid "Popular <span class=\"moz\">Mozilla</span> Documentation"
+#, fuzzy
+msgid "Popular <span class=\"mozilla\">Mozilla</span> Documentation"
 msgstr "Popularna dokumentacja o <span class=\"moz\">Mozilli</span>"
 
 #. Please escape HTML entities here, like &amp;
-#: apps/landing/templates/landing/web.html:38
+#: apps/landing/templates/landing/web.html:60
 msgid "Popular <span class=\"web\">Web</span> Documentation"
 msgstr "Popularna dokumentacja o <span class=\"web\"> tworzeniu stron internetowych</span>"
 
@@ -1493,26 +1444,26 @@ msgid "Popular Topics for <span class=\"web\">Web</span> Developers"
 msgstr "Popularne tematy dla twórców <span class=\"web\">stron</span>"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:19
-msgid "Posted <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime=\"%(comment_isotime)s\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
-msgstr "Zamieszczone <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime=\"%(comment_isotime)s\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
+msgid ""
+"Posted <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime=\"%(comment_isotime)s"
+"\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
+msgstr ""
+"Zamieszczone <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime="
+"\"%(comment_isotime)s\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
 
 #: apps/landing/templates/landing/mobile.html:123
 msgid "Pre-Alpha Fennec and HTML5 Demos"
 msgstr "Filmy demonstracyjne wersji Pre-Alfa Fennecka i HTML5"
 
-#: apps/demos/templates/demos/submit.html:123
-#: apps/demos/templates/demos/submit_noauth.html:52
+#: apps/demos/templates/demos/submit.html:124 apps/demos/templates/demos/submit_noauth.html:52
 msgid "Preparing Your Demo"
 msgstr "Przygotowywanie demo"
 
-#: apps/demos/templates/demos/detail.html:23
-#: apps/demos/templates/demos/launch.html:58
+#: apps/demos/templates/demos/detail.html:23 apps/demos/templates/demos/launch.html:58
 msgid "Prev"
 msgstr "Poprzednie"
 
-#: apps/demos/templates/demos/detail.html:132
-#: apps/demos/templates/demos/home.html:43
-#: apps/demos/templates/demos/elements/submission_listing.html:56
+#: apps/demos/templates/demos/detail.html:132 apps/demos/templates/demos/home.html:43 apps/demos/templates/demos/elements/submission_listing.html:56
 msgid "Previous"
 msgstr "Poprzedni"
 
@@ -1520,7 +1471,7 @@ msgstr "Poprzedni"
 msgid "Provide at least one screenshot of your demo in action"
 msgstr "Dołącz przynajmniej jeden obrazek tego dema w działaniu"
 
-#: apps/demos/templates/demos/submit.html:137
+#: apps/demos/templates/demos/submit.html:138
 msgid "Provide the Source Code"
 msgstr "Dołącz kod źródłowy"
 
@@ -1548,17 +1499,15 @@ msgid "Recent <span class=\"mozilla\">Mozilla</span> News &amp; Updates"
 msgstr "Najnowsze wiadomości i aktualizacje <span class=\"mozilla\">Mozilli</span>"
 
 #. Please escape HTML entities here, like &amp;
-#: apps/landing/templates/landing/web.html:96
+#: apps/landing/templates/landing/web.html:114
 msgid "Recent <span class=\"web\">Web</span> News &amp; Updates"
 msgstr "Najnowsze wiadomości i aktualizacje o <span class=\"web\">tworzeniu stron</span>"
 
-#: apps/demos/templates/demos/home.html:8
-#: apps/demos/templates/demos/listing_all.html:7
+#: apps/demos/templates/demos/home.html:8 apps/demos/templates/demos/listing_all.html:7
 msgid "Recent demos"
 msgstr "Najnowsze dema"
 
-#: apps/demos/templates/demos/delete.html:48
-#: apps/demos/templates/demos/detail.html:58
+#: apps/demos/templates/demos/delete.html:48 apps/demos/templates/demos/detail.html:58
 msgid "Remove demo"
 msgstr "Usuń demo"
 
@@ -1594,12 +1543,11 @@ msgstr "Zgłoś ten komentarz"
 msgid "Rights Representation Details"
 msgstr "Postanowienia prawne"
 
-#: apps/demos/__init__.py:194
-#: apps/docs/templates/docs/glossary.html:9
+#: apps/demos/__init__.py:194 apps/docs/templates/docs/glossary.html:9
 msgid "SVG"
 msgstr "SVG"
 
-#: apps/demos/templates/demos/submit.html:183
+#: apps/demos/templates/demos/submit.html:184
 msgid "Save changes"
 msgstr "Zapisz zmiany"
 
@@ -1607,34 +1555,31 @@ msgstr "Zapisz zmiany"
 msgid "Scalable Vector Graphics (SVG) is an XML based language for describing two-dimensional vector graphics."
 msgstr "Skalowalna grafika wektorowa (ang. Scalable Vector Graphics (SVG)), to oparty na XML język opisu dwuwymiarowej grafiki wektorowej."
 
-#: apps/landing/templates/landing/home.html:45
-#: apps/landing/templates/landing/home.html:54
+#: apps/landing/templates/landing/home.html:45 apps/landing/templates/landing/home.html:54
 msgid "School of Webcraft"
 msgstr "Szkoła Webcraft"
 
-#: apps/demos/models.py:274
+#: apps/demos/models.py:328
 msgid "Screenshot #1"
 msgstr "Obrazek #1"
 
-#: apps/demos/models.py:278
+#: apps/demos/models.py:332
 msgid "Screenshot #2"
 msgstr "Obrazek #2"
 
-#: apps/demos/models.py:282
+#: apps/demos/models.py:336
 msgid "Screenshot #3"
 msgstr "Obrazek #3"
 
-#: apps/demos/models.py:286
+#: apps/demos/models.py:340
 msgid "Screenshot #4"
 msgstr "Obrazek #4"
 
-#: apps/demos/models.py:290
+#: apps/demos/models.py:344
 msgid "Screenshot #5"
 msgstr "Obrazek #5"
 
-#: apps/demos/templates/demos/elements/search_form.html:6
-#: apps/docs/templates/docs/docs.html:18
-#: templates/base.html:60
+#: apps/demos/templates/demos/elements/search_form.html:6 apps/docs/templates/docs/docs.html:18 templates/base.html:60
 msgid "Search"
 msgstr "Szukaj"
 
@@ -1650,8 +1595,7 @@ msgstr "Przeszukaj dokumentację MDN"
 msgid "Search Results"
 msgstr "Wyniki szukania"
 
-#: apps/demos/templates/demos/listing_search.html:25
-#: apps/demos/templates/demos/listing_search.html:37
+#: apps/demos/templates/demos/listing_search.html:25 apps/demos/templates/demos/listing_search.html:37
 msgid "Search demos for \"{q}\""
 msgstr "Szukaj dem dla „{q}”"
 
@@ -1667,7 +1611,7 @@ msgstr "Szukajr \"{q}\""
 msgid "Search results for \"{q}\""
 msgstr "Wyniki szukania dla „{q}”"
 
-#: apps/demos/feeds.py:214
+#: apps/demos/feeds.py:215
 msgid "Search results for demo submissions matching \"%s\""
 msgstr "Wyniki wyszukiwania dem spełniających zapytanie „%s”"
 
@@ -1719,12 +1663,11 @@ msgstr "Zobacz poprzednie trzy dema"
 msgid "See what's new for web developers in the latest version of Firefox"
 msgstr "Zobacz, co jest nowego dla twórców stron internetowych w najnowszej wersji Firefoksa"
 
-#: apps/demos/templates/demos/elements/profile_link.html:2
-#: apps/demos/templates/demos/elements/submission_creator.html:2
+#: apps/demos/templates/demos/elements/profile_link.html:2 apps/demos/templates/demos/elements/submission_creator.html:2
 msgid "See {display_name}'s profile"
 msgstr "Zobacz profil {display_name}"
 
-#: apps/demos/models.py:310
+#: apps/demos/models.py:363
 msgid "Select the license that applies to your source code."
 msgstr "Wybierz właściwą licencję dla tego kodu źródłowego"
 
@@ -1732,23 +1675,19 @@ msgstr "Wybierz właściwą licencję dla tego kodu źródłowego"
 msgid "Select up to five technologies used in your demo."
 msgstr "Zaznacz maksymalnie pięć technologii użytych w tym demie"
 
-#: apps/demos/templates/demos/detail.html:99
-#: apps/demos/templates/demos/launch.html:43
+#: apps/demos/templates/demos/detail.html:99 apps/demos/templates/demos/launch.html:43
 msgid "Share It"
 msgstr "Udostępnij"
 
-#: apps/demos/templates/demos/detail.html:101
-#: apps/demos/templates/demos/launch.html:48
+#: apps/demos/templates/demos/detail.html:101 apps/demos/templates/demos/launch.html:48
 msgid "Share on Facebook"
 msgstr "Udostępnij na Facebooku"
 
-#: apps/demos/templates/demos/detail.html:100
-#: apps/demos/templates/demos/launch.html:47
+#: apps/demos/templates/demos/detail.html:100 apps/demos/templates/demos/launch.html:47
 msgid "Share on Twitter"
 msgstr "Udostępnij na Twitterze"
 
-#: apps/demos/templates/demos/detail.html:95
-#: apps/demos/templates/demos/launch.html:43
+#: apps/demos/templates/demos/detail.html:95 apps/demos/templates/demos/launch.html:43
 msgid "Share this demo with your social network"
 msgstr "Udostępnij to demo w swojej sieci społecznościowej"
 
@@ -1760,7 +1699,7 @@ msgstr "Pochwal się swoimi demem"
 msgid "Show demo"
 msgstr "Pokaż demo"
 
-#: apps/demos/forms.py:147
+#: apps/demos/forms.py:150
 msgid "Show us you're human"
 msgstr "Udowodnij, że jesteś człowiekiem"
 
@@ -1776,7 +1715,7 @@ msgstr "Porządkuj dema wg ostatnio przesłanych"
 msgid "Sort demos by most views"
 msgstr "Porządkuj dema wg najczęściej oglądanych"
 
-#: apps/demos/templates/demos/submit.html:146
+#: apps/demos/templates/demos/submit.html:147
 msgid "Source code ZIP file"
 msgstr "Kod źródłowy w pliku ZIP"
 
@@ -1784,27 +1723,17 @@ msgstr "Kod źródłowy w pliku ZIP"
 msgid "Start-to-finish success stories. See how add-on developers made magic with Mozilla."
 msgstr "Od początku do końca przebojowe opowieści. Zobacz, jakie cuda tworzą programiści, wykorzystując technologię Mozilli."
 
-#: apps/demos/templates/demos/delete.html:26
-#: apps/demos/templates/demos/delete_comment.html:26
-#: apps/demos/templates/demos/flag.html:26
-#: apps/demos/templates/demos/home.html:33
-#: apps/demos/templates/demos/listing_all.html:22
-#: apps/demos/templates/demos/listing_search.html:28
-#: apps/demos/templates/demos/listing_tag.html:23
-#: apps/demos/templates/demos/profile_detail.html:27
+#: apps/demos/templates/demos/delete.html:26 apps/demos/templates/demos/delete_comment.html:26 apps/demos/templates/demos/flag.html:26 apps/demos/templates/demos/home.html:33
+#: apps/demos/templates/demos/listing_all.html:22 apps/demos/templates/demos/listing_search.html:28 apps/demos/templates/demos/listing_tag.html:23 apps/demos/templates/demos/profile_detail.html:27
 msgid "Submit a Demo"
 msgstr "Prześlij demo"
 
-#: apps/demos/templates/demos/submit.html:10
-#: apps/demos/templates/demos/submit.html:47
-#: apps/demos/templates/demos/submit.html:62
-#: apps/demos/templates/demos/submit_noauth.html:10
-#: apps/demos/templates/demos/submit_noauth.html:20
-#: apps/demos/templates/demos/submit_noauth.html:30
+#: apps/demos/templates/demos/submit.html:10 apps/demos/templates/demos/submit.html:47 apps/demos/templates/demos/submit.html:62 apps/demos/templates/demos/submit_noauth.html:10
+#: apps/demos/templates/demos/submit_noauth.html:20 apps/demos/templates/demos/submit_noauth.html:30
 msgid "Submit a New Demo"
 msgstr "Prześlij nowe demo"
 
-#: apps/demos/templates/demos/submit.html:180
+#: apps/demos/templates/demos/submit.html:181
 msgid "Submit demo"
 msgstr "Prześlij demo"
 
@@ -1812,10 +1741,7 @@ msgstr "Prześlij demo"
 msgid "Submitted by:"
 msgstr "Przesłane przez:"
 
-#: apps/landing/templates/landing/addons.html:23
-#: apps/landing/templates/landing/mobile.html:23
-#: apps/landing/templates/landing/mozilla.html:23
-#: apps/landing/templates/landing/web.html:23
+#: apps/landing/templates/landing/addons.html:23 apps/landing/templates/landing/mobile.html:23 apps/landing/templates/landing/mozilla.html:23 apps/landing/templates/landing/web.html:23
 msgid "Subscribe"
 msgstr "Subskrybuj"
 
@@ -1831,12 +1757,11 @@ msgstr "Subskrybuj kanał wyników szukania dla „{q}”"
 msgid "Subscribe to a feed of {display_name}'s demos"
 msgstr "Subskrybuj kanał dem {display_name}"
 
-#: apps/demos/templates/demos/home.html:65
-#: apps/demos/templates/demos/listing_tag.html:53
+#: apps/demos/templates/demos/home.html:65 apps/demos/templates/demos/listing_tag.html:53
 msgid "Subscribe to a feed of {tag_title} demos"
 msgstr "Subskrybuj kanał dem „{tag_title}”"
 
-#: apps/demos/models.py:113
+#: apps/demos/models.py:164
 msgid "Tag \"%s\" is not in the set of described tags"
 msgstr "W zestawie opisanych etykiet nie ma etykiety „%s”"
 
@@ -1844,8 +1769,7 @@ msgstr "W zestawie opisanych etykiet nie ma etykiety „%s”"
 msgid "Tagged as:"
 msgstr "Oznaczone jako:"
 
-#: apps/demos/templates/demos/terms.html:10
-#: apps/demos/templates/demos/terms.html:35
+#: apps/demos/templates/demos/terms.html:10 apps/demos/templates/demos/terms.html:35
 msgid "Terms for Contributors"
 msgstr "Regulamin dla twórców"
 
@@ -1854,14 +1778,20 @@ msgid "Terms of Use"
 msgstr "Zasady użytkowania"
 
 #: apps/landing/templates/landing/home.html:86
-msgid "Test the <a href=\"%(fx4_features)s\">next version of Firefox</a> and help us make the world's best browser even better. Firefox 4 advances the modern web and we have a <a href=\"%(fx4_tech)s\">big chart full of check marks</a> to prove it."
-msgstr "Testuj <a href=\"%(fx4_features)s\">następną wersję Firefoksa</a> i pomóż nam uczynić najlepszą na świecie przeglądarkę jeszcze lepszą. Firefox 4 udoskonala nowoczesny Internet i mamy na to dowody w postaci <a href=\"%(fx4_tech)s\">ogromnego wykazu wspieranych technologii</a>."
+msgid ""
+"Test the <a href=\"%(fx4_features)s\">next version of Firefox</a> and help us make the world's best browser even better. Firefox 4 advances the modern web and we have a <a href=\"%(fx4_tech)s\">big "
+"chart full of check marks</a> to prove it."
+msgstr ""
+"Testuj <a href=\"%(fx4_features)s\">następną wersję Firefoksa</a> i pomóż nam uczynić najlepszą na świecie przeglądarkę jeszcze lepszą. Firefox 4 udoskonala nowoczesny Internet i mamy na to dowody "
+"w postaci <a href=\"%(fx4_tech)s\">ogromnego wykazu wspieranych technologii</a>."
 
 #: apps/demos/__init__.py:105
 msgid "The CSS3-Font specification contains enhanced features for fonts and typography like embedding own fonts via @font-face or controlling OpenType font features directly via CSS."
-msgstr "Specyfikacja CSS3-Font zawiera udoskonalone funkcje czcionek i typografii, takie jak umieszczanie własnych czcionek za pomocą @ font-face lub kontrolowanie funkcji czcionek OpenType bezpośrednio za pomocą CSS."
+msgstr ""
+"Specyfikacja CSS3-Font zawiera udoskonalone funkcje czcionek i typografii, takie jak umieszczanie własnych czcionek za pomocą @ font-face lub kontrolowanie funkcji czcionek OpenType bezpośrednio za "
+"pomocą CSS."
 
-#: apps/landing/templates/landing/web.html:60
+#: apps/landing/templates/landing/web.html:78
 msgid "The DOM is the architecture for Web documents; learn how to use the DOM and its API to look at and manipulate Web content."
 msgstr "Model DOM jest architekturą dokumentu internetowego. Dowiedz się więcej, jak używać DOM i jego API patrząc na i manipulując zawartością stron internetowych."
 
@@ -1882,7 +1812,8 @@ msgid "The Geolocation API allows web applications to access the user's geograph
 msgstr "API geolokalizacji umożliwia aplikacjom webowym dostęp do położenia geograficznego użytkownika."
 
 #: apps/demos/__init__.py:67
-msgid "The HTML5 canvas element allows to display scriptable renderings of 2D shapes and bitmap images."
+#, fuzzy
+msgid "The HTML5 canvas element allows you to display scriptable renderings of 2D shapes and bitmap images."
 msgstr "Element HTML5 canvas umożliwia wyświetlanie dynamicznego, skryptowo renderowanych kształtów 2D i obrazów bitmapowych."
 
 #: apps/demos/__init__.py:205
@@ -1901,7 +1832,7 @@ msgstr "To nie jest prawdziwy autor"
 msgid "The main issue-tracker for Mozilla projects."
 msgstr "Główny tropiciel błędów w projektach Mozilli."
 
-#: apps/landing/templates/landing/web.html:74
+#: apps/landing/templates/landing/web.html:92
 msgid "The most popular and powerful web development tool."
 msgstr "Najpopularniejsze i potężne narzędzie twórców aplikacji webowych."
 
@@ -1914,11 +1845,14 @@ msgid "The official documentation on APIs and languages. What you need, when you
 msgstr "Oficjalna dokumentacja interfejsu programowania aplikacji (API) i języków programowania. Wszystko, co potrzebujesz, aby stworzyć swoje arcydzieło."
 
 #: apps/landing/templates/landing/mobile.html:142
-msgid "The projects and planning never stops. We're cooking up some amazing new features and improvements for our next major release. Check it out and see how you can help us continue to make the world's best mobile Web browser."
-msgstr "Projekty i planowanie nigdy się nie kończą. Przygotowujemy fantastyczne nowe funkcje i ulepszenia dla naszej następnej wersji. Sprawdź to i zobacz, jak możesz pomóc nam stworzyć najlepszą na świecie przeglądarkę internetową dla urządzeń przenośnych."
+msgid ""
+"The projects and planning never stops. We're cooking up some amazing new features and improvements for our next major release. Check it out and see how you can help us continue to make the world's "
+"best mobile Web browser."
+msgstr ""
+"Projekty i planowanie nigdy się nie kończą. Przygotowujemy fantastyczne nowe funkcje i ulepszenia dla naszej następnej wersji. Sprawdź to i zobacz, jak możesz pomóc nam stworzyć najlepszą na "
+"świecie przeglądarkę internetową dla urządzeń przenośnych."
 
-#: apps/docs/templates/docs/docs.html:41
-#: apps/landing/templates/landing/home.html:186
+#: apps/docs/templates/docs/docs.html:41 apps/landing/templates/landing/home.html:186
 msgid "The scripting language that powers modern web applications."
 msgstr "Język skryptowy zasilający nowoczesne aplikacje webowe."
 
@@ -1930,8 +1864,7 @@ msgstr "Motywy"
 msgid "There are several ways you can use Mozilla code in your own project. Find everything you need to develop \"powered by Mozilla\" applications."
 msgstr "Istnieją różne sposoby użycia kodu Mozilli we własnych projektach. Znajdź wszystko czego potrzebujesz, by tworzyć programy bazujące na technologii Mozilli."
 
-#: apps/demos/templates/demos/detail.html:126
-#: apps/demos/templates/demos/elements/submission_thumb.html:17
+#: apps/demos/templates/demos/detail.html:126 apps/demos/templates/demos/elements/submission_thumb.html:17
 msgid "There is {count} comment for this demo"
 msgid_plural "There are {count} comments for this demo"
 msgstr[0] "Jest {count} komentarz dla tego dema"
@@ -1946,15 +1879,14 @@ msgstr "Ten adres URL ma nieprawidłowy format. Prawidłowy URL wygląda tak: ht
 msgid "This contains inappropriate content"
 msgstr "To zawiera niewłaściwą treść"
 
-#: apps/demos/templates/demos/detail.html:124
-#: apps/demos/templates/demos/elements/submission_thumb.html:15
+#: apps/demos/templates/demos/detail.html:124 apps/demos/templates/demos/elements/submission_thumb.html:15
 msgid "This demo has been viewed {count} time"
 msgid_plural "This demo has been viewed {count} times"
 msgstr[0] "To demo było oglądane {count} raz"
 msgstr[1] "To demo było oglądane {count} razy"
 msgstr[2] "To demo było oglądane {count} razy"
 
-#: apps/demos/templates/demos/detail.html:230
+#: apps/demos/templates/demos/detail.html:232
 msgid "This demo is released under the <a href=\"%(link)s\">%(title)s</a> license."
 msgstr "To demo jest wydane na zasadach licencji <a href=\"%(link)s\">%(title)s</a>."
 
@@ -1964,8 +1896,12 @@ msgstr "Według mnie to nie działa"
 
 #. Browsers and Plugins useful for viewing video content
 #: templates/includes/video_player.html:7
-msgid "This video requires a browser with support for open video: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 or greater</li> <li><a href=\"http://www.apple.com/safari/\">Safari</a> 3.1 or greater</li> </ul> or the <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Alternatively, you may use the video download links provided."
-msgstr "To wideo wymaga przeglądarki obsługującej otwarte standardy wideo: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 lub nowszy</li> <li><a href=\"http://www.apple.com/safari/\">Safari</a> 3.1 lub nowsze</li> </ul> lub <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Alternatywnie można pobrać wideo używając odpowiednich odnośników."
+msgid ""
+"This video requires a browser with support for open video: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 or greater</li> <li><a href=\"http://www.apple.com/safari/\">Safari</"
+"a> 3.1 or greater</li> </ul> or the <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Alternatively, you may use the video download links provided."
+msgstr ""
+"To wideo wymaga przeglądarki obsługującej otwarte standardy wideo: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 lub nowszy</li> <li><a href=\"http://www.apple.com/safari/"
+"\">Safari</a> 3.1 lub nowsze</li> </ul> lub <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Alternatywnie można pobrać wideo używając odpowiednich odnośników."
 
 #: apps/contentflagging/models.py:22
 msgid "This was not created by the author"
@@ -1979,10 +1915,7 @@ msgstr "Dzisiaj o %s"
 msgid "Track the movement of the user's finger on a touch screen, monitoring the raw touch events generated by the system."
 msgstr "Technologia umożliwiająca kontrolowanie interfejsów graficznych więcej niż dwoma palcami jednocześnie."
 
-#: apps/landing/templates/landing/addons.html:22
-#: apps/landing/templates/landing/mobile.html:22
-#: apps/landing/templates/landing/mozilla.html:22
-#: apps/landing/templates/landing/web.html:22
+#: apps/landing/templates/landing/addons.html:22 apps/landing/templates/landing/mobile.html:22 apps/landing/templates/landing/mozilla.html:22 apps/landing/templates/landing/web.html:22
 msgid "Twitter"
 msgstr "Twitter"
 
@@ -1990,7 +1923,7 @@ msgstr "Twitter"
 msgid "Up and Coming"
 msgstr "Najczęściej używane"
 
-#: apps/demos/templates/demos/submit.html:147
+#: apps/demos/templates/demos/submit.html:148
 msgid "Upload demo file&hellip;"
 msgstr "Prześli plik dema&hellip;"
 
@@ -1999,11 +1932,18 @@ msgid "Use Add-ons Builder to quickly and easily develop an extension for Firefo
 msgstr "Użyj konstruktora dodatków, by szybko i łatwo stworzyć rozszerzenie dla Firefoksa za pomocą technologii webowych."
 
 #: apps/landing/templates/landing/home.html:101
-msgid "Use Add-ons Builder to quickly and easily develop an extension for Firefox using common web technologies. There is a <a href=\"%(tutorial)s\">tutorial</a> to get you started and a <a href=\"%(api)s\">variety of APIs in the core library</a> to add functionality to Firefox."
-msgstr "Użyj konstruktora dodatków, by szybko i łatwo stworzyć rozszerzenie dla Firefoksa za pomocą technologii webowych. Tutaj znajduje się <a href=\"%(tutorial)s\">instrukcja</a>, jak rozpocząć i <a href=\"%(api)s\">różne interfejsy programowania aplikacji (API)</a> do dodania funkcji do Firefoksa."
+msgid ""
+"Use Add-ons Builder to quickly and easily develop an extension for Firefox using common web technologies. There is a <a href=\"%(tutorial)s\">tutorial</a> to get you started and a <a href=\"%(api)s"
+"\">variety of APIs in the core library</a> to add functionality to Firefox."
+msgstr ""
+"Użyj konstruktora dodatków, by szybko i łatwo stworzyć rozszerzenie dla Firefoksa za pomocą technologii webowych. Tutaj znajduje się <a href=\"%(tutorial)s\">instrukcja</a>, jak rozpocząć i <a href="
+"\"%(api)s\">różne interfejsy programowania aplikacji (API)</a> do dodania funkcji do Firefoksa."
 
-#: apps/docs/templates/docs/docs.html:100
-#: apps/landing/templates/landing/mozilla.html:61
+#: apps/demos/models.py:314
+msgid "Use navigation bar, display demo in <iframe>"
+msgstr ""
+
+#: apps/docs/templates/docs/docs.html:100 apps/landing/templates/landing/mozilla.html:61
 msgid "Using Mozilla code in other projects"
 msgstr "Używanie kodu Mozilli w innych projektach"
 
@@ -2011,36 +1951,23 @@ msgstr "Używanie kodu Mozilli w innych projektach"
 msgid "Using geolocation"
 msgstr "Używanie geolokalizacji"
 
-#: apps/demos/__init__.py:204
-#: apps/docs/templates/docs/glossary.html:16
+#: apps/demos/__init__.py:204 apps/docs/templates/docs/glossary.html:16
 msgid "Video"
 msgstr "Wideo"
 
-#: apps/demos/__init__.py:61
-#: apps/demos/__init__.py:71
-#: apps/demos/__init__.py:81
-#: apps/demos/__init__.py:90
-#: apps/demos/__init__.py:99
-#: apps/demos/__init__.py:109
-#: apps/demos/__init__.py:119
-#: apps/demos/__init__.py:129
-#: apps/demos/__init__.py:149
-#: apps/demos/__init__.py:159
-#: apps/demos/__init__.py:169
-#: apps/demos/__init__.py:179
-#: apps/demos/__init__.py:189
-#: apps/demos/__init__.py:199
-#: apps/demos/__init__.py:209
-#: apps/demos/__init__.py:229
-#: apps/demos/__init__.py:239
-#: apps/demos/__init__.py:249
-#: apps/demos/__init__.py:259
+#: apps/demos/__init__.py:61 apps/demos/__init__.py:71 apps/demos/__init__.py:81 apps/demos/__init__.py:90 apps/demos/__init__.py:99 apps/demos/__init__.py:109 apps/demos/__init__.py:119
+#: apps/demos/__init__.py:129 apps/demos/__init__.py:149 apps/demos/__init__.py:159 apps/demos/__init__.py:169 apps/demos/__init__.py:179 apps/demos/__init__.py:189 apps/demos/__init__.py:199
+#: apps/demos/__init__.py:209 apps/demos/__init__.py:229 apps/demos/__init__.py:239 apps/demos/__init__.py:249 apps/demos/__init__.py:259
 msgid "W3C Spec"
 msgstr "Specyfikacja W3C"
 
 #: apps/landing/templates/landing/home.html:19
 msgid "Want to help make our network even better?"
 msgstr "Chcesz pomóc uczynić naszą sieć jeszcze lepszą?"
+
+#: apps/landing/templates/landing/web.html:44
+msgid "Want to see what the Web is really capable of? Explore the Web o' Wonder website and prepare to be amazed!"
+msgstr ""
 
 #: apps/landing/templates/landing/addons.html:73
 msgid "Watch <span class=\"addons\">Add-on</span> Videos"
@@ -2054,9 +1981,7 @@ msgstr "Obejrzyj widea o <span class=\"mobile\">Mobile</span>"
 msgid "Watch Myk Melez create an Add-on in 5 minutes using the new Add-on Builder!"
 msgstr "Zobacz jak w pięć minut Myk Melez za pomocą nowego konstruktora dodatków tworzy dodatek!"
 
-#: apps/landing/templates/landing/addons.html:79
-#: apps/landing/templates/landing/mobile.html:99
-#: apps/landing/templates/landing/mobile.html:115
+#: apps/landing/templates/landing/addons.html:79 apps/landing/templates/landing/mobile.html:99 apps/landing/templates/landing/mobile.html:115
 msgid "Watch this video"
 msgstr "Obejrzyj to wideo"
 
@@ -2064,20 +1989,20 @@ msgstr "Obejrzyj to wideo"
 msgid "We support YouTube and Vimeo"
 msgstr "Obsługujemy YouTube i Vimeo"
 
-#: apps/devmo/__init__.py:24
-#: apps/landing/templates/landing/web.html:11
-#: apps/landing/templates/landing/web.html:17
-#: templates/base.html:70
-#: templates/base_compact.html:22
+#: apps/devmo/__init__.py:24 apps/landing/templates/landing/web.html:11 apps/landing/templates/landing/web.html:17 templates/base.html:70 templates/base_compact.html:22
 msgid "Web"
 msgstr "Web"
+
+#: apps/landing/templates/landing/web.html:43
+#, fuzzy
+msgid "Web O' Wonder"
+msgstr "Web Workers"
 
 #: apps/docs/templates/docs/glossary.html:14
 msgid "Web Storage"
 msgstr "Web Storage"
 
-#: apps/demos/__init__.py:234
-#: apps/docs/templates/docs/glossary.html:17
+#: apps/demos/__init__.py:234 apps/docs/templates/docs/glossary.html:17
 msgid "Web Workers"
 msgstr "Web Workers"
 
@@ -2085,8 +2010,7 @@ msgstr "Web Workers"
 msgid "Web Workers provide a simple means for web content to run scripts in background threads."
 msgstr "Web Workers dostarcza treściom internetowym prosty sposób uruchamiania skryptów w tle."
 
-#: apps/demos/__init__.py:214
-#: apps/docs/templates/docs/glossary.html:13
+#: apps/demos/__init__.py:214 apps/docs/templates/docs/glossary.html:13
 msgid "WebGL"
 msgstr "WebGL"
 
@@ -2098,8 +2022,7 @@ msgstr "WebSockets"
 msgid "WebSockets is a technology that makes it possible to open an interactive communication session between the user's browser and a server."
 msgstr "WebSockets to technologia, która umożliwia otwarcie sesji interaktywnej komunikacji pomiędzy przeglądarką użytkownika a serwerem."
 
-#: templates/includes/login.html:2
-#: templates/includes/login.html:9
+#: templates/includes/login.html:2 templates/includes/login.html:9
 msgid "Welcome back"
 msgstr "Witaj ponownie"
 
@@ -2136,25 +2059,9 @@ msgstr "Nieważne czy jesteś starym wyjadaczem, czy dopiero zaczynasz, to jest 
 msgid "Why Sync up, Security and More"
 msgstr "Dlaczego synchronizować, bezpieczeństwo i więcej"
 
-#: apps/demos/__init__.py:60
-#: apps/demos/__init__.py:70
-#: apps/demos/__init__.py:80
-#: apps/demos/__init__.py:108
-#: apps/demos/__init__.py:118
-#: apps/demos/__init__.py:128
-#: apps/demos/__init__.py:138
-#: apps/demos/__init__.py:148
-#: apps/demos/__init__.py:158
-#: apps/demos/__init__.py:168
-#: apps/demos/__init__.py:178
-#: apps/demos/__init__.py:188
-#: apps/demos/__init__.py:198
-#: apps/demos/__init__.py:208
-#: apps/demos/__init__.py:218
-#: apps/demos/__init__.py:228
-#: apps/demos/__init__.py:238
-#: apps/demos/__init__.py:248
-#: apps/demos/__init__.py:258
+#: apps/demos/__init__.py:60 apps/demos/__init__.py:70 apps/demos/__init__.py:80 apps/demos/__init__.py:108 apps/demos/__init__.py:118 apps/demos/__init__.py:128 apps/demos/__init__.py:138
+#: apps/demos/__init__.py:148 apps/demos/__init__.py:158 apps/demos/__init__.py:168 apps/demos/__init__.py:178 apps/demos/__init__.py:188 apps/demos/__init__.py:198 apps/demos/__init__.py:208
+#: apps/demos/__init__.py:218 apps/demos/__init__.py:228 apps/demos/__init__.py:238 apps/demos/__init__.py:248 apps/demos/__init__.py:258
 msgid "Wikipedia Article"
 msgstr "Artykuł na Wikipedii"
 
@@ -2170,8 +2077,7 @@ msgstr "XMLHttpRequest"
 msgid "XMLHttpRequest (XHR) is used to send HTTP requests directly to a webserver and load the response data directly back into the script."
 msgstr "XMLHttpRequest (XHR) jest używany do wysyłania żądania HTTP bezpośrednio do serwera i wczytywania danych odpowiedzi z powrotem bezpośrednio do skryptu."
 
-#: apps/demos/templates/demos/detail.html:85
-#: apps/demos/templates/demos/launch.html:34
+#: apps/demos/templates/demos/detail.html:85 apps/demos/templates/demos/launch.html:34
 msgid "You Like"
 msgstr "Podoba ci się"
 
@@ -2191,8 +2097,7 @@ msgstr "Oglądasz dema wyszukane wg najczęściej oglądanych"
 msgid "You are viewing up and coming demos"
 msgstr "Oglądasz dema wyszukane wg najczęściej używanych"
 
-#: apps/demos/templates/demos/detail.html:85
-#: apps/demos/templates/demos/launch.html:34
+#: apps/demos/templates/demos/detail.html:85 apps/demos/templates/demos/launch.html:34
 msgid "You like this demo. Undo?"
 msgstr "Podoba ci się to demo. Cofnąć?"
 
@@ -2200,32 +2105,37 @@ msgstr "Podoba ci się to demo. Cofnąć?"
 msgid "You took back the Web. Now take it with you."
 msgstr "Internet Cię wciągał, zabierał – teraz Ty weź go ze sobą."
 
-#: apps/landing/templates/landing/web.html:56
+#: apps/landing/templates/landing/web.html:74
 msgid "You'll find everything you need in the CSS reference and helpful tutorials to build pretty websites."
 msgstr "W materiałach źródłowych CSS i pomocnych tutorialach znajdziesz wszystko, czego potrzebujesz, by budować piękne witryny internetowe."
 
 #: apps/landing/templates/landing/mobile.html:79
-msgid "Your help is vital to the success of Firefox. Provide feedback on our <a href=\"%(irc_url)s\">IRC channel</a>, <a href=\"%(meeting_url)s\">join our Wednesday development meeting</a>, or even <a href=\"%(bugzilla_url)s\">file some bugs</a>."
-msgstr "Twoja pomoc jest kluczem do sukcesu Firefoksa. Przekaż swoje opinie na naszym <a href=\"%(irc_url)s\">kanale IRC</a>, <a href=\"%(meeting_url)s\">dołącz do naszego co środowego spotkania programistów</a> lub <a href=\"%(bugzilla_url)s\">zgłaszaj błędy</a>."
+msgid ""
+"Your help is vital to the success of Firefox. Provide feedback on our <a href=\"%(irc_url)s\">IRC channel</a>, <a href=\"%(meeting_url)s\">join our Wednesday development meeting</a>, or even <a "
+"href=\"%(bugzilla_url)s\">file some bugs</a>."
+msgstr ""
+"Twoja pomoc jest kluczem do sukcesu Firefoksa. Przekaż swoje opinie na naszym <a href=\"%(irc_url)s\">kanale IRC</a>, <a href=\"%(meeting_url)s\">dołącz do naszego co środowego spotkania "
+"programistów</a> lub <a href=\"%(bugzilla_url)s\">zgłaszaj błędy</a>."
 
-#: apps/demos/models.py:451
-msgid "ZIP file contains files that are too large"
+#: apps/demos/models.py:507
+#, fuzzy
+msgid "ZIP file contains a file that is too large: %(filename)s"
 msgstr "Plik .zip zawiera za długie pliki"
 
-#: apps/demos/models.py:432
-#: apps/demos/models.py:439
+#: apps/demos/models.py:516
+#, fuzzy
+msgid "ZIP file contains an unacceptable file: %(filename)s"
+msgstr "Plik .zip zawiera nieakceptowalne pliki"
+
+#: apps/demos/models.py:485 apps/demos/models.py:492
 msgid "ZIP file contains no acceptable files"
 msgstr "Plik .zip zawiera nieakceptowalne pliki"
 
-#: apps/demos/models.py:435
+#: apps/demos/models.py:488
 msgid "ZIP file corrupted"
 msgstr "Plik .zip jest uszkodzony"
 
-#: apps/demos/views.py:62
-#: apps/demos/views.py:204
-#: apps/demos/views.py:228
-#: apps/demos/views.py:241
-#: apps/demos/views.py:254
+#: apps/demos/views.py:62 apps/demos/views.py:208 apps/demos/views.py:232 apps/demos/views.py:245 apps/demos/views.py:258
 msgid "access denied"
 msgstr "dostęp zabroniony"
 
@@ -2237,17 +2147,19 @@ msgstr "autor: %(authorlink)s  %(entrydate)s"
 msgid "by %(profile_link)s"
 msgstr "autor: %(profile_link)s"
 
+#: apps/demos/models.py:311
+msgid "control how your demo is launched"
+msgstr ""
+
 #: apps/contentflagging/models.py:65
 msgid "current status of flag review"
 msgstr "aktualny status recenzji"
 
-#: apps/demos/models.py:316
+#: apps/demos/models.py:369
 msgid "date created"
 msgstr "data utworzenia"
 
-#: apps/actioncounters/models.py:90
-#: apps/contentflagging/models.py:99
-#: apps/demos/models.py:318
+#: apps/actioncounters/models.py:90 apps/contentflagging/models.py:99 apps/demos/models.py:371
 msgid "date last modified"
 msgstr "data ostatniej modyfikacji"
 
@@ -2262,19 +2174,19 @@ msgstr[0] "dzień"
 msgstr[1] "dni"
 msgstr[2] "dni"
 
-#: apps/demos/models.py:258
+#: apps/demos/models.py:304
 msgid "describe your demo in more detail (optional)"
 msgstr "opisz demo bardziej szczegółowo (opcjonalne)"
 
-#: apps/demos/models.py:255
+#: apps/demos/models.py:301
 msgid "describe your demo in one line"
 msgstr "zawrzyj opis dema w tym wierszu"
 
-#: apps/landing/templates/landing/web.html:75
+#: apps/landing/templates/landing/web.html:93
 msgid "geckoday via AMO"
 msgstr "pisze geckoday na AMO."
 
-#: apps/demos/models.py:295
+#: apps/demos/models.py:349
 msgid "have a video of your demo in action? (optional)"
 msgstr "masz działające wideo tego dema? (opcjonalne)"
 
@@ -2557,8 +2469,7 @@ msgstr[2] "miesiący"
 msgid "name of the action"
 msgstr "nazwa czynności"
 
-#: apps/actioncounters/models.py:71
-#: apps/contentflagging/models.py:78
+#: apps/actioncounters/models.py:71 apps/contentflagging/models.py:78
 msgid "object ID"
 msgstr "ID obiektu"
 
@@ -2574,15 +2485,15 @@ msgstr "powód oznaczenia treści"
 msgid "recent"
 msgstr "najnowsze"
 
-#: apps/demos/models.py:299
+#: apps/demos/models.py:353
 msgid "select a ZIP file containing your demo"
 msgstr "wybierz plik .zip z tym demem"
 
-#: apps/demos/models.py:270
+#: apps/demos/models.py:324
 msgid "select up to 5 tags that describe your demo"
 msgstr "wybierz do 5 etykiet opisujących demo"
 
-#: apps/demos/models.py:252
+#: apps/demos/models.py:298
 msgid "slug"
 msgstr "ciąg słów"
 
@@ -2593,7 +2504,7 @@ msgstr[0] "tydzień"
 msgstr[1] "tygodnie"
 msgstr[2] "tygodni"
 
-#: apps/demos/models.py:250
+#: apps/demos/models.py:296
 msgid "what is your demo's name?"
 msgstr "podaj nazwę dema"
 
@@ -2608,7 +2519,7 @@ msgstr[2] "lat"
 msgid "{comment_count} comments"
 msgstr "{comment_count} komentarzy"
 
-#: apps/demos/templates/demos/detail.html:174
+#: apps/demos/templates/demos/detail.html:176
 msgid "{comments_total} comment so far"
 msgid_plural "{comments_total} comments so far"
 msgstr[0] "{comments_total} komentarz do tej pory"
@@ -2629,8 +2540,7 @@ msgstr[0] "{count} lubiący"
 msgstr[1] "{count} lubiących"
 msgstr[2] "{count} lubiących"
 
-#: apps/demos/templates/demos/detail.html:125
-#: apps/demos/templates/demos/elements/submission_thumb.html:16
+#: apps/demos/templates/demos/detail.html:125 apps/demos/templates/demos/elements/submission_thumb.html:16
 msgid "{count} person liked this demo"
 msgid_plural "{count} people liked this demo"
 msgstr[0] "{count} osobie podoba się to demo"
@@ -2652,18 +2562,9 @@ msgstr "{display_name}"
 msgid "{start}&ndash;{end} of {total}"
 msgstr "{start}&ndash;{end} z {total}"
 
-#: apps/demos/templates/demos/delete.html:10
-#: apps/demos/templates/demos/delete_comment.html:10
-#: apps/demos/templates/demos/detail.html:5
-#: apps/demos/templates/demos/flag.html:10
-#: apps/demos/templates/demos/launch.html:4
-#: apps/demos/templates/demos/listing_all.html:5
-#: apps/demos/templates/demos/listing_search.html:10
-#: apps/demos/templates/demos/listing_tag.html:5
-#: apps/demos/templates/demos/profile_detail.html:8
-#: apps/demos/templates/demos/submit.html:8
-#: apps/demos/templates/demos/submit.html:10
-#: apps/demos/templates/demos/submit_noauth.html:10
+#: apps/demos/templates/demos/delete.html:10 apps/demos/templates/demos/delete_comment.html:10 apps/demos/templates/demos/detail.html:5 apps/demos/templates/demos/flag.html:10
+#: apps/demos/templates/demos/launch.html:4 apps/demos/templates/demos/listing_all.html:5 apps/demos/templates/demos/listing_search.html:10 apps/demos/templates/demos/listing_tag.html:5
+#: apps/demos/templates/demos/profile_detail.html:8 apps/demos/templates/demos/submit.html:8 apps/demos/templates/demos/submit.html:10 apps/demos/templates/demos/submit_noauth.html:10
 #: apps/demos/templates/demos/terms.html:10
 msgid "{subtitle} | Demo Studio"
 msgstr "{subtitle} | Demo Studio"
@@ -2676,3 +2577,12 @@ msgstr "Dema {tag_title}"
 msgid "{timedelta} ago"
 msgstr "{timedelta} temu"
 
+#~ msgid "Filetype not supported."
+#~ msgstr "Nieobsługiwany typ pliku"
+
+#~ msgid "For the latest in open Web technologies, these cool demos are a great way to discover new documentation."
+#~ msgstr "Te fajne dema są najlepszym sposobem zapoznania się z najnowszymi technologiami otwartego Internetu."
+
+# 90%
+#~ msgid "Javascript"
+#~ msgstr "JavaScript"
