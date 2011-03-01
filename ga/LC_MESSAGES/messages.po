@@ -10,25 +10,41 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4;\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4;\n"
 "X-Generator: Pootle 2.1.5\n"
 
 # quote - leave untranslated
 #: apps/landing/templates/landing/mobile.html:158
 msgid ""
-"\"'Hands down, the developer pool for HTML / JS rock stars is tenfold larger [and] there is no download attrition. You simply point people at a URL and there you go -- it's installed.' The fact "
-"that apps can be directly installed by URL rather than by waiting for an App Store download means that developers reduce barriers to virality.\""
+"\"'Hands down, the developer pool for HTML / JS rock stars is tenfold larger "
+"[and] there is no download attrition. You simply point people at a URL and "
+"there you go -- it's installed.' The fact that apps can be directly installed "
+"by URL rather than by waiting for an App Store download means that developers "
+"reduce barriers to virality.\""
 msgstr ""
-"\"'Hands down, the developer pool for HTML / JS rock stars is tenfold larger [and] there is no download attrition. You simply point people at a URL and there you go -- it's installed.' The fact "
-"that apps can be directly installed by URL rather than by waiting for an App Store download means that developers reduce barriers to virality.\""
+"\"'Hands down, the developer pool for HTML / JS rock stars is tenfold larger "
+"[and] there is no download attrition. You simply point people at a URL and "
+"there you go -- it's installed.' The fact that apps can be directly installed "
+"by URL rather than by waiting for an App Store download means that developers "
+"reduce barriers to virality.\""
 
 #: apps/landing/templates/landing/web.html:93
-msgid "\"An absolute necessity for anyone doing serious web development. Awesome!!!!\""
-msgstr "\"An absolute necessity for anyone doing serious web development. Awesome!!!!\""
+msgid ""
+"\"An absolute necessity for anyone doing serious web development. Awesome!!!!"
+"\""
+msgstr ""
+"\"An absolute necessity for anyone doing serious web development. Awesome!!!!"
+"\""
 
 #: apps/docs/templates/docs/docs.html:53
-msgid "\"Asynchronous JavaScript and XML\" is a term that describes the use of all these technologies together to create powerful web applications."
-msgstr "Is téarma é AJAX (\"Asynchronous JavaScript and XML\") a dhéanann cur síos ar na teicneolaíochtaí seo a úsáidtear lena chéile chun feidhmchláir chumhachtacha Gréasáin a chruthú."
+msgid ""
+"\"Asynchronous JavaScript and XML\" is a term that describes the use of all "
+"these technologies together to create powerful web applications."
+msgstr ""
+"Is téarma é AJAX (\"Asynchronous JavaScript and XML\") a dhéanann cur síos ar "
+"na teicneolaíochtaí seo a úsáidtear lena chéile chun feidhmchláir "
+"chumhachtacha Gréasáin a chruthú."
 
 #: apps/landing/templates/landing/mobile.html:150
 msgid "\"HTML5 is Great for Mobile, Developers Say\""
@@ -117,11 +133,15 @@ msgstr "Taispeántais MDN de chuid %s"
 msgid "(multiple)"
 msgstr "(éagsúil)"
 
-#: apps/docs/templates/docs/docs.html:52 apps/docs/templates/docs/glossary.html:11
+#: apps/docs/templates/docs/docs.html:52
+#: apps/docs/templates/docs/glossary.html:11
 msgid "/en/AJAX"
 msgstr "/en/AJAX"
 
-#: apps/docs/templates/docs/docs.html:44 apps/docs/templates/docs/glossary.html:5 apps/landing/templates/landing/home.html:181 apps/landing/templates/landing/web.html:73
+#: apps/docs/templates/docs/docs.html:44
+#: apps/docs/templates/docs/glossary.html:5
+#: apps/landing/templates/landing/home.html:181
+#: apps/landing/templates/landing/web.html:73
 msgid "/en/CSS"
 msgstr "/en/CSS"
 
@@ -137,7 +157,10 @@ msgstr "/en/CSS/Using_CSS_transforms"
 msgid "/en/Creating_OpenSearch_plugins_for_Firefox"
 msgstr "/en/Creating_OpenSearch_plugins_for_Firefox"
 
-#: apps/docs/templates/docs/docs.html:48 apps/docs/templates/docs/glossary.html:8 apps/landing/templates/landing/home.html:189 apps/landing/templates/landing/web.html:77
+#: apps/docs/templates/docs/docs.html:48
+#: apps/docs/templates/docs/glossary.html:8
+#: apps/landing/templates/landing/home.html:189
+#: apps/landing/templates/landing/web.html:77
 msgid "/en/DOM"
 msgstr "/en/DOM"
 
@@ -157,15 +180,19 @@ msgstr "/en/Developer_Guide"
 msgid "/en/DragDrop/Drag_and_Drop"
 msgstr "/en/DragDrop/Drag_and_Drop"
 
-#: apps/docs/templates/docs/docs.html:89 apps/landing/templates/landing/addons.html:60
+#: apps/docs/templates/docs/docs.html:89
+#: apps/landing/templates/landing/addons.html:60
 msgid "/en/Extensions"
 msgstr "/en/Extensions"
 
-#: apps/landing/templates/landing/home.html:72 apps/landing/templates/landing/home.html:166
+#: apps/landing/templates/landing/home.html:72
+#: apps/landing/templates/landing/home.html:166
 msgid "/en/Firefox_4_for_developers"
 msgstr "/en/Firefox_4_for_developers"
 
-#: apps/docs/templates/docs/docs.html:32 apps/docs/templates/docs/glossary.html:4 apps/landing/templates/landing/home.html:177
+#: apps/docs/templates/docs/docs.html:32
+#: apps/docs/templates/docs/glossary.html:4
+#: apps/landing/templates/landing/home.html:177
 msgid "/en/HTML"
 msgstr "/en/HTML"
 
@@ -173,7 +200,10 @@ msgstr "/en/HTML"
 msgid "/en/HTML/Element/canvas"
 msgstr "/en/HTML/Element/canvas"
 
-#: apps/docs/templates/docs/docs.html:36 apps/docs/templates/docs/glossary.html:7 apps/landing/templates/landing/home.html:72 apps/landing/templates/landing/home.html:78
+#: apps/docs/templates/docs/docs.html:36
+#: apps/docs/templates/docs/glossary.html:7
+#: apps/landing/templates/landing/home.html:72
+#: apps/landing/templates/landing/home.html:78
 #: apps/landing/templates/landing/web.html:65
 msgid "/en/HTML/HTML5"
 msgstr "/en/HTML/HTML5"
@@ -182,19 +212,28 @@ msgstr "/en/HTML/HTML5"
 msgid "/en/IndexedDB"
 msgstr "/en/IndexedDB"
 
-#: apps/docs/templates/docs/docs.html:40 apps/docs/templates/docs/glossary.html:6 apps/landing/templates/landing/home.html:185 apps/landing/templates/landing/web.html:69
+#: apps/docs/templates/docs/docs.html:40
+#: apps/docs/templates/docs/glossary.html:6
+#: apps/landing/templates/landing/home.html:185
+#: apps/landing/templates/landing/web.html:69
 msgid "/en/JavaScript"
 msgstr "/en/JavaScript"
 
-#: apps/docs/templates/docs/docs.html:101 apps/landing/templates/landing/home.html:150 apps/landing/templates/landing/mozilla.html:81
+#: apps/docs/templates/docs/docs.html:101
+#: apps/landing/templates/landing/home.html:150
+#: apps/landing/templates/landing/mozilla.html:81
 msgid "/en/Localization"
 msgstr "/en/Localization"
 
-#: apps/docs/templates/docs/docs.html:80 apps/landing/templates/landing/home.html:132 apps/landing/templates/landing/mobile.html:88
+#: apps/docs/templates/docs/docs.html:80
+#: apps/landing/templates/landing/home.html:132
+#: apps/landing/templates/landing/mobile.html:88
 msgid "/en/Mobile"
 msgstr "/en/Mobile"
 
-#: apps/docs/templates/docs/docs.html:99 apps/landing/templates/landing/home.html:149 apps/landing/templates/landing/home.html:207
+#: apps/docs/templates/docs/docs.html:99
+#: apps/landing/templates/landing/home.html:149
+#: apps/landing/templates/landing/home.html:207
 msgid "/en/Participating_in_the_Mozilla_project"
 msgstr "/en/Participating_in_the_Mozilla_project"
 
@@ -202,7 +241,8 @@ msgstr "/en/Participating_in_the_Mozilla_project"
 msgid "/en/Plugins"
 msgstr "/en/Plugins"
 
-#: apps/docs/templates/docs/docs.html:102 apps/landing/templates/landing/home.html:150
+#: apps/docs/templates/docs/docs.html:102
+#: apps/landing/templates/landing/home.html:150
 msgid "/en/QA"
 msgstr "/en/QA"
 
@@ -226,15 +266,18 @@ msgstr "/en/The_Mozilla_platform"
 msgid "/en/Themes"
 msgstr "/en/Themes"
 
-#: apps/landing/templates/landing/mozilla.html:92 apps/landing/templates/landing/mozilla.html:109
+#: apps/landing/templates/landing/mozilla.html:92
+#: apps/landing/templates/landing/mozilla.html:109
 msgid "/en/Tools"
 msgstr "/en/Tools"
 
-#: apps/docs/templates/docs/docs.html:100 apps/landing/templates/landing/mozilla.html:61
+#: apps/docs/templates/docs/docs.html:100
+#: apps/landing/templates/landing/mozilla.html:61
 msgid "/en/Using_Mozilla_code_in_other_projects"
 msgstr "/en/Using_Mozilla_code_in_other_projects"
 
-#: apps/docs/templates/docs/glossary.html:15 apps/docs/templates/docs/glossary.html:16
+#: apps/docs/templates/docs/glossary.html:15
+#: apps/docs/templates/docs/glossary.html:16
 msgid "/en/Using_audio_and_video_in_Firefox"
 msgstr "/en/Using_audio_and_video_in_Firefox"
 
@@ -242,7 +285,9 @@ msgstr "/en/Using_audio_and_video_in_Firefox"
 msgid "/en/Using_files_from_web_applications"
 msgstr "/en/Using_files_from_web_applications"
 
-#: apps/docs/templates/docs/docs.html:82 apps/landing/templates/landing/home.html:132 apps/landing/templates/landing/mobile.html:69
+#: apps/docs/templates/docs/docs.html:82
+#: apps/landing/templates/landing/home.html:132
+#: apps/landing/templates/landing/mobile.html:69
 msgid "/en/Using_geolocation"
 msgstr "/en/Using_geolocation"
 
@@ -267,125 +312,214 @@ msgid "/en/mobile"
 msgstr "/en/mobile"
 
 #: apps/landing/templates/landing/home.html:140
-msgid "<a href=\"%(builder_url)s\">Build your own add-ons</a> and discuss them with the <a href=\"%(dev_url)s\">add-on developer community</a>."
-msgstr "<a href=\"%(builder_url)s\">Tóg do bhreiseáin féin</a> agus pléigh leis an <a href=\"%(dev_url)s\">gcomhphobal forbróirí breiseán</a> iad."
+msgid ""
+"<a href=\"%(builder_url)s\">Build your own add-ons</a> and discuss them with "
+"the <a href=\"%(dev_url)s\">add-on developer community</a>."
+msgstr ""
+"<a href=\"%(builder_url)s\">Tóg do bhreiseáin féin</a> agus pléigh leis an <a "
+"href=\"%(dev_url)s\">gcomhphobal forbróirí breiseán</a> iad."
 
 #: apps/demos/templates/demos/elements/comments_tree.html:9
 msgid "<cite class=\"author fn\">%(comment_profile_link)s</cite> said,"
 msgstr "Dúirt <cite class=\"author fn\">%(comment_profile_link)s</cite>,"
 
 #: apps/demos/templates/demos/detail.html:183
-msgid "<p><a href=\"/Special:UserRegistration\">Register</a> or <a href=\"/Special:UserLogin\">log in</a> to add your own.</p>"
-msgstr "<p><a href=\"/Special:UserRegistration\">Cláraigh</a> nó <a href=\"/Special:UserLogin\">logáil isteach</a> chun do nóta tráchta féin a chur leis.</p>"
+msgid ""
+"<p><a href=\"/Special:UserRegistration\">Register</a> or <a href=\"/Special:"
+"UserLogin\">log in</a> to add your own.</p>"
+msgstr ""
+"<p><a href=\"/Special:UserRegistration\">Cláraigh</a> nó <a href=\"/Special:"
+"UserLogin\">logáil isteach</a> chun do nóta tráchta féin a chur leis.</p>"
 
 #: apps/demos/templates/demos/delete_comment.html:39
 msgid "<p>Are you sure that you would like to delete this comment?</p>"
-msgstr "<p>An bhfuil tú cinnte gur mian leat an nóta tráchta seo a scriosadh?</p>"
+msgstr ""
+"<p>An bhfuil tú cinnte gur mian leat an nóta tráchta seo a scriosadh?</p>"
 
 #: apps/demos/templates/demos/submit.html:81
-msgid "<p>Tell us more about your demo, including the name, description and the technologies used. Please list the browsers you have tested it with.</p>"
-msgstr "<p>Tabhair tuilleadh eolais dúinn faoi do thaispeántas: an t-ainm, cur síos, agus na teicneolaíochtaí a d'úsáid tú san áireamh. Liostaigh na brabhsálaithe a ndearna tú tástáil leo.</p>"
+msgid ""
+"<p>Tell us more about your demo, including the name, description and the "
+"technologies used. Please list the browsers you have tested it with.</p>"
+msgstr ""
+"<p>Tabhair tuilleadh eolais dúinn faoi do thaispeántas: an t-ainm, cur síos, "
+"agus na teicneolaíochtaí a d'úsáid tú san áireamh. Liostaigh na brabhsálaithe "
+"a ndearna tú tástáil leo.</p>"
 
 #: apps/demos/templates/demos/submit_noauth.html:65
-msgid "<p>To submit your demo, you need an <strong><a href=\"%(signup_url)s\">MDN account</a></strong>.</p>"
-msgstr "<p>Chun do thaispeántas a chur faoinár mbráid, teastaíonn uait <strong><a href=\"%(signup_url)s\">cuntas MDN</a></strong>.</p>"
+msgid ""
+"<p>To submit your demo, you need an <strong><a href=\"%(signup_url)s\">MDN "
+"account</a></strong>.</p>"
+msgstr ""
+"<p>Chun do thaispeántas a chur faoinár mbráid, teastaíonn uait <strong><a "
+"href=\"%(signup_url)s\">cuntas MDN</a></strong>.</p>"
 
 #: apps/demos/templates/demos/submit.html:139
-msgid "<p>Upload a ZIP file of your source code, in which the main page of your demo is named <code>index.html</code> in the root directory.</p>"
-msgstr "<p>Uasluchtaigh comhad ZIP a bhfuil do chód foinseach ann, agus cuir príomhleathanach do thaispeántais i gcomhad darb ainm <code>index.html</code> sa fhréamhchomhadlann.</p>"
+msgid ""
+"<p>Upload a ZIP file of your source code, in which the main page of your demo "
+"is named <code>index.html</code> in the root directory.</p>"
+msgstr ""
+"<p>Uasluchtaigh comhad ZIP a bhfuil do chód foinseach ann, agus cuir "
+"príomhleathanach do thaispeántais i gcomhad darb ainm <code>index.html</code> "
+"sa fhréamhchomhadlann.</p>"
 
 #: apps/demos/templates/demos/home.html:23
 msgid ""
-"<p>Welcome to Mozilla Demo Studio, where developers like you can develop, share, demonstrate, and learn all about Web technologies. See what’s possible by exploring Demo Studio:</p> <ul> <li>View "
-"<strong>demos</strong> that showcase what HTML, CSS, and JavaScript can do.</li> <li>Inspect the <strong>source code</strong> for those demos so you can see how they work.</li> <li>Read "
-"<strong>documentation</strong> to learn about the open standards and technologies that power the Web.</li> </ul>"
+"<p>Welcome to Mozilla Demo Studio, where developers like you can develop, "
+"share, demonstrate, and learn all about Web technologies. See what’s possible "
+"by exploring Demo Studio:</p> <ul> <li>View <strong>demos</strong> that "
+"showcase what HTML, CSS, and JavaScript can do.</li> <li>Inspect the "
+"<strong>source code</strong> for those demos so you can see how they work.</"
+"li> <li>Read <strong>documentation</strong> to learn about the open standards "
+"and technologies that power the Web.</li> </ul>"
 msgstr ""
-"<p>Fáilte go Stiúideo Taispeántas Mozilla, áit inar féidir le forbróirí a gcuid oibre a chomhroinnt agus chur ar taispeáint, agus tuilleadh eolais a fháil faoi theicneolaíochtaí Gréasáin.  Taiscéal "
-"an Stiúideo agus féach ar na rudaí go léir is féidir a dhéanamh:</p> <ul> <li>Féach ar <strong>thaispeántais</strong> a léiríonn cumhacht HTML, CSS, agus JavaScript.</li> <li>Iniúch <strong>cód "
-"foinseach</strong> na dtaispeántas sin sa chaoi go dtuigfidh tú an chaoi a n-oibríonn siad.</li> <li>Léigh <strong>doiciméadú</strong> chun tuilleadh eolais a fháil faoi na teicneolaíochtaí agus na "
-"caighdeáin oscailte a chumhachtaíonn an Gréasán.</li> </ul>"
+"<p>Fáilte go Stiúideo Taispeántas Mozilla, áit inar féidir le forbróirí a "
+"gcuid oibre a chomhroinnt agus chur ar taispeáint, agus tuilleadh eolais a "
+"fháil faoi theicneolaíochtaí Gréasáin.  Taiscéal an Stiúideo agus féach ar na "
+"rudaí go léir is féidir a dhéanamh:</p> <ul> <li>Féach ar "
+"<strong>thaispeántais</strong> a léiríonn cumhacht HTML, CSS, agus JavaScript."
+"</li> <li>Iniúch <strong>cód foinseach</strong> na dtaispeántas sin sa chaoi "
+"go dtuigfidh tú an chaoi a n-oibríonn siad.</li> <li>Léigh "
+"<strong>doiciméadú</strong> chun tuilleadh eolais a fháil faoi na "
+"teicneolaíochtaí agus na caighdeáin oscailte a chumhachtaíonn an Gréasán.</"
+"li> </ul>"
 
 #: apps/demos/templates/demos/submit_noauth.html:32
 msgid ""
-"<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other "
-"web developers.</p>"
+"<p>Whether you are creating an amazing new way to experience the Web or just "
+"experimenting with the latest technologies, we invite you to submit your own "
+"demos to share with (or show off to) other web developers.</p>"
 msgstr ""
-"<p>An bhfuil bealach úrnua le sult a bhaint as an nGréasán agat?  Nó nach bhfuil tú ach ag baint triail as na teicneolaíochtaí is déanaí?  Is cuma linn agus fearaimid fáilte romhat do chuid "
-"taispeántas a chur faoinár mbráid chun iad a chomhroinnt le forbróirí Gréasáin eile.</p>"
+"<p>An bhfuil bealach úrnua le sult a bhaint as an nGréasán agat?  Nó nach "
+"bhfuil tú ach ag baint triail as na teicneolaíochtaí is déanaí?  Is cuma linn "
+"agus fearaimid fáilte romhat do chuid taispeántas a chur faoinár mbráid chun "
+"iad a chomhroinnt le forbróirí Gréasáin eile.</p>"
 
 #: apps/demos/templates/demos/submit.html:67
 msgid ""
-"<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other "
-"web developers.</p> <p>Please complete the form below to ensure your demo is submitted to the Demo Studio successfully.</p>"
+"<p>Whether you are creating an amazing new way to experience the Web or just "
+"experimenting with the latest technologies, we invite you to submit your own "
+"demos to share with (or show off to) other web developers.</p> <p>Please "
+"complete the form below to ensure your demo is submitted to the Demo Studio "
+"successfully.</p>"
 msgstr ""
-"<p>An bhfuil bealach úrnua le sult a bhaint as an nGréasán agat?  Nó nach bhfuil tú ach ag baint triail as na teicneolaíochtaí is déanaí?  Is cuma linn agus fearaimid fáilte romhat do chuid "
-"taispeántas a chur faoinár mbráid chun iad a chomhroinnt le forbróirí Gréasáin eile.</p> <p>Líon isteach an fhoirm thíos chun bheith cinnte go mbeidh do thaispeántas seolta chugainn gan fadhb.</p>"
+"<p>An bhfuil bealach úrnua le sult a bhaint as an nGréasán agat?  Nó nach "
+"bhfuil tú ach ag baint triail as na teicneolaíochtaí is déanaí?  Is cuma linn "
+"agus fearaimid fáilte romhat do chuid taispeántas a chur faoinár mbráid chun "
+"iad a chomhroinnt le forbróirí Gréasáin eile.</p> <p>Líon isteach an fhoirm "
+"thíos chun bheith cinnte go mbeidh do thaispeántas seolta chugainn gan fadhb."
+"</p>"
 
 #: apps/demos/templates/demos/detail.html:179
 msgid "<p>Why not <a href=\"#comment-post\">Add your own</a>?</p>"
-msgstr "<p>Cén fáth nach gcuirfidh tú <a href=\"#comment-post\">do nóta tráchta féin leis</a>?</p>"
+msgstr ""
+"<p>Cén fáth nach gcuirfidh tú <a href=\"#comment-post\">do nóta tráchta féin "
+"leis</a>?</p>"
 
 #: apps/demos/templates/demos/delete.html:40
 msgid ""
-"<p>You are about to remove <strong>%(demo_title)s</strong> from the Demo Studio.</p> <p>The Demo's listing, source code, and statistics will be <strong>deleted</strong>.</p> <p>This action "
-"<strong>cannot be undone</strong>."
+"<p>You are about to remove <strong>%(demo_title)s</strong> from the Demo "
+"Studio.</p> <p>The Demo's listing, source code, and statistics will be "
+"<strong>deleted</strong>.</p> <p>This action <strong>cannot be undone</"
+"strong>."
 msgstr ""
-"<p>Tá tú ar tí <strong>%(demo_title)s</strong> a bhaint ón Stiúideo Taispeántas.</p> <p><strong>Scriosfar</strong> liostáil, cód foinseach, agus staitisticí an Taispeántais.</p> <p>Scriosfar "
-"<strong>go brách</strong> é."
+"<p>Tá tú ar tí <strong>%(demo_title)s</strong> a bhaint ón Stiúideo "
+"Taispeántas.</p> <p><strong>Scriosfar</strong> liostáil, cód foinseach, agus "
+"staitisticí an Taispeántais.</p> <p>Scriosfar <strong>go brách</strong> é."
 
 #: apps/demos/templates/demos/submit_noauth.html:41
 msgid ""
-"<ul> <li>You must be prepared to <strong>provide the source code</strong> for your demo. Demos are hosted on the Demo Studio’s servers.</li> <li>Your demo’s source code must be available under an "
-"<strong>open license</strong>, such as MPL, GPL, or BSD.</li> <li>Your demo should showcase <strong>open web technologies</strong>, such as HTML5 and CSS3.</li> <li>Your demo should support a wide "
-"range of <strong>modern web browsers</strong>, like Firefox, Chrome, Safari, and Opera.</li> </ul>"
+"<ul> <li>You must be prepared to <strong>provide the source code</strong> for "
+"your demo. Demos are hosted on the Demo Studio’s servers.</li> <li>Your "
+"demo’s source code must be available under an <strong>open license</strong>, "
+"such as MPL, GPL, or BSD.</li> <li>Your demo should showcase <strong>open web "
+"technologies</strong>, such as HTML5 and CSS3.</li> <li>Your demo should "
+"support a wide range of <strong>modern web browsers</strong>, like Firefox, "
+"Chrome, Safari, and Opera.</li> </ul>"
 msgstr ""
-"<ul> <li>Caithfidh tú <strong>cód foinseach do thaispeántais a sholáthar</strong>. Beidh na taispeántais óstáilte ar fhreastalaithe an Stiúideo Taispeántas.</li> <li>Ní mór duit cód foinseach do "
-"thaispeántas a chur ar fáil faoi <strong>cheadúnas oscailte</strong>, mar shampla MPL, GPL, nó BSD.</li> <li>Ba chóir don taispeántas <strong>teicneolaíochtaí oscailte an Ghréasáin</strong> a chur "
-"ar taispeáint, mar shampla HTML5 agus CSS3.</li> <li>Ba chóir don taispeántas tacú le raon leathan de <strong>bhrabhsálaithe nua-aimseartha</strong>, mar shampla Firefox, Chrome, Safari and Opera.</"
-"li> </ul>"
+"<ul> <li>Caithfidh tú <strong>cód foinseach do thaispeántais a sholáthar</"
+"strong>. Beidh na taispeántais óstáilte ar fhreastalaithe an Stiúideo "
+"Taispeántas.</li> <li>Ní mór duit cód foinseach do thaispeántas a chur ar "
+"fáil faoi <strong>cheadúnas oscailte</strong>, mar shampla MPL, GPL, nó BSD.</"
+"li> <li>Ba chóir don taispeántas <strong>teicneolaíochtaí oscailte an "
+"Ghréasáin</strong> a chur ar taispeáint, mar shampla HTML5 agus CSS3.</li> "
+"<li>Ba chóir don taispeántas tacú le raon leathan de <strong>bhrabhsálaithe "
+"nua-aimseartha</strong>, mar shampla Firefox, Chrome, Safari and Opera.</li> "
+"</ul>"
 
 #: apps/demos/templates/demos/submit_noauth.html:53
 msgid ""
-"<ul> <li>Your demo’s source code should be packaged inside a <strong>ZIP file</strong>.</li> <li>The main page of your demo should be a file named <strong><code>index.html</code></strong> in the "
-"root of the ZIP.</li> <li>Your demo should be built on <strong>client-side technology</strong> (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your "
-"demo requires external resources, it should use <strong>AJAX</strong> to access them.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the CC-BY-"
-"SA license and include links to the authors' websites.</li> </ul>"
+"<ul> <li>Your demo’s source code should be packaged inside a <strong>ZIP "
+"file</strong>.</li> <li>The main page of your demo should be a file named "
+"<strong><code>index.html</code></strong> in the root of the ZIP.</li> "
+"<li>Your demo should be built on <strong>client-side technology</strong> "
+"(HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not "
+"supported.</li> <li>If your demo requires external resources, it should use "
+"<strong>AJAX</strong> to access them.</li> <li>Please identify in the demo "
+"details box any 3rd party content that can't be licensed under the CC-BY-SA "
+"license and include links to the authors' websites.</li> </ul>"
 msgstr ""
-"<ul> <li>Caithfidh tú cód foinseach do thaispeántais a phacáistiú <strong>i gcomhad ZIP</strong>.</li> <li>Ba chóir duit príomhleathanach do thaispeántais a chur i bhfréamhchomhadlann an ZIP leis "
-"an ainm <strong><code>index.html</code></strong>.</li> <li>Ní mór duit do thaispeántas a chruthú le <strong>teicneolaíocht ar thaobh an chliaint</strong> (HTML, CSS, Javascript). Ní thacaítear le "
-"PHP, Ruby, nó teangacha eile ar thaobh an fhreastalaí.</li> <li>Má tá acmhainní seachtracha de dhíth ar do thaispeántas, ba chóir dó <strong>AJAX</strong> a úsáid.</li> <li>Cuir in iúl dúinn i "
-"mbosca mionsonraithe an taispeántais aon ábhar atá ann nach féidir chur ar fáil faoi cheadúnas CC-BY-SA agus cuir nasc le suímh Ghréasáin na n-údar ann chomh maith.</li> </ul>"
+"<ul> <li>Caithfidh tú cód foinseach do thaispeántais a phacáistiú <strong>i "
+"gcomhad ZIP</strong>.</li> <li>Ba chóir duit príomhleathanach do "
+"thaispeántais a chur i bhfréamhchomhadlann an ZIP leis an ainm "
+"<strong><code>index.html</code></strong>.</li> <li>Ní mór duit do "
+"thaispeántas a chruthú le <strong>teicneolaíocht ar thaobh an chliaint</"
+"strong> (HTML, CSS, Javascript). Ní thacaítear le PHP, Ruby, nó teangacha "
+"eile ar thaobh an fhreastalaí.</li> <li>Má tá acmhainní seachtracha de dhíth "
+"ar do thaispeántas, ba chóir dó <strong>AJAX</strong> a úsáid.</li> <li>Cuir "
+"in iúl dúinn i mbosca mionsonraithe an taispeántais aon ábhar atá ann nach "
+"féidir chur ar fáil faoi cheadúnas CC-BY-SA agus cuir nasc le suímh Ghréasáin "
+"na n-údar ann chomh maith.</li> </ul>"
 
 #: apps/demos/templates/demos/submit.html:125
 msgid ""
-"<ul> <li>Your demo’s source code should be packaged inside a ZIP file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the ZIP.</li> <li>Your demo "
-"should be built on client-side technology (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use AJAX "
-"to access them.</li> <li>To submit your demo, you need an <a href=\"%(signup_url)s\">MDN account</a>.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed "
-"under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
+"<ul> <li>Your demo’s source code should be packaged inside a ZIP file.</li> "
+"<li>The main page of your demo should be a file named <code>index.html</code> "
+"in the root of the ZIP.</li> <li>Your demo should be built on client-side "
+"technology (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby "
+"are not supported.</li> <li>If your demo requires external resources, it "
+"should use AJAX to access them.</li> <li>To submit your demo, you need an <a "
+"href=\"%(signup_url)s\">MDN account</a>.</li> <li>Please identify in the demo "
+"details box any 3rd party content that can't be licensed under the CC-BY-SA "
+"license and include links to the authors' websites.</li> </ul>"
 msgstr ""
-"<ul> <li>Caithfidh tú cód foinseach do thaispeántais a phacáistiú i gcomhad ZIP.</li> <li>Ba chóir duit príomhleathanach do thaispeántais a chur i bhfréamhchomhadlann an ZIP leis an ainm "
-"<code>index.html</code>.</li> <li>Ní mór duit do thaispeántas a chruthú le teicneolaíocht ar thaobh an chliaint (HTML, CSS, Javascript). Ní thacaítear le PHP, Ruby, nó teangacha eile ar thaobh an "
-"fhreastalaí.</li> <li>Má tá acmhainní seachtracha de dhíth ar do thaispeántas, ba chóir dó AJAX a úsáid.</li> <li>Chun do thaispeántas a chur faoinár mbráid, tá <a href=\"%(signup_url)s\">cuntas "
-"MDN</a> de dhíth ort.</li> <li>Cuir in iúl dúinn i mbosca mionsonraithe an taispeántais aon ábhar nach féidir cur ar fáil faoi cheadúnas CC-BY-SA agus cuir naisc le suímh Ghréasáin na n-údar ann "
-"chomh maith.</li> </ul>"
+"<ul> <li>Caithfidh tú cód foinseach do thaispeántais a phacáistiú i gcomhad "
+"ZIP.</li> <li>Ba chóir duit príomhleathanach do thaispeántais a chur i "
+"bhfréamhchomhadlann an ZIP leis an ainm <code>index.html</code>.</li> <li>Ní "
+"mór duit do thaispeántas a chruthú le teicneolaíocht ar thaobh an chliaint "
+"(HTML, CSS, Javascript). Ní thacaítear le PHP, Ruby, nó teangacha eile ar "
+"thaobh an fhreastalaí.</li> <li>Má tá acmhainní seachtracha de dhíth ar do "
+"thaispeántas, ba chóir dó AJAX a úsáid.</li> <li>Chun do thaispeántas a chur "
+"faoinár mbráid, tá <a href=\"%(signup_url)s\">cuntas MDN</a> de dhíth ort.</"
+"li> <li>Cuir in iúl dúinn i mbosca mionsonraithe an taispeántais aon ábhar "
+"nach féidir cur ar fáil faoi cheadúnas CC-BY-SA agus cuir naisc le suímh "
+"Ghréasáin na n-údar ann chomh maith.</li> </ul>"
 
 #: apps/landing/templates/landing/mozilla.html:107
 msgid "A Mozilla source tree browser."
 msgstr "Brabhsálaí an chóid fhoinsigh Mhozilla."
 
 #: apps/docs/templates/docs/docs.html:60
-msgid "A comprehensive list of terms to help Web developers find the documentation they need."
-msgstr "Liosta cuimsitheach téarmaí a chabhraíonn le forbróirí Gréasáin doiciméadú úsáideach a aimsiú."
+msgid ""
+"A comprehensive list of terms to help Web developers find the documentation "
+"they need."
+msgstr ""
+"Liosta cuimsitheach téarmaí a chabhraíonn le forbróirí Gréasáin doiciméadú "
+"úsáideach a aimsiú."
 
 #: templates/base.html:49
-msgid "A comprehensive, usable, and accurate resource for everyone developing for the Open Web."
-msgstr "Acmhainn chuimsitheach chruinn inúsáidte do gach duine atá ag forbairt an Ghréasáin Oscailte."
+msgid ""
+"A comprehensive, usable, and accurate resource for everyone developing for "
+"the Open Web."
+msgstr ""
+"Acmhainn chuimsitheach chruinn inúsáidte do gach duine atá ag forbairt an "
+"Ghréasáin Oscailte."
 
 #: apps/landing/templates/landing/web.html:70
 msgid "A great resource for anyone working with JS."
 msgstr "Acmhainn iontach d'aon duine ag obair le JS."
 
-#: apps/docs/templates/docs/docs.html:52 apps/docs/templates/docs/glossary.html:11
+#: apps/docs/templates/docs/docs.html:52
+#: apps/docs/templates/docs/glossary.html:11
 msgid "AJAX"
 msgstr "AJAX"
 
@@ -403,7 +537,8 @@ msgstr "Maidir le MDN"
 
 #: apps/landing/templates/landing/mobile.html:170
 msgid "Access Android APIs on this Android Developer page."
-msgstr "Faigh APIanna Android ar an leathanach seo le haghaidh Forbróirí Android."
+msgstr ""
+"Faigh APIanna Android ar an leathanach seo le haghaidh Forbróirí Android."
 
 #: apps/demos/templates/demos/detail.html:200
 msgid "Add your comment"
@@ -417,8 +552,12 @@ msgstr "Pacáisteoir na mBreiseán"
 msgid "Add-on Validator"
 msgstr "Bailíochtóir Breiseán"
 
-#: apps/devmo/__init__.py:6 apps/docs/templates/docs/docs.html:70 apps/docs/templates/docs/docs.html:86 apps/landing/templates/landing/addons.html:11 apps/landing/templates/landing/addons.html:17
-#: apps/landing/templates/landing/home.html:138 templates/base.html:72 templates/base_compact.html:24
+#: apps/devmo/__init__.py:6 apps/docs/templates/docs/docs.html:70
+#: apps/docs/templates/docs/docs.html:86
+#: apps/landing/templates/landing/addons.html:11
+#: apps/landing/templates/landing/addons.html:17
+#: apps/landing/templates/landing/home.html:138 templates/base.html:72
+#: templates/base_compact.html:24
 msgid "Add-ons"
 msgstr "Breiseáin"
 
@@ -434,7 +573,8 @@ msgstr "Doiciméadú ar an Tógálaí Breiseán"
 msgid "Add-ons Builder [Preview]"
 msgstr "Tógálaí Breiseán [Réamhamharc]"
 
-#: apps/landing/templates/landing/home.html:48 apps/landing/templates/landing/home.html:99
+#: apps/landing/templates/landing/home.html:48
+#: apps/landing/templates/landing/home.html:99
 msgid "Addons Builder Preview"
 msgstr "Réamhamharc ar Thógálaí Breiseán"
 
@@ -491,14 +631,19 @@ msgid "Android APIs"
 msgstr "APIanna Android"
 
 #: apps/landing/templates/landing/web.html:105
-msgid "Another great Firefox/Firebug Add-on that helps you view and manage cookies in your browser."
-msgstr "Breiseán iontach eile le haghaidh Firefox/Firebug a chabhraíonn leat fianáin a fheiceáil agus a bhainistiú i do bhrabhsálaí."
+msgid ""
+"Another great Firefox/Firebug Add-on that helps you view and manage cookies "
+"in your browser."
+msgstr ""
+"Breiseán iontach eile le haghaidh Firefox/Firebug a chabhraíonn leat fianáin "
+"a fheiceáil agus a bhainistiú i do bhrabhsálaí."
 
 #: apps/demos/__init__.py:286
 msgid "Apache"
 msgstr "Apache"
 
-#: apps/landing/templates/landing/addons.html:20 apps/landing/templates/landing/mozilla.html:20
+#: apps/landing/templates/landing/addons.html:20
+#: apps/landing/templates/landing/mozilla.html:20
 msgid "Are you ready to make browsing better?"
 msgstr "An bhfuil tú réidh feabhas a chur ar bhrabhsáil?"
 
@@ -507,14 +652,17 @@ msgid "Audio"
 msgstr "Fuaim"
 
 #: apps/landing/templates/landing/addons.html:105
-msgid "Auto-generate add-on packaging by entering basic info and picking UI parts. Get working without setup."
-msgstr "Cruthaigh pacáiste breiseáin go huathoibríoch trí bhuneolas a chur isteach agus codanna UI a roghnú. Crom chun oibre gan ullmhú mór."
+msgid ""
+"Auto-generate add-on packaging by entering basic info and picking UI parts. "
+"Get working without setup."
+msgstr ""
+"Cruthaigh pacáiste breiseáin go huathoibríoch trí bhuneolas a chur isteach "
+"agus codanna UI a roghnú. Crom chun oibre gan ullmhú mór."
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:38
-#, fuzzy
 msgid "Awesome <span class=\"web\">Web</span> Demos"
-msgstr "Ábhar Tábhachtach d'Fhorbróirí <span class=\"web\">Gréasáin</span>"
+msgstr "Taispeántais Iontacha <span class=\"web\">Gréasáin</span>"
 
 #: apps/demos/__init__.py:280
 msgid "BSD"
@@ -532,7 +680,9 @@ msgstr "Cláraigh le MDN"
 msgid "Before You Begin"
 msgstr "I dTosach Báire"
 
-#: apps/demos/templates/demos/listing_all.html:5 apps/demos/templates/demos/listing_all.html:19 apps/demos/templates/demos/listing_all.html:31
+#: apps/demos/templates/demos/listing_all.html:5
+#: apps/demos/templates/demos/listing_all.html:19
+#: apps/demos/templates/demos/listing_all.html:31
 msgid "Browse all demos"
 msgstr "Brabhsáil gach taispeántas"
 
@@ -556,7 +706,9 @@ msgstr "Tóg Breiseáin Iontacha Soghluaiste"
 msgid "Built using"
 msgstr "Tógtha le"
 
-#: apps/docs/templates/docs/docs.html:44 apps/docs/templates/docs/glossary.html:5 apps/landing/templates/landing/web.html:73
+#: apps/docs/templates/docs/docs.html:44
+#: apps/docs/templates/docs/glossary.html:5
+#: apps/landing/templates/landing/web.html:73
 msgid "CSS"
 msgstr "CSS"
 
@@ -576,7 +728,9 @@ msgstr "Trasfhoirmithe CSS"
 msgid "CSS3"
 msgstr "CSS3"
 
-#: apps/demos/templates/demos/delete.html:49 apps/demos/templates/demos/delete_comment.html:52 apps/demos/templates/demos/flag.html:44
+#: apps/demos/templates/demos/delete.html:49
+#: apps/demos/templates/demos/delete_comment.html:52
+#: apps/demos/templates/demos/flag.html:44
 msgid "Cancel"
 msgstr "Cealaigh"
 
@@ -590,14 +744,20 @@ msgstr "Canbhás"
 
 #: apps/demos/__init__.py:77
 msgid ""
-"Cascading Style Sheets level 3 (CSS3) provide serveral new features and properties to enhance the formatting and look of documents written in different kinds of markup languages like HTML or XML."
+"Cascading Style Sheets level 3 (CSS3) provide serveral new features and "
+"properties to enhance the formatting and look of documents written in "
+"different kinds of markup languages like HTML or XML."
 msgstr ""
-"Soláthraíonn leibhéal a trí de stílbhileoga cascáideacha (CSS3) gnéithe agus airíonna nua a chuireann feabhas ar fhormáidiú do chuid cáipéisí atá scríofa i dteangacha marcála éagsúla mar shampla "
-"HTML nó XML."
+"Soláthraíonn leibhéal a trí de stílbhileoga cascáideacha (CSS3) gnéithe agus "
+"airíonna nua a chuireann feabhas ar fhormáidiú do chuid cáipéisí atá scríofa "
+"i dteangacha marcála éagsúla mar shampla HTML nó XML."
 
 #: apps/docs/templates/docs/docs.html:45
-msgid "Cascading Style Sheets provide advanced layout and formatting of web content."
-msgstr "Soláthraíonn Stílbhileoga Cascáideacha leaganacha amach agus formáidiú casta d'ábhar Gréasáin."
+msgid ""
+"Cascading Style Sheets provide advanced layout and formatting of web content."
+msgstr ""
+"Soláthraíonn Stílbhileoga Cascáideacha leaganacha amach agus formáidiú casta "
+"d'ábhar Gréasáin."
 
 #: apps/landing/templates/landing/home.html:182
 msgid "Cascading Style Sheets."
@@ -608,20 +768,27 @@ msgid "Case Studies"
 msgstr "Cás-Staidéir"
 
 #: apps/landing/templates/landing/addons.html:109
-msgid "Check your add-on for common problems and errors. Open to anyone, not just add-ons hosted here."
-msgstr "Seiceáil an bhfuil fadhbanna nó earráidí coitianta i do bhreiseán. Oscailte do chách, ní amháin na breiseáin atá óstáilte anseo."
+msgid ""
+"Check your add-on for common problems and errors. Open to anyone, not just "
+"add-ons hosted here."
+msgstr ""
+"Seiceáil an bhfuil fadhbanna nó earráidí coitianta i do bhreiseán. Oscailte "
+"do chách, ní amháin na breiseáin atá óstáilte anseo."
 
 #: templates/includes/video_player.html:3
 msgid "Close"
 msgstr "Dún"
 
-#: apps/demos/templates/demos/detail.html:202 apps/demos/templates/demos/elements/comments_tree.html:50
+#: apps/demos/templates/demos/detail.html:202
+#: apps/demos/templates/demos/elements/comments_tree.html:50
 msgid "Comment"
 msgstr "Nóta Tráchta"
 
 #: apps/landing/templates/landing/addons.html:61
-msgid "Complete documentation for developing extensions for Mozilla applications."
-msgstr "Doiciméadú iomlán ar fhorbairt eisínteachtaí le haghaidh feidhmchlár Mozilla."
+msgid ""
+"Complete documentation for developing extensions for Mozilla applications."
+msgstr ""
+"Doiciméadú iomlán ar fhorbairt eisínteachtaí le haghaidh feidhmchlár Mozilla."
 
 #: apps/contentflagging/models.py:31
 msgid "Content deleted by moderator"
@@ -632,8 +799,10 @@ msgid "Content hidden by moderator"
 msgstr "Ábhar folaithe ag riarthóir"
 
 #: templates/base.html:107
-msgid "Content is available under <a href=\"%(copyright_url)s\">these licenses</a>"
-msgstr "Tá an t-ábhar ar fáil faoi <a href=\"%(copyright_url)s\">na ceadúnais seo</a>"
+msgid ""
+"Content is available under <a href=\"%(copyright_url)s\">these licenses</a>"
+msgstr ""
+"Tá an t-ábhar ar fáil faoi <a href=\"%(copyright_url)s\">na ceadúnais seo</a>"
 
 #: apps/landing/templates/landing/addons.html:130
 msgid "Correspondence on Twitter from the Add-ons developer community."
@@ -657,7 +826,9 @@ msgstr "Cruthaigh Cuntas"
 
 #: apps/landing/templates/landing/home.html:196
 msgid "Creating extensions, themes, and plug-ins for Firefox and Thunderbird."
-msgstr "Eisínteachtaí, téamaí, agus forlíontáin a chruthú le haghaidh Firefox agus Thunderbird."
+msgstr ""
+"Eisínteachtaí, téamaí, agus forlíontáin a chruthú le haghaidh Firefox agus "
+"Thunderbird."
 
 #: apps/contentflagging/models.py:29
 msgid "Creator notified"
@@ -665,14 +836,19 @@ msgstr "Curtha in iúl don chruthaitheoir"
 
 #: apps/landing/templates/landing/home.html:23
 msgid "Customize your profile & fine-tune your participation within MDN."
-msgstr "Saincheap do phróifíl agus mionchoigeartaigh do rannpháirtíocht laistigh de MDN."
+msgstr ""
+"Saincheap do phróifíl agus mionchoigeartaigh do rannpháirtíocht laistigh de "
+"MDN."
 
 #. DEVMO is the nickname for MDN.
 #: apps/landing/templates/landing/home.html:13
 msgid "DEVMO"
 msgstr "DEVMO"
 
-#: apps/docs/templates/docs/docs.html:48 apps/docs/templates/docs/glossary.html:8 apps/landing/templates/landing/home.html:189 apps/landing/templates/landing/web.html:77
+#: apps/docs/templates/docs/docs.html:48
+#: apps/docs/templates/docs/glossary.html:8
+#: apps/landing/templates/landing/home.html:189
+#: apps/landing/templates/landing/web.html:77
 msgid "DOM"
 msgstr "DOM"
 
@@ -684,7 +860,8 @@ msgstr "Dífhabhtú"
 msgid "Delete"
 msgstr "Scrios"
 
-#: apps/demos/templates/demos/delete_comment.html:10 apps/demos/templates/demos/delete_comment.html:22
+#: apps/demos/templates/demos/delete_comment.html:10
+#: apps/demos/templates/demos/delete_comment.html:22
 msgid "Delete Comment"
 msgstr "Scrios an Nóta Tráchta"
 
@@ -700,10 +877,20 @@ msgstr "Scrios an nóta tráchta seo"
 msgid "Delete this comment?"
 msgstr "An bhfuil fonn ort an nóta tráchta seo a scriosadh?"
 
-#: apps/demos/templates/demos/base.html:4 apps/demos/templates/demos/delete.html:21 apps/demos/templates/demos/delete_comment.html:21 apps/demos/templates/demos/detail.html:14
-#: apps/demos/templates/demos/flag.html:21 apps/demos/templates/demos/home.html:14 apps/demos/templates/demos/listing_all.html:18 apps/demos/templates/demos/listing_search.html:24
-#: apps/demos/templates/demos/listing_tag.html:19 apps/demos/templates/demos/profile_detail.html:23 apps/demos/templates/demos/submit.html:43 apps/demos/templates/demos/submit_noauth.html:19
-#: apps/landing/templates/landing/web.html:47 templates/base.html:78 templates/base_compact.html:18
+#: apps/demos/templates/demos/base.html:4
+#: apps/demos/templates/demos/delete.html:21
+#: apps/demos/templates/demos/delete_comment.html:21
+#: apps/demos/templates/demos/detail.html:14
+#: apps/demos/templates/demos/flag.html:21
+#: apps/demos/templates/demos/home.html:14
+#: apps/demos/templates/demos/listing_all.html:18
+#: apps/demos/templates/demos/listing_search.html:24
+#: apps/demos/templates/demos/listing_tag.html:19
+#: apps/demos/templates/demos/profile_detail.html:23
+#: apps/demos/templates/demos/submit.html:43
+#: apps/demos/templates/demos/submit_noauth.html:19
+#: apps/landing/templates/landing/web.html:47 templates/base.html:78
+#: templates/base_compact.html:18
 msgid "Demo Studio"
 msgstr "Stiúideo Taispeántas"
 
@@ -770,6 +957,7 @@ msgstr "Gléas"
 #: apps/demos/models.py:313
 msgid "Disable navigation bar, launch demo in a new window"
 msgstr ""
+"Díchumasaigh an barra nascleanúna, tosaigh an taispeántas i bhfuinneog nua"
 
 #: apps/demos/templates/demos/submit.html:185
 msgid "Discard Changes"
@@ -779,15 +967,23 @@ msgstr "Ná sábháil na hathruithe"
 msgid "Discard Demo"
 msgstr "Ná Coinnigh an Taispeántas"
 
-#: apps/demos/templates/demos/detail.html:90 apps/demos/templates/demos/launch.html:39
+#: apps/demos/templates/demos/detail.html:90
+#: apps/demos/templates/demos/launch.html:39
 msgid "Do you like this demo?"
 msgstr "An maith leat an taispeántas seo?"
 
 #: apps/landing/templates/landing/web.html:48
-msgid "Do you want to show the world what the Web can do? Demo Studio is your place for sharing awesome demos and experiments with the latest Web standards and open technologies."
+msgid ""
+"Do you want to show the world what the Web can do? Demo Studio is your place "
+"for sharing awesome demos and experiments with the latest Web standards and "
+"open technologies."
 msgstr ""
+"Ar mhaith leat cumhacht an Ghréasáin a chur ar taispeáint? Is féidir leat "
+"taispeántais agus turgnaimh a úsáideann na caighdeáin agus na "
+"teicneolaíochtaí oscailte is déanaí a chur ar fáil sa Stiúideo Taispeántas."
 
-#: apps/docs/templates/docs/docs.html:7 templates/base.html:77 templates/base_compact.html:26
+#: apps/docs/templates/docs/docs.html:7 templates/base.html:77
+#: templates/base_compact.html:26
 msgid "Doc Center"
 msgstr "Lárionad Doiciméadaithe"
 
@@ -805,16 +1001,24 @@ msgid "Download Formats:"
 msgstr "Formáidí Íosluchtaithe:"
 
 #: apps/demos/templates/demos/detail.html:214
-msgid "Download the Source <span class=\"note\">%(file_ksize)s KB &middot; ZIP File</span>"
-msgstr "Íosluchtaigh an Cód Foinseach <span class=\"note\">Comhad ZIP &middot; %(file_ksize)s KB</span>"
+msgid ""
+"Download the Source <span class=\"note\">%(file_ksize)s KB &middot; ZIP File</"
+"span>"
+msgstr ""
+"Íosluchtaigh an Cód Foinseach <span class=\"note\">Comhad ZIP &middot; %"
+"(file_ksize)s KB</span>"
 
 #: apps/demos/__init__.py:164 apps/docs/templates/docs/glossary.html:19
 msgid "Drag and Drop"
 msgstr "Tarraing agus Scaoil"
 
 #: apps/demos/__init__.py:165
-msgid "Drag and Drop features allow the user to move elements on the screen using the mouse pointer."
-msgstr "Ceadaíonn gnéithe 'Tarraing agus Scaoil' don úsáideoir eilimintí a bhogadh ar an scáileán leis an luch."
+msgid ""
+"Drag and Drop features allow the user to move elements on the screen using "
+"the mouse pointer."
+msgstr ""
+"Ceadaíonn gnéithe 'Tarraing agus Scaoil' don úsáideoir eilimintí a bhogadh ar "
+"an scáileán leis an luch."
 
 #: apps/demos/__init__.py:139
 msgid "ECMA Spec"
@@ -832,41 +1036,52 @@ msgstr "Cuir Taispeántas in Eagar"
 msgid "Edit this comment"
 msgstr "Cuir an nóta tráchta seo in eagar"
 
-#: apps/demos/templates/demos/submit.html:8 apps/demos/templates/demos/submit.html:45 apps/demos/templates/demos/submit.html:60
+#: apps/demos/templates/demos/submit.html:8
+#: apps/demos/templates/demos/submit.html:45
+#: apps/demos/templates/demos/submit.html:60
 msgid "Edit {demo_title}"
 msgstr "Cuir {demo_title} in eagar"
 
 #: apps/landing/templates/landing/web.html:101
 msgid "Evaluate performance of web pages with this Firefox/Firebug Add-on"
-msgstr "Déan meastachán ar luas leathanach Gréasáin leis an mBreiseán Firefox/Firebug seo"
+msgstr ""
+"Déan meastachán ar luas leathanach Gréasáin leis an mBreiseán Firefox/Firebug "
+"seo"
 
 #: apps/landing/templates/landing/home.html:208
 msgid "Everything from filing bugs to fixing them."
 msgstr "Gach rud maidir le fabhtanna; ón chéad tuairisc go dtí an ceartúchán."
 
-#: apps/docs/templates/docs/docs.html:89 apps/landing/templates/landing/addons.html:60
+#: apps/docs/templates/docs/docs.html:89
+#: apps/landing/templates/landing/addons.html:60
 msgid "Extensions"
 msgstr "Eisínteachtaí"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/addons.html:96
 msgid "Favorite <span class=\"addons\">Add-on</span> Tools"
-msgstr "Uirlisí <span class=\"addons\">Breiseáin</span> Is Ansa Leis an gComhphobal"
+msgstr ""
+"Uirlisí <span class=\"addons\">Breiseáin</span> Is Ansa Leis an gComhphobal"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mobile.html:136
 msgid "Favorite <span class=\"mobile\">Mobile</span> Articles"
-msgstr "Ailt <span class=\"mobile\">Firefox Soghluaiste</span> Is Ansa Leis an gComhphobal"
+msgstr ""
+"Ailt <span class=\"mobile\">Firefox Soghluaiste</span> Is Ansa Leis an "
+"gComhphobal"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:98
 msgid "Favorite <span class=\"mozilla\">Mozilla</span> Tools"
-msgstr "Uirlisí <span class=\"mozilla\">Mozilla</span> Is Ansa Leis an gComhphobal"
+msgstr ""
+"Uirlisí <span class=\"mozilla\">Mozilla</span> Is Ansa Leis an gComhphobal"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:87
 msgid "Favorite <span class=\"web\">Web</span> Developer Tools"
-msgstr "Uirlisí Forbartha <span class=\"web\">Gréasáin</span> Is Ansa Leis an gComhphobal"
+msgstr ""
+"Uirlisí Forbartha <span class=\"web\">Gréasáin</span> Is Ansa Leis an "
+"gComhphobal"
 
 #: apps/demos/templates/demos/home.html:39
 msgid "Featured Demos"
@@ -889,20 +1104,32 @@ msgid "Files"
 msgstr "Comhaid"
 
 #: apps/landing/templates/landing/web.html:66
-msgid "Find out what HTML5 is really all about and how you can develop for a better Web through open standards."
-msgstr "Faigh an fíorscéal faoi HTML5 agus foghlaim conas is féidir leat Gréasán níos fearr a fhorbairt trí chaighdeáin oscailte."
+msgid ""
+"Find out what HTML5 is really all about and how you can develop for a better "
+"Web through open standards."
+msgstr ""
+"Faigh an fíorscéal faoi HTML5 agus foghlaim conas is féidir leat Gréasán níos "
+"fearr a fhorbairt trí chaighdeáin oscailte."
 
-#: apps/landing/templates/landing/home.html:47 apps/landing/templates/landing/home.html:84
+#: apps/landing/templates/landing/home.html:47
+#: apps/landing/templates/landing/home.html:84
 msgid "Firefox 4 Beta"
 msgstr "Firefox 4 Béite"
 
 #: apps/landing/templates/landing/web.html:97
-msgid "Firefox Add-on that adds a lot of great developer tools that are just a click away."
-msgstr "Breiseán Firefox a chuireann go leor uirlisí forbartha ar bharra do mhéar."
+msgid ""
+"Firefox Add-on that adds a lot of great developer tools that are just a click "
+"away."
+msgstr ""
+"Breiseán Firefox a chuireann go leor uirlisí forbartha ar bharra do mhéar."
 
 #: apps/demos/__init__.py:175
-msgid "Firefox Mobile brings the true Web experience to mobile phones and other non-PC devices."
-msgstr "Cuireann Firefox Soghluaiste an fíor-Ghréasán ar fáil ar fhóin phóca agus ar ghléasanna eile nach ríomhairí iad."
+msgid ""
+"Firefox Mobile brings the true Web experience to mobile phones and other non-"
+"PC devices."
+msgstr ""
+"Cuireann Firefox Soghluaiste an fíor-Ghréasán ar fáil ar fhóin phóca agus ar "
+"ghléasanna eile nach ríomhairí iad."
 
 #: apps/docs/templates/docs/docs.html:80
 msgid "Firefox Mobile for developers"
@@ -918,12 +1145,18 @@ msgstr "Firefox Soghluaiste: Rudaí le teacht"
 
 #: apps/landing/templates/landing/mobile.html:55
 msgid ""
-"Firefox is the world's first Web browser to support mobile add-ons. Learn about <a href=\"%(basics_url)s\">Extension Basics</a>, <a href=\"%(best_practices_url)s\">Extension Best Practices</a>, "
-"helpful <a href=\"%(snippets_url)s\">Code Snippets</a>, and more so you can build innovative add-ons for Firefox on Android and Firefox on Nokia's Meego platform."
+"Firefox is the world's first Web browser to support mobile add-ons. Learn "
+"about <a href=\"%(basics_url)s\">Extension Basics</a>, <a href=\"%"
+"(best_practices_url)s\">Extension Best Practices</a>, helpful <a href=\"%"
+"(snippets_url)s\">Code Snippets</a>, and more so you can build innovative add-"
+"ons for Firefox on Android and Firefox on Nokia's Meego platform."
 msgstr ""
-"Is é Firefox an chéad bhrabhsálaí ar domhan a thacaíonn le breiseáin shoghluaiste. Faigh <a href=\"%(basics_url)s\">Buneolas ar Eisínteachtaí</a>, <a href=\"%(best_practices_url)s\">Dea-Chleachtas "
-"Eisínteachtaí</a>, <a href=\"%(snippets_url)s\">Blúirí Cóid</a> úsáideacha, agus tuilleadh sa chaoi go mbeidh tú in ann breiseáin nuálacha a thógáil le haghaidh Firefox ar Android agus Firefox ar "
-"ardán Meego de chuid Nokio."
+"Is é Firefox an chéad bhrabhsálaí ar domhan a thacaíonn le breiseáin "
+"shoghluaiste. Faigh <a href=\"%(basics_url)s\">Buneolas ar Eisínteachtaí</a>, "
+"<a href=\"%(best_practices_url)s\">Dea-Chleachtas Eisínteachtaí</a>, <a href="
+"\"%(snippets_url)s\">Blúirí Cóid</a> úsáideacha, agus tuilleadh sa chaoi go "
+"mbeidh tú in ann breiseáin nuálacha a thógáil le haghaidh Firefox ar Android "
+"agus Firefox ar ardán Meego de chuid Nokio."
 
 #: apps/demos/templates/demos/flag.html:43
 msgid "Flag content"
@@ -946,8 +1179,14 @@ msgid "Fonts & Type"
 msgstr "Clófhoirne agus Clóchuradóireacht"
 
 #: apps/demos/__init__.py:115
-msgid "Form elements and attributes in HTML5 provide a greater degree of semantic mark-up than HTML4 and remove a great deal of the need for tedious scripting and styling that was required in HTML4."
-msgstr "Soláthraíonn eilimintí agus aitreabúidí foirmeacha in HTML5 marcáil shéimeantacha níos mine ná in HTML4 agus ní gá le formhór an scriptithe agus stílithe mhaslaigh a bhí riachtanach in HTML4."
+msgid ""
+"Form elements and attributes in HTML5 provide a greater degree of semantic "
+"mark-up than HTML4 and remove a great deal of the need for tedious scripting "
+"and styling that was required in HTML4."
+msgstr ""
+"Soláthraíonn eilimintí agus aitreabúidí foirmeacha in HTML5 marcáil "
+"shéimeantacha níos mine ná in HTML4 agus ní gá le formhór an scriptithe agus "
+"stílithe mhaslaigh a bhí riachtanach in HTML4."
 
 #: apps/demos/__init__.py:114
 msgid "Forms"
@@ -970,20 +1209,34 @@ msgid "Get Started Today!"
 msgstr "Tosaigh Inniu!"
 
 #: apps/landing/templates/landing/addons.html:53
-msgid "Get add-on development guidance in a top-notch collection of tutorials, articles, and more."
-msgstr "Faigh comhairle maidir le forbairt breiseán i mbailiúchán iontach cúrsaí teagaisc, altanna, agus tuilleadh."
+msgid ""
+"Get add-on development guidance in a top-notch collection of tutorials, "
+"articles, and more."
+msgstr ""
+"Faigh comhairle maidir le forbairt breiseán i mbailiúchán iontach cúrsaí "
+"teagaisc, altanna, agus tuilleadh."
 
 #: apps/docs/templates/docs/docs.html:69
-msgid "Get involved in the %(mobile_link)s, %(addons_link)s, & %(apps_link)s Developer Communities:"
-msgstr "Glac páirt sna comhphobail %(mobile_link)s, %(addons_link)s, agus %(apps_link)s:"
+msgid ""
+"Get involved in the %(mobile_link)s, %(addons_link)s, & %(apps_link)s "
+"Developer Communities:"
+msgstr ""
+"Glac páirt sna comhphobail %(mobile_link)s, %(addons_link)s, agus %(apps_link)"
+"s:"
 
 #: apps/demos/templates/demos/detail.html:213
 msgid "Get the Source Code"
 msgstr "Faigh an Cód Foinseach"
 
 #: apps/landing/templates/landing/mobile.html:45
-msgid "Get the latest news, status and developer documentation on the Mozilla mobile project. Check out the mobile project's goals, and how you can help out and get involved!"
-msgstr "Faigh an nuacht agus doiciméadú forbartha is déanaí le haghaidh Mozilla Soghluaiste. Léigh faoi spriocanna an tionscadail, agus foghlaim conas is féidir cabhrú linn!"
+msgid ""
+"Get the latest news, status and developer documentation on the Mozilla mobile "
+"project. Check out the mobile project's goals, and how you can help out and "
+"get involved!"
+msgstr ""
+"Faigh an nuacht agus doiciméadú forbartha is déanaí le haghaidh Mozilla "
+"Soghluaiste. Léigh faoi spriocanna an tionscadail, agus foghlaim conas is "
+"féidir cabhrú linn!"
 
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
@@ -997,7 +1250,8 @@ msgstr "An chéad leathanach"
 msgid "Go to the last page"
 msgstr "An leathanach deiridh"
 
-#: apps/demos/templates/demos/detail.html:27 apps/demos/templates/demos/launch.html:62
+#: apps/demos/templates/demos/detail.html:27
+#: apps/demos/templates/demos/launch.html:62
 msgid "Go to the next demo, {demo_title}"
 msgstr "Go dtí an chéad taispeántas eile, {demo_title}"
 
@@ -1005,7 +1259,8 @@ msgstr "Go dtí an chéad taispeántas eile, {demo_title}"
 msgid "Go to the next page"
 msgstr "An chéad leathanach eile"
 
-#: apps/demos/templates/demos/detail.html:23 apps/demos/templates/demos/launch.html:58
+#: apps/demos/templates/demos/detail.html:23
+#: apps/demos/templates/demos/launch.html:58
 msgid "Go to the previous demo, {demo_title}"
 msgstr "Go dtí an taispeántas roimhe seo, {demo_title}"
 
@@ -1013,7 +1268,9 @@ msgstr "Go dtí an taispeántas roimhe seo, {demo_title}"
 msgid "Go to the previous page"
 msgstr "An leathanach roimhe seo"
 
-#: apps/docs/templates/docs/docs.html:32 apps/docs/templates/docs/glossary.html:4 apps/landing/templates/landing/home.html:177
+#: apps/docs/templates/docs/docs.html:32
+#: apps/docs/templates/docs/glossary.html:4
+#: apps/landing/templates/landing/home.html:177
 msgid "HTML"
 msgstr "HTML"
 
@@ -1021,23 +1278,32 @@ msgstr "HTML"
 msgid "HTML index not found in ZIP"
 msgstr "Níor aimsíodh innéacs HTML sa chomhad ZIP"
 
-#: apps/demos/__init__.py:144 apps/docs/templates/docs/docs.html:36 apps/docs/templates/docs/glossary.html:7 apps/landing/templates/landing/home.html:46 apps/landing/templates/landing/home.html:70
+#: apps/demos/__init__.py:144 apps/docs/templates/docs/docs.html:36
+#: apps/docs/templates/docs/glossary.html:7
+#: apps/landing/templates/landing/home.html:46
+#: apps/landing/templates/landing/home.html:70
 #: apps/landing/templates/landing/web.html:65
 msgid "HTML5"
 msgstr "HTML5"
 
 #: apps/demos/__init__.py:145
-msgid "HTML5 is the newest version of the HTML standard, currently under development."
-msgstr "Is é HTML5 an leagan is nuaí den chaighdeán HTML, atá idir lámha faoi láthair a fhorbairt."
+msgid ""
+"HTML5 is the newest version of the HTML standard, currently under development."
+msgstr ""
+"Is é HTML5 an leagan is nuaí den chaighdeán HTML, atá idir lámha faoi láthair "
+"a fhorbairt."
 
 #: apps/landing/templates/landing/web.html:51
-#, fuzzy
 msgid "Hacks Blog"
-msgstr "Ríomhchleasa"
+msgstr "Hacks Blog"
 
 #: apps/landing/templates/landing/mobile.html:152
-msgid "Hear from other developers about the advantages of HTML5 and developing for the mobile Web in this article from ReadWriteWeb:"
-msgstr "Éist le forbróirí eile maidir leis na buntáistí a bhaineann le HTML5 agus forbairt don Ghréasán soghluaiste san alt seo ó ReadWriteWeb:"
+msgid ""
+"Hear from other developers about the advantages of HTML5 and developing for "
+"the mobile Web in this article from ReadWriteWeb:"
+msgstr ""
+"Éist le forbróirí eile maidir leis na buntáistí a bhaineann le HTML5 agus "
+"forbairt don Ghréasán soghluaiste san alt seo ó ReadWriteWeb:"
 
 #: templates/base.html:112
 msgid "Help"
@@ -1072,48 +1338,82 @@ msgid "Hypertext Markup Language, the core technology of the web."
 msgstr "Teanga Mharcála Hipirtéacs (HTML), teicneolaíocht lárnach an Ghréasáin."
 
 #: apps/demos/templates/demos/submit.html:166
-msgid "I accept the Mozilla Demo Studio <a href=\"%(terms_url)s#tfc\">Terms for Contributors</a> and <a href=\"%(terms_url)s#rrd\">Rights Representation Details</a>"
-msgstr "Glacaim leis na <a href=\"%(terms_url)s#tfc\">Téarmaí do Rannpháirtithe</a> agus leis na <a href=\"%(terms_url)s#rrd\">Mionsonraí Léirithe Cearta</a>"
+msgid ""
+"I accept the Mozilla Demo Studio <a href=\"%(terms_url)s#tfc\">Terms for "
+"Contributors</a> and <a href=\"%(terms_url)s#rrd\">Rights Representation "
+"Details</a>"
+msgstr ""
+"Glacaim leis na <a href=\"%(terms_url)s#tfc\">Téarmaí do Rannpháirtithe</a> "
+"agus leis na <a href=\"%(terms_url)s#rrd\">Mionsonraí Léirithe Cearta</a>"
 
 #: apps/landing/templates/landing/addons.html:45
-msgid "If you are comfortable with a command line and prefer working locally, the Add-ons Builder SDK gives you a development environment on your own computer."
-msgstr "Má tá tú compordach ar líne na n-orduithe agus is fearr leat obair a dhéanamh go logánta, tugann an Tógálaí Breiseán timpeallacht forbartha duit ar do ríomhaire."
+msgid ""
+"If you are comfortable with a command line and prefer working locally, the "
+"Add-ons Builder SDK gives you a development environment on your own computer."
+msgstr ""
+"Má tá tú compordach ar líne na n-orduithe agus is fearr leat obair a dhéanamh "
+"go logánta, tugann an Tógálaí Breiseán timpeallacht forbartha duit ar do "
+"ríomhaire."
 
 #: apps/demos/templates/demos/submit.html:119
-msgid "If your demo has problems when displayed in an <iframe>, try changing this."
+msgid ""
+"If your demo has problems when displayed in an <iframe>, try changing this."
 msgstr ""
+"Má tá fadhbanna le do thaispeántas nuair a bhíonn sé in <iframe>, athraigh é "
+"seo."
 
 #: apps/demos/__init__.py:215
-msgid "In the context of the HTML canvas element WebGL provides an API for 3D graphics in the browser."
-msgstr "I gcomhthéacs na heiliminte HTML 'canvas', soláthraíonn WebGL API le haghaidh grafaice 3T sa bhrabhsálaí."
+msgid ""
+"In the context of the HTML canvas element WebGL provides an API for 3D "
+"graphics in the browser."
+msgstr ""
+"I gcomhthéacs na heiliminte HTML 'canvas', soláthraíonn WebGL API le haghaidh "
+"grafaice 3T sa bhrabhsálaí."
 
 #: apps/demos/__init__.py:154 apps/docs/templates/docs/glossary.html:23
 msgid "IndexedDB"
 msgstr "IndexedDB"
 
 #: apps/demos/__init__.py:155
-msgid "IndexedDB is an API for client-side storage of significant amounts of structured data and for high performance searches on this data using indexes."
-msgstr "Is éard atá in IndexedDB ná API lenar féidir méideanna suntasacha de shonraí struchtúraithe a stóráil ar thaobh an chliaint agus na sonraí seo a chuardach trí innéacsanna."
+msgid ""
+"IndexedDB is an API for client-side storage of significant amounts of "
+"structured data and for high performance searches on this data using indexes."
+msgstr ""
+"Is éard atá in IndexedDB ná API lenar féidir méideanna suntasacha de shonraí "
+"struchtúraithe a stóráil ar thaobh an chliaint agus na sonraí seo a chuardach "
+"trí innéacsanna."
 
 #: templates/500.html:3 templates/500.html:5
 msgid "Internal Server Error"
 msgstr "Earráid Inmheánach leis an bhFreastalaí"
 
 #: apps/demos/models.py:360
-msgid "Is your source code also available somewhere else on the web (e.g., github)? Please share the link."
-msgstr "An bhfuil do chód foinseach ar fáil áit éigin eile ar an nGréasán (m.sh. github)? Tabhair an nasc dúinn."
+msgid ""
+"Is your source code also available somewhere else on the web (e.g., github)? "
+"Please share the link."
+msgstr ""
+"An bhfuil do chód foinseach ar fáil áit éigin eile ar an nGréasán (m.sh. "
+"github)? Tabhair an nasc dúinn."
 
 #: apps/demos/templates/demos/submit.html:116
 msgid "JPEG and PNG supported. Minimum size of 480x360."
 msgstr "Tacaítear le JPEG agus PNG. Íosmhéid 480×360."
 
-#: apps/demos/__init__.py:134 apps/docs/templates/docs/docs.html:40 apps/docs/templates/docs/glossary.html:6 apps/landing/templates/landing/home.html:185 apps/landing/templates/landing/web.html:69
+#: apps/demos/__init__.py:134 apps/docs/templates/docs/docs.html:40
+#: apps/docs/templates/docs/glossary.html:6
+#: apps/landing/templates/landing/home.html:185
+#: apps/landing/templates/landing/web.html:69
 msgid "JavaScript"
 msgstr "JavaScript"
 
 #: apps/demos/__init__.py:135
-msgid "JavaScript is a lightweight, object-oriented programming language, commonly used for scripting interactive behavior on web pages and in web applications."
-msgstr "Is teanga ríomhchláraithe éadrom é JavaScript atá bunaithe ar réada, agus a úsáidtear go forleathan chun oibriú idirghníomhach a chur ar fáil ar leathanaigh agus feidhmchláir Ghréasáin."
+msgid ""
+"JavaScript is a lightweight, object-oriented programming language, commonly "
+"used for scripting interactive behavior on web pages and in web applications."
+msgstr ""
+"Is teanga ríomhchláraithe éadrom é JavaScript atá bunaithe ar réada, agus a "
+"úsáidtear go forleathan chun oibriú idirghníomhach a chur ar fáil ar "
+"leathanaigh agus feidhmchláir Ghréasáin."
 
 #: apps/landing/templates/landing/addons.html:24
 msgid "Join the Add-ons discussions!"
@@ -1133,7 +1433,9 @@ msgstr "Glac páirt sna comhráite faoin Ghréasán!"
 
 #: apps/landing/templates/landing/home.html:122
 msgid "Key Topics for <a href=\"%(web_url)s\" class=\"web\">Web</a> Developers"
-msgstr "Topaicí Tábhachtacha le haghaidh Forbróirí <a href=\"%(web_url)s\" class=\"web\">Gréasáin</a>"
+msgstr ""
+"Topaicí Tábhachtacha le haghaidh Forbróirí <a href=\"%(web_url)s\" class=\"web"
+"\">Gréasáin</a>"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/docs/templates/docs/docs.html:59
@@ -1154,13 +1456,19 @@ msgstr "Athraithe is déanaí ag:"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/addons.html:150
-msgid "Latest <span class=\"addons\">Add-ons</span> Comments from Our Community:"
-msgstr "Na nótaí tráchta is déanaí maidir le <span class=\"addons\">Breiseáin</span> ón Chomhphobal:"
+msgid ""
+"Latest <span class=\"addons\">Add-ons</span> Comments from Our Community:"
+msgstr ""
+"Na nótaí tráchta is déanaí maidir le <span class=\"addons\">Breiseáin</span> "
+"ón Chomhphobal:"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/addons.html:142
-msgid "Latest <span class=\"addons\">Add-ons</span> Discussions from Our Forums:"
-msgstr "Na comhráite is déanaí maidir le <span class=\"addons\">Breiseáin</span> inár bhfóraim:"
+msgid ""
+"Latest <span class=\"addons\">Add-ons</span> Discussions from Our Forums:"
+msgstr ""
+"Na comhráite is déanaí maidir le <span class=\"addons\">Breiseáin</span> inár "
+"bhfóraim:"
 
 #: apps/demos/templates/demos/detail.html:78
 msgid "Launch Demo"
@@ -1176,43 +1484,66 @@ msgstr "Tuilleadh Eolais"
 
 #: apps/landing/templates/landing/mobile.html:69
 msgid ""
-"Learn how to use the <a href=\"%(geo_url)s\">Geolocation API</a> and put people on the right path. Location-Aware Browsing is a must when you're out and about on your mobile. Learn how to build "
-"innovative apps that delight your audience."
+"Learn how to use the <a href=\"%(geo_url)s\">Geolocation API</a> and put "
+"people on the right path. Location-Aware Browsing is a must when you're out "
+"and about on your mobile. Learn how to build innovative apps that delight "
+"your audience."
 msgstr ""
-"Foghlaim conas is féidir an <a href=\"%(geo_url)s\">API Suite Domhanda</a> a úsáid chun daoine a chur ar an mbealach ceart. Is riachtanas é brabhsáil atá eolach ar do shuíomh nuair a bhíonn tú "
-"amach ar d'fhón póca.  Faigh tuilleadh eolais maidir le forbairt feidhmchlár nuálach a chuirfidh gliondar ar do lucht leanúna."
+"Foghlaim conas is féidir an <a href=\"%(geo_url)s\">API Suite Domhanda</a> a "
+"úsáid chun daoine a chur ar an mbealach ceart. Is riachtanas é brabhsáil atá "
+"eolach ar do shuíomh nuair a bhíonn tú amach ar d'fhón póca.  Faigh tuilleadh "
+"eolais maidir le forbairt feidhmchlár nuálach a chuirfidh gliondar ar do "
+"lucht leanúna."
 
 #: apps/landing/templates/landing/home.html:132
-msgid "Learn more about <a href=\"%(devmo_mobile)s\">Fennec</a> and mobile-specific technologies like <a href=\"%(devmo_geo)s\">geolocation</a>.</p>"
-msgstr "Tuilleadh eolais faoi <a href=\"%(devmo_mobile)s\">Fennec</a> agus teicneolaíochtaí sainiúil do ghléasanna soghluaiste, mar shampla <a href=\"%(devmo_geo)s\">suíomh domhanda</a>.</p>"
+msgid ""
+"Learn more about <a href=\"%(devmo_mobile)s\">Fennec</a> and mobile-specific "
+"technologies like <a href=\"%(devmo_geo)s\">geolocation</a>.</p>"
+msgstr ""
+"Tuilleadh eolais faoi <a href=\"%(devmo_mobile)s\">Fennec</a> agus "
+"teicneolaíochtaí sainiúil do ghléasanna soghluaiste, mar shampla <a href=\"%"
+"(devmo_geo)s\">suíomh domhanda</a>.</p>"
 
 #: apps/landing/templates/landing/web.html:52
-msgid "Learn more about developer features and the latest technologies through articles and demos on the Hacks Blog."
+msgid ""
+"Learn more about developer features and the latest technologies through "
+"articles and demos on the Hacks Blog."
 msgstr ""
+"Faigh tuilleadh eolais faoi ghnéithe forbartha agus faoi na teicneolaíochtaí "
+"is déanaí ó altanna agus taispeántais ar an Hacks Blog."
 
 #: apps/landing/templates/landing/mozilla.html:54
-msgid "Learn more about the technologies at the core of Mozilla products and services."
-msgstr "Tuilleadh eolais faoi na teicneolaíochtaí ag croí táirgí agus seirbhísí Mhozilla."
+msgid ""
+"Learn more about the technologies at the core of Mozilla products and "
+"services."
+msgstr ""
+"Tuilleadh eolais faoi na teicneolaíochtaí ag croí táirgí agus seirbhísí "
+"Mhozilla."
 
 #: apps/landing/templates/landing/home.html:16
 msgid "Learn the history behind Project <em>Devmo</em>"
 msgstr "Foghlaim stair an tionscadail <em>Devmo</em>"
 
-#: apps/demos/templates/demos/detail.html:90 apps/demos/templates/demos/launch.html:39
+#: apps/demos/templates/demos/detail.html:90
+#: apps/demos/templates/demos/launch.html:39
 msgid "Like It"
 msgstr "Is maith liom é"
 
-#: apps/docs/templates/docs/docs.html:101 apps/landing/templates/landing/mozilla.html:81
+#: apps/docs/templates/docs/docs.html:101
+#: apps/landing/templates/landing/mozilla.html:81
 msgid "Localization"
 msgstr "Logánú"
 
 #: apps/landing/templates/landing/mozilla.html:83
 msgid ""
-"Localization (L10n) is the process of translating software user interfaces from one language to another and adapting it to suit a foreign culture. These resources are about making Mozilla-based "
-"applications/extensions localizable."
+"Localization (L10n) is the process of translating software user interfaces "
+"from one language to another and adapting it to suit a foreign culture. These "
+"resources are about making Mozilla-based applications/extensions localizable."
 msgstr ""
-"Is éard atá i logánú (l10n) ná aistriúchán ar chomhéadan bogearraí ó theanga amháin go teanga eile, agus an bogearra a chur in oiriúint do chultúr eile.  Sna hacmhainní seo tá eolas maidir le conas "
-"is féidir feidhmchláir/eisínteachtaí inlogánaithe bunaithe ar Mozilla a chruthú."
+"Is éard atá i logánú (l10n) ná aistriúchán ar chomhéadan bogearraí ó theanga "
+"amháin go teanga eile, agus an bogearra a chur in oiriúint do chultúr eile.  "
+"Sna hacmhainní seo tá eolas maidir le conas is féidir feidhmchláir/"
+"eisínteachtaí inlogánaithe bunaithe ar Mozilla a chruthú."
 
 #: apps/landing/templates/landing/mobile.html:67
 msgid "Location-Aware Applications"
@@ -1230,15 +1561,30 @@ msgstr "Logáil isteach"
 msgid "Log out"
 msgstr "Logáil amach"
 
-#: apps/demos/templates/demos/delete.html:20 apps/demos/templates/demos/delete_comment.html:20 apps/demos/templates/demos/detail.html:13 apps/demos/templates/demos/flag.html:20
-#: apps/demos/templates/demos/listing_all.html:17 apps/demos/templates/demos/listing_search.html:23 apps/demos/templates/demos/listing_tag.html:18 apps/demos/templates/demos/profile_detail.html:22
-#: apps/demos/templates/demos/submit.html:42 apps/demos/templates/demos/submit_noauth.html:18
+#: apps/demos/templates/demos/delete.html:20
+#: apps/demos/templates/demos/delete_comment.html:20
+#: apps/demos/templates/demos/detail.html:13
+#: apps/demos/templates/demos/flag.html:20
+#: apps/demos/templates/demos/listing_all.html:17
+#: apps/demos/templates/demos/listing_search.html:23
+#: apps/demos/templates/demos/listing_tag.html:18
+#: apps/demos/templates/demos/profile_detail.html:22
+#: apps/demos/templates/demos/submit.html:42
+#: apps/demos/templates/demos/submit_noauth.html:18
 msgid "MDN"
 msgstr "MDN"
 
-#: apps/demos/__init__.py:59 apps/demos/__init__.py:69 apps/demos/__init__.py:79 apps/demos/__init__.py:89 apps/demos/__init__.py:98 apps/demos/__init__.py:107 apps/demos/__init__.py:117
-#: apps/demos/__init__.py:127 apps/demos/__init__.py:137 apps/demos/__init__.py:147 apps/demos/__init__.py:157 apps/demos/__init__.py:167 apps/demos/__init__.py:177 apps/demos/__init__.py:187
-#: apps/demos/__init__.py:197 apps/demos/__init__.py:207 apps/demos/__init__.py:217 apps/demos/__init__.py:227 apps/demos/__init__.py:237 apps/demos/__init__.py:247 apps/demos/__init__.py:257
+#: apps/demos/__init__.py:59 apps/demos/__init__.py:69
+#: apps/demos/__init__.py:79 apps/demos/__init__.py:89
+#: apps/demos/__init__.py:98 apps/demos/__init__.py:107
+#: apps/demos/__init__.py:117 apps/demos/__init__.py:127
+#: apps/demos/__init__.py:137 apps/demos/__init__.py:147
+#: apps/demos/__init__.py:157 apps/demos/__init__.py:167
+#: apps/demos/__init__.py:177 apps/demos/__init__.py:187
+#: apps/demos/__init__.py:197 apps/demos/__init__.py:207
+#: apps/demos/__init__.py:217 apps/demos/__init__.py:227
+#: apps/demos/__init__.py:237 apps/demos/__init__.py:247
+#: apps/demos/__init__.py:257
 msgid "MDN Documentation"
 msgstr "Doiciméadú MDN"
 
@@ -1287,11 +1633,19 @@ msgid "Media Queries"
 msgstr "Iarratais Mheán"
 
 #: apps/demos/__init__.py:87
-msgid "Media queries and orientation events let authors adjust their layout on hand-held devices such as mobile phones."
-msgstr "Le hiarratais meán agus teagmhais treoshuímh is féidir le húdair leagan amach a athrú ar ghléasanna boise, mar shampla ar fhóin phóca."
+msgid ""
+"Media queries and orientation events let authors adjust their layout on hand-"
+"held devices such as mobile phones."
+msgstr ""
+"Le hiarratais meán agus teagmhais treoshuímh is féidir le húdair leagan amach "
+"a athrú ar ghléasanna boise, mar shampla ar fhóin phóca."
 
-#: apps/demos/__init__.py:174 apps/devmo/__init__.py:18 apps/docs/templates/docs/docs.html:69 apps/docs/templates/docs/docs.html:78 apps/landing/templates/landing/home.html:130
-#: apps/landing/templates/landing/mobile.html:11 apps/landing/templates/landing/mobile.html:17 templates/base.html:71 templates/base_compact.html:23
+#: apps/demos/__init__.py:174 apps/devmo/__init__.py:18
+#: apps/docs/templates/docs/docs.html:69 apps/docs/templates/docs/docs.html:78
+#: apps/landing/templates/landing/home.html:130
+#: apps/landing/templates/landing/mobile.html:11
+#: apps/landing/templates/landing/mobile.html:17 templates/base.html:71
+#: templates/base_compact.html:23
 msgid "Mobile"
 msgstr "Soghluaiste"
 
@@ -1303,7 +1657,10 @@ msgstr "Vicí Soghluaiste"
 msgid "Modified by %(author)s on %(updated)s"
 msgstr "Athraithe ag %(author)s ar %(updated)s"
 
-#: apps/landing/templates/landing/home.html:64 apps/landing/templates/landing/home.html:78 apps/landing/templates/landing/home.html:93 apps/landing/templates/landing/home.html:108
+#: apps/landing/templates/landing/home.html:64
+#: apps/landing/templates/landing/home.html:78
+#: apps/landing/templates/landing/home.html:93
+#: apps/landing/templates/landing/home.html:108
 msgid "More"
 msgstr "Tuilleadh"
 
@@ -1327,8 +1684,12 @@ msgstr "Is Déanaí"
 msgid "Most Viewed"
 msgstr "Feicthe Is Minice"
 
-#: apps/devmo/__init__.py:12 apps/docs/templates/docs/docs.html:71 apps/docs/templates/docs/docs.html:97 apps/landing/templates/landing/home.html:147 apps/landing/templates/landing/mozilla.html:11
-#: apps/landing/templates/landing/mozilla.html:17 templates/base.html:73 templates/base_compact.html:25
+#: apps/devmo/__init__.py:12 apps/docs/templates/docs/docs.html:71
+#: apps/docs/templates/docs/docs.html:97
+#: apps/landing/templates/landing/home.html:147
+#: apps/landing/templates/landing/mozilla.html:11
+#: apps/landing/templates/landing/mozilla.html:17 templates/base.html:73
+#: templates/base_compact.html:25
 msgid "Mozilla"
 msgstr "Mozilla"
 
@@ -1340,35 +1701,57 @@ msgstr "Stiúideo Taispeántas Mozilla"
 msgid "Mozilla Developer Guide"
 msgstr "Lámhleabhar Forbartha Mozilla"
 
-#: apps/demos/templates/demos/launch.html:21 templates/base.html:4 templates/base_popup.html:4
+#: apps/demos/templates/demos/launch.html:21 templates/base.html:4
+#: templates/base_popup.html:4
 msgid "Mozilla Developer Network"
 msgstr "Líonra Forbróirí Mozilla"
 
 #: apps/landing/templates/landing/home.html:56
 msgid ""
-"Mozilla and <a href=\"%(p2pu)s\">P2PU</a> are creating the <a href=\"%(p2pu_drumbeat)s\">School of Webcraft</a>, a powerful new way to teach and learn web developer skills. Classes are globally "
-"accessible, 100%% free, and powered entirely by learners, mentors and contributors like you people. Our goal: a vibrant, peer-led system that helps people around the world easily access and build "
-"careers on open web technology."
+"Mozilla and <a href=\"%(p2pu)s\">P2PU</a> are creating the <a href=\"%"
+"(p2pu_drumbeat)s\">School of Webcraft</a>, a powerful new way to teach and "
+"learn web developer skills. Classes are globally accessible, 100%% free, and "
+"powered entirely by learners, mentors and contributors like you people. Our "
+"goal: a vibrant, peer-led system that helps people around the world easily "
+"access and build careers on open web technology."
 msgstr ""
-"Tá Mozilla agus <a href=\"%(p2pu)s\">P2PU</a> ag cruthú <a href=\"%(p2pu_drumbeat)s\">Scoil Ealaíon an Ghréasáin</a>, bealach nua le scileanna forbartha Gréasáin a fhoghlaim.  Tá na ranganna 100%% "
-"saor in aisce, ar fáil ar fud an domhain, agus is é na foghlaimeoirí, na comhairleoirí agus na rannpháirtithe atá i gceannas. An sprioc atá againn: córas beo, faoi chinnireacht comhghleacaithe, a "
-"chabhraíonn le daoine timpeall an domhain slí bheatha a thógáil bunaithe ar theicneolaíocht oscailte Ghréasáin."
+"Tá Mozilla agus <a href=\"%(p2pu)s\">P2PU</a> ag cruthú <a href=\"%"
+"(p2pu_drumbeat)s\">Scoil Ealaíon an Ghréasáin</a>, bealach nua le scileanna "
+"forbartha Gréasáin a fhoghlaim.  Tá na ranganna 100%% saor in aisce, ar fáil "
+"ar fud an domhain, agus is é na foghlaimeoirí, na comhairleoirí agus na "
+"rannpháirtithe atá i gceannas. An sprioc atá againn: córas beo, faoi "
+"chinnireacht comhghleacaithe, a chabhraíonn le daoine timpeall an domhain slí "
+"bheatha a thógáil bunaithe ar theicneolaíocht oscailte Ghréasáin."
 
 #: apps/landing/templates/landing/home.html:72
 msgid ""
-"Mozilla continues to lead the charge in the adoption of HTML5 and other evolving open Web technologies. Find out more about the <a href=\"%(devmo_html5)s\">HTML5 spec</a> and the latest "
-"enhancements in HTML5, CSS3 and other <a href=\"%(devmo_fx4dev)s\">developer features for Firefox 4</a>."
+"Mozilla continues to lead the charge in the adoption of HTML5 and other "
+"evolving open Web technologies. Find out more about the <a href=\"%"
+"(devmo_html5)s\">HTML5 spec</a> and the latest enhancements in HTML5, CSS3 "
+"and other <a href=\"%(devmo_fx4dev)s\">developer features for Firefox 4</a>."
 msgstr ""
-"Tá Mozilla chun tosaigh sa chur i bhfeidhm de HTML5 agus teicneolaíochtaí oscailte Gréasáin eile atá i mbéal forbartha fós.  Faigh tuilleadh eolais faoin <a href=\"%(devmo_html5)s\">tsonraíocht "
-"HTML5</a> agus na feabhsúcháin is déanaí in HTML5, CSS3 agus <a href=\"%(devmo_fx4dev)s\">gnéithe eile d'fhorbróirí i bhFirefox 4</a>."
+"Tá Mozilla chun tosaigh sa chur i bhfeidhm de HTML5 agus teicneolaíochtaí "
+"oscailte Gréasáin eile atá i mbéal forbartha fós.  Faigh tuilleadh eolais "
+"faoin <a href=\"%(devmo_html5)s\">tsonraíocht HTML5</a> agus na feabhsúcháin "
+"is déanaí in HTML5, CSS3 agus <a href=\"%(devmo_fx4dev)s\">gnéithe eile "
+"d'fhorbróirí i bhFirefox 4</a>."
 
 #: apps/landing/templates/landing/mozilla.html:73
-msgid "Mozilla developers have come up with not just technologies and features to help you debug code, but have devised tips and techniques that can help too."
-msgstr "Cruthaíonn forbróirí Mozilla teicneolaíochtaí agus gnéithe a chabhraíonn leat do chód a dhífhabhtú, agus ceapann siad leideanna agus teicnící cabhracha freisin."
+msgid ""
+"Mozilla developers have come up with not just technologies and features to "
+"help you debug code, but have devised tips and techniques that can help too."
+msgstr ""
+"Cruthaíonn forbróirí Mozilla teicneolaíochtaí agus gnéithe a chabhraíonn leat "
+"do chód a dhífhabhtú, agus ceapann siad leideanna agus teicnící cabhracha "
+"freisin."
 
 #: apps/demos/__init__.py:57
-msgid "Mozilla's Audio Data API extends the current HTML5 API and allows web developers to read and write raw audio data."
-msgstr "Leathnaíonn API Sonraí Fuaime Mhozilla an API reatha HTML5 agus ligeann sé d'fhorbróirí Gréasáin amhshonraí fuaime a léamh agus a scríobh."
+msgid ""
+"Mozilla's Audio Data API extends the current HTML5 API and allows web "
+"developers to read and write raw audio data."
+msgstr ""
+"Leathnaíonn API Sonraí Fuaime Mhozilla an API reatha HTML5 agus ligeann sé "
+"d'fhorbróirí Gréasáin amhshonraí fuaime a léamh agus a scríobh."
 
 #: apps/demos/__init__.py:254
 msgid "Multi-touch"
@@ -1382,7 +1765,10 @@ msgstr "Do Chéad Chuairt ar MDN?"
 msgid "News & Updates"
 msgstr "Nuacht agus Nuashonruithe"
 
-#: apps/demos/templates/demos/detail.html:27 apps/demos/templates/demos/detail.html:133 apps/demos/templates/demos/home.html:44 apps/demos/templates/demos/launch.html:62
+#: apps/demos/templates/demos/detail.html:27
+#: apps/demos/templates/demos/detail.html:133
+#: apps/demos/templates/demos/home.html:44
+#: apps/demos/templates/demos/launch.html:62
 #: apps/demos/templates/demos/elements/submission_listing.html:59
 msgid "Next"
 msgstr "Ar Aghaidh"
@@ -1400,8 +1786,12 @@ msgid "Offline Support"
 msgstr "Tacaíocht As Líne"
 
 #: apps/demos/__init__.py:185
-msgid "Offline caching of web applications' resources using the application cache and local storage."
-msgstr "Taisceadh as líne d'acmhainní feidhmchláir Ghréasáin tríd an taisce fheidhmchláir agus stóras logánta."
+msgid ""
+"Offline caching of web applications' resources using the application cache "
+"and local storage."
+msgstr ""
+"Taisceadh as líne d'acmhainní feidhmchláir Ghréasáin tríd an taisce "
+"fheidhmchláir agus stóras logánta."
 
 #: templates/includes/lang_switcher.html:2
 msgid "Other languages:"
@@ -1417,7 +1807,9 @@ msgstr "Páirt a ghlacadh i dTionscadal Mozilla"
 
 #: apps/demos/models.py:201
 msgid "Please keep filesize under %s. Current filesize %s"
-msgstr "Ba chóir don chomhad a bheith níos lú ná %s.  Méid an chomhaid faoi láthair: %s"
+msgstr ""
+"Ba chóir don chomhad a bheith níos lú ná %s.  Méid an chomhaid faoi láthair: %"
+"s"
 
 #: apps/docs/templates/docs/docs.html:90
 msgid "Plugins"
@@ -1431,7 +1823,8 @@ msgstr "Doiciméadú <span class=\"addons\">Breiseán</span> Is Mó Éileamh Air
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mobile.html:38
 msgid "Popular <span class=\"mobile\">Mobile</span> Documentation"
-msgstr "Doiciméadú <span class=\"mobile\">Firefox Soghluaiste</span> Is Mó Éileamh Air"
+msgstr ""
+"Doiciméadú <span class=\"mobile\">Firefox Soghluaiste</span> Is Mó Éileamh Air"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:38
@@ -1450,29 +1843,39 @@ msgstr "Doiciméadú Is Mó Éileamh Air"
 #. Please escape HTML entities here, like &amp;
 #: apps/docs/templates/docs/docs.html:28
 msgid "Popular Topics for <span class=\"web\">Web</span> Developers"
-msgstr "Topaicí le haghaidh Forbróirí <span class=\"web\">Gréasáin</span> is mó éileamh orthu"
+msgstr ""
+"Topaicí le haghaidh Forbróirí <span class=\"web\">Gréasáin</span> is mó "
+"éileamh orthu"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:19
 msgid ""
-"Posted <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime=\"%(comment_isotime)s"
-"\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
+"Posted <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent "
+"link to this comment by %(display_name)s\"><time class=\"published\" pubdate="
+"\"pubdate\" datetime=\"%(comment_isotime)s\" title=\"%(comment_isotime)s\">%"
+"(comment_timesince)s</time></a>"
 msgstr ""
-"Postáilte <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Nasc buan leis an nóta seo le %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime=\"%(comment_isotime)s"
-"\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
+"Postáilte <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Nasc "
+"buan leis an nóta seo le %(display_name)s\"><time class=\"published\" pubdate="
+"\"pubdate\" datetime=\"%(comment_isotime)s\" title=\"%(comment_isotime)s\">%"
+"(comment_timesince)s</time></a>"
 
 #: apps/landing/templates/landing/mobile.html:123
 msgid "Pre-Alpha Fennec and HTML5 Demos"
 msgstr "Taispeántais HTML5 ar Fennec réamh-alfa"
 
-#: apps/demos/templates/demos/submit.html:124 apps/demos/templates/demos/submit_noauth.html:52
+#: apps/demos/templates/demos/submit.html:124
+#: apps/demos/templates/demos/submit_noauth.html:52
 msgid "Preparing Your Demo"
 msgstr "Do Thaispeántas a Ullmhú"
 
-#: apps/demos/templates/demos/detail.html:23 apps/demos/templates/demos/launch.html:58
+#: apps/demos/templates/demos/detail.html:23
+#: apps/demos/templates/demos/launch.html:58
 msgid "Prev"
 msgstr "Roimhe Seo"
 
-#: apps/demos/templates/demos/detail.html:132 apps/demos/templates/demos/home.html:43 apps/demos/templates/demos/elements/submission_listing.html:56
+#: apps/demos/templates/demos/detail.html:132
+#: apps/demos/templates/demos/home.html:43
+#: apps/demos/templates/demos/elements/submission_listing.html:56
 msgid "Previous"
 msgstr "Roimhe Seo"
 
@@ -1495,28 +1898,34 @@ msgstr "Dearbhú Cáilíochta"
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/addons.html:118
 msgid "Recent <span class=\"addons\">Add-ons</span> News &amp; Updates"
-msgstr "Nuacht agus Scéalta is déanaí faoi <span class=\"addons\">Bhreiseáin</span>"
+msgstr ""
+"Nuacht agus Scéalta is déanaí faoi <span class=\"addons\">Bhreiseáin</span>"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mobile.html:181
 msgid "Recent <span class=\"mobile\">Mobile</span> News &amp; Updates"
-msgstr "Nuacht agus Scéalta is déanaí faoi <span class=\"mobile\">Firefox Soghluaiste</span>"
+msgstr ""
+"Nuacht agus Scéalta is déanaí faoi <span class=\"mobile\">Firefox "
+"Soghluaiste</span>"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:116
 msgid "Recent <span class=\"mozilla\">Mozilla</span> News &amp; Updates"
-msgstr "Nuacht agus Scéalta is déanaí faoi <span class=\"mozilla\">Mhozilla</span>"
+msgstr ""
+"Nuacht agus Scéalta is déanaí faoi <span class=\"mozilla\">Mhozilla</span>"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:114
 msgid "Recent <span class=\"web\">Web</span> News &amp; Updates"
 msgstr "Nuacht agus Scéalta is déanaí faoin <span class=\"web\">Ghréasán</span>"
 
-#: apps/demos/templates/demos/home.html:8 apps/demos/templates/demos/listing_all.html:7
+#: apps/demos/templates/demos/home.html:8
+#: apps/demos/templates/demos/listing_all.html:7
 msgid "Recent demos"
 msgstr "Taispeántais is déanaí"
 
-#: apps/demos/templates/demos/delete.html:48 apps/demos/templates/demos/detail.html:58
+#: apps/demos/templates/demos/delete.html:48
+#: apps/demos/templates/demos/detail.html:58
 msgid "Remove demo"
 msgstr "Bain an taispeántas"
 
@@ -1561,10 +1970,15 @@ msgid "Save changes"
 msgstr "Sábháil na hathruithe"
 
 #: apps/demos/__init__.py:195
-msgid "Scalable Vector Graphics (SVG) is an XML based language for describing two-dimensional vector graphics."
-msgstr "Is éard atá i SVG (Grafaic Inscálaithe Veicteoireach) ná teanga bunaithe ar XML lenar féidir cur síos a dhéanamh ar ghrafaic veicteoireach dhéthoiseach."
+msgid ""
+"Scalable Vector Graphics (SVG) is an XML based language for describing two-"
+"dimensional vector graphics."
+msgstr ""
+"Is éard atá i SVG (Grafaic Inscálaithe Veicteoireach) ná teanga bunaithe ar "
+"XML lenar féidir cur síos a dhéanamh ar ghrafaic veicteoireach dhéthoiseach."
 
-#: apps/landing/templates/landing/home.html:45 apps/landing/templates/landing/home.html:54
+#: apps/landing/templates/landing/home.html:45
+#: apps/landing/templates/landing/home.html:54
 msgid "School of Webcraft"
 msgstr "Scoil Ealaíon an Ghréasáin"
 
@@ -1588,7 +2002,8 @@ msgstr "Grianghraf #4"
 msgid "Screenshot #5"
 msgstr "Grianghraf #5"
 
-#: apps/demos/templates/demos/elements/search_form.html:6 apps/docs/templates/docs/docs.html:18 templates/base.html:60
+#: apps/demos/templates/demos/elements/search_form.html:6
+#: apps/docs/templates/docs/docs.html:18 templates/base.html:60
 msgid "Search"
 msgstr "Cuardaigh"
 
@@ -1604,7 +2019,8 @@ msgstr "Cuardaigh Doiciméadú MDN"
 msgid "Search Results"
 msgstr "Torthaí an Chuardaigh"
 
-#: apps/demos/templates/demos/listing_search.html:25 apps/demos/templates/demos/listing_search.html:37
+#: apps/demos/templates/demos/listing_search.html:25
+#: apps/demos/templates/demos/listing_search.html:37
 msgid "Search demos for \"{q}\""
 msgstr "Cuardaigh taispeántais ar \"{q}\""
 
@@ -1633,18 +2049,31 @@ msgid "Security"
 msgstr "Slándáil"
 
 #: apps/landing/templates/landing/mobile.html:108
-msgid "See Ragavan demo Firefox Sync on his Android phone. Learn about purpose and goals behind the development of Firefox Sync."
-msgstr "Féach ar Ragavan ag taispeáint Firefox Sync ar a fhón póca Android. Foghlaim faoi na haidhmeanna agus na spriocanna atá taobh thiar Firefox Sync."
+msgid ""
+"See Ragavan demo Firefox Sync on his Android phone. Learn about purpose and "
+"goals behind the development of Firefox Sync."
+msgstr ""
+"Féach ar Ragavan ag taispeáint Firefox Sync ar a fhón póca Android. Foghlaim "
+"faoi na haidhmeanna agus na spriocanna atá taobh thiar Firefox Sync."
 
 #: apps/landing/templates/landing/mobile.html:124
-msgid "See Stuart demo HTML5 capabilities on pre-alpha Fennec. Learn about the purpose and goals behind the development of Firefox 4 for mobile."
-msgstr "Féach ar Stuart ag taispeáint cumas HTML5 ar leagan réamh-alfa de Firefox Soghluaiste. Foghlaim faoi na haidhmeanna agus na spriocanna atá taobh thiar Firefox 4 Soghluaiste."
+msgid ""
+"See Stuart demo HTML5 capabilities on pre-alpha Fennec. Learn about the "
+"purpose and goals behind the development of Firefox 4 for mobile."
+msgstr ""
+"Féach ar Stuart ag taispeáint cumas HTML5 ar leagan réamh-alfa de Firefox "
+"Soghluaiste. Foghlaim faoi na haidhmeanna agus na spriocanna atá taobh thiar "
+"Firefox 4 Soghluaiste."
 
 #: apps/landing/templates/landing/home.html:149
-msgid "See how you can <a href=\"%(devmo_participate)s\">participate</a> in <a href=\"%(devmo_l10n)s\">localization</a>, <a href=\"%(devmo_qa)s\">quality assurance</a>, and other Mozilla projects."
+msgid ""
+"See how you can <a href=\"%(devmo_participate)s\">participate</a> in <a href="
+"\"%(devmo_l10n)s\">localization</a>, <a href=\"%(devmo_qa)s\">quality "
+"assurance</a>, and other Mozilla projects."
 msgstr ""
-"Conas is féidir <a href=\"%(devmo_participate)s\">páirt a ghlacadh</a> i <a href=\"%(devmo_l10n)s\">logánú</a>, <a href=\"%(devmo_qa)s\">dearbhú cáilíochta</a>, agus tionscadail eile de chuid "
-"Mozilla."
+"Conas is féidir <a href=\"%(devmo_participate)s\">páirt a ghlacadh</a> i <a "
+"href=\"%(devmo_l10n)s\">logánú</a>, <a href=\"%(devmo_qa)s\">dearbhú "
+"cáilíochta</a>, agus tionscadail eile de chuid Mozilla."
 
 #: apps/demos/templates/demos/elements/submission_thumb.html:5
 msgid "See more about {title} by {author}"
@@ -1674,7 +2103,8 @@ msgstr "Na trí thaispeántas roimhe seo"
 msgid "See what's new for web developers in the latest version of Firefox"
 msgstr "Gach rud nua d'fhorbróirí Gréasáin sa leagan is déanaí de Firefox"
 
-#: apps/demos/templates/demos/elements/profile_link.html:2 apps/demos/templates/demos/elements/submission_creator.html:2
+#: apps/demos/templates/demos/elements/profile_link.html:2
+#: apps/demos/templates/demos/elements/submission_creator.html:2
 msgid "See {display_name}'s profile"
 msgstr "Taispeáin próifíl {display_name}"
 
@@ -1686,19 +2116,23 @@ msgstr "Roghnaigh ceadúnas do chóid fhoinsigh."
 msgid "Select up to five technologies used in your demo."
 msgstr "Roghnaigh suas le cúig theicneolaíocht a d'úsáid tú i do thaispeántas."
 
-#: apps/demos/templates/demos/detail.html:99 apps/demos/templates/demos/launch.html:43
+#: apps/demos/templates/demos/detail.html:99
+#: apps/demos/templates/demos/launch.html:43
 msgid "Share It"
 msgstr "Comhroinn É"
 
-#: apps/demos/templates/demos/detail.html:101 apps/demos/templates/demos/launch.html:48
+#: apps/demos/templates/demos/detail.html:101
+#: apps/demos/templates/demos/launch.html:48
 msgid "Share on Facebook"
 msgstr "Comhroinn ar Facebook"
 
-#: apps/demos/templates/demos/detail.html:100 apps/demos/templates/demos/launch.html:47
+#: apps/demos/templates/demos/detail.html:100
+#: apps/demos/templates/demos/launch.html:47
 msgid "Share on Twitter"
 msgstr "Comhroinn ar Twitter"
 
-#: apps/demos/templates/demos/detail.html:95 apps/demos/templates/demos/launch.html:43
+#: apps/demos/templates/demos/detail.html:95
+#: apps/demos/templates/demos/launch.html:43
 msgid "Share this demo with your social network"
 msgstr "Comhroinn an taispeántas seo le do líonra sóisialta"
 
@@ -1731,16 +2165,30 @@ msgid "Source code ZIP file"
 msgstr "Comhad ZIP le cód foinseach"
 
 #: apps/landing/templates/landing/addons.html:65
-msgid "Start-to-finish success stories. See how add-on developers made magic with Mozilla."
-msgstr "Scéalta spreagtha ó thús go deireadh. Foghlaim conas a bhí forbróirí in ann draíocht a dhéanamh le Mozilla."
+msgid ""
+"Start-to-finish success stories. See how add-on developers made magic with "
+"Mozilla."
+msgstr ""
+"Scéalta spreagtha ó thús go deireadh. Foghlaim conas a bhí forbróirí in ann "
+"draíocht a dhéanamh le Mozilla."
 
-#: apps/demos/templates/demos/delete.html:26 apps/demos/templates/demos/delete_comment.html:26 apps/demos/templates/demos/flag.html:26 apps/demos/templates/demos/home.html:33
-#: apps/demos/templates/demos/listing_all.html:22 apps/demos/templates/demos/listing_search.html:28 apps/demos/templates/demos/listing_tag.html:23 apps/demos/templates/demos/profile_detail.html:27
+#: apps/demos/templates/demos/delete.html:26
+#: apps/demos/templates/demos/delete_comment.html:26
+#: apps/demos/templates/demos/flag.html:26
+#: apps/demos/templates/demos/home.html:33
+#: apps/demos/templates/demos/listing_all.html:22
+#: apps/demos/templates/demos/listing_search.html:28
+#: apps/demos/templates/demos/listing_tag.html:23
+#: apps/demos/templates/demos/profile_detail.html:27
 msgid "Submit a Demo"
 msgstr "Cuir Taispeántas Faoinár mBráid"
 
-#: apps/demos/templates/demos/submit.html:10 apps/demos/templates/demos/submit.html:47 apps/demos/templates/demos/submit.html:62 apps/demos/templates/demos/submit_noauth.html:10
-#: apps/demos/templates/demos/submit_noauth.html:20 apps/demos/templates/demos/submit_noauth.html:30
+#: apps/demos/templates/demos/submit.html:10
+#: apps/demos/templates/demos/submit.html:47
+#: apps/demos/templates/demos/submit.html:62
+#: apps/demos/templates/demos/submit_noauth.html:10
+#: apps/demos/templates/demos/submit_noauth.html:20
+#: apps/demos/templates/demos/submit_noauth.html:30
 msgid "Submit a New Demo"
 msgstr "Seol Taispeántas Nua Chugainn"
 
@@ -1752,7 +2200,10 @@ msgstr "Seol an taispeántas"
 msgid "Submitted by:"
 msgstr "Cruthaithe ag:"
 
-#: apps/landing/templates/landing/addons.html:23 apps/landing/templates/landing/mobile.html:23 apps/landing/templates/landing/mozilla.html:23 apps/landing/templates/landing/web.html:23
+#: apps/landing/templates/landing/addons.html:23
+#: apps/landing/templates/landing/mobile.html:23
+#: apps/landing/templates/landing/mozilla.html:23
+#: apps/landing/templates/landing/web.html:23
 msgid "Subscribe"
 msgstr "Liostáil"
 
@@ -1768,7 +2219,8 @@ msgstr "Liostáil le fotha de thorthaí an chuardaigh ar \"{q}\""
 msgid "Subscribe to a feed of {display_name}'s demos"
 msgstr "Liostáil le fotha de thaispeántais de chuid {display_name}"
 
-#: apps/demos/templates/demos/home.html:65 apps/demos/templates/demos/listing_tag.html:53
+#: apps/demos/templates/demos/home.html:65
+#: apps/demos/templates/demos/listing_tag.html:53
 msgid "Subscribe to a feed of {tag_title} demos"
 msgstr "Liostáil le fotha de thaispeántais {tag_title}"
 
@@ -1780,7 +2232,8 @@ msgstr "Níl clib \"%s\" sa tacar de chlibeanna a bhfuil cur síos orthu"
 msgid "Tagged as:"
 msgstr "Clibeáilte:"
 
-#: apps/demos/templates/demos/terms.html:10 apps/demos/templates/demos/terms.html:35
+#: apps/demos/templates/demos/terms.html:10
+#: apps/demos/templates/demos/terms.html:35
 msgid "Terms for Contributors"
 msgstr "Téarmaí do Rannpháirtithe"
 
@@ -1790,45 +2243,79 @@ msgstr "Téarmaí Úsáide"
 
 #: apps/landing/templates/landing/home.html:86
 msgid ""
-"Test the <a href=\"%(fx4_features)s\">next version of Firefox</a> and help us make the world's best browser even better. Firefox 4 advances the modern web and we have a <a href=\"%(fx4_tech)s\">big "
-"chart full of check marks</a> to prove it."
+"Test the <a href=\"%(fx4_features)s\">next version of Firefox</a> and help us "
+"make the world's best browser even better. Firefox 4 advances the modern web "
+"and we have a <a href=\"%(fx4_tech)s\">big chart full of check marks</a> to "
+"prove it."
 msgstr ""
-"Bain triail as <a href=\"%(fx4_features)s\">an chéad leagan eile de Firefox</a> agus cabhraigh linn feabhas a chur ar an mbrabhsálaí is fearr ar domhan. Cuireann Firefox 4 an Gréasán nua-aimseartha "
-"chun tosaigh agus tá <a href=\"%(fx4_tech)s\">cairt mhór lán de thiceanna</a> againn mar chruthú."
+"Bain triail as <a href=\"%(fx4_features)s\">an chéad leagan eile de Firefox</"
+"a> agus cabhraigh linn feabhas a chur ar an mbrabhsálaí is fearr ar domhan. "
+"Cuireann Firefox 4 an Gréasán nua-aimseartha chun tosaigh agus tá <a href=\"%"
+"(fx4_tech)s\">cairt mhór lán de thiceanna</a> againn mar chruthú."
 
 #: apps/demos/__init__.py:105
-msgid "The CSS3-Font specification contains enhanced features for fonts and typography like embedding own fonts via @font-face or controlling OpenType font features directly via CSS."
+msgid ""
+"The CSS3-Font specification contains enhanced features for fonts and "
+"typography like embedding own fonts via @font-face or controlling OpenType "
+"font features directly via CSS."
 msgstr ""
-"Sa tsonraíocht CSS3-Font gheobhaidh tú sainghnéithe feabhsaithe clóchuradóireachta mar shampla cumas do chlófhoirne féin a leabú trí @font-face, nó gnéithe cló OpenType a rialú go díreach trí CSS."
+"Sa tsonraíocht CSS3-Font gheobhaidh tú sainghnéithe feabhsaithe "
+"clóchuradóireachta mar shampla cumas do chlófhoirne féin a leabú trí @font-"
+"face, nó gnéithe cló OpenType a rialú go díreach trí CSS."
 
 #: apps/landing/templates/landing/web.html:78
-msgid "The DOM is the architecture for Web documents; learn how to use the DOM and its API to look at and manipulate Web content."
-msgstr "Is éard atá i DOM ná ailtireacht na gcáipéisí ar an nGréasán; foghlaim conas is féidir DOM agus a API a úsáid chun ábhar Gréasáin a iniúchadh agus a láimhseáil."
+msgid ""
+"The DOM is the architecture for Web documents; learn how to use the DOM and "
+"its API to look at and manipulate Web content."
+msgstr ""
+"Is éard atá i DOM ná ailtireacht na gcáipéisí ar an nGréasán; foghlaim conas "
+"is féidir DOM agus a API a úsáid chun ábhar Gréasáin a iniúchadh agus a "
+"láimhseáil."
 
 #: apps/landing/templates/landing/home.html:190
 msgid "The Document Object Model describes the layout and content of web pages."
-msgstr "Déanann DOM (Document Object Model) cur síos ar leagan amach agus inneachar leathanach Gréasáin."
+msgstr ""
+"Déanann DOM (Document Object Model) cur síos ar leagan amach agus inneachar "
+"leathanach Gréasáin."
 
 #: apps/docs/templates/docs/docs.html:49
-msgid "The Document Object Model describes the structure and content of web pages."
-msgstr "Déanann DOM (Document Object Model) cur síos ar struchtúr agus inneachar leathanach Gréasáin."
+msgid ""
+"The Document Object Model describes the structure and content of web pages."
+msgstr ""
+"Déanann DOM (Document Object Model) cur síos ar struchtúr agus inneachar "
+"leathanach Gréasáin."
 
 #: apps/demos/__init__.py:96
-msgid "The File API allows web developers to use file objects in web applications, as well as selecting and accessing their data."
-msgstr "Ligeann an API Comhaid d'fhorbróirí Gréasáin réada comhaid a úsáid i bhfeidhmchláir Ghréasáin, chomh maith le sonraí a roghnú agus a rochtain."
+msgid ""
+"The File API allows web developers to use file objects in web applications, "
+"as well as selecting and accessing their data."
+msgstr ""
+"Ligeann an API Comhaid d'fhorbróirí Gréasáin réada comhaid a úsáid i "
+"bhfeidhmchláir Ghréasáin, chomh maith le sonraí a roghnú agus a rochtain."
 
 #: apps/demos/__init__.py:125
-msgid "The Geolocation API allows web applications to access the user's geographical location."
-msgstr "Leis an API Suite Dhomhanda is féidir le feidhmchláir Ghréasáin suíomh geografach a n-úsáideoirí a rochtain."
+msgid ""
+"The Geolocation API allows web applications to access the user's geographical "
+"location."
+msgstr ""
+"Leis an API Suite Dhomhanda is féidir le feidhmchláir Ghréasáin suíomh "
+"geografach a n-úsáideoirí a rochtain."
 
 #: apps/demos/__init__.py:67
-#, fuzzy
-msgid "The HTML5 canvas element allows you to display scriptable renderings of 2D shapes and bitmap images."
-msgstr "Leis an eilimint 'canvas' in HTML5 is féidir leaganacha inscriptithe de chruthanna 2T agus de mhapaí giotáin a thaispeáint."
+msgid ""
+"The HTML5 canvas element allows you to display scriptable renderings of 2D "
+"shapes and bitmap images."
+msgstr ""
+"Leis an eilimint 'canvas' in HTML5, is féidir leaganacha inscriptithe de "
+"chruthanna 2T agus de mhapaí giotáin a thaispeáint."
 
 #: apps/demos/__init__.py:205
-msgid "The HTML5 video element provides integrated support for playing video media without requiring plug-ins."
-msgstr "Leis an eilimint HTML5 'video', is féidir físeáin a sheinm go díreach i do bhrabhsálaí gan forlíontán ar bith."
+msgid ""
+"The HTML5 video element provides integrated support for playing video media "
+"without requiring plug-ins."
+msgstr ""
+"Leis an eilimint HTML5 'video', is féidir físeáin a sheinm go díreach i do "
+"bhrabhsálaí gan forlíontán ar bith."
 
 #: apps/landing/templates/landing/mozilla.html:52
 msgid "The Mozilla Platform"
@@ -1847,34 +2334,54 @@ msgid "The most popular and powerful web development tool."
 msgstr "An uirlis forbartha Gréasáin is cumhachtaí is mó éilimh uirthi."
 
 #: apps/docs/templates/docs/docs.html:37
-msgid "The next generation of HTML, HTML5 adds powerful new capabilities for web sites and web applications."
-msgstr "An chéad ghlúin eile HTML, cuireann HTML5 acmhainní cumhachtacha nua ar fáil do shuímh Ghréasáin agus feidhmchláir Ghréasáin."
+msgid ""
+"The next generation of HTML, HTML5 adds powerful new capabilities for web "
+"sites and web applications."
+msgstr ""
+"An chéad ghlúin eile HTML, cuireann HTML5 acmhainní cumhachtacha nua ar fáil "
+"do shuímh Ghréasáin agus feidhmchláir Ghréasáin."
 
 #: apps/landing/templates/landing/addons.html:57
-msgid "The official documentation on APIs and languages. What you need, when you need it, to create your masterpiece."
-msgstr "Doiciméadú oifigiúil de APIanna agus teangacha.  An rud atá uait, ag an am a theastaíonn uait é, chun do shárshaothar a chruthú."
+msgid ""
+"The official documentation on APIs and languages. What you need, when you "
+"need it, to create your masterpiece."
+msgstr ""
+"Doiciméadú oifigiúil de APIanna agus teangacha.  An rud atá uait, ag an am a "
+"theastaíonn uait é, chun do shárshaothar a chruthú."
 
 #: apps/landing/templates/landing/mobile.html:142
 msgid ""
-"The projects and planning never stops. We're cooking up some amazing new features and improvements for our next major release. Check it out and see how you can help us continue to make the world's "
-"best mobile Web browser."
+"The projects and planning never stops. We're cooking up some amazing new "
+"features and improvements for our next major release. Check it out and see "
+"how you can help us continue to make the world's best mobile Web browser."
 msgstr ""
-"Tá na tionscadail agus an phleanáil ag dul ar aghaidh gan stad gan staonadh. Táimid ag obair ar ghnéithe nua iontacha agus feabhsúcháin eile sa chéad mhórleagan eile. Bain triail as agus féach an "
-"mbeifeá in ann cabhrú linn feabhas a chur ar an mbrabhsálaí soghluaiste is fearr ar domhan."
+"Tá na tionscadail agus an phleanáil ag dul ar aghaidh gan stad gan staonadh. "
+"Táimid ag obair ar ghnéithe nua iontacha agus feabhsúcháin eile sa chéad "
+"mhórleagan eile. Bain triail as agus féach an mbeifeá in ann cabhrú linn "
+"feabhas a chur ar an mbrabhsálaí soghluaiste is fearr ar domhan."
 
-#: apps/docs/templates/docs/docs.html:41 apps/landing/templates/landing/home.html:186
+#: apps/docs/templates/docs/docs.html:41
+#: apps/landing/templates/landing/home.html:186
 msgid "The scripting language that powers modern web applications."
-msgstr "An teanga scriptithe a chumhachtaíonn feidhmchláir nua-aimseartha an Ghréasáin."
+msgstr ""
+"An teanga scriptithe a chumhachtaíonn feidhmchláir nua-aimseartha an "
+"Ghréasáin."
 
 #: apps/docs/templates/docs/docs.html:92
 msgid "Themes"
 msgstr "Téamaí"
 
 #: apps/landing/templates/landing/mozilla.html:63
-msgid "There are several ways you can use Mozilla code in your own project. Find everything you need to develop \"powered by Mozilla\" applications."
-msgstr "Tá bealaí éagsúla le cód Mozilla a úsáid i do thionscadal féin. Aimsigh gach rud atá de dhíth ort chun feidhmchláir \"cumhachtaithe ag Mozilla\" a fhorbairt."
+msgid ""
+"There are several ways you can use Mozilla code in your own project. Find "
+"everything you need to develop \"powered by Mozilla\" applications."
+msgstr ""
+"Tá bealaí éagsúla le cód Mozilla a úsáid i do thionscadal féin. Aimsigh gach "
+"rud atá de dhíth ort chun feidhmchláir \"cumhachtaithe ag Mozilla\" a "
+"fhorbairt."
 
-#: apps/demos/templates/demos/detail.html:126 apps/demos/templates/demos/elements/submission_thumb.html:17
+#: apps/demos/templates/demos/detail.html:126
+#: apps/demos/templates/demos/elements/submission_thumb.html:17
 msgid "There is {count} comment for this demo"
 msgid_plural "There are {count} comments for this demo"
 msgstr[0] "{count} nóta tráchta ar an taispeántas seo"
@@ -1884,14 +2391,17 @@ msgstr[3] "{count} nóta tráchta ar an taispeántas seo"
 msgstr[4] "{count} nóta tráchta ar an taispeántas seo"
 
 #: apps/devmo/models.py:35
-msgid "This URL has an invalid format. Valid URLs look like http://example.com/my_page."
+msgid ""
+"This URL has an invalid format. Valid URLs look like http://example.com/"
+"my_page."
 msgstr "URL neamhbhailí. Seo é URL bailí: http://sampla.com/mo_leathanach."
 
 #: apps/contentflagging/models.py:21
 msgid "This contains inappropriate content"
 msgstr "Ábhar mí-oiriúnach anseo"
 
-#: apps/demos/templates/demos/detail.html:124 apps/demos/templates/demos/elements/submission_thumb.html:15
+#: apps/demos/templates/demos/detail.html:124
+#: apps/demos/templates/demos/elements/submission_thumb.html:15
 msgid "This demo has been viewed {count} time"
 msgid_plural "This demo has been viewed {count} times"
 msgstr[0] "{count} chuairt ar an taispeántas seo"
@@ -1901,8 +2411,11 @@ msgstr[3] "{count} gcuairt ar an taispeántas seo"
 msgstr[4] "{count} cuairt ar an taispeántas seo"
 
 #: apps/demos/templates/demos/detail.html:232
-msgid "This demo is released under the <a href=\"%(link)s\">%(title)s</a> license."
-msgstr "Cuirtear an taispeántas seo ar fáil faoin cheadúnas <a href=\"%(link)s\">%(title)s</a>."
+msgid ""
+"This demo is released under the <a href=\"%(link)s\">%(title)s</a> license."
+msgstr ""
+"Cuirtear an taispeántas seo ar fáil faoin cheadúnas <a href=\"%(link)s\">%"
+"(title)s</a>."
 
 #: apps/contentflagging/models.py:20
 msgid "This is not working for me"
@@ -1911,11 +2424,18 @@ msgstr "Ní oibríonn sé seo"
 #. Browsers and Plugins useful for viewing video content
 #: templates/includes/video_player.html:7
 msgid ""
-"This video requires a browser with support for open video: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 or greater</li> <li><a href=\"http://www.apple.com/safari/\">Safari</"
-"a> 3.1 or greater</li> </ul> or the <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Alternatively, you may use the video download links provided."
+"This video requires a browser with support for open video: <ul> <li><a href="
+"\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 or greater</li> <li><a "
+"href=\"http://www.apple.com/safari/\">Safari</a> 3.1 or greater</li> </ul> or "
+"the <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</"
+"a>. Alternatively, you may use the video download links provided."
 msgstr ""
-"Chun an físeán a sheinm, teastaíonn uait brabhsálaí a thacaíonn le fís oscailte: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 nó níos nuaí</li> <li><a href=\"http://www."
-"apple.com/safari/\">Safari</a> 3.1 nó níos nuaí</li> </ul> nó <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Is é sin, nó úsáid na nascanna chun an físeán a íosluchtú."
+"Chun an físeán a sheinm, teastaíonn uait brabhsálaí a thacaíonn le fís "
+"oscailte: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> "
+"3.5 nó níos nuaí</li> <li><a href=\"http://www.apple.com/safari/\">Safari</a> "
+"3.1 nó níos nuaí</li> </ul> nó <a href=\"http://www.adobe.com/go/"
+"getflashplayer\">Adobe Flash Player</a>. Is é sin, nó úsáid na nascanna chun "
+"an físeán a íosluchtú."
 
 #: apps/contentflagging/models.py:22
 msgid "This was not created by the author"
@@ -1926,10 +2446,17 @@ msgid "Today at %s"
 msgstr "Inniu ag %s"
 
 #: apps/demos/__init__.py:255
-msgid "Track the movement of the user's finger on a touch screen, monitoring the raw touch events generated by the system."
-msgstr "Rianaigh gluaiseacht mhéar an úsáideora ar scáileán tadhaill, agus déan monatóireacht ar theagmhais tadhaill a ghineann an córas."
+msgid ""
+"Track the movement of the user's finger on a touch screen, monitoring the raw "
+"touch events generated by the system."
+msgstr ""
+"Rianaigh gluaiseacht mhéar an úsáideora ar scáileán tadhaill, agus déan "
+"monatóireacht ar theagmhais tadhaill a ghineann an córas."
 
-#: apps/landing/templates/landing/addons.html:22 apps/landing/templates/landing/mobile.html:22 apps/landing/templates/landing/mozilla.html:22 apps/landing/templates/landing/web.html:22
+#: apps/landing/templates/landing/addons.html:22
+#: apps/landing/templates/landing/mobile.html:22
+#: apps/landing/templates/landing/mozilla.html:22
+#: apps/landing/templates/landing/web.html:22
 msgid "Twitter"
 msgstr "Twitter"
 
@@ -1942,22 +2469,31 @@ msgid "Upload demo file&hellip;"
 msgstr "Uasluchtaigh comhad an taispeántais&hellip;"
 
 #: apps/landing/templates/landing/addons.html:101
-msgid "Use Add-ons Builder to quickly and easily develop an extension for Firefox using common web technologies."
-msgstr "Úsáid an Tógálaí Breiseán chun eisínteacht le haghaidh Firefox a fhorbairt go tapaidh agus gan aon stró le teicneolaíochtaí coitianta Gréasáin."
+msgid ""
+"Use Add-ons Builder to quickly and easily develop an extension for Firefox "
+"using common web technologies."
+msgstr ""
+"Úsáid an Tógálaí Breiseán chun eisínteacht le haghaidh Firefox a fhorbairt go "
+"tapaidh agus gan aon stró le teicneolaíochtaí coitianta Gréasáin."
 
 #: apps/landing/templates/landing/home.html:101
 msgid ""
-"Use Add-ons Builder to quickly and easily develop an extension for Firefox using common web technologies. There is a <a href=\"%(tutorial)s\">tutorial</a> to get you started and a <a href=\"%(api)s"
-"\">variety of APIs in the core library</a> to add functionality to Firefox."
+"Use Add-ons Builder to quickly and easily develop an extension for Firefox "
+"using common web technologies. There is a <a href=\"%(tutorial)s\">tutorial</"
+"a> to get you started and a <a href=\"%(api)s\">variety of APIs in the core "
+"library</a> to add functionality to Firefox."
 msgstr ""
-"Úsáid an Tógálaí Breiseán chun eisínteacht le haghaidh Firefox a fhorbairt go tapaidh agus gan aon stró le teicneolaíochtaí coitianta Gréasáin. Tá <a href=\"%(tutorial)s\">cúrsa teagaisc</a> ann "
-"agus <a href=\"%(api)s\">APIanna éagsúla sa bhunleabharlann</a> lenar féidir feidhmiúlacht a chur le Firefox."
+"Úsáid an Tógálaí Breiseán chun eisínteacht le haghaidh Firefox a fhorbairt go "
+"tapaidh agus gan aon stró le teicneolaíochtaí coitianta Gréasáin. Tá <a href="
+"\"%(tutorial)s\">cúrsa teagaisc</a> ann agus <a href=\"%(api)s\">APIanna "
+"éagsúla sa bhunleabharlann</a> lenar féidir feidhmiúlacht a chur le Firefox."
 
 #: apps/demos/models.py:314
 msgid "Use navigation bar, display demo in <iframe>"
-msgstr ""
+msgstr "Úsáid an barra nascleanúna, taispeáin in <iframe> é"
 
-#: apps/docs/templates/docs/docs.html:100 apps/landing/templates/landing/mozilla.html:61
+#: apps/docs/templates/docs/docs.html:100
+#: apps/landing/templates/landing/mozilla.html:61
 msgid "Using Mozilla code in other projects"
 msgstr "Cód de chuid Mozilla a úsáid i dtionscadail eile"
 
@@ -1969,9 +2505,16 @@ msgstr "Suíomh domhanda in úsáid"
 msgid "Video"
 msgstr "Fís"
 
-#: apps/demos/__init__.py:61 apps/demos/__init__.py:71 apps/demos/__init__.py:81 apps/demos/__init__.py:90 apps/demos/__init__.py:99 apps/demos/__init__.py:109 apps/demos/__init__.py:119
-#: apps/demos/__init__.py:129 apps/demos/__init__.py:149 apps/demos/__init__.py:159 apps/demos/__init__.py:169 apps/demos/__init__.py:179 apps/demos/__init__.py:189 apps/demos/__init__.py:199
-#: apps/demos/__init__.py:209 apps/demos/__init__.py:229 apps/demos/__init__.py:239 apps/demos/__init__.py:249 apps/demos/__init__.py:259
+#: apps/demos/__init__.py:61 apps/demos/__init__.py:71
+#: apps/demos/__init__.py:81 apps/demos/__init__.py:90
+#: apps/demos/__init__.py:99 apps/demos/__init__.py:109
+#: apps/demos/__init__.py:119 apps/demos/__init__.py:129
+#: apps/demos/__init__.py:149 apps/demos/__init__.py:159
+#: apps/demos/__init__.py:169 apps/demos/__init__.py:179
+#: apps/demos/__init__.py:189 apps/demos/__init__.py:199
+#: apps/demos/__init__.py:209 apps/demos/__init__.py:229
+#: apps/demos/__init__.py:239 apps/demos/__init__.py:249
+#: apps/demos/__init__.py:259
 msgid "W3C Spec"
 msgstr "Sonraíocht W3C"
 
@@ -1980,8 +2523,12 @@ msgid "Want to help make our network even better?"
 msgstr "Ar mhaith leat feabhas a chur ar ár líonra?"
 
 #: apps/landing/templates/landing/web.html:44
-msgid "Want to see what the Web is really capable of? Explore the Web o' Wonder website and prepare to be amazed!"
+msgid ""
+"Want to see what the Web is really capable of? Explore the Web o' Wonder "
+"website and prepare to be amazed!"
 msgstr ""
+"Ar mhaith leat fíorchumhacht an Ghréasáin a fheiceáil? Taiscéal an suíomh Web "
+"o' Wonder - beidh iontas ort!"
 
 #: apps/landing/templates/landing/addons.html:73
 msgid "Watch <span class=\"addons\">Add-on</span> Videos"
@@ -1989,13 +2536,19 @@ msgstr "Féach ar Fhíseáin <span class=\"addons\">Breiseán</span>"
 
 #: apps/landing/templates/landing/mobile.html:93
 msgid "Watch <span class=\"mobile\">Mobile</span> Videos"
-msgstr "Féach ar fhíseáin faoi <span class=\"mobile\">Firefox Soghluaiste</span>"
+msgstr ""
+"Féach ar fhíseáin faoi <span class=\"mobile\">Firefox Soghluaiste</span>"
 
 #: apps/landing/templates/landing/addons.html:85
-msgid "Watch Myk Melez create an Add-on in 5 minutes using the new Add-on Builder!"
-msgstr "Féach ar Myk Melez ag cruthú breiseáin i gcúig nóiméad leis an Tógálaí Breiseán!"
+msgid ""
+"Watch Myk Melez create an Add-on in 5 minutes using the new Add-on Builder!"
+msgstr ""
+"Féach ar Myk Melez ag cruthú breiseáin i gcúig nóiméad leis an Tógálaí "
+"Breiseán!"
 
-#: apps/landing/templates/landing/addons.html:79 apps/landing/templates/landing/mobile.html:99 apps/landing/templates/landing/mobile.html:115
+#: apps/landing/templates/landing/addons.html:79
+#: apps/landing/templates/landing/mobile.html:99
+#: apps/landing/templates/landing/mobile.html:115
 msgid "Watch this video"
 msgstr "Féach ar an bhfíseán seo"
 
@@ -2003,14 +2556,15 @@ msgstr "Féach ar an bhfíseán seo"
 msgid "We support YouTube and Vimeo"
 msgstr "Tacaíonn muid le YouTube agus Vimeo"
 
-#: apps/devmo/__init__.py:24 apps/landing/templates/landing/web.html:11 apps/landing/templates/landing/web.html:17 templates/base.html:70 templates/base_compact.html:22
+#: apps/devmo/__init__.py:24 apps/landing/templates/landing/web.html:11
+#: apps/landing/templates/landing/web.html:17 templates/base.html:70
+#: templates/base_compact.html:22
 msgid "Web"
 msgstr "Gréasán"
 
 #: apps/landing/templates/landing/web.html:43
-#, fuzzy
 msgid "Web O' Wonder"
-msgstr "Oibrithe Gréasáin"
+msgstr "Web O' Wonder"
 
 #: apps/docs/templates/docs/glossary.html:14
 msgid "Web Storage"
@@ -2021,8 +2575,12 @@ msgid "Web Workers"
 msgstr "Oibrithe Gréasáin"
 
 #: apps/demos/__init__.py:235
-msgid "Web Workers provide a simple means for web content to run scripts in background threads."
-msgstr "Le hOibrithe Gréasáin, is féidir le hábhar Gréasáin scripteanna a rith i snáithe cúlra."
+msgid ""
+"Web Workers provide a simple means for web content to run scripts in "
+"background threads."
+msgstr ""
+"Le hOibrithe Gréasáin, is féidir le hábhar Gréasáin scripteanna a rith i "
+"snáithe cúlra."
 
 #: apps/demos/__init__.py:214 apps/docs/templates/docs/glossary.html:13
 msgid "WebGL"
@@ -2033,8 +2591,12 @@ msgid "WebSockets"
 msgstr "WebSockets"
 
 #: apps/demos/__init__.py:225
-msgid "WebSockets is a technology that makes it possible to open an interactive communication session between the user's browser and a server."
-msgstr "Is teicneolaíocht é WebSockets lenar féidir seisiún idirghníomhach cumarsáide a bhunú idir freastalaí agus brabhsálaí an úsáideora."
+msgid ""
+"WebSockets is a technology that makes it possible to open an interactive "
+"communication session between the user's browser and a server."
+msgstr ""
+"Is teicneolaíocht é WebSockets lenar féidir seisiún idirghníomhach cumarsáide "
+"a bhunú idir freastalaí agus brabhsálaí an úsáideora."
 
 #: templates/includes/login.html:2 templates/includes/login.html:9
 msgid "Welcome back"
@@ -2062,20 +2624,35 @@ msgid "Welcome to the Web Developer Community:"
 msgstr "Fáilte go dtí an Comhphobal Forbróirí Gréasáin:"
 
 #: templates/base.html:94
-msgid "What do you think of the new MDN? Please <a href=\"%(uservoice_url)s\">share your feedback</a> with us."
-msgstr "Cad a cheapann tú faoin MDN nua? <a href=\"%(uservoice_url)s\">Tabhair do thuairim</a> dúinn."
+msgid ""
+"What do you think of the new MDN? Please <a href=\"%(uservoice_url)s\">share "
+"your feedback</a> with us."
+msgstr ""
+"Cad a cheapann tú faoin MDN nua? <a href=\"%(uservoice_url)s\">Tabhair do "
+"thuairim</a> dúinn."
 
 #: apps/landing/templates/landing/mozilla.html:45
-msgid "Whether you're an old hand or just getting started, this is the best way to get started with Mozilla development."
-msgstr "Is cuma an seaneolaí nó núíosach thú, seo é an tslí is fearr tosú le forbairt Mozilla."
+msgid ""
+"Whether you're an old hand or just getting started, this is the best way to "
+"get started with Mozilla development."
+msgstr ""
+"Is cuma an seaneolaí nó núíosach thú, seo é an tslí is fearr tosú le forbairt "
+"Mozilla."
 
 #: apps/landing/templates/landing/mobile.html:107
 msgid "Why Sync up, Security and More"
 msgstr "Cad chuige Sync, Slándáil agus Tuilleadh"
 
-#: apps/demos/__init__.py:60 apps/demos/__init__.py:70 apps/demos/__init__.py:80 apps/demos/__init__.py:108 apps/demos/__init__.py:118 apps/demos/__init__.py:128 apps/demos/__init__.py:138
-#: apps/demos/__init__.py:148 apps/demos/__init__.py:158 apps/demos/__init__.py:168 apps/demos/__init__.py:178 apps/demos/__init__.py:188 apps/demos/__init__.py:198 apps/demos/__init__.py:208
-#: apps/demos/__init__.py:218 apps/demos/__init__.py:228 apps/demos/__init__.py:238 apps/demos/__init__.py:248 apps/demos/__init__.py:258
+#: apps/demos/__init__.py:60 apps/demos/__init__.py:70
+#: apps/demos/__init__.py:80 apps/demos/__init__.py:108
+#: apps/demos/__init__.py:118 apps/demos/__init__.py:128
+#: apps/demos/__init__.py:138 apps/demos/__init__.py:148
+#: apps/demos/__init__.py:158 apps/demos/__init__.py:168
+#: apps/demos/__init__.py:178 apps/demos/__init__.py:188
+#: apps/demos/__init__.py:198 apps/demos/__init__.py:208
+#: apps/demos/__init__.py:218 apps/demos/__init__.py:228
+#: apps/demos/__init__.py:238 apps/demos/__init__.py:248
+#: apps/demos/__init__.py:258
 msgid "Wikipedia Article"
 msgstr "Alt sa Vicipéid"
 
@@ -2088,16 +2665,24 @@ msgid "XMLHttpRequest"
 msgstr "XMLHttpRequest"
 
 #: apps/demos/__init__.py:245
-msgid "XMLHttpRequest (XHR) is used to send HTTP requests directly to a webserver and load the response data directly back into the script."
-msgstr "Úsáidtear XMLHttpRequest (XHR) chun iarratais HTTP a sheoladh go díreach chuig freastalaí Gréasáin agus sonraí an fhreagra a luchtú ar ais go dtí an script."
+msgid ""
+"XMLHttpRequest (XHR) is used to send HTTP requests directly to a webserver "
+"and load the response data directly back into the script."
+msgstr ""
+"Úsáidtear XMLHttpRequest (XHR) chun iarratais HTTP a sheoladh go díreach "
+"chuig freastalaí Gréasáin agus sonraí an fhreagra a luchtú ar ais go dtí an "
+"script."
 
-#: apps/demos/templates/demos/detail.html:85 apps/demos/templates/demos/launch.html:34
+#: apps/demos/templates/demos/detail.html:85
+#: apps/demos/templates/demos/launch.html:34
 msgid "You Like"
 msgstr "Is maith leat é"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:15
 msgid "You are viewing demos by most likes"
-msgstr "Tá tú ag féachaint ar thaispeántais de réir an líon uaire a thaitin sé le húsáideoir"
+msgstr ""
+"Tá tú ag féachaint ar thaispeántais de réir an líon uaire a thaitin sé le "
+"húsáideoir"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:16
 msgid "You are viewing demos by most recently submitted"
@@ -2111,7 +2696,8 @@ msgstr "Tá tú ag féachaint ar thaispeántais de réir líon uaire feicthe"
 msgid "You are viewing up and coming demos"
 msgstr "Tá tú ag féachaint ar thaispeántais teacht chun cinn"
 
-#: apps/demos/templates/demos/detail.html:85 apps/demos/templates/demos/launch.html:34
+#: apps/demos/templates/demos/detail.html:85
+#: apps/demos/templates/demos/launch.html:34
 msgid "You like this demo. Undo?"
 msgstr "Is maith leat an taispeántas seo. Cealaigh?"
 
@@ -2120,26 +2706,32 @@ msgid "You took back the Web. Now take it with you."
 msgstr "Is leatsa an Gréasán anois.  Beir leat é."
 
 #: apps/landing/templates/landing/web.html:74
-msgid "You'll find everything you need in the CSS reference and helpful tutorials to build pretty websites."
-msgstr "Gheobhaidh tú gach rud atá de dhíth ort sa leabhar tagartha CSS agus sna cúrsaí teagaisc chun suímh Ghréasáin áille a thógáil."
+msgid ""
+"You'll find everything you need in the CSS reference and helpful tutorials to "
+"build pretty websites."
+msgstr ""
+"Gheobhaidh tú gach rud atá de dhíth ort sa leabhar tagartha CSS agus sna "
+"cúrsaí teagaisc chun suímh Ghréasáin áille a thógáil."
 
 #: apps/landing/templates/landing/mobile.html:79
 msgid ""
-"Your help is vital to the success of Firefox. Provide feedback on our <a href=\"%(irc_url)s\">IRC channel</a>, <a href=\"%(meeting_url)s\">join our Wednesday development meeting</a>, or even <a "
-"href=\"%(bugzilla_url)s\">file some bugs</a>."
+"Your help is vital to the success of Firefox. Provide feedback on our <a href="
+"\"%(irc_url)s\">IRC channel</a>, <a href=\"%(meeting_url)s\">join our "
+"Wednesday development meeting</a>, or even <a href=\"%(bugzilla_url)s\">file "
+"some bugs</a>."
 msgstr ""
-"Tá do chabhair barrthábhachtach le Firefox a chur chun cinn.  Tabhair aiseolas dúinn ar ár <a href=\"%(irc_url)s\">gcainéal IRC</a>, <a href=\"%(meeting_url)s\">glac páirt inár gcruinniú forbartha "
-"gach Céadaoin</a>, nó fiú <a href=\"%(bugzilla_url)s\">déan tuairisc ar fhabhtanna</a>."
+"Tá do chabhair barrthábhachtach le Firefox a chur chun cinn.  Tabhair "
+"aiseolas dúinn ar ár <a href=\"%(irc_url)s\">gcainéal IRC</a>, <a href=\"%"
+"(meeting_url)s\">glac páirt inár gcruinniú forbartha gach Céadaoin</a>, nó "
+"fiú <a href=\"%(bugzilla_url)s\">déan tuairisc ar fhabhtanna</a>."
 
 #: apps/demos/models.py:507
-#, fuzzy
 msgid "ZIP file contains a file that is too large: %(filename)s"
-msgstr "Tá comhaid rómhór sa chomhad ZIP"
+msgstr "Tá comhad rómhór sa chomhad ZIP: %(filename)s"
 
 #: apps/demos/models.py:516
-#, fuzzy
 msgid "ZIP file contains an unacceptable file: %(filename)s"
-msgstr "Níl aon chomhaid inghlactha sa chomhad ZIP"
+msgstr "Tá comhad doghlactha sa chomhad ZIP: %(filename)s"
 
 #: apps/demos/models.py:485 apps/demos/models.py:492
 msgid "ZIP file contains no acceptable files"
@@ -2149,7 +2741,8 @@ msgstr "Níl aon chomhaid inghlactha sa chomhad ZIP"
 msgid "ZIP file corrupted"
 msgstr "Comhad ZIP truaillithe"
 
-#: apps/demos/views.py:62 apps/demos/views.py:208 apps/demos/views.py:232 apps/demos/views.py:245 apps/demos/views.py:258
+#: apps/demos/views.py:62 apps/demos/views.py:208 apps/demos/views.py:232
+#: apps/demos/views.py:245 apps/demos/views.py:258
 msgid "access denied"
 msgstr "rochtain diúltaithe"
 
@@ -2163,7 +2756,7 @@ msgstr "le %(profile_link)s"
 
 #: apps/demos/models.py:311
 msgid "control how your demo is launched"
-msgstr ""
+msgstr "rialaigh an tslí a dtosófar do thaispeántas"
 
 #: apps/contentflagging/models.py:65
 msgid "current status of flag review"
@@ -2173,7 +2766,8 @@ msgstr "athbhreithniú ar bhratach: stádas reatha"
 msgid "date created"
 msgstr "dáta ar ar cruthaíodh é"
 
-#: apps/actioncounters/models.py:90 apps/contentflagging/models.py:99 apps/demos/models.py:371
+#: apps/actioncounters/models.py:90 apps/contentflagging/models.py:99
+#: apps/demos/models.py:371
 msgid "date last modified"
 msgstr "dáta ar ar athraíodh é"
 
@@ -2568,7 +3162,8 @@ msgstr[2] "Taitníonn sé le {count} dhuine"
 msgstr[3] "Taitníonn sé le {count} nduine"
 msgstr[4] "Taitníonn sé le {count} duine"
 
-#: apps/demos/templates/demos/detail.html:125 apps/demos/templates/demos/elements/submission_thumb.html:16
+#: apps/demos/templates/demos/detail.html:125
+#: apps/demos/templates/demos/elements/submission_thumb.html:16
 msgid "{count} person liked this demo"
 msgid_plural "{count} people liked this demo"
 msgstr[0] "Is maith le duine amháin an taispeántais seo"
@@ -2594,9 +3189,18 @@ msgstr "{display_name}"
 msgid "{start}&ndash;{end} of {total}"
 msgstr "{start}&ndash;{end} as {total}"
 
-#: apps/demos/templates/demos/delete.html:10 apps/demos/templates/demos/delete_comment.html:10 apps/demos/templates/demos/detail.html:5 apps/demos/templates/demos/flag.html:10
-#: apps/demos/templates/demos/launch.html:4 apps/demos/templates/demos/listing_all.html:5 apps/demos/templates/demos/listing_search.html:10 apps/demos/templates/demos/listing_tag.html:5
-#: apps/demos/templates/demos/profile_detail.html:8 apps/demos/templates/demos/submit.html:8 apps/demos/templates/demos/submit.html:10 apps/demos/templates/demos/submit_noauth.html:10
+#: apps/demos/templates/demos/delete.html:10
+#: apps/demos/templates/demos/delete_comment.html:10
+#: apps/demos/templates/demos/detail.html:5
+#: apps/demos/templates/demos/flag.html:10
+#: apps/demos/templates/demos/launch.html:4
+#: apps/demos/templates/demos/listing_all.html:5
+#: apps/demos/templates/demos/listing_search.html:10
+#: apps/demos/templates/demos/listing_tag.html:5
+#: apps/demos/templates/demos/profile_detail.html:8
+#: apps/demos/templates/demos/submit.html:8
+#: apps/demos/templates/demos/submit.html:10
+#: apps/demos/templates/demos/submit_noauth.html:10
 #: apps/demos/templates/demos/terms.html:10
 msgid "{subtitle} | Demo Studio"
 msgstr "{subtitle} | Stiúideo Taispeántas"
