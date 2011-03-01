@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2011-02-25 13:24+0200\n"
-"Last-Translator: Inma <inmitabarrios@gmail.com>\n"
+"PO-Revision-Date: 2011-03-01 02:37+0200\n"
+"Last-Translator: Guillermo <guillermo.movia@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -819,6 +819,8 @@ msgstr "Arrastrar y soltar"
 #: apps/demos/__init__.py:165
 msgid "Drag and Drop features allow the user to move elements on the screen using the mouse pointer."
 msgstr ""
+"Gracias a la función Arrastrar y soltar podrás mover los elementos de la "
+"pantalla utilizando el puntero."
 
 #: apps/demos/__init__.py:139
 msgid "ECMA Spec"
@@ -894,7 +896,7 @@ msgstr "Archivos"
 
 #: apps/demos/models.py:157
 msgid "Filetype not supported."
-msgstr ""
+msgstr "Tipo de archivo no admitido."
 
 #: apps/landing/templates/landing/web.html:48
 msgid "Find out what HTML5 is really all about and how you can develop for a better Web through open standards."
@@ -911,6 +913,8 @@ msgstr "Complemento para Firefox que añade muchas herramientas magníficas para
 #: apps/demos/__init__.py:175
 msgid "Firefox Mobile brings the true Web experience to mobile phones and other non-PC devices."
 msgstr ""
+"Firefox Mobile ofrece una verdadera experiencia Web para los teléfonos "
+"móviles y otros dispositivos diferentes a los PC."
 
 #: apps/docs/templates/docs/docs.html:80
 msgid "Firefox Mobile for developers"
@@ -935,20 +939,19 @@ msgstr ""
 
 #: apps/demos/templates/demos/flag.html:43
 msgid "Flag content"
-msgstr ""
+msgstr "Marcar contenido"
 
 #: apps/contentflagging/models.py:28
 msgid "Flag rejected by moderator"
-msgstr ""
+msgstr "Marca rechazada por el moderador"
 
 #: apps/demos/templates/demos/flag.html:37
-#, fuzzy
 msgid "Flag this demo?"
-msgstr "Ver este video"
+msgstr "¿Marcar este video?"
 
 #: apps/contentflagging/models.py:27
 msgid "Flagged"
-msgstr ""
+msgstr "Marcado"
 
 #: apps/demos/__init__.py:104
 msgid "Fonts & Type"
@@ -961,11 +964,13 @@ msgstr "Para saber lo último en tecnologías de la Web abierta, estos demos son
 #: apps/demos/__init__.py:115
 msgid "Form elements and attributes in HTML5 provide a greater degree of semantic mark-up than HTML4 and remove a great deal of the need for tedious scripting and styling that was required in HTML4."
 msgstr ""
+"Los elementos y atributos de formulario en HTML5 proporcionan un grado más "
+"alto de marcado semántico que HTML4 y eliminan en gran parte la necesidad de "
+"scripts y estilos que eran necesarios en HTML4. "
 
 #: apps/demos/__init__.py:114
-#, fuzzy
 msgid "Forms"
-msgstr "Foros"
+msgstr "Formularios"
 
 #: templates/base.html:79 templates/base_compact.html:27
 msgid "Forums"
@@ -976,9 +981,8 @@ msgid "GPL"
 msgstr "GPL"
 
 #: apps/demos/__init__.py:124
-#, fuzzy
 msgid "Geolocation"
-msgstr "Usar geolocalización"
+msgstr "Geolocalización"
 
 #: apps/landing/templates/landing/home.html:218
 msgid "Get Started Today!"
@@ -994,7 +998,7 @@ msgstr "Involúcrate en las comunidades para desarrolladores de %(mobile_link)s,
 
 #: apps/demos/templates/demos/detail.html:211
 msgid "Get the Source Code"
-msgstr ""
+msgstr "Obtén el código fuente"
 
 #: apps/landing/templates/landing/mobile.html:45
 msgid "Get the latest news, status and developer documentation on the Mozilla mobile project. Check out the mobile project's goals, and how you can help out and get involved!"
@@ -1014,19 +1018,19 @@ msgstr "Ir a la última página"
 
 #: apps/demos/templates/demos/detail.html:27 apps/demos/templates/demos/launch.html:62
 msgid "Go to the next demo, {demo_title}"
-msgstr ""
+msgstr "Ir a la próxima demo, {demo_title}"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:59
 msgid "Go to the next page"
-msgstr ""
+msgstr "Ir a la próxima página"
 
 #: apps/demos/templates/demos/detail.html:23 apps/demos/templates/demos/launch.html:58
 msgid "Go to the previous demo, {demo_title}"
-msgstr ""
+msgstr "Ir a la demo anterior, {demo_title}"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:56
 msgid "Go to the previous page"
-msgstr ""
+msgstr "Ir a la página anterior"
 
 #: apps/docs/templates/docs/docs.html:32 apps/docs/templates/docs/glossary.html:4 apps/landing/templates/landing/home.html:177
 msgid "HTML"
@@ -1034,7 +1038,7 @@ msgstr "HTML"
 
 #: apps/demos/models.py:454
 msgid "HTML index not found in ZIP"
-msgstr ""
+msgstr "No se halló el índice HTML en el ZIP"
 
 #: apps/demos/__init__.py:144 apps/docs/templates/docs/docs.html:36 apps/docs/templates/docs/glossary.html:7 apps/landing/templates/landing/home.html:46 apps/landing/templates/landing/home.html:70
 #: apps/landing/templates/landing/web.html:47
@@ -1044,6 +1048,7 @@ msgstr "HTML5"
 #: apps/demos/__init__.py:145
 msgid "HTML5 is the newest version of the HTML standard, currently under development."
 msgstr ""
+"HTML5 es la versión más nueva del estándar HTML, actualmente en desarrollo."
 
 #: apps/landing/templates/landing/web.html:43
 msgid "Hacks Demos"
@@ -1069,7 +1074,7 @@ msgstr "Aquí tienes cómo empezar"
 
 #: apps/demos/templates/demos/detail.html:66
 msgid "Hide demo"
-msgstr ""
+msgstr "Ocultar demo"
 
 #: apps/landing/templates/landing/home.html:117
 msgid "Highlighted Mozilla Developer News & Updates"
@@ -1088,8 +1093,12 @@ msgid "Hypertext Markup Language, the core technology of the web."
 msgstr "Lenguaje de marcado de hipertexto, la tecnología central de la web."
 
 #: apps/demos/templates/demos/submit.html:165
+#, fuzzy
 msgid "I accept the Mozilla Demo Studio <a href=\"%(terms_url)s#tfc\">Terms for Contributors</a> and <a href=\"%(terms_url)s#rrd\">Rights Representation Details</a>"
 msgstr ""
+"Acepto los <a href=\"%(terms_url)s#tfc\">Términos para contribuyentes</a> del "
+"Mozilla Demo Studio y los <a href=\"%(terms_url)s#rrd\">detalles de derechos "
+"de representación</a>"
 
 #: apps/landing/templates/landing/addons.html:45
 msgid "If you are comfortable with a command line and prefer working locally, the Add-ons Builder SDK gives you a development environment on your own computer."
@@ -1098,6 +1107,8 @@ msgstr "Si te sientes cómodo con una línea de comandos y prefieres trabajar lo
 #: apps/demos/__init__.py:215
 msgid "In the context of the HTML canvas element WebGL provides an API for 3D graphics in the browser."
 msgstr ""
+"En el contexto del elemento canvas de HTML, WebGL provee una API para "
+"gráficos 3D en el navegador."
 
 #: apps/demos/__init__.py:154 apps/docs/templates/docs/glossary.html:23
 msgid "IndexedDB"
@@ -1114,10 +1125,12 @@ msgstr "Error interno del servidor"
 #: apps/demos/models.py:307
 msgid "Is your source code also available somewhere else on the web (e.g., github)? Please share the link."
 msgstr ""
+"¿Tu código fuente está también accesible en algún otro lugar de la web (ej., "
+"github? Por favor comparte el enlace."
 
 #: apps/demos/templates/demos/submit.html:116
 msgid "JPEG and PNG supported. Minimum size of 480x360."
-msgstr ""
+msgstr "Admite JPEG y PNG. El tamaño mínimo es de 480x360."
 
 #: apps/docs/templates/docs/docs.html:40 apps/docs/templates/docs/glossary.html:6 apps/landing/templates/landing/home.html:185 apps/landing/templates/landing/web.html:51
 msgid "JavaScript"
@@ -1126,9 +1139,11 @@ msgstr "JavaScript"
 #: apps/demos/__init__.py:135
 msgid "JavaScript is a lightweight, object-oriented programming language, commonly used for scripting interactive behavior on web pages and in web applications."
 msgstr ""
+"JavaScript es un lenguaje de programación orientado a objetos liviano, "
+"comúnmente usado para programar comportamientos interactivos en páginas web "
+"y aplicaciones web."
 
 #: apps/demos/__init__.py:134
-#, fuzzy
 msgid "Javascript"
 msgstr "JavaScript"
 
@@ -1159,7 +1174,7 @@ msgstr "Temas principales para los desarrolladores <span class=\"web\">Web</span
 
 #: apps/demos/__init__.py:219
 msgid "Khronos Spec"
-msgstr ""
+msgstr "Especificación de Khronos"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:61
 msgid "Last"
@@ -1214,7 +1229,7 @@ msgstr "Conoce la historia detŕas del proyecto <em>Devmo</em>"
 
 #: apps/demos/templates/demos/detail.html:90 apps/demos/templates/demos/launch.html:39
 msgid "Like It"
-msgstr ""
+msgstr "Me gusta"
 
 #: apps/docs/templates/docs/docs.html:101 apps/landing/templates/landing/mozilla.html:81
 msgid "Localization"
@@ -1634,9 +1649,8 @@ msgid "Search for \"{q}\""
 msgstr ""
 
 #: apps/demos/templates/demos/listing_search.html:14
-#, fuzzy
 msgid "Search results for \"{q}\""
-msgstr "Resultados de la búsqueda"
+msgstr "Resultados de la búsqueda \"{q}\""
 
 #: apps/demos/feeds.py:214
 msgid "Search results for demo submissions matching \"%s\""
@@ -2091,7 +2105,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/detail.html:85 apps/demos/templates/demos/launch.html:34
 msgid "You Like"
-msgstr ""
+msgstr "Te gusta"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:15
 msgid "You are viewing demos by most likes"
@@ -2213,138 +2227,121 @@ msgid "http://dev.w3.org/html5/webstorage/"
 msgstr "http://dev.w3.org/html5/webstorage/"
 
 #: apps/demos/__init__.py:70
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Canvas_element"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://es.wikipedia.org/wiki/Canvas"
 
 #: apps/demos/__init__.py:80
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Cascading_Style_Sheets"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://es.wikipedia.org/wiki/Hojas_de_estilo_en_cascada"
 
 #: apps/demos/__init__.py:168
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Drag-and-drop"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://es.wikipedia.org/wiki/Arrastrar_y_soltar"
 
 #: apps/demos/__init__.py:60
 #, fuzzy
 msgid "http://en.wikipedia.org/wiki/HTML5_audio"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/HTML5_audio"
 
 #: apps/demos/__init__.py:208
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/HTML5_video"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/HTML5_video"
 
 #: apps/demos/__init__.py:118
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/HTML_forms"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://es.wikipedia.org/wiki/Formulario_web"
 
 #: apps/demos/__init__.py:148
 msgid "http://en.wikipedia.org/wiki/Html5"
 msgstr "http://es.wikipedia.org/wiki/HTML5"
 
 #: apps/demos/__init__.py:158
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/IndexedDB"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/IndexedDB"
 
 #: apps/demos/__init__.py:138
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/JavaScript"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://es.wikipedia.org/wiki/JavaScript"
 
 #: apps/demos/__init__.py:178
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Mobile_web"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Mobile_web"
 
 #: apps/landing/templates/landing/home.html:15
 msgid "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
 msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
 
 #: apps/demos/__init__.py:258
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Multi-touch"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://es.wikipedia.org/wiki/Multitáctil"
 
 #: apps/demos/__init__.py:198
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Scalable_Vector_Graphics"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://es.wikipedia.org/wiki/Scalable_Vector_Graphics"
 
 #: apps/demos/__init__.py:128
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/W3C_Geolocation_API"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/W3C_Geolocation_API"
 
 #: apps/demos/__init__.py:218
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/WebGL"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://es.wikipedia.org/wiki/WebGL"
 
 #: apps/demos/__init__.py:228
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_Sockets"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://es.wikipedia.org/wiki/WebSockets"
 
 #: apps/demos/__init__.py:188
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_Storage"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Web_Storage"
 
 #: apps/demos/__init__.py:238
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_Workers"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Web_Workers"
 
 #: apps/demos/__init__.py:108
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_typography"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Web_typography"
 
 #: apps/demos/__init__.py:248
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/XMLHttpRequest"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://es.wikipedia.org/wiki/XMLHttpRequest"
 
 #: apps/demos/__init__.py:287
 msgid "http://www.apache.org/licenses/"
-msgstr ""
+msgstr "http://www.apache.org/licenses/"
 
 #: apps/demos/__init__.py:139
 msgid "http://www.ecma-international.org/publications/standards/Ecma-262.htm"
-msgstr ""
+msgstr "http://www.ecma-international.org/publications/standards/Ecma-262.htm"
 
 #: apps/demos/__init__.py:219
 msgid "http://www.khronos.org/webgl/"
-msgstr ""
+msgstr "http://www.khronos.org/webgl/"
 
 #: apps/demos/__init__.py:269
 msgid "http://www.mozilla.org/MPL/"
-msgstr ""
+msgstr "http://www.mozilla.org/MPL/"
 
 #: apps/demos/__init__.py:281
 msgid "http://www.opensource.org/licenses/bsd-license.php"
-msgstr ""
+msgstr "http://www.opensource.org/licenses/bsd-license.php"
 
 #: apps/demos/__init__.py:275
 msgid "http://www.opensource.org/licenses/gpl-license.php"
-msgstr ""
+msgstr "http://www.opensource.org/licenses/gpl-license.php"
 
 #: apps/demos/__init__.py:259
 msgid "http://www.w3.org/2010/webevents/charter/"
-msgstr ""
+msgstr "http://www.w3.org/2010/webevents/charter/"
 
 #: apps/demos/__init__.py:179
 msgid "http://www.w3.org/Mobile/"
-msgstr ""
+msgstr "http://www.w3.org/Mobile/"
 
 #: apps/demos/__init__.py:99
 msgid "http://www.w3.org/TR/FileAPI/"
-msgstr ""
+msgstr "http://www.w3.org/TR/FileAPI/"
 
 #: apps/demos/__init__.py:159
 msgid "http://www.w3.org/TR/IndexedDB/"
