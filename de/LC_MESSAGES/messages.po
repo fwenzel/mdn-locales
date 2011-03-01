@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2011-02-20 22:03+0200\n"
+"PO-Revision-Date: 2011-03-01 18:27+0200\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -271,6 +271,8 @@ msgstr "<p>Um Ihre Demo zu übermitteln, benötigen Sie ein <strong><a href=\"%(
 #: apps/demos/templates/demos/submit.html:139
 msgid "<p>Upload a ZIP file of your source code, in which the main page of your demo is named <code>index.html</code> in the root directory.</p>"
 msgstr ""
+"<p>Laden Sie eine ZIP-Datei Ihres Quelltextes hoch, in dem die Hauptseite "
+"Ihrer Demo <code>index.html</code> heißt und im Wurzelverzeichnis liegt.</p>"
 
 #: apps/demos/templates/demos/home.html:23
 msgid ""
@@ -340,6 +342,17 @@ msgid ""
 "to access them.</li> <li>To submit your demo, you need an <a href=\"%(signup_url)s\">MDN account</a>.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed "
 "under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
 msgstr ""
+"<ul> <li>Der Quelltext Ihrer Demo sollte in einer ZIP-Datei verpackt "
+"sein.</li> <li>Der Hauptteil Ihrer Demo sollte eine Datei mit dem Namen "
+"<code>index.html</code> im Wurzelverzeichnis Ihrer ZIP-Datei sein.</li> "
+"<li>Ihre Demo sollte auf clientseitiger <strong>Technologie</strong> (HTML, "
+"CSS, Javscript) basieren. PHP, Ruby und andere serverseitige Sprachen werden "
+"nicht unterstützt.</li> <li>Wenn Ihre Demo externe Ressourcen benötigt, "
+"sollte AJAXverwendet werden, um darauf zuzugreifen.</li> <li>Um eine Demo zu "
+"übermitteln, benötigen Sie ein <a href=\"%(signup_url)s\">MDN-"
+"Benutzerkonto</a>.</li> <li>Bitte geben Sie im Detailfeld für die Demo alle "
+"Inhalte Dritter an, die nicht unter der Lizenz CC-BY-SA stehen und fügen Sie "
+"Links zu den Websites der Autoren hinzu.</li> </ul>"
 
 #: apps/landing/templates/landing/mozilla.html:107
 msgid "A Mozilla source tree browser."
@@ -486,9 +499,8 @@ msgstr ""
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:38
-#, fuzzy
 msgid "Awesome <span class=\"web\">Web</span> Demos"
-msgstr "Schlüsselthemen für <span class=\"web\">Web</span>-Entwickler"
+msgstr "Wunderbare <span class=\"web\">Web</span>-Demos"
 
 #: apps/demos/__init__.py:280
 msgid "BSD"
@@ -744,7 +756,7 @@ msgstr "Gerät"
 
 #: apps/demos/models.py:313
 msgid "Disable navigation bar, launch demo in a new window"
-msgstr ""
+msgstr "Navigationsleiste deaktivieren, Demo in neuem Fenster starten"
 
 #: apps/demos/templates/demos/submit.html:185
 msgid "Discard Changes"
@@ -761,6 +773,9 @@ msgstr "Gefällt Ihnen diese Demo?"
 #: apps/landing/templates/landing/web.html:48
 msgid "Do you want to show the world what the Web can do? Demo Studio is your place for sharing awesome demos and experiments with the latest Web standards and open technologies."
 msgstr ""
+"Möchten Sie der Welt zeigen, wozu das Internet fähig ist? Das Demo Studio "
+"ist Ihr Ort, an dem Sie wunderbare Demos und Experimente mit den neuesten "
+"Web-Standards und offenen Technologien weitergeben können."
 
 #: apps/docs/templates/docs/docs.html:7 templates/base.html:77 templates/base_compact.html:26
 msgid "Doc Center"
@@ -835,7 +850,6 @@ msgstr "Beliebte <span class=\"mobile\">Mobile</span>-Werkzeuge"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:98
-#, fuzzy
 msgid "Favorite <span class=\"mozilla\">Mozilla</span> Tools"
 msgstr "Beliebte <span class=\"addons\">Mozilla</span>-Werkzeuge"
 
@@ -1010,9 +1024,8 @@ msgid "HTML5 is the newest version of the HTML standard, currently under develop
 msgstr "HTML5 ist die neuste Version des HTML-Standards und befindet sich derzeit in der Entwicklung."
 
 #: apps/landing/templates/landing/web.html:51
-#, fuzzy
 msgid "Hacks Blog"
-msgstr "Hacks Demos"
+msgstr "Hacks-Blog"
 
 #: apps/landing/templates/landing/mobile.html:152
 msgid "Hear from other developers about the advantages of HTML5 and developing for the mobile Web in this article from ReadWriteWeb:"
@@ -1061,6 +1074,8 @@ msgstr "Wenn Sie die Kommandozeile mögen und lieber auf Ihrem lokalen Rechner a
 #: apps/demos/templates/demos/submit.html:119
 msgid "If your demo has problems when displayed in an <iframe>, try changing this."
 msgstr ""
+"Wenn Ihre Demo Probleme verursacht, wenn sie in einem <iframe> angezeigt "
+"wird, versuchen Sie, das zu ändern."
 
 #: apps/demos/__init__.py:215
 msgid "In the context of the HTML canvas element WebGL provides an API for 3D graphics in the browser."
@@ -1169,6 +1184,8 @@ msgstr "Erfahren Sie mehr über <a href=\"%(devmo_mobile)s\">Fennec</a> und Mobi
 #: apps/landing/templates/landing/web.html:52
 msgid "Learn more about developer features and the latest technologies through articles and demos on the Hacks Blog."
 msgstr ""
+"Erfahren Sie mehr über Entwickler-Funktionen und die neuesten Technologien "
+"aus Artikeln und Demos im Hacks-Blog."
 
 #: apps/landing/templates/landing/mozilla.html:54
 msgid "Learn more about the technologies at the core of Mozilla products and services."
@@ -1417,9 +1434,8 @@ msgstr "Beliebte <span class=\"mobile\">Mobile</span>-Dokumentation"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:38
-#, fuzzy
 msgid "Popular <span class=\"mozilla\">Mozilla</span> Documentation"
-msgstr "Beliebte <span class=\"mobile\">Mozilla</span>-Dokumentation"
+msgstr "Beliebte <span class=\"mozilla\">Mozilla</span>-Dokumentation"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:60
@@ -1488,9 +1504,8 @@ msgstr "Neuigkeiten und Updates zu <span class=\"mobile\">Mobile</span>"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:116
-#, fuzzy
 msgid "Recent <span class=\"mozilla\">Mozilla</span> News &amp; Updates"
-msgstr "Neuigkeiten und Updates zu <span class=\"moz\">Mozilla</span>"
+msgstr "Neuigkeiten und Updates zu <span class=\"mozilla\">Mozilla</span>"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:114
@@ -1714,7 +1729,7 @@ msgstr "Demos nach Zahl der Aufrufe sortieren"
 
 #: apps/demos/templates/demos/submit.html:147
 msgid "Source code ZIP file"
-msgstr ""
+msgstr "Quelltext als ZIP-Datei"
 
 #: apps/landing/templates/landing/addons.html:65
 msgid "Start-to-finish success stories. See how add-on developers made magic with Mozilla."
@@ -1810,7 +1825,6 @@ msgid "The Geolocation API allows web applications to access the user's geograph
 msgstr "Die Geolocation-API ermöglicht es Web-Entwicklern auf den geographischen Standort des Benutzers zuzugreifen."
 
 #: apps/demos/__init__.py:67
-#, fuzzy
 msgid "The HTML5 canvas element allows you to display scriptable renderings of 2D shapes and bitmap images."
 msgstr "Das HTML5-Canvas-Element ermöglicht es, skriptbare Renderings von 2D-Formen und Bitmap-Grafiken anzuzeigen."
 
@@ -1938,7 +1952,7 @@ msgstr ""
 
 #: apps/demos/models.py:314
 msgid "Use navigation bar, display demo in <iframe>"
-msgstr ""
+msgstr "Navigationsleiste verwenden, Demo in einem <iframe> anzeigen"
 
 #: apps/docs/templates/docs/docs.html:100 apps/landing/templates/landing/mozilla.html:61
 msgid "Using Mozilla code in other projects"
@@ -1965,6 +1979,8 @@ msgstr "Möchten Sie helfen, unser Netzwerk noch besser zu machen?"
 #: apps/landing/templates/landing/web.html:44
 msgid "Want to see what the Web is really capable of? Explore the Web o' Wonder website and prepare to be amazed!"
 msgstr ""
+"Möchten Sie sehen, wozu das Internet wirklich in der Lage ist? Erkunden Sie "
+"das Webkabinett und bereiten Sie sich auf Überraschungen vor!"
 
 #: apps/landing/templates/landing/addons.html:73
 msgid "Watch <span class=\"addons\">Add-on</span> Videos"
@@ -1991,9 +2007,8 @@ msgid "Web"
 msgstr "Web"
 
 #: apps/landing/templates/landing/web.html:43
-#, fuzzy
 msgid "Web O' Wonder"
-msgstr "Web Worker"
+msgstr "Webkabinett"
 
 #: apps/docs/templates/docs/glossary.html:14
 msgid "Web Storage"
@@ -2116,14 +2131,12 @@ msgstr ""
 "Meeting vorbei</a>, oder fügen Sie ein paar <a href=\"%(bugzilla_url)s\">Bugs hinzu</a>."
 
 #: apps/demos/models.py:507
-#, fuzzy
 msgid "ZIP file contains a file that is too large: %(filename)s"
-msgstr "ZIP-Datei enthält Dateien, die zu groß sind"
+msgstr "ZIP-Datei enthält eine Datei, die zu groß ist: %(filename)s"
 
 #: apps/demos/models.py:516
-#, fuzzy
 msgid "ZIP file contains an unacceptable file: %(filename)s"
-msgstr "ZIP-Datei enthält keine zulässigen Dateien"
+msgstr "ZIP-Datei enthält eine unzulässige Datei: %(filename)s"
 
 #: apps/demos/models.py:485 apps/demos/models.py:492
 msgid "ZIP file contains no acceptable files"
@@ -2147,7 +2160,7 @@ msgstr "von %(profile_link)s"
 
 #: apps/demos/models.py:311
 msgid "control how your demo is launched"
-msgstr ""
+msgstr "Steuern Sie, wie Ihre Demo gestartet wird"
 
 #: apps/contentflagging/models.py:65
 msgid "current status of flag review"
