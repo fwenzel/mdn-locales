@@ -512,9 +512,10 @@ msgstr "Φοβερά demo για το <span class=\"web\">διαδίκτυο</sp
 msgid "BSD"
 msgstr "BSD"
 
+# Χωρίς τόνους λόγω του css text-transform: uppercase.
 #: apps/landing/templates/landing/home.html:215
 msgid "Be Heard."
-msgstr "Εκφραστείτε"
+msgstr "Εκφραστειτε"
 
 #: templates/includes/login.html:7
 msgid "Become an MDN member"
