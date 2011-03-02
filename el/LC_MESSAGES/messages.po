@@ -15,7 +15,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/mobile.html:158
 msgid "\"'Hands down, the developer pool for HTML / JS rock stars is tenfold larger [and] there is no download attrition. You simply point people at a URL and there you go -- it's installed.' The fact that apps can be directly installed by URL rather than by waiting for an App Store download means that developers reduce barriers to virality.\""
-msgstr "«Πολύ απλά, the developer pool for HTML / JS rock stars is tenfold larger [and] there is no download attrition. Απλά δίνεις ένα δεσμό για το URL στους χρήστες και γίνεται αυτόματα η εγκατάσταση.' Το γεγονός ότι οι εφαρμογές μπορούν να εγκατασταθούν από ένα οποιοδήποτε URL αντί να περιμένει ο χρήστης να κατεβάσει κάτι από ένα App Store, σημαίνει ότι έτσι οι δημιουργοί μειώνουν τους φραγμούς στη διαδικασία  προώθησης της εφαρμογής τους.»"
+msgstr "«'Hands down, the developer pool for HTML / JS rock stars is tenfold larger [and] there is no download attrition. You simply point people at a URL and there you go -- it's installed.' Το γεγονός ότι οι εφαρμογές μπορούν να εγκατασταθούν από ένα οποιοδήποτε URL αντί να περιμένει ο χρήστης να κατεβάσει κάτι από ένα App Store, σημαίνει ότι έτσι οι δημιουργοί μειώνουν τους φραγμούς στη διαδικασία  προώθησης της εφαρμογής τους.»"
 
 #: apps/landing/templates/landing/web.html:93
 msgid "\"An absolute necessity for anyone doing serious web development. Awesome!!!!\""
@@ -497,7 +497,7 @@ msgstr "Είστε έτοιμοι να κάνετε καλύτερη την πε
 #: apps/demos/__init__.py:56
 #: apps/docs/templates/docs/glossary.html:15
 msgid "Audio"
-msgstr "Ήχος"
+msgstr "Audio"
 
 #: apps/landing/templates/landing/addons.html:105
 msgid "Auto-generate add-on packaging by entering basic info and picking UI parts. Get working without setup."
@@ -515,7 +515,7 @@ msgstr "BSD"
 # Χωρίς τόνους λόγω του css text-transform: uppercase.
 #: apps/landing/templates/landing/home.html:215
 msgid "Be Heard."
-msgstr "Εκφραστειτε"
+msgstr "Μιληστε"
 
 #: templates/includes/login.html:7
 msgid "Become an MDN member"
@@ -531,9 +531,10 @@ msgstr "Πριν ξεκινήσετε"
 msgid "Browse all demos"
 msgstr "Περιήγηση σε όλα τα demo"
 
+# Χωρίς τόνους λόγω του text-transform: uppercase στο CSS.
 #: apps/demos/templates/demos/elements/tags_list.html:2
 msgid "Browse by Technology"
-msgstr "Περιήγηση με βάση την τεχνολογία"
+msgstr "Περιηγηση με βαση την τεχνολογια"
 
 #: apps/landing/templates/landing/mozilla.html:102
 msgid "Bugzilla"
@@ -1002,9 +1003,10 @@ msgstr "GPL"
 msgid "Geolocation"
 msgstr "Γεωτοποθεσία"
 
+# Χωρίς τόνους λόγω του text-transform: uppercase στο CSS.
 #: apps/landing/templates/landing/home.html:218
 msgid "Get Started Today!"
-msgstr "Ξεκινήστε σήμερα κιόλας!"
+msgstr "Ξεκινηστε σημερα κιολας!"
 
 #: apps/landing/templates/landing/addons.html:53
 msgid "Get add-on development guidance in a top-notch collection of tutorials, articles, and more."
@@ -1014,9 +1016,10 @@ msgstr "Βρείτε οδηγίες για την ανάπτυξη πρόσθε�
 msgid "Get involved in the %(mobile_link)s, %(addons_link)s, & %(apps_link)s Developer Communities:"
 msgstr "Συμμετέχετε στις κοινότητες δημιουργών για %(mobile_link)s, %(addons_link)s, & %(apps_link)s:"
 
+# Χωρίς τόνους λόγω του text-transform: uppercase στο CSS.
 #: apps/demos/templates/demos/detail.html:213
 msgid "Get the Source Code"
-msgstr "Δείτε τον πηγαίο κώδικα"
+msgstr "Δειτε τον πηγαιο κωδικα"
 
 #: apps/landing/templates/landing/mobile.html:45
 msgid "Get the latest news, status and developer documentation on the Mozilla mobile project. Check out the mobile project's goals, and how you can help out and get involved!"
@@ -1214,9 +1217,10 @@ msgstr "Προσφατα σχολια για <span class=\"addons\">προσθε
 msgid "Latest <span class=\"addons\">Add-ons</span> Discussions from Our Forums:"
 msgstr "Προσφατες συζητησεις για <span class=\"addons\">προσθετα</span> απο τα φορουμ μας:"
 
+# Χωρίς τόνους λόγω του text-transform: uppercase στο CSS.
 #: apps/demos/templates/demos/detail.html:78
 msgid "Launch Demo"
-msgstr "Εκκίνηση demo"
+msgstr "Εκκινηση demo"
 
 #: apps/demos/templates/demos/elements/submission_thumb.html:20
 msgid "Launch {title}"
