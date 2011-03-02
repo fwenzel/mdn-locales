@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-03-02 06:12+0200\n"
-"PO-Revision-Date: 2011-03-02 04:02+0200\n"
+"PO-Revision-Date: 2011-03-02 17:07+0200\n"
 "Last-Translator: Inma <inmitabarrios@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -187,7 +187,7 @@ msgid ""
 "shapes and bitmap images."
 msgstr ""
 "El elemento canvas de HTML5 te permite representar dibujos con scripts de "
-"formas 2D e imágenes de mapas de bits"
+"formas 2D e imágenes de mapas de bits."
 
 #: apps/demos/__init__.py:69
 msgid "https://developer.mozilla.org/en/HTML/Canvas"
@@ -875,7 +875,7 @@ msgstr "Mantiene el tamaño del archivo por debajo de %s. Tamaño actual %s"
 
 #: apps/demos/models.py:296
 msgid "what is your demo's name?"
-msgstr "¿cómo se llama tu demo?"
+msgstr "¿Cómo se llama tu demo?"
 
 #: apps/demos/models.py:298
 msgid "slug"
@@ -927,7 +927,7 @@ msgstr "Captura de pantalla #5"
 
 #: apps/demos/models.py:349
 msgid "have a video of your demo in action? (optional)"
-msgstr "¿tienes un video de tu demo en acción? (opcional)"
+msgstr "¿Tienes un video de tu demo en acción? (opcional)"
 
 #: apps/demos/models.py:353
 msgid "select a ZIP file containing your demo"
@@ -1166,7 +1166,7 @@ msgstr "Comparte en Facebook"
 
 #: apps/demos/templates/demos/detail.html:114
 msgid "Built using"
-msgstr "Hecho utilizando"
+msgstr "Hecha utilizando"
 
 #: apps/demos/templates/demos/detail.html:116
 msgid "See more demos made with {tag_title}"
@@ -1239,7 +1239,7 @@ msgstr[1] "{comments_total} comentarios hasta ahora"
 
 #: apps/demos/templates/demos/detail.html:179
 msgid "<p>Why not <a href=\"#comment-post\">Add your own</a>?</p>"
-msgstr "<p>¿Por qué no <a href=\"#comment-post\">Agregas la tuya</a>?</p>"
+msgstr "<p>¿Por qué no <a href=\"#comment-post\">agregas el tuyo</a>?</p>"
 
 #: apps/demos/templates/demos/detail.html:183
 msgid ""
@@ -1479,7 +1479,7 @@ msgstr "Difunde tu demo"
 
 #: apps/demos/templates/demos/submit.html:107
 msgid "Provide at least one screenshot of your demo in action"
-msgstr "Proporcionar al menos una captura de pantalla de tu demo en acción"
+msgstr "Proporciona al menos una captura de pantalla de tu demo en acción"
 
 #: apps/demos/templates/demos/submit.html:116
 msgid "JPEG and PNG supported. Minimum size of 480x360."
@@ -1528,7 +1528,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/submit.html:138
 msgid "Provide the Source Code"
-msgstr "Proporcionar el código fuente"
+msgstr "Proporciona el código fuente"
 
 #: apps/demos/templates/demos/submit.html:139
 msgid ""
