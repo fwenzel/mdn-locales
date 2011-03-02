@@ -1384,12 +1384,13 @@ msgstr "Wiki για κινητά"
 msgid "Modified by %(author)s on %(updated)s"
 msgstr "Τροποποιήθηκε από τον/την %(author)s στις %(updated)s"
 
+# Χωρίς τόνους λόγω του css text-transform: uppercase.
 #: apps/landing/templates/landing/home.html:64
 #: apps/landing/templates/landing/home.html:78
 #: apps/landing/templates/landing/home.html:93
 #: apps/landing/templates/landing/home.html:108
 msgid "More"
-msgstr "Περισσότερα"
+msgstr "Περισσοτερα"
 
 #: apps/demos/templates/demos/detail.html:166
 msgid "More About This Demo From The Author"
@@ -1439,7 +1440,7 @@ msgstr "Mozilla Developer Network"
 
 #: apps/landing/templates/landing/home.html:56
 msgid "Mozilla and <a href=\"%(p2pu)s\">P2PU</a> are creating the <a href=\"%(p2pu_drumbeat)s\">School of Webcraft</a>, a powerful new way to teach and learn web developer skills. Classes are globally accessible, 100%% free, and powered entirely by learners, mentors and contributors like you people. Our goal: a vibrant, peer-led system that helps people around the world easily access and build careers on open web technology."
-msgstr "Η κοινότητα Mozilla και το <a href=\"%(p2pu)s\">P2PU</a>, δημιούργησαν το <a href=\"%(p2pu_drumbeat)s\">School of Webcraft</a>, μια νέα και παντοδύναμη προσέγγιση εκμάθησης και διδασκαλίας δεξιοτήτων ανάπτυξης για το διαδίκτυο. Η πρόσβαση στα μαθήματα είναι δυνατή από οποιοδήποτε μέρος του κόσμου, είναι 100%% δωρεάν και συμμετέχουν αποκλειστικά εθελοντές, καθηγητές και μαθητές όπως κι εσείς. Ο στόχος της προσπάθειας αυτής: να δημιουργήσει ένα ενεργητικό σύστημα αλληλοβοήθειας ώστε να διευκολύνει ανθρώπους απ' όλο τον κόσμο έχουν πρόσβαση στις ανοικτές τεχνολογίες του διαδικτύου και να κάνουν καριέρα πάνω τους."
+msgstr "Η κοινότητα Mozilla και το <a href=\"%(p2pu)s\">P2PU</a>, δημιούργησαν το <a href=\"%(p2pu_drumbeat)s\">School of Webcraft</a>, μια νέα πλατφόρμα εκμάθησης και διδασκαλίας ανάπτυξης για το διαδίκτυο. Η πρόσβαση στα μαθήματα είναι δυνατή από οποιοδήποτε μέρος του κόσμου, είναι 100%% δωρεάν και συμμετέχουν αποκλειστικά εθελοντές, καθηγητές και μαθητές όπως κι εσείς. Ο στόχος της είναι να δημιουργήσει ένα ενεργητικό σύστημα αλληλοβοήθειας, ώστε να διευκολύνει τους πάντες να έχουν πρόσβαση στις ανοικτές τεχνολογίες του διαδικτύου και να κάνουν καριέρα μ'αυτές."
 
 #: apps/landing/templates/landing/home.html:72
 msgid "Mozilla continues to lead the charge in the adoption of HTML5 and other evolving open Web technologies. Find out more about the <a href=\"%(devmo_html5)s\">HTML5 spec</a> and the latest enhancements in HTML5, CSS3 and other <a href=\"%(devmo_fx4dev)s\">developer features for Firefox 4</a>."
@@ -1596,7 +1597,7 @@ msgstr "Προσφατα νεα &amp; ενημερωσεις για <span class=
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mobile.html:181
 msgid "Recent <span class=\"mobile\">Mobile</span> News &amp; Updates"
-msgstr "Προσφατα νεα &amp; ενημερωσεις για<span class=\"mobile\">κινητα</span>"
+msgstr "Προσφατα νεα &amp; ενημερωσεις για <span class=\"mobile\">κινητα</span>"
 
 # Χωρίς τόνους λόγω του text-transform: uppercase στο CSS.
 #. Please escape HTML entities here, like &amp;
