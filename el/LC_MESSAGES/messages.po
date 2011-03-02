@@ -420,9 +420,10 @@ msgstr "Add-ons Builder [προέκδοση]"
 msgid "Addons Builder Preview"
 msgstr "Προέκδοση του Addons Builder"
 
+# https://developer-stage9.mozilla.org/el/demos/
 #: apps/landing/templates/landing/addons.html:111
 msgid "All add-on development tools"
-msgstr "Εργαλεία ανάπτυξης πρόσθετων"
+msgstr "Εργαλεια αναπτυξης προσθετων"
 
 # Χωρίς τόνους λόγω του text-transform: uppercase στο CSS.
 #: apps/landing/templates/landing/addons.html:68
@@ -503,10 +504,11 @@ msgstr "Audio"
 msgid "Auto-generate add-on packaging by entering basic info and picking UI parts. Get working without setup."
 msgstr "Πακετάρετε αυτόματα το πρόσθετο σας, δίνοντας βασικές πληροφορίες και επιλέγοντας κομμάτια του UI. Κάντε εύκολη τη δουλειά σας χωρίς πολλές ρυθμίσεις."
 
+# Χωρίς τόνους λόγω του text-transform: uppercase στο CSS.
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:38
 msgid "Awesome <span class=\"web\">Web</span> Demos"
-msgstr "Φοβερά demo για το <span class=\"web\">διαδίκτυο</span>"
+msgstr "Φοβερα demo για το <span class=\"web\">διαδικτυο</span>"
 
 #: apps/demos/__init__.py:280
 msgid "BSD"
@@ -895,15 +897,17 @@ msgstr "Δημοφιλη αρθρα για  <span class=\"mobile\">κινητα<
 msgid "Submit a Demo"
 msgstr "Υποβολη demo"
 
+# https://developer-stage9.mozilla.org/el/demos/
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:98
 msgid "Favorite <span class=\"mozilla\">Mozilla</span> Tools"
-msgstr "Δημοφιλή εργαλεία <span class=\"mozilla\">Mozilla</span>"
+msgstr "Δημοφιλη εργαλεια <span class=\"mozilla\">Mozilla</span>"
 
+# https://developer-stage9.mozilla.org/el/demos/
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:87
 msgid "Favorite <span class=\"web\">Web</span> Developer Tools"
-msgstr "Δημοφιλή εργαλεία για ανάπτυξη στο <span class=\"web\">διαδίκτυο</span>"
+msgstr "Δημοφιλη εργαλεια για αναπτυξη στο <span class=\"web\">διαδικτυο</span>"
 
 # Χωρίς τόνους λόγω του css text-transform: uppercase.
 #: apps/demos/templates/demos/home.html:39
@@ -1391,9 +1395,10 @@ msgstr "Περισσότερα"
 msgid "More About This Demo From The Author"
 msgstr "Περισσότερα σχετικά μ' αυτό το demo από το δημιουργό του"
 
+# https://developer-stage9.mozilla.org/el/demos/
 #: apps/docs/templates/docs/docs.html:112
 msgid "Most Active Docs"
-msgstr "Έγγραφα με την περισσότερη δραστηριότητα"
+msgstr "Εγγραφα με την περισσοτερη δραστηριοτητα"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:15
 msgid "Most Liked"
@@ -1535,10 +1540,11 @@ msgstr "Δημοφιλης τεκμηριωση για το <span class=\"web\">
 msgid "Popular Docs"
 msgstr "Δημοφιλη εγγραφα"
 
+# Χωρίς τόνους λόγω του text-transform: uppercase στο CSS.
 #. Please escape HTML entities here, like &amp;
 #: apps/docs/templates/docs/docs.html:28
 msgid "Popular Topics for <span class=\"web\">Web</span> Developers"
-msgstr "Δημοφιλή θέματα για δημιουργούς <span class=\"web\">διαδικτύου</span>"
+msgstr "Δημοφιλη θεματα για δημιουργους <span class=\"web\">διαδικτυου</span>"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:19
 msgid "Posted <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime=\"%(comment_isotime)s\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
@@ -1596,7 +1602,7 @@ msgstr "Προσφατα νεα &amp; ενημερωσεις για<span class=\
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:116
 msgid "Recent <span class=\"mozilla\">Mozilla</span> News &amp; Updates"
-msgstr "Προσφατες ενημερωσεις &amp; νεα από το εργο <span class=\"mozilla\">Mozilla</span>"
+msgstr "Προσφατες ενημερωσεις &amp; νεα απο το εργο <span class=\"mozilla\">Mozilla</span>"
 
 # Χωρίς τόνους λόγω του text-transform: uppercase στο CSS.
 #. Please escape HTML entities here, like &amp;
