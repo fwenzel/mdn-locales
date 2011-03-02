@@ -809,7 +809,7 @@ msgstr "Θέλετε να δείξτε στον κόσμο τι μπορεί ν�
 #: templates/base.html:77
 #: templates/base_compact.html:26
 msgid "Doc Center"
-msgstr "Κεντρο τεκμηριωσης"
+msgstr "Εγγραφα"
 
 #: apps/docs/templates/docs/docs.html:124
 msgid "Doc Of The Day"
