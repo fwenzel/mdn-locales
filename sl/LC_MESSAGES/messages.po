@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-03-02 06:13+0200\n"
-"PO-Revision-Date: 2011-03-02 16:49+0200\n"
-"Last-Translator: Matjaž <m@owca.info>\n"
+"PO-Revision-Date: 2011-03-03 05:41+0200\n"
+"Last-Translator: Vito <smolejv@gmx.net>\n"
 "Language-Team: sl\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -2486,9 +2486,9 @@ msgid ""
 "Learn more about <a href=\"%(devmo_mobile)s\">Fennec</a> and mobile-specific "
 "technologies like <a href=\"%(devmo_geo)s\">geolocation</a>.</p>"
 msgstr ""
-"Preberite več o <a href=\"%(devmo_mobile)s\">Fennec</a> in konkretni "
-"tehnologiji za mobilne naprave, kot je na primer<a href=%"
-"(devmo_geo)s\">geolokacija</a> . </p>"
+"Preberite več o <a href=\"%(devmo_mobile)s\"><a href=\"%"
+"(devmo_geo)s\">Fennec</a> in konkretni tehnologiji za mobilne naprave, kot je "
+"na primer<a href=\"%(devmo_geo)s\">geolokacija</a>.</p>"
 
 #: apps/landing/templates/landing/home.html:140
 msgid ""
@@ -2752,7 +2752,7 @@ msgstr "Dostop do Android API na tej strani za razvijalce za Android."
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mobile.html:181
 msgid "Recent <span class=\"mobile\">Mobile</span> News &amp; Updates"
-msgstr "Nedavne <span class=\\\"mobile\\\">Mobilne</span> novice in posodobitve"
+msgstr "Nedavne <span class=\"mobile\">Mobilne</span> novice in posodobitve"
 
 #: apps/landing/templates/landing/mobile.html:186
 msgid "All mobile development entries"
@@ -2772,9 +2772,8 @@ msgstr "Pridružite se razpravam Mozille!"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:38
-#, fuzzy
 msgid "Popular <span class=\"mozilla\">Mozilla</span> Documentation"
-msgstr "Priljubljena dokumentacija <span class=\"addons\">Mozille</span>"
+msgstr "Priljubljena dokumentacija <span class=\"mozilla\">Mozille</span>"
 
 #: apps/landing/templates/landing/mozilla.html:43
 #, fuzzy
@@ -2857,9 +2856,8 @@ msgstr "Vse aplikacije razvojna dokumentacija"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:98
-#, fuzzy
 msgid "Favorite <span class=\"mozilla\">Mozilla</span> Tools"
-msgstr "Priljubljena orodja <span class=\\\"moz\\\">Mozille</span>"
+msgstr "Priljubljena orodja <span class=\"mozilla\">Mozille</span>"
 
 #: apps/landing/templates/landing/mozilla.html:102
 msgid "Bugzilla"
@@ -2883,9 +2881,8 @@ msgstr "Vsa orodja za razvoj aplikacij"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mozilla.html:116
-#, fuzzy
 msgid "Recent <span class=\"mozilla\">Mozilla</span> News &amp; Updates"
-msgstr "Nedavne novice in posodobitve<span class=\"moz\">Mozille</span> "
+msgstr "Nedavne novice in posodobitve<span class=\"mozilla\">Mozille</span> "
 
 #: apps/landing/templates/landing/mozilla.html:121
 msgid "All application development entries"
@@ -2953,7 +2950,7 @@ msgstr ""
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:60
 msgid "Popular <span class=\"web\">Web</span> Documentation"
-msgstr "Priljubljena span class=\"web\">spletna</span> dokumentacija "
+msgstr "Priljubljena <span class=\"web\">spletna</span> dokumentacija"
 
 #: apps/landing/templates/landing/web.html:66
 msgid ""
@@ -3097,7 +3094,7 @@ msgstr ""
 msgid ""
 "Content is available under <a href=\"%(copyright_url)s\">these licenses</a>"
 msgstr ""
-"Vsebina je na voljo pod okriljem <a href=\\\"%(copyright_url)s\\\">različnih "
+"Vsebina je na voljo pod okriljem <a href=\"%(copyright_url)s\">različnih "
 "dovoljenj</a>"
 
 #: templates/base.html:110
