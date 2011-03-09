@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-02-14 15:03+0200\n"
-"PO-Revision-Date: 2011-02-16 22:01+0200\n"
+"PO-Revision-Date: 2011-03-09 23:00+0200\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fy\n"
@@ -322,12 +322,21 @@ msgid ""
 "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other "
 "web developers.</p>"
 msgstr ""
+"<p>Oft jo no in prachtich nije manier om it ynternet te ûntdekken meitsje of "
+"allinnich eksperimintearet mei de lêste technologyën, wy noegje dy út om jo "
+"eigen demos yn te stjoeren om te dielen mei (of te showen oan) oare "
+"webûntwikkelers.</p>"
 
 #: apps/demos/templates/demos/submit.html:67
 msgid ""
 "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other "
 "web developers.</p> <p>Please complete the form below to ensure your demo is submitted to the Demo Studio successfully.</p>"
 msgstr ""
+"<p>Oft jo no in prachtich nije manier om it ynternet te ûntdekken meitsje of "
+"allinnich eksperimintearet mei de lêste technologyën, wy noegje dy út om jo "
+"eigen demos yn te stjoeren om te dielen mei (of te showen oan) oare "
+"webûntwikkelers.</p> <p>Meitsje it formulier hjirûnder kompleet om wis te "
+"wêzen dat dyn demo suksesfol ferstjoerd is nei de Demo Studio.</p>"
 
 #: apps/demos/templates/demos/detail.html:179
 msgid "<p>Why not <a href=\"#comment-post\">Add your own</a>?</p>"
@@ -347,6 +356,13 @@ msgid ""
 "<strong>open license</strong>, such as MPL, GPL, or BSD.</li> <li>Your demo should showcase <strong>open web technologies</strong>, such as HTML5 and CSS3.</li> <li>Your demo should support a wide "
 "range of <strong>modern web browsers</strong>, like Firefox, Chrome, Safari, and Opera.</li> </ul>"
 msgstr ""
+"<ul> <li>Do moast ree wêze om <strong>de boarnekoade te jaan</strong> foar "
+"dyn demo. Demos wurde host op de Demo Studio har tsjinners.</li> <li>De "
+"boarnekoade fan dyn demo moat beskikber wêze ûnder in <strong>iepen "
+"lisinsje</strong>, lykas MPL, GPL, of BSD.</li> <li>Dyn demo moat foarbylden "
+"jaan fan <strong>iepen webtechnologyën</strong>, lykas HTML5 en CSS3.</li> "
+"<li>Dyn demo moat in grut ferskaat fan <strong>moderne webbrowsers</strong> "
+"stypje, lykas Firefox, Chrome, Safari, en Opera.</li> </ul>"
 
 #: apps/demos/templates/demos/submit_noauth.html:53
 msgid ""
@@ -366,31 +382,35 @@ msgstr ""
 
 #: apps/landing/templates/landing/mozilla.html:107
 msgid "A Mozilla source tree browser."
-msgstr ""
+msgstr "In Mozilla boarne tree browser."
 
 #: apps/docs/templates/docs/docs.html:60
 msgid "A comprehensive list of terms to help Web developers find the documentation they need."
 msgstr ""
+"In wiidweidige list fan termen om webûntwikkelers te helpen mei it finen fan "
+"de nedige dokumintaasje."
 
 #: templates/base.html:49
 msgid "A comprehensive, usable, and accurate resource for everyone developing for the Open Web."
 msgstr ""
+"In wiidweidige, brûkbere en akkurate boarne foar elkenien dy't ûntwikkelt "
+"foar it iepen ynternet."
 
 #: apps/landing/templates/landing/web.html:70
 msgid "A great resource for anyone working with JS."
-msgstr ""
+msgstr "In grutte boarne foar elkenien dy't wurket mei JS."
 
 #: apps/docs/templates/docs/docs.html:52 apps/docs/templates/docs/glossary.html:11
 msgid "AJAX"
-msgstr ""
+msgstr "AJAX"
 
 #: apps/docs/templates/docs/docs.html:88
 msgid "AMO Developer Hub"
-msgstr ""
+msgstr "AMO Untwikkeler Hub"
 
 #: apps/landing/templates/landing/addons.html:56
 msgid "API & Language Reference"
-msgstr ""
+msgstr "API & Taalreferinsje"
 
 #: templates/base.html:110
 msgid "About MDN"
@@ -2043,7 +2063,7 @@ msgstr ""
 #: apps/demos/__init__.py:148 apps/demos/__init__.py:158 apps/demos/__init__.py:168 apps/demos/__init__.py:178 apps/demos/__init__.py:188 apps/demos/__init__.py:198 apps/demos/__init__.py:208
 #: apps/demos/__init__.py:218 apps/demos/__init__.py:228 apps/demos/__init__.py:238 apps/demos/__init__.py:248 apps/demos/__init__.py:258
 msgid "Wikipedia Article"
-msgstr "Wikipedia Artikel"
+msgstr "Wikipedia-Artikel"
 
 #: apps/landing/templates/landing/newsfeed.html:12
 msgid "Written by %(authorlink)s on %(entrydate)s"
