@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-03-02 13:03+0200\n"
-"PO-Revision-Date: 2011-03-07 10:03+0200\n"
+"PO-Revision-Date: 2011-03-11 22:52+0200\n"
 "Last-Translator: Tim Maks <thunderbird-nl@planet.nl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -259,7 +259,7 @@ msgstr "http://www.w3.org/TR/FileAPI/"
 
 #: apps/demos/__init__.py:104
 msgid "Fonts & Type"
-msgstr ""
+msgstr "Lettertypen"
 
 #: apps/demos/__init__.py:105
 msgid ""
@@ -293,6 +293,9 @@ msgid ""
 "mark-up than HTML4 and remove a great deal of the need for tedious scripting "
 "and styling that was required in HTML4."
 msgstr ""
+"Formulier-elementen en attributen in HTML5 bieden een grotere mate van "
+"semantische mark-up dan HTML4 en voorkomt het gebruik van vervelende scrips "
+"en vormgeving dat nodig was in HTML4."
 
 #: apps/demos/__init__.py:117
 msgid "https://developer.mozilla.org/en/HTML/HTML5/Forms_in_HTML5"
@@ -316,6 +319,8 @@ msgid ""
 "The Geolocation API allows web applications to access the user's "
 "geographical location."
 msgstr ""
+"De Geolocation API maakt het mogelijk voor webapplicaties om toegang tot de "
+"gebruiker geografische locatie krijgen."
 
 #: apps/demos/__init__.py:127
 msgid "https://developer.mozilla.org/En/Using_geolocation"
@@ -343,6 +348,9 @@ msgid ""
 "used for scripting interactive behavior on web pages and in web "
 "applications."
 msgstr ""
+"JavaScript is een lichtgewicht, object-georiënteerde programmeertaal, die "
+"wordt gebruikt voor uitvoeren interactief gedrag op webpagina's en in "
+"webapplicaties."
 
 # 75%
 #: apps/demos/__init__.py:137
@@ -1054,26 +1062,26 @@ msgstr "Deze reactie verwijderen?"
 
 #: apps/demos/templates/demos/delete_comment.html:39
 msgid "<p>Are you sure that you would like to delete this comment?</p>"
-msgstr ""
+msgstr "<p>Weet u zeker dat u deze reactie wilt verwijderen?</ p>"
 
 #: apps/demos/templates/demos/delete_comment.html:51
 msgid "Delete comment"
-msgstr ""
+msgstr "Reactie verwijderen"
 
 #: apps/demos/templates/demos/detail.html:23
 #: apps/demos/templates/demos/launch.html:58
 msgid "Go to the previous demo, {demo_title}"
-msgstr ""
+msgstr "Ga naar de vorige demo, {demo_title}"
 
 #: apps/demos/templates/demos/detail.html:23
 #: apps/demos/templates/demos/launch.html:58
 msgid "Prev"
-msgstr ""
+msgstr "Vorige"
 
 #: apps/demos/templates/demos/detail.html:27
 #: apps/demos/templates/demos/launch.html:62
 msgid "Go to the next demo, {demo_title}"
-msgstr ""
+msgstr "Ga naar de volgende demo, {demo_title}"
 
 #: apps/demos/templates/demos/detail.html:27
 #: apps/demos/templates/demos/detail.html:133
@@ -1081,101 +1089,102 @@ msgstr ""
 #: apps/demos/templates/demos/launch.html:62
 #: apps/demos/templates/demos/elements/submission_listing.html:59
 msgid "Next"
-msgstr ""
+msgstr "Volgende"
 
 #: apps/demos/templates/demos/detail.html:43
 msgid "by %(creator_link)s on %(create_date)s"
-msgstr ""
+msgstr "door %(creator_link)s op %(create_date)s"
 
 #: apps/demos/templates/demos/detail.html:53
 msgid "Edit Demo"
-msgstr ""
+msgstr "Demo bewerken"
 
 #: apps/demos/templates/demos/detail.html:63
 msgid "Show demo"
-msgstr ""
+msgstr "Demo tonen"
 
 #: apps/demos/templates/demos/detail.html:66
 msgid "Hide demo"
-msgstr ""
+msgstr "Demo verbergen"
 
 #: apps/demos/templates/demos/detail.html:78
 msgid "Launch Demo"
-msgstr ""
+msgstr "Demo starten"
 
 #: apps/demos/templates/demos/detail.html:85
 #: apps/demos/templates/demos/launch.html:34
 msgid "You like this demo. Undo?"
-msgstr ""
+msgstr "Deze demo bevalt u. Ongedaan maken?"
 
 #: apps/demos/templates/demos/detail.html:85
 #: apps/demos/templates/demos/launch.html:34
 msgid "You Like"
-msgstr ""
+msgstr "Bevalt"
 
 #: apps/demos/templates/demos/detail.html:90
 #: apps/demos/templates/demos/launch.html:39
 msgid "Do you like this demo?"
-msgstr ""
+msgstr "Bevalt deze demo?"
 
 #: apps/demos/templates/demos/detail.html:90
 #: apps/demos/templates/demos/launch.html:39
 msgid "Like It"
-msgstr ""
+msgstr "Bevalt het"
 
 #: apps/demos/templates/demos/detail.html:95
 #: apps/demos/templates/demos/launch.html:43
 msgid "Share this demo with your social network"
-msgstr ""
+msgstr "Deel deze demo met je sociale netwerk"
 
 #: apps/demos/templates/demos/detail.html:99
 #: apps/demos/templates/demos/launch.html:43
 msgid "Share It"
-msgstr ""
+msgstr "Deel het"
 
 #: apps/demos/templates/demos/detail.html:100
 #: apps/demos/templates/demos/launch.html:47
 msgid "Share on Twitter"
-msgstr ""
+msgstr "Delen op Twitter"
 
 #: apps/demos/templates/demos/detail.html:101
 #: apps/demos/templates/demos/launch.html:48
 msgid "Share on Facebook"
-msgstr ""
+msgstr "Delen op Facebook"
 
 #: apps/demos/templates/demos/detail.html:114
 msgid "Built using"
-msgstr ""
+msgstr "Gebouwd met behulp van"
 
 #: apps/demos/templates/demos/detail.html:116
 msgid "See more demos made with {tag_title}"
-msgstr ""
+msgstr "Bekijk meer demo's gemaakt met {tag_title}"
 
 #: apps/demos/templates/demos/detail.html:124
 #: apps/demos/templates/demos/elements/submission_thumb.html:15
 msgid "This demo has been viewed {count} time"
 msgid_plural "This demo has been viewed {count} times"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Deze demo is {count} keer bekeken "
+msgstr[1] "Deze demo is {count} keer bekeken"
 
 #: apps/demos/templates/demos/detail.html:124
 msgid "{count} view"
 msgid_plural "{count} views"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{Count} keer bekeken"
+msgstr[1] "{Count} keer bekeken"
 
 #: apps/demos/templates/demos/detail.html:125
 #: apps/demos/templates/demos/elements/submission_thumb.html:16
 msgid "{count} person liked this demo"
 msgid_plural "{count} people liked this demo"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{Count} persoon beviel deze demo"
+msgstr[1] "{Count} mensen beviel deze demo"
 
 #: apps/demos/templates/demos/detail.html:125
+#, fuzzy
 msgid "{count} like"
 msgid_plural "{count} likes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{count} bevalt"
+msgstr[1] "{count} bevallen"
 
 #: apps/demos/templates/demos/detail.html:126
 #: apps/demos/templates/demos/elements/submission_thumb.html:17
