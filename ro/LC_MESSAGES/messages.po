@@ -31,11 +31,11 @@ msgstr "\"HTML5 is Great for Mobile, Developers Say\""
 
 #: apps/landing/templates/sidebar/twitter.html:9
 msgid "%(author)s from %(section)s says:"
-msgstr "%(author)s from %(section)s says:"
+msgstr "%(author)s de la %(section)s spune:"
 
 #: apps/landing/templates/landing/discussions.html:6
 msgid "%(authorlink)s wrote %(summary)s"
-msgstr "%(authorlink)s wrote %(summary)s"
+msgstr "%(authorlink)s a scris %(summary)s"
 
 #: apps/demos/helpers.py:228
 msgid "%(number)d %(type)s"
@@ -89,7 +89,7 @@ msgstr "%s's MDN demos"
 
 #: apps/docs/views.py:33
 msgid "(multiple)"
-msgstr "(multiple)"
+msgstr "(multiplu)"
 
 #: apps/docs/templates/docs/docs.html:52
 #: apps/docs/templates/docs/glossary.html:11
@@ -387,7 +387,7 @@ msgstr "API & Language Reference"
 
 #: templates/base.html:110
 msgid "About MDN"
-msgstr "About MDN"
+msgstr "Despre MDN"
 
 #: apps/landing/templates/landing/mobile.html:170
 msgid "Access Android APIs on this Android Developer page."
@@ -395,7 +395,7 @@ msgstr "Access Android APIs on this Android Developer page."
 
 #: apps/demos/templates/demos/detail.html:200
 msgid "Add your comment"
-msgstr "Add your comment"
+msgstr "Lasă comentariul tău"
 
 #: apps/landing/templates/landing/addons.html:104
 msgid "Add-on Packager"
@@ -414,7 +414,7 @@ msgstr "Add-on Validator"
 #: templates/base.html:72
 #: templates/base_compact.html:24
 msgid "Add-ons"
-msgstr "Add-ons"
+msgstr "Suplimente"
 
 #: apps/docs/templates/docs/docs.html:91
 #, fuzzy
@@ -530,7 +530,7 @@ msgstr "Become an MDN member"
 
 #: apps/demos/templates/demos/submit_noauth.html:40
 msgid "Before You Begin"
-msgstr "Before You Begin"
+msgstr "Înainte de a începe"
 
 #: apps/demos/templates/demos/listing_all.html:5
 #: apps/demos/templates/demos/listing_all.html:19
@@ -548,7 +548,7 @@ msgstr "Bugzilla"
 
 #: apps/landing/templates/landing/addons.html:82
 msgid "Build Add-on in 5 Minutes"
-msgstr "Build Add-on in 5 Minutes"
+msgstr "Crează un supliment în 5 minute"
 
 #: apps/landing/templates/landing/mobile.html:53
 msgid "Build Great Mobile Add-ons"
@@ -577,9 +577,8 @@ msgid "CSS Transforms"
 msgstr "CSS Transforms"
 
 #: apps/demos/__init__.py:76
-#, fuzzy
 msgid "CSS3"
-msgstr "CSS"
+msgstr "CSS3"
 
 #: apps/demos/templates/demos/delete.html:49
 #: apps/demos/templates/demos/delete_comment.html:52
@@ -610,7 +609,7 @@ msgstr "Cascading Style Sheets."
 
 #: apps/landing/templates/landing/addons.html:64
 msgid "Case Studies"
-msgstr "Case Studies"
+msgstr "Studii de caz"
 
 #: apps/landing/templates/landing/addons.html:109
 msgid "Check your add-on for common problems and errors. Open to anyone, not just add-ons hosted here."
@@ -622,9 +621,8 @@ msgstr "Close"
 
 #: apps/demos/templates/demos/detail.html:202
 #: apps/demos/templates/demos/elements/comments_tree.html:50
-#, fuzzy
 msgid "Comment"
-msgstr "Community"
+msgstr "Comentariu"
 
 #: apps/landing/templates/landing/addons.html:61
 msgid "Complete documentation for developing extensions for Mozilla applications."
@@ -661,7 +659,7 @@ msgstr "Correspondence on Twitter from the Web developer community."
 
 #: apps/demos/templates/demos/submit_noauth.html:70
 msgid "Create an Account"
-msgstr "Create an Account"
+msgstr "Creați un cont"
 
 #: apps/landing/templates/landing/home.html:196
 msgid "Creating extensions, themes, and plug-ins for Firefox and Thunderbird."
@@ -707,7 +705,7 @@ msgstr "Delete comment"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:40
 msgid "Delete this comment"
-msgstr "Delete this comment"
+msgstr "Șterge acest comentariu"
 
 #: apps/demos/templates/demos/delete_comment.html:38
 msgid "Delete this comment?"
@@ -728,9 +726,8 @@ msgstr "Delete this comment?"
 #: apps/landing/templates/landing/web.html:47
 #: templates/base.html:78
 #: templates/base_compact.html:18
-#, fuzzy
 msgid "Demo Studio"
-msgstr "Case Studies"
+msgstr "Demo Studio"
 
 #: apps/demos/templates/demos/detail.html:253
 msgid "Demo is inappropriate"
@@ -791,7 +788,7 @@ msgstr "Help build Firefox for Mobile"
 
 #: apps/demos/__init__.py:86
 msgid "Device"
-msgstr "Device"
+msgstr "Dispozitiv"
 
 #: apps/demos/models.py:313
 msgid "Disable navigation bar, launch demo in a new window"
@@ -826,7 +823,7 @@ msgstr "Doc Of The Day"
 
 #: apps/landing/templates/landing/home.html:120
 msgid "Docs"
-msgstr "Docs"
+msgstr "Documente"
 
 #. Label used before a list of links to download the video
 #: templates/includes/video_player.html:5
@@ -912,9 +909,8 @@ msgid "Featured demos"
 msgstr "Featured demos"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:65
-#, fuzzy
 msgid "Feed"
-msgstr "Fennec"
+msgstr "Flux"
 
 #: apps/landing/templates/landing/mobile.html:119
 msgid "Fennec"
@@ -947,9 +943,8 @@ msgid "Firefox Mobile for developers"
 msgstr "Firefox Mobile for developers"
 
 #: apps/landing/templates/landing/mobile.html:103
-#, fuzzy
 msgid "Firefox Sync"
-msgstr "Firefox 4 Beta"
+msgstr "Firefox Sync"
 
 #: apps/landing/templates/landing/mobile.html:140
 msgid "Firefox for mobile: What's coming next"
@@ -985,23 +980,21 @@ msgid "Form elements and attributes in HTML5 provide a greater degree of semanti
 msgstr "Form elements and attributes in HTML5 provide a greater degree of semantic mark-up than HTML4 and remove a great deal of the need for tedious scripting and styling that was required in HTML4."
 
 #: apps/demos/__init__.py:114
-#, fuzzy
 msgid "Forms"
-msgstr "Forums"
+msgstr "Formulare"
 
 #: templates/base.html:79
 #: templates/base_compact.html:27
 msgid "Forums"
-msgstr "Forums"
+msgstr "Forumuri"
 
 #: apps/demos/__init__.py:274
 msgid "GPL"
 msgstr "GPL"
 
 #: apps/demos/__init__.py:124
-#, fuzzy
 msgid "Geolocation"
-msgstr "Using geolocation"
+msgstr "Geolocație"
 
 #: apps/landing/templates/landing/home.html:218
 msgid "Get Started Today!"
@@ -1056,9 +1049,8 @@ msgstr "Go to the previous page"
 #: apps/docs/templates/docs/docs.html:32
 #: apps/docs/templates/docs/glossary.html:4
 #: apps/landing/templates/landing/home.html:177
-#, fuzzy
 msgid "HTML"
-msgstr "HTML5"
+msgstr "HTML"
 
 #: apps/demos/models.py:521
 msgid "HTML index not found in ZIP"
@@ -1088,7 +1080,7 @@ msgstr "Hear from other developers about the advantages of HTML5 and developing 
 
 #: templates/base.html:112
 msgid "Help"
-msgstr "Help"
+msgstr "Ajutor"
 
 #: apps/landing/templates/landing/mobile.html:77
 msgid "Help build Firefox for Mobile"
@@ -1229,7 +1221,7 @@ msgstr "Launch {title}"
 
 #: apps/demos/templates/demos/listing_tag.html:39
 msgid "Learn More"
-msgstr "Learn More"
+msgstr "Aflați mai multe"
 
 #: apps/landing/templates/landing/mobile.html:69
 msgid "Learn how to use the <a href=\"%(geo_url)s\">Geolocation API</a> and put people on the right path. Location-Aware Browsing is a must when you're out and about on your mobile. Learn how to build innovative apps that delight your audience."
@@ -1259,7 +1251,7 @@ msgstr "Like It"
 #: apps/docs/templates/docs/docs.html:101
 #: apps/landing/templates/landing/mozilla.html:81
 msgid "Localization"
-msgstr "Localization"
+msgstr "Localizare"
 
 #: apps/landing/templates/landing/mozilla.html:83
 msgid "Localization (L10n) is the process of translating software user interfaces from one language to another and adapting it to suit a foreign culture. These resources are about making Mozilla-based applications/extensions localizable."
@@ -1277,13 +1269,12 @@ msgstr "Log In to Account"
 #: apps/landing/templates/landing/home.html:24
 #: templates/includes/login.html:6
 msgid "Log in"
-msgstr "Log in"
+msgstr "Autentificare"
 
 #: templates/includes/login.html:3
 #: templates/includes/login.html:10
-#, fuzzy
 msgid "Log out"
-msgstr "Log in"
+msgstr "Deautentificare"
 
 #: apps/demos/templates/demos/delete.html:20
 #: apps/demos/templates/demos/delete_comment.html:20
@@ -1345,7 +1336,7 @@ msgstr "MDN featured demos"
 
 #: apps/landing/templates/sidebar/twitter.html:3
 msgid "MDN on Twitter"
-msgstr "MDN on Twitter"
+msgstr "MDN pe Twitter"
 
 #: apps/demos/feeds.py:154
 msgid "MDN recent demos"
@@ -1381,12 +1372,11 @@ msgstr "Media queries and orientation events let authors adjust their layout on 
 #: templates/base.html:71
 #: templates/base_compact.html:23
 msgid "Mobile"
-msgstr "Mobile"
+msgstr "Mobil"
 
 #: apps/landing/templates/landing/mobile.html:43
-#, fuzzy
 msgid "Mobile Wiki"
-msgstr "Mobile"
+msgstr "Mobile Wiki"
 
 #: apps/docs/templates/docs/docs.html:129
 msgid "Modified by %(author)s on %(updated)s"
@@ -1397,7 +1387,7 @@ msgstr "Modified by %(author)s on %(updated)s"
 #: apps/landing/templates/landing/home.html:93
 #: apps/landing/templates/landing/home.html:108
 msgid "More"
-msgstr "More"
+msgstr "Mai mult"
 
 #: apps/demos/templates/demos/detail.html:166
 msgid "More About This Demo From The Author"
@@ -1427,19 +1417,16 @@ msgstr "Most Viewed"
 #: apps/landing/templates/landing/mozilla.html:17
 #: templates/base.html:73
 #: templates/base_compact.html:25
-#, fuzzy
 msgid "Mozilla"
-msgstr "Bugzilla"
+msgstr "Mozilla"
 
 #: apps/demos/templates/demos/home.html:22
-#, fuzzy
 msgid "Mozilla Demo Studio"
-msgstr "Mozilla Developer Network"
+msgstr "Mozilla Demo Studio"
 
 #: apps/landing/templates/landing/mozilla.html:43
-#, fuzzy
 msgid "Mozilla Developer Guide"
-msgstr "Mozilla Developer Network"
+msgstr "Mozilla Developer Guide"
 
 #: apps/demos/templates/demos/launch.html:21
 #: templates/base.html:4
@@ -1473,7 +1460,7 @@ msgstr "New to MDN?"
 
 #: apps/landing/templates/landing/home.html:116
 msgid "News & Updates"
-msgstr "News & Updates"
+msgstr "Știri & Noutăți"
 
 #: apps/demos/templates/demos/detail.html:27
 #: apps/demos/templates/demos/detail.html:133
@@ -1481,16 +1468,16 @@ msgstr "News & Updates"
 #: apps/demos/templates/demos/launch.html:62
 #: apps/demos/templates/demos/elements/submission_listing.html:59
 msgid "Next"
-msgstr "Next"
+msgstr "Următor"
 
 #: apps/demos/templates/demos/detail.html:174
 msgid "No comments yet."
-msgstr "No comments yet."
+msgstr "Fără comentarii."
 
 #: templates/404.html:3
 #: templates/404.html:5
 msgid "Not Found"
-msgstr "Not Found"
+msgstr "Nu a fost găsit"
 
 #: apps/demos/__init__.py:184
 msgid "Offline Support"
@@ -1502,7 +1489,7 @@ msgstr "Offline caching of web applications' resources using the application cac
 
 #: templates/includes/lang_switcher.html:2
 msgid "Other languages:"
-msgstr "Other languages:"
+msgstr "Alte limbi:"
 
 #: apps/landing/templates/landing/home.html:207
 #, fuzzy
@@ -1519,7 +1506,7 @@ msgstr "Please keep filesize under %s. Current filesize %s"
 
 #: apps/docs/templates/docs/docs.html:90
 msgid "Plugins"
-msgstr "Plugins"
+msgstr "Module"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/addons.html:38
@@ -1568,13 +1555,13 @@ msgstr "Preparing Your Demo"
 #: apps/demos/templates/demos/detail.html:23
 #: apps/demos/templates/demos/launch.html:58
 msgid "Prev"
-msgstr "Prev"
+msgstr "Ant"
 
 #: apps/demos/templates/demos/detail.html:132
 #: apps/demos/templates/demos/home.html:43
 #: apps/demos/templates/demos/elements/submission_listing.html:56
 msgid "Previous"
-msgstr "Previous"
+msgstr "Anterior"
 
 #: apps/demos/templates/demos/submit.html:107
 msgid "Provide at least one screenshot of your demo in action"
@@ -1696,14 +1683,12 @@ msgstr "Screenshot #5"
 #: apps/demos/templates/demos/elements/search_form.html:6
 #: apps/docs/templates/docs/docs.html:18
 #: templates/base.html:60
-#, fuzzy
 msgid "Search"
-msgstr "Search Results"
+msgstr "Căutare"
 
 #: templates/base.html:59
-#, fuzzy
 msgid "Search MDN"
-msgstr "Search Results"
+msgstr "Căutare MDN"
 
 #: apps/docs/templates/docs/docs.html:17
 msgid "Search MDN Documentation"
@@ -1741,7 +1726,7 @@ msgstr "Search the Demo Studio"
 
 #: apps/docs/templates/docs/glossary.html:22
 msgid "Security"
-msgstr "Security"
+msgstr "Securitate"
 
 #: apps/landing/templates/landing/mobile.html:108
 msgid "See Ragavan demo Firefox Sync on his Android phone. Learn about purpose and goals behind the development of Firefox Sync."
@@ -1917,7 +1902,7 @@ msgstr "Terms for Contributors"
 
 #: apps/demos/templates/demos/terms.html:21
 msgid "Terms of Use"
-msgstr "Terms of Use"
+msgstr "Termeni de utilizare"
 
 #: apps/landing/templates/landing/home.html:86
 #, fuzzy
@@ -1993,7 +1978,7 @@ msgstr "The scripting language that powers modern web applications."
 
 #: apps/docs/templates/docs/docs.html:92
 msgid "Themes"
-msgstr "Themes"
+msgstr "Teme"
 
 #: apps/landing/templates/landing/mozilla.html:63
 msgid "There are several ways you can use Mozilla code in your own project. Find everything you need to develop \"powered by Mozilla\" applications."
@@ -2040,7 +2025,7 @@ msgstr "This was not created by the author"
 
 #: apps/demos/helpers.py:362
 msgid "Today at %s"
-msgstr "Today at %s"
+msgstr "Astăzi  la %s"
 
 #: apps/demos/__init__.py:255
 msgid "Track the movement of the user's finger on a touch screen, monitoring the raw touch events generated by the system."
@@ -2150,9 +2135,8 @@ msgid "Web"
 msgstr "Web"
 
 #: apps/landing/templates/landing/web.html:43
-#, fuzzy
 msgid "Web O' Wonder"
-msgstr "Web Workers"
+msgstr "Web O' Wonder"
 
 #: apps/docs/templates/docs/glossary.html:14
 msgid "Web Storage"
@@ -2173,9 +2157,8 @@ msgid "WebGL"
 msgstr "WebGL"
 
 #: apps/demos/__init__.py:224
-#, fuzzy
 msgid "WebSockets"
-msgstr "Web Workers"
+msgstr "WebSockets"
 
 #: apps/demos/__init__.py:225
 msgid "WebSockets is a technology that makes it possible to open an interactive communication session between the user's browser and a server."
@@ -2184,12 +2167,11 @@ msgstr "WebSockets is a technology that makes it possible to open an interactive
 #: templates/includes/login.html:2
 #: templates/includes/login.html:9
 msgid "Welcome back"
-msgstr "Welcome back"
+msgstr "Bine ați venit înapoi"
 
 #: apps/landing/templates/landing/addons.html:16
-#, fuzzy
 msgid "Welcome to the Add-ons Developer Community:"
-msgstr "Correspondence on Twitter from the Add-ons developer community."
+msgstr "Bine ați venit în comunitatea dezvoltatorilor de suplimente."
 
 #: apps/landing/templates/landing/mobile.html:16
 #, fuzzy
@@ -2197,9 +2179,8 @@ msgid "Welcome to the Mobile Developer Community:"
 msgstr "Welcome to the Mozilla Developer Network, a.k.a.:"
 
 #: apps/landing/templates/landing/mozilla.html:16
-#, fuzzy
 msgid "Welcome to the Mozilla Developer Community:"
-msgstr "Welcome to the Mozilla Developer Network, a.k.a.:"
+msgstr "Bine ați venit în comunitatea dezvoltatorilor Mozilla:"
 
 #. a.k.a. stands for 'also known as'. Followed by 'DEVMO'.
 #: apps/landing/templates/landing/home.html:10
@@ -2243,7 +2224,7 @@ msgstr "Why Sync up, Security and More"
 #: apps/demos/__init__.py:248
 #: apps/demos/__init__.py:258
 msgid "Wikipedia Article"
-msgstr "Wikipedia Article"
+msgstr "Articol Wikipedia"
 
 #: apps/landing/templates/landing/newsfeed.html:12
 msgid "Written by %(authorlink)s on %(entrydate)s"
@@ -2323,9 +2304,8 @@ msgid "access denied"
 msgstr "access denied"
 
 #: apps/demos/templates/demos/detail.html:43
-#, fuzzy
 msgid "by %(creator_link)s on %(create_date)s"
-msgstr "Written by %(authorlink)s on %(entrydate)s"
+msgstr "Scris de %(authorlink)s în %(entrydate)s"
 
 #: apps/demos/templates/demos/launch.html:25
 msgid "by %(profile_link)s"
@@ -2396,103 +2376,84 @@ msgid "http://dev.w3.org/html5/webstorage/"
 msgstr "http://dev.w3.org/html5/webstorage/"
 
 #: apps/demos/__init__.py:70
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Canvas_element"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Canvas_element"
 
 #: apps/demos/__init__.py:80
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Cascading_Style_Sheets"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Cascading_Style_Sheets"
 
 #: apps/demos/__init__.py:168
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Drag-and-drop"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Drag-and-drop"
 
 #: apps/demos/__init__.py:60
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/HTML5_audio"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/HTML5_audio"
 
 #: apps/demos/__init__.py:208
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/HTML5_video"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/HTML5_video"
 
 #: apps/demos/__init__.py:118
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/HTML_forms"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/HTML_forms"
 
 #: apps/demos/__init__.py:148
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Html5"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Html5"
 
 #: apps/demos/__init__.py:158
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/IndexedDB"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/IndexedDB"
 
 #: apps/demos/__init__.py:138
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/JavaScript"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/JavaScript"
 
 #: apps/demos/__init__.py:178
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Mobile_web"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Mobile_web"
 
 #: apps/landing/templates/landing/home.html:15
 msgid "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
 msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
 
 #: apps/demos/__init__.py:258
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Multi-touch"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Multi-touch"
 
 #: apps/demos/__init__.py:198
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Scalable_Vector_Graphics"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Scalable_Vector_Graphics"
 
 #: apps/demos/__init__.py:128
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/W3C_Geolocation_API"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/W3C_Geolocation_API"
 
 #: apps/demos/__init__.py:218
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/WebGL"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/WebGL"
 
 #: apps/demos/__init__.py:228
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_Sockets"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Web_Sockets"
 
 #: apps/demos/__init__.py:188
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_Storage"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Web_Storage"
 
 #: apps/demos/__init__.py:238
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_Workers"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Web_Workers"
 
 #: apps/demos/__init__.py:108
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/Web_typography"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/Web_typography"
 
 #: apps/demos/__init__.py:248
-#, fuzzy
 msgid "http://en.wikipedia.org/wiki/XMLHttpRequest"
-msgstr "http://en.wikipedia.org/wiki/Mozilla_Developer_Center"
+msgstr "http://en.wikipedia.org/wiki/XMLHttpRequest"
 
 #: apps/demos/__init__.py:287
 msgid "http://www.apache.org/licenses/"
@@ -2675,7 +2636,7 @@ msgstr "name of the action"
 #: apps/actioncounters/models.py:71
 #: apps/contentflagging/models.py:78
 msgid "object ID"
-msgstr "object ID"
+msgstr "ID obiect"
 
 #: apps/contentflagging/models.py:71
 msgid "please explain what content you feel is inappropriate"
@@ -2712,11 +2673,10 @@ msgid "what is your demo's name?"
 msgstr "what is your demo's name?"
 
 #: apps/demos/helpers.py:217
-#, fuzzy
 msgid "year"
 msgid_plural "years"
-msgstr[0] "Search Results"
-msgstr[1] "Search Results"
+msgstr[0] "an"
+msgstr[1] "ani"
 
 #: apps/demos/templates/demos/detail.html:126
 msgid "{comment_count} comments"
@@ -2783,7 +2743,7 @@ msgstr "{tag_title} Demos"
 
 #: apps/landing/templates/sidebar/twitter.html:16
 msgid "{timedelta} ago"
-msgstr "{timedelta} ago"
+msgstr "{timedelta} în urmă"
 
 #~ msgid "Applications"
 #~ msgstr "Applications"
