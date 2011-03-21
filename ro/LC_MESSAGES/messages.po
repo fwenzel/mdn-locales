@@ -366,7 +366,7 @@ msgstr "A comprehensive list of terms to help Web developers find the documentat
 
 #: templates/base.html:49
 msgid "A comprehensive, usable, and accurate resource for everyone developing for the Open Web."
-msgstr "A comprehensive, usable, and accurate resource for everyone developing for the Open Web."
+msgstr "O resursă vastă, ușor de folosit și precisă pentru toți dezvoltatorii de Open Web."
 
 #: apps/landing/templates/landing/web.html:70
 msgid "A great resource for anyone working with JS."
@@ -482,7 +482,7 @@ msgstr "All web development tools"
 
 #: apps/landing/templates/landing/home.html:22
 msgid "Already a member?"
-msgstr "Already a member?"
+msgstr "Sunteți deja membru?"
 
 #: apps/landing/templates/landing/mobile.html:168
 msgid "Android APIs"
@@ -526,7 +526,7 @@ msgstr "Be Heard."
 
 #: templates/includes/login.html:7
 msgid "Become an MDN member"
-msgstr "Become an MDN member"
+msgstr "Deveniți membru MDN"
 
 #: apps/demos/templates/demos/submit_noauth.html:40
 msgid "Before You Begin"
@@ -617,7 +617,7 @@ msgstr "Check your add-on for common problems and errors. Open to anyone, not ju
 
 #: templates/includes/video_player.html:3
 msgid "Close"
-msgstr "Close"
+msgstr "Închide"
 
 #: apps/demos/templates/demos/detail.html:202
 #: apps/demos/templates/demos/elements/comments_tree.html:50
@@ -638,7 +638,7 @@ msgstr "Content hidden by moderator"
 
 #: templates/base.html:107
 msgid "Content is available under <a href=\"%(copyright_url)s\">these licenses</a>"
-msgstr "Content is available under <a href=\"%(copyright_url)s\">these licenses</a>"
+msgstr "Conținutul este licențiat sub <a href=\"%(copyright_url)s\">aceste licențe</a>"
 
 #: apps/landing/templates/landing/addons.html:130
 msgid "Correspondence on Twitter from the Add-ons developer community."
@@ -709,7 +709,7 @@ msgstr "Șterge acest comentariu"
 
 #: apps/demos/templates/demos/delete_comment.html:38
 msgid "Delete this comment?"
-msgstr "Delete this comment?"
+msgstr "Ștergeți acest comentariu?"
 
 #: apps/demos/templates/demos/base.html:4
 #: apps/demos/templates/demos/delete.html:21
@@ -815,7 +815,7 @@ msgstr "Do you want to show the world what the Web can do? Demo Studio is your p
 #: templates/base.html:77
 #: templates/base_compact.html:26
 msgid "Doc Center"
-msgstr "Doc Center"
+msgstr "Centru Documentație"
 
 #: apps/docs/templates/docs/docs.html:124
 msgid "Doc Of The Day"
@@ -963,9 +963,8 @@ msgid "Flag rejected by moderator"
 msgstr "Flag rejected by moderator"
 
 #: apps/demos/templates/demos/flag.html:37
-#, fuzzy
 msgid "Flag this demo?"
-msgstr "Watch this video"
+msgstr "Flag this demo?"
 
 #: apps/contentflagging/models.py:27
 msgid "Flagged"
@@ -1310,9 +1309,8 @@ msgstr "MDN"
 #: apps/demos/__init__.py:237
 #: apps/demos/__init__.py:247
 #: apps/demos/__init__.py:257
-#, fuzzy
 msgid "MDN Documentation"
-msgstr "Search MDN Documentation"
+msgstr "Documentație MDN"
 
 #: apps/demos/feeds.py:214
 msgid "MDN demo search for \"%s\""
@@ -1531,7 +1529,7 @@ msgstr "Popular <span class=\"web\">Web</span> Documentation"
 
 #: apps/landing/templates/landing/home.html:174
 msgid "Popular Docs"
-msgstr "Popular Docs"
+msgstr "Articole uzuale"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/docs/templates/docs/docs.html:28
@@ -1624,7 +1622,7 @@ msgstr "Remove toolbar"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:31
 msgid "Reply"
-msgstr "Reply"
+msgstr "Răspuns"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:31
 msgid "Reply to this comment by {full_name}"
@@ -1688,7 +1686,7 @@ msgstr "Căutare"
 
 #: templates/base.html:59
 msgid "Search MDN"
-msgstr "Căutare MDN"
+msgstr "Căutare în MDN"
 
 #: apps/docs/templates/docs/docs.html:17
 msgid "Search MDN Documentation"
@@ -1696,7 +1694,7 @@ msgstr "Search MDN Documentation"
 
 #: apps/landing/templates/landing/searchresults.html:7
 msgid "Search Results"
-msgstr "Search Results"
+msgstr "Rezultatele căutării"
 
 #: apps/demos/templates/demos/listing_search.html:25
 #: apps/demos/templates/demos/listing_search.html:37
@@ -1868,7 +1866,7 @@ msgstr "Submitted by:"
 #: apps/landing/templates/landing/mozilla.html:23
 #: apps/landing/templates/landing/web.html:23
 msgid "Subscribe"
-msgstr "Subscribe"
+msgstr "Abonare"
 
 #: apps/demos/templates/demos/listing_all.html:38
 msgid "Subscribe to a feed of all demos"
@@ -1945,7 +1943,7 @@ msgstr "The HTML5 video element provides integrated support for playing video me
 
 #: apps/landing/templates/landing/mozilla.html:52
 msgid "The Mozilla Platform"
-msgstr "The Mozilla Platform"
+msgstr "Platforma Mozilla"
 
 #: apps/contentflagging/models.py:23
 msgid "The author is fake"
@@ -2174,9 +2172,8 @@ msgid "Welcome to the Add-ons Developer Community:"
 msgstr "Bine ați venit în comunitatea dezvoltatorilor de suplimente."
 
 #: apps/landing/templates/landing/mobile.html:16
-#, fuzzy
 msgid "Welcome to the Mobile Developer Community:"
-msgstr "Welcome to the Mozilla Developer Network, a.k.a.:"
+msgstr "Welcome to the Mobile Developer Community:"
 
 #: apps/landing/templates/landing/mozilla.html:16
 msgid "Welcome to the Mozilla Developer Community:"
@@ -2188,9 +2185,8 @@ msgid "Welcome to the Mozilla Developer Network, a.k.a.:"
 msgstr "Welcome to the Mozilla Developer Network, a.k.a.:"
 
 #: apps/landing/templates/landing/web.html:16
-#, fuzzy
 msgid "Welcome to the Web Developer Community:"
-msgstr "Correspondence on Twitter from the Web developer community."
+msgstr "Welcome to the Web Developer Community:"
 
 #: templates/base.html:94
 msgid "What do you think of the new MDN? Please <a href=\"%(uservoice_url)s\">share your feedback</a> with us."
@@ -2228,7 +2224,7 @@ msgstr "Articol Wikipedia"
 
 #: apps/landing/templates/landing/newsfeed.html:12
 msgid "Written by %(authorlink)s on %(entrydate)s"
-msgstr "Written by %(authorlink)s on %(entrydate)s"
+msgstr "Scris de %(authorlink)s în %(entrydate)s"
 
 #: apps/demos/__init__.py:244
 msgid "XMLHttpRequest"
