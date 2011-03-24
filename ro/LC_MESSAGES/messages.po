@@ -44,8 +44,8 @@ msgstr "%(number)d %(type)s"
 #: apps/demos/helpers.py:302
 msgid "%(number)d day ago"
 msgid_plural "%(number)d days ago"
-msgstr[0] "%(number)d day ago"
-msgstr[1] "%(number)d days ago"
+msgstr[0] "%(number)d zi în urmă"
+msgstr[1] "%(number)d zile în urmă"
 
 #: apps/demos/helpers.py:304
 msgid "%(number)d hour ago"
@@ -248,7 +248,7 @@ msgstr "Themes"
 #: apps/landing/templates/landing/mozilla.html:92
 #: apps/landing/templates/landing/mozilla.html:109
 msgid "/en/Tools"
-msgstr "/en/Tools"
+msgstr "/en/Unelte"
 
 #: apps/docs/templates/docs/docs.html:100
 #: apps/landing/templates/landing/mozilla.html:61
@@ -474,7 +474,7 @@ msgstr "All web development documentation"
 
 #: apps/landing/templates/landing/web.html:119
 msgid "All web development entries"
-msgstr "All web development entries"
+msgstr "Toate articolele despre dezvoltare web"
 
 #: apps/landing/templates/landing/web.html:107
 msgid "All web development tools"
@@ -584,7 +584,7 @@ msgstr "CSS3"
 #: apps/demos/templates/demos/delete_comment.html:52
 #: apps/demos/templates/demos/flag.html:44
 msgid "Cancel"
-msgstr "Cancel"
+msgstr "Anulare"
 
 #: apps/demos/forms.py:138
 msgid "Cannot process image"
@@ -630,11 +630,11 @@ msgstr "Complete documentation for developing extensions for Mozilla application
 
 #: apps/contentflagging/models.py:31
 msgid "Content deleted by moderator"
-msgstr "Content deleted by moderator"
+msgstr "Conținut șters de moderator"
 
 #: apps/contentflagging/models.py:30
 msgid "Content hidden by moderator"
-msgstr "Content hidden by moderator"
+msgstr "Conținut ascuns de moderator"
 
 #: templates/base.html:107
 msgid "Content is available under <a href=\"%(copyright_url)s\">these licenses</a>"
@@ -697,11 +697,11 @@ msgstr "Șterge"
 #: apps/demos/templates/demos/delete_comment.html:10
 #: apps/demos/templates/demos/delete_comment.html:22
 msgid "Delete Comment"
-msgstr "Delete Comment"
+msgstr "Șterge comentariu"
 
 #: apps/demos/templates/demos/delete_comment.html:51
 msgid "Delete comment"
-msgstr "Delete comment"
+msgstr "Șterge comentariu"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:40
 msgid "Delete this comment"
@@ -815,7 +815,7 @@ msgstr "Do you want to show the world what the Web can do? Demo Studio is your p
 #: templates/base.html:77
 #: templates/base_compact.html:26
 msgid "Doc Center"
-msgstr "Centru Documentație"
+msgstr "Centru Docs"
 
 #: apps/docs/templates/docs/docs.html:124
 msgid "Doc Of The Day"
@@ -863,7 +863,7 @@ msgstr "Edit this comment"
 #: apps/demos/templates/demos/submit.html:45
 #: apps/demos/templates/demos/submit.html:60
 msgid "Edit {demo_title}"
-msgstr "Edit {demo_title}"
+msgstr "Editare {demo_title}"
 
 #: apps/landing/templates/landing/web.html:101
 msgid "Evaluate performance of web pages with this Firefox/Firebug Add-on"
@@ -1069,9 +1069,8 @@ msgid "HTML5 is the newest version of the HTML standard, currently under develop
 msgstr "HTML5 is the newest version of the HTML standard, currently under development."
 
 #: apps/landing/templates/landing/web.html:51
-#, fuzzy
 msgid "Hacks Blog"
-msgstr "Hacks Demos"
+msgstr "Hacks Blog"
 
 #: apps/landing/templates/landing/mobile.html:152
 msgid "Hear from other developers about the advantages of HTML5 and developing for the mobile Web in this article from ReadWriteWeb:"
@@ -1091,7 +1090,7 @@ msgstr "Here's how to get started"
 
 #: apps/demos/templates/demos/detail.html:66
 msgid "Hide demo"
-msgstr "Hide demo"
+msgstr "Ascunde demo"
 
 #: apps/landing/templates/landing/home.html:117
 msgid "Highlighted Mozilla Developer News & Updates"
@@ -1197,7 +1196,7 @@ msgstr "Last"
 
 #: apps/docs/templates/docs/docs.html:117
 msgid "Last edited by:"
-msgstr "Last edited by:"
+msgstr "Ultima editare de:"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/addons.html:150
@@ -1210,9 +1209,8 @@ msgid "Latest <span class=\"addons\">Add-ons</span> Discussions from Our Forums:
 msgstr "Latest <span class=\"addons\">Add-ons</span> Discussions from Our Forums:"
 
 #: apps/demos/templates/demos/detail.html:78
-#, fuzzy
 msgid "Launch Demo"
-msgstr "Hacks Demos"
+msgstr "Pornește demo"
 
 #: apps/demos/templates/demos/elements/submission_thumb.html:20
 msgid "Launch {title}"
@@ -1378,7 +1376,7 @@ msgstr "Mobile Wiki"
 
 #: apps/docs/templates/docs/docs.html:129
 msgid "Modified by %(author)s on %(updated)s"
-msgstr "Modified by %(author)s on %(updated)s"
+msgstr "Modificat de %(author)s în %(updated)s"
 
 #: apps/landing/templates/landing/home.html:64
 #: apps/landing/templates/landing/home.html:78
@@ -1401,11 +1399,11 @@ msgstr "Most Liked"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:16
 msgid "Most Recent"
-msgstr "Most Recent"
+msgstr "Cele mai recente"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:14
 msgid "Most Viewed"
-msgstr "Most Viewed"
+msgstr "Cele mai vizualizate"
 
 #: apps/devmo/__init__.py:12
 #: apps/docs/templates/docs/docs.html:71
@@ -1710,9 +1708,8 @@ msgid "Search for \"{q}\""
 msgstr "Search for \"{q}\""
 
 #: apps/demos/templates/demos/listing_search.html:14
-#, fuzzy
 msgid "Search results for \"{q}\""
-msgstr "Search Results"
+msgstr "Rezultatele căutării pentru \"{q}\""
 
 #: apps/demos/feeds.py:215
 msgid "Search results for demo submissions matching \"%s\""
@@ -1787,13 +1784,12 @@ msgstr "Share It"
 #: apps/demos/templates/demos/detail.html:101
 #: apps/demos/templates/demos/launch.html:48
 msgid "Share on Facebook"
-msgstr "Share on Facebook"
+msgstr "Împărtășește pe Facebook"
 
 #: apps/demos/templates/demos/detail.html:100
 #: apps/demos/templates/demos/launch.html:47
-#, fuzzy
 msgid "Share on Twitter"
-msgstr "MDN on Twitter"
+msgstr "Împărtășește pe Twitter"
 
 #: apps/demos/templates/demos/detail.html:95
 #: apps/demos/templates/demos/launch.html:43
@@ -1896,7 +1892,7 @@ msgstr "Tagged as:"
 #: apps/demos/templates/demos/terms.html:10
 #: apps/demos/templates/demos/terms.html:35
 msgid "Terms for Contributors"
-msgstr "Terms for Contributors"
+msgstr "Termeni pentru contributori"
 
 #: apps/demos/templates/demos/terms.html:21
 msgid "Terms of Use"
@@ -2676,7 +2672,7 @@ msgstr[1] "ani"
 
 #: apps/demos/templates/demos/detail.html:126
 msgid "{comment_count} comments"
-msgstr "{comment_count} comments"
+msgstr "{comment_count} comentarii"
 
 #: apps/demos/templates/demos/detail.html:176
 msgid "{comments_total} comment so far"
