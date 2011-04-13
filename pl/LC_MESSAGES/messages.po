@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-03-01 20:00+0100\n"
-"Last-Translator: Leszek Życzkowski <leszekz@gmail.com>\n"
+"PO-Revision-Date: 2011-04-13 23:34+0100\n"
+"Last-Translator: Wojciech Szczęsny <wojtek@budowniczy.net>\n"
 "Language-Team: none\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -286,7 +286,7 @@ msgstr "<a href=\"%(builder_url)s\">Twórz dodatki</a> i dyskutuj o nich z <a hr
 
 #: apps/demos/templates/demos/elements/comments_tree.html:9
 msgid "<cite class=\"author fn\">%(comment_profile_link)s</cite> said,"
-msgstr "<cite class=\"author fn\">%(comment_profile_link)s</cite> napisaał,"
+msgstr "<cite class=\"author fn\">%(comment_profile_link)s</cite> napisał,"
 
 #: apps/demos/templates/demos/detail.html:183
 msgid "<p><a href=\"/Special:UserRegistration\">Register</a> or <a href=\"/Special:UserLogin\">log in</a> to add your own.</p>"
@@ -310,7 +310,7 @@ msgstr "<p>Prześlij plik w formacie ZIP zawierający kod źródłowy, w którym
 
 #: apps/demos/templates/demos/home.html:23
 msgid "<p>Welcome to Mozilla Demo Studio, where developers like you can develop, share, demonstrate, and learn all about Web technologies. See what’s possible by exploring Demo Studio:</p> <ul> <li>View <strong>demos</strong> that showcase what HTML, CSS, and JavaScript can do.</li> <li>Inspect the <strong>source code</strong> for those demos so you can see how they work.</li> <li>Read <strong>documentation</strong> to learn about the open standards and technologies that power the Web.</li> </ul>"
-msgstr "<p>Witamy w Mozilla Demo Studio, gdzie twórcy tacy, jak ty mogą rozwijać, dzielić się, pokazać i nauczyć się wszystkiego o technologiach internetowych. Zobacz, jakie możliwości daje zgłębianie zasobów Demo Studio:</p> <ul> <li>Obejrzyj <strong>dema</strong> prezentujące, czego HTML, CSS i JavaScript mogą dokonać.</li> <li>Sprawdź <strong>kod źródłowy</strong> tych dem, by zobaczyć, jak one działają.</li> <li>Zapoznaj się z <strong>dokumentacją</strong>, by dowiedzieć się więcej o otwartych standardach i technologiach stosowanych w Internecie.</li> </ul>"
+msgstr "<p>Witamy w Mozilla Demo Studio, gdzie twórcy, tacy jak ty, mogą rozwijać, dzielić się, pokazać i nauczyć się wszystkiego o technologiach internetowych. Zobacz, jakie możliwości daje zgłębianie zasobów Demo Studio:</p> <ul> <li>Obejrzyj <strong>dema</strong> prezentujące, czego HTML, CSS i JavaScript mogą dokonać.</li> <li>Sprawdź <strong>kod źródłowy</strong> tych dem, by zobaczyć, jak one działają.</li> <li>Zapoznaj się z <strong>dokumentacją</strong>, by dowiedzieć się więcej o otwartych standardach i technologiach stosowanych w Internecie.</li> </ul>"
 
 #: apps/demos/templates/demos/submit_noauth.html:32
 msgid "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other web developers.</p>"
@@ -318,7 +318,7 @@ msgstr "<p>Czy tworzysz niezwykłe nowe sposoby korzystania z Internetu, czy tyl
 
 #: apps/demos/templates/demos/submit.html:67
 msgid "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other web developers.</p> <p>Please complete the form below to ensure your demo is submitted to the Demo Studio successfully.</p>"
-msgstr "<p>Czy tworzysz niezwykłe nowe sposoby korzystania z Internetu, czy tylko eksperymentujesz z najnowszymi technologiami, zapraszamy cię do przesłania swoich dem, by podzielić się nimi lub tylko je pokazać z innymi twórcami.</p> <p>Uzupełnij poniższy frormularz, by prawidłowo przesłać demo do Demo Studio.</p>"
+msgstr "<p>Czy tworzysz niezwykłe nowe sposoby korzystania z Internetu, czy tylko eksperymentujesz z najnowszymi technologiami, zapraszamy cię do przesłania swoich dem, by podzielić się nimi z innymi twórcami lub tylko je pokazać.</p> <p>Uzupełnij poniższy formularz, by prawidłowo przesłać demo do Demo Studio.</p>"
 
 #: apps/demos/templates/demos/detail.html:179
 msgid "<p>Why not <a href=\"#comment-post\">Add your own</a>?</p>"
@@ -338,7 +338,7 @@ msgstr "<ul> <li>Kod źródłowy dema powinien być spakowany w <strong>pliku ZI
 
 #: apps/demos/templates/demos/submit.html:125
 msgid "<ul> <li>Your demo’s source code should be packaged inside a ZIP file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the ZIP.</li> <li>Your demo should be built on client-side technology (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use AJAX to access them.</li> <li>To submit your demo, you need an <a href=\"%(signup_url)s\">MDN account</a>.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
-msgstr "<ul> <li>Kod źródłowy dema powinien być spakowany w pliku ZIP.</li> <li>Strona główna dema powinna mieć nazwę <code>index.html</code> i znajdować się w katalogu gównym archiwum ZIP.</li> <li>Demo powinno być zbudowane w oparciu o technologie, takie jak HTML, CSS, JavaScript bazujące na operacjach wykonywanych po stronie klienta. Języki o architekturze klient-serwer, takie jak PHP i Ruby nie są obsługiwane.</li> <li>Jeśli demo wymaga zewnętrznych zasobów, by uzyskać do nich dostęp, powinno używać technologii AJAX.</li> <li>W polu szczegółowych informacji o demie podaj informacje o treściach innych podmiotów zawartych w demie, które nie mogą być udostępnione na zasadach wolnych licencji i dodaj odnośniki do stron internetowych ich autorów.</li> </ul>"
+msgstr "<ul> <li>Kod źródłowy dema powinien być spakowany w pliku ZIP.</li> <li>Strona główna dema powinna mieć nazwę <code>index.html</code> i znajdować się w katalogu głównym archiwum ZIP.</li> <li>Demo powinno być zbudowane w oparciu o technologie, takie jak HTML, CSS, JavaScript bazujące na operacjach wykonywanych po stronie klienta. Języki o architekturze klient-serwer, takie jak PHP i Ruby nie są obsługiwane.</li> <li>Jeśli demo wymaga zewnętrznych zasobów, by uzyskać do nich dostęp, powinno używać technologii AJAX.</li> <li>W polu szczegółowych informacji o demie podaj informacje o treściach innych podmiotów zawartych w demie, które nie mogą być udostępnione na zasadach wolnych licencji i dodaj odnośniki do stron internetowych ich autorów.</li> </ul>"
 
 #: apps/landing/templates/landing/mozilla.html:107
 msgid "A Mozilla source tree browser."
@@ -350,11 +350,11 @@ msgstr "Obszerna lista zwrotów pomocnych twórcom stron w odnalezieniu potrzebn
 
 #: templates/base.html:49
 msgid "A comprehensive, usable, and accurate resource for everyone developing for the Open Web."
-msgstr "Obszerny, użyteczny i dokładny zasób wiedzy dla każdego kto tworzy dla platformy Open Web."
+msgstr "Obszerny, użyteczny i dokładny zasób wiedzy dla każdego, kto tworzy dla platformy Open Web."
 
 #: apps/landing/templates/landing/web.html:70
 msgid "A great resource for anyone working with JS."
-msgstr "Wspaniały zasób dla każdego kto pracuje z JS."
+msgstr "Wspaniały zasób dla każdego, kto pracuje z JS."
 
 #: apps/docs/templates/docs/docs.html:52
 #: apps/docs/templates/docs/glossary.html:11
@@ -787,7 +787,7 @@ msgstr "Podoba ci się to demo?"
 
 #: apps/landing/templates/landing/web.html:48
 msgid "Do you want to show the world what the Web can do? Demo Studio is your place for sharing awesome demos and experiments with the latest Web standards and open technologies."
-msgstr "Chcesz pokazać światu co za pomocą Internetu może zrobić? Demo Studio jest miejscem, gdzie możesz udostępniać swoje dema i eksperymentalne prace wykorzystujące najnowsze standardy internetowe i otwarte technologie."
+msgstr "Chcesz pokazać światu, co za pomocą Internetu może zrobić? Demo Studio jest miejscem, gdzie możesz udostępniać swoje dema i eksperymentalne prace wykorzystujące najnowsze standardy internetowe i otwarte technologie."
 
 #: apps/docs/templates/docs/docs.html:7
 #: templates/base.html:77
@@ -952,7 +952,7 @@ msgstr "Czcionki"
 
 #: apps/demos/__init__.py:115
 msgid "Form elements and attributes in HTML5 provide a greater degree of semantic mark-up than HTML4 and remove a great deal of the need for tedious scripting and styling that was required in HTML4."
-msgstr "Elementy i atrybuty formularza w HTML5 dostarczają wyższy stopień semantycznych znaczników niż HTML4 i znacznie zmniejszają potrzebę tworzenia żmudnych skryptów i stylizacji niż było to wymagane w HTML4."
+msgstr "Elementy i atrybuty formularza w HTML5 dostarczają wyższy stopień semantycznych znaczników niż HTML4 i znacznie zmniejszają potrzebę tworzenia żmudnych skryptów i stylizacji, niż było to wymagane w HTML4."
 
 # 83%
 #: apps/demos/__init__.py:114
@@ -1063,7 +1063,7 @@ msgstr "Pomoc w tworzeniu Firefoksa Mobile"
 
 #: apps/landing/templates/landing/home.html:20
 msgid "Here's how to get started"
-msgstr "Oto jak zacząć"
+msgstr "Oto, jak zacząć"
 
 #: apps/demos/templates/demos/detail.html:66
 msgid "Hide demo"
@@ -1091,11 +1091,11 @@ msgstr "Akceptuję <a href=\"%(terms_url)s#tfc\">regulamin dla autorów</a> Mozi
 
 #: apps/landing/templates/landing/addons.html:45
 msgid "If you are comfortable with a command line and prefer working locally, the Add-ons Builder SDK gives you a development environment on your own computer."
-msgstr "Jeśli wiersz poleceń nie stanowi dla ciebie tabu i preferujesz pracę lokalnie, SDK konstruktora dodatków udostępnia ci środowisko programistyczne na twój komputer."
+msgstr "Jeśli wiersz poleceń nie stanowi dla ciebie tabu i preferujesz pracę lokalnie, SDK konstruktor dodatków udostępnia ci środowisko programistyczne na twój komputer."
 
 #: apps/demos/templates/demos/submit.html:119
 msgid "If your demo has problems when displayed in an <iframe>, try changing this."
-msgstr "Jeśli twoje doemo ma problemy z wyświetlaniem w <iframe>, spróbuj to zmienić."
+msgstr "Jeśli twoje demo ma problemy z wyświetlaniem w <iframe>, spróbuj to zmienić."
 
 #: apps/demos/__init__.py:215
 msgid "In the context of the HTML canvas element WebGL provides an API for 3D graphics in the browser."
@@ -1674,7 +1674,7 @@ msgstr "Wtyczki wyszukiwarek"
 
 #: apps/demos/templates/demos/listing_search.html:10
 msgid "Search for \"{q}\""
-msgstr "Szukajr \"{q}\""
+msgstr "Szukaj \"{q}\""
 
 #: apps/demos/templates/demos/listing_search.html:14
 msgid "Search results for \"{q}\""
@@ -1706,7 +1706,7 @@ msgstr "Zobacz, jak możesz <a href=\"%(devmo_participate)s\">brać udział</a> 
 
 #: apps/demos/templates/demos/elements/submission_thumb.html:5
 msgid "See more about {title} by {author}"
-msgstr "Zobacz wiecej o {title} autorstwa {author}"
+msgstr "Zobacz więcej o {title} autorstwa {author}"
 
 #: apps/demos/templates/demos/detail.html:116
 msgid "See more demos made with {tag_title}"
@@ -1876,7 +1876,7 @@ msgstr "Specyfikacja CSS3-Font zawiera udoskonalone funkcje czcionek i typografi
 
 #: apps/landing/templates/landing/web.html:78
 msgid "The DOM is the architecture for Web documents; learn how to use the DOM and its API to look at and manipulate Web content."
-msgstr "Model DOM jest architekturą dokumentu internetowego. Dowiedz się więcej, jak używać DOM i jego API patrząc na i manipulując zawartością stron internetowych."
+msgstr "Model DOM jest architekturą dokumentu internetowego. Dowiedz się więcej, jak używać DOM i jego API, patrząc na i manipulując zawartością stron internetowych."
 
 #: apps/landing/templates/landing/home.html:190
 msgid "The Document Object Model describes the layout and content of web pages."
@@ -1941,7 +1941,7 @@ msgstr "Motywy"
 
 #: apps/landing/templates/landing/mozilla.html:63
 msgid "There are several ways you can use Mozilla code in your own project. Find everything you need to develop \"powered by Mozilla\" applications."
-msgstr "Istnieją różne sposoby użycia kodu Mozilli we własnych projektach. Znajdź wszystko czego potrzebujesz, by tworzyć programy bazujące na technologii Mozilli."
+msgstr "Istnieją różne sposoby użycia kodu Mozilli we własnych projektach. Znajdź wszystko, czego potrzebujesz, by tworzyć programy bazujące na technologii Mozilli."
 
 #: apps/demos/templates/demos/detail.html:126
 #: apps/demos/templates/demos/elements/submission_thumb.html:17
@@ -2005,7 +2005,7 @@ msgstr "Najczęściej używane"
 
 #: apps/demos/templates/demos/submit.html:148
 msgid "Upload demo file&hellip;"
-msgstr "Prześli plik dema&hellip;"
+msgstr "Prześlij plik dema&hellip;"
 
 #: apps/landing/templates/landing/addons.html:101
 msgid "Use Add-ons Builder to quickly and easily develop an extension for Firefox using common web technologies."
@@ -2073,7 +2073,7 @@ msgstr "Obejrzyj widea o <span class=\"mobile\">Mobile</span>"
 
 #: apps/landing/templates/landing/addons.html:85
 msgid "Watch Myk Melez create an Add-on in 5 minutes using the new Add-on Builder!"
-msgstr "Zobacz jak w pięć minut Myk Melez za pomocą nowego konstruktora dodatków tworzy dodatek!"
+msgstr "Zobacz, jak w pięć minut Myk Melez za pomocą nowego konstruktora dodatków tworzy dodatek!"
 
 #: apps/landing/templates/landing/addons.html:79
 #: apps/landing/templates/landing/mobile.html:99
@@ -2155,7 +2155,7 @@ msgstr "Co sądzisz o nowym MDN? <a href=\"%(uservoice_url)s\">Podziel się z na
 
 #: apps/landing/templates/landing/mozilla.html:45
 msgid "Whether you're an old hand or just getting started, this is the best way to get started with Mozilla development."
-msgstr "Nieważne czy jesteś starym wyjadaczem, czy dopiero zaczynasz, to jest najlepszy sposób, aby zacząć programować z Mozillą."
+msgstr "Nieważne, czy jesteś starym wyjadaczem, czy dopiero zaczynasz, to jest najlepszy sposób, aby zacząć programować z Mozillą."
 
 #: apps/landing/templates/landing/mobile.html:107
 msgid "Why Sync up, Security and More"
@@ -2584,7 +2584,7 @@ msgid "month"
 msgid_plural "months"
 msgstr[0] "miesiąc"
 msgstr[1] "miesiące"
-msgstr[2] "miesiący"
+msgstr[2] "miesięcy"
 
 #: apps/actioncounters/models.py:75
 msgid "name of the action"
@@ -2711,6 +2711,6 @@ msgstr "{timedelta} temu"
 
 #~ msgid "Filetype not supported."
 #~ msgstr "Nieobsługiwany typ pliku"
-
 #~ msgid "For the latest in open Web technologies, these cool demos are a great way to discover new documentation."
 #~ msgstr "Te fajne dema są najlepszym sposobem zapoznania się z najnowszymi technologiami otwartego Internetu."
+
