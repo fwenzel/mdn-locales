@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-04-13 23:34+0100\n"
-"Last-Translator: Wojciech Szczęsny <wojtek@budowniczy.net>\n"
+"PO-Revision-Date: 2011-04-18 16:14+0100\n"
+"Last-Translator: Leszek Życzkowski <leszekz@gmail.com>\n"
 "Language-Team: none\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -1091,7 +1091,7 @@ msgstr "Akceptuję <a href=\"%(terms_url)s#tfc\">regulamin dla autorów</a> Mozi
 
 #: apps/landing/templates/landing/addons.html:45
 msgid "If you are comfortable with a command line and prefer working locally, the Add-ons Builder SDK gives you a development environment on your own computer."
-msgstr "Jeśli wiersz poleceń nie stanowi dla ciebie tabu i preferujesz pracę lokalnie, SDK konstruktor dodatków udostępnia ci środowisko programistyczne na twój komputer."
+msgstr "Jeśli wiersz poleceń nie stanowi dla ciebie tabu i preferujesz pracę lokalnie, SDK konstruktora dodatków udostępnia ci środowisko programistyczne na twój komputer."
 
 #: apps/demos/templates/demos/submit.html:119
 msgid "If your demo has problems when displayed in an <iframe>, try changing this."
@@ -1674,7 +1674,7 @@ msgstr "Wtyczki wyszukiwarek"
 
 #: apps/demos/templates/demos/listing_search.html:10
 msgid "Search for \"{q}\""
-msgstr "Szukaj \"{q}\""
+msgstr "Szukaj „{q}”"
 
 #: apps/demos/templates/demos/listing_search.html:14
 msgid "Search results for \"{q}\""
@@ -2584,7 +2584,7 @@ msgid "month"
 msgid_plural "months"
 msgstr[0] "miesiąc"
 msgstr[1] "miesiące"
-msgstr[2] "miesięcy"
+msgstr[2] "miesiący"
 
 #: apps/actioncounters/models.py:75
 msgid "name of the action"
@@ -2708,9 +2708,4 @@ msgstr "Dema {tag_title}"
 #: apps/landing/templates/sidebar/twitter.html:16
 msgid "{timedelta} ago"
 msgstr "{timedelta} temu"
-
-#~ msgid "Filetype not supported."
-#~ msgstr "Nieobsługiwany typ pliku"
-#~ msgid "For the latest in open Web technologies, these cool demos are a great way to discover new documentation."
-#~ msgstr "Te fajne dema są najlepszym sposobem zapoznania się z najnowszymi technologiami otwartego Internetu."
 
