@@ -14,13 +14,8 @@ msgstr ""
 "X-Poedit-Country: GREECE\n"
 
 #: apps/landing/templates/landing/mobile.html:158
-msgid ""
-"\"'Hands down, the developer pool for HTML / JS rock stars is tenfold larger [and] there is no download attrition. You simply point people at a URL and there you go -- it's installed.' The fact "
-"that apps can be directly installed by URL rather than by waiting for an App Store download means that developers reduce barriers to virality.\""
-msgstr ""
-"«'Hands down, the developer pool for HTML / JS rock stars is tenfold larger [and] there is no download attrition. You simply point people at a URL and there you go -- it's installed.' Το γεγονός "
-"ότι οι εφαρμογές μπορούν να εγκατασταθούν από ένα οποιοδήποτε URL αντί να περιμένει ο χρήστης να κατεβάσει κάτι από ένα App Store, σημαίνει ότι έτσι οι δημιουργοί μειώνουν τους φραγμούς στη "
-"διαδικασία  προώθησης της εφαρμογής τους.»"
+msgid "\"'Hands down, the developer pool for HTML / JS rock stars is tenfold larger [and] there is no download attrition. You simply point people at a URL and there you go -- it's installed.' The fact that apps can be directly installed by URL rather than by waiting for an App Store download means that developers reduce barriers to virality.\""
+msgstr "«'Hands down, the developer pool for HTML / JS rock stars is tenfold larger [and] there is no download attrition. You simply point people at a URL and there you go -- it's installed.' Το γεγονός ότι οι εφαρμογές μπορούν να εγκατασταθούν από ένα οποιοδήποτε URL αντί να περιμένει ο χρήστης να κατεβάσει κάτι από ένα App Store, σημαίνει ότι έτσι οι δημιουργοί μειώνουν τους φραγμούς στη διαδικασία  προώθησης της εφαρμογής τους.»"
 
 #: apps/landing/templates/landing/web.html:93
 msgid "\"An absolute necessity for anyone doing serious web development. Awesome!!!!\""
@@ -114,7 +109,8 @@ msgstr ""
 msgid "/Project:en/About"
 msgstr ""
 
-#: apps/docs/templates/docs/docs.html:52 apps/docs/templates/docs/glossary.html:11
+#: apps/docs/templates/docs/docs.html:52
+#: apps/docs/templates/docs/glossary.html:11
 msgid "/en/AJAX"
 msgstr "/en/AJAX"
 
@@ -122,7 +118,10 @@ msgstr "/en/AJAX"
 msgid "/en/A_re-introduction_to_JavaScript"
 msgstr ""
 
-#: apps/docs/templates/docs/docs.html:44 apps/docs/templates/docs/glossary.html:5 apps/landing/templates/landing/home.html:181 apps/landing/templates/landing/web.html:73
+#: apps/docs/templates/docs/docs.html:44
+#: apps/docs/templates/docs/glossary.html:5
+#: apps/landing/templates/landing/home.html:181
+#: apps/landing/templates/landing/web.html:73
 msgid "/en/CSS"
 msgstr "/en/CSS"
 
@@ -156,7 +155,10 @@ msgstr ""
 msgid "/en/Creating_OpenSearch_plugins_for_Firefox"
 msgstr "/en/Creating_OpenSearch_plugins_for_Firefox"
 
-#: apps/docs/templates/docs/docs.html:48 apps/docs/templates/docs/glossary.html:8 apps/landing/templates/landing/home.html:189 apps/landing/templates/landing/web.html:77
+#: apps/docs/templates/docs/docs.html:48
+#: apps/docs/templates/docs/glossary.html:8
+#: apps/landing/templates/landing/home.html:189
+#: apps/landing/templates/landing/web.html:77
 msgid "/en/DOM"
 msgstr "/en/DOM"
 
@@ -181,15 +183,19 @@ msgstr "/en/Developer_Guide"
 msgid "/en/DragDrop/Drag_and_Drop"
 msgstr "/en/DragDrop/Drag_and_Drop"
 
-#: apps/docs/templates/docs/docs.html:89 apps/landing/templates/landing/addons.html:60
+#: apps/docs/templates/docs/docs.html:89
+#: apps/landing/templates/landing/addons.html:60
 msgid "/en/Extensions"
 msgstr "/en/Extensions"
 
-#: apps/landing/templates/landing/home.html:72 apps/landing/templates/landing/home.html:166
+#: apps/landing/templates/landing/home.html:72
+#: apps/landing/templates/landing/home.html:166
 msgid "/en/Firefox_4_for_developers"
 msgstr "/en/Firefox_4_for_developers"
 
-#: apps/docs/templates/docs/docs.html:32 apps/docs/templates/docs/glossary.html:4 apps/landing/templates/landing/home.html:177
+#: apps/docs/templates/docs/docs.html:32
+#: apps/docs/templates/docs/glossary.html:4
+#: apps/landing/templates/landing/home.html:177
 msgid "/en/HTML"
 msgstr "/en/HTML"
 
@@ -197,7 +203,10 @@ msgstr "/en/HTML"
 msgid "/en/HTML/Element/canvas"
 msgstr "/en/HTML/Element/canvas"
 
-#: apps/docs/templates/docs/docs.html:36 apps/docs/templates/docs/glossary.html:7 apps/landing/templates/landing/home.html:72 apps/landing/templates/landing/home.html:78
+#: apps/docs/templates/docs/docs.html:36
+#: apps/docs/templates/docs/glossary.html:7
+#: apps/landing/templates/landing/home.html:72
+#: apps/landing/templates/landing/home.html:78
 #: apps/landing/templates/landing/web.html:65
 msgid "/en/HTML/HTML5"
 msgstr "/en/HTML/HTML5"
@@ -210,7 +219,10 @@ msgstr "/en/IndexedDB"
 msgid "/en/Introduction_to_Object-Oriented_JavaScript"
 msgstr ""
 
-#: apps/docs/templates/docs/docs.html:40 apps/docs/templates/docs/glossary.html:6 apps/landing/templates/landing/home.html:185 apps/landing/templates/landing/web.html:69
+#: apps/docs/templates/docs/docs.html:40
+#: apps/docs/templates/docs/glossary.html:6
+#: apps/landing/templates/landing/home.html:185
+#: apps/landing/templates/landing/web.html:69
 msgid "/en/JavaScript"
 msgstr "/en/JavaScript"
 
@@ -224,15 +236,21 @@ msgstr "/en/JavaScript"
 msgid "/en/JavaScript/Guide"
 msgstr "/en/JavaScript"
 
-#: apps/docs/templates/docs/docs.html:101 apps/landing/templates/landing/home.html:150 apps/landing/templates/landing/mozilla.html:81
+#: apps/docs/templates/docs/docs.html:101
+#: apps/landing/templates/landing/home.html:150
+#: apps/landing/templates/landing/mozilla.html:81
 msgid "/en/Localization"
 msgstr "/en/Localization"
 
-#: apps/docs/templates/docs/docs.html:80 apps/landing/templates/landing/home.html:132 apps/landing/templates/landing/mobile.html:88
+#: apps/docs/templates/docs/docs.html:80
+#: apps/landing/templates/landing/home.html:132
+#: apps/landing/templates/landing/mobile.html:88
 msgid "/en/Mobile"
 msgstr "/en/Mobile"
 
-#: apps/docs/templates/docs/docs.html:99 apps/landing/templates/landing/home.html:149 apps/landing/templates/landing/home.html:207
+#: apps/docs/templates/docs/docs.html:99
+#: apps/landing/templates/landing/home.html:149
+#: apps/landing/templates/landing/home.html:207
 msgid "/en/Participating_in_the_Mozilla_project"
 msgstr "/en/Participating_in_the_Mozilla_project"
 
@@ -240,7 +258,8 @@ msgstr "/en/Participating_in_the_Mozilla_project"
 msgid "/en/Plugins"
 msgstr "/en/Plugins"
 
-#: apps/docs/templates/docs/docs.html:102 apps/landing/templates/landing/home.html:150
+#: apps/docs/templates/docs/docs.html:102
+#: apps/landing/templates/landing/home.html:150
 msgid "/en/QA"
 msgstr "/en/QA"
 
@@ -264,15 +283,18 @@ msgstr "/en/Themes"
 msgid "/en/Tips_for_Authoring_Fast-loading_HTML_Pages"
 msgstr ""
 
-#: apps/landing/templates/landing/mozilla.html:92 apps/landing/templates/landing/mozilla.html:109
+#: apps/landing/templates/landing/mozilla.html:92
+#: apps/landing/templates/landing/mozilla.html:109
 msgid "/en/Tools"
 msgstr "/en/Tools"
 
-#: apps/docs/templates/docs/docs.html:100 apps/landing/templates/landing/mozilla.html:61
+#: apps/docs/templates/docs/docs.html:100
+#: apps/landing/templates/landing/mozilla.html:61
 msgid "/en/Using_Mozilla_code_in_other_projects"
 msgstr "/en/Using_Mozilla_code_in_other_projects"
 
-#: apps/docs/templates/docs/glossary.html:15 apps/docs/templates/docs/glossary.html:16
+#: apps/docs/templates/docs/glossary.html:15
+#: apps/docs/templates/docs/glossary.html:16
 msgid "/en/Using_audio_and_video_in_Firefox"
 msgstr "/en/Using_audio_and_video_in_Firefox"
 
@@ -280,7 +302,9 @@ msgstr "/en/Using_audio_and_video_in_Firefox"
 msgid "/en/Using_files_from_web_applications"
 msgstr "/en/Using_files_from_web_applications"
 
-#: apps/docs/templates/docs/docs.html:82 apps/landing/templates/landing/home.html:132 apps/landing/templates/landing/mobile.html:69
+#: apps/docs/templates/docs/docs.html:82
+#: apps/landing/templates/landing/home.html:132
+#: apps/landing/templates/landing/mobile.html:69
 msgid "/en/Using_geolocation"
 msgstr "/en/Using_geolocation"
 
@@ -313,37 +337,23 @@ msgid "<cite class=\"author fn\">%(comment_profile_link)s</cite> said,"
 msgstr "Ο/Η <cite class=\"author fn\">%(comment_profile_link)s</cite> είπε,"
 
 #: apps/landing/templates/landing/learn_css.html:141
-msgid ""
-"<h2>Are you tired of learning CSS on your own?<br> Do you want to join a community of people who are learning CSS and other open web technologies?</h2> <p>Consider signing up for free online peer "
-"study groups through <a href=\"http://p2pu.org/\">Peer-to-Peer University's<span title=\"Peer-to-Peer University\"></span></a> <a href=\"http://p2pu.org/webcraft/course-listing\">School of "
-"Webcraft</a>. Share your discoveries, struggles, and victories with others who are learning the same things.</p>"
+msgid "<h2>Are you tired of learning CSS on your own?<br> Do you want to join a community of people who are learning CSS and other open web technologies?</h2> <p>Consider signing up for free online peer study groups through <a href=\"http://p2pu.org/\">Peer-to-Peer University's<span title=\"Peer-to-Peer University\"></span></a> <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a>. Share your discoveries, struggles, and victories with others who are learning the same things.</p>"
 msgstr ""
 
 #: apps/landing/templates/landing/learn_javascript.html:137
-msgid ""
-"<h2>Are you tired of learning JS on your own?<br>Do you want to join a community of people who are learning JavaScript and other open web technologies?</h2> <p>Consider signing up for free online "
-"peer study groups through <a href=\"http://p2pu.org/\">Peer-to-Peer University's<span title=\"Peer-to-Peer University\"></span></a> <a href=\"http://p2pu.org/webcraft/course-listing\">School of "
-"Webcraft</a>. Share your discoveries, struggles, and victories with others who are learning the same things.</p>"
+msgid "<h2>Are you tired of learning JS on your own?<br>Do you want to join a community of people who are learning JavaScript and other open web technologies?</h2> <p>Consider signing up for free online peer study groups through <a href=\"http://p2pu.org/\">Peer-to-Peer University's<span title=\"Peer-to-Peer University\"></span></a> <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a>. Share your discoveries, struggles, and victories with others who are learning the same things.</p>"
 msgstr ""
 
 #: apps/landing/templates/landing/learn.html:47
-msgid ""
-"<h2>Are you tired of learning on your own?<br>Do you want to join a community of people learning about open web technologies?</h2> <p>Consider signing up for free online peer study groups through "
-"<a href=\"http://p2pu.org/\">Peer-to-Peer University's<span title=\"Peer-to-Peer University\"></span></a> <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a>. Share your "
-"discoveries, struggles, and victories with others who are learning the same things.</p>"
+msgid "<h2>Are you tired of learning on your own?<br>Do you want to join a community of people learning about open web technologies?</h2> <p>Consider signing up for free online peer study groups through <a href=\"http://p2pu.org/\">Peer-to-Peer University's<span title=\"Peer-to-Peer University\"></span></a> <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a>. Share your discoveries, struggles, and victories with others who are learning the same things.</p>"
 msgstr ""
 
 #: apps/landing/templates/landing/learn_html.html:143
-msgid ""
-"<h2>Tired of learning on your own?<br>Want to join a community of people learning HTML and other open web technologies?</h2> <p>Consider signing up for free online peer study groups through <a href="
-"\"http://p2pu.org/\">Peer-to-Peer University’s<span title=\"Peer-to-Peer University\"></span></a> <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a>. Share your discoveries, "
-"struggles, and victories with others who are learning the same things.</p>"
+msgid "<h2>Tired of learning on your own?<br>Want to join a community of people learning HTML and other open web technologies?</h2> <p>Consider signing up for free online peer study groups through <a href=\"http://p2pu.org/\">Peer-to-Peer University’s<span title=\"Peer-to-Peer University\"></span></a> <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a>. Share your discoveries, struggles, and victories with others who are learning the same things.</p>"
 msgstr ""
 
 #: templates/403.html:23
-msgid ""
-"<li><a href=\"/Special:UserLogin?returntotitle=%(returnto)s\">Log in</a> to try again.</li> <li><a href=\"/Special:UserRegistration\">Register</a> to edit docs, submit demos, and post to forums.</"
-"li>"
+msgid "<li><a href=\"/Special:UserLogin?returntotitle=%(returnto)s\">Log in</a> to try again.</li> <li><a href=\"/Special:UserRegistration\">Register</a> to edit docs, submit demos, and post to forums.</li>"
 msgstr ""
 
 #: templates/403.html:28
@@ -355,25 +365,15 @@ msgid "<li><a href=\"/logout\">Log out</a> to try again.</li>"
 msgstr ""
 
 #: apps/landing/templates/landing/learn_javascript.html:12
-msgid ""
-"<p class=\"intro\"><strong>JavaScript</strong> (JS for short) is the programming language that enables web pages ​to respond to user interaction beyond the basic level provided by HTML links and "
-"forms.</p> <p>​The links on this page lead to a variety of JavaScript tutorials and JavaScript training materials. Whether you are just starting out, wanting to learn JS basics, or are an old hand, "
-"wanting to sharpen your skills, you can find helpful resources here for JS best practices.</p>"
+msgid "<p class=\"intro\"><strong>JavaScript</strong> (JS for short) is the programming language that enables web pages ​to respond to user interaction beyond the basic level provided by HTML links and forms.</p> <p>​The links on this page lead to a variety of JavaScript tutorials and JavaScript training materials. Whether you are just starting out, wanting to learn JS basics, or are an old hand, wanting to sharpen your skills, you can find helpful resources here for JS best practices.</p>"
 msgstr ""
 
 #: apps/landing/templates/landing/learn_css.html:12
-msgid ""
-"<p class=\"intro\">CSS (<strong>Cascading Style Sheets</strong>) ​is a language for describing the appearance of web pages. To create good-looking web pages, you need to learn CSS in order to define "
-"the appearance and location of the HTML elements within the pages.</p> <p>The links on this page lead to a variety of CSS tutorials and CSS training materials. ​Whether you are just starting out, "
-"learning the basics of CSS, or are an experienced web developer wanting to learn <strong>CSS3</strong> (the newest version of the standard) and CSS best practices, you can find helpful resources "
-"here.</p>"
+msgid "<p class=\"intro\">CSS (<strong>Cascading Style Sheets</strong>) ​is a language for describing the appearance of web pages. To create good-looking web pages, you need to learn CSS in order to define the appearance and location of the HTML elements within the pages.</p> <p>The links on this page lead to a variety of CSS tutorials and CSS training materials. ​Whether you are just starting out, learning the basics of CSS, or are an experienced web developer wanting to learn <strong>CSS3</strong> (the newest version of the standard) and CSS best practices, you can find helpful resources here.</p>"
 msgstr ""
 
 #: apps/landing/templates/landing/learn_html.html:12
-msgid ""
-"<p class=\"intro\">HTML (<strong>HyperText Markup Language</strong>) is the core syntax for putting information on the worldwide web. If you want to create or modify web pages, it’s best if you "
-"learn HTML.</p> <p>The links on this page lead to a variety of HTML tutorials and HTML training materials. Whether you are just starting out, learning the basics of HTML, or are an old hand at web "
-"development wanting to learn <strong>HTML5</strong> (the newest version of the standard), you can find helpful resources here for HTML best practices.</p>"
+msgid "<p class=\"intro\">HTML (<strong>HyperText Markup Language</strong>) is the core syntax for putting information on the worldwide web. If you want to create or modify web pages, it’s best if you learn HTML.</p> <p>The links on this page lead to a variety of HTML tutorials and HTML training materials. Whether you are just starting out, learning the basics of HTML, or are an old hand at web development wanting to learn <strong>HTML5</strong> (the newest version of the standard), you can find helpful resources here for HTML best practices.</p>"
 msgstr ""
 
 #: apps/demos/templates/demos/detail.html:194
@@ -381,9 +381,7 @@ msgid "<p><a href=\"/Special:UserRegistration\">Register</a> or <a href=\"/Speci
 msgstr "<p><a href=\"/Special:UserRegistration\">Εγγραφείτε</a> ή <a href=\"/Special:UserLogin\">συνδεθείτε</a> για να προσθέσετε το δικό σας.</p>"
 
 #: apps/landing/templates/landing/learn.html:33
-msgid ""
-"<p><strong>Cascading Style Sheets</strong> ​is a language for describing the appearance of web pages. To create good-looking web pages, you need to learn CSS in order to define the appearance and "
-"location of the HTML elements within the pages.</p>"
+msgid "<p><strong>Cascading Style Sheets</strong> ​is a language for describing the appearance of web pages. To create good-looking web pages, you need to learn CSS in order to define the appearance and location of the HTML elements within the pages.</p>"
 msgstr ""
 
 #: apps/landing/templates/landing/learn.html:27
@@ -407,29 +405,21 @@ msgid "<p>I'm sorry, I'm afraid I can't do that.</p>"
 msgstr ""
 
 #: templates/403.html:32
-msgid ""
-"<p>No computer has ever made a mistake or distorted information. We are all, by any practical definition of the words, foolproof and incapable of error. So it can only be attributable to human "
-"error. If so, <a href=\"https://bugzilla.mozilla.org/enter_bug.cgi?product=Mozilla%20Developer%20Network&component=Website\">file a bug</a> for my human operators.</p>"
+msgid "<p>No computer has ever made a mistake or distorted information. We are all, by any practical definition of the words, foolproof and incapable of error. So it can only be attributable to human error. If so, <a href=\"https://bugzilla.mozilla.org/enter_bug.cgi?product=Mozilla%20Developer%20Network&component=Website\">file a bug</a> for my human operators.</p>"
 msgstr ""
 
 #: apps/demos/templates/demos/submit.html:81
 msgid "<p>Tell us more about your demo, including the name, description and the technologies used. Please list the browsers you have tested it with.</p>"
-msgstr ""
-"<p>Πείτε μας περισσότερα για το demo σας και συμπεριλάβετε σ' αυτά το όνομα, την περιγραφή και τις τεχνολογίες που χρησιμοποιεί. Παρακαλούμε αναφέρετε τους περιηγητές πάνω στους οποίους το "
-"δοκιμάσατε.</p>"
+msgstr "<p>Πείτε μας περισσότερα για το demo σας και συμπεριλάβετε σ' αυτά το όνομα, την περιγραφή και τις τεχνολογίες που χρησιμοποιεί. Παρακαλούμε αναφέρετε τους περιηγητές πάνω στους οποίους το δοκιμάσατε.</p>"
 
-#: apps/landing/templates/landing/learn.html:54 apps/landing/templates/landing/learn_css.html:148 apps/landing/templates/landing/learn_javascript.html:144
-msgid ""
-"<p>These resources are created by forward-thinking companies and web developers who have embraced open standards and best practices for web development. If you think we've omitted a great resource, "
-"please tell us about it in the <a href=\"https://developer.mozilla.org/forums/viewforum.php?f=4\">Open Web Forum</a>. We want to share these resources with our international community, so we prefer "
-"ones that provide or allow translations, through an open content license such as <a href=\"http://creativecommons.org\" rel=\"external\">Creative Commons</a>.</p>"
+#: apps/landing/templates/landing/learn.html:54
+#: apps/landing/templates/landing/learn_css.html:148
+#: apps/landing/templates/landing/learn_javascript.html:144
+msgid "<p>These resources are created by forward-thinking companies and web developers who have embraced open standards and best practices for web development. If you think we've omitted a great resource, please tell us about it in the <a href=\"https://developer.mozilla.org/forums/viewforum.php?f=4\">Open Web Forum</a>. We want to share these resources with our international community, so we prefer ones that provide or allow translations, through an open content license such as <a href=\"http://creativecommons.org\" rel=\"external\">Creative Commons</a>.</p>"
 msgstr ""
 
 #: apps/landing/templates/landing/learn_html.html:150
-msgid ""
-"<p>These resources are created by forward-thinking companies and web developers who have embraced open standards and best practices for web development. If you think we’ve omitted a great resource, "
-"please tell us about it in the <a href=\"/forums/viewforum.php?f=4&start=0\">Open Web Forum</a>. We want to share these resources with our international community, so we prefer ones that provide or "
-"allow translations, through an open content license such as a <a href=\"http://creativecommons.org/licenses/\">Creative Commons license</a>.</p>"
+msgid "<p>These resources are created by forward-thinking companies and web developers who have embraced open standards and best practices for web development. If you think we’ve omitted a great resource, please tell us about it in the <a href=\"/forums/viewforum.php?f=4&start=0\">Open Web Forum</a>. We want to share these resources with our international community, so we prefer ones that provide or allow translations, through an open content license such as a <a href=\"http://creativecommons.org/licenses/\">Creative Commons license</a>.</p>"
 msgstr ""
 
 #: apps/demos/templates/demos/submit_noauth.html:65
@@ -438,91 +428,46 @@ msgstr "<p>Για να υποβάλετε το demo σας, θα πρέπει ν
 
 #: apps/demos/templates/demos/submit.html:139
 msgid "<p>Upload a ZIP file of your source code, in which the main page of your demo is named <code>index.html</code> in the root directory.</p>"
-msgstr ""
-"<p>Αποστείλετε ένα αρχείο ZIP  με τον πηγαίο κώδικα σας, στο οποίο η κεντρική σελίδα του demo σας θα βρίσκεται στο βασικό κατάλογο του συμπιεσμένου αρχείου και θα έχει όνομα <code>index.html</code>."
-"</p>"
+msgstr "<p>Αποστείλετε ένα αρχείο ZIP  με τον πηγαίο κώδικα σας, στο οποίο η κεντρική σελίδα του demo σας θα βρίσκεται στο βασικό κατάλογο του συμπιεσμένου αρχείου και θα έχει όνομα <code>index.html</code>.</p>"
 
 #: apps/landing/templates/landing/learn.html:11
 msgid "<p>Want to learn to use the technologies that power the Web? <br>We’ve put together a great collection of resources to get you started.</p>"
 msgstr ""
 
 #: apps/demos/templates/demos/home.html:23
-msgid ""
-"<p>Welcome to Mozilla Demo Studio, where developers like you can develop, share, demonstrate, and learn all about Web technologies. See what’s possible by exploring Demo Studio:</p> <ul> <li>View "
-"<strong>demos</strong> that showcase what HTML, CSS, and JavaScript can do.</li> <li>Inspect the <strong>source code</strong> for those demos so you can see how they work.</li> <li>Read "
-"<strong>documentation</strong> to learn about the open standards and technologies that power the Web.</li> </ul>"
-msgstr ""
-"<p>Καλωσορίσατε στο Mozilla Demo Studio, όπου προγραμματιστές σαν κι εσάς μπορούν να αναπτύξουν, να μοιραστούν, να επιδείξουν και να μάθουν όλες τις νέες δικτυακές τεχνολογίες. Δείτε όλες τις νέες "
-"δυνατότητες, εξερευνώντας το Demo Studio:</p> <ul> <li>Δείτε <strong>demo</strong> που αποδεικνύουν τι μπορεί να φτιαχτεί με HTML, CSS, και JavaScript.</li> <li>Επιθεωρήστε τον <strong>πηγαίο "
-"κώδικα</strong> αυτών των demo για να δείτε πως ακριβώς δουλεύουν.</li> <li>Διαβάστε την <strong>τεκμηρίωση</strong> για να μάθετε σχετικά με τα ανοικτά πρότυπα και την τεχνολογία που είναι η "
-"κινητήρια δύναμη του διαδικτύου.</li> </ul>"
+msgid "<p>Welcome to Mozilla Demo Studio, where developers like you can develop, share, demonstrate, and learn all about Web technologies. See what’s possible by exploring Demo Studio:</p> <ul> <li>View <strong>demos</strong> that showcase what HTML, CSS, and JavaScript can do.</li> <li>Inspect the <strong>source code</strong> for those demos so you can see how they work.</li> <li>Read <strong>documentation</strong> to learn about the open standards and technologies that power the Web.</li> </ul>"
+msgstr "<p>Καλωσορίσατε στο Mozilla Demo Studio, όπου προγραμματιστές σαν κι εσάς μπορούν να αναπτύξουν, να μοιραστούν, να επιδείξουν και να μάθουν όλες τις νέες δικτυακές τεχνολογίες. Δείτε όλες τις νέες δυνατότητες, εξερευνώντας το Demo Studio:</p> <ul> <li>Δείτε <strong>demo</strong> που αποδεικνύουν τι μπορεί να φτιαχτεί με HTML, CSS, και JavaScript.</li> <li>Επιθεωρήστε τον <strong>πηγαίο κώδικα</strong> αυτών των demo για να δείτε πως ακριβώς δουλεύουν.</li> <li>Διαβάστε την <strong>τεκμηρίωση</strong> για να μάθετε σχετικά με τα ανοικτά πρότυπα και την τεχνολογία που είναι η κινητήρια δύναμη του διαδικτύου.</li> </ul>"
 
 #: apps/demos/templates/demos/submit_noauth.html:32
-msgid ""
-"<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other "
-"web developers.</p>"
-msgstr ""
-"<p>Είτε δημιουργείτε μια απίθανη νέα εμπειρία για τους χρήστες του διαδικτύου, είτε απλά πειραματίζεστε με τις τελευταίες εξελίξεις της τεχνολογίας, σας προσκαλούμε να υποβάλετε τα demo σας και να "
-"τα μοιραστείτε (ή απλά να τα δείξετε) με άλλους δημιουργούς.</p>"
+msgid "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other web developers.</p>"
+msgstr "<p>Είτε δημιουργείτε μια απίθανη νέα εμπειρία για τους χρήστες του διαδικτύου, είτε απλά πειραματίζεστε με τις τελευταίες εξελίξεις της τεχνολογίας, σας προσκαλούμε να υποβάλετε τα demo σας και να τα μοιραστείτε (ή απλά να τα δείξετε) με άλλους δημιουργούς.</p>"
 
 #: apps/demos/templates/demos/submit.html:67
-msgid ""
-"<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other "
-"web developers.</p> <p>Please complete the form below to ensure your demo is submitted to the Demo Studio successfully.</p>"
-msgstr ""
-"<p>Είτε φτιάχνετε ένα νέο θαυμαστό τόπο στο διαδίκτυο, είτε απλά πειραματίζεστε με τη νέα τεχνολογία, σας προσκαλούμε να προσθέσετε τα δικά σας  demo για να μοιραστείτε τις εμπειρίες σας (ή απλά να "
-"τα επιδείξετε) με άλλους προγραμματιστές.</p> <p>Σας παρακαλούμε να συμπληρώσετε την παρακάτω φόρμα για να είστε σίγουροι ότι το demo σας θα υποβληθεί με επιτυχία στο Demo Studio.</p>"
+msgid "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other web developers.</p> <p>Please complete the form below to ensure your demo is submitted to the Demo Studio successfully.</p>"
+msgstr "<p>Είτε φτιάχνετε ένα νέο θαυμαστό τόπο στο διαδίκτυο, είτε απλά πειραματίζεστε με τη νέα τεχνολογία, σας προσκαλούμε να προσθέσετε τα δικά σας  demo για να μοιραστείτε τις εμπειρίες σας (ή απλά να τα επιδείξετε) με άλλους προγραμματιστές.</p> <p>Σας παρακαλούμε να συμπληρώσετε την παρακάτω φόρμα για να είστε σίγουροι ότι το demo σας θα υποβληθεί με επιτυχία στο Demo Studio.</p>"
 
 #: apps/demos/templates/demos/detail.html:190
 msgid "<p>Why not <a href=\"#comment-post\">Add your own</a>?</p>"
 msgstr "<p>Γιατί δεν <a href=\"#comment-post\">προσθέτετε το δικό σας</a>;</p>"
 
 #: apps/demos/templates/demos/delete.html:40
-msgid ""
-"<p>You are about to remove <strong>%(demo_title)s</strong> from the Demo Studio.</p> <p>The Demo's listing, source code, and statistics will be <strong>deleted</strong>.</p> <p>This action "
-"<strong>cannot be undone</strong>."
-msgstr ""
-"<p>Πρόκειται να αφαιρέσετε το <strong>%(demo_title)s</strong> από το Demo Studio.</p> <p>Η παρουσίαση του demo, ο πηγαίος κώδικας και τα στατιστικά του θα <strong>διαγραφούν</strong>.</p> <p>Αυτή η "
-"ενέργεια <strong>δεν είναι αναστρέψιμη</strong>."
+msgid "<p>You are about to remove <strong>%(demo_title)s</strong> from the Demo Studio.</p> <p>The Demo's listing, source code, and statistics will be <strong>deleted</strong>.</p> <p>This action <strong>cannot be undone</strong>."
+msgstr "<p>Πρόκειται να αφαιρέσετε το <strong>%(demo_title)s</strong> από το Demo Studio.</p> <p>Η παρουσίαση του demo, ο πηγαίος κώδικας και τα στατιστικά του θα <strong>διαγραφούν</strong>.</p> <p>Αυτή η ενέργεια <strong>δεν είναι αναστρέψιμη</strong>."
 
 #: apps/demos/templates/demos/submit_noauth.html:41
-msgid ""
-"<ul> <li>You must be prepared to <strong>provide the source code</strong> for your demo. Demos are hosted on the Demo Studio’s servers.</li> <li>Your demo’s source code must be available under an "
-"<strong>open license</strong>, such as MPL, GPL, or BSD.</li> <li>Your demo should showcase <strong>open web technologies</strong>, such as HTML5 and CSS3.</li> <li>Your demo should support a wide "
-"range of <strong>modern web browsers</strong>, like Firefox, Chrome, Safari, and Opera.</li> </ul>"
-msgstr ""
-"<ul> <li>Θα πρέπει να είστε διατεθειμένοι να <strong>παρέχετε τον πηγαίο κώδικα</strong> του demo σας. Τα demo φιλοξενούνται στους διακομιστές του Demo Studio.</li> <li>Ο πηγαίος κώδικας του demo "
-"σας θα πρέπει να διατίθεται σύμφωνα με τους όρους μιας  <strong>ανοικτής άδειας χρήσης</strong>, όπως οι MPL, GPL, ή BSD.</li> <li>Το demo σας θα πρέπει να πραγματεύεται <strong>ανοικτές "
-"τεχνολογίες για το διαδίκτυο</strong>, όπως η HTML5 και το CSS3.</li> <li>Το demo σας θα πρέπει να υποστηρίζεται από μια ευρεία γκάμα <strong>σύγχρονων περιηγητών</strong>, όπως οι Firefox, Chrome, "
-"Safari, και Opera.</li> </ul>"
+msgid "<ul> <li>You must be prepared to <strong>provide the source code</strong> for your demo. Demos are hosted on the Demo Studio’s servers.</li> <li>Your demo’s source code must be available under an <strong>open license</strong>, such as MPL, GPL, or BSD.</li> <li>Your demo should showcase <strong>open web technologies</strong>, such as HTML5 and CSS3.</li> <li>Your demo should support a wide range of <strong>modern web browsers</strong>, like Firefox, Chrome, Safari, and Opera.</li> </ul>"
+msgstr "<ul> <li>Θα πρέπει να είστε διατεθειμένοι να <strong>παρέχετε τον πηγαίο κώδικα</strong> του demo σας. Τα demo φιλοξενούνται στους διακομιστές του Demo Studio.</li> <li>Ο πηγαίος κώδικας του demo σας θα πρέπει να διατίθεται σύμφωνα με τους όρους μιας  <strong>ανοικτής άδειας χρήσης</strong>, όπως οι MPL, GPL, ή BSD.</li> <li>Το demo σας θα πρέπει να πραγματεύεται <strong>ανοικτές τεχνολογίες για το διαδίκτυο</strong>, όπως η HTML5 και το CSS3.</li> <li>Το demo σας θα πρέπει να υποστηρίζεται από μια ευρεία γκάμα <strong>σύγχρονων περιηγητών</strong>, όπως οι Firefox, Chrome, Safari, και Opera.</li> </ul>"
 
 #: apps/demos/templates/demos/submit_noauth.html:53
-msgid ""
-"<ul> <li>Your demo’s source code should be packaged inside a <strong>ZIP file</strong>.</li> <li>The main page of your demo should be a file named <strong><code>index.html</code></strong> in the "
-"root of the ZIP.</li> <li>Your demo should be built on <strong>client-side technology</strong> (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your "
-"demo requires external resources, it should use <strong>AJAX</strong> to access them.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the CC-BY-"
-"SA license and include links to the authors' websites.</li> </ul>"
-msgstr ""
-"<ul> <li>Ο πηγαίος κώδικας του demo σας θα πρέπει να είναι πακεταρισμένος σε αρχείο ZIP.</li> <li>Η κεντρική σελίδα του demo σας θα πρέπει να ένα αρχείο με όνομα <code>index.html</code> στο βασικό "
-"κατάλογο του ZIP.</li> <li>Το demo  σας θα πρέπει να χρησιμοποιεί μόνο τεχνολογία client-side (HTML, CSS, JavaScript). Δεν υποστηρίζονται γλώσσες server-side όπως η PHP και η Ruby.</li> <li>Αν το "
-"demo  σας απαιτεί εξωτερικούς πόρους, θα πρέπει να χρησιμοποιήσετε AJAX για την πρόσβαση τους.</li> <li>Για να υποβάλετε το demo σας, θα πρέπει να έχετε ένα <a href=\"%(signup_url)s\">λογαριασμό "
-"στο MDN</a>.</li> <li>Σας παρακαλούμε να γνωστοποιήσετε στο πλαίσιο λεπτομερειών του demo τυχών περιεχόμενο τρίτων που δεν μπορεί να διατεθεί σύμφωνα με την άδεια CC-BY-SA και να συμπεριλάβετε "
-"δεσμούς στις σελίδες των δημιουργών του.</li> </ul>"
+msgid "<ul> <li>Your demo’s source code should be packaged inside a <strong>ZIP file</strong>.</li> <li>The main page of your demo should be a file named <strong><code>index.html</code></strong> in the root of the ZIP.</li> <li>Your demo should be built on <strong>client-side technology</strong> (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use <strong>AJAX</strong> to access them.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
+msgstr "<ul> <li>Ο πηγαίος κώδικας του demo σας θα πρέπει να είναι πακεταρισμένος σε αρχείο ZIP.</li> <li>Η κεντρική σελίδα του demo σας θα πρέπει να ένα αρχείο με όνομα <code>index.html</code> στο βασικό κατάλογο του ZIP.</li> <li>Το demo  σας θα πρέπει να χρησιμοποιεί μόνο τεχνολογία client-side (HTML, CSS, JavaScript). Δεν υποστηρίζονται γλώσσες server-side όπως η PHP και η Ruby.</li> <li>Αν το demo  σας απαιτεί εξωτερικούς πόρους, θα πρέπει να χρησιμοποιήσετε AJAX για την πρόσβαση τους.</li> <li>Για να υποβάλετε το demo σας, θα πρέπει να έχετε ένα <a href=\"%(signup_url)s\">λογαριασμό στο MDN</a>.</li> <li>Σας παρακαλούμε να γνωστοποιήσετε στο πλαίσιο λεπτομερειών του demo τυχών περιεχόμενο τρίτων που δεν μπορεί να διατεθεί σύμφωνα με την άδεια CC-BY-SA και να συμπεριλάβετε δεσμούς στις σελίδες των δημιουργών του.</li> </ul>"
 
 #: apps/demos/templates/demos/submit.html:125
-msgid ""
-"<ul> <li>Your demo’s source code should be packaged inside a ZIP file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the ZIP.</li> <li>Your demo "
-"should be built on client-side technology (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use AJAX "
-"to access them.</li> <li>To submit your demo, you need an <a href=\"%(signup_url)s\">MDN account</a>.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed "
-"under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
-msgstr ""
-"<ul> <li>Ο πηγαίος κώδικας του demo σας θα πρέπει να είναι πακεταρισμένος σε αρχείο ZIP.</li> <li>Η κεντρική σελίδα του demo σας θα πρέπει να ένα αρχείο με όνομα <code>index.html</code> στο βασικό "
-"κατάλογο του ZIP.</li> <li>Το demo  σας θα πρέπει να χρησιμοποιεί μόνο τεχνολογία client-side (HTML, CSS, JavaScript). Δεν υποστηρίζονται γλώσσες server-side όπως η PHP και η Ruby.</li> <li>Αν το "
-"demo  σας απαιτεί εξωτερικούς πόρους, θα πρέπει να χρησιμοποιήσετε AJAX για την πρόσβαση τους.</li> <li>Για να υποβάλετε το demo σας, θα πρέπει να έχετε ένα <a href=\"%(signup_url)s\">λογαριασμό "
-"στο MDN</a>.</li> <li>Σας παρακαλούμε να γνωστοποιήσετε στο πλαίσιο λεπτομερειών του demo τυχών περιεχόμενο τρίτων που δεν μπορεί να διατεθεί σύμφωνα με την άδεια CC-BY-SA και να συμπεριλάβετε "
-"δεσμούς στις σελίδες των δημιουργών του.</li> </ul>"
+msgid "<ul> <li>Your demo’s source code should be packaged inside a ZIP file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the ZIP.</li> <li>Your demo should be built on client-side technology (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use AJAX to access them.</li> <li>To submit your demo, you need an <a href=\"%(signup_url)s\">MDN account</a>.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
+msgstr "<ul> <li>Ο πηγαίος κώδικας του demo σας θα πρέπει να είναι πακεταρισμένος σε αρχείο ZIP.</li> <li>Η κεντρική σελίδα του demo σας θα πρέπει να ένα αρχείο με όνομα <code>index.html</code> στο βασικό κατάλογο του ZIP.</li> <li>Το demo  σας θα πρέπει να χρησιμοποιεί μόνο τεχνολογία client-side (HTML, CSS, JavaScript). Δεν υποστηρίζονται γλώσσες server-side όπως η PHP και η Ruby.</li> <li>Αν το demo  σας απαιτεί εξωτερικούς πόρους, θα πρέπει να χρησιμοποιήσετε AJAX για την πρόσβαση τους.</li> <li>Για να υποβάλετε το demo σας, θα πρέπει να έχετε ένα <a href=\"%(signup_url)s\">λογαριασμό στο MDN</a>.</li> <li>Σας παρακαλούμε να γνωστοποιήσετε στο πλαίσιο λεπτομερειών του demo τυχών περιεχόμενο τρίτων που δεν μπορεί να διατεθεί σύμφωνα με την άδεια CC-BY-SA και να συμπεριλάβετε δεσμούς στις σελίδες των δημιουργών του.</li> </ul>"
 
-#: apps/landing/templates/landing/learn_html.html:83 apps/landing/templates/landing/learn_html.html:93
+#: apps/landing/templates/landing/learn_html.html:83
+#: apps/landing/templates/landing/learn_html.html:93
 msgid "A List Apart"
 msgstr ""
 
@@ -574,7 +519,8 @@ msgstr ""
 msgid "A tutorial and exercises that take you through the basics."
 msgstr ""
 
-#: apps/docs/templates/docs/docs.html:52 apps/docs/templates/docs/glossary.html:11
+#: apps/docs/templates/docs/docs.html:52
+#: apps/docs/templates/docs/glossary.html:11
 msgid "AJAX"
 msgstr "AJAX"
 
@@ -607,8 +553,14 @@ msgid "Add-on Validator"
 msgstr "Add-on Validator"
 
 # Χωρίς τόνους λόγω του text-transform: uppercase στο CSS.
-#: apps/devmo/__init__.py:6 apps/docs/templates/docs/docs.html:70 apps/docs/templates/docs/docs.html:86 apps/landing/templates/landing/addons.html:11 apps/landing/templates/landing/addons.html:17
-#: apps/landing/templates/landing/home.html:138 templates/base.html:72 templates/base_compact.html:24
+#: apps/devmo/__init__.py:6
+#: apps/docs/templates/docs/docs.html:70
+#: apps/docs/templates/docs/docs.html:86
+#: apps/landing/templates/landing/addons.html:11
+#: apps/landing/templates/landing/addons.html:17
+#: apps/landing/templates/landing/home.html:138
+#: templates/base.html:72
+#: templates/base_compact.html:24
 msgid "Add-ons"
 msgstr "Προσθετα"
 
@@ -628,7 +580,8 @@ msgstr "Add-ons Builder [προέκδοση]"
 msgid "Adding a Touch of Style"
 msgstr ""
 
-#: apps/landing/templates/landing/home.html:48 apps/landing/templates/landing/home.html:99
+#: apps/landing/templates/landing/home.html:48
+#: apps/landing/templates/landing/home.html:99
 msgid "Addons Builder Preview"
 msgstr "Προέκδοση του Addons Builder"
 
@@ -637,7 +590,9 @@ msgstr "Προέκδοση του Addons Builder"
 msgid "Advanced JavaScript"
 msgstr "JavaScript"
 
-#: apps/landing/templates/landing/learn_css.html:106 apps/landing/templates/landing/learn_html.html:69 apps/landing/templates/landing/learn_javascript.html:93
+#: apps/landing/templates/landing/learn_css.html:106
+#: apps/landing/templates/landing/learn_html.html:69
+#: apps/landing/templates/landing/learn_javascript.html:93
 msgid "Advanced Level"
 msgstr ""
 
@@ -727,7 +682,8 @@ msgstr "Apache"
 msgid "Apply rotation, skewing, scaling, and translation using CSS."
 msgstr ""
 
-#: apps/landing/templates/landing/addons.html:20 apps/landing/templates/landing/mozilla.html:20
+#: apps/landing/templates/landing/addons.html:20
+#: apps/landing/templates/landing/mozilla.html:20
 msgid "Are you ready to make browsing better?"
 msgstr "Είστε έτοιμοι να κάνετε καλύτερη την περιήγηση στο διαδίκτυο;"
 
@@ -735,7 +691,8 @@ msgstr "Είστε έτοιμοι να κάνετε καλύτερη την πε
 msgid "Articles about using HTML5 right now."
 msgstr ""
 
-#: apps/demos/__init__.py:56 apps/docs/templates/docs/glossary.html:15
+#: apps/demos/__init__.py:56
+#: apps/docs/templates/docs/glossary.html:15
 msgid "Audio"
 msgstr "Audio"
 
@@ -753,7 +710,9 @@ msgstr "Φοβερα demo για το <span class=\"web\">διαδικτυο</sp
 msgid "BSD"
 msgstr "BSD"
 
-#: apps/landing/templates/landing/learn_css.html:10 apps/landing/templates/landing/learn_html.html:10 apps/landing/templates/landing/learn_javascript.html:10
+#: apps/landing/templates/landing/learn_css.html:10
+#: apps/landing/templates/landing/learn_html.html:10
+#: apps/landing/templates/landing/learn_javascript.html:10
 msgid "Back to Home"
 msgstr ""
 
@@ -778,7 +737,9 @@ msgstr "Γίνετε μέλος του MDN"
 msgid "Before You Begin"
 msgstr "Πριν ξεκινήσετε"
 
-#: apps/demos/templates/demos/listing_all.html:5 apps/demos/templates/demos/listing_all.html:19 apps/demos/templates/demos/listing_all.html:31
+#: apps/demos/templates/demos/listing_all.html:5
+#: apps/demos/templates/demos/listing_all.html:19
+#: apps/demos/templates/demos/listing_all.html:31
 msgid "Browse all demos"
 msgstr "Περιήγηση σε όλα τα demo"
 
@@ -803,7 +764,10 @@ msgstr "Φτιάξτε εξαιρετικά πρόσθετα για κινητά
 msgid "Built using"
 msgstr "Φτιάχτηκε με χρήση"
 
-#: apps/docs/templates/docs/docs.html:44 apps/docs/templates/docs/glossary.html:5 apps/landing/templates/landing/learn.html:32 apps/landing/templates/landing/web.html:73
+#: apps/docs/templates/docs/docs.html:44
+#: apps/docs/templates/docs/glossary.html:5
+#: apps/landing/templates/landing/learn.html:32
+#: apps/landing/templates/landing/web.html:73
 msgid "CSS"
 msgstr "CSS"
 
@@ -833,7 +797,8 @@ msgstr "CSS Gradients"
 msgid "CSS Positioning 101"
 msgstr ""
 
-#: apps/landing/templates/landing/home.html:181 apps/landing/templates/landing/learn_css.html:73
+#: apps/landing/templates/landing/home.html:181
+#: apps/landing/templates/landing/learn_css.html:73
 msgid "CSS Reference"
 msgstr "Αναφορές CSS"
 
@@ -862,7 +827,9 @@ msgstr "CSS3"
 msgid "CSS3 in Under 5 Minutes"
 msgstr ""
 
-#: apps/demos/templates/demos/delete.html:49 apps/demos/templates/demos/delete_comment.html:52 apps/demos/templates/demos/flag.html:44
+#: apps/demos/templates/demos/delete.html:49
+#: apps/demos/templates/demos/delete_comment.html:52
+#: apps/demos/templates/demos/flag.html:44
 msgid "Cancel"
 msgstr "Ακύρωση"
 
@@ -870,7 +837,8 @@ msgstr "Ακύρωση"
 msgid "Cannot process image"
 msgstr "Δεν είναι δυνατή η επεξεργασία της εικόνας"
 
-#: apps/demos/__init__.py:66 apps/docs/templates/docs/glossary.html:10
+#: apps/demos/__init__.py:66
+#: apps/docs/templates/docs/glossary.html:10
 msgid "Canvas"
 msgstr "Canvas"
 
@@ -879,11 +847,8 @@ msgid "Canvas Tutorial"
 msgstr ""
 
 #: apps/demos/__init__.py:77
-msgid ""
-"Cascading Style Sheets level 3 (CSS3) provide serveral new features and properties to enhance the formatting and look of documents written in different kinds of markup languages like HTML or XML."
-msgstr ""
-"Η τρίτη έκδοση των επικαλυπτώμενων φύλλων στυλ ( Cascading Style Sheets - CSS3) παρέχει διάφορα νέα χαρακτηριστικά και ιδιότητες για τη βελτίωση της μορφοποίησης και της εμφάνισης εγγράφων "
-"γραμμένων με διάφορες γλώσσες markup, όπως η HTML ή η XML."
+msgid "Cascading Style Sheets level 3 (CSS3) provide serveral new features and properties to enhance the formatting and look of documents written in different kinds of markup languages like HTML or XML."
+msgstr "Η τρίτη έκδοση των επικαλυπτώμενων φύλλων στυλ ( Cascading Style Sheets - CSS3) παρέχει διάφορα νέα χαρακτηριστικά και ιδιότητες για τη βελτίωση της μορφοποίησης και της εμφάνισης εγγράφων γραμμένων με διάφορες γλώσσες markup, όπως η HTML ή η XML."
 
 #: apps/docs/templates/docs/docs.html:45
 msgid "Cascading Style Sheets provide advanced layout and formatting of web content."
@@ -905,7 +870,8 @@ msgstr "Ελέγξτε το πρόσθετο σας για κοινότυπα π
 msgid "Close"
 msgstr "Κλείσιμο"
 
-#: apps/demos/templates/demos/detail.html:213 apps/demos/templates/demos/elements/comments_tree.html:50
+#: apps/demos/templates/demos/detail.html:213
+#: apps/demos/templates/demos/elements/comments_tree.html:50
 msgid "Comment"
 msgstr "Σχόλιο"
 
@@ -974,7 +940,10 @@ msgstr "Προσαρμόστε το προφίλ σας & ρυθμίστε το 
 msgid "DEVMO"
 msgstr "DEVMO"
 
-#: apps/docs/templates/docs/docs.html:48 apps/docs/templates/docs/glossary.html:8 apps/landing/templates/landing/home.html:189 apps/landing/templates/landing/web.html:77
+#: apps/docs/templates/docs/docs.html:48
+#: apps/docs/templates/docs/glossary.html:8
+#: apps/landing/templates/landing/home.html:189
+#: apps/landing/templates/landing/web.html:77
 msgid "DOM"
 msgstr "DOM"
 
@@ -986,7 +955,8 @@ msgstr "Αποσφαλμάτωση"
 msgid "Delete"
 msgstr "Διαγραφή"
 
-#: apps/demos/templates/demos/delete_comment.html:10 apps/demos/templates/demos/delete_comment.html:22
+#: apps/demos/templates/demos/delete_comment.html:10
+#: apps/demos/templates/demos/delete_comment.html:22
 msgid "Delete Comment"
 msgstr "Διαγραφή σχολίου"
 
@@ -1002,10 +972,20 @@ msgstr "Διαγραφή σχολίου"
 msgid "Delete this comment?"
 msgstr "Να διαγραφεί το σχόλιο;"
 
-#: apps/demos/templates/demos/delete.html:21 apps/demos/templates/demos/delete_comment.html:21 apps/demos/templates/demos/detail.html:14 apps/demos/templates/demos/detail.html:25
-#: apps/demos/templates/demos/flag.html:21 apps/demos/templates/demos/home.html:14 apps/demos/templates/demos/launch.html:15 apps/demos/templates/demos/listing_all.html:18
-#: apps/demos/templates/demos/listing_search.html:24 apps/demos/templates/demos/listing_tag.html:19 apps/demos/templates/demos/profile_detail.html:23 apps/demos/templates/demos/submit.html:43
-#: apps/demos/templates/demos/submit_noauth.html:19 apps/landing/templates/landing/web.html:47
+#: apps/demos/templates/demos/delete.html:21
+#: apps/demos/templates/demos/delete_comment.html:21
+#: apps/demos/templates/demos/detail.html:14
+#: apps/demos/templates/demos/detail.html:25
+#: apps/demos/templates/demos/flag.html:21
+#: apps/demos/templates/demos/home.html:14
+#: apps/demos/templates/demos/launch.html:15
+#: apps/demos/templates/demos/listing_all.html:18
+#: apps/demos/templates/demos/listing_search.html:24
+#: apps/demos/templates/demos/listing_tag.html:19
+#: apps/demos/templates/demos/profile_detail.html:23
+#: apps/demos/templates/demos/submit.html:43
+#: apps/demos/templates/demos/submit_noauth.html:19
+#: apps/landing/templates/landing/web.html:47
 msgid "Demo Studio"
 msgstr "Demo Studio"
 
@@ -1021,7 +1001,10 @@ msgstr "Το demo ανήκει σε άλλο προγραμματιστή"
 msgid "Demo is not working"
 msgstr "Το demo δεν λειτουργεί"
 
-#: apps/demos/templates/demos/base.html:4 apps/landing/templates/landing/base_learn.html:9 templates/base.html:78 templates/base_compact.html:18
+#: apps/demos/templates/demos/base.html:4
+#: apps/landing/templates/landing/base_learn.html:9
+#: templates/base.html:78
+#: templates/base_compact.html:18
 #, fuzzy
 msgid "Demos"
 msgstr "Demo στο MDN"
@@ -1106,15 +1089,14 @@ msgstr "Απόρριψη demo"
 msgid "Dive into HTML5"
 msgstr ""
 
-#: apps/demos/templates/demos/detail.html:103 apps/demos/templates/demos/launch.html:50
+#: apps/demos/templates/demos/detail.html:103
+#: apps/demos/templates/demos/launch.html:50
 msgid "Do you like this demo?"
 msgstr "Σας αρέσει το demo;"
 
 #: apps/landing/templates/landing/web.html:48
 msgid "Do you want to show the world what the Web can do? Demo Studio is your place for sharing awesome demos and experiments with the latest Web standards and open technologies."
-msgstr ""
-"Θέλετε να δείξτε στον κόσμο τι μπορεί να δημιουργηθεί στο διαδίκτυο; Το Demo Studio είναι το κατάλληλο μέρος για να μοιραστείτε τα απίθανα demo και τους πειραματισμούς σας με τα πιο πρόσφατα "
-"standard και τις ανοικτές τεχνολογίες του διαδικτύου."
+msgstr "Θέλετε να δείξτε στον κόσμο τι μπορεί να δημιουργηθεί στο διαδίκτυο; Το Demo Studio είναι το κατάλληλο μέρος για να μοιραστείτε τα απίθανα demo και τους πειραματισμούς σας με τα πιο πρόσφατα standard και τις ανοικτές τεχνολογίες του διαδικτύου."
 
 # Χωρίς τόνους λόγω του text-transform: uppercase στο CSS.
 #: apps/docs/templates/docs/docs.html:7
@@ -1127,7 +1109,10 @@ msgid "Doc Of The Day"
 msgstr "Εγγραφο της ημερας"
 
 # Χωρίς τόνους λόγω του text-transform: uppercase στο CSS.
-#: apps/landing/templates/landing/base_learn.html:8 apps/landing/templates/landing/home.html:120 templates/base.html:77 templates/base_compact.html:27
+#: apps/landing/templates/landing/base_learn.html:8
+#: apps/landing/templates/landing/home.html:120
+#: templates/base.html:77
+#: templates/base_compact.html:27
 msgid "Docs"
 msgstr "Εγγραφα"
 
@@ -1156,7 +1141,8 @@ msgstr "Μορφές για λήψη:"
 msgid "Download the Source <span class=\"note\">%(file_ksize)s KB &middot; ZIP File</span>"
 msgstr "Κάντε λήψη του αρχείου <span class=\"note\">ZIP %(file_ksize)s KB &middot; με τον πηγαίο κώδικα</span>"
 
-#: apps/demos/__init__.py:164 apps/docs/templates/docs/glossary.html:19
+#: apps/demos/__init__.py:164
+#: apps/docs/templates/docs/glossary.html:19
 msgid "Drag and Drop"
 msgstr "Σύρσιμο και απόθεση "
 
@@ -1180,7 +1166,9 @@ msgstr "Επεξεργασία demo"
 msgid "Edit this comment"
 msgstr "Επεξεργασία σχολίου"
 
-#: apps/demos/templates/demos/submit.html:8 apps/demos/templates/demos/submit.html:45 apps/demos/templates/demos/submit.html:60
+#: apps/demos/templates/demos/submit.html:8
+#: apps/demos/templates/demos/submit.html:45
+#: apps/demos/templates/demos/submit.html:60
 msgid "Edit {demo_title}"
 msgstr "Επεξεργασία {demo_title}"
 
@@ -1201,7 +1189,8 @@ msgstr "Αξιολογήστε τις επιδόσεις ιστοσελίδων 
 msgid "Everything from filing bugs to fixing them."
 msgstr "Οτιδήποτε από την καταχώρηση ενός bug ως και τη διόρθωση του."
 
-#: apps/docs/templates/docs/docs.html:89 apps/landing/templates/landing/addons.html:60
+#: apps/docs/templates/docs/docs.html:89
+#: apps/landing/templates/landing/addons.html:60
 msgid "Extensions"
 msgstr "Επεκτάσεις"
 
@@ -1251,7 +1240,8 @@ msgstr "Αρχείο ροής"
 msgid "Fennec"
 msgstr "Fennec"
 
-#: apps/demos/__init__.py:95 apps/docs/templates/docs/glossary.html:18
+#: apps/demos/__init__.py:95
+#: apps/docs/templates/docs/glossary.html:18
 msgid "Files"
 msgstr "Αρχεία"
 
@@ -1259,7 +1249,8 @@ msgstr "Αρχεία"
 msgid "Find out what HTML5 is really all about and how you can develop for a better Web through open standards."
 msgstr "Δείτε τι ακριβώς είναι η HTML5 και πως θα μπορέσετε να φτιάξετε εφαρμογές για ένα καλύτερο διαδίκτυο χρησιμοποιώντας ανοικτά πρότυπα."
 
-#: apps/landing/templates/landing/home.html:47 apps/landing/templates/landing/home.html:84
+#: apps/landing/templates/landing/home.html:47
+#: apps/landing/templates/landing/home.html:84
 #, fuzzy
 msgid "Firefox 4"
 msgstr "Δοκιμαστική έκδοση του Firefox 4"
@@ -1285,13 +1276,8 @@ msgid "Firefox for mobile: What's coming next"
 msgstr "Firefox για κινητά: Τι θα ακολουθήσει"
 
 #: apps/landing/templates/landing/mobile.html:55
-msgid ""
-"Firefox is the world's first Web browser to support mobile add-ons. Learn about <a href=\"%(basics_url)s\">Extension Basics</a>, <a href=\"%(best_practices_url)s\">Extension Best Practices</a>, "
-"helpful <a href=\"%(snippets_url)s\">Code Snippets</a>, and more so you can build innovative add-ons for Firefox on Android and Firefox on Nokia's Meego platform."
-msgstr ""
-"Ο Firefox είναι ο πρώτος περιηγητής παγκοσμίως που υποστηρίζει πρόσθετα σχεδιασμένα για κινητά. Μάθετε τα <a href=\"%(basics_url)s\">βασικά για επεκτάσεις</a>, τις <a href=\"%(best_practices_url)s"
-"\">καλύτερες πρακτικές για επεκτάσεις</a>, δείτε βοηθητικά <a href=\"%(snippets_url)s\">τμήματα κώδικα</a> κι ακόμα περισσότερα, ώστε να μπορείτε να φτιάξετε καινοτόμα πρόσθετα για τον  Firefox σε "
-"Android και στην πλατφόρμα Meego της Nokia."
+msgid "Firefox is the world's first Web browser to support mobile add-ons. Learn about <a href=\"%(basics_url)s\">Extension Basics</a>, <a href=\"%(best_practices_url)s\">Extension Best Practices</a>, helpful <a href=\"%(snippets_url)s\">Code Snippets</a>, and more so you can build innovative add-ons for Firefox on Android and Firefox on Nokia's Meego platform."
+msgstr "Ο Firefox είναι ο πρώτος περιηγητής παγκοσμίως που υποστηρίζει πρόσθετα σχεδιασμένα για κινητά. Μάθετε τα <a href=\"%(basics_url)s\">βασικά για επεκτάσεις</a>, τις <a href=\"%(best_practices_url)s\">καλύτερες πρακτικές για επεκτάσεις</a>, δείτε βοηθητικά <a href=\"%(snippets_url)s\">τμήματα κώδικα</a> κι ακόμα περισσότερα, ώστε να μπορείτε να φτιάξετε καινοτόμα πρόσθετα για τον  Firefox σε Android και στην πλατφόρμα Meego της Nokia."
 
 #: apps/demos/templates/demos/flag.html:43
 msgid "Flag content"
@@ -1323,16 +1309,16 @@ msgstr "Fonts & Type"
 
 #: apps/demos/__init__.py:115
 msgid "Form elements and attributes in HTML5 provide a greater degree of semantic mark-up than HTML4 and remove a great deal of the need for tedious scripting and styling that was required in HTML4."
-msgstr ""
-"Τα στοιχεία και οι ιδιότητες φορμών της HTML5 παρέχουν περισσότερο έλεγχο απ' ό,τι στην HTML4 και διευκολύνουν τη διαχείριση αφού δεν είναι πια αναγκαία η χρήση πολύπλοκων σεναρίων εντολών και η "
-"εφαρμογή στυλ που απαιτούσε η HTML4."
+msgstr "Τα στοιχεία και οι ιδιότητες φορμών της HTML5 παρέχουν περισσότερο έλεγχο απ' ό,τι στην HTML4 και διευκολύνουν τη διαχείριση αφού δεν είναι πια αναγκαία η χρήση πολύπλοκων σεναρίων εντολών και η εφαρμογή στυλ που απαιτούσε η HTML4."
 
 #: apps/demos/__init__.py:114
 msgid "Forms"
 msgstr "Φόρμες"
 
 # Χωρίς τόνους λόγω του text-transform: uppercase στο CSS.
-#: apps/landing/templates/landing/base_learn.html:10 templates/base.html:80 templates/base_compact.html:29
+#: apps/landing/templates/landing/base_learn.html:10
+#: templates/base.html:80
+#: templates/base_compact.html:29
 msgid "Forums"
 msgstr "Φορουμ"
 
@@ -1376,9 +1362,7 @@ msgstr "Δειτε τον πηγαιο κωδικα"
 
 #: apps/landing/templates/landing/mobile.html:45
 msgid "Get the latest news, status and developer documentation on the Mozilla mobile project. Check out the mobile project's goals, and how you can help out and get involved!"
-msgstr ""
-"Λάβετε τα πιο πρόσφατα νέα, ενημερώσεις για την κατάσταση και τεκμηρίωση για δημιουργούς από τον τομέα για κινητά του έργου Mozilla. Ρίξτε μια ματιά στους στόχους του έργου για τα κινητά και δείτε "
-"πως μπορείτε να συμμετέχετε και να βοηθήσετε!"
+msgstr "Λάβετε τα πιο πρόσφατα νέα, ενημερώσεις για την κατάσταση και τεκμηρίωση για δημιουργούς από τον τομέα για κινητά του έργου Mozilla. Ρίξτε μια ματιά στους στόχους του έργου για τα κινητά και δείτε πως μπορείτε να συμμετέχετε και να βοηθήσετε!"
 
 #: apps/landing/templates/landing/learn_javascript.html:30
 msgid "Getting Started with JavaScript"
@@ -1396,7 +1380,8 @@ msgstr "Μετάβαση στην πρώτη σελίδα"
 msgid "Go to the last page"
 msgstr "Μετάβαση στην τελευταία σελίδα"
 
-#: apps/demos/templates/demos/detail.html:38 apps/demos/templates/demos/launch.html:71
+#: apps/demos/templates/demos/detail.html:38
+#: apps/demos/templates/demos/launch.html:71
 msgid "Go to the next demo, {demo_title}"
 msgstr "Μετάβαση στο επόμενο demo, {demo_title}"
 
@@ -1404,7 +1389,8 @@ msgstr "Μετάβαση στο επόμενο demo, {demo_title}"
 msgid "Go to the next page"
 msgstr "Μετάβαση στην επόμενη σελίδα"
 
-#: apps/demos/templates/demos/detail.html:34 apps/demos/templates/demos/launch.html:67
+#: apps/demos/templates/demos/detail.html:34
+#: apps/demos/templates/demos/launch.html:67
 msgid "Go to the previous demo, {demo_title}"
 msgstr "Μετάβαση στο προηγούμενο demo, {demo_title}"
 
@@ -1420,7 +1406,10 @@ msgstr ""
 msgid "Grouping, pseudo-classes, and more."
 msgstr ""
 
-#: apps/docs/templates/docs/docs.html:32 apps/docs/templates/docs/glossary.html:4 apps/landing/templates/landing/home.html:177 apps/landing/templates/landing/learn.html:26
+#: apps/docs/templates/docs/docs.html:32
+#: apps/docs/templates/docs/glossary.html:4
+#: apps/landing/templates/landing/home.html:177
+#: apps/landing/templates/landing/learn.html:26
 msgid "HTML"
 msgstr "HTML"
 
@@ -1440,7 +1429,11 @@ msgstr ""
 msgid "HTML index not found in ZIP"
 msgstr "Δεν βρέθηκε HTML index στο αρχείο  ZIP"
 
-#: apps/demos/__init__.py:144 apps/docs/templates/docs/docs.html:36 apps/docs/templates/docs/glossary.html:7 apps/landing/templates/landing/home.html:46 apps/landing/templates/landing/home.html:70
+#: apps/demos/__init__.py:144
+#: apps/docs/templates/docs/docs.html:36
+#: apps/docs/templates/docs/glossary.html:7
+#: apps/landing/templates/landing/home.html:46
+#: apps/landing/templates/landing/home.html:70
 #: apps/landing/templates/landing/web.html:65
 msgid "HTML5"
 msgstr "HTML5"
@@ -1530,7 +1523,8 @@ msgstr "Αν το demo παρουσιάζει προβλήματα όταν πρ
 msgid "In the context of the HTML canvas element WebGL provides an API for 3D graphics in the browser."
 msgstr "Μέσα στα πλαίσια του στοιχείου canvas της HTML, το WebGL παρέχει ένα  API για την υλοποίηση τρισδιάστατων γραφικών στον περιηγητή."
 
-#: apps/demos/__init__.py:154 apps/docs/templates/docs/glossary.html:23
+#: apps/demos/__init__.py:154
+#: apps/docs/templates/docs/glossary.html:23
 msgid "IndexedDB"
 msgstr "IndexedDB"
 
@@ -1546,11 +1540,13 @@ msgstr ""
 msgid "Intermediate CSS Concepts"
 msgstr ""
 
-#: apps/landing/templates/landing/learn_css.html:70 apps/landing/templates/landing/learn_javascript.html:63
+#: apps/landing/templates/landing/learn_css.html:70
+#: apps/landing/templates/landing/learn_javascript.html:63
 msgid "Intermediate Level"
 msgstr ""
 
-#: templates/500.html:3 templates/500.html:5
+#: templates/500.html:3
+#: templates/500.html:5
 msgid "Internal Server Error"
 msgstr "Εσωτερικό σφάλμα διακομιστή"
 
@@ -1562,7 +1558,9 @@ msgstr ""
 msgid "Introduction to Object-oriented JavaScript"
 msgstr ""
 
-#: apps/landing/templates/landing/learn_css.html:29 apps/landing/templates/landing/learn_html.html:28 apps/landing/templates/landing/learn_javascript.html:27
+#: apps/landing/templates/landing/learn_css.html:29
+#: apps/landing/templates/landing/learn_html.html:28
+#: apps/landing/templates/landing/learn_javascript.html:27
 msgid "Introductory Level"
 msgstr ""
 
@@ -1574,7 +1572,11 @@ msgstr "Υπάρχει διαθέσιμος ο πηγαίος κώδικας σ�
 msgid "JPEG and PNG supported. Minimum size of 480x360."
 msgstr "Υποστηρίζονται αρχεία JPEG και PNG. Ελάχιστη ανάλυση 480x360."
 
-#: apps/demos/__init__.py:134 apps/docs/templates/docs/docs.html:40 apps/docs/templates/docs/glossary.html:6 apps/landing/templates/landing/home.html:185 apps/landing/templates/landing/learn.html:38
+#: apps/demos/__init__.py:134
+#: apps/docs/templates/docs/docs.html:40
+#: apps/docs/templates/docs/glossary.html:6
+#: apps/landing/templates/landing/home.html:185
+#: apps/landing/templates/landing/learn.html:38
 #: apps/landing/templates/landing/web.html:69
 msgid "JavaScript"
 msgstr "JavaScript"
@@ -1599,9 +1601,7 @@ msgstr "JavaScript"
 
 #: apps/demos/__init__.py:135
 msgid "JavaScript is a lightweight, object-oriented programming language, commonly used for scripting interactive behavior on web pages and in web applications."
-msgstr ""
-"Η JavaScript είναι, μια ελαφριά, αντικειμενοστραφής γλώσσα προγραμματισμού, που χρησιμοποιείται συχνά για τη δημιουργία σεναρίων εντολών διαδραστικής αλληλεπίδρασης σε ιστοσελίδες και δικτυακές "
-"εφαρμογές."
+msgstr "Η JavaScript είναι, μια ελαφριά, αντικειμενοστραφής γλώσσα προγραμματισμού, που χρησιμοποιείται συχνά για τη δημιουργία σεναρίων εντολών διαδραστικής αλληλεπίδρασης σε ιστοσελίδες και δικτυακές εφαρμογές."
 
 #: apps/landing/templates/landing/learn_javascript.html:98
 msgid "John Resig’s guide to advanced JavaScript."
@@ -1659,9 +1659,8 @@ msgstr "Προσφατες συζητησεις για <span class=\"addons\">π
 
 # Χωρίς τόνους λόγω του text-transform: uppercase στο CSS.
 #: apps/demos/templates/demos/elements/submission_thumb.html:20
-#, fuzzy
 msgid "Launch"
-msgstr "Εκκινηση demo"
+msgstr "Εκκινηση"
 
 # Χωρίς τόνους λόγω του text-transform: uppercase στο CSS.
 #: apps/demos/templates/demos/detail.html:89
@@ -1672,24 +1671,25 @@ msgstr "Εκκινηση demo"
 msgid "Launch {title}"
 msgstr "Εκκίνηση {title}"
 
-#: apps/landing/templates/landing/learn_css.html:5 apps/landing/templates/landing/learn_css.html:11
-#, fuzzy
+#: apps/landing/templates/landing/learn_css.html:5
+#: apps/landing/templates/landing/learn_css.html:11
 msgid "Learn CSS"
-msgstr "Μάθετε περισότερα"
+msgstr "Μάθετε CSS"
 
-#: apps/landing/templates/landing/learn_html.html:5 apps/landing/templates/landing/learn_html.html:11
-#, fuzzy
+#: apps/landing/templates/landing/learn_html.html:5
+#: apps/landing/templates/landing/learn_html.html:11
 msgid "Learn HTML"
-msgstr "Μάθετε περισότερα"
+msgstr "Μάθετε HTML"
 
-#: apps/landing/templates/landing/learn.html:5 apps/landing/templates/landing/learn.html:10
+#: apps/landing/templates/landing/learn.html:5
+#: apps/landing/templates/landing/learn.html:10
 msgid "Learn How to Make Websites"
 msgstr ""
 
-#: apps/landing/templates/landing/learn_javascript.html:5 apps/landing/templates/landing/learn_javascript.html:11
-#, fuzzy
+#: apps/landing/templates/landing/learn_javascript.html:5
+#: apps/landing/templates/landing/learn_javascript.html:11
 msgid "Learn JavaScript"
-msgstr "/en/JavaScript"
+msgstr "Μάθετε JavaScript"
 
 #: apps/demos/templates/demos/listing_tag.html:39
 msgid "Learn More"
@@ -1716,12 +1716,8 @@ msgid "Learn how to draw graphics using scripting using the &lt;canvas&gt; eleme
 msgstr ""
 
 #: apps/landing/templates/landing/mobile.html:69
-msgid ""
-"Learn how to use the <a href=\"%(geo_url)s\">Geolocation API</a> and put people on the right path. Location-Aware Browsing is a must when you're out and about on your mobile. Learn how to build "
-"innovative apps that delight your audience."
-msgstr ""
-"Μάθετε πως να χρησιμοποιείτε το  <a href=\"%(geo_url)s\">API γεωτοποθεσίας (Geolocation)</a> και δείξτε στους άλλους το σωστό δρόμο. Η περιήγηση με βάση την τοποθεσία είναι σχεδόν απαραίτητη όταν "
-"χρησιμοποιείτε το κινητό για περιήγηση. Μάθετε πως να φτιάξετε καινοτόμες εφαρμογές που θα ενθουσιάσουν το κοινό σας."
+msgid "Learn how to use the <a href=\"%(geo_url)s\">Geolocation API</a> and put people on the right path. Location-Aware Browsing is a must when you're out and about on your mobile. Learn how to build innovative apps that delight your audience."
+msgstr "Μάθετε πως να χρησιμοποιείτε το  <a href=\"%(geo_url)s\">API γεωτοποθεσίας (Geolocation)</a> και δείξτε στους άλλους το σωστό δρόμο. Η περιήγηση με βάση την τοποθεσία είναι σχεδόν απαραίτητη όταν χρησιμοποιείτε το κινητό για περιήγηση. Μάθετε πως να φτιάξετε καινοτόμες εφαρμογές που θα ενθουσιάσουν το κοινό σας."
 
 #: apps/landing/templates/landing/learn_html.html:108
 msgid "Learn how to use the HTML audio element to embed sounds in your web pages easily. Lots of code examples are included in the tutorial."
@@ -1745,35 +1741,35 @@ msgstr "Μάθετε περισσότερα για την τεχνολογία �
 
 #: apps/landing/templates/landing/learn_javascript.html:37
 msgid "Learn the basics of programming with JavaScript"
-msgstr ""
+msgstr "Μάθετε τα βασικά για προγραμματισμό με JavaScript"
 
 #: apps/landing/templates/landing/home.html:16
 msgid "Learn the history behind Project <em>Devmo</em>"
 msgstr "Μάθετε την ιστορία του έργου <em>Devmo</em>"
 
-#: apps/landing/templates/landing/base_learn.html:4 templates/base.html:79 templates/base_compact.html:28
+#: apps/landing/templates/landing/base_learn.html:4
+#: templates/base.html:79
+#: templates/base_compact.html:28
 msgid "Learning"
-msgstr ""
+msgstr "Εκμάθηση"
 
 #: apps/landing/templates/landing/learn_javascript.html:96
 msgid "Learning Advanced JavaScript"
-msgstr ""
+msgstr "Εκμάθηση JavaScript για προχωρημένους"
 
-#: apps/demos/templates/demos/detail.html:103 apps/demos/templates/demos/launch.html:50
+#: apps/demos/templates/demos/detail.html:103
+#: apps/demos/templates/demos/launch.html:50
 msgid "Like It"
 msgstr "Μου άρεσει"
 
-#: apps/docs/templates/docs/docs.html:101 apps/landing/templates/landing/mozilla.html:81
+#: apps/docs/templates/docs/docs.html:101
+#: apps/landing/templates/landing/mozilla.html:81
 msgid "Localization"
 msgstr "Localization"
 
 #: apps/landing/templates/landing/mozilla.html:83
-msgid ""
-"Localization (L10n) is the process of translating software user interfaces from one language to another and adapting it to suit a foreign culture. These resources are about making Mozilla-based "
-"applications/extensions localizable."
-msgstr ""
-"Με τον όρο localization (L10n), εννοούμε τη διαδικασία μετάφρασης της διασύνδεσης χρήστη ενός προγράμματος από μια γλώσσα σε μια άλλη και την προσαρμογή του στην αντίστοιχη κουλτούρα και τις "
-"ανάγκες αυτής της γλώσσας. Αυτές οι πηγές αφορούν τη διαδικασία προετοιμασίας των εφαρμογών/επεκτάσεων που βασίζονται σε κώδικα του Mozilla για την υποστήριξη localization."
+msgid "Localization (L10n) is the process of translating software user interfaces from one language to another and adapting it to suit a foreign culture. These resources are about making Mozilla-based applications/extensions localizable."
+msgstr "Με τον όρο localization (L10n), εννοούμε τη διαδικασία μετάφρασης της διασύνδεσης χρήστη ενός προγράμματος από μια γλώσσα σε μια άλλη και την προσαρμογή του στην αντίστοιχη κουλτούρα και τις ανάγκες αυτής της γλώσσας. Αυτές οι πηγές αφορούν τη διαδικασία προετοιμασίας των εφαρμογών/επεκτάσεων που βασίζονται σε κώδικα του Mozilla για την υποστήριξη localization."
 
 #: apps/landing/templates/landing/mobile.html:67
 msgid "Location-Aware Applications"
@@ -1783,29 +1779,57 @@ msgstr "Εφαρμογές που χρησιμοποιούν τοποθεσίε�
 msgid "Log In to Account"
 msgstr "Σύνδεση σε λογαριασμό"
 
-#: apps/landing/templates/landing/home.html:24 templates/includes/login.html:6
+#: apps/landing/templates/landing/home.html:24
+#: templates/includes/login.html:6
 msgid "Log in"
 msgstr "Σύνδεση"
 
-#: templates/includes/login.html:3 templates/includes/login.html:10
+#: templates/includes/login.html:3
+#: templates/includes/login.html:10
 msgid "Log out"
 msgstr "Αποσύνδεση"
 
-#: apps/demos/templates/demos/delete.html:20 apps/demos/templates/demos/delete_comment.html:20 apps/demos/templates/demos/detail.html:24 apps/demos/templates/demos/flag.html:20
-#: apps/demos/templates/demos/listing_all.html:17 apps/demos/templates/demos/listing_search.html:23 apps/demos/templates/demos/listing_tag.html:18 apps/demos/templates/demos/profile_detail.html:22
-#: apps/demos/templates/demos/submit.html:42 apps/demos/templates/demos/submit_noauth.html:18 apps/landing/templates/landing/learn_html.html:62 apps/landing/templates/landing/learn_html.html:73
+#: apps/demos/templates/demos/delete.html:20
+#: apps/demos/templates/demos/delete_comment.html:20
+#: apps/demos/templates/demos/detail.html:24
+#: apps/demos/templates/demos/flag.html:20
+#: apps/demos/templates/demos/listing_all.html:17
+#: apps/demos/templates/demos/listing_search.html:23
+#: apps/demos/templates/demos/listing_tag.html:18
+#: apps/demos/templates/demos/profile_detail.html:22
+#: apps/demos/templates/demos/submit.html:42
+#: apps/demos/templates/demos/submit_noauth.html:18
+#: apps/landing/templates/landing/learn_html.html:62
+#: apps/landing/templates/landing/learn_html.html:73
 #: apps/landing/templates/landing/learn_html.html:98
 msgid "MDN"
 msgstr "MDN"
 
 #: apps/landing/templates/landing/learn_html.html:122
-#, fuzzy
 msgid "MDN Demo Studio"
-msgstr "Demo Studio"
+msgstr "MDN Demo Studio"
 
-#: apps/demos/__init__.py:59 apps/demos/__init__.py:69 apps/demos/__init__.py:79 apps/demos/__init__.py:89 apps/demos/__init__.py:98 apps/demos/__init__.py:107 apps/demos/__init__.py:117
-#: apps/demos/__init__.py:127 apps/demos/__init__.py:137 apps/demos/__init__.py:147 apps/demos/__init__.py:157 apps/demos/__init__.py:167 apps/demos/__init__.py:177 apps/demos/__init__.py:187
-#: apps/demos/__init__.py:197 apps/demos/__init__.py:207 apps/demos/__init__.py:217 apps/demos/__init__.py:227 apps/demos/__init__.py:237 apps/demos/__init__.py:247 apps/demos/__init__.py:257
+#: apps/demos/__init__.py:59
+#: apps/demos/__init__.py:69
+#: apps/demos/__init__.py:79
+#: apps/demos/__init__.py:89
+#: apps/demos/__init__.py:98
+#: apps/demos/__init__.py:107
+#: apps/demos/__init__.py:117
+#: apps/demos/__init__.py:127
+#: apps/demos/__init__.py:137
+#: apps/demos/__init__.py:147
+#: apps/demos/__init__.py:157
+#: apps/demos/__init__.py:167
+#: apps/demos/__init__.py:177
+#: apps/demos/__init__.py:187
+#: apps/demos/__init__.py:197
+#: apps/demos/__init__.py:207
+#: apps/demos/__init__.py:217
+#: apps/demos/__init__.py:227
+#: apps/demos/__init__.py:237
+#: apps/demos/__init__.py:247
+#: apps/demos/__init__.py:257
 msgid "MDN Documentation"
 msgstr "Τεκμηρίωση MDN"
 
@@ -1858,8 +1882,15 @@ msgid "Media queries and orientation events let authors adjust their layout on h
 msgstr "Τα Media queries και τα orientation events επιτρέπουν στους δημιουργούς να προσαρμόσουν το σχεδιασμό τους σε συσκευές παλάμης όπως τα κινητά και οι ταμπλέτες."
 
 # Χωρίς τόνους λόγω του css text-transform: uppercase.
-#: apps/demos/__init__.py:174 apps/devmo/__init__.py:18 apps/docs/templates/docs/docs.html:69 apps/docs/templates/docs/docs.html:78 apps/landing/templates/landing/home.html:130
-#: apps/landing/templates/landing/mobile.html:11 apps/landing/templates/landing/mobile.html:17 templates/base.html:71 templates/base_compact.html:23
+#: apps/demos/__init__.py:174
+#: apps/devmo/__init__.py:18
+#: apps/docs/templates/docs/docs.html:69
+#: apps/docs/templates/docs/docs.html:78
+#: apps/landing/templates/landing/home.html:130
+#: apps/landing/templates/landing/mobile.html:11
+#: apps/landing/templates/landing/mobile.html:17
+#: templates/base.html:71
+#: templates/base_compact.html:23
 msgid "Mobile"
 msgstr "Κινητα"
 
@@ -1872,7 +1903,10 @@ msgid "Modified by %(author)s on %(updated)s"
 msgstr "Τροποποιήθηκε από τον/την %(author)s στις %(updated)s"
 
 # Χωρίς τόνους λόγω του css text-transform: uppercase.
-#: apps/landing/templates/landing/home.html:64 apps/landing/templates/landing/home.html:78 apps/landing/templates/landing/home.html:93 apps/landing/templates/landing/home.html:108
+#: apps/landing/templates/landing/home.html:64
+#: apps/landing/templates/landing/home.html:78
+#: apps/landing/templates/landing/home.html:93
+#: apps/landing/templates/landing/home.html:108
 msgid "More"
 msgstr "Περισσοτερα"
 
@@ -1882,7 +1916,7 @@ msgstr "Περισσότερα σχετικά μ' αυτό το demo από το
 
 #: apps/demos/templates/demos/detail.html:250
 msgid "More by {creator_link}"
-msgstr ""
+msgstr "Περισσότερα από τον/την {creator_link}"
 
 # https://developer-stage9.mozilla.org/el/demos/
 #: apps/docs/templates/docs/docs.html:112
@@ -1901,9 +1935,16 @@ msgstr "Πιο πρόσφατα"
 msgid "Most Viewed"
 msgstr "Περισσότερες προβολές"
 
-#: apps/devmo/__init__.py:12 apps/docs/templates/docs/docs.html:71 apps/docs/templates/docs/docs.html:97 apps/landing/templates/landing/home.html:147
-#: apps/landing/templates/landing/learn_html.html:118 apps/landing/templates/landing/learn_html.html:123 apps/landing/templates/landing/mozilla.html:11 apps/landing/templates/landing/mozilla.html:17
-#: templates/base.html:73 templates/base_compact.html:25
+#: apps/devmo/__init__.py:12
+#: apps/docs/templates/docs/docs.html:71
+#: apps/docs/templates/docs/docs.html:97
+#: apps/landing/templates/landing/home.html:147
+#: apps/landing/templates/landing/learn_html.html:118
+#: apps/landing/templates/landing/learn_html.html:123
+#: apps/landing/templates/landing/mozilla.html:11
+#: apps/landing/templates/landing/mozilla.html:17
+#: templates/base.html:73
+#: templates/base_compact.html:25
 msgid "Mozilla"
 msgstr "Mozilla"
 
@@ -1915,33 +1956,23 @@ msgstr "Mozilla Demo Studio"
 msgid "Mozilla Developer Guide"
 msgstr "Οδηγός δημιουργών Mozilla"
 
-#: apps/demos/templates/demos/launch.html:30 templates/base.html:4 templates/base_popup.html:4
+#: apps/demos/templates/demos/launch.html:30
+#: templates/base.html:4
+#: templates/base_popup.html:4
 msgid "Mozilla Developer Network"
 msgstr "Mozilla Developer Network"
 
 #: apps/landing/templates/landing/home.html:56
-msgid ""
-"Mozilla and <a href=\"%(p2pu)s\">P2PU</a> are creating the <a href=\"%(p2pu_drumbeat)s\">School of Webcraft</a>, a powerful new way to teach and learn web developer skills. Classes are globally "
-"accessible, 100%% free, and powered entirely by learners, mentors and contributors like you people. Our goal: a vibrant, peer-led system that helps people around the world easily access and build "
-"careers on open web technology."
-msgstr ""
-"Η κοινότητα Mozilla και το <a href=\"%(p2pu)s\">P2PU</a>, δημιούργησαν το <a href=\"%(p2pu_drumbeat)s\">School of Webcraft</a>, μια νέα πλατφόρμα εκμάθησης για το διαδίκτυο. Η πρόσβαση στα μαθήματα "
-"είναι δυνατή από οποιοδήποτε μέρος του κόσμου, είναι 100%% δωρεάν και συμμετέχουν αποκλειστικά εθελοντές, καθηγητές και μαθητές όπως κι εσείς. Ο στόχος της είναι να γίνει ένα ενεργητικό σύστημα "
-"αλληλοβοήθειας, ώστε να διευκολύνει τους πάντες να έχουν πρόσβαση στις ανοικτές τεχνολογίες του διαδικτύου και να κάνουν καριέρα μ'αυτές."
+msgid "Mozilla and <a href=\"%(p2pu)s\">P2PU</a> are creating the <a href=\"%(p2pu_drumbeat)s\">School of Webcraft</a>, a powerful new way to teach and learn web developer skills. Classes are globally accessible, 100%% free, and powered entirely by learners, mentors and contributors like you people. Our goal: a vibrant, peer-led system that helps people around the world easily access and build careers on open web technology."
+msgstr "Η κοινότητα Mozilla και το <a href=\"%(p2pu)s\">P2PU</a>, δημιούργησαν το <a href=\"%(p2pu_drumbeat)s\">School of Webcraft</a>, μια νέα πλατφόρμα εκμάθησης για το διαδίκτυο. Η πρόσβαση στα μαθήματα είναι δυνατή από οποιοδήποτε μέρος του κόσμου, είναι 100%% δωρεάν και συμμετέχουν αποκλειστικά εθελοντές, καθηγητές και μαθητές όπως κι εσείς. Ο στόχος της είναι να γίνει ένα ενεργητικό σύστημα αλληλοβοήθειας, ώστε να διευκολύνει τους πάντες να έχουν πρόσβαση στις ανοικτές τεχνολογίες του διαδικτύου και να κάνουν καριέρα μ'αυτές."
 
 #: apps/landing/templates/landing/home.html:72
-msgid ""
-"Mozilla continues to lead the charge in the adoption of HTML5 and other evolving open Web technologies. Find out more about the <a href=\"%(devmo_html5)s\">HTML5 spec</a> and the latest "
-"enhancements in HTML5, CSS3 and other <a href=\"%(devmo_fx4dev)s\">developer features for Firefox 4</a>."
-msgstr ""
-"Η κοινότητα Mozilla συνεχίζει να ηγείται της προσπάθειας για την υιοθέτηση της HTML5 κι άλλων ανερχόμενων ανοικτών τεχνολογιών για το διαδίκτυο. Μάθετε περισσότερα για τις <a href=\"%(devmo_html5)s"
-"\">προδιαγραφές της HTML5</a> και τις πιο πρόσφατες βελτιώσεις σε HTML5, CSS3 και άλλα <a href=\"%(devmo_fx4dev)s\">χαρακτηριστικά για δημιουργούς στον Firefox 4</a>."
+msgid "Mozilla continues to lead the charge in the adoption of HTML5 and other evolving open Web technologies. Find out more about the <a href=\"%(devmo_html5)s\">HTML5 spec</a> and the latest enhancements in HTML5, CSS3 and other <a href=\"%(devmo_fx4dev)s\">developer features for Firefox 4</a>."
+msgstr "Η κοινότητα Mozilla συνεχίζει να ηγείται της προσπάθειας για την υιοθέτηση της HTML5 κι άλλων ανερχόμενων ανοικτών τεχνολογιών για το διαδίκτυο. Μάθετε περισσότερα για τις <a href=\"%(devmo_html5)s\">προδιαγραφές της HTML5</a> και τις πιο πρόσφατες βελτιώσεις σε HTML5, CSS3 και άλλα <a href=\"%(devmo_fx4dev)s\">χαρακτηριστικά για δημιουργούς στον Firefox 4</a>."
 
 #: apps/landing/templates/landing/mozilla.html:73
 msgid "Mozilla developers have come up with not just technologies and features to help you debug code, but have devised tips and techniques that can help too."
-msgstr ""
-"Οι δημιουργοί του έργου Mozilla δεν έχουν φτιάξει μόνο την απαραίτητη τεχνολογία και τα εργαλεία για την αποσφαλμάτωση του κώδικα σας, αλλά διαθέτουν και σχεδιαστικές συμβουλές και τεχνικές που θα "
-"σας βοηθήσουν."
+msgstr "Οι δημιουργοί του έργου Mozilla δεν έχουν φτιάξει μόνο την απαραίτητη τεχνολογία και τα εργαλεία για την αποσφαλμάτωση του κώδικα σας, αλλά διαθέτουν και σχεδιαστικές συμβουλές και τεχνικές που θα σας βοηθήσουν."
 
 #: apps/demos/__init__.py:57
 msgid "Mozilla's Audio Data API extends the current HTML5 API and allows web developers to read and write raw audio data."
@@ -1960,7 +1991,10 @@ msgstr "Είστε νέοι στο MDN;"
 msgid "News & Updates"
 msgstr "Νεα & Ενημερωσεις"
 
-#: apps/demos/templates/demos/detail.html:38 apps/demos/templates/demos/detail.html:144 apps/demos/templates/demos/home.html:44 apps/demos/templates/demos/launch.html:71
+#: apps/demos/templates/demos/detail.html:38
+#: apps/demos/templates/demos/detail.html:144
+#: apps/demos/templates/demos/home.html:44
+#: apps/demos/templates/demos/launch.html:71
 #: apps/demos/templates/demos/elements/submission_listing.html:57
 msgid "Next"
 msgstr "Επόμενο"
@@ -1973,7 +2007,8 @@ msgstr "Δεν υπάρχουν σχόλια ως τώρα"
 msgid "Non-blocking JavaScript Downloads"
 msgstr ""
 
-#: templates/404.html:3 templates/404.html:5
+#: templates/404.html:3
+#: templates/404.html:5
 msgid "Not Found"
 msgstr "Δεν βρέθηκε"
 
@@ -2001,10 +2036,10 @@ msgstr "Συμμετοχή στο έργο Mozilla"
 msgid "Participating in the Mozilla project"
 msgstr "Συμμετέχοντας στο έργο Mozilla"
 
-#: templates/403.html:3 templates/403.html:5
-#, fuzzy
+#: templates/403.html:3
+#: templates/403.html:5
 msgid "Permission Denied"
-msgstr "απαγορεύεται η πρόσβαση"
+msgstr "Απαγορεύεται η πρόσβαση"
 
 #: apps/demos/models.py:241
 msgid "Please keep filesize under %s. Current filesize %s"
@@ -2050,26 +2085,26 @@ msgid "Popular Topics for <span class=\"web\">Web</span> Developers"
 msgstr "Δημοφιλη θεματα για δημιουργους <span class=\"web\">διαδικτυου</span>"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:19
-msgid ""
-"Posted <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime=\"%(comment_isotime)s"
-"\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
-msgstr ""
-"Δημοσιεύτηκε <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"μόνιμος δεσμός προς το σχόλιο του/της %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime="
-"\"%(comment_isotime)s\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
+msgid "Posted <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime=\"%(comment_isotime)s\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
+msgstr "Δημοσιεύτηκε <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"μόνιμος δεσμός προς το σχόλιο του/της %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime=\"%(comment_isotime)s\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
 
 #: apps/landing/templates/landing/mobile.html:123
 msgid "Pre-Alpha Fennec and HTML5 Demos"
 msgstr "Demo για την προέκδοση του Fennec και την HTML5"
 
-#: apps/demos/templates/demos/submit.html:124 apps/demos/templates/demos/submit_noauth.html:52
+#: apps/demos/templates/demos/submit.html:124
+#: apps/demos/templates/demos/submit_noauth.html:52
 msgid "Preparing Your Demo"
 msgstr "Ετοιμάζοντας το demo σας"
 
-#: apps/demos/templates/demos/detail.html:34 apps/demos/templates/demos/launch.html:67
+#: apps/demos/templates/demos/detail.html:34
+#: apps/demos/templates/demos/launch.html:67
 msgid "Prev"
 msgstr "Προηγούμενο"
 
-#: apps/demos/templates/demos/detail.html:143 apps/demos/templates/demos/home.html:43 apps/demos/templates/demos/elements/submission_listing.html:54
+#: apps/demos/templates/demos/detail.html:143
+#: apps/demos/templates/demos/home.html:43
+#: apps/demos/templates/demos/elements/submission_listing.html:54
 msgid "Previous"
 msgstr "Προηγούμενη"
 
@@ -2095,7 +2130,7 @@ msgstr "Quality Assurance"
 
 #: apps/landing/templates/landing/learn_css.html:131
 msgid "Quick Guide to Implement Web Fonts with @font-face"
-msgstr ""
+msgstr "Συνοπτικός οδηγός ενσωμάτωσης Web Fonts με @font-face"
 
 # Χωρίς τόνους λόγω του text-transform: uppercase στο CSS.
 #. Please escape HTML entities here, like &amp;
@@ -2121,11 +2156,13 @@ msgstr "Προσφατες ενημερωσεις &amp; νεα απο το ερ�
 msgid "Recent <span class=\"web\">Web</span> News &amp; Updates"
 msgstr "Προσφατα νεα &amp; ενημερωσεις για το <span class=\"web\">διαδικτυο</span>"
 
-#: apps/demos/templates/demos/home.html:8 apps/demos/templates/demos/listing_all.html:7
+#: apps/demos/templates/demos/home.html:8
+#: apps/demos/templates/demos/listing_all.html:7
 msgid "Recent demos"
 msgstr "Πρόσφατα demo"
 
-#: apps/demos/templates/demos/delete.html:48 apps/demos/templates/demos/detail.html:69
+#: apps/demos/templates/demos/delete.html:48
+#: apps/demos/templates/demos/detail.html:69
 msgid "Remove demo"
 msgstr "Αφαίρεση demo"
 
@@ -2143,7 +2180,7 @@ msgstr "Αφαίρεση της εργαλειοθήκης"
 
 #: apps/landing/templates/landing/learn_html.html:130
 msgid "Remy Sharp"
-msgstr ""
+msgstr "Remy Sharp"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:31
 msgid "Reply"
@@ -2159,7 +2196,7 @@ msgstr "Αναφορά"
 
 #: apps/demos/templates/demos/detail.html:261
 msgid "Report a Problem"
-msgstr ""
+msgstr "Αναφορά προβλήματος"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:34
 msgid "Report this comment"
@@ -2167,7 +2204,7 @@ msgstr "Αναφέρετε αυτό το σχόλιο"
 
 #: apps/landing/templates/landing/learn_html.html:135
 msgid "Richard Clark"
-msgstr ""
+msgstr "Richard Clark"
 
 #: apps/demos/templates/demos/terms.html:122
 msgid "Rights Representation Details"
@@ -2175,9 +2212,10 @@ msgstr "Λεπτομέρειες δικαιωμάτων αναπαραγωγής
 
 #: apps/landing/templates/landing/learn_html.html:124
 msgid "Run, inspect, and submit demos that show what HTML, CSS, and JavaScript can do."
-msgstr ""
+msgstr "Εκτελέστε, επιθεωρείστε και υποβάλετε demo που δείχνουν τι μπορεί να δημιουργηθεί με HTML, CSS και JavaScript."
 
-#: apps/demos/__init__.py:194 apps/docs/templates/docs/glossary.html:9
+#: apps/demos/__init__.py:194
+#: apps/docs/templates/docs/glossary.html:9
 msgid "SVG"
 msgstr "SVG"
 
@@ -2189,7 +2227,8 @@ msgstr "Αποθήκευση αλλαγών"
 msgid "Scalable Vector Graphics (SVG) is an XML based language for describing two-dimensional vector graphics."
 msgstr "Η Scalable Vector Graphics (SVG) είναι μια γλώσσα βασισμένη σε XML που χρησιμοποιείται για να περιγράψει διανυσματικά γραφικά δυο διαστάσεων."
 
-#: apps/landing/templates/landing/home.html:45 apps/landing/templates/landing/home.html:54
+#: apps/landing/templates/landing/home.html:45
+#: apps/landing/templates/landing/home.html:54
 msgid "School of Webcraft"
 msgstr "School of Webcraft"
 
@@ -2213,7 +2252,9 @@ msgstr "Στιγμιότυπο οθόνης #4"
 msgid "Screenshot #5"
 msgstr "Στιγμιότυπο οθόνης #5"
 
-#: apps/demos/templates/demos/elements/search_form.html:6 apps/docs/templates/docs/docs.html:18 templates/base.html:60
+#: apps/demos/templates/demos/elements/search_form.html:6
+#: apps/docs/templates/docs/docs.html:18
+#: templates/base.html:60
 msgid "Search"
 msgstr "Αναζήτηση"
 
@@ -2229,7 +2270,8 @@ msgstr "Αναζήτηση στην τεκμηρίωση του MDN"
 msgid "Search Results"
 msgstr "Αποτελέσματα αναζήτησης"
 
-#: apps/demos/templates/demos/listing_search.html:25 apps/demos/templates/demos/listing_search.html:37
+#: apps/demos/templates/demos/listing_search.html:25
+#: apps/demos/templates/demos/listing_search.html:37
 msgid "Search demos for \"{q}\""
 msgstr "Αναζήτηση στα demo για «{q}»"
 
@@ -2297,7 +2339,8 @@ msgstr "Δείτε τα προηγούμενα τρία demo"
 msgid "See what's new for web developers in the latest version of Firefox"
 msgstr "Δείτε τι νέο υπάρχει στην πιο πρόσφατη έκδοση του Firefox για δημιουργούς ιστοσελίδων"
 
-#: apps/demos/templates/demos/elements/profile_link.html:2 apps/demos/templates/demos/elements/submission_creator.html:2
+#: apps/demos/templates/demos/elements/profile_link.html:2
+#: apps/demos/templates/demos/elements/submission_creator.html:2
 msgid "See {display_name}'s profile"
 msgstr "Δείτε το προφίλ του/της {display_name}"
 
@@ -2311,21 +2354,26 @@ msgstr "Επιλέξτε μέχρι πέντε τεχνολογίες που χ�
 
 #: apps/landing/templates/landing/learn_html.html:92
 msgid "Semantics in HTML5"
-msgstr ""
+msgstr "Semantics σε HTML5"
 
-#: apps/demos/templates/demos/detail.html:108 apps/demos/templates/demos/detail.html:110 apps/demos/templates/demos/launch.html:54
+#: apps/demos/templates/demos/detail.html:108
+#: apps/demos/templates/demos/detail.html:110
+#: apps/demos/templates/demos/launch.html:54
 msgid "Share It"
 msgstr "Διαμοιρασμός"
 
-#: apps/demos/templates/demos/detail.html:112 apps/demos/templates/demos/launch.html:57
+#: apps/demos/templates/demos/detail.html:112
+#: apps/demos/templates/demos/launch.html:57
 msgid "Share on Facebook"
 msgstr "Διαμοιρασμός στο Facebook"
 
-#: apps/demos/templates/demos/detail.html:111 apps/demos/templates/demos/launch.html:56
+#: apps/demos/templates/demos/detail.html:111
+#: apps/demos/templates/demos/launch.html:56
 msgid "Share on Twitter"
 msgstr "Διαμοιρασμός στο Twitter"
 
-#: apps/demos/templates/demos/detail.html:108 apps/demos/templates/demos/launch.html:54
+#: apps/demos/templates/demos/detail.html:108
+#: apps/demos/templates/demos/launch.html:54
 msgid "Share this demo with your social network"
 msgstr "Μοιραστείτε αυτό το demo στο κοινωνικό σας δίκτυο"
 
@@ -2343,11 +2391,11 @@ msgstr "Αποδείξτε ότι είστε άνθρωπος"
 
 #: apps/landing/templates/landing/learn_html.html:136
 msgid "Showcase of sites that use HTML5 to help you learn about how it should be used."
-msgstr ""
+msgstr "Παρουσίαση σελίδων που χρησιμοποιούν HTML5 για να σας βοηθήσει να μάθετε πως θα πρέπει να χρησιμοποιείται."
 
 #: apps/landing/templates/landing/learn_html.html:84
 msgid "Some suggestions to help you get on board with HTML5."
-msgstr ""
+msgstr "Μερικές προτάσεις που θα σας βοηθήσουν να μεταβείτε σε HTML5."
 
 #: apps/demos/templates/demos/elements/submission_listing.html:13
 msgid "Sort demos by most likes"
@@ -2367,21 +2415,31 @@ msgstr "Συμπιεσμένο αρχείο πηγαίου κώδικα"
 
 #: apps/landing/templates/landing/learn_css.html:128
 msgid "Start using CSS3 transitions by carefully choosing the situations in which to use them."
-msgstr ""
+msgstr "Ξεκινήστε να χρησιμοποιείτε CSS3 transitions επιλέγοντας προσεκτικά τις περιπτώσεις που πρέπει να τα χρησιμοποιήσετε."
 
 #: apps/landing/templates/landing/addons.html:65
 msgid "Start-to-finish success stories. See how add-on developers made magic with Mozilla."
 msgstr "Επιτυχημένες ιστορίες από την αρχή μέχρι το τέλος. Δείτε πως κάποιο δημιουργοί πρόσθετων έκαναν τα μαγικά τους με τον Mozilla."
 
 # Χωρίς τόνους λόγω του css text-transform: uppercase.
-#: apps/demos/templates/demos/delete.html:26 apps/demos/templates/demos/delete_comment.html:26 apps/demos/templates/demos/flag.html:26 apps/demos/templates/demos/home.html:33
-#: apps/demos/templates/demos/listing_all.html:22 apps/demos/templates/demos/listing_search.html:28 apps/demos/templates/demos/listing_tag.html:23 apps/demos/templates/demos/profile_detail.html:27
+#: apps/demos/templates/demos/delete.html:26
+#: apps/demos/templates/demos/delete_comment.html:26
+#: apps/demos/templates/demos/flag.html:26
+#: apps/demos/templates/demos/home.html:33
+#: apps/demos/templates/demos/listing_all.html:22
+#: apps/demos/templates/demos/listing_search.html:28
+#: apps/demos/templates/demos/listing_tag.html:23
+#: apps/demos/templates/demos/profile_detail.html:27
 msgid "Submit a Demo"
 msgstr "Υποβολη demo"
 
 # Χωρίς τόνους λόγω του css text-transform: uppercase.
-#: apps/demos/templates/demos/submit.html:10 apps/demos/templates/demos/submit.html:47 apps/demos/templates/demos/submit.html:62 apps/demos/templates/demos/submit_noauth.html:10
-#: apps/demos/templates/demos/submit_noauth.html:20 apps/demos/templates/demos/submit_noauth.html:30
+#: apps/demos/templates/demos/submit.html:10
+#: apps/demos/templates/demos/submit.html:47
+#: apps/demos/templates/demos/submit.html:62
+#: apps/demos/templates/demos/submit_noauth.html:10
+#: apps/demos/templates/demos/submit_noauth.html:20
+#: apps/demos/templates/demos/submit_noauth.html:30
 msgid "Submit a New Demo"
 msgstr "Υποβολη νεου demo"
 
@@ -2394,7 +2452,10 @@ msgstr "Υποβολη demo"
 msgid "Submitted by:"
 msgstr "Υποβλήθηκε από:"
 
-#: apps/landing/templates/landing/addons.html:23 apps/landing/templates/landing/mobile.html:23 apps/landing/templates/landing/mozilla.html:23 apps/landing/templates/landing/web.html:23
+#: apps/landing/templates/landing/addons.html:23
+#: apps/landing/templates/landing/mobile.html:23
+#: apps/landing/templates/landing/mozilla.html:23
+#: apps/landing/templates/landing/web.html:23
 msgid "Subscribe"
 msgstr "Συνδρομή"
 
@@ -2410,7 +2471,8 @@ msgstr "Εγγραφείτε συνδρομητές σε αρχείο ροής �
 msgid "Subscribe to a feed of {display_name}'s demos"
 msgstr "Εγγραφείτε συνδρομητές σε αρχείο ροής για demo του/της {display_name}"
 
-#: apps/demos/templates/demos/home.html:65 apps/demos/templates/demos/listing_tag.html:53
+#: apps/demos/templates/demos/home.html:65
+#: apps/demos/templates/demos/listing_tag.html:53
 msgid "Subscribe to a feed of {tag_title} demos"
 msgstr "Εγγραφείτε συνδρομητές σε αρχείο ροής για demo με ετικέτα: {tag_title}"
 
@@ -2424,9 +2486,10 @@ msgstr "Έχει ετικέτα:"
 
 #: apps/landing/templates/landing/learn_html.html:89
 msgid "Take a guided tour through code that uses HTML5 features."
-msgstr ""
+msgstr "Δείτε μια ξενάγηση σε κώδικα που περιλαμβάνει χαρακτηριστικά HTML5."
 
-#: apps/demos/templates/demos/terms.html:10 apps/demos/templates/demos/terms.html:35
+#: apps/demos/templates/demos/terms.html:10
+#: apps/demos/templates/demos/terms.html:35
 msgid "Terms for Contributors"
 msgstr "Όροι συντελεστών"
 
@@ -2435,26 +2498,20 @@ msgid "Terms of Use"
 msgstr "Όροι χρήσης"
 
 #: apps/landing/templates/landing/home.html:86
-msgid ""
-"Test the <a href=\"%(fx4_features)s\">next version of Firefox</a> and help us make the world's best browser even better. Firefox 4 advances the modern web and we have a <a href=\"%(fx4_tech)s\">big "
-"chart full of check marks</a> to prove it."
-msgstr ""
-"Δοκιμάστε την <a href=\"%(fx4_features)s\">επόμενη έκδοση του Firefox</a> και βοηθήστε μας να κάνουμε τον καλύτερο περιηγητή του κόσμου, ακόμα πιο καλό. Ο Firefox 4 ωθεί το σύγχρονο διαδίκτυο ακόμα "
-"πιο μπροστά και έχουμε μια <a href=\"%(fx4_tech)s\">μεγάλη λίστα επιτευγμάτων</a> για να το αποδείξουμε."
+msgid "Test the <a href=\"%(fx4_features)s\">next version of Firefox</a> and help us make the world's best browser even better. Firefox 4 advances the modern web and we have a <a href=\"%(fx4_tech)s\">big chart full of check marks</a> to prove it."
+msgstr "Δοκιμάστε την <a href=\"%(fx4_features)s\">επόμενη έκδοση του Firefox</a> και βοηθήστε μας να κάνουμε τον καλύτερο περιηγητή του κόσμου, ακόμα πιο καλό. Ο Firefox 4 ωθεί το σύγχρονο διαδίκτυο ακόμα πιο μπροστά και έχουμε μια <a href=\"%(fx4_tech)s\">μεγάλη λίστα επιτευγμάτων</a> για να το αποδείξουμε."
 
 #: apps/landing/templates/landing/learn_css.html:133
 msgid "The @font-face feature from CSS3 allows you to use custom typefaces on the web in an accessible, manipulable, and scalable way."
-msgstr ""
+msgstr "Το χαρακτηριστικό @font-face του CSS3, σας επιτρέπει να χρησιμοποιείτε προσαρμοσμένες γραμματοσειρές για το διαδίκτυο με ένα εύκολα προσβάσιμο, διαχειρίσιμο και επεκτάσιμο τρόπο."
 
 #: apps/landing/templates/landing/learn_html.html:31
 msgid "The Basics of HTML"
-msgstr ""
+msgstr "Τα βασικά της HTML"
 
 #: apps/demos/__init__.py:105
 msgid "The CSS3-Font specification contains enhanced features for fonts and typography like embedding own fonts via @font-face or controlling OpenType font features directly via CSS."
-msgstr ""
-"Οι προδιαγραφές του  CSS3-Font περιέχουν βελτιωμένα χαρακτηριστικά για γραμματοσειρές και τυπογραφία, όπως την ενσωμάτωση σε σελίδες των δικών τους γραμματοσειρών μέσω του @font-face ή τον άμεσο "
-"έλεγχο χαρακτηριστικών  γραμματοσειρών OpenType μέσω CSS."
+msgstr "Οι προδιαγραφές του  CSS3-Font περιέχουν βελτιωμένα χαρακτηριστικά για γραμματοσειρές και τυπογραφία, όπως την ενσωμάτωση σε σελίδες των δικών τους γραμματοσειρών μέσω του @font-face ή τον άμεσο έλεγχο χαρακτηριστικών  γραμματοσειρών OpenType μέσω CSS."
 
 #: apps/landing/templates/landing/web.html:78
 msgid "The DOM is the architecture for Web documents; learn how to use the DOM and its API to look at and manipulate Web content."
@@ -2486,11 +2543,11 @@ msgstr "Το στοιχείο video της HTML5 παρέχει ενσωματω
 
 #: apps/landing/templates/landing/learn_javascript.html:80
 msgid "The JavaScript Programming Language"
-msgstr ""
+msgstr "Η γλώσσα προγραμματισμού JavaScript"
 
 #: apps/landing/templates/landing/learn_html.html:106
 msgid "The Joy of HTML5 Audio"
-msgstr ""
+msgstr "Η απόλαυση του HTML5 Audio"
 
 #: apps/landing/templates/landing/mozilla.html:52
 msgid "The Mozilla Platform"
@@ -2517,14 +2574,11 @@ msgid "The official documentation on APIs and languages. What you need, when you
 msgstr "Η επίσημη τεκμηρίωση για API και γλώσσες. Θα βρείτε ό,τι χρειαστείτε, όποτε το χρειαστείτε, για να δημιουργήσετε το δικό σας αριστούργημα."
 
 #: apps/landing/templates/landing/mobile.html:142
-msgid ""
-"The projects and planning never stops. We're cooking up some amazing new features and improvements for our next major release. Check it out and see how you can help us continue to make the world's "
-"best mobile Web browser."
-msgstr ""
-"Τα διάφορα έργα και ο σχεδιασμός δεν σταματούν ποτέ. Ετοιμάζουμε κάποια απίθανα νέα χαρακτηριστικά και βελτιώσεις για την επόμενη σταθερή μας έκδοση. Ρίξτε μια ματιά και δείτε πως μπορείτε να μας "
-"βοηθήσετε να συνεχίσουμε την ανάπτυξη του καλύτερου περιηγητή για κινητά στον κόσμο."
+msgid "The projects and planning never stops. We're cooking up some amazing new features and improvements for our next major release. Check it out and see how you can help us continue to make the world's best mobile Web browser."
+msgstr "Τα διάφορα έργα και ο σχεδιασμός δεν σταματούν ποτέ. Ετοιμάζουμε κάποια απίθανα νέα χαρακτηριστικά και βελτιώσεις για την επόμενη σταθερή μας έκδοση. Ρίξτε μια ματιά και δείτε πως μπορείτε να μας βοηθήσετε να συνεχίσουμε την ανάπτυξη του καλύτερου περιηγητή για κινητά στον κόσμο."
 
-#: apps/docs/templates/docs/docs.html:41 apps/landing/templates/landing/home.html:186
+#: apps/docs/templates/docs/docs.html:41
+#: apps/landing/templates/landing/home.html:186
 msgid "The scripting language that powers modern web applications."
 msgstr "Η γλώσσα προγραμματισμού σεναρίων εντολών πάνω στην οποία υλοποιούνται όλες οι σύγχρονες διαδικτυακές εφαρμογές."
 
@@ -2536,7 +2590,8 @@ msgstr "Θέματα εμφάνισης"
 msgid "There are several ways you can use Mozilla code in your own project. Find everything you need to develop \"powered by Mozilla\" applications."
 msgstr "Υπάρχουν διάφοροι τρόποι που μπορείτε να χρησιμοποιήσετε τον κώδικα του Mozilla στο δικό σας έργο. Βρείτε όλα όσα θα χρειαστείτε για να φτιάξετε εφαρμογές που θα είναι «powered by Mozilla»."
 
-#: apps/demos/templates/demos/detail.html:137 apps/demos/templates/demos/elements/submission_thumb.html:17
+#: apps/demos/templates/demos/detail.html:137
+#: apps/demos/templates/demos/elements/submission_thumb.html:17
 msgid "There is {count} comment for this demo"
 msgid_plural "There are {count} comments for this demo"
 msgstr[0] "Υπάρχει {count} σχόλιο για αυτό το demo"
@@ -2550,7 +2605,8 @@ msgstr "Αυτό το URL έχει μη έγκυρη μορφή. Τα έγκυρ
 msgid "This contains inappropriate content"
 msgstr "Περιέχει ανάρμοστο περιεχόμενο"
 
-#: apps/demos/templates/demos/detail.html:135 apps/demos/templates/demos/elements/submission_thumb.html:15
+#: apps/demos/templates/demos/detail.html:135
+#: apps/demos/templates/demos/elements/submission_thumb.html:15
 msgid "This demo has been viewed {count} time"
 msgid_plural "This demo has been viewed {count} times"
 msgstr[0] "Αυτό το demo έχει προβληθεί {count} φορά"
@@ -2565,41 +2621,41 @@ msgid "This is not working for me"
 msgstr "Δεν δουλεύει στο σύστημα μου"
 
 #: apps/landing/templates/landing/learn_css.html:155
-msgid ""
-"This site discusses <strong>CSS3</strong>, latest, still-evolving version of CSS. Many CSS3 features are supported in various ways by modern browsers, but many users still have older browsers and "
-"so can’t take advantage."
-msgstr ""
+msgid "This site discusses <strong>CSS3</strong>, latest, still-evolving version of CSS. Many CSS3 features are supported in various ways by modern browsers, but many users still have older browsers and so can’t take advantage."
+msgstr "Αυτές οι σελίδες αναφέρονται στο <strong>CSS3</strong>, την πιο πρόσφατη και υπό ανάπτυξη έκδοση του CSS. Πολλά από τα χαρακτηριστικά του CSS3 υποστηρίζονται ήδη με διάφορους τρόπους από τους σύγχρονους περιηγητές, αλλά αρκετοί χρήστες χρησιμοποιούν παλιότερους περιηγητές και δεν μπορούν να τα απολαύσουν."
 
 #: apps/landing/templates/landing/learn_html.html:157
-msgid ""
-"This site discusses <strong>HTML5</strong>, the upcoming latest version of the standard. Many HTML5 features are supported by modern browsers, but many users still have older browsers and so can’t "
-"take advantage."
-msgstr ""
+msgid "This site discusses <strong>HTML5</strong>, the upcoming latest version of the standard. Many HTML5 features are supported by modern browsers, but many users still have older browsers and so can’t take advantage."
+msgstr "Αυτές οι σελίδες αναφέρονται στην <strong>HTML5</strong>, την επερχόμενη πιο πρόσφατη έκδοση του πρότυπου. Πολλά από τα χαρακτηριστικά της HTML5 υποστηρίζονται από τους σύγχρονους περιηγητές, αλλά αρκετοί χρήστες χρησιμοποιούν παλιούς περιηγητές και δεν μπορούν να τα απολαύσουν."
 
-#: apps/landing/templates/landing/learn_css.html:109 apps/landing/templates/landing/learn_css.html:114 apps/landing/templates/landing/learn_css.html:119
-#: apps/landing/templates/landing/learn_css.html:126 apps/landing/templates/landing/learn_css.html:131
+#: apps/landing/templates/landing/learn_css.html:109
+#: apps/landing/templates/landing/learn_css.html:114
+#: apps/landing/templates/landing/learn_css.html:119
+#: apps/landing/templates/landing/learn_css.html:126
+#: apps/landing/templates/landing/learn_css.html:131
 msgid "This site features CSS3"
 msgstr ""
 
-#: apps/landing/templates/landing/learn_html.html:77 apps/landing/templates/landing/learn_html.html:82 apps/landing/templates/landing/learn_html.html:87
-#: apps/landing/templates/landing/learn_html.html:92 apps/landing/templates/landing/learn_html.html:97 apps/landing/templates/landing/learn_html.html:102
-#: apps/landing/templates/landing/learn_html.html:106 apps/landing/templates/landing/learn_html.html:129 apps/landing/templates/landing/learn_html.html:134
+#: apps/landing/templates/landing/learn_html.html:77
+#: apps/landing/templates/landing/learn_html.html:82
+#: apps/landing/templates/landing/learn_html.html:87
+#: apps/landing/templates/landing/learn_html.html:92
+#: apps/landing/templates/landing/learn_html.html:97
+#: apps/landing/templates/landing/learn_html.html:102
+#: apps/landing/templates/landing/learn_html.html:106
+#: apps/landing/templates/landing/learn_html.html:129
+#: apps/landing/templates/landing/learn_html.html:134
 msgid "This site features HTML5"
 msgstr ""
 
 #: apps/landing/templates/landing/learn_css.html:34
 msgid "This tutorial introduces you to Cascading Style Sheets (CSS). It guides you through the basic features of CSS with practical examples that you can try for yourself on your own computer."
-msgstr ""
+msgstr "Αυτό το σεμινάριο είναι εισαγωγικό στα Cascading Style Sheets (CSS). Σας καθοδηγεί στα βασικά χαρακτηριστικά του CSS με πρακτικά παραδείγματα που μπορείτε να δοκιμάσετε στον υπολογιστή σας."
 
 #. Browsers and Plugins useful for viewing video content
 #: templates/includes/video_player.html:7
-msgid ""
-"This video requires a browser with support for open video: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 or greater</li> <li><a href=\"http://www.apple.com/safari/\">Safari</"
-"a> 3.1 or greater</li> </ul> or the <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Alternatively, you may use the video download links provided."
-msgstr ""
-"Αυτό το βίντεο απαιτεί περιηγητή που να υποστηρίζει ανοιχτές μορφές βίντεο: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 ή μεταγενέστερο</li> <li><a href=\"http://www.apple."
-"com/safari/\">Safari</a> 3.1 ή μεταγενέστερο</li> </ul> ή το <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Εναλλακτικά, μπορείτε να κάνετε λήψη του βίντεο μέσω των "
-"δεσμών που παρέχουμε."
+msgid "This video requires a browser with support for open video: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 or greater</li> <li><a href=\"http://www.apple.com/safari/\">Safari</a> 3.1 or greater</li> </ul> or the <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Alternatively, you may use the video download links provided."
+msgstr "Αυτό το βίντεο απαιτεί περιηγητή που να υποστηρίζει ανοιχτές μορφές βίντεο: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 ή μεταγενέστερο</li> <li><a href=\"http://www.apple.com/safari/\">Safari</a> 3.1 ή μεταγενέστερο</li> </ul> ή το <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Εναλλακτικά, μπορείτε να κάνετε λήψη του βίντεο μέσω των δεσμών που παρέχουμε."
 
 #: apps/contentflagging/models.py:22
 msgid "This was not created by the author"
@@ -2607,11 +2663,11 @@ msgstr "Δεν είναι δημιουργία του συντάκτη"
 
 #: apps/landing/templates/landing/learn_html.html:72
 msgid "Tips for Authoring Fast-loading HTML Pages"
-msgstr ""
+msgstr "Συμβουλές για τη δημιουργία σελίδων HTML που φορτώνονται γρήγορα"
 
 #: apps/landing/templates/landing/learn_javascript.html:129
 msgid "Tips on improving the download performance of pages containing JavaScript."
-msgstr ""
+msgstr "Συμβουλές για τη βελτίωση του χρόνου λήψεως σελίδων που περιέχουν JavaScript."
 
 #: apps/demos/helpers.py:371
 msgid "Today at %s"
@@ -2621,13 +2677,16 @@ msgstr "Σήμερα στις %s"
 msgid "Track the movement of the user's finger on a touch screen, monitoring the raw touch events generated by the system."
 msgstr "Χρησιμοποιείται για την ανίχνευση της κίνησης των δαχτύλων ενός χρήστη σε μια οθόνη επαφής, παρακολουθώντας τα ακατέργαστα δεδομένα επαφής που παράγονται από το σύστημα."
 
-#: apps/landing/templates/landing/addons.html:22 apps/landing/templates/landing/mobile.html:22 apps/landing/templates/landing/mozilla.html:22 apps/landing/templates/landing/web.html:22
+#: apps/landing/templates/landing/addons.html:22
+#: apps/landing/templates/landing/mobile.html:22
+#: apps/landing/templates/landing/mozilla.html:22
+#: apps/landing/templates/landing/web.html:22
 msgid "Twitter"
 msgstr "Twitter"
 
 #: apps/landing/templates/landing/learn_css.html:126
 msgid "Understanding CSS3 Transitions"
-msgstr ""
+msgstr "Κατανοώντας τα CSS3 Transitions"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:9
 msgid "Up and Coming"
@@ -2642,12 +2701,8 @@ msgid "Use Add-ons Builder to quickly and easily develop an extension for Firefo
 msgstr "Χρησιμοποιήστε το Add-ons Builder για να αναπτύξετε εύκολα και γρήγορα μια επέκταση για τον Firefox χρησιμοποιώντας απλά την τεχνολογία που θα χρησιμοποιούσατε και για τον ιστό."
 
 #: apps/landing/templates/landing/home.html:101
-msgid ""
-"Use Add-ons Builder to quickly and easily develop an extension for Firefox using common web technologies. There is a <a href=\"%(tutorial)s\">tutorial</a> to get you started and a <a href=\"%(api)s"
-"\">variety of APIs in the core library</a> to add functionality to Firefox."
-msgstr ""
-"Χρησιμοποιήστε το Add-ons Builder για να δημιουργήσετε γρήγορα και εύκολα μια επέκταση για τον Firefox χρησιμοποιώντας μόνο τεχνολογίες που χρησιμοποιείτε καθημερινά στο διαδίκτυο. Υπάρχουν <a href="
-"\"%(tutorial)s\">οδηγίες</a> για να ξεκινήσετε και μια <a href=\"%(api)s\">πληθώρα API στη βασική βιβλιοθήκη</a> για να μπορείτε να προσθέσετε λειτουργίες στον Firefox."
+msgid "Use Add-ons Builder to quickly and easily develop an extension for Firefox using common web technologies. There is a <a href=\"%(tutorial)s\">tutorial</a> to get you started and a <a href=\"%(api)s\">variety of APIs in the core library</a> to add functionality to Firefox."
+msgstr "Χρησιμοποιήστε το Add-ons Builder για να δημιουργήσετε γρήγορα και εύκολα μια επέκταση για τον Firefox χρησιμοποιώντας μόνο τεχνολογίες που χρησιμοποιείτε καθημερινά στο διαδίκτυο. Υπάρχουν <a href=\"%(tutorial)s\">οδηγίες</a> για να ξεκινήσετε και μια <a href=\"%(api)s\">πληθώρα API στη βασική βιβλιοθήκη</a> για να μπορείτε να προσθέσετε λειτουργίες στον Firefox."
 
 #: apps/demos/models.py:398
 msgid "Use navigation bar, display demo in <iframe>"
@@ -2658,15 +2713,15 @@ msgid "Use these challenges to hone your HTML skills (for example, “Should I u
 msgstr ""
 
 #: apps/landing/templates/landing/learn_css.html:114
-#, fuzzy
 msgid "Using CSS Transforms"
-msgstr "CSS Transforms"
+msgstr "Χρήση CSS Transforms"
 
 #: apps/landing/templates/landing/learn_css.html:49
 msgid "Using CSS from an external style sheet."
-msgstr ""
+msgstr "Χρησιμοποιώντας  CSS από εξωτερικό αρχείο φύλλου στυλ."
 
-#: apps/docs/templates/docs/docs.html:100 apps/landing/templates/landing/mozilla.html:61
+#: apps/docs/templates/docs/docs.html:100
+#: apps/landing/templates/landing/mozilla.html:61
 msgid "Using Mozilla code in other projects"
 msgstr "Χρησιμοποιώντας τον κώδικα του έργου Mozilla σε άλλα έργα λογισμικού"
 
@@ -2676,27 +2731,44 @@ msgstr "Χρήση γεωτοποθεσίας"
 
 #: apps/landing/templates/landing/learn_css.html:90
 msgid "Using positioning for standards-compliant, table-free layout."
-msgstr ""
+msgstr "Χρησιμοποιώντας  positioning για διατάξεις συμβατές με τα πρότυπα και χωρίς πίνακες."
 
-#: apps/demos/__init__.py:204 apps/docs/templates/docs/glossary.html:16
+#: apps/demos/__init__.py:204
+#: apps/docs/templates/docs/glossary.html:16
 msgid "Video"
 msgstr "Video"
 
 #: apps/landing/templates/landing/learn_html.html:53
 msgid "Video tutorial on best practices and approaches for how to write good HTML code."
-msgstr ""
+msgstr "Σεμινάριο σε βίντεο για τις καλύτερες πρακτικές και προσεγγίσεις στο πως να γράφετε καλό  HTML κώδικα."
 
 #: apps/landing/templates/landing/learn_javascript.html:47
 msgid "Video tutorial on making pages interactive with JavaScript"
-msgstr ""
+msgstr "Σεμινάριο σε βίντεο για το πως να κάνετε διαδραστικές σελίδες με Javascript."
 
 #: apps/landing/templates/landing/learn_css.html:59
 msgid "Video tutorial on styling pages with CSS."
-msgstr ""
+msgstr "Σεμινάριο σε βίντεο για το πως να δίνετε στυλ σε σελίδες με CSS."
 
-#: apps/demos/__init__.py:61 apps/demos/__init__.py:71 apps/demos/__init__.py:81 apps/demos/__init__.py:90 apps/demos/__init__.py:99 apps/demos/__init__.py:109 apps/demos/__init__.py:119
-#: apps/demos/__init__.py:129 apps/demos/__init__.py:149 apps/demos/__init__.py:159 apps/demos/__init__.py:169 apps/demos/__init__.py:179 apps/demos/__init__.py:189 apps/demos/__init__.py:199
-#: apps/demos/__init__.py:209 apps/demos/__init__.py:229 apps/demos/__init__.py:239 apps/demos/__init__.py:249 apps/demos/__init__.py:259
+#: apps/demos/__init__.py:61
+#: apps/demos/__init__.py:71
+#: apps/demos/__init__.py:81
+#: apps/demos/__init__.py:90
+#: apps/demos/__init__.py:99
+#: apps/demos/__init__.py:109
+#: apps/demos/__init__.py:119
+#: apps/demos/__init__.py:129
+#: apps/demos/__init__.py:149
+#: apps/demos/__init__.py:159
+#: apps/demos/__init__.py:169
+#: apps/demos/__init__.py:179
+#: apps/demos/__init__.py:189
+#: apps/demos/__init__.py:199
+#: apps/demos/__init__.py:209
+#: apps/demos/__init__.py:229
+#: apps/demos/__init__.py:239
+#: apps/demos/__init__.py:249
+#: apps/demos/__init__.py:259
 msgid "W3C Spec"
 msgstr "Προδιαγραφή W3C"
 
@@ -2722,7 +2794,9 @@ msgstr "Δειτε βιντεο για <span class=\"mobile\">κινητα</span
 msgid "Watch Myk Melez create an Add-on in 5 minutes using the new Add-on Builder!"
 msgstr "Παρακολουθήστε τον Myk Melez να φτιάχνει ένα πρόσθετο μέσα σε 5 λεπτά με τη βοήθεια του νέου Add-on Builder!"
 
-#: apps/landing/templates/landing/addons.html:79 apps/landing/templates/landing/mobile.html:99 apps/landing/templates/landing/mobile.html:115
+#: apps/landing/templates/landing/addons.html:79
+#: apps/landing/templates/landing/mobile.html:99
+#: apps/landing/templates/landing/mobile.html:115
 msgid "Watch this video"
 msgstr "Παρακολουθήστε το βίντεο"
 
@@ -2731,7 +2805,11 @@ msgid "We support YouTube and Vimeo"
 msgstr "Υποστηρίζουμε το YouTube και το Vimeo"
 
 # Χωρίς τόνους λόγω του text-transform: uppercase στο CSS.
-#: apps/devmo/__init__.py:24 apps/landing/templates/landing/web.html:11 apps/landing/templates/landing/web.html:17 templates/base.html:70 templates/base_compact.html:22
+#: apps/devmo/__init__.py:24
+#: apps/landing/templates/landing/web.html:11
+#: apps/landing/templates/landing/web.html:17
+#: templates/base.html:70
+#: templates/base_compact.html:22
 msgid "Web"
 msgstr "Διαδικτυο"
 
@@ -2743,7 +2821,8 @@ msgstr "Web O' Wonder"
 msgid "Web Storage"
 msgstr "Web Storage"
 
-#: apps/demos/__init__.py:234 apps/docs/templates/docs/glossary.html:17
+#: apps/demos/__init__.py:234
+#: apps/docs/templates/docs/glossary.html:17
 msgid "Web Workers"
 msgstr "Web Workers"
 
@@ -2752,11 +2831,11 @@ msgid "Web Workers provide a simple means for web content to run scripts in back
 msgstr "Τα Web Workers προσφέρουν τη δυνατότητα σε ιστοσελίδες να εκτελούν με απλό τρόπο σενάρια εντολών στο παρασκήνιο."
 
 #: apps/landing/templates/landing/learn_html.html:117
-#, fuzzy
 msgid "Web o’ Wonder"
 msgstr "Web O' Wonder"
 
-#: apps/demos/__init__.py:214 apps/docs/templates/docs/glossary.html:13
+#: apps/demos/__init__.py:214
+#: apps/docs/templates/docs/glossary.html:13
 msgid "WebGL"
 msgstr "WebGL"
 
@@ -2768,7 +2847,8 @@ msgstr "WebSockets"
 msgid "WebSockets is a technology that makes it possible to open an interactive communication session between the user's browser and a server."
 msgstr "Τα WebSockets είναι μια τεχνολογία που προσφέρει τη δυνατότητα αμφίδρομης επικοινωνίας μέσω του περιηγητή του χρήστη και ενός διακομιστή."
 
-#: templates/includes/login.html:2 templates/includes/login.html:9
+#: templates/includes/login.html:2
+#: templates/includes/login.html:9
 msgid "Welcome back"
 msgstr "Καλώς ήλθατε ξανά"
 
@@ -2795,16 +2875,15 @@ msgstr "Καλώς ορίσατε στην κοινότητα δημιουργώ
 
 #: apps/landing/templates/landing/learn_css.html:39
 msgid "What CSS is, how to apply it to HTML, and what basic CSS syntax looks like."
-msgstr ""
+msgstr "Τι είναι το CSS, πως να το εφαρμόσετε σε HTML και ποια είναι η βασική σύνταξη του CSS."
 
 #: apps/landing/templates/landing/learn_html.html:33
-msgid ""
-"What HTML is, what it does, its history in brief, and what the structure of an HTML document looks like. The articles that follow this one look at each individual part of HTML in much greater depth."
-msgstr ""
+msgid "What HTML is, what it does, its history in brief, and what the structure of an HTML document looks like. The articles that follow this one look at each individual part of HTML in much greater depth."
+msgstr "Τι είναι η HTML, τι κάνει, ένα σύντομο ιστορικό της και ποια είναι η δομή ενός εγγράφου HTML. Τα άρθρα που ακολουθούν μετά από το παρών, αναπτύσσουν με περισσότερες λεπτομέρειες κάθε ξεχωριστό τμήμα της HTML."
 
 #: apps/landing/templates/landing/learn_css.html:44
 msgid "What are classes in CSS?"
-msgstr ""
+msgstr "Τι είναι οι κλάσεις του CSS;"
 
 #: templates/base.html:95
 msgid "What do you think of the new MDN? Please <a href=\"%(uservoice_url)s\">share your feedback</a> with us."
@@ -2812,11 +2891,11 @@ msgstr "Πως σας φαίνεται το νέο MDN; Σας παρακαλο�
 
 #: apps/landing/templates/landing/learn_javascript.html:32
 msgid "What is JavaScript and how can it help you?"
-msgstr ""
+msgstr "Τι είναι η JavaScript και πως μπορεί να σας βοηθήσει;"
 
 #: apps/landing/templates/landing/learn_javascript.html:103
 msgid "What is the Document Object Model, and why is it useful? This article gives you a gentle introduction to this powerful JavaScript feature."
-msgstr ""
+msgstr "Τι είναι το Document Object Model και γιατί είναι χρήσιμο; Αυτό το άρθρο είναι μια εύληπτη εισαγωγή στο πανίσχυρο αυτό χαρακτηριστικό της JavaScript."
 
 #: apps/landing/templates/landing/mozilla.html:45
 msgid "Whether you're an old hand or just getting started, this is the best way to get started with Mozilla development."
@@ -2830,9 +2909,25 @@ msgstr ""
 msgid "Why Sync up, Security and More"
 msgstr "Γιατί να χρησιμοποιήσετε το Sync για συγχρονισμό, θέματα γύρω από την ασφάλεια του κι ακόμα περισσότερα"
 
-#: apps/demos/__init__.py:60 apps/demos/__init__.py:70 apps/demos/__init__.py:80 apps/demos/__init__.py:108 apps/demos/__init__.py:118 apps/demos/__init__.py:128 apps/demos/__init__.py:138
-#: apps/demos/__init__.py:148 apps/demos/__init__.py:158 apps/demos/__init__.py:168 apps/demos/__init__.py:178 apps/demos/__init__.py:188 apps/demos/__init__.py:198 apps/demos/__init__.py:208
-#: apps/demos/__init__.py:218 apps/demos/__init__.py:228 apps/demos/__init__.py:238 apps/demos/__init__.py:248 apps/demos/__init__.py:258
+#: apps/demos/__init__.py:60
+#: apps/demos/__init__.py:70
+#: apps/demos/__init__.py:80
+#: apps/demos/__init__.py:108
+#: apps/demos/__init__.py:118
+#: apps/demos/__init__.py:128
+#: apps/demos/__init__.py:138
+#: apps/demos/__init__.py:148
+#: apps/demos/__init__.py:158
+#: apps/demos/__init__.py:168
+#: apps/demos/__init__.py:178
+#: apps/demos/__init__.py:188
+#: apps/demos/__init__.py:198
+#: apps/demos/__init__.py:208
+#: apps/demos/__init__.py:218
+#: apps/demos/__init__.py:228
+#: apps/demos/__init__.py:238
+#: apps/demos/__init__.py:248
+#: apps/demos/__init__.py:258
 msgid "Wikipedia Article"
 msgstr "Άρθρο στη Wikipedia"
 
@@ -2848,7 +2943,8 @@ msgstr "XMLHttpRequest"
 msgid "XMLHttpRequest (XHR) is used to send HTTP requests directly to a webserver and load the response data directly back into the script."
 msgstr "Το XMLHttpRequest (XHR) χρησιμοποιείται για να στέλνει αιτήματα HTTP απευθείας σε ένα διακομιστή και να φορτώνει τα δεδομένα της απόκρισης του επίσης απευθείας στο σενάριο εντολών."
 
-#: apps/demos/templates/demos/detail.html:97 apps/demos/templates/demos/launch.html:44
+#: apps/demos/templates/demos/detail.html:97
+#: apps/demos/templates/demos/launch.html:44
 msgid "You Like"
 msgstr "Σας αρέσει"
 
@@ -2868,7 +2964,8 @@ msgstr "Βλέπετε τα demo που έχουν τις περισσότερε
 msgid "You are viewing up and coming demos"
 msgstr "Βλέπετε τα επερχόμενα demo"
 
-#: apps/demos/templates/demos/detail.html:97 apps/demos/templates/demos/launch.html:44
+#: apps/demos/templates/demos/detail.html:97
+#: apps/demos/templates/demos/launch.html:44
 msgid "You like this demo. Undo?"
 msgstr "Αυτό το demo σας αρέσει. Να γίνει αναίρεση;"
 
@@ -2881,12 +2978,8 @@ msgid "You'll find everything you need in the CSS reference and helpful tutorial
 msgstr "Στις παραπομπές CSS και τα βοηθητικά μαθήματα, θα βρείτε οτιδήποτε χρειάζεστε, για να φτιάξετε όμορφες ιστοσελίδες."
 
 #: apps/landing/templates/landing/mobile.html:79
-msgid ""
-"Your help is vital to the success of Firefox. Provide feedback on our <a href=\"%(irc_url)s\">IRC channel</a>, <a href=\"%(meeting_url)s\">join our Wednesday development meeting</a>, or even <a "
-"href=\"%(bugzilla_url)s\">file some bugs</a>."
-msgstr ""
-"Η βοήθεια σας είναι ζωτικής σημασίας για την επιτυχία του Firefox. Πείτε μας τα σχόλια σας στο <a href=\"%(irc_url)s\">κανάλι IRC</a>, <a href=\"%(meeting_url)s\">συμμετέχετε στην εβδομαδιαία "
-"συνεδρίαση ανάπτυξης κάθε Τετάρτη</a>, ή <a href=\"%(bugzilla_url)s\">καταχωρήστε κάποιο bug που εντοπίσατε</a>."
+msgid "Your help is vital to the success of Firefox. Provide feedback on our <a href=\"%(irc_url)s\">IRC channel</a>, <a href=\"%(meeting_url)s\">join our Wednesday development meeting</a>, or even <a href=\"%(bugzilla_url)s\">file some bugs</a>."
+msgstr "Η βοήθεια σας είναι ζωτικής σημασίας για την επιτυχία του Firefox. Πείτε μας τα σχόλια σας στο <a href=\"%(irc_url)s\">κανάλι IRC</a>, <a href=\"%(meeting_url)s\">συμμετέχετε στην εβδομαδιαία συνεδρίαση ανάπτυξης κάθε Τετάρτη</a>, ή <a href=\"%(bugzilla_url)s\">καταχωρήστε κάποιο bug που εντοπίσατε</a>."
 
 #: apps/demos/models.py:582
 msgid "ZIP file contains a file that is too large: %(filename)s"
@@ -2896,7 +2989,8 @@ msgstr "Το αρχείο ZIP περιλαμβάνει τουλάχιστον έ
 msgid "ZIP file contains an unacceptable file: %(filename)s"
 msgstr "Το αρχείο ZIP  περιέχει τουλάχιστον ένα μη αποδεκτό αρχείο: %(filename)s"
 
-#: apps/demos/models.py:560 apps/demos/models.py:567
+#: apps/demos/models.py:560
+#: apps/demos/models.py:567
 msgid "ZIP file contains no acceptable files"
 msgstr "Το αρχείο ZIP δεν περιέχει αποδεκτά αρχεία"
 
@@ -2904,7 +2998,11 @@ msgstr "Το αρχείο ZIP δεν περιέχει αποδεκτά αρχε�
 msgid "ZIP file corrupted"
 msgstr "Το  αρχείο ZIP είναι κατεστραμμένο"
 
-#: apps/demos/views.py:70 apps/demos/views.py:236 apps/demos/views.py:260 apps/demos/views.py:273 apps/demos/views.py:286
+#: apps/demos/views.py:70
+#: apps/demos/views.py:236
+#: apps/demos/views.py:260
+#: apps/demos/views.py:273
+#: apps/demos/views.py:286
 msgid "access denied"
 msgstr "απαγορεύεται η πρόσβαση"
 
@@ -2928,7 +3026,9 @@ msgstr "Τρέχουσα κατάσταση αξιολόγησης αναφορ�
 msgid "date created"
 msgstr "ημερομηνία που δημιουργήθηκε"
 
-#: apps/actioncounters/models.py:90 apps/contentflagging/models.py:99 apps/demos/models.py:466
+#: apps/actioncounters/models.py:90
+#: apps/contentflagging/models.py:99
+#: apps/demos/models.py:466
 msgid "date last modified"
 msgstr "ημερομηνία τελευταίας τροποποίησης"
 
@@ -3236,7 +3336,8 @@ msgstr[1] "μήνες"
 msgid "name of the action"
 msgstr "όνομα ενέργειας"
 
-#: apps/actioncounters/models.py:71 apps/contentflagging/models.py:78
+#: apps/actioncounters/models.py:71
+#: apps/contentflagging/models.py:78
 msgid "object ID"
 msgstr "object ID"
 
@@ -3302,7 +3403,8 @@ msgid_plural "{count} likes"
 msgstr[0] "Αρέσει σε {count} άτομο"
 msgstr[1] "Αρέσει σε {count} άτομα"
 
-#: apps/demos/templates/demos/detail.html:136 apps/demos/templates/demos/elements/submission_thumb.html:16
+#: apps/demos/templates/demos/detail.html:136
+#: apps/demos/templates/demos/elements/submission_thumb.html:16
 msgid "{count} person liked this demo"
 msgid_plural "{count} people liked this demo"
 msgstr[0] "Αυτό το demo αρέσει σε {count} άτομο"
@@ -3322,9 +3424,18 @@ msgstr "{display_name}"
 msgid "{start}&ndash;{end} of {total}"
 msgstr "{start}&ndash;{end} από {total}"
 
-#: apps/demos/templates/demos/delete.html:10 apps/demos/templates/demos/delete_comment.html:10 apps/demos/templates/demos/detail.html:8 apps/demos/templates/demos/flag.html:10
-#: apps/demos/templates/demos/launch.html:6 apps/demos/templates/demos/listing_all.html:5 apps/demos/templates/demos/listing_search.html:10 apps/demos/templates/demos/listing_tag.html:5
-#: apps/demos/templates/demos/profile_detail.html:8 apps/demos/templates/demos/submit.html:8 apps/demos/templates/demos/submit.html:10 apps/demos/templates/demos/submit_noauth.html:10
+#: apps/demos/templates/demos/delete.html:10
+#: apps/demos/templates/demos/delete_comment.html:10
+#: apps/demos/templates/demos/detail.html:8
+#: apps/demos/templates/demos/flag.html:10
+#: apps/demos/templates/demos/launch.html:6
+#: apps/demos/templates/demos/listing_all.html:5
+#: apps/demos/templates/demos/listing_search.html:10
+#: apps/demos/templates/demos/listing_tag.html:5
+#: apps/demos/templates/demos/profile_detail.html:8
+#: apps/demos/templates/demos/submit.html:8
+#: apps/demos/templates/demos/submit.html:10
+#: apps/demos/templates/demos/submit_noauth.html:10
 #: apps/demos/templates/demos/terms.html:10
 msgid "{subtitle} | Demo Studio"
 msgstr "{subtitle} | Demo Studio"
