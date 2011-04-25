@@ -370,15 +370,15 @@ msgstr "<li><a href=\"/logout\">Zaloguj się</a>, by spróbować ponownie.</li>"
 
 #: apps/landing/templates/landing/learn_javascript.html:12
 msgid "<p class=\"intro\"><strong>JavaScript</strong> (JS for short) is the programming language that enables web pages ​to respond to user interaction beyond the basic level provided by HTML links and forms.</p> <p>​The links on this page lead to a variety of JavaScript tutorials and JavaScript training materials. Whether you are just starting out, wanting to learn JS basics, or are an old hand, wanting to sharpen your skills, you can find helpful resources here for JS best practices.</p>"
-msgstr "<p class=\"intro\"><strong>JavaScript</strong> (JS) jest językiem programowania umożliwiającym stronom internetowym interakcję z użytkownikiem ponad podstawowy poziom oferowany przez odnośniki i formularze HTML.</p> <p>Odnośniki na tej stronie prowadzą do różnych tutoriali i materiałów do ćwiczeń związanych z JavaScriptem. Czy jesteś początkującym, który chce poznać podstawy JS, czy starym wyjadaczem, chcącym udoskonalić swoje umiejętności, możesz tutaj znaleźć pomocne informacje i zasoby dla JavaScriptu.</p>"
+msgstr "<p class=\"intro\"><strong>JavaScript</strong> (JS) jest językiem programowania umożliwiającym stronom internetowym interakcję z użytkownikiem ponad podstawowy poziom oferowany przez odnośniki i formularze HTML.</p> <p>Odnośniki na tej stronie prowadzą do różnych przewodników i materiałów do ćwiczeń związanych z JavaScriptem. Czy jesteś początkującym, który chce poznać podstawy JS, czy starym wyjadaczem, chcącym udoskonalić swoje umiejętności, możesz tutaj znaleźć pomocne informacje i zasoby dla JavaScriptu.</p>"
 
 #: apps/landing/templates/landing/learn_css.html:12
 msgid "<p class=\"intro\">CSS (<strong>Cascading Style Sheets</strong>) ​is a language for describing the appearance of web pages. To create good-looking web pages, you need to learn CSS in order to define the appearance and location of the HTML elements within the pages.</p> <p>The links on this page lead to a variety of CSS tutorials and CSS training materials. ​Whether you are just starting out, learning the basics of CSS, or are an experienced web developer wanting to learn <strong>CSS3</strong> (the newest version of the standard) and CSS best practices, you can find helpful resources here.</p>"
-msgstr "<p class=\"intro\">CSS – kaskadowe arkusze stylów (ang. <strong>Cascading Style Sheets</strong>), to język opisujący wygląd stron internetowych. Aby stworzyć pięknie wyglądającą stronę internetową, musisz poznać CSS, by zdefiniować wygląd i położenie elementów HTML na stronach.</p> <p>Odnośniki na tej stronie prowadzą do różnych tutoriali i materiałów do ćwiczeń związanych z CSS. Czy jesteś początkującym, który chce poznać podstawy, czy doświadczonym twórcą stron internetowych chcącym poznać <strong>CSS3</strong> – najnowszą wersję standardu – i najlepsze zastosowania, możesz tutaj znaleźć pomocne zasoby.</p>"
+msgstr "<p class=\"intro\">CSS – kaskadowe arkusze stylów (ang. <strong>Cascading Style Sheets</strong>), to język opisujący wygląd stron internetowych. Aby stworzyć pięknie wyglądającą stronę internetową, musisz poznać CSS, by zdefiniować wygląd i położenie elementów HTML na stronach.</p> <p>Odnośniki na tej stronie prowadzą do różnych przewodników i materiałów do ćwiczeń związanych z CSS. Czy jesteś początkującym, który chce poznać podstawy, czy doświadczonym twórcą stron internetowych chcącym poznać <strong>CSS3</strong> – najnowszą wersję standardu – i najlepsze zastosowania, możesz tutaj znaleźć pomocne zasoby.</p>"
 
 #: apps/landing/templates/landing/learn_html.html:12
 msgid "<p class=\"intro\">HTML (<strong>HyperText Markup Language</strong>) is the core syntax for putting information on the worldwide web. If you want to create or modify web pages, it’s best if you learn HTML.</p> <p>The links on this page lead to a variety of HTML tutorials and HTML training materials. Whether you are just starting out, learning the basics of HTML, or are an old hand at web development wanting to learn <strong>HTML5</strong> (the newest version of the standard), you can find helpful resources here for HTML best practices.</p>"
-msgstr "<p class=\"intro\">HTML – hipertekstowy język znaczników (ang. <strong>HyperText Markup Language</strong>) jest podstawowym językiem używanym do tworzenia stron internetowych. Jeśli chcesz tworzyć i modyfikować strony internetowe, najlepiej, jeśli nauczysz się HTML.</p> <p>Odnośniki na tej stronie prowadzą do różnych tutoriali i materiałów do ćwiczeń związanych z HTML. Czy jesteś początkującym, który chce poznać podstawy, czy doświadczonym twórcą stron internetowych chcącym poznać <strong>HTML5</strong> – najnowszą wersję standardu – i najlepsze zastosowania, możesz tutaj znaleźć pomocne zasoby.</p>"
+msgstr "<p class=\"intro\">HTML – hipertekstowy język znaczników (ang. <strong>HyperText Markup Language</strong>) jest podstawowym językiem używanym do tworzenia stron internetowych. Jeśli chcesz tworzyć i modyfikować strony internetowe, najlepiej, jeśli nauczysz się HTML.</p> <p>Odnośniki na tej stronie prowadzą do różnych przewodników i materiałów do ćwiczeń związanych z HTML. Czy jesteś początkującym, który chce poznać podstawy, czy doświadczonym twórcą stron internetowych chcącym poznać <strong>HTML5</strong> – najnowszą wersję standardu – i najlepsze zastosowania, możesz tutaj znaleźć pomocne zasoby.</p>"
 
 #: apps/demos/templates/demos/detail.html:194
 msgid "<p><a href=\"/Special:UserRegistration\">Register</a> or <a href=\"/Special:UserLogin\">log in</a> to add your own.</p>"
@@ -497,7 +497,7 @@ msgstr "Obszerna lista zwrotów pomocnych twórcom stron w odnalezieniu potrzebn
 
 #: apps/landing/templates/landing/learn_html.html:63
 msgid "A comprehensive reference for HTML elements, and how Firefox and other browsers support them."
-msgstr "Obszerna dokumentacja elementów HTML, jak i Firefox i inne przeglądarki je obsługują."
+msgstr "Obszerna dokumentacja elementów HTML oraz jak Firefox i inne przeglądarki je obsługują."
 
 #: apps/landing/templates/landing/learn_javascript.html:52
 msgid "A comprehensive, regularly updated guide to JavaScript for all levels of learning from beginner to advanced."
@@ -521,7 +521,7 @@ msgstr "Podsumowanie języka programowania JavaScript skierowane do średnio zaa
 
 #: apps/landing/templates/landing/learn_html.html:48
 msgid "A tutorial and exercises that take you through the basics."
-msgstr "Tutorial i ćwiczenia podstawowych zagadnień."
+msgstr "Podręcznik i ćwiczenia podstawowych zagadnień."
 
 #: apps/docs/templates/docs/docs.html:52
 #: apps/docs/templates/docs/glossary.html:11
@@ -766,7 +766,7 @@ msgstr "Podstawy CSS"
 
 #: apps/landing/templates/landing/learn_css.html:78
 msgid "CSS Challenges"
-msgstr "Wyzwania CSS"
+msgstr "Zadania CSS"
 
 #: apps/landing/templates/landing/learn_css.html:57
 msgid "CSS From the Ground Up"
@@ -831,7 +831,7 @@ msgstr "Canvas"
 
 #: apps/landing/templates/landing/learn_html.html:97
 msgid "Canvas Tutorial"
-msgstr "Tutorial canvas"
+msgstr "Podręcznik canvas"
 
 #: apps/demos/__init__.py:77
 msgid "Cascading Style Sheets level 3 (CSS3) provide serveral new features and properties to enhance the formatting and look of documents written in different kinds of markup languages like HTML or XML."
@@ -1323,7 +1323,7 @@ msgstr "Zacznij już dziś!"
 
 #: apps/landing/templates/landing/addons.html:53
 msgid "Get add-on development guidance in a top-notch collection of tutorials, articles, and more."
-msgstr "Pobierz z najlepszej kolekcji tutoriali i artykułów wskazówki dotyczące tworzenia dodatków."
+msgstr "Pobierz z najlepszej kolekcji podręczników i artykułów wskazówki dotyczące tworzenia dodatków."
 
 #: apps/docs/templates/docs/docs.html:69
 msgid "Get involved in the %(mobile_link)s, %(addons_link)s, & %(apps_link)s Developer Communities:"
@@ -1644,7 +1644,7 @@ msgstr "Dowiedz się o CSS"
 #: apps/landing/templates/landing/learn_html.html:5
 #: apps/landing/templates/landing/learn_html.html:11
 msgid "Learn HTML"
-msgstr "Dowiedz się o HTML"
+msgstr "Naucz się HTML-a"
 
 #: apps/landing/templates/landing/learn.html:5
 #: apps/landing/templates/landing/learn.html:10
@@ -1666,7 +1666,7 @@ msgstr "Dowiedz się więcej o wybranych funkcjach HTML5 – najnowszej wersji s
 
 #: apps/landing/templates/landing/learn_javascript.html:57
 msgid "Learn about some of the obvious and (not so) obvious best practices when writing JavaScript."
-msgstr "Dowiedz się o niektórych oczywistych i nieoczywistych najlepszych praktykach stosowanych podczas pisania JavaScriptu."
+msgstr "Dowiedz się o niektórych, oczywistych i nieoczywistych, najlepszych praktykach stosowanych podczas pisania JavaScriptu."
 
 #: apps/landing/templates/landing/learn_javascript.html:87
 msgid "Learn about the JavaScript object model."
@@ -2496,7 +2496,7 @@ msgstr "Język programowania JavaScript "
 #: apps/landing/templates/landing/learn_html.html:106
 #, fuzzy
 msgid "The Joy of HTML5 Audio"
-msgstr "Radość HTML5 Audio"
+msgstr "Korzystanie z HTML5 Audio"
 
 #: apps/landing/templates/landing/mozilla.html:52
 msgid "The Mozilla Platform"
@@ -2661,7 +2661,7 @@ msgstr "Użyj paska nawigacyjnego, wyświetl demo w <iframe>"
 
 #: apps/landing/templates/landing/learn_html.html:58
 msgid "Use these challenges to hone your HTML skills (for example, “Should I use an &lt;h2&gt; element or a &lt;strong&gt; element?”), focusing on meaningful mark-up."
-msgstr "Użyj tych zadań, by doskonalić swoje umiejętności HTML. Na przykład: czy należy używać elementu &lt;h2&gt;, czy &lt;strong&gt;?"
+msgstr "Użyj tych zadań, by doskonalić swoje umiejętności HTML. Na przykład: czy należy używać elementu <h2>, czy <strong>?"
 
 #: apps/landing/templates/landing/learn_css.html:114
 msgid "Using CSS Transforms"
@@ -2923,7 +2923,7 @@ msgstr "Internet Cię wciągał, zabierał – teraz Ty weź go ze sobą."
 
 #: apps/landing/templates/landing/web.html:74
 msgid "You'll find everything you need in the CSS reference and helpful tutorials to build pretty websites."
-msgstr "W materiałach źródłowych CSS i pomocnych tutorialach znajdziesz wszystko, czego potrzebujesz, by budować piękne witryny internetowe."
+msgstr "W materiałach źródłowych CSS i pomocnych podręcznikach znajdziesz wszystko, czego potrzebujesz, by budować piękne witryny internetowe."
 
 #: apps/landing/templates/landing/mobile.html:79
 msgid "Your help is vital to the success of Firefox. Provide feedback on our <a href=\"%(irc_url)s\">IRC channel</a>, <a href=\"%(meeting_url)s\">join our Wednesday development meeting</a>, or even <a href=\"%(bugzilla_url)s\">file some bugs</a>."
