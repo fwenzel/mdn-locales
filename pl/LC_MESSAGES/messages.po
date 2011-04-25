@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-04-25 19:14+0200\n"
+"PO-Revision-Date: 2011-04-25 19:29+0200\n"
 "Last-Translator: Leszek <leszekz@gmail.com>\n"
 "Language-Team: none\n"
 "Language: pl\n"
@@ -1883,7 +1883,6 @@ msgid "MDN"
 msgstr "MDN"
 
 #: apps/landing/templates/landing/learn_html.html:122
-#, fuzzy
 msgid "MDN Demo Studio"
 msgstr "MDN Demo Studio"
 
@@ -2149,9 +2148,8 @@ msgid "Previous"
 msgstr "Poprzedni"
 
 #: apps/landing/templates/landing/learn_css.html:93
-#, fuzzy
 msgid "Progressive Enhancement with CSS"
-msgstr "Stopniowa poprawa z CSS"
+msgstr "Stopniowa poprawa za pomocą CSS"
 
 #: apps/demos/templates/demos/submit.html:107
 msgid "Provide at least one screenshot of your demo in action"
@@ -2170,7 +2168,6 @@ msgid "Quality Assurance"
 msgstr "Kontrola jakości"
 
 #: apps/landing/templates/landing/learn_css.html:131
-#, fuzzy
 msgid "Quick Guide to Implement Web Fonts with @font-face"
 msgstr ""
 "Szybki przewodnik po implementacji czcionek sieciowych za pomocą @font-face"
@@ -2217,7 +2214,7 @@ msgstr "Usuń pasek narzędzi"
 
 #: apps/landing/templates/landing/learn_html.html:130
 msgid "Remy Sharp"
-msgstr ""
+msgstr "Remy Sharp"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:31
 msgid "Reply"
@@ -2852,9 +2849,8 @@ msgid "Web Workers provide a simple means for web content to run scripts in back
 msgstr "Web Workers dostarcza treściom internetowym prosty sposób uruchamiania skryptów w tle."
 
 #: apps/landing/templates/landing/learn_html.html:117
-#, fuzzy
 msgid "Web o’ Wonder"
-msgstr "Web O' Wonder"
+msgstr "Web o' Wonder"
 
 #: apps/demos/__init__.py:214 apps/docs/templates/docs/glossary.html:13
 msgid "WebGL"
@@ -2896,15 +2892,18 @@ msgstr "Witaj w społeczności twórców stron:"
 #: apps/landing/templates/landing/learn_css.html:39
 msgid "What CSS is, how to apply it to HTML, and what basic CSS syntax looks like."
 msgstr ""
+"Co to jest CSS, jak to zastosować w HTML i jak wygląda podstawowa składnia?"
 
 #: apps/landing/templates/landing/learn_html.html:33
 msgid ""
 "What HTML is, what it does, its history in brief, and what the structure of an HTML document looks like. The articles that follow this one look at each individual part of HTML in much greater depth."
 msgstr ""
+"Co to jest HTML, co robi, jego historia w skrócie i jak wygląda struktura "
+"dokumentu HTML. Kolejne artykuły szeroko opisują poszczególne części HTML."
 
 #: apps/landing/templates/landing/learn_css.html:44
 msgid "What are classes in CSS?"
-msgstr ""
+msgstr "Co to są klasy w CSS?"
 
 #: templates/base.html:95
 msgid "What do you think of the new MDN? Please <a href=\"%(uservoice_url)s\">share your feedback</a> with us."
@@ -2912,19 +2911,22 @@ msgstr "Co sądzisz o nowym MDN? <a href=\"%(uservoice_url)s\">Podziel się z na
 
 #: apps/landing/templates/landing/learn_javascript.html:32
 msgid "What is JavaScript and how can it help you?"
-msgstr ""
+msgstr "Co to jest JavaScript i w czym może pomóc?"
 
 #: apps/landing/templates/landing/learn_javascript.html:103
 msgid "What is the Document Object Model, and why is it useful? This article gives you a gentle introduction to this powerful JavaScript feature."
 msgstr ""
+"Co to jest obiektowy model dokumentu (DOM) i dlaczego jest użyteczny? Ten "
+"artykuł łagodnie wprowadza do tego potężnego narzędzia JavaScriptu."
 
 #: apps/landing/templates/landing/mozilla.html:45
 msgid "Whether you're an old hand or just getting started, this is the best way to get started with Mozilla development."
 msgstr "Nieważne, czy jesteś starym wyjadaczem, czy dopiero zaczynasz, to jest najlepszy sposób, aby zacząć programować z Mozillą."
 
 #: apps/landing/templates/landing/learn_javascript.html:122
+#, fuzzy
 msgid "Which JavaScript Framework?"
-msgstr ""
+msgstr "Jaką strukturę JavaScriptu wybrać?"
 
 #: apps/landing/templates/landing/mobile.html:107
 msgid "Why Sync up, Security and More"
