@@ -485,7 +485,7 @@ msgstr "Ponowne wprowadzenie do JavaScriptu"
 
 #: apps/landing/templates/landing/learn_css.html:54
 msgid "A brief beginner’s guide to styling web pages with CSS."
-msgstr "Krótki przewodnik dla początkujących do stylizacji stron za pomocą CSS."
+msgstr "Krótki przewodnik dla początkujących o stylizacji stron za pomocą CSS."
 
 #: apps/landing/templates/landing/learn_javascript.html:72
 msgid "A comprehensive guide to intermediate and advanced JavaScript methodologies."
@@ -1639,22 +1639,22 @@ msgstr "Uruchom {title}"
 #: apps/landing/templates/landing/learn_css.html:5
 #: apps/landing/templates/landing/learn_css.html:11
 msgid "Learn CSS"
-msgstr "Dowiedz się o CSS"
+msgstr "Naucz się CSS"
 
 #: apps/landing/templates/landing/learn_html.html:5
 #: apps/landing/templates/landing/learn_html.html:11
 msgid "Learn HTML"
-msgstr "Naucz się HTML-a"
+msgstr "Naucz się jezyka HTML"
 
 #: apps/landing/templates/landing/learn.html:5
 #: apps/landing/templates/landing/learn.html:10
 msgid "Learn How to Make Websites"
-msgstr "Dowiedz się, jak tworzyć strony internetowe"
+msgstr "Naucz się tworzyć strony internetowe"
 
 #: apps/landing/templates/landing/learn_javascript.html:5
 #: apps/landing/templates/landing/learn_javascript.html:11
 msgid "Learn JavaScript"
-msgstr "Dowiedz się o JavaScripcie"
+msgstr "Naucz się języka JavaScript"
 
 #: apps/demos/templates/demos/listing_tag.html:39
 msgid "Learn More"
@@ -2637,7 +2637,7 @@ msgstr "Twitter"
 
 #: apps/landing/templates/landing/learn_css.html:126
 msgid "Understanding CSS3 Transitions"
-msgstr "Zrozumienie przekształceń CSS3"
+msgstr "Zrozumienie przejść CSS3"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:9
 msgid "Up and Coming"
