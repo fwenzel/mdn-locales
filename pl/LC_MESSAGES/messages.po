@@ -176,7 +176,7 @@ msgstr "Canvas"
 
 #: apps/demos/__init__.py:67
 msgid "The HTML5 canvas element allows you to display scriptable renderings of 2D shapes and bitmap images."
-msgstr "Element HTML5 canvas umożliwia wyświetlanie, skryptowo renderowanych kształtów 2D i obrazków bitmapowych."
+msgstr "Element HTML5 <canvas> umożliwia wyświetlanie, skryptowo renderowanych kształtów 2D i obrazków bitmapowych."
 
 #: apps/demos/__init__.py:69
 msgid "https://developer.mozilla.org/en/HTML/Canvas"
@@ -345,7 +345,7 @@ msgstr "HTML5"
 
 #: apps/demos/__init__.py:145
 msgid "HTML5 is the newest version of the HTML standard, currently under development."
-msgstr "HTML5 to najnowsza wersja standardu HTML nadal w fazie rozwoju."
+msgstr "HTML5 to najnowsza wersja standardu HTML – nadal w fazie rozwoju."
 
 #: apps/demos/__init__.py:147
 msgid "https://developer.mozilla.org/en/HTML/HTML5"
@@ -415,7 +415,7 @@ msgstr "Mobile"
 
 #: apps/demos/__init__.py:175
 msgid "Firefox Mobile brings the true Web experience to mobile phones and other non-PC devices."
-msgstr "Firefox Mobile Web przenosi prawdziwe oblicze Internetu do telefonów komórkowych i innych urządzeń przenośnych."
+msgstr "Firefox Mobile przenosi prawdziwe oblicze internetu do telefonów komórkowych i innych urządzeń przenośnych."
 
 #: apps/demos/__init__.py:177
 msgid "https://developer.mozilla.org/En/Mobile"
@@ -477,7 +477,7 @@ msgstr "Wideo"
 
 #: apps/demos/__init__.py:205
 msgid "The HTML5 video element provides integrated support for playing video media without requiring plug-ins."
-msgstr "Element HTML5 video służy do odtwarzania plików wideo bez konieczności instalowania dodatkowych wtyczek "
+msgstr "Element HTML5 <video> służy do odtwarzania plików wideo bez konieczności instalowania dodatkowych wtyczek "
 
 #: apps/demos/__init__.py:207
 msgid "https://developer.mozilla.org/En/Using_audio_and_video_in_Firefox"
@@ -1200,7 +1200,7 @@ msgstr "Demo zawiera nieodpowiednie treści"
 
 #: apps/demos/templates/demos/detail.html:265
 msgid "Demo is not by this author"
-msgstr "Demo nie jest tego autora"
+msgstr "Demo nie jest stworzone przez tego autora"
 
 #: apps/demos/templates/demos/feed_item_description.html:7
 msgid "Submitted by:"
@@ -1233,7 +1233,7 @@ msgstr "Mozilla Demo Studio"
 
 #: apps/demos/templates/demos/home.html:23
 msgid "<p>Welcome to Mozilla Demo Studio, where developers like you can develop, share, demonstrate, and learn all about Web technologies. See what’s possible by exploring Demo Studio:</p> <ul> <li>View <strong>demos</strong> that showcase what HTML, CSS, and JavaScript can do.</li> <li>Inspect the <strong>source code</strong> for those demos so you can see how they work.</li> <li>Read <strong>documentation</strong> to learn about the open standards and technologies that power the Web.</li> </ul>"
-msgstr "<p>Witamy w Mozilla Demo Studio, gdzie twórcy, tacy jak ty, mogą rozwijać, dzielić się, pokazać i nauczyć się wszystkiego o technologiach internetowych. Zobacz, jakie możliwości daje zgłębianie zasobów Demo Studio:</p> <ul> <li>Obejrzyj <strong>dema</strong> prezentujące, czego HTML, CSS i JavaScript mogą dokonać.</li> <li>Sprawdź <strong>kod źródłowy</strong> tych dem, by zobaczyć, jak one działają.</li> <li>Zapoznaj się z <strong>dokumentacją</strong>, by dowiedzieć się więcej o otwartych standardach i technologiach stosowanych w Internecie.</li> </ul>"
+msgstr "<p>Witamy w Mozilla Demo Studio, gdzie twórcy, tacy jak ty, mogą rozwijać, dzielić się, pokazać i nauczyć się wszystkiego o technologiach internetowych. Zobacz, jakie możliwości daje zgłębianie zasobów Demo Studio:</p> <ul> <li>Obejrzyj <strong>dema</strong> prezentujące, czego HTML, CSS i JavaScript mogą dokonać.</li> <li>Sprawdź <strong>kod źródłowy</strong> tych dem, by zobaczyć, jak one działają.</li> <li>Zapoznaj się z <strong>dokumentacją</strong>, by dowiedzieć się więcej o otwartych standardach i technologiach stosowanych w internecie.</li> </ul>"
 
 #: apps/demos/templates/demos/home.html:39
 msgid "Featured Demos"
@@ -1342,7 +1342,7 @@ msgstr "Prześlij nowe demo"
 
 #: apps/demos/templates/demos/submit.html:67
 msgid "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other web developers.</p> <p>Please complete the form below to ensure your demo is submitted to the Demo Studio successfully.</p>"
-msgstr "<p>Czy tworzysz niezwykłe nowe sposoby korzystania z Internetu, czy tylko eksperymentujesz z najnowszymi technologiami, zapraszamy cię do przesłania swoich dem, by podzielić się nimi z innymi twórcami lub tylko je pokazać.</p> <p>Uzupełnij poniższy formularz, by prawidłowo przesłać demo do Demo Studio.</p>"
+msgstr "<p>Czy tworzysz niezwykłe nowe sposoby korzystania z internetu, czy tylko eksperymentujesz z najnowszymi technologiami, zapraszamy cię do przesłania swoich dem, by podzielić się nimi z innymi twórcami lub tylko je pokazać.</p> <p>Uzupełnij poniższy formularz, by prawidłowo przesłać demo do Demo Studio.</p>"
 
 #: apps/demos/templates/demos/submit.html:79
 msgid "Describe Your Demo"
@@ -1358,7 +1358,7 @@ msgstr "Zaznacz maksymalnie pięć technologii użytych w tym demie"
 
 #: apps/demos/templates/demos/submit.html:103
 msgid "Show Off Your Demo"
-msgstr "Pochwal się swoimi demem"
+msgstr "Pochwal się swoim demem"
 
 #: apps/demos/templates/demos/submit.html:107
 msgid "Provide at least one screenshot of your demo in action"
@@ -1423,7 +1423,7 @@ msgstr "Odrzuć zmiany"
 
 #: apps/demos/templates/demos/submit_noauth.html:32
 msgid "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other web developers.</p>"
-msgstr "<p>Czy tworzysz niezwykłe nowe sposoby korzystania z Internetu, czy tylko eksperymentujesz z najnowszymi technologiami, zapraszamy cię do przesłania swoich prac, by podzielić się nimi z innymi twórcami lub tylko je pokazać.</p>"
+msgstr "<p>Czy tworzysz niezwykłe nowe sposoby korzystania z internetu, czy tylko eksperymentujesz z najnowszymi technologiami, zapraszamy cię do przesłania swoich prac, by podzielić się nimi z innymi twórcami lub tylko je pokazać.</p>"
 
 #: apps/demos/templates/demos/submit_noauth.html:40
 msgid "Before You Begin"
@@ -1669,7 +1669,7 @@ msgstr "Popularne tematy dla twórców <span class=\"web\">stron</span>"
 #: apps/docs/templates/docs/glossary.html:4
 #: apps/landing/templates/landing/home.html:193
 msgid "/en/HTML"
-msgstr "/en/HTML"
+msgstr "/pl/HTML"
 
 #: apps/docs/templates/docs/docs.html:32
 #: apps/docs/templates/docs/glossary.html:4
@@ -1699,7 +1699,7 @@ msgstr "Następna generacja języka HTML – HTML5 dodaje nowe zaawansowane moż
 #: apps/landing/templates/landing/home.html:201
 #: apps/landing/templates/landing/web.html:69
 msgid "/en/JavaScript"
-msgstr "/en/JavaScript"
+msgstr "/pl/JavaScript"
 
 #: apps/docs/templates/docs/docs.html:41
 #: apps/landing/templates/landing/home.html:202
@@ -1711,7 +1711,7 @@ msgstr "Język skryptowy zasilający nowoczesne aplikacje webowe."
 #: apps/landing/templates/landing/home.html:197
 #: apps/landing/templates/landing/web.html:73
 msgid "/en/CSS"
-msgstr "/en/CSS"
+msgstr "/pl/CSS"
 
 #: apps/docs/templates/docs/docs.html:44
 #: apps/docs/templates/docs/glossary.html:5
@@ -1729,7 +1729,7 @@ msgstr "Kaskadowe arkusze stylów umożliwiają tworzenie zaawansowanych układ�
 #: apps/landing/templates/landing/home.html:205
 #: apps/landing/templates/landing/web.html:77
 msgid "/en/DOM"
-msgstr "DOM"
+msgstr "/pl/DOM"
 
 #: apps/docs/templates/docs/docs.html:48
 #: apps/docs/templates/docs/glossary.html:8
@@ -1773,7 +1773,7 @@ msgstr "Dołącz do społeczności twórców %(mobile_link)s, %(addons_link)s i 
 #: apps/landing/templates/landing/home.html:148
 #: apps/landing/templates/landing/mobile.html:88
 msgid "/en/Mobile"
-msgstr "/en/Mobile"
+msgstr "/pl/Mobile"
 
 #: apps/docs/templates/docs/docs.html:80
 msgid "Firefox Mobile for developers"
@@ -1806,7 +1806,7 @@ msgstr "AMO – Strefa autora"
 #: apps/docs/templates/docs/docs.html:89
 #: apps/landing/templates/landing/addons.html:60
 msgid "/en/Extensions"
-msgstr "/en/Extensions"
+msgstr "/pl/Extensions"
 
 #: apps/docs/templates/docs/docs.html:89
 #: apps/landing/templates/landing/addons.html:60
@@ -1815,7 +1815,7 @@ msgstr "Rozszerzenia"
 
 #: apps/docs/templates/docs/docs.html:90
 msgid "/en/Plugins"
-msgstr "/en/Plugins"
+msgstr "/pl/Plugins"
 
 #: apps/docs/templates/docs/docs.html:90
 msgid "Plugins"
@@ -1827,7 +1827,7 @@ msgstr "Konstruktor dodatków"
 
 #: apps/docs/templates/docs/docs.html:92
 msgid "/en/Themes"
-msgstr "/en/Themes"
+msgstr "/pl/Themes"
 
 #: apps/docs/templates/docs/docs.html:92
 msgid "Themes"
@@ -1922,7 +1922,7 @@ msgstr "/en/WebGL"
 
 #: apps/docs/templates/docs/glossary.html:14
 msgid "/en/DOM/Storage"
-msgstr "/pl/DOM/Storage"
+msgstr "/en/DOM/Storage"
 
 #: apps/docs/templates/docs/glossary.html:14
 msgid "Web Storage"
@@ -2207,11 +2207,11 @@ msgstr "Konstruktor dodatków – prezentacja"
 
 #: apps/landing/templates/landing/home.html:57
 msgid "Experience the very latest features before they go to beta by trying out the new Aurora builds. Test things out early and help decide what makes it to final release. Note: Aurora is not for the faint of heart, but that's the price of being on the cutting edge."
-msgstr "Poznaj najnowsze funkcje, zanim trafią do wersji beta, próbując nowych wydań Aurora. Testuj nowe elementy i pomóż zdecydować, które z nich trafią do wydania końcowego. Uwaga: Aurora nie jest dla osób bojaźliwych, ale jest to cena bycia na topie."
+msgstr "Poznaj najnowsze funkcje zanim trafią do wersji beta, próbując nowych wydań Aurora. Testuj nowe elementy i pomóż zdecydować, które z nich trafią do wydania końcowego. Uwaga: Aurora nie jest dla osób bojaźliwych, ale jest to cena bycia na topie."
 
 #: apps/landing/templates/landing/home.html:64
 msgid "Get Aurora now"
-msgstr "Pobierz Aurorę teraz"
+msgstr "Pobierz"
 
 #: apps/landing/templates/landing/home.html:72
 msgid "Mozilla and <a href=\"%(p2pu)s\">P2PU</a> are creating the <a href=\"%(p2pu_drumbeat)s\">School of Webcraft</a>, a powerful new way to teach and learn web developer skills. Classes are globally accessible, 100%% free, and powered entirely by learners, mentors and contributors like you people. Our goal: a vibrant, peer-led system that helps people around the world easily access and build careers on open web technology."
@@ -2349,13 +2349,13 @@ msgstr "<p><strong>JavaScript</strong> (JS) jest językiem programowania umożli
 
 #: apps/landing/templates/landing/learn.html:47
 msgid "<h2>Are you tired of learning on your own?<br>Do you want to join a community of people learning about open web technologies?</h2> <p>Consider signing up for free online peer study groups through <a href=\"http://p2pu.org/\">Peer-to-Peer University's<span title=\"Peer-to-Peer University\"></span></a> <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a>. Share your discoveries, struggles, and victories with others who are learning the same things.</p>"
-msgstr "<h2>Próbujesz uczyć się samemu?<br> Czy chcesz przyłączyć się do społeczności uczącej się o technologiach internetowych?</h2> <p>Zarejestruj się na <a href=\"http://p2pu.org/\">Peer-to-Peer University<span title=\"Peer-to-Peer University\"></span></a>, działającej w ramach <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a> grupie takich samych, jak ty osób. Podziel się z innymi swoimi odkryciami, walką i zwycięstwami na niwie nowych technologii internetowych.</p>"
+msgstr "<h2>Próbujesz uczyć się samemu?<br> Czy chcesz przyłączyć się do społeczności uczącej się o technologiach internetowych?</h2> <p>Zarejestruj się w <a href=\"http://p2pu.org/\">Peer-to-Peer University<span title=\"Peer-to-Peer University\"></span></a>, działającej w ramach <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a> grupie takich samych, jak ty osób. Podziel się z innymi swoimi odkryciami, walką i zwycięstwami na niwie nowych technologii internetowych.</p>"
 
 #: apps/landing/templates/landing/learn.html:54
 #: apps/landing/templates/landing/learn_css.html:148
 #: apps/landing/templates/landing/learn_javascript.html:144
 msgid "<p>These resources are created by forward-thinking companies and web developers who have embraced open standards and best practices for web development. If you think we've omitted a great resource, please tell us about it in the <a href=\"https://developer.mozilla.org/forums/viewforum.php?f=4\">Open Web Forum</a>. We want to share these resources with our international community, so we prefer ones that provide or allow translations, through an open content license such as <a href=\"http://creativecommons.org\" rel=\"external\">Creative Commons</a>.</p>"
-msgstr "<p>Zasoby te są tworzone przez patrzące przyszłość firmy i twórców stron internetowych, którzy przyjęli otwarte standardy i najlepsze rozwiązania dotyczące tworzenia stron internetowych. Jeśli uważasz, że pominęliśmy jakieś istotne materiały, poinformuj nas o tym za pośrednictwem <a href=\"https://developer.mozilla.org/forums/viewforum.php?f=4\">Open Web Forum</a>. Chcemy podzielić się tymi zasobami z naszą międzynarodową społecznością, więc przetłumacz je lub umożliw tłumaczenie na zasadach otwartej licencji, np. <a href=\"http://creativecommons.org\" rel=\"external\">Creative Commons</a>.</p>"
+msgstr "<p>Zasoby te są tworzone przez patrzące w przyszłość firmy i twórców stron internetowych, którzy przyjęli otwarte standardy i najlepsze rozwiązania dotyczące tworzenia stron internetowych. Jeśli uważasz, że pominęliśmy jakieś istotne materiały, poinformuj nas o tym za pośrednictwem <a href=\"https://developer.mozilla.org/forums/viewforum.php?f=4\">Open Web Forum</a>. Chcemy podzielić się tymi zasobami z naszą międzynarodową społecznością, więc przetłumacz je lub umożliw tłumaczenie na zasadach otwartej licencji, np. <a href=\"http://creativecommons.org\" rel=\"external\">Creative Commons</a>.</p>"
 
 #: apps/landing/templates/landing/learn_css.html:5
 #: apps/landing/templates/landing/learn_css.html:11
@@ -2445,7 +2445,7 @@ msgstr "Poziom średnio zaawansowany"
 
 #: apps/landing/templates/landing/learn_css.html:73
 msgid "/en/CSS_Reference"
-msgstr "/pl/CSS_Reference"
+msgstr "/en/CSS_Reference"
 
 #: apps/landing/templates/landing/learn_css.html:75
 msgid "Complete reference to CSS, with details on support by Firefox and other browsers."
@@ -2515,7 +2515,7 @@ msgstr "Szybkie wprowadzenie do niektórych podstawowych funkcji wprowadzonych w
 
 #: apps/landing/templates/landing/learn_css.html:114
 msgid "/En/CSS/Using_CSS_transforms"
-msgstr "/pl/CSS/Using_CSS_transforms"
+msgstr "/en/CSS/Using_CSS_transforms"
 
 #: apps/landing/templates/landing/learn_css.html:114
 msgid "Using CSS Transforms"
@@ -2527,7 +2527,7 @@ msgstr "Zastosuj obrót, pochylanie, skalowanie i przekształcenia za pomocą CS
 
 #: apps/landing/templates/landing/learn_css.html:119
 msgid "/en/CSS/CSS_transitions"
-msgstr "/pl/CSS/CSS_transitions"
+msgstr "/en/CSS/CSS_transitions"
 
 #: apps/landing/templates/landing/learn_css.html:119
 msgid "CSS Transitions"
@@ -2535,7 +2535,7 @@ msgstr "Transformacje CSS"
 
 #: apps/landing/templates/landing/learn_css.html:121
 msgid "CSS transitions, part of the draft CSS3 specification, provide a way to animate changes to CSS properties, instead of having the changes take effect instantly."
-msgstr "Transformacje CSS, część specyfikacji CSS3, przedstawiają sposób animacji zmian we właściwościach CSS zamiast zmian natychmiastowych."
+msgstr "Przekształcenia CSS, część specyfikacji CSS3 – przedstawiają sposób animacji zmian we właściwościach CSS zamiast zmian natychmiastowych."
 
 #: apps/landing/templates/landing/learn_css.html:126
 msgid "Understanding CSS3 Transitions"
@@ -2555,7 +2555,7 @@ msgstr "Funkcja CSS3 @font-face umożliwia użycie niestandardowych czcionek w i
 
 #: apps/landing/templates/landing/learn_css.html:141
 msgid "<h2>Are you tired of learning CSS on your own?<br> Do you want to join a community of people who are learning CSS and other open web technologies?</h2> <p>Consider signing up for free online peer study groups through <a href=\"http://p2pu.org/\">Peer-to-Peer University's<span title=\"Peer-to-Peer University\"></span></a> <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a>. Share your discoveries, struggles, and victories with others who are learning the same things.</p>"
-msgstr "<h2>Próbujesz uczyć się kaskadowych arkuszy stylów (CSS) samemu?<br> Czy chcesz przyłączyć się do społeczności uczącej się CSS i innych otwartych technologii?</h2> <p>Zarejestruj się na <a href=\"http://p2pu.org/\">Peer-to-Peer University<span title=\"Peer-to-Peer University\"></span></a>, działającej w ramach <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a> grupie takich samych, jak ty osób. Podziel się z innymi swoimi odkryciami, walką i zwycięstwami na niwie CSS.</p>"
+msgstr "<h2>Próbujesz uczyć się kaskadowych arkuszy stylów (CSS) samemu?<br> Czy chcesz przyłączyć się do społeczności uczącej się CSS i innych otwartych technologii?</h2> <p>Zarejestruj się w <a href=\"http://p2pu.org/\">Peer-to-Peer University<span title=\"Peer-to-Peer University\"></span></a>, działającej w ramach <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a> grupie takich samych, jak ty osób. Podziel się z innymi swoimi odkryciami, walką i zwycięstwami na niwie CSS.</p>"
 
 #: apps/landing/templates/landing/learn_css.html:155
 msgid "This site discusses <strong>CSS3</strong>, latest, still-evolving version of CSS. Many CSS3 features are supported in various ways by modern browsers, but many users still have older browsers and so can’t take advantage."
@@ -2701,11 +2701,11 @@ msgstr "Dowiedz się o rozszerzalnych znacznikach kompatybilnych ze starymi i no
 
 #: apps/landing/templates/landing/learn_html.html:97
 msgid "/en/Canvas_tutorial"
-msgstr "/pl/Canvas_tutorial"
+msgstr "/en/Canvas_tutorial"
 
 #: apps/landing/templates/landing/learn_html.html:97
 msgid "Canvas Tutorial"
-msgstr "Podręcznik canvas"
+msgstr "Podręcznik o canvas"
 
 #: apps/landing/templates/landing/learn_html.html:99
 msgid "Learn how to draw graphics using scripting using the &lt;canvas&gt; element."
@@ -2773,11 +2773,11 @@ msgstr "Prezentacja miejsc używających HTML5, które pomogą ci nauczyć się,
 
 #: apps/landing/templates/landing/learn_html.html:143
 msgid "<h2>Tired of learning on your own?<br>Want to join a community of people learning HTML and other open web technologies?</h2> <p>Consider signing up for free online peer study groups through <a href=\"http://p2pu.org/\">Peer-to-Peer University’s<span title=\"Peer-to-Peer University\"></span></a> <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a>. Share your discoveries, struggles, and victories with others who are learning the same things.</p>"
-msgstr "<h2>Próbujesz uczyć się samemu?<br> Czy chcesz przyłączyć się do społeczności uczącej się o HTML i innych otwartych technologiach internetowych?</h2> <p>Zarejestruj się na <a href=\"http://p2pu.org/\">Peer-to-Peer University<span title=\"Peer-to-Peer University\"></span></a>, działającej w ramach <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a> grupie takich samych, jak ty osób. Podziel się z innymi swoimi odkryciami, walką i zwycięstwami na niwie HTML i innych nowych technologii internetowych.</p>"
+msgstr "<h2>Próbujesz uczyć się samemu?<br> Czy chcesz przyłączyć się do społeczności uczącej się o HTML i innych otwartych technologiach internetowych?</h2> <p>Zarejestruj się w <a href=\"http://p2pu.org/\">Peer-to-Peer University<span title=\"Peer-to-Peer University\"></span></a>, działającej w ramach <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a> grupie takich samych, jak ty osób. Podziel się z innymi swoimi odkryciami, walką i zwycięstwami na niwie HTML i innych nowych technologii internetowych.</p>"
 
 #: apps/landing/templates/landing/learn_html.html:150
 msgid "<p>These resources are created by forward-thinking companies and web developers who have embraced open standards and best practices for web development. If you think we’ve omitted a great resource, please tell us about it in the <a href=\"/forums/viewforum.php?f=4\">Open Web Forum</a>. We want to share these resources with our international community, so we prefer ones that provide or allow translations, through an open content license such as a <a href=\"http://creativecommons.org/licenses/\">Creative Commons license</a>.</p>"
-msgstr "<p>Zasoby te są tworzone przez patrzące przyszłość firmy i twórców stron internetowych, którzy przyjęli otwarte standardy i najlepsze rozwiązania dotyczące tworzenia stron internetowych. Jeśli uważasz, że pominęliśmy jakieś istotne materiały, poinformuj nas o tym za pośrednictwem <a href=\"/forums/viewforum.php?f=4\">Open Web Forum</a>. Chcemy podzielić się tymi zasobami z naszą międzynarodową społecznością, więc przetłumacz je lub umożliw tłumaczenie na zasadach otwartej licencji, np. <a href=\"http://creativecommons.org/licenses/\">Creative Commons license</a>.</p>"
+msgstr "<p>Zasoby te są tworzone przez patrzące w przyszłość firmy i twórców stron internetowych, którzy przyjęli otwarte standardy i najlepsze rozwiązania dotyczące tworzenia stron internetowych. Jeśli uważasz, że pominęliśmy jakieś istotne materiały, poinformuj nas o tym za pośrednictwem <a href=\"/forums/viewforum.php?f=4\">Open Web Forum</a>. Chcemy podzielić się tymi zasobami z naszą międzynarodową społecznością, więc przetłumacz je lub umożliw tłumaczenie na zasadach otwartej licencji, np. <a href=\"http://creativecommons.org/licenses/\">Creative Commons</a>.</p>"
 
 #: apps/landing/templates/landing/learn_html.html:157
 msgid "This site discusses <strong>HTML5</strong>, the upcoming latest version of the standard. Many HTML5 features are supported by modern browsers, but many users still have older browsers and so can’t take advantage."
@@ -2878,7 +2878,7 @@ msgstr "Douglas Crockford bada JavaScript, jaki jest dzisiaj i jaki będzie w pr
 
 #: apps/landing/templates/landing/learn_javascript.html:85
 msgid "/en/Introduction_to_Object-Oriented_JavaScript"
-msgstr "/pl/Introduction_to_Object-Oriented_JavaScript"
+msgstr "/en/Introduction_to_Object-Oriented_JavaScript"
 
 #: apps/landing/templates/landing/learn_javascript.html:85
 msgid "Introduction to Object-oriented JavaScript"
@@ -2918,7 +2918,7 @@ msgstr "Zaawansowany JavaScript"
 
 #: apps/landing/templates/landing/learn_javascript.html:113
 msgid "Douglas Crockford looks closely at code patterns from which JavaScript programmers can choose in authoring their applications."
-msgstr "Douglas Crockford przygląda sie z bliska wzorcom kodu, które programiści JavaScriptu mogą wybrać, tworząc swoje aplikacje."
+msgstr "Douglas Crockford przygląda się z bliska wzorcom kodu, które programiści JavaScriptu mogą wybrać, tworząc swoje aplikacje."
 
 #: apps/landing/templates/landing/learn_javascript.html:118
 msgid "JavaScript Garden"
@@ -2946,7 +2946,7 @@ msgstr "Porady na temat poprawy wydajności pobierania stron zawierających Java
 
 #: apps/landing/templates/landing/learn_javascript.html:137
 msgid "<h2>Are you tired of learning JS on your own?<br>Do you want to join a community of people who are learning JavaScript and other open web technologies?</h2> <p>Consider signing up for free online peer study groups through <a href=\"http://p2pu.org/\">Peer-to-Peer University's<span title=\"Peer-to-Peer University\"></span></a> <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a>. Share your discoveries, struggles, and victories with others who are learning the same things.</p>"
-msgstr "<h2>Próbujesz uczyć się języka JavaScript samemu?<br> Czy chcesz przyłączyć się do społeczności uczącej się JavaScriptu i innych otwartych technologii?</h2> <p>Zarejestruj się na <a href=\"http://p2pu.org/\">Peer-to-Peer University<span title=\"Peer-to-Peer University\"></span></a>, działającej w ramach <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a> grupie takich samych, jak ty osób. Podziel się z innymi swoimi odkryciami, walką i zwycięstwami na niwie Javascriptu.</p>"
+msgstr "<h2>Próbujesz uczyć się języka JavaScript samemu?<br> Czy chcesz przyłączyć się do społeczności uczącej się JavaScriptu i innych otwartych technologii?</h2> <p>Zarejestruj się w <a href=\"http://p2pu.org/\">Peer-to-Peer University<span title=\"Peer-to-Peer University\"></span></a>, działającej w ramach <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a> grupie takich samych, jak ty osób. Podziel się z innymi swoimi odkryciami, walką i zwycięstwami na niwie Javascriptu.</p>"
 
 #: apps/landing/templates/landing/mobile.html:16
 msgid "Welcome to the Mobile Developer Community:"
@@ -2954,7 +2954,7 @@ msgstr "Witaj w społeczności twórców dodatków dla Firefoksa Mobile:"
 
 #: apps/landing/templates/landing/mobile.html:20
 msgid "You took back the Web. Now take it with you."
-msgstr "Internet Cię wciągał, zabierał – teraz Ty weź go ze sobą."
+msgstr "Internet cię wciągał, zabierał – teraz ty weź go ze sobą."
 
 #: apps/landing/templates/landing/mobile.html:24
 msgid "Join the Mobile discussions!"
@@ -3015,7 +3015,7 @@ msgstr "Dlaczego synchronizować, bezpieczeństwo i więcej"
 
 #: apps/landing/templates/landing/mobile.html:108
 msgid "See Ragavan demo Firefox Sync on his Android phone. Learn about purpose and goals behind the development of Firefox Sync."
-msgstr "Zobacz film demonstracyjny Ragavana o usłudze Firefox Sync działającej na jego telefonie z systemem Android. Dowiedz się więcej o celach i zadaniach rozwoju tej usługi."
+msgstr "Zobacz film demonstracyjny Ragavana o usłudze synchronizacji działającej na jego telefonie z systemem Android. Dowiedz się więcej o celach i zadaniach rozwoju tej usługi."
 
 #: apps/landing/templates/landing/mobile.html:119
 msgid "Fennec"
@@ -3206,7 +3206,7 @@ msgstr "Fantastyczne dema <span class=\"web\">internetowe</span>"
 
 #: apps/landing/templates/landing/web.html:43
 msgid "Web O' Wonder"
-msgstr "Web O' Wonder"
+msgstr "Web o' Wonder"
 
 #: apps/landing/templates/landing/web.html:44
 msgid "Want to see what the Web is really capable of? Explore the Web o' Wonder website and prepare to be amazed!"
@@ -3214,7 +3214,7 @@ msgstr "Chcesz zobaczyć do czego internet jest naprawdę zdolny? Zapoznaj się 
 
 #: apps/landing/templates/landing/web.html:48
 msgid "Do you want to show the world what the Web can do? Demo Studio is your place for sharing awesome demos and experiments with the latest Web standards and open technologies."
-msgstr "Chcesz pokazać światu, co za pomocą Internetu może zrobić? Demo Studio jest miejscem, gdzie możesz udostępniać swoje dema i eksperymentalne prace wykorzystujące najnowsze standardy internetowe i otwarte technologie."
+msgstr "Chcesz pokazać światu, co za pomocą internetu może zrobić? Demo Studio jest miejscem, gdzie możesz udostępniać swoje dema i eksperymentalne prace wykorzystujące najnowsze standardy internetowe i otwarte technologie."
 
 #: apps/landing/templates/landing/web.html:51
 msgid "Hacks Blog"
@@ -3231,7 +3231,7 @@ msgstr "Popularna dokumentacja o <span class=\"web\"> tworzeniu stron internetow
 
 #: apps/landing/templates/landing/web.html:66
 msgid "Find out what HTML5 is really all about and how you can develop for a better Web through open standards."
-msgstr "Dowiedz się, co to jest naprawdę HTML5 i jak możesz rozwijać Internet w oparciu o otwarte standardy."
+msgstr "Dowiedz się, co to jest naprawdę HTML5 i jak możesz rozwijać internet w oparciu o otwarte standardy."
 
 #: apps/landing/templates/landing/web.html:70
 msgid "A great resource for anyone working with JS."
@@ -3364,7 +3364,7 @@ msgstr "Co sądzisz o nowym MDN? <a href=\"%(uservoice_url)s\">Podziel się z na
 
 #: templates/base.html:108
 msgid "Content is available under <a href=\"%(copyright_url)s\">these licenses</a>"
-msgstr "Zawartość witryny jest udostępniana na zasadach <a href=\"%(copyright_url)s\">tych licencji</a>"
+msgstr "Zawartość witryny jest udostępniana na następujących <a href=\"%(copyright_url)s\">zasadach</a>"
 
 #: templates/base.html:108
 msgid "/Project:Copyrights"
@@ -3417,6 +3417,3 @@ msgstr "Formaty pobierania:"
 #: templates/includes/video_player.html:7
 msgid "This video requires a browser with support for open video: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 or greater</li> <li><a href=\"http://www.apple.com/safari/\">Safari</a> 3.1 or greater</li> </ul> or the <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Alternatively, you may use the video download links provided."
 msgstr "To wideo wymaga przeglądarki obsługującej otwarte standardy wideo: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 lub nowszy</li> <li><a href=\"http://www.apple.com/safari/\">Safari</a> 3.1 lub nowsze</li> </ul> lub <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Alternatywnie można pobrać wideo używając odpowiednich odnośników."
-
-#~ msgid "<p>These resources are created by forward-thinking companies and web developers who have embraced open standards and best practices for web development. If you think we’ve omitted a great resource, please tell us about it in the <a href=\"/forums/viewforum.php?f=4&start=0\">Open Web Forum</a>. We want to share these resources with our international community, so we prefer ones that provide or allow translations, through an open content license such as a <a href=\"http://creativecommons.org/licenses/\">Creative Commons license</a>.</p>"
-#~ msgstr "<p>Zasoby te są tworzone przez patrzące przyszłość firmy i twórców stron internetowych, którzy przyjęli otwarte standardy i najlepsze rozwiązania dotyczące tworzenia stron internetowych. Jeśli uważasz, ze pominęliśmy jakieś istotne materiały, poinformuj nas o tym za pośrednictwem  <a href=\"/forums/viewforum.php?f=4&start=0\">Open Web Forum</a>. Chcemy podzielić się tymi zasobami z naszą międzynarodową społecznością, więc przetłumacz je lub umożliw tłumaczenie na zasadach otwartej licencji, np. <a href=\"http://creativecommons.org/licenses/\">Creative Commons license</a>.</p>"
