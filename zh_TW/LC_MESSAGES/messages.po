@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-04-26 17:26+0200\n"
-"PO-Revision-Date: 2011-04-23 05:24+0200\n"
+"PO-Revision-Date: 2011-04-26 18:42+0200\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: none\n"
 "Language: zh_TW\n"
@@ -920,9 +920,8 @@ msgstr "存取被拒。"
 #: apps/landing/templates/landing/base_learn.html:9
 #: templates/base.html:78
 #: templates/base_compact.html:18
-#, fuzzy
 msgid "Demos"
-msgstr "MDN demo"
+msgstr "Demos"
 
 #: apps/demos/templates/demos/delete.html:10
 #: apps/demos/templates/demos/delete_comment.html:10
@@ -1215,11 +1214,11 @@ msgstr "此 demo 係以 <a href=\"%(link)s\">%(title)s</a> 條款進行授權。
 
 #: apps/demos/templates/demos/detail.html:250
 msgid "More by {creator_link}"
-msgstr ""
+msgstr "{creator_link} 的更多作品"
 
 #: apps/demos/templates/demos/detail.html:261
 msgid "Report a Problem"
-msgstr ""
+msgstr "回報問題"
 
 #: apps/demos/templates/demos/detail.html:263
 msgid "Demo is not working"
@@ -1722,9 +1721,8 @@ msgid "Launch {title}"
 msgstr "執行 {title}"
 
 #: apps/demos/templates/demos/elements/submission_thumb.html:20
-#, fuzzy
 msgid "Launch"
-msgstr "執行 Demo"
+msgstr "執行"
 
 #: apps/demos/templates/demos/elements/tags_list.html:2
 msgid "Browse by Technology"
@@ -2268,7 +2266,7 @@ msgstr "我們的社群當中最新的 <span class=\"addons\">附加元件</span
 #: templates/base.html:79
 #: templates/base_compact.html:28
 msgid "Learning"
-msgstr ""
+msgstr "學習"
 
 #: apps/landing/templates/landing/base_learn.html:8
 #: apps/landing/templates/landing/home.html:136
@@ -2333,7 +2331,7 @@ msgstr "登入"
 #: apps/landing/templates/landing/home.html:45
 #: apps/landing/templates/landing/home.html:55
 msgid "Aurora"
-msgstr ""
+msgstr "Aurora"
 
 #: apps/landing/templates/landing/home.html:46
 #: apps/landing/templates/landing/home.html:70
@@ -2342,9 +2340,8 @@ msgstr "School of Webcraft"
 
 #: apps/landing/templates/landing/home.html:48
 #: apps/landing/templates/landing/home.html:100
-#, fuzzy
 msgid "Firefox 4"
-msgstr "Firefox 4 Beta"
+msgstr "Firefox 4"
 
 #: apps/landing/templates/landing/home.html:49
 #: apps/landing/templates/landing/home.html:115
@@ -2361,7 +2358,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/home.html:64
 msgid "Get Aurora now"
-msgstr ""
+msgstr "立刻取得 Aurora"
 
 #: apps/landing/templates/landing/home.html:72
 msgid ""
@@ -2373,8 +2370,9 @@ msgid ""
 "access and build careers on open web technology."
 msgstr ""
 "Mozilla 與 <a href=\"%(p2pu)s\">P2PU</a> 正在建立 <a href=\"%"
-"(p2pu_drumbeat)s\">School of Webcraft</a>，一個新的有效網頁開發技術。在全世界都可以上課，且完全免費；並完整由學生"
-"、指導者，以及像您這樣的貢獻者所支援。我們的目標是建立一個充滿活力，由同儕所領導的系統，透過開放的網頁科技來幫助全世界的人簡單地使用並建立工作機會。"
+"(p2pu_drumbeat)s\">School of Webcraft</a>，一個新的有效的方式來學習網頁開發。在全世界都可以上課，完全免費；並完整"
+"由學生、指導者，以及像您這樣的貢獻者所支援。我們的目標是建立一個充滿活力，由同儕所領導的系統，透過開放的網頁科技來幫助全世界的人簡單地使用並建立開放網頁"
+"技術的工作機會。"
 
 #: apps/landing/templates/landing/home.html:80
 #: apps/landing/templates/landing/home.html:94
@@ -2521,7 +2519,7 @@ msgstr "今天就開始！"
 #: apps/landing/templates/landing/learn.html:5
 #: apps/landing/templates/landing/learn.html:10
 msgid "Learn How to Make Websites"
-msgstr ""
+msgstr "學習如何製造網站"
 
 #: apps/landing/templates/landing/learn.html:11
 msgid ""
@@ -2579,15 +2577,14 @@ msgstr ""
 
 #: apps/landing/templates/landing/learn_css.html:5
 #: apps/landing/templates/landing/learn_css.html:11
-#, fuzzy
 msgid "Learn CSS"
-msgstr "了解更多資訊"
+msgstr "學習 CSS"
 
 #: apps/landing/templates/landing/learn_css.html:10
 #: apps/landing/templates/landing/learn_html.html:10
 #: apps/landing/templates/landing/learn_javascript.html:10
 msgid "Back to Home"
-msgstr ""
+msgstr "回到首頁"
 
 #: apps/landing/templates/landing/learn_css.html:12
 msgid ""
@@ -2606,11 +2603,11 @@ msgstr ""
 #: apps/landing/templates/landing/learn_html.html:28
 #: apps/landing/templates/landing/learn_javascript.html:27
 msgid "Introductory Level"
-msgstr ""
+msgstr "入門等級"
 
 #: apps/landing/templates/landing/learn_css.html:32
 msgid "CSS Getting Started"
-msgstr ""
+msgstr "CSS 新手入門"
 
 #: apps/landing/templates/landing/learn_css.html:34
 msgid ""
@@ -2620,30 +2617,29 @@ msgid ""
 msgstr ""
 
 #: apps/landing/templates/landing/learn_css.html:37
-#, fuzzy
 msgid "CSS Basics"
-msgstr "CSS 漸層"
+msgstr "CSS 基礎"
 
 #: apps/landing/templates/landing/learn_css.html:39
 msgid ""
 "What CSS is, how to apply it to HTML, and what basic CSS syntax looks like."
-msgstr ""
+msgstr "CSS 是什麼，如何將其套用至 HTML，以及基礎的 CSS 語法是長成什麼樣子。"
 
 #: apps/landing/templates/landing/learn_css.html:42
 msgid "CSS Selector Classes"
-msgstr ""
+msgstr "CSS 類別選擇器"
 
 #: apps/landing/templates/landing/learn_css.html:44
 msgid "What are classes in CSS?"
-msgstr ""
+msgstr "CSS 當中的類別 (Class) 是什麼?"
 
 #: apps/landing/templates/landing/learn_css.html:47
 msgid "External CSS"
-msgstr ""
+msgstr "外部 CSS"
 
 #: apps/landing/templates/landing/learn_css.html:49
 msgid "Using CSS from an external style sheet."
-msgstr ""
+msgstr "從外部樣式表使用 CSS。"
 
 #: apps/landing/templates/landing/learn_css.html:52
 msgid "Adding a Touch of Style"
@@ -2667,11 +2663,11 @@ msgstr "/en/Common_CSS_Questions"
 
 #: apps/landing/templates/landing/learn_css.html:62
 msgid "Common CSS Questions"
-msgstr ""
+msgstr "常見 CSS 疑問"
 
 #: apps/landing/templates/landing/learn_css.html:64
 msgid "Common questions and answers for beginners."
-msgstr ""
+msgstr "提供新手參考的常見問題與答案。"
 
 #: apps/landing/templates/landing/learn_css.html:70
 #: apps/landing/templates/landing/learn_javascript.html:63
@@ -2689,9 +2685,8 @@ msgid ""
 msgstr ""
 
 #: apps/landing/templates/landing/learn_css.html:78
-#, fuzzy
 msgid "CSS Challenges"
-msgstr "儲存修改"
+msgstr "CSS 挑戰"
 
 #: apps/landing/templates/landing/learn_css.html:80
 msgid "Flex your CSS skills, and see where you need more practice."
@@ -2758,9 +2753,8 @@ msgid "/En/CSS/Using_CSS_transforms"
 msgstr "/En/CSS/Using_CSS_transforms"
 
 #: apps/landing/templates/landing/learn_css.html:114
-#, fuzzy
 msgid "Using CSS Transforms"
-msgstr "CSS 變形 (Transforms)"
+msgstr "使用 CSS Transforms"
 
 #: apps/landing/templates/landing/learn_css.html:116
 msgid "Apply rotation, skewing, scaling, and translation using CSS."
@@ -2771,7 +2765,6 @@ msgid "/en/CSS/CSS_transitions"
 msgstr "/en/CSS/CSS_transitions"
 
 #: apps/landing/templates/landing/learn_css.html:119
-#, fuzzy
 msgid "CSS Transitions"
 msgstr "CSS 變形 (Transforms)"
 
@@ -3022,18 +3015,16 @@ msgid "HTML5 Examples"
 msgstr ""
 
 #: apps/landing/templates/landing/learn_html.html:117
-#, fuzzy
 msgid "Web o’ Wonder"
-msgstr "Web O' Wonder"
+msgstr "Web o’ Wonder"
 
 #: apps/landing/templates/landing/learn_html.html:119
 msgid "Demos from Mozilla developers and evangelists."
 msgstr ""
 
 #: apps/landing/templates/landing/learn_html.html:122
-#, fuzzy
 msgid "MDN Demo Studio"
-msgstr "Demo Studio"
+msgstr "MDN Demo Studio"
 
 #: apps/landing/templates/landing/learn_html.html:124
 msgid ""
@@ -3099,9 +3090,8 @@ msgstr ""
 
 #: apps/landing/templates/landing/learn_javascript.html:5
 #: apps/landing/templates/landing/learn_javascript.html:11
-#, fuzzy
 msgid "Learn JavaScript"
-msgstr "/zh_TW/JavaScript"
+msgstr "學習 JavaScript"
 
 #: apps/landing/templates/landing/learn_javascript.html:12
 msgid ""
@@ -3184,9 +3174,8 @@ msgid ""
 msgstr ""
 
 #: apps/landing/templates/landing/learn_javascript.html:71
-#, fuzzy
 msgid "Eloquent JavaScript"
-msgstr "/zh_TW/JavaScript"
+msgstr "精通 JavaScript"
 
 #: apps/landing/templates/landing/learn_javascript.html:72
 msgid ""
@@ -3260,9 +3249,8 @@ msgid ""
 msgstr ""
 
 #: apps/landing/templates/landing/learn_javascript.html:118
-#, fuzzy
 msgid "JavaScript Garden"
-msgstr "JavaScript"
+msgstr "JavaScript 花園"
 
 #: apps/landing/templates/landing/learn_javascript.html:119
 msgid "Documentation of the most quirky parts of JavaScript."
