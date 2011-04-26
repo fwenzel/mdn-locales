@@ -2329,7 +2329,7 @@ msgstr "Zacznij już dziś!"
 #: apps/landing/templates/landing/learn.html:5
 #: apps/landing/templates/landing/learn.html:10
 msgid "Learn How to Make Websites"
-msgstr "Naucz się tworzyć strony internetowe"
+msgstr "Ucz się tworzyć strony internetowe"
 
 #: apps/landing/templates/landing/learn.html:11
 msgid "<p>Want to learn to use the technologies that power the Web? <br>We’ve put together a great collection of resources to get you started.</p>"
@@ -2349,18 +2349,18 @@ msgstr "<p><strong>JavaScript</strong> (JS) jest językiem programowania umożli
 
 #: apps/landing/templates/landing/learn.html:47
 msgid "<h2>Are you tired of learning on your own?<br>Do you want to join a community of people learning about open web technologies?</h2> <p>Consider signing up for free online peer study groups through <a href=\"http://p2pu.org/\">Peer-to-Peer University's<span title=\"Peer-to-Peer University\"></span></a> <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a>. Share your discoveries, struggles, and victories with others who are learning the same things.</p>"
-msgstr "<h2>Próbujesz nauczyć się samemu?<br> Czy chcesz przyłączyć się do społeczności uczącej się o technologiach internetowych?</h2> <p>Zarejestruj się na <a href=\"http://p2pu.org/\">Peer-to-Peer University's<span title=\"Peer-to-Peer University\"></span></a>, działającej w ramach <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a> grupie takich samych, jak Ty osób. Podziel się z innymi swoimi odkryciami, walką i zwycięstwami na niwie nowych technologii internetowych.</p>"
+msgstr "<h2>Próbujesz uczyć się samemu?<br> Czy chcesz przyłączyć się do społeczności uczącej się o technologiach internetowych?</h2> <p>Zarejestruj się na <a href=\"http://p2pu.org/\">Peer-to-Peer University<span title=\"Peer-to-Peer University\"></span></a>, działającej w ramach <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a> grupie takich samych, jak ty osób. Podziel się z innymi swoimi odkryciami, walką i zwycięstwami na niwie nowych technologii internetowych.</p>"
 
 #: apps/landing/templates/landing/learn.html:54
 #: apps/landing/templates/landing/learn_css.html:148
 #: apps/landing/templates/landing/learn_javascript.html:144
 msgid "<p>These resources are created by forward-thinking companies and web developers who have embraced open standards and best practices for web development. If you think we've omitted a great resource, please tell us about it in the <a href=\"https://developer.mozilla.org/forums/viewforum.php?f=4\">Open Web Forum</a>. We want to share these resources with our international community, so we prefer ones that provide or allow translations, through an open content license such as <a href=\"http://creativecommons.org\" rel=\"external\">Creative Commons</a>.</p>"
-msgstr "<p>Zasoby te są tworzone przez myślące o przyszłości firmy i twórców stron internetowych, którzy przyjęli otwarte standardy i najlepsze rozwiązania dotyczące tworzenia stron internetowych. Jeśli uważasz, że pominęliśmy jakieś istotne materiały, poinformuj nas o tym za pośrednictwem <a href=\"https://developer.mozilla.org/forums/viewforum.php?f=4\">Open Web Forum</a>. Chcemy podzielić się tą wiedzą z naszą międzynarodową społecznością, więc przetłumacz je, lub umożliw tłumaczenie na zasadach otwartej licencji, np. <a href=\"http://creativecommons.org\" rel=\"external\">Creative Commons</a>.</p>"
+msgstr "<p>Zasoby te są tworzone przez patrzące przyszłość firmy i twórców stron internetowych, którzy przyjęli otwarte standardy i najlepsze rozwiązania dotyczące tworzenia stron internetowych. Jeśli uważasz, że pominęliśmy jakieś istotne materiały, poinformuj nas o tym za pośrednictwem <a href=\"https://developer.mozilla.org/forums/viewforum.php?f=4\">Open Web Forum</a>. Chcemy podzielić się tymi zasobami z naszą międzynarodową społecznością, więc przetłumacz je lub umożliw tłumaczenie na zasadach otwartej licencji, np. <a href=\"http://creativecommons.org\" rel=\"external\">Creative Commons</a>.</p>"
 
 #: apps/landing/templates/landing/learn_css.html:5
 #: apps/landing/templates/landing/learn_css.html:11
 msgid "Learn CSS"
-msgstr "Naucz się CSS"
+msgstr "Ucz się CSS"
 
 #: apps/landing/templates/landing/learn_css.html:10
 #: apps/landing/templates/landing/learn_html.html:10
@@ -2539,15 +2539,15 @@ msgstr "Transformacje CSS, część specyfikacji CSS3, przedstawiają sposób an
 
 #: apps/landing/templates/landing/learn_css.html:126
 msgid "Understanding CSS3 Transitions"
-msgstr "Zrozumienie przejść CSS3"
+msgstr "Zrozumienie przekształceń CSS3"
 
 #: apps/landing/templates/landing/learn_css.html:128
 msgid "Start using CSS3 transitions by carefully choosing the situations in which to use them."
-msgstr "Zacznij korzystać z przejść CSS3 starannie wybierając sytuacje, w których je zastosować."
+msgstr "Zacznij korzystać z przekształceń CSS3 starannie wybierając sytuacje, w których je zastosować."
 
 #: apps/landing/templates/landing/learn_css.html:131
 msgid "Quick Guide to Implement Web Fonts with @font-face"
-msgstr "Szybki przewodnik po implementacji czcionek sieciowych za pomocą @font-face"
+msgstr "Szybki przewodnik po implementacji czcionek sieciowych za pomocą funkcji @font-face"
 
 #: apps/landing/templates/landing/learn_css.html:133
 msgid "The @font-face feature from CSS3 allows you to use custom typefaces on the web in an accessible, manipulable, and scalable way."
@@ -2555,7 +2555,7 @@ msgstr "Funkcja CSS3 @font-face umożliwia użycie niestandardowych czcionek w i
 
 #: apps/landing/templates/landing/learn_css.html:141
 msgid "<h2>Are you tired of learning CSS on your own?<br> Do you want to join a community of people who are learning CSS and other open web technologies?</h2> <p>Consider signing up for free online peer study groups through <a href=\"http://p2pu.org/\">Peer-to-Peer University's<span title=\"Peer-to-Peer University\"></span></a> <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a>. Share your discoveries, struggles, and victories with others who are learning the same things.</p>"
-msgstr "<h2>Próbujesz nauczyć się kaskadowych arkuszy stylów (CSS) samemu?<br> Czy chcesz przyłączyć się do społeczności uczącej się CSS i innych otwartych technologii?</h2> <p>Zarejestruj się na <a href=\"http://p2pu.org/\">Peer-to-Peer University's<span title=\"Peer-to-Peer University\"></span></a>, działającej w ramach <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a> grupie takich samych, jak Ty osób. Podziel się z innymi swoimi odkryciami, walką i zwycięstwami na niwie CSS.</p>"
+msgstr "<h2>Próbujesz uczyć się kaskadowych arkuszy stylów (CSS) samemu?<br> Czy chcesz przyłączyć się do społeczności uczącej się CSS i innych otwartych technologii?</h2> <p>Zarejestruj się na <a href=\"http://p2pu.org/\">Peer-to-Peer University<span title=\"Peer-to-Peer University\"></span></a>, działającej w ramach <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a> grupie takich samych, jak ty osób. Podziel się z innymi swoimi odkryciami, walką i zwycięstwami na niwie CSS.</p>"
 
 #: apps/landing/templates/landing/learn_css.html:155
 msgid "This site discusses <strong>CSS3</strong>, latest, still-evolving version of CSS. Many CSS3 features are supported in various ways by modern browsers, but many users still have older browsers and so can’t take advantage."
@@ -2564,7 +2564,7 @@ msgstr "Na tej witrynie jest omawiana najnowsza, wciąż rozwijająca się wersj
 #: apps/landing/templates/landing/learn_html.html:5
 #: apps/landing/templates/landing/learn_html.html:11
 msgid "Learn HTML"
-msgstr "Naucz się jezyka HTML"
+msgstr "Ucz się jezyka HTML"
 
 #: apps/landing/templates/landing/learn_html.html:12
 msgid "<p class=\"intro\">HTML (<strong>HyperText Markup Language</strong>) is the core syntax for putting information on the worldwide web. If you want to create or modify web pages, it’s best if you learn HTML.</p> <p>The links on this page lead to a variety of HTML tutorials and HTML training materials. Whether you are just starting out, learning the basics of HTML, or are an old hand at web development wanting to learn <strong>HTML5</strong> (the newest version of the standard), you can find helpful resources here for HTML best practices.</p>"
@@ -2616,11 +2616,11 @@ msgstr "Wideo ilustrujące najlepsze praktyki i metody używane do pisania dobre
 
 #: apps/landing/templates/landing/learn_html.html:56
 msgid "HTML Challenges"
-msgstr "Wyzwania HTML"
+msgstr "Zadania HTML"
 
 #: apps/landing/templates/landing/learn_html.html:58
 msgid "Use these challenges to hone your HTML skills (for example, “Should I use an &lt;h2&gt; element or a &lt;strong&gt; element?”), focusing on meaningful mark-up."
-msgstr "Użyj tych zadań, by doskonalić swoje umiejętności HTML. Na przykład: czy należy używać elementu <h2>, czy <strong>?"
+msgstr "Użyj tych zadań, by doskonalić swoje umiejętności w stosowaniu HTML-a. Na przykład: czy należy używać elementu <h2>, czy <strong>?"
 
 #: apps/landing/templates/landing/learn_html.html:61
 msgid "/HTML/Element"
@@ -2640,7 +2640,7 @@ msgstr "Porady dla tworzących szybko wczytujące się strony HTML"
 
 #: apps/landing/templates/landing/learn_html.html:74
 msgid "Optimize web pages to provide a more responsive site for visitors and reduce the load on your web server and Internet connection."
-msgstr "Optymalizacja stron internetowych, by uzyskać lepiej wchodzącą w interakcję z odwiedzającymi witrynę i zmniejszyć obciążenie swojego serwera i połączenia z internetem."
+msgstr "Optymalizacja stron internetowych, by uzyskać witrynę lepiej wchodzącą w interakcję z osobami odwiedzającymi, zmniejszyć obciążenie swojego serwera i połączenia z internetem."
 
 #: apps/landing/templates/landing/learn_html.html:77
 msgid "Dive into HTML5"
@@ -2709,7 +2709,7 @@ msgstr "Podręcznik canvas"
 
 #: apps/landing/templates/landing/learn_html.html:99
 msgid "Learn how to draw graphics using scripting using the &lt;canvas&gt; element."
-msgstr "Dowiedz się jak rysować grafiki za pomocą elementu &lt;canvas&gt;, używając skryptów."
+msgstr "Dowiedz się jak rysować grafiki za pomocą elementu <canvas>, używając skryptów."
 
 #: apps/landing/templates/landing/learn_html.html:102
 msgid "HTML5 Doctor"
@@ -2725,7 +2725,7 @@ msgstr "Korzystanie z HTML5 Audio"
 
 #: apps/landing/templates/landing/learn_html.html:108
 msgid "Learn how to use the HTML audio element to embed sounds in your web pages easily. Lots of code examples are included in the tutorial."
-msgstr "Dowiedz się, jak użyć elementu audio HTML, aby łatwo umieścić dźwięki na stronach internetowych. Wiele przykładów kodu jest zawartych w podręczniku."
+msgstr "Dowiedz się, jak użyć elementu audio HTML, aby łatwo umieścić dźwięki na stronach internetowych. W podręczniku jest zawartych wiele przykładów kodu."
 
 #: apps/landing/templates/landing/learn_html.html:114
 msgid "HTML5 Examples"
@@ -2757,7 +2757,7 @@ msgstr "Remy Sharp"
 
 #: apps/landing/templates/landing/learn_html.html:131
 msgid "Demos that you can filter by technology or browser support."
-msgstr "Demos, które można filtrować wg technologii lub obsługi przez przeglądarkę."
+msgstr "Dema, które można filtrować wg technologii lub obsługi przez przeglądarkę."
 
 #: apps/landing/templates/landing/learn_html.html:134
 msgid "HTML5 Gallery"
@@ -2773,11 +2773,11 @@ msgstr "Prezentacja miejsc używających HTML5, które pomogą ci nauczyć się,
 
 #: apps/landing/templates/landing/learn_html.html:143
 msgid "<h2>Tired of learning on your own?<br>Want to join a community of people learning HTML and other open web technologies?</h2> <p>Consider signing up for free online peer study groups through <a href=\"http://p2pu.org/\">Peer-to-Peer University’s<span title=\"Peer-to-Peer University\"></span></a> <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a>. Share your discoveries, struggles, and victories with others who are learning the same things.</p>"
-msgstr "<h2>Próbujesz nauczyć się samemu?<br> Czy chcesz przyłączyć się do społeczności uczącej się o HTML i innych otwartych technologiach internetowych?</h2> <p>Zarejestruj się na <a href=\"http://p2pu.org/\">Peer-to-Peer University's<span title=\"Peer-to-Peer University\"></span></a>, działającej w ramach <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a> grupie takich samych, jak Ty osób. Podziel się z innymi swoimi odkryciami, walką i zwycięstwami na niwie HTML i innych nowych technologii internetowych.</p>"
+msgstr "<h2>Próbujesz uczyć się samemu?<br> Czy chcesz przyłączyć się do społeczności uczącej się o HTML i innych otwartych technologiach internetowych?</h2> <p>Zarejestruj się na <a href=\"http://p2pu.org/\">Peer-to-Peer University<span title=\"Peer-to-Peer University\"></span></a>, działającej w ramach <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a> grupie takich samych, jak ty osób. Podziel się z innymi swoimi odkryciami, walką i zwycięstwami na niwie HTML i innych nowych technologii internetowych.</p>"
 
 #: apps/landing/templates/landing/learn_html.html:150
 msgid "<p>These resources are created by forward-thinking companies and web developers who have embraced open standards and best practices for web development. If you think we’ve omitted a great resource, please tell us about it in the <a href=\"/forums/viewforum.php?f=4\">Open Web Forum</a>. We want to share these resources with our international community, so we prefer ones that provide or allow translations, through an open content license such as a <a href=\"http://creativecommons.org/licenses/\">Creative Commons license</a>.</p>"
-msgstr "<p>Zasoby te są tworzone przez myślące o przyszłości firmy i twórców stron internetowych, którzy przyjęli otwarte standardy i najlepsze rozwiązania dotyczące tworzenia stron internetowych. Jeśli uważasz, że pominęliśmy jakieś istotne materiały, poinformuj nas o tym za pośrednictwem <a href=\"/forums/viewforum.php?f=4\">Open Web Forum</a>. Chcemy podzielić się tą wiedzą z naszą międzynarodową społecznością, więc przetłumacz je, lub umożliw tłumaczenie na zasadach otwartej licencji, np. <a href=\"http://creativecommons.org/licenses/\">Creative Commons license</a>.</p>"
+msgstr "<p>Zasoby te są tworzone przez patrzące przyszłość firmy i twórców stron internetowych, którzy przyjęli otwarte standardy i najlepsze rozwiązania dotyczące tworzenia stron internetowych. Jeśli uważasz, że pominęliśmy jakieś istotne materiały, poinformuj nas o tym za pośrednictwem <a href=\"/forums/viewforum.php?f=4\">Open Web Forum</a>. Chcemy podzielić się tymi zasobami z naszą międzynarodową społecznością, więc przetłumacz je lub umożliw tłumaczenie na zasadach otwartej licencji, np. <a href=\"http://creativecommons.org/licenses/\">Creative Commons license</a>.</p>"
 
 #: apps/landing/templates/landing/learn_html.html:157
 msgid "This site discusses <strong>HTML5</strong>, the upcoming latest version of the standard. Many HTML5 features are supported by modern browsers, but many users still have older browsers and so can’t take advantage."
@@ -2786,7 +2786,7 @@ msgstr "Na tej witrynie jest omawiana najnowsza, nadchodząca wersja standardu <
 #: apps/landing/templates/landing/learn_javascript.html:5
 #: apps/landing/templates/landing/learn_javascript.html:11
 msgid "Learn JavaScript"
-msgstr "Naucz się języka JavaScript"
+msgstr "Ucz się języka JavaScript"
 
 #: apps/landing/templates/landing/learn_javascript.html:12
 msgid "<p class=\"intro\"><strong>JavaScript</strong> (JS for short) is the programming language that enables web pages ​to respond to user interaction beyond the basic level provided by HTML links and forms.</p> <p>​The links on this page lead to a variety of JavaScript tutorials and JavaScript training materials. Whether you are just starting out, wanting to learn JS basics, or are an old hand, wanting to sharpen your skills, you can find helpful resources here for JS best practices.</p>"
@@ -2918,7 +2918,7 @@ msgstr "Zaawansowany JavaScript"
 
 #: apps/landing/templates/landing/learn_javascript.html:113
 msgid "Douglas Crockford looks closely at code patterns from which JavaScript programmers can choose in authoring their applications."
-msgstr "Douglas Crockford zagląda dokładnie do wzorców kodu, które programiści JavaScriptu mogą wybrać, tworząc swoje aplikacje."
+msgstr "Douglas Crockford przygląda sie z bliska wzorcom kodu, które programiści JavaScriptu mogą wybrać, tworząc swoje aplikacje."
 
 #: apps/landing/templates/landing/learn_javascript.html:118
 msgid "JavaScript Garden"
@@ -2946,7 +2946,7 @@ msgstr "Porady na temat poprawy wydajności pobierania stron zawierających Java
 
 #: apps/landing/templates/landing/learn_javascript.html:137
 msgid "<h2>Are you tired of learning JS on your own?<br>Do you want to join a community of people who are learning JavaScript and other open web technologies?</h2> <p>Consider signing up for free online peer study groups through <a href=\"http://p2pu.org/\">Peer-to-Peer University's<span title=\"Peer-to-Peer University\"></span></a> <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a>. Share your discoveries, struggles, and victories with others who are learning the same things.</p>"
-msgstr "<h2>Próbujesz nauczyć się języka Javascript (JS) samemu?<br> Czy chcesz przyłączyć się do społeczności uczącej się JS i innych otwartych technologii?</h2> <p>Zarejestruj się na <a href=\"http://p2pu.org/\">Peer-to-Peer University's<span title=\"Peer-to-Peer University\"></span></a>, działającej w ramach <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a> grupie takich samych, jak Ty osób. Podziel się z innymi swoimi odkryciami, walką i zwycięstwami na niwie Javascriptu.</p>"
+msgstr "<h2>Próbujesz uczyć się języka JavaScript samemu?<br> Czy chcesz przyłączyć się do społeczności uczącej się JavaScriptu i innych otwartych technologii?</h2> <p>Zarejestruj się na <a href=\"http://p2pu.org/\">Peer-to-Peer University<span title=\"Peer-to-Peer University\"></span></a>, działającej w ramach <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a> grupie takich samych, jak ty osób. Podziel się z innymi swoimi odkryciami, walką i zwycięstwami na niwie Javascriptu.</p>"
 
 #: apps/landing/templates/landing/mobile.html:16
 msgid "Welcome to the Mobile Developer Community:"
@@ -3419,4 +3419,4 @@ msgid "This video requires a browser with support for open video: <ul> <li><a hr
 msgstr "To wideo wymaga przeglądarki obsługującej otwarte standardy wideo: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 lub nowszy</li> <li><a href=\"http://www.apple.com/safari/\">Safari</a> 3.1 lub nowsze</li> </ul> lub <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Alternatywnie można pobrać wideo używając odpowiednich odnośników."
 
 #~ msgid "<p>These resources are created by forward-thinking companies and web developers who have embraced open standards and best practices for web development. If you think we’ve omitted a great resource, please tell us about it in the <a href=\"/forums/viewforum.php?f=4&start=0\">Open Web Forum</a>. We want to share these resources with our international community, so we prefer ones that provide or allow translations, through an open content license such as a <a href=\"http://creativecommons.org/licenses/\">Creative Commons license</a>.</p>"
-#~ msgstr "<p>Zasoby te są tworzone przez myślące o przyszłości firmy i twórców stron internetowych, którzy przyjęli otwarte standardy i najlepsze rozwiązania dotyczące tworzenia stron internetowych. Jeśli uważasz, ze pominęliśmy jakieś istotne materiały, poinformuj nas o tym za pośrednictwem  <a href=\"/forums/viewforum.php?f=4&start=0\">Open Web Forum</a>. Chcemy podzielić się tą wiedzą z naszą międzynarodową społecznością, więc przetłumacz je, lub umożliw tłumaczenie na zasadach otwartej licencji, np. <a href=\"http://creativecommons.org/licenses/\">Creative Commons license</a>.</p>"
+#~ msgstr "<p>Zasoby te są tworzone przez patrzące przyszłość firmy i twórców stron internetowych, którzy przyjęli otwarte standardy i najlepsze rozwiązania dotyczące tworzenia stron internetowych. Jeśli uważasz, ze pominęliśmy jakieś istotne materiały, poinformuj nas o tym za pośrednictwem  <a href=\"/forums/viewforum.php?f=4&start=0\">Open Web Forum</a>. Chcemy podzielić się tymi zasobami z naszą międzynarodową społecznością, więc przetłumacz je lub umożliw tłumaczenie na zasadach otwartej licencji, np. <a href=\"http://creativecommons.org/licenses/\">Creative Commons license</a>.</p>"
