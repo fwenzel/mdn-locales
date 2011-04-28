@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-04-26 17:26+0200\n"
-"PO-Revision-Date: 2011-04-26 18:42+0200\n"
+"PO-Revision-Date: 2011-04-28 05:58+0200\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: none\n"
 "Language: zh_TW\n"
@@ -2266,14 +2266,14 @@ msgstr "我們的社群當中最新的 <span class=\"addons\">附加元件</span
 #: templates/base.html:79
 #: templates/base_compact.html:28
 msgid "Learning"
-msgstr "學習"
+msgstr "Learning"
 
 #: apps/landing/templates/landing/base_learn.html:8
 #: apps/landing/templates/landing/home.html:136
 #: templates/base.html:77
 #: templates/base_compact.html:27
 msgid "Docs"
-msgstr "文件"
+msgstr "Docs"
 
 #: apps/landing/templates/landing/base_learn.html:10
 #: templates/base.html:80
@@ -2355,6 +2355,8 @@ msgid ""
 "final release. Note: Aurora is not for the faint of heart, but that's the "
 "price of being on the cutting edge."
 msgstr ""
+"透過全新的 Aurora 版本，搶在測試版之前體驗最新的功能。提早測試功能，並幫助我們決定要把什麼東西放到正式發行版。請注意：Aurora "
+"版潛龍勿用，但這就是使用最新技術所需付出的一點點代價。"
 
 #: apps/landing/templates/landing/home.html:64
 msgid "Get Aurora now"
@@ -2525,7 +2527,7 @@ msgstr "學習如何製造網站"
 msgid ""
 "<p>Want to learn to use the technologies that power the Web? <br>We’ve put "
 "together a great collection of resources to get you started.</p>"
-msgstr ""
+msgstr "<p>想要學習網頁技術嗎？<br>我們整理了一些資源讓您可以開始下手。</p>"
 
 #: apps/landing/templates/landing/learn.html:27
 msgid ""
@@ -2533,6 +2535,8 @@ msgid ""
 "information on the worldwide web. If you want to create or modify web "
 "pages, it’s best if you learn HTML.</p>"
 msgstr ""
+"<p><strong>超文字標記語言（HyperText Markup Language, "
+"HTML）</strong>是把資訊丟到全球資訊網上所需要的的核心語法。若您想要建立或修改網頁，您最好學會一些 HTML。</p>"
 
 #: apps/landing/templates/landing/learn.html:33
 msgid ""
