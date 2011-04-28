@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-04-26 17:26+0200\n"
-"PO-Revision-Date: 2011-04-28 18:32+0200\n"
+"PO-Revision-Date: 2011-04-28 19:38+0200\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: none\n"
 "Language: zh_TW\n"
@@ -2665,7 +2665,7 @@ msgstr "從外部樣式表使用 CSS。"
 
 #: apps/landing/templates/landing/learn_css.html:52
 msgid "Adding a Touch of Style"
-msgstr ""
+msgstr "Adding a Touch of Style"
 
 #: apps/landing/templates/landing/learn_css.html:54
 msgid "A brief beginner’s guide to styling web pages with CSS."
@@ -2673,7 +2673,7 @@ msgstr "入門者的網頁 CSS 樣式指南"
 
 #: apps/landing/templates/landing/learn_css.html:57
 msgid "CSS From the Ground Up"
-msgstr ""
+msgstr "CSS 由下而上"
 
 #: apps/landing/templates/landing/learn_css.html:59
 msgid "Video tutorial on styling pages with CSS."
@@ -2858,10 +2858,14 @@ msgid ""
 "newest version of the standard), you can find helpful resources here for "
 "HTML best practices.</p>"
 msgstr ""
+"<p class=\"intro\">HTML (<strong>超文字標示語言，HyperText Markup Language</strong>) "
+"是將資訊放到全球資訊網上的核心語法。若您想要建立或修改網頁，您最好得學會 HTML。</p> <p>本頁上的鏈結將帶您到一些不同的 HTML 教學與 "
+"HTML 訓練材料。不論您只是剛剛入門，正在學習 HTML 的基礎，或是您已經是老鳥想要學習 <strong>HTML5</strong> "
+"(最新版本的標準)，您可以在此找到許多有用的 HTML 最佳實踐資源。</p>"
 
 #: apps/landing/templates/landing/learn_html.html:31
 msgid "The Basics of HTML"
-msgstr ""
+msgstr "HTML 基礎"
 
 #: apps/landing/templates/landing/learn_html.html:33
 msgid ""
@@ -2869,50 +2873,51 @@ msgid ""
 "an HTML document looks like. The articles that follow this one look at each "
 "individual part of HTML in much greater depth."
 msgstr ""
+"HTML 是什麼、可以做什麼、HTML 的簡明歷史，以及 HTML 文件的結構長成什麼樣子。這裡的文章都是 HTML 當中可以研究得很深的地方。"
 
 #: apps/landing/templates/landing/learn_html.html:36
 msgid "Basic Structure of a Web Page"
-msgstr ""
+msgstr "網頁的基礎結構"
 
 #: apps/landing/templates/landing/learn_html.html:38
 msgid "Learn how HTML elements fit together into the bigger picture."
-msgstr ""
+msgstr "學習如何可以把 HTML 元素放在一起，變成一整幅圖畫。"
 
 #: apps/landing/templates/landing/learn_html.html:41
 msgid "Fundamental HTML Elements"
-msgstr ""
+msgstr "基本 HTML 元素"
 
 #: apps/landing/templates/landing/learn_html.html:43
 msgid ""
 "Describes the different types of elements you can use to write an HTML "
 "document."
-msgstr ""
+msgstr "描述可以讓您用來撰寫成 HTML 文件的不同類型元素。"
 
 #: apps/landing/templates/landing/learn_html.html:46
 msgid "HTML Beginner Tutorial"
-msgstr ""
+msgstr "HTML 入門者教學"
 
 #: apps/landing/templates/landing/learn_html.html:48
 msgid "A tutorial and exercises that take you through the basics."
-msgstr ""
+msgstr "帶您打下基礎的教學與習作。"
 
 #: apps/landing/templates/landing/learn_html.html:51
 msgid "HTML From the Ground Up"
-msgstr ""
+msgstr "HTML 從下而上"
 
 #: apps/landing/templates/landing/learn_html.html:52
 msgid "Google Code University"
-msgstr ""
+msgstr "Google Code University"
 
 #: apps/landing/templates/landing/learn_html.html:53
 msgid ""
 "Video tutorial on best practices and approaches for how to write good HTML "
 "code."
-msgstr ""
+msgstr "如何撰寫好的 HTML 的最佳實踐方式的影片教學。"
 
 #: apps/landing/templates/landing/learn_html.html:56
 msgid "HTML Challenges"
-msgstr ""
+msgstr "HTML 挑戰"
 
 #: apps/landing/templates/landing/learn_html.html:58
 msgid ""
@@ -2920,6 +2925,8 @@ msgid ""
 "&lt;h2&gt; element or a &lt;strong&gt; element?”), focusing on meaningful "
 "mark-up."
 msgstr ""
+"透過這些挑戰以精進您的 HTML 技能（舉例，「我應該使用 &lt;h2&gt; 元素還是 &lt;strong&gt; "
+"元素？」），聚焦於有意義的文件語法。"
 
 #: apps/landing/templates/landing/learn_html.html:61
 msgid "/HTML/Element"
@@ -2929,7 +2936,7 @@ msgstr "/HTML/Element/"
 msgid ""
 "A comprehensive reference for HTML elements, and how Firefox and other "
 "browsers support them."
-msgstr ""
+msgstr "綜合的 HTML 元素參考資料，以及 Firefox 與其他瀏覽器的支援程度如何。"
 
 #: apps/landing/templates/landing/learn_html.html:72
 msgid "/en/Tips_for_Authoring_Fast-loading_HTML_Pages"
@@ -2937,17 +2944,17 @@ msgstr "/en/Tips_for_Authoring_Fast-loading_HTML_Pages"
 
 #: apps/landing/templates/landing/learn_html.html:72
 msgid "Tips for Authoring Fast-loading HTML Pages"
-msgstr ""
+msgstr "編輯可以快速載入的 HTML 頁面的小技巧"
 
 #: apps/landing/templates/landing/learn_html.html:74
 msgid ""
 "Optimize web pages to provide a more responsive site for visitors and reduce "
 "the load on your web server and Internet connection."
-msgstr ""
+msgstr "最佳化您的網頁以提供更好回應給參觀者，並減少您網頁伺服器與網路連線的負擔。"
 
 #: apps/landing/templates/landing/learn_html.html:77
 msgid "Dive into HTML5"
-msgstr ""
+msgstr "潛入 HTML"
 
 #: apps/landing/templates/landing/learn_html.html:77
 #: apps/landing/templates/landing/learn_html.html:82
@@ -2959,53 +2966,52 @@ msgstr ""
 #: apps/landing/templates/landing/learn_html.html:129
 #: apps/landing/templates/landing/learn_html.html:134
 msgid "This site features HTML5"
-msgstr ""
+msgstr "此網站使用 HTML5"
 
 #: apps/landing/templates/landing/learn_html.html:78
 msgid "From Mark Pilgrim"
-msgstr ""
+msgstr "From Mark Pilgrim"
 
 #: apps/landing/templates/landing/learn_html.html:79
 msgid ""
 "Learn about a selection of features of HTML5, the newest version of the HTML "
 "specification."
-msgstr ""
+msgstr "了解 HTML5，最新版本 HTML 規格的精選功能。"
 
 #: apps/landing/templates/landing/learn_html.html:82
 msgid "Get Ready for HTML5"
-msgstr ""
+msgstr "Get Ready for HTML5"
 
 #: apps/landing/templates/landing/learn_html.html:83
 #: apps/landing/templates/landing/learn_html.html:93
 msgid "A List Apart"
-msgstr ""
+msgstr "A List Apart"
 
 #: apps/landing/templates/landing/learn_html.html:84
 msgid "Some suggestions to help you get on board with HTML5."
-msgstr ""
+msgstr "幫助您帶著 HTML5 上船的一些建議。"
 
 #: apps/landing/templates/landing/learn_html.html:87
 msgid "HTML5 Tutorials"
-msgstr ""
+msgstr "HTML5 教學"
 
 #: apps/landing/templates/landing/learn_html.html:88
-#, fuzzy
 msgid "HTML5 Rocks"
-msgstr "HTML5"
+msgstr "HTML5 Rocks"
 
 #: apps/landing/templates/landing/learn_html.html:89
 msgid "Take a guided tour through code that uses HTML5 features."
-msgstr ""
+msgstr "HTML5 功能的語法導覽。"
 
 #: apps/landing/templates/landing/learn_html.html:92
 msgid "Semantics in HTML5"
-msgstr ""
+msgstr "HTML5 當中的語義"
 
 #: apps/landing/templates/landing/learn_html.html:94
 msgid ""
 "Learn meaningful mark-up that is extensible and backwards- and forwards-"
 "compatible."
-msgstr ""
+msgstr "學習有意義的語法，幫助您彈性地向前或向後相容。"
 
 #: apps/landing/templates/landing/learn_html.html:97
 msgid "/en/Canvas_tutorial"
@@ -3013,34 +3019,34 @@ msgstr "/en/Canvas_tutorial"
 
 #: apps/landing/templates/landing/learn_html.html:97
 msgid "Canvas Tutorial"
-msgstr ""
+msgstr "Canvas 教學"
 
 #: apps/landing/templates/landing/learn_html.html:99
 msgid ""
 "Learn how to draw graphics using scripting using the &lt;canvas&gt; element."
-msgstr ""
+msgstr "學習如何使用程式碼來在 &lt;canvas&gt; 元素上作圖。"
 
 #: apps/landing/templates/landing/learn_html.html:102
 msgid "HTML5 Doctor"
-msgstr ""
+msgstr "HTML5 博士"
 
 #: apps/landing/templates/landing/learn_html.html:103
 msgid "Articles about using HTML5 right now."
-msgstr ""
+msgstr "關於現在就使用 HTML5 的一些文章。"
 
 #: apps/landing/templates/landing/learn_html.html:106
 msgid "The Joy of HTML5 Audio"
-msgstr ""
+msgstr "HTML5 音訊的喜悅"
 
 #: apps/landing/templates/landing/learn_html.html:108
 msgid ""
 "Learn how to use the HTML audio element to embed sounds in your web pages "
 "easily. Lots of code examples are included in the tutorial."
-msgstr ""
+msgstr "學習如何使用 HTML 的 audio 元素來簡單地就能把音效嵌入至您的網頁當中。教學當中有許多語法範例。"
 
 #: apps/landing/templates/landing/learn_html.html:114
 msgid "HTML5 Examples"
-msgstr ""
+msgstr "HTML5 範例"
 
 #: apps/landing/templates/landing/learn_html.html:117
 msgid "Web o’ Wonder"
@@ -3048,7 +3054,7 @@ msgstr "Web o’ Wonder"
 
 #: apps/landing/templates/landing/learn_html.html:119
 msgid "Demos from Mozilla developers and evangelists."
-msgstr ""
+msgstr "Mozilla 開發者與傳教士所作的一些展示。"
 
 #: apps/landing/templates/landing/learn_html.html:122
 msgid "MDN Demo Studio"
@@ -3058,33 +3064,33 @@ msgstr "MDN Demo Studio"
 msgid ""
 "Run, inspect, and submit demos that show what HTML, CSS, and JavaScript can "
 "do."
-msgstr ""
+msgstr "執行、檢測、並送出展示了 HTML、CSS，以及 JavaScript 可以做什麼的 demo。"
 
 #: apps/landing/templates/landing/learn_html.html:129
 msgid "HTML5 Demos and Examples"
-msgstr ""
+msgstr "HTML5 展示與範例"
 
 #: apps/landing/templates/landing/learn_html.html:130
 msgid "Remy Sharp"
-msgstr ""
+msgstr "Remy Sharp"
 
 #: apps/landing/templates/landing/learn_html.html:131
 msgid "Demos that you can filter by technology or browser support."
-msgstr ""
+msgstr "您可以透過過濾技術或瀏覽器支援度來觀賞的 Demo。"
 
 #: apps/landing/templates/landing/learn_html.html:134
 msgid "HTML5 Gallery"
-msgstr ""
+msgstr "HTML5 藝廊"
 
 #: apps/landing/templates/landing/learn_html.html:135
 msgid "Richard Clark"
-msgstr ""
+msgstr "Richard Clark"
 
 #: apps/landing/templates/landing/learn_html.html:136
 msgid ""
 "Showcase of sites that use HTML5 to help you learn about how it should be "
 "used."
-msgstr ""
+msgstr "使用了 HTML5 網站的櫥窗，幫助您可以了解應該如何使用。"
 
 #: apps/landing/templates/landing/learn_html.html:143
 msgid ""
