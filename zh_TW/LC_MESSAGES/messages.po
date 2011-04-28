@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-04-26 17:26+0200\n"
-"PO-Revision-Date: 2011-04-28 05:58+0200\n"
+"PO-Revision-Date: 2011-04-28 18:32+0200\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: none\n"
 "Language: zh_TW\n"
@@ -2545,6 +2545,8 @@ msgid ""
 "learn CSS in order to define the appearance and location of the HTML "
 "elements within the pages.</p>"
 msgstr ""
+"<p><strong>串接樣式表（Cascading Style Sheets, CSS）</strong> "
+"是一種用來描述網頁上元素的樣子的語言。如果要建立好看的網頁，您需要學習 CSS 以定義網頁中的 HTML 元素的樣式與位置。</p>"
 
 #: apps/landing/templates/landing/learn.html:39
 msgid ""
@@ -2552,6 +2554,8 @@ msgid ""
 "that enables web pages ​to respond to user interaction beyond the basic "
 "level provided by HTML links and forms.</p>"
 msgstr ""
+"<p><strong>JavaScript</strong>（簡稱為 JS）是讓網頁可以在 HTML "
+"鏈結與表單之外，可以回應使用者產生互動的程式語言。</p>"
 
 #: apps/landing/templates/landing/learn.html:47
 msgid ""
@@ -2563,6 +2567,11 @@ msgid ""
 "listing\">School of Webcraft</a>. Share your discoveries, struggles, and "
 "victories with others who are learning the same things.</p>"
 msgstr ""
+"<h2>覺得用一己之力學習很累嗎？<br>您想要加入學習開放網頁技術的社群嗎？</h2> <p>請考慮註冊 <a "
+"href=\"http://p2pu.org/\">Peer-to-Peer University 的<span title=\"Peer-to-Peer "
+"University\"></span></a> <a href=\"http://p2pu.org/webcraft/course-"
+"listing\">School of Webcraft</a> "
+"免費線上同儕讀書會。與其他跟你學習同樣東西的的人們分享您發現了什麼東西，試著努力寫出了什麼，以及得到了什麼。</p>"
 
 #: apps/landing/templates/landing/learn.html:54
 #: apps/landing/templates/landing/learn_css.html:148
@@ -2578,6 +2587,10 @@ msgid ""
 "open content license such as <a href=\"http://creativecommons.org\" "
 "rel=\"external\">Creative Commons</a>.</p>"
 msgstr ""
+"<p>這些資源是由一群相信開放標準以及網頁開發的最佳實力的正向思考公司以及網頁開發者所建立的。若您認為我們忽略了某個資源，請在 <a "
+"href=\"https://developer.mozilla.org/forums/viewforum.php?f=4\">開放網頁技術論壇</a> "
+"當中告訴我們。我們想分享這些資源給全球的社群，所以我們比較喜歡那些已有或允許透過像是  <a "
+"href=\"http://creativecommons.org\" rel=\"external\">創用 CC</a> 等授權方式提供翻譯的資源。</p>"
 
 #: apps/landing/templates/landing/learn_css.html:5
 #: apps/landing/templates/landing/learn_css.html:11
@@ -2602,6 +2615,11 @@ msgid ""
 "version of the standard) and CSS best practices, you can find helpful "
 "resources here.</p>"
 msgstr ""
+"<p "
+"class=\"intro\">CSS（<strong>串接樣式表</strong>）是一種用來描述網頁呈現方式的語言。如果要做出一張好看的網頁，您需要學會 "
+"CSS 才能定義網頁當中的 HTML 元素的樣式與位置。</p> <p>這張網頁當中的鏈結會包含了不同種類的 CSS "
+"教學與訓練資源。不論您只是正準備要入門，剛剛了解 CSS 的基礎，或是已經是一位老練的網頁開發者但想要學習 "
+"<strong>CSS3</strong>（最新版本的 CSS 標準）與 CSS 的最佳實踐，您都可以在這裡找到最能幫助您的資源。</p>"
 
 #: apps/landing/templates/landing/learn_css.html:29
 #: apps/landing/templates/landing/learn_html.html:28
@@ -2618,7 +2636,7 @@ msgid ""
 "This tutorial introduces you to Cascading Style Sheets (CSS). It guides you "
 "through the basic features of CSS with practical examples that you can try "
 "for yourself on your own computer."
-msgstr ""
+msgstr "這份教學將會為您介紹串接樣式表（CSS）。這將會帶著您從 CSS 的基礎功能與實作範例開始，讓您可以在您的電腦上試著自己動手做。"
 
 #: apps/landing/templates/landing/learn_css.html:37
 msgid "CSS Basics"
@@ -2651,7 +2669,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/learn_css.html:54
 msgid "A brief beginner’s guide to styling web pages with CSS."
-msgstr ""
+msgstr "入門者的網頁 CSS 樣式指南"
 
 #: apps/landing/templates/landing/learn_css.html:57
 msgid "CSS From the Ground Up"
@@ -2659,7 +2677,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/learn_css.html:59
 msgid "Video tutorial on styling pages with CSS."
-msgstr ""
+msgstr "將網頁套用 CSS 的影片教學。"
 
 #: apps/landing/templates/landing/learn_css.html:62
 msgid "/en/Common_CSS_Questions"
@@ -2676,7 +2694,7 @@ msgstr "提供新手參考的常見問題與答案。"
 #: apps/landing/templates/landing/learn_css.html:70
 #: apps/landing/templates/landing/learn_javascript.html:63
 msgid "Intermediate Level"
-msgstr ""
+msgstr "中階等級"
 
 #: apps/landing/templates/landing/learn_css.html:73
 msgid "/en/CSS_Reference"
@@ -2686,7 +2704,7 @@ msgstr "/en/CSS_Reference"
 msgid ""
 "Complete reference to CSS, with details on support by Firefox and other "
 "browsers."
-msgstr ""
+msgstr "CSS 的完整參考資料，包含 Firefox 與其他瀏覽器支援程度的詳情。"
 
 #: apps/landing/templates/landing/learn_css.html:78
 msgid "CSS Challenges"
@@ -2694,41 +2712,41 @@ msgstr "CSS 挑戰"
 
 #: apps/landing/templates/landing/learn_css.html:80
 msgid "Flex your CSS skills, and see where you need more practice."
-msgstr ""
+msgstr "精進您的 CSS 技能，並看看您哪裡還需要更多練習。"
 
 #: apps/landing/templates/landing/learn_css.html:83
 msgid "Intermediate CSS Concepts"
-msgstr ""
+msgstr "中階 CSS 概念"
 
 #: apps/landing/templates/landing/learn_css.html:85
 msgid "Grouping, pseudo-classes, and more."
-msgstr ""
+msgstr "群組選擇、虛擬類別，還有其他東西。"
 
 #: apps/landing/templates/landing/learn_css.html:88
 msgid "CSS Positioning 101"
-msgstr ""
+msgstr "CSS 定位 101"
 
 #: apps/landing/templates/landing/learn_css.html:90
 msgid "Using positioning for standards-compliant, table-free layout."
-msgstr ""
+msgstr "使用定位的方式來產生沒有表格，且符合標準的版面。"
 
 #: apps/landing/templates/landing/learn_css.html:93
 msgid "Progressive Enhancement with CSS"
-msgstr ""
+msgstr "Progressive Enhancement with CSS"
 
 #: apps/landing/templates/landing/learn_css.html:95
 msgid "Integrate progressive enhancement into your web pages with CSS."
-msgstr ""
+msgstr "使用 CSS 來達到漸進增強的效果。"
 
 #: apps/landing/templates/landing/learn_css.html:98
 msgid "Fluid Grids"
-msgstr ""
+msgstr "Fluid Grids"
 
 #: apps/landing/templates/landing/learn_css.html:100
 msgid ""
 "Design layouts that fluidly resize with the browser window, while still "
 "using a typographic grid."
-msgstr ""
+msgstr "設計可以流動地配合瀏覽器視窗調整大小的版面，但仍然使用格線化的排版。"
 
 #: apps/landing/templates/landing/learn_css.html:106
 #: apps/landing/templates/landing/learn_html.html:69
@@ -2738,7 +2756,7 @@ msgstr "進階等級"
 
 #: apps/landing/templates/landing/learn_css.html:109
 msgid "CSS3 in Under 5 Minutes"
-msgstr ""
+msgstr "CSS3 in Under 5 Minutes"
 
 #: apps/landing/templates/landing/learn_css.html:109
 #: apps/landing/templates/landing/learn_css.html:114
@@ -2746,11 +2764,11 @@ msgstr ""
 #: apps/landing/templates/landing/learn_css.html:126
 #: apps/landing/templates/landing/learn_css.html:131
 msgid "This site features CSS3"
-msgstr ""
+msgstr "此網站使用了 CSS3"
 
 #: apps/landing/templates/landing/learn_css.html:111
 msgid "A quick introduction to some of the core features introduced in CSS3."
-msgstr ""
+msgstr "快速簡介 CSS3 所帶入的一些核心功能。"
 
 #: apps/landing/templates/landing/learn_css.html:114
 msgid "/En/CSS/Using_CSS_transforms"
@@ -2762,7 +2780,7 @@ msgstr "使用 CSS Transforms"
 
 #: apps/landing/templates/landing/learn_css.html:116
 msgid "Apply rotation, skewing, scaling, and translation using CSS."
-msgstr ""
+msgstr "使用 CSS3 套用旋轉、歪斜、比例，與翻譯特效。"
 
 #: apps/landing/templates/landing/learn_css.html:119
 msgid "/en/CSS/CSS_transitions"
@@ -2777,27 +2795,27 @@ msgid ""
 "CSS transitions, part of the draft CSS3 specification, provide a way to "
 "animate changes to CSS properties, instead of having the changes take effect "
 "instantly."
-msgstr ""
+msgstr "CSS3 規格書草稿的一部分，CSS 變形，提供了一個可以讓 CSS 屬性進行動態修改的方式，而不需要即時地讓修改生效。"
 
 #: apps/landing/templates/landing/learn_css.html:126
 msgid "Understanding CSS3 Transitions"
-msgstr ""
+msgstr "了解 CSS3 轉換（Transitions）"
 
 #: apps/landing/templates/landing/learn_css.html:128
 msgid ""
 "Start using CSS3 transitions by carefully choosing the situations in which "
 "to use them."
-msgstr ""
+msgstr "小心地選擇使用的情況，並開始使用 CSS3 轉換。"
 
 #: apps/landing/templates/landing/learn_css.html:131
 msgid "Quick Guide to Implement Web Fonts with @font-face"
-msgstr ""
+msgstr "實作 @font-face 網頁字形的快速指引"
 
 #: apps/landing/templates/landing/learn_css.html:133
 msgid ""
 "The @font-face feature from CSS3 allows you to use custom typefaces on the "
 "web in an accessible, manipulable, and scalable way."
-msgstr ""
+msgstr "CSS3 的 @font-face 功能讓您可以用簡單、可操縱、靈活的方式在網頁上使用自訂字形。"
 
 #: apps/landing/templates/landing/learn_css.html:141
 msgid ""
@@ -2809,6 +2827,11 @@ msgid ""
 "/course-listing\">School of Webcraft</a>. Share your discoveries, struggles, "
 "and victories with others who are learning the same things.</p>"
 msgstr ""
+"<h2>覺得自己學習 CSS 很累嗎？<br> 想要加入一群也正在學習 CSS 與其他開放網頁技術的人所組成的社群嗎？</h2> <p>請考慮註冊免費的 "
+"<a href=\"http://p2pu.org/\">Peer-to-Peer University<span title=\"Peer-to-Peer "
+"University\"></span></a> <a href=\"http://p2pu.org/webcraft/course-"
+"listing\">School of Webcraft</a> "
+"線上讀書會。與正在跟您學習一樣東西的人們分享您的所見，與努力之處，還有得到了什麼東西。</p>"
 
 #: apps/landing/templates/landing/learn_css.html:155
 msgid ""
@@ -2816,12 +2839,13 @@ msgid ""
 "CSS. Many CSS3 features are supported in various ways by modern browsers, "
 "but many users still have older browsers and so can’t take advantage."
 msgstr ""
+"此網站討論 <strong>CSS3</strong>，是最新穎，仍然發展中的版本的 CSS。許多 CSS3 "
+"功能仍然由現在的瀏覽器有不同程度的支援，但許多使用者仍然裝著較舊的瀏覽器，所以無法得到 CSS3 的好處。"
 
 #: apps/landing/templates/landing/learn_html.html:5
 #: apps/landing/templates/landing/learn_html.html:11
-#, fuzzy
 msgid "Learn HTML"
-msgstr "了解更多資訊"
+msgstr "學習 HTML"
 
 #: apps/landing/templates/landing/learn_html.html:12
 msgid ""
