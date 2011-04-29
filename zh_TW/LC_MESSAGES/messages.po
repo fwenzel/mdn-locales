@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-04-26 17:26+0200\n"
-"PO-Revision-Date: 2011-04-28 19:38+0200\n"
+"PO-Revision-Date: 2011-04-29 10:48+0200\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: none\n"
 "Language: zh_TW\n"
@@ -3102,6 +3102,11 @@ msgid ""
 "your discoveries, struggles, and victories with others who are learning the "
 "same things.</p>"
 msgstr ""
+"<h2>覺得用一己之力學習很累嗎？<br>想要加入學習 HTML 與其他開放網頁技術的社群嗎？</h2> <p>請考慮註冊 <a "
+"href=\"http://p2pu.org/\">Peer-to-Peer University 的<span title=\"Peer-to-Peer "
+"University\"></span></a> <a href=\"http://p2pu.org/webcraft/course-"
+"listing\">School of Webcraft</a> "
+"免費線上同儕讀書會。與其他正在跟您學習同樣東西的的人們分享您發現了什麼東西，試著努力寫出了什麼，以及得到了什麼。</p>"
 
 #: apps/landing/templates/landing/learn_html.html:150
 msgid ""
@@ -3114,6 +3119,10 @@ msgid ""
 "such as a <a href=\"http://creativecommons.org/licenses/\">Creative Commons "
 "license</a>.</p>"
 msgstr ""
+"<p>這些資源是由一群相信開放標準以及網頁開發的最佳實力的正向思考公司以及網頁開發者所建立的。若您認為我們忽略了某個資源，請在 <a "
+"href=\"https://developer.mozilla.org/forums/viewforum.php?f=4\">開放網頁技術論壇</a> "
+"當中告訴我們。我們想分享這些資源給全球的社群，所以我們比較喜歡那些已有或允許透過像是  <a "
+"href=\"http://creativecommons.org\" rel=\"external\">創用 CC</a> 等授權方式提供翻譯的資源。</p>"
 
 #: apps/landing/templates/landing/learn_html.html:157
 msgid ""
@@ -3121,6 +3130,8 @@ msgid ""
 "the standard. Many HTML5 features are supported by modern browsers, but many "
 "users still have older browsers and so can’t take advantage."
 msgstr ""
+"這個網站討論 <strong>HTML5</strong>，即將到來的下一個版本標準。許多 HTML "
+"標準已由新興的瀏覽器支援，但許多使用者仍然使用舊版瀏覽器，無法體驗新技術所帶來的好處。"
 
 #: apps/landing/templates/landing/learn_javascript.html:5
 #: apps/landing/templates/landing/learn_javascript.html:11
@@ -3137,6 +3148,10 @@ msgid ""
 "basics, or are an old hand, wanting to sharpen your skills, you can find "
 "helpful resources here for JS best practices.</p>"
 msgstr ""
+"<p class=\"intro\"><strong>JavaScript</strong> (簡稱 JS) "
+"是讓網頁可以在基礎的表單和鏈結之外，回應使用者行為的程式語言。</p> <p>​本頁上的鏈結將會帶您看到許多不同的 JavaScript 教學及 "
+"JavaScript 訓練教材。不論您只是剛剛入門，想要學習基礎 JS，或是已經是個老鳥，想要增進功力，您都可以在此找到有用的 JS "
+"最佳實踐資源。</p>"
 
 #: apps/landing/templates/landing/learn_javascript.html:30
 msgid "/en/JavaScript/Getting_Started"
@@ -3144,54 +3159,53 @@ msgstr "/en/JavaScript/Getting_Started"
 
 #: apps/landing/templates/landing/learn_javascript.html:30
 msgid "Getting Started with JavaScript"
-msgstr ""
+msgstr "JavaScript 新手上路"
 
 #: apps/landing/templates/landing/learn_javascript.html:32
 msgid "What is JavaScript and how can it help you?"
-msgstr ""
+msgstr "JavaScript 是什麼，可以幫您做什麼事？"
 
 #: apps/landing/templates/landing/learn_javascript.html:37
 msgid "Learn the basics of programming with JavaScript"
-msgstr ""
+msgstr "學習 JavaScript 的基礎程式語法"
 
 #: apps/landing/templates/landing/learn_javascript.html:42
 msgid ""
 "Basic fundamentals of programming. Following articles introduce what you can "
 "do with JavaScript, best practices for using it, and more."
-msgstr ""
+msgstr "基礎程式架構。下面的文章簡單介紹了您可以使用 JavaScript 做什麼、JavaScript 最佳實踐，還有更多資訊。"
 
 #: apps/landing/templates/landing/learn_javascript.html:45
 msgid "JavaScript From the Ground Up"
-msgstr ""
+msgstr "JavaScript 由下而上"
 
 #: apps/landing/templates/landing/learn_javascript.html:47
 msgid "Video tutorial on making pages interactive with JavaScript"
-msgstr ""
+msgstr "使用 JavaScript 讓網頁增加互動性的飲片教學"
 
 #: apps/landing/templates/landing/learn_javascript.html:50
 msgid "/en/JavaScript/Guide"
 msgstr "/en/JavaScript/Guide"
 
 #: apps/landing/templates/landing/learn_javascript.html:50
-#, fuzzy
 msgid "JavaScript Guide"
-msgstr "JavaScript"
+msgstr "JavaScript 指南"
 
 #: apps/landing/templates/landing/learn_javascript.html:52
 msgid ""
 "A comprehensive, regularly updated guide to JavaScript for all levels of "
 "learning from beginner to advanced."
-msgstr ""
+msgstr "全面且時常更新的 JavaScript 指南，可以讓從入門到進階者閱讀的學習材料。"
 
 #: apps/landing/templates/landing/learn_javascript.html:55
 msgid "JavaScript Best Practices"
-msgstr ""
+msgstr "JavaScript 最佳實踐"
 
 #: apps/landing/templates/landing/learn_javascript.html:57
 msgid ""
 "Learn about some of the obvious and (not so) obvious best practices when "
 "writing JavaScript."
-msgstr ""
+msgstr "學習一些顯白和不那麼顯白的 JavaScript 寫作方式"
 
 #: apps/landing/templates/landing/learn_javascript.html:66
 msgid "/en/A_re-introduction_to_JavaScript"
@@ -3199,13 +3213,13 @@ msgstr "/en/A_re-introduction_to_JavaScript"
 
 #: apps/landing/templates/landing/learn_javascript.html:66
 msgid "A Re-introduction to JavaScript"
-msgstr ""
+msgstr "重新介紹 JavaScript"
 
 #: apps/landing/templates/landing/learn_javascript.html:68
 msgid ""
 "A recap of the JavaScript programming language aimed at intermediate-level "
 "developers."
-msgstr ""
+msgstr "針對已有基礎的中級開發者，重新介紹 JavaScript 程式語言。"
 
 #: apps/landing/templates/landing/learn_javascript.html:71
 msgid "Eloquent JavaScript"
@@ -3214,25 +3228,25 @@ msgstr "精通 JavaScript"
 #: apps/landing/templates/landing/learn_javascript.html:72
 msgid ""
 "A comprehensive guide to intermediate and advanced JavaScript methodologies."
-msgstr ""
+msgstr "針對進階與高級使用者閱讀的全面性 JavaScript 指南。"
 
 #: apps/landing/templates/landing/learn_javascript.html:75
 msgid "Essential JavaScript Design Patterns"
-msgstr ""
+msgstr "精選 JavaScript 設計模式"
 
 #: apps/landing/templates/landing/learn_javascript.html:77
 msgid "An introduction to essential JavaScript design patterns."
-msgstr ""
+msgstr "精選 JavaScript 設計模式的介紹。"
 
 #: apps/landing/templates/landing/learn_javascript.html:80
 msgid "The JavaScript Programming Language"
-msgstr ""
+msgstr "JavaScript 程式語言"
 
 #: apps/landing/templates/landing/learn_javascript.html:82
 msgid ""
 "Douglas Crockford explores the language as it is today, and how it came to "
 "be."
-msgstr ""
+msgstr "由 Douglas Crockford 帶您探腦今日的 JavaScript，以及它是怎麼來的。"
 
 #: apps/landing/templates/landing/learn_javascript.html:85
 msgid "/en/Introduction_to_Object-Oriented_JavaScript"
@@ -3240,37 +3254,37 @@ msgstr "/en/Introduction_to_Object-Oriented_JavaScript"
 
 #: apps/landing/templates/landing/learn_javascript.html:85
 msgid "Introduction to Object-oriented JavaScript"
-msgstr ""
+msgstr "物件導向 JavaScript 介紹"
 
 #: apps/landing/templates/landing/learn_javascript.html:87
 msgid "Learn about the JavaScript object model."
-msgstr ""
+msgstr "學習 JavaScript 物件模型。"
 
 #: apps/landing/templates/landing/learn_javascript.html:96
 msgid "Learning Advanced JavaScript"
-msgstr ""
+msgstr "學習高等 JavaScript"
 
 #: apps/landing/templates/landing/learn_javascript.html:98
 msgid "John Resig’s guide to advanced JavaScript."
-msgstr ""
+msgstr "John Resig 的高等 JavaScript 指南。"
 
 #: apps/landing/templates/landing/learn_javascript.html:101
 msgid "Introducing the JavaScript DOM"
-msgstr ""
+msgstr "JavaScript DOM 介紹"
 
 #: apps/landing/templates/landing/learn_javascript.html:103
 msgid ""
 "What is the Document Object Model, and why is it useful? This article gives "
 "you a gentle introduction to this powerful JavaScript feature."
-msgstr ""
+msgstr "文件物件模型（DOM）是什麼，還有它為什麼很有用？這篇文章可以給您一些關於此強大的 JavaScript 功能的介紹。"
 
 #: apps/landing/templates/landing/learn_javascript.html:106
 msgid "An Inconvenient API: The Theory of the DOM"
-msgstr ""
+msgstr "不方便的 API： DOM 理論"
 
 #: apps/landing/templates/landing/learn_javascript.html:108
 msgid "Douglas Crockford explains the Document Object Model."
-msgstr ""
+msgstr "由 Douglas Crockford 解釋文件物件模型（DOM）是什麼。"
 
 #: apps/landing/templates/landing/learn_javascript.html:111
 msgid "Advanced JavaScript"
@@ -3280,7 +3294,7 @@ msgstr "進階 JavaScript"
 msgid ""
 "Douglas Crockford looks closely at code patterns from which JavaScript "
 "programmers can choose in authoring their applications."
-msgstr ""
+msgstr "由 Douglas Crockford 來近看程式碼的模型，讓 JavaScript 開發者可以在撰寫程式時選擇。"
 
 #: apps/landing/templates/landing/learn_javascript.html:118
 msgid "JavaScript Garden"
@@ -3288,11 +3302,11 @@ msgstr "JavaScript 花園"
 
 #: apps/landing/templates/landing/learn_javascript.html:119
 msgid "Documentation of the most quirky parts of JavaScript."
-msgstr ""
+msgstr "關於 JavaScript 裡面最古怪部份的文件。"
 
 #: apps/landing/templates/landing/learn_javascript.html:122
 msgid "Which JavaScript Framework?"
-msgstr ""
+msgstr "挑選哪套 JavaScript 框架比較好？"
 
 #: apps/landing/templates/landing/learn_javascript.html:124
 msgid "Advice on choosing a JavaScript framework."
@@ -3300,12 +3314,12 @@ msgstr "挑選 JavaScript 框架的建議"
 
 #: apps/landing/templates/landing/learn_javascript.html:127
 msgid "Non-blocking JavaScript Downloads"
-msgstr ""
+msgstr "Non-blocking JavaScript Downloads"
 
 #: apps/landing/templates/landing/learn_javascript.html:129
 msgid ""
 "Tips on improving the download performance of pages containing JavaScript."
-msgstr ""
+msgstr "增進包含 JavaScript 的頁面的下載效能的一些小技巧。"
 
 #: apps/landing/templates/landing/learn_javascript.html:137
 msgid ""
@@ -3317,6 +3331,11 @@ msgid ""
 "/course-listing\">School of Webcraft</a>. Share your discoveries, struggles, "
 "and victories with others who are learning the same things.</p>"
 msgstr ""
+"<h2>覺得用一己之力學習 JS 很累嗎？<br>您想要加入學習 JavaScript 與其他開放網頁技術的社群嗎？</h2> <p>請考慮註冊 <a "
+"href=\"http://p2pu.org/\">Peer-to-Peer University 的<span title=\"Peer-to-Peer "
+"University\"></span></a> <a href=\"http://p2pu.org/webcraft/course-"
+"listing\">School of Webcraft</a> "
+"免費線上同儕讀書會。與其他跟你學習同樣東西的的人們分享您發現了什麼東西，試著努力寫出了什麼，以及得到了什麼。</p>"
 
 #: apps/landing/templates/landing/mobile.html:16
 msgid "Welcome to the Mobile Developer Community:"
@@ -3762,21 +3781,20 @@ msgstr "{timedelta} 前"
 
 #: templates/403.html:3
 #: templates/403.html:5
-#, fuzzy
 msgid "Permission Denied"
-msgstr "存取被拒。"
+msgstr "存取被拒"
 
 #: templates/403.html:9
 msgid "<p>I'm sorry %(name)s, I'm afraid I can't do that.</p>"
-msgstr ""
+msgstr "<p>%(name)s 抱歉，我恐怕不能這麼做。</p>"
 
 #: templates/403.html:13
 msgid "<p>I'm sorry, I'm afraid I can't do that.</p>"
-msgstr ""
+msgstr "<p>抱歉，我恐怕不能這麼做。</p>"
 
 #: templates/403.html:19
 msgid "<li><a href=\"/logout\">Log out</a> to try again.</li>"
-msgstr ""
+msgstr "<li><a href=\"/logout\">登出</a> 以再試一次。</li>"
 
 #: templates/403.html:23
 msgid ""
@@ -3784,11 +3802,14 @@ msgid ""
 "try again.</li> <li><a href=\"/Special:UserRegistration\">Register</a> to edit "
 "docs, submit demos, and post to forums.</li>"
 msgstr ""
+"<li><a href=\"/Special:UserLogin?returntotitle=%(returnto)s\">登入</a> "
+"以再試一次。</li> <li><a href=\"/Special:UserRegistration\">註冊</a> "
+"以編輯文件、送出作品展示，以及在討論區發言。</li>"
 
 #: templates/403.html:28
 msgid ""
 "<li><a href=\"/demos\">View demos</a> or <a href=\"/docs\">browse docs</a></li>"
-msgstr ""
+msgstr "<li><a href=\"/demos\">檢視 demo</a> 或  <a href=\"/docs\">瀏覽文件</a></li>"
 
 #: templates/403.html:32
 msgid ""
@@ -3798,6 +3819,9 @@ msgid ""
 "href=\"https://bugzilla.mozilla.org/enter_bug.cgi?product=Mozilla%20Developer"
 "%20Network&component=Website\">file a bug</a> for my human operators.</p>"
 msgstr ""
+"<p>沒有任何一台電腦曾經發生過錯誤或輸出過錯誤資訊。嚴格地講起，我們全部都很防呆，且不會發生任何錯誤。所以這只能歸因成人類的錯。如果是這樣，就 <a "
+"href=\"https://bugzilla.mozilla.org/enter_bug.cgi?product=Mozilla%20Developer"
+"%20Network&component=Website\">送交一份臭蟲報告</a> 給我的人類操作者們吧！</p>"
 
 #: templates/404.html:3
 #: templates/404.html:5
