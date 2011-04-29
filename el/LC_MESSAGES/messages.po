@@ -881,9 +881,8 @@ msgstr "απαγορεύεται η πρόσβαση"
 #: apps/landing/templates/landing/base_learn.html:9
 #: templates/base.html:78
 #: templates/base_compact.html:18
-#, fuzzy
 msgid "Demos"
-msgstr "Demo στο MDN"
+msgstr "Demo"
 
 #: apps/demos/templates/demos/delete.html:10
 #: apps/demos/templates/demos/delete_comment.html:10
@@ -1916,9 +1915,8 @@ msgid "/en/WebGL"
 msgstr "/en/WebGL"
 
 #: apps/docs/templates/docs/glossary.html:14
-#, fuzzy
 msgid "/en/DOM/Storage"
-msgstr "/en/Storage"
+msgstr "/en/DOM/Storage"
 
 #: apps/docs/templates/docs/glossary.html:14
 msgid "Web Storage"
@@ -2124,11 +2122,12 @@ msgstr "Προσφατες συζητησεις για <span class=\"addons\">π
 msgid "Latest <span class=\"addons\">Add-ons</span> Comments from Our Community:"
 msgstr "Προσφατα σχολια για <span class=\"addons\">προσθετα</span> απο την κοινοτητα μας:"
 
+# Χωρίς τόνο λόγω του text-transform:uppercase
 #: apps/landing/templates/landing/base_learn.html:4
 #: templates/base.html:79
 #: templates/base_compact.html:28
 msgid "Learning"
-msgstr "Εκμάθηση"
+msgstr "Εκμαθηση"
 
 # Χωρίς τόνους λόγω του text-transform: uppercase στο CSS.
 #: apps/landing/templates/landing/base_learn.html:8
@@ -2204,9 +2203,8 @@ msgstr "School of Webcraft"
 
 #: apps/landing/templates/landing/home.html:48
 #: apps/landing/templates/landing/home.html:100
-#, fuzzy
 msgid "Firefox 4"
-msgstr "Δοκιμαστική έκδοση του Firefox 4"
+msgstr "Firefox 4"
 
 #: apps/landing/templates/landing/home.html:49
 #: apps/landing/templates/landing/home.html:115
@@ -2389,20 +2387,19 @@ msgstr ""
 #: apps/landing/templates/landing/learn_html.html:28
 #: apps/landing/templates/landing/learn_javascript.html:27
 msgid "Introductory Level"
-msgstr ""
+msgstr "Εισαγωγικό επίπεδο"
 
 #: apps/landing/templates/landing/learn_css.html:32
 msgid "CSS Getting Started"
-msgstr ""
+msgstr "Ξεκινώντας με το CSS"
 
 #: apps/landing/templates/landing/learn_css.html:34
 msgid "This tutorial introduces you to Cascading Style Sheets (CSS). It guides you through the basic features of CSS with practical examples that you can try for yourself on your own computer."
 msgstr "Αυτό το σεμινάριο είναι εισαγωγικό στα Cascading Style Sheets (CSS). Σας καθοδηγεί στα βασικά χαρακτηριστικά του CSS με πρακτικά παραδείγματα που μπορείτε να δοκιμάσετε στον υπολογιστή σας."
 
 #: apps/landing/templates/landing/learn_css.html:37
-#, fuzzy
 msgid "CSS Basics"
-msgstr "CSS Gradients"
+msgstr "Βασικές αρχές CSS"
 
 #: apps/landing/templates/landing/learn_css.html:39
 msgid "What CSS is, how to apply it to HTML, and what basic CSS syntax looks like."
@@ -2410,7 +2407,7 @@ msgstr "Τι είναι το CSS, πως να το εφαρμόσετε σε HTM
 
 #: apps/landing/templates/landing/learn_css.html:42
 msgid "CSS Selector Classes"
-msgstr ""
+msgstr "CSS Selector Classes"
 
 #: apps/landing/templates/landing/learn_css.html:44
 msgid "What are classes in CSS?"
@@ -2418,7 +2415,7 @@ msgstr "Τι είναι οι κλάσεις του CSS;"
 
 #: apps/landing/templates/landing/learn_css.html:47
 msgid "External CSS"
-msgstr ""
+msgstr "Εξωτερικό CSS"
 
 #: apps/landing/templates/landing/learn_css.html:49
 msgid "Using CSS from an external style sheet."
@@ -2426,15 +2423,15 @@ msgstr "Χρησιμοποιώντας  CSS από εξωτερικό αρχεί
 
 #: apps/landing/templates/landing/learn_css.html:52
 msgid "Adding a Touch of Style"
-msgstr ""
+msgstr "Προσθέτοντας πινελιές στυλ"
 
 #: apps/landing/templates/landing/learn_css.html:54
 msgid "A brief beginner’s guide to styling web pages with CSS."
-msgstr ""
+msgstr "Ένας σύντομος οδηγός για αρχάριους για τη μορφοποίηση ιστοσελίδων με CSS."
 
 #: apps/landing/templates/landing/learn_css.html:57
 msgid "CSS From the Ground Up"
-msgstr ""
+msgstr "Το CSS από την αρχή"
 
 #: apps/landing/templates/landing/learn_css.html:59
 msgid "Video tutorial on styling pages with CSS."
@@ -2442,38 +2439,36 @@ msgstr "Σεμινάριο σε βίντεο για το πως να δίνετ�
 
 #: apps/landing/templates/landing/learn_css.html:62
 msgid "/en/Common_CSS_Questions"
-msgstr ""
+msgstr "/en/Common_CSS_Questions"
 
 #: apps/landing/templates/landing/learn_css.html:62
 msgid "Common CSS Questions"
-msgstr ""
+msgstr "Συχνές ερωτήσεις για το CSS"
 
 #: apps/landing/templates/landing/learn_css.html:64
 msgid "Common questions and answers for beginners."
-msgstr ""
+msgstr "Συχνές ερωτήσεις αρχάριων και οι απαντήσεις τους"
 
 #: apps/landing/templates/landing/learn_css.html:70
 #: apps/landing/templates/landing/learn_javascript.html:63
 msgid "Intermediate Level"
-msgstr ""
+msgstr "Μέσο επίπεδο"
 
 #: apps/landing/templates/landing/learn_css.html:73
-#, fuzzy
 msgid "/en/CSS_Reference"
-msgstr "Αναφορές CSS"
+msgstr "/en/CSS_Reference"
 
 #: apps/landing/templates/landing/learn_css.html:75
 msgid "Complete reference to CSS, with details on support by Firefox and other browsers."
-msgstr ""
+msgstr "Πλήρης αναφορά του CSS, με λεπτομέρειες για την υποστήριξη του από τον Firefox κι άλλους περιηγητές."
 
 #: apps/landing/templates/landing/learn_css.html:78
-#, fuzzy
 msgid "CSS Challenges"
-msgstr "Αποθήκευση αλλαγών"
+msgstr "Προκλήσεις σε CSS"
 
 #: apps/landing/templates/landing/learn_css.html:80
 msgid "Flex your CSS skills, and see where you need more practice."
-msgstr ""
+msgstr "Εξασκήστε τις γνώσεις σας στο CSS  και δείτε που χρειάζεστε περισσότερη εξάσκηση."
 
 #: apps/landing/templates/landing/learn_css.html:83
 msgid "Intermediate CSS Concepts"
@@ -2481,11 +2476,11 @@ msgstr ""
 
 #: apps/landing/templates/landing/learn_css.html:85
 msgid "Grouping, pseudo-classes, and more."
-msgstr ""
+msgstr "Ομαδοποίηση, ψευδό-κλάσεις κι άλλα."
 
 #: apps/landing/templates/landing/learn_css.html:88
 msgid "CSS Positioning 101"
-msgstr ""
+msgstr "Βασική τοποθέτηση στοιχείων με CSS"
 
 #: apps/landing/templates/landing/learn_css.html:90
 msgid "Using positioning for standards-compliant, table-free layout."
@@ -2493,7 +2488,7 @@ msgstr "Χρησιμοποιώντας  positioning για διατάξεις σ
 
 #: apps/landing/templates/landing/learn_css.html:93
 msgid "Progressive Enhancement with CSS"
-msgstr ""
+msgstr "Προοδευτική βελτίωση με CSS"
 
 #: apps/landing/templates/landing/learn_css.html:95
 msgid "Integrate progressive enhancement into your web pages with CSS."
@@ -2511,11 +2506,11 @@ msgstr ""
 #: apps/landing/templates/landing/learn_html.html:69
 #: apps/landing/templates/landing/learn_javascript.html:93
 msgid "Advanced Level"
-msgstr ""
+msgstr "Προχωρημένο επίπεδο"
 
 #: apps/landing/templates/landing/learn_css.html:109
 msgid "CSS3 in Under 5 Minutes"
-msgstr ""
+msgstr "Το CSS3 σε λιγότερο από 5 λεπτά"
 
 #: apps/landing/templates/landing/learn_css.html:109
 #: apps/landing/templates/landing/learn_css.html:114
@@ -2523,16 +2518,15 @@ msgstr ""
 #: apps/landing/templates/landing/learn_css.html:126
 #: apps/landing/templates/landing/learn_css.html:131
 msgid "This site features CSS3"
-msgstr ""
+msgstr "Αυτός ο ιστότοπος σχεδιάστηκε με CSS3"
 
 #: apps/landing/templates/landing/learn_css.html:111
 msgid "A quick introduction to some of the core features introduced in CSS3."
-msgstr ""
+msgstr "Μια σύντομη εισαγωγή σε μερικά από τα βασικά χαρακτηριστικά που περιλαμβάνει το CSS3."
 
 #: apps/landing/templates/landing/learn_css.html:114
-#, fuzzy
 msgid "/En/CSS/Using_CSS_transforms"
-msgstr "/en/CSS/Using_CSS_transforms"
+msgstr "/En/CSS/Using_CSS_transforms"
 
 #: apps/landing/templates/landing/learn_css.html:114
 msgid "Using CSS Transforms"
@@ -2543,14 +2537,12 @@ msgid "Apply rotation, skewing, scaling, and translation using CSS."
 msgstr ""
 
 #: apps/landing/templates/landing/learn_css.html:119
-#, fuzzy
 msgid "/en/CSS/CSS_transitions"
-msgstr "/en/CSS/Using_CSS_transforms"
+msgstr "/en/CSS/CSS_transitions"
 
 #: apps/landing/templates/landing/learn_css.html:119
-#, fuzzy
 msgid "CSS Transitions"
-msgstr "CSS Transforms"
+msgstr "CSS Transitions"
 
 #: apps/landing/templates/landing/learn_css.html:121
 msgid "CSS transitions, part of the draft CSS3 specification, provide a way to animate changes to CSS properties, instead of having the changes take effect instantly."
@@ -2599,11 +2591,11 @@ msgstr "Τι είναι η HTML, τι κάνει, ένα σύντομο ιστο
 
 #: apps/landing/templates/landing/learn_html.html:36
 msgid "Basic Structure of a Web Page"
-msgstr ""
+msgstr "Βασική δομή μιας ιστοσελίδας"
 
 #: apps/landing/templates/landing/learn_html.html:38
 msgid "Learn how HTML elements fit together into the bigger picture."
-msgstr ""
+msgstr "Μάθετε πως τα στοιχεία της HTML  συνθέτουν το σύνολο."
 
 #: apps/landing/templates/landing/learn_html.html:41
 msgid "Fundamental HTML Elements"
@@ -2611,23 +2603,23 @@ msgstr ""
 
 #: apps/landing/templates/landing/learn_html.html:43
 msgid "Describes the different types of elements you can use to write an HTML document."
-msgstr ""
+msgstr "Περιγράφει τους διαφορετικούς τύπους στοιχείων που μπορείτε να χρησιμοποιήσετε για να δημιουργήσετε ένα έγγραφο HTML."
 
 #: apps/landing/templates/landing/learn_html.html:46
 msgid "HTML Beginner Tutorial"
-msgstr ""
+msgstr "Σεμινάριο HTML για αρχάριους"
 
 #: apps/landing/templates/landing/learn_html.html:48
 msgid "A tutorial and exercises that take you through the basics."
-msgstr ""
+msgstr "Ένα σεμινάριο και ασκήσεις που σας μαθαίνουν τα βασικά."
 
 #: apps/landing/templates/landing/learn_html.html:51
 msgid "HTML From the Ground Up"
-msgstr ""
+msgstr "Η HTML από την αρχή"
 
 #: apps/landing/templates/landing/learn_html.html:52
 msgid "Google Code University"
-msgstr ""
+msgstr "Google Code University"
 
 #: apps/landing/templates/landing/learn_html.html:53
 msgid "Video tutorial on best practices and approaches for how to write good HTML code."
@@ -2635,24 +2627,23 @@ msgstr "Σεμινάριο σε βίντεο για τις καλύτερες π
 
 #: apps/landing/templates/landing/learn_html.html:56
 msgid "HTML Challenges"
-msgstr ""
+msgstr "Προκλήσεις HTML"
 
 #: apps/landing/templates/landing/learn_html.html:58
 msgid "Use these challenges to hone your HTML skills (for example, “Should I use an &lt;h2&gt; element or a &lt;strong&gt; element?”), focusing on meaningful mark-up."
-msgstr ""
+msgstr "Χρησιμοποιείστε αυτές τις προκλήσεις για να βελτιώσετε τις γνώσεις σας στη HTML (για παράδειγμα, «Να χρησιμοποιήσω ένα στοιχείο &lt;h2&gt; ή ένα στοιχείο &lt;strong&gt; ;»), προσπαθώντας να γράψετε ευανάγνωστο mark-up."
 
 #: apps/landing/templates/landing/learn_html.html:61
-#, fuzzy
 msgid "/HTML/Element"
-msgstr "/en/HTML/Element/canvas"
+msgstr "/HTML/Element"
 
 #: apps/landing/templates/landing/learn_html.html:63
 msgid "A comprehensive reference for HTML elements, and how Firefox and other browsers support them."
-msgstr ""
+msgstr "Μια πλήρης αναφορά των στοιχείων της HTML  και η υποστήριξη τους από τον Firefox κι άλλους περιηγητές."
 
 #: apps/landing/templates/landing/learn_html.html:72
 msgid "/en/Tips_for_Authoring_Fast-loading_HTML_Pages"
-msgstr ""
+msgstr "/en/Tips_for_Authoring_Fast-loading_HTML_Pages"
 
 #: apps/landing/templates/landing/learn_html.html:72
 msgid "Tips for Authoring Fast-loading HTML Pages"
@@ -2660,7 +2651,7 @@ msgstr "Συμβουλές για τη δημιουργία σελίδων HTML 
 
 #: apps/landing/templates/landing/learn_html.html:74
 msgid "Optimize web pages to provide a more responsive site for visitors and reduce the load on your web server and Internet connection."
-msgstr ""
+msgstr "Βελτιώστε τις ιστοσελίδες σας ώστε οι επισκέπτες σας να απολαμβάνουν πιο γρήγορες ανταποκρίσεις και να μειώσετε τον φόρτο  του διακομιστή  και της γραμμής σας."
 
 #: apps/landing/templates/landing/learn_html.html:77
 msgid "Dive into HTML5"
@@ -2676,24 +2667,24 @@ msgstr ""
 #: apps/landing/templates/landing/learn_html.html:129
 #: apps/landing/templates/landing/learn_html.html:134
 msgid "This site features HTML5"
-msgstr ""
+msgstr "Αυτός ο ιστότοπος σχεδιάστηκε με HTML5"
 
 #: apps/landing/templates/landing/learn_html.html:78
 msgid "From Mark Pilgrim"
-msgstr ""
+msgstr "Του Mark Pilgrim"
 
 #: apps/landing/templates/landing/learn_html.html:79
 msgid "Learn about a selection of features of HTML5, the newest version of the HTML specification."
-msgstr ""
+msgstr "Μάθετε σχετικά με μια συλλογή χαρακτηριστικών της HTML5, της πιο πρόσφατης έκδοσης προδιαγραφών HTML."
 
 #: apps/landing/templates/landing/learn_html.html:82
 msgid "Get Ready for HTML5"
-msgstr ""
+msgstr "Ετοιμαστείτε για την HTML5"
 
 #: apps/landing/templates/landing/learn_html.html:83
 #: apps/landing/templates/landing/learn_html.html:93
 msgid "A List Apart"
-msgstr ""
+msgstr "A List Apart"
 
 #: apps/landing/templates/landing/learn_html.html:84
 msgid "Some suggestions to help you get on board with HTML5."
@@ -2701,7 +2692,7 @@ msgstr "Μερικές προτάσεις που θα σας βοηθήσουν 
 
 #: apps/landing/templates/landing/learn_html.html:87
 msgid "HTML5 Tutorials"
-msgstr ""
+msgstr "Σεμινάρια HTML5"
 
 #: apps/landing/templates/landing/learn_html.html:88
 #, fuzzy
@@ -2722,11 +2713,11 @@ msgstr ""
 
 #: apps/landing/templates/landing/learn_html.html:97
 msgid "/en/Canvas_tutorial"
-msgstr ""
+msgstr "/en/Canvas_tutorial"
 
 #: apps/landing/templates/landing/learn_html.html:97
 msgid "Canvas Tutorial"
-msgstr ""
+msgstr "Σεμινάριο Canvas"
 
 #: apps/landing/templates/landing/learn_html.html:99
 msgid "Learn how to draw graphics using scripting using the &lt;canvas&gt; element."
@@ -2734,11 +2725,11 @@ msgstr ""
 
 #: apps/landing/templates/landing/learn_html.html:102
 msgid "HTML5 Doctor"
-msgstr ""
+msgstr "HTML5 Doctor"
 
 #: apps/landing/templates/landing/learn_html.html:103
 msgid "Articles about using HTML5 right now."
-msgstr ""
+msgstr "Άρθρα σχετικά με την χρήση της HTML5 αυτή τη στιγμή."
 
 #: apps/landing/templates/landing/learn_html.html:106
 msgid "The Joy of HTML5 Audio"
@@ -2750,7 +2741,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/learn_html.html:114
 msgid "HTML5 Examples"
-msgstr ""
+msgstr "Παραδείγματα HTML5"
 
 #: apps/landing/templates/landing/learn_html.html:117
 msgid "Web o’ Wonder"
@@ -2758,7 +2749,7 @@ msgstr "Web O' Wonder"
 
 #: apps/landing/templates/landing/learn_html.html:119
 msgid "Demos from Mozilla developers and evangelists."
-msgstr ""
+msgstr "Demo από προγραμματιστές και εθελοντές του Mozilla."
 
 #: apps/landing/templates/landing/learn_html.html:122
 msgid "MDN Demo Studio"
@@ -2770,7 +2761,7 @@ msgstr "Εκτελέστε, επιθεωρείστε και υποβάλετε d
 
 #: apps/landing/templates/landing/learn_html.html:129
 msgid "HTML5 Demos and Examples"
-msgstr ""
+msgstr "Παραδείγματα και demo HTML5"
 
 #: apps/landing/templates/landing/learn_html.html:130
 msgid "Remy Sharp"
@@ -2782,7 +2773,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/learn_html.html:134
 msgid "HTML5 Gallery"
-msgstr ""
+msgstr "Συλλογή HTML5"
 
 #: apps/landing/templates/landing/learn_html.html:135
 msgid "Richard Clark"
@@ -2814,13 +2805,12 @@ msgid "<p class=\"intro\"><strong>JavaScript</strong> (JS for short) is the prog
 msgstr ""
 
 #: apps/landing/templates/landing/learn_javascript.html:30
-#, fuzzy
 msgid "/en/JavaScript/Getting_Started"
-msgstr "/en/JavaScript"
+msgstr "/en/JavaScript/Getting_Started"
 
 #: apps/landing/templates/landing/learn_javascript.html:30
 msgid "Getting Started with JavaScript"
-msgstr ""
+msgstr "Ξεκινώντας με την JavaScript"
 
 #: apps/landing/templates/landing/learn_javascript.html:32
 msgid "What is JavaScript and how can it help you?"
@@ -2832,25 +2822,23 @@ msgstr "Μάθετε τα βασικά για προγραμματισμό με 
 
 #: apps/landing/templates/landing/learn_javascript.html:42
 msgid "Basic fundamentals of programming. Following articles introduce what you can do with JavaScript, best practices for using it, and more."
-msgstr ""
+msgstr "Βασικές αρχές προγραμματισμού. Τα παρακάτω εισαγωγικά άρθρα σας εξηγούν τι μπορείτε να κάνετε με τη JavaScript, τις καλύτερες πρακτικές χρήσης της κι άλλα."
 
 #: apps/landing/templates/landing/learn_javascript.html:45
 msgid "JavaScript From the Ground Up"
-msgstr ""
+msgstr "Η Javascript από την αρχή"
 
 #: apps/landing/templates/landing/learn_javascript.html:47
 msgid "Video tutorial on making pages interactive with JavaScript"
 msgstr "Σεμινάριο σε βίντεο για το πως να κάνετε διαδραστικές σελίδες με Javascript."
 
 #: apps/landing/templates/landing/learn_javascript.html:50
-#, fuzzy
 msgid "/en/JavaScript/Guide"
-msgstr "/en/JavaScript"
+msgstr "/en/JavaScript/Guide"
 
 #: apps/landing/templates/landing/learn_javascript.html:50
-#, fuzzy
 msgid "JavaScript Guide"
-msgstr "JavaScript"
+msgstr "Οδηγός JavaScript"
 
 #: apps/landing/templates/landing/learn_javascript.html:52
 msgid "A comprehensive, regularly updated guide to JavaScript for all levels of learning from beginner to advanced."
@@ -2938,18 +2926,16 @@ msgid "Douglas Crockford explains the Document Object Model."
 msgstr ""
 
 #: apps/landing/templates/landing/learn_javascript.html:111
-#, fuzzy
 msgid "Advanced JavaScript"
-msgstr "JavaScript"
+msgstr "JavaScript για προχωρημένους"
 
 #: apps/landing/templates/landing/learn_javascript.html:113
 msgid "Douglas Crockford looks closely at code patterns from which JavaScript programmers can choose in authoring their applications."
 msgstr ""
 
 #: apps/landing/templates/landing/learn_javascript.html:118
-#, fuzzy
 msgid "JavaScript Garden"
-msgstr "JavaScript"
+msgstr "JavaScript Garden"
 
 #: apps/landing/templates/landing/learn_javascript.html:119
 msgid "Documentation of the most quirky parts of JavaScript."
