@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-04-26 17:25+0200\n"
-"PO-Revision-Date: 2011-04-23 12:17+0200\n"
+"PO-Revision-Date: 2011-05-01 11:39+0200\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -987,9 +987,8 @@ msgstr "Zugriff verweigert"
 #: apps/landing/templates/landing/base_learn.html:9
 #: templates/base.html:78
 #: templates/base_compact.html:18
-#, fuzzy
 msgid "Demos"
-msgstr "MDN-Demos"
+msgstr "Demos"
 
 #: apps/demos/templates/demos/delete.html:10
 #: apps/demos/templates/demos/delete_comment.html:10
@@ -1297,11 +1296,11 @@ msgstr "Diese Demo steht unter der Lizenz <a href=\"%(link)s\">%(title)s</a>."
 
 #: apps/demos/templates/demos/detail.html:250
 msgid "More by {creator_link}"
-msgstr ""
+msgstr "Mehr von {creator_link}"
 
 #: apps/demos/templates/demos/detail.html:261
 msgid "Report a Problem"
-msgstr ""
+msgstr "Ein Problem melden"
 
 #: apps/demos/templates/demos/detail.html:263
 msgid "Demo is not working"
@@ -1842,9 +1841,8 @@ msgid "Launch {title}"
 msgstr "{title} starten"
 
 #: apps/demos/templates/demos/elements/submission_thumb.html:20
-#, fuzzy
 msgid "Launch"
-msgstr "Demo starten"
+msgstr "Starten"
 
 #: apps/demos/templates/demos/elements/tags_list.html:2
 msgid "Browse by Technology"
@@ -2425,7 +2423,7 @@ msgstr ""
 #: templates/base.html:79
 #: templates/base_compact.html:28
 msgid "Learning"
-msgstr ""
+msgstr "Lernen"
 
 #: apps/landing/templates/landing/base_learn.html:8
 #: apps/landing/templates/landing/home.html:136
@@ -2492,7 +2490,7 @@ msgstr "Anmelden"
 #: apps/landing/templates/landing/home.html:45
 #: apps/landing/templates/landing/home.html:55
 msgid "Aurora"
-msgstr ""
+msgstr "Aurora"
 
 # Hatten wir auf <http://www.mozilla.org/index.de.html> auch so übersetzt.
 #: apps/landing/templates/landing/home.html:46
@@ -2502,9 +2500,8 @@ msgstr "Schule der Web-Zauberer"
 
 #: apps/landing/templates/landing/home.html:48
 #: apps/landing/templates/landing/home.html:100
-#, fuzzy
 msgid "Firefox 4"
-msgstr "Firefox 4 Beta"
+msgstr "Firefox 4"
 
 #: apps/landing/templates/landing/home.html:49
 #: apps/landing/templates/landing/home.html:115
@@ -2518,10 +2515,15 @@ msgid ""
 "final release. Note: Aurora is not for the faint of heart, but that's the "
 "price of being on the cutting edge."
 msgstr ""
+"Erleben Sie die allerneuesten Funktionen, noch bevor sie in der Beta-Version "
+"erscheinen, indem Sie unsere neue Aurora-Version ausprobieren. Probieren "
+"Sie schon früh Dinge aus und entscheiden Sie mit, was in die endgültige "
+"Version kommt. Hinweis: Aurora ist nichts für schwache Nerven, aber das ist "
+"eben der Preis für die neuesten Funktionen."
 
 #: apps/landing/templates/landing/home.html:64
 msgid "Get Aurora now"
-msgstr ""
+msgstr "Holen Sie sich jetzt Aurora"
 
 #: apps/landing/templates/landing/home.html:72
 msgid ""
@@ -2700,7 +2702,7 @@ msgstr "Fangen Sie noch heute an!"
 #: apps/landing/templates/landing/learn.html:5
 #: apps/landing/templates/landing/learn.html:10
 msgid "Learn How to Make Websites"
-msgstr ""
+msgstr "Lernen Sie, wie man Websites erstellt"
 
 #: apps/landing/templates/landing/learn.html:11
 msgid ""
@@ -2788,15 +2790,14 @@ msgstr ""
 
 #: apps/landing/templates/landing/learn_css.html:5
 #: apps/landing/templates/landing/learn_css.html:11
-#, fuzzy
 msgid "Learn CSS"
-msgstr "Erfahren Sie mehr"
+msgstr "Lernen Sie CSS"
 
 #: apps/landing/templates/landing/learn_css.html:10
 #: apps/landing/templates/landing/learn_html.html:10
 #: apps/landing/templates/landing/learn_javascript.html:10
 msgid "Back to Home"
-msgstr ""
+msgstr "Zurück zur Startseite"
 
 #: apps/landing/templates/landing/learn_css.html:12
 msgid ""
@@ -2824,11 +2825,11 @@ msgstr ""
 #: apps/landing/templates/landing/learn_html.html:28
 #: apps/landing/templates/landing/learn_javascript.html:27
 msgid "Introductory Level"
-msgstr ""
+msgstr "Anfänger-Stufe"
 
 #: apps/landing/templates/landing/learn_css.html:32
 msgid "CSS Getting Started"
-msgstr ""
+msgstr "Loslegen mit CSS"
 
 #: apps/landing/templates/landing/learn_css.html:34
 msgid ""
@@ -2836,65 +2837,71 @@ msgid ""
 "through the basic features of CSS with practical examples that you can try "
 "for yourself on your own computer."
 msgstr ""
+"Diese Anleitung bietet Ihnen einen Einstieg in Cascading Style Sheets (CSS). "
+"Sie führt Sie durch die grundlegenden Funktionen von CSS mit praktischen "
+"Beispielen, die Sie selbst an Ihrem eigenen Rechner ausprobieren können."
 
 #: apps/landing/templates/landing/learn_css.html:37
-#, fuzzy
 msgid "CSS Basics"
-msgstr "Farbverläufe in CSS"
+msgstr "Grundlagen von CSS"
 
 #: apps/landing/templates/landing/learn_css.html:39
 msgid ""
 "What CSS is, how to apply it to HTML, and what basic CSS syntax looks like."
 msgstr ""
+"Was CSS ist, wie man es auf HTML anwendet und wie die grundlegende CSS-"
+"Syntax aussieht."
 
 #: apps/landing/templates/landing/learn_css.html:42
 msgid "CSS Selector Classes"
-msgstr ""
+msgstr "CSS-Selektor-Klassen"
 
 #: apps/landing/templates/landing/learn_css.html:44
 msgid "What are classes in CSS?"
-msgstr ""
+msgstr "Was sind Klassen in CSS?"
 
 #: apps/landing/templates/landing/learn_css.html:47
 msgid "External CSS"
-msgstr ""
+msgstr "Externes CSS"
 
 #: apps/landing/templates/landing/learn_css.html:49
 msgid "Using CSS from an external style sheet."
-msgstr ""
+msgstr "Verwendung von CSS aus einem externen Stylesheet."
 
 #: apps/landing/templates/landing/learn_css.html:52
 msgid "Adding a Touch of Style"
-msgstr ""
+msgstr "Einen Hauch von Stil hinzufügen"
 
 #: apps/landing/templates/landing/learn_css.html:54
 msgid "A brief beginner’s guide to styling web pages with CSS."
-msgstr ""
+msgstr "Ein kurzer Leitfaden für Anfänger über Webseiten-Stile mit CSS."
 
 #: apps/landing/templates/landing/learn_css.html:57
 msgid "CSS From the Ground Up"
-msgstr ""
+msgstr "CSS von Grund auf"
 
 #: apps/landing/templates/landing/learn_css.html:59
 msgid "Video tutorial on styling pages with CSS."
-msgstr ""
+msgstr "Video-Anleitung über Webseiten-Stile mit CSS."
 
 #: apps/landing/templates/landing/learn_css.html:62
 msgid "/en/Common_CSS_Questions"
 msgstr "/de/Common_CSS_Questions"
 
+# 75%
+# 100%
 #: apps/landing/templates/landing/learn_css.html:62
 msgid "Common CSS Questions"
-msgstr ""
+msgstr "Häufige Fragen zu CSS"
 
 #: apps/landing/templates/landing/learn_css.html:64
 msgid "Common questions and answers for beginners."
-msgstr ""
+msgstr "Häufige Fragen und Antworten für Anfänger."
 
 #: apps/landing/templates/landing/learn_css.html:70
 #: apps/landing/templates/landing/learn_javascript.html:63
 msgid "Intermediate Level"
-msgstr ""
+msgstr "Fortgeschrittener-Anfänger-Stufe"
 
 #: apps/landing/templates/landing/learn_css.html:73
 msgid "/en/CSS_Reference"
@@ -2905,59 +2912,64 @@ msgid ""
 "Complete reference to CSS, with details on support by Firefox and other "
 "browsers."
 msgstr ""
+"Vollständige Referenz für CSS, mit Details zur Unterstützung durch Firefox "
+"und andere Browser."
 
 #: apps/landing/templates/landing/learn_css.html:78
-#, fuzzy
 msgid "CSS Challenges"
-msgstr "Änderungen speichern"
+msgstr "Herausforderungen von CSS"
 
 #: apps/landing/templates/landing/learn_css.html:80
 msgid "Flex your CSS skills, and see where you need more practice."
-msgstr ""
+msgstr "Testen Sie Ihre CSS-Fähigkeiten, um zu sehen, wo Sie noch üben müssen."
 
 #: apps/landing/templates/landing/learn_css.html:83
 msgid "Intermediate CSS Concepts"
-msgstr ""
+msgstr "CSS-Konzepte für fortgeschrittene Anfänger"
 
 #: apps/landing/templates/landing/learn_css.html:85
 msgid "Grouping, pseudo-classes, and more."
-msgstr ""
+msgstr "Gruppieren, Pseudo-Klassen und mehr."
 
 #: apps/landing/templates/landing/learn_css.html:88
 msgid "CSS Positioning 101"
-msgstr ""
+msgstr "Einmaleins der CSS-Positionierung"
 
 #: apps/landing/templates/landing/learn_css.html:90
 msgid "Using positioning for standards-compliant, table-free layout."
 msgstr ""
+"Verwendung von Positionierung für standardkonformes, tabellenfreies Layout."
 
 #: apps/landing/templates/landing/learn_css.html:93
 msgid "Progressive Enhancement with CSS"
-msgstr ""
+msgstr "Fortschrittliche Verbesserungen mit CSS"
 
 #: apps/landing/templates/landing/learn_css.html:95
 msgid "Integrate progressive enhancement into your web pages with CSS."
 msgstr ""
+"Bauen Sie mit CSS fortschrittliche Verbesserungen in Ihre Webseiten ein."
 
 #: apps/landing/templates/landing/learn_css.html:98
 msgid "Fluid Grids"
-msgstr ""
+msgstr "Flüssige Gitternetze"
 
 #: apps/landing/templates/landing/learn_css.html:100
 msgid ""
 "Design layouts that fluidly resize with the browser window, while still "
 "using a typographic grid."
 msgstr ""
+"Gestalten Sie Layouts, die Ihre Größe flüssig mit dem Browser-Fenster ändern "
+"und trotzdem ein typographisches Gitternetz verwenden."
 
 #: apps/landing/templates/landing/learn_css.html:106
 #: apps/landing/templates/landing/learn_html.html:69
 #: apps/landing/templates/landing/learn_javascript.html:93
 msgid "Advanced Level"
-msgstr ""
+msgstr "Fortgeschrittenen-Stufe"
 
 #: apps/landing/templates/landing/learn_css.html:109
 msgid "CSS3 in Under 5 Minutes"
-msgstr ""
+msgstr "CSS3 in unter 5 Minuten"
 
 #: apps/landing/templates/landing/learn_css.html:109
 #: apps/landing/templates/landing/learn_css.html:114
@@ -2965,33 +2977,33 @@ msgstr ""
 #: apps/landing/templates/landing/learn_css.html:126
 #: apps/landing/templates/landing/learn_css.html:131
 msgid "This site features CSS3"
-msgstr ""
+msgstr "Diese Seite verwendet CSS3"
 
 #: apps/landing/templates/landing/learn_css.html:111
 msgid "A quick introduction to some of the core features introduced in CSS3."
 msgstr ""
+"Eine kurze Einführung in einige der wichtigsten neuen Funktionen in CSS3."
 
 #: apps/landing/templates/landing/learn_css.html:114
 msgid "/En/CSS/Using_CSS_transforms"
 msgstr "/de/CSS/Using_CSS_transforms"
 
 #: apps/landing/templates/landing/learn_css.html:114
-#, fuzzy
 msgid "Using CSS Transforms"
-msgstr "Transformationen in CSS"
+msgstr "CSS-Transformationen verwenden"
 
 #: apps/landing/templates/landing/learn_css.html:116
 msgid "Apply rotation, skewing, scaling, and translation using CSS."
 msgstr ""
+"Verwenden Sie mit CSS Rotation, Schrägstellung, Skalierung und Verschiebung."
 
 #: apps/landing/templates/landing/learn_css.html:119
 msgid "/en/CSS/CSS_transitions"
 msgstr "/de/CSS/CSS_transitions"
 
 #: apps/landing/templates/landing/learn_css.html:119
-#, fuzzy
 msgid "CSS Transitions"
-msgstr "Transformationen in CSS"
+msgstr "CSS-Übergänge"
 
 #: apps/landing/templates/landing/learn_css.html:121
 msgid ""
@@ -2999,26 +3011,33 @@ msgid ""
 "animate changes to CSS properties, instead of having the changes take effect "
 "instantly."
 msgstr ""
+"CSS-Übergänge, die Teil des Entwurfs der CSS3-Spezifikationen sind, bieten "
+"eine Möglichkeit Änderungen an CSS-Eigenschaften zu animieren, anstatt die "
+"Änderungen sofort anzuwenden."
 
 #: apps/landing/templates/landing/learn_css.html:126
 msgid "Understanding CSS3 Transitions"
-msgstr ""
+msgstr "CSS3-Übergänge verstehen"
 
 #: apps/landing/templates/landing/learn_css.html:128
 msgid ""
 "Start using CSS3 transitions by carefully choosing the situations in which "
 "to use them."
 msgstr ""
+"Verwenden Sie CSS3-Übergänge, indem Sie sich zunächst gut überlegen, in "
+"welchen Situationen Sie sie verwenden möchten."
 
 #: apps/landing/templates/landing/learn_css.html:131
 msgid "Quick Guide to Implement Web Fonts with @font-face"
-msgstr ""
+msgstr "Kurzanleitung zu Implement Web Fonts mit @font-face"
 
 #: apps/landing/templates/landing/learn_css.html:133
 msgid ""
 "The @font-face feature from CSS3 allows you to use custom typefaces on the "
 "web in an accessible, manipulable, and scalable way."
 msgstr ""
+"Die Funktion @font-face von CSS3 ermöglicht es Ihnen, eigene Schriftarten im "
+"Internet zu verwenden, die zugänglich, veränderbar und skalierbar sind."
 
 #: apps/landing/templates/landing/learn_css.html:141
 msgid ""
@@ -3045,12 +3064,16 @@ msgid ""
 "CSS. Many CSS3 features are supported in various ways by modern browsers, "
 "but many users still have older browsers and so can’t take advantage."
 msgstr ""
+"Diese Seite behandelt <strong>CSS3</strong>, die neueste, immer noch in "
+"Entwicklung befindliche Version von CSS. Viele CSS3-Funktionen werden auf "
+"verschiedene Weise von modernen Browsern unterstützt, aber viele Anwender "
+"haben immer noch ältere Browser und können daher nicht von den Vorteilen "
+"profitieren."
 
 #: apps/landing/templates/landing/learn_html.html:5
 #: apps/landing/templates/landing/learn_html.html:11
-#, fuzzy
 msgid "Learn HTML"
-msgstr "Erfahren Sie mehr"
+msgstr "Lernen Sie HTML"
 
 #: apps/landing/templates/landing/learn_html.html:12
 msgid ""
@@ -3074,7 +3097,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/learn_html.html:31
 msgid "The Basics of HTML"
-msgstr ""
+msgstr "Die Grundlagen von HTML"
 
 #: apps/landing/templates/landing/learn_html.html:33
 msgid ""
@@ -3082,50 +3105,58 @@ msgid ""
 "an HTML document looks like. The articles that follow this one look at each "
 "individual part of HTML in much greater depth."
 msgstr ""
+"Was HTML ist, was es tut, ein kurzer Einblick in die Geschichte und wie die "
+"Struktur eines HTML-Dokuments aussieht. Die folgenden Artikel behandeln "
+"jeden einzelnen Teil von HTML detaillierter."
 
 #: apps/landing/templates/landing/learn_html.html:36
 msgid "Basic Structure of a Web Page"
-msgstr ""
+msgstr "Grundlegende Struktur einer Webseite"
 
 #: apps/landing/templates/landing/learn_html.html:38
 msgid "Learn how HTML elements fit together into the bigger picture."
 msgstr ""
+"Lernen Sie, wie HTML-Elemente sich zu einem größeren Bild zusammenfügen."
 
 #: apps/landing/templates/landing/learn_html.html:41
 msgid "Fundamental HTML Elements"
-msgstr ""
+msgstr "Grundlegende HTML-Elemente"
 
 #: apps/landing/templates/landing/learn_html.html:43
 msgid ""
 "Describes the different types of elements you can use to write an HTML "
 "document."
 msgstr ""
+"Beschreibt die verschiedenen Elementtypen, die Sie verwenden können, um ein "
+"HTML-Dokument zu schreiben."
 
 #: apps/landing/templates/landing/learn_html.html:46
 msgid "HTML Beginner Tutorial"
-msgstr ""
+msgstr "HTML-Anleitung für Anfänger"
 
 #: apps/landing/templates/landing/learn_html.html:48
 msgid "A tutorial and exercises that take you through the basics."
-msgstr ""
+msgstr "Eine Anleitung und Übungen, die Ihnen die Grundlagen näher bringen."
 
 #: apps/landing/templates/landing/learn_html.html:51
 msgid "HTML From the Ground Up"
-msgstr ""
+msgstr "HTML von Grund auf"
 
 #: apps/landing/templates/landing/learn_html.html:52
 msgid "Google Code University"
-msgstr ""
+msgstr "Google-Code-Universität"
 
 #: apps/landing/templates/landing/learn_html.html:53
 msgid ""
 "Video tutorial on best practices and approaches for how to write good HTML "
 "code."
 msgstr ""
+"Video-Anleitung über bewährte Lösungen und Ansätze zum Thema „Wie man guten "
+"HTML-Code schreibt“."
 
 #: apps/landing/templates/landing/learn_html.html:56
 msgid "HTML Challenges"
-msgstr ""
+msgstr "Herausforderungen von HTML"
 
 #: apps/landing/templates/landing/learn_html.html:58
 msgid ""
@@ -3133,34 +3164,45 @@ msgid ""
 "&lt;h2&gt; element or a &lt;strong&gt; element?”), focusing on meaningful "
 "mark-up."
 msgstr ""
+"Nutzen Sie diese Herausforderungen, um Ihre HTML-Fähigkeiten zu schärfen "
+"(beispielsweise „Sollte ich ein &lt;h2&gt;-Element oder ein "
+"&lt;strong&gt;-Element verwenden?“), die sich auf sinnvolle Auszeichnung "
+"konzentrieren."
 
 #: apps/landing/templates/landing/learn_html.html:61
 msgid "/HTML/Element"
-msgstr "/de/HTML/Element/canvas"
+msgstr "/HTML/Element"
 
 #: apps/landing/templates/landing/learn_html.html:63
 msgid ""
 "A comprehensive reference for HTML elements, and how Firefox and other "
 "browsers support them."
 msgstr ""
+"Eine Gesamtübersicht für HTML-Elemente und darüber, wie Firefox und andere "
+"Browser sie unterstützen."
 
 #: apps/landing/templates/landing/learn_html.html:72
 msgid "/en/Tips_for_Authoring_Fast-loading_HTML_Pages"
 msgstr "/de/Tips_for_Authoring_Fast-loading_HTML_Pages"
 
+# 80%
+# 100%
 #: apps/landing/templates/landing/learn_html.html:72
 msgid "Tips for Authoring Fast-loading HTML Pages"
-msgstr ""
+msgstr "Tipps zum Schreiben schnell-ladender HTML-Seiten"
 
 #: apps/landing/templates/landing/learn_html.html:74
 msgid ""
 "Optimize web pages to provide a more responsive site for visitors and reduce "
 "the load on your web server and Internet connection."
 msgstr ""
+"Optimieren Sie Webseiten, damit Besucher eine schneller reagierende Website "
+"erhalten und die Last auf Ihrem Web-Server und der Internet-Verbindung "
+"reduziert wird."
 
 #: apps/landing/templates/landing/learn_html.html:77
 msgid "Dive into HTML5"
-msgstr ""
+msgstr "Eintauchen in HTML5"
 
 #: apps/landing/templates/landing/learn_html.html:77
 #: apps/landing/templates/landing/learn_html.html:82
@@ -3172,53 +3214,56 @@ msgstr ""
 #: apps/landing/templates/landing/learn_html.html:129
 #: apps/landing/templates/landing/learn_html.html:134
 msgid "This site features HTML5"
-msgstr ""
+msgstr "Diese Seite verwendet HTML5"
 
 #: apps/landing/templates/landing/learn_html.html:78
 msgid "From Mark Pilgrim"
-msgstr ""
+msgstr "Von Mark Pilgrim"
 
 #: apps/landing/templates/landing/learn_html.html:79
 msgid ""
 "Learn about a selection of features of HTML5, the newest version of the HTML "
 "specification."
 msgstr ""
+"Erfahren Sie mehr über die Funktionen von HTML5, der neuesten Version der "
+"HTML-Spezifikation."
 
 #: apps/landing/templates/landing/learn_html.html:82
 msgid "Get Ready for HTML5"
-msgstr ""
+msgstr "Machen Sie sich bereit für HTML5"
 
 #: apps/landing/templates/landing/learn_html.html:83
 #: apps/landing/templates/landing/learn_html.html:93
 msgid "A List Apart"
-msgstr ""
+msgstr "A List Apart"
 
 #: apps/landing/templates/landing/learn_html.html:84
 msgid "Some suggestions to help you get on board with HTML5."
-msgstr ""
+msgstr "Einige Vorschläge, um Ihnen den Einstieg in HTML5 zu erleichtern."
 
 #: apps/landing/templates/landing/learn_html.html:87
 msgid "HTML5 Tutorials"
-msgstr ""
+msgstr "HTML5-Anleitungen"
 
 #: apps/landing/templates/landing/learn_html.html:88
-#, fuzzy
 msgid "HTML5 Rocks"
-msgstr "HTML5"
+msgstr "HTML5 Rocks"
 
 #: apps/landing/templates/landing/learn_html.html:89
 msgid "Take a guided tour through code that uses HTML5 features."
-msgstr ""
+msgstr "Machen Sie eine Führung durch Code mit, der HTML5-Funktionen verwendet."
 
 #: apps/landing/templates/landing/learn_html.html:92
 msgid "Semantics in HTML5"
-msgstr ""
+msgstr "Semantik in HTML5"
 
 #: apps/landing/templates/landing/learn_html.html:94
 msgid ""
 "Learn meaningful mark-up that is extensible and backwards- and forwards-"
 "compatible."
 msgstr ""
+"Lernen Sie sinnvolle Auszeichnung, die erweiterbar sowie abwärts- und "
+"aufwärtskompatibel ist."
 
 #: apps/landing/templates/landing/learn_html.html:97
 msgid "/en/Canvas_tutorial"
@@ -3226,80 +3271,88 @@ msgstr "/de/Canvas_tutorial"
 
 #: apps/landing/templates/landing/learn_html.html:97
 msgid "Canvas Tutorial"
-msgstr ""
+msgstr "Canvas-Anleitung"
 
 #: apps/landing/templates/landing/learn_html.html:99
 msgid ""
 "Learn how to draw graphics using scripting using the &lt;canvas&gt; element."
 msgstr ""
+"Lernen Sie, wie Sie mit Hilfe des &lt;canvas&gt;-Elements Grafiken mit "
+"Scripting zeichnen."
 
 #: apps/landing/templates/landing/learn_html.html:102
 msgid "HTML5 Doctor"
-msgstr ""
+msgstr "HTML5-Doktor"
 
 #: apps/landing/templates/landing/learn_html.html:103
 msgid "Articles about using HTML5 right now."
-msgstr ""
+msgstr "Artikel zum Thema „HTML5 sofort verwenden“."
 
 #: apps/landing/templates/landing/learn_html.html:106
 msgid "The Joy of HTML5 Audio"
-msgstr ""
+msgstr "Die Freude über HTML5-Audio"
 
 #: apps/landing/templates/landing/learn_html.html:108
 msgid ""
 "Learn how to use the HTML audio element to embed sounds in your web pages "
 "easily. Lots of code examples are included in the tutorial."
 msgstr ""
+"Lernen Sie, wie Sie das HTML-Audio-Element verwenden können, um einfach "
+"Klänge in Ihre Webseiten einzubetten. In der Anleitung finden Sie viele "
+"Code-Beispiele."
 
 #: apps/landing/templates/landing/learn_html.html:114
 msgid "HTML5 Examples"
-msgstr ""
+msgstr "HTML5-Beispiele"
 
 #: apps/landing/templates/landing/learn_html.html:117
-#, fuzzy
 msgid "Web o’ Wonder"
 msgstr "Webkabinett"
 
 #: apps/landing/templates/landing/learn_html.html:119
 msgid "Demos from Mozilla developers and evangelists."
-msgstr ""
+msgstr "Demos von Mozilla-Entwicklern und Begeisterten."
 
 #: apps/landing/templates/landing/learn_html.html:122
-#, fuzzy
 msgid "MDN Demo Studio"
-msgstr "Demo-Studio"
+msgstr "MDN Demo-Studio"
 
 #: apps/landing/templates/landing/learn_html.html:124
 msgid ""
 "Run, inspect, and submit demos that show what HTML, CSS, and JavaScript can "
 "do."
 msgstr ""
+"Verwenden, untersuchen und übermitteln Sie Demos die zeigen, wozu HTML, CSS "
+"und JavaScript fähig sind."
 
 #: apps/landing/templates/landing/learn_html.html:129
 msgid "HTML5 Demos and Examples"
-msgstr ""
+msgstr "HTML5-Demos und -Beispiele"
 
 #: apps/landing/templates/landing/learn_html.html:130
 msgid "Remy Sharp"
-msgstr ""
+msgstr "Remy Sharp"
 
 #: apps/landing/templates/landing/learn_html.html:131
 msgid "Demos that you can filter by technology or browser support."
 msgstr ""
+"Demos, die Sie nach Technologie oder Browser-Unterstützung filtern können."
 
 #: apps/landing/templates/landing/learn_html.html:134
 msgid "HTML5 Gallery"
-msgstr ""
+msgstr "HTML5-Galerie"
 
 #: apps/landing/templates/landing/learn_html.html:135
 msgid "Richard Clark"
-msgstr ""
+msgstr "Richard Clark"
 
 #: apps/landing/templates/landing/learn_html.html:136
 msgid ""
 "Showcase of sites that use HTML5 to help you learn about how it should be "
 "used."
 msgstr ""
+"Ausstellung von Websites, die HTML5 verwenden, um Ihnen zu erklären, wie es "
+"verwendet werden sollte."
 
 #: apps/landing/templates/landing/learn_html.html:143
 msgid ""
@@ -3331,6 +3384,15 @@ msgid ""
 "such as a <a href=\"http://creativecommons.org/licenses/\">Creative Commons "
 "license</a>.</p>"
 msgstr ""
+"<p>Diese Quellen werden von vorwärts-denkenden Unternehmen und Web-"
+"Entwicklern erstellt, die sich für offene Standards und bewährte Lösungen "
+"für die Web-Entwicklung begeistern. Wenn Sie glauben, dass eine wichtige "
+"Quelle fehlt, teilen Sie uns das bitte im <a "
+"href=\"/forums/viewforum.php?f=4\">Forum „Offenes Web“</a> mit. Wir möchten "
+"diese Quellen mit unserer internationalen Gemeinschaft teilen, daher "
+"bevorzugen wir solche, die Übersetzungen bereitstellen oder erlauben – dank "
+"Lizenzen für offene Inhalte wie <a "
+"href=\"http://creativecommons.org/licenses/\">Creative Commons</a>.</p>"
 
 #: apps/landing/templates/landing/learn_html.html:157
 msgid ""
@@ -3338,12 +3400,15 @@ msgid ""
 "the standard. Many HTML5 features are supported by modern browsers, but many "
 "users still have older browsers and so can’t take advantage."
 msgstr ""
+"Diese Seite behandelt <strong>HTML5</strong>, die kommende neuste Version "
+"des Standards. Viele HTML5-Funktionen werden von modernen Browsern "
+"unterstützt, aber viele Anwender haben immer noch ältere Browser und können "
+"daher nicht von den Vorteilen profitieren."
 
 #: apps/landing/templates/landing/learn_javascript.html:5
 #: apps/landing/templates/landing/learn_javascript.html:11
-#, fuzzy
 msgid "Learn JavaScript"
-msgstr "/de/JavaScript"
+msgstr "Lernen Sie JavaScript"
 
 #: apps/landing/templates/landing/learn_javascript.html:12
 msgid ""
@@ -3370,171 +3435,191 @@ msgstr "/de/JavaScript/Getting_Started"
 
 #: apps/landing/templates/landing/learn_javascript.html:30
 msgid "Getting Started with JavaScript"
-msgstr ""
+msgstr "Loslegen mit JavaScript"
 
 #: apps/landing/templates/landing/learn_javascript.html:32
 msgid "What is JavaScript and how can it help you?"
-msgstr ""
+msgstr "Was ist JavaScript und wie kann es Ihnen helfen?"
 
 #: apps/landing/templates/landing/learn_javascript.html:37
 msgid "Learn the basics of programming with JavaScript"
-msgstr ""
+msgstr "Lernen Sie die Grundlagen der Programmierung mit JavaScript"
 
 #: apps/landing/templates/landing/learn_javascript.html:42
 msgid ""
 "Basic fundamentals of programming. Following articles introduce what you can "
 "do with JavaScript, best practices for using it, and more."
 msgstr ""
+"Wichtige Grundlagen der Programmierung. Die folgenden Artikel zeigen "
+"Ihnen,was Sie mit JavaScript tun können, bewährte Lösungen für die Anwendung "
+"und mehr."
 
 #: apps/landing/templates/landing/learn_javascript.html:45
 msgid "JavaScript From the Ground Up"
-msgstr ""
+msgstr "JavaScript von Grund auf"
 
 #: apps/landing/templates/landing/learn_javascript.html:47
 msgid "Video tutorial on making pages interactive with JavaScript"
 msgstr ""
+"Video-Anleitung zum Thema „Webseiten mit JavaScript interaktiv gestalten“"
 
 #: apps/landing/templates/landing/learn_javascript.html:50
 msgid "/en/JavaScript/Guide"
 msgstr "/de/JavaScript/Guide"
 
 #: apps/landing/templates/landing/learn_javascript.html:50
-#, fuzzy
 msgid "JavaScript Guide"
-msgstr "JavaScript"
+msgstr "JavaScript-Leitfaden"
 
 #: apps/landing/templates/landing/learn_javascript.html:52
 msgid ""
 "A comprehensive, regularly updated guide to JavaScript for all levels of "
 "learning from beginner to advanced."
 msgstr ""
+"Ein umfassender, regelmäßig Aktualisierter Leitfaden für JavaScript für "
+"jeden Wissensstand von Anfänger bis Fortgeschrittener."
 
 #: apps/landing/templates/landing/learn_javascript.html:55
 msgid "JavaScript Best Practices"
-msgstr ""
+msgstr "Bewährte Lösungen mit JavaScript"
 
 #: apps/landing/templates/landing/learn_javascript.html:57
 msgid ""
 "Learn about some of the obvious and (not so) obvious best practices when "
 "writing JavaScript."
 msgstr ""
+"Lernen Sie einige der mehr oder weniger offensichtlichen bewährten Lösungen, "
+"wenn Sie JavaScript schreiben."
 
 #: apps/landing/templates/landing/learn_javascript.html:66
 msgid "/en/A_re-introduction_to_JavaScript"
 msgstr "/de/A_re-introduction_to_JavaScript"
 
+# 77%
+# 100%
 #: apps/landing/templates/landing/learn_javascript.html:66
 msgid "A Re-introduction to JavaScript"
-msgstr ""
+msgstr "Eine Wiedereinführung in JavaScript"
 
 #: apps/landing/templates/landing/learn_javascript.html:68
 msgid ""
 "A recap of the JavaScript programming language aimed at intermediate-level "
 "developers."
 msgstr ""
+"Eine Wiederholung der Programmiersprache JavaScript für fortgeschrittene "
+"Anfänger unter den Entwicklern."
 
 #: apps/landing/templates/landing/learn_javascript.html:71
-#, fuzzy
 msgid "Eloquent JavaScript"
-msgstr "/de/JavaScript"
+msgstr "Eloquentes JavaScript"
 
 #: apps/landing/templates/landing/learn_javascript.html:72
 msgid ""
 "A comprehensive guide to intermediate and advanced JavaScript methodologies."
 msgstr ""
+"Ein umfassender Leitfaden für gehobene und fortgeschrittene JavaScrippt-"
+"Methodik."
 
 #: apps/landing/templates/landing/learn_javascript.html:75
 msgid "Essential JavaScript Design Patterns"
-msgstr ""
+msgstr "Wichtige JavaScript-Design-Muster"
 
 #: apps/landing/templates/landing/learn_javascript.html:77
 msgid "An introduction to essential JavaScript design patterns."
-msgstr ""
+msgstr "Eine Einführung in wichtige JavaScript-Design-Muster."
 
 #: apps/landing/templates/landing/learn_javascript.html:80
 msgid "The JavaScript Programming Language"
-msgstr ""
+msgstr "Die Programmiersprache JavaScript"
 
 #: apps/landing/templates/landing/learn_javascript.html:82
 msgid ""
 "Douglas Crockford explores the language as it is today, and how it came to "
 "be."
 msgstr ""
+"Douglas Crockford erforscht die Sprache von heute und wie sie dazu wurde."
 
 #: apps/landing/templates/landing/learn_javascript.html:85
 msgid "/en/Introduction_to_Object-Oriented_JavaScript"
 msgstr "/de/Introduction_to_Object-Oriented_JavaScript"
 
+# 82%
+# 100%
 #: apps/landing/templates/landing/learn_javascript.html:85
 msgid "Introduction to Object-oriented JavaScript"
-msgstr ""
+msgstr "Einführung in objektorientiertes JavaScript"
 
 #: apps/landing/templates/landing/learn_javascript.html:87
 msgid "Learn about the JavaScript object model."
-msgstr ""
+msgstr "Lernen Sie das JavaScript-Objektmodell kennen."
 
 #: apps/landing/templates/landing/learn_javascript.html:96
 msgid "Learning Advanced JavaScript"
-msgstr ""
+msgstr "Fortgeschrittenes JavaScript lernen"
 
 #: apps/landing/templates/landing/learn_javascript.html:98
 msgid "John Resig’s guide to advanced JavaScript."
-msgstr ""
+msgstr "John Resigs Anleitung für fortgeschrittenes JavaScript."
 
 #: apps/landing/templates/landing/learn_javascript.html:101
 msgid "Introducing the JavaScript DOM"
-msgstr ""
+msgstr "Vorstellung des JavaScript-DOM"
 
 #: apps/landing/templates/landing/learn_javascript.html:103
 msgid ""
 "What is the Document Object Model, and why is it useful? This article gives "
 "you a gentle introduction to this powerful JavaScript feature."
 msgstr ""
+"Was ist das Document Object Model und wieso ist es hilfreich? Dieser Artikel "
+"bietet Ihnen eine vorsichtige Einführung zu dieser mächtigen JavaScript-"
+"Funktion."
 
 #: apps/landing/templates/landing/learn_javascript.html:106
 msgid "An Inconvenient API: The Theory of the DOM"
-msgstr ""
+msgstr "Eine unbequeme API: Die Theorie des DOM"
 
 #: apps/landing/templates/landing/learn_javascript.html:108
 msgid "Douglas Crockford explains the Document Object Model."
-msgstr ""
+msgstr "Douglas Crockford erklärt das Document Object Model."
 
 #: apps/landing/templates/landing/learn_javascript.html:111
-#, fuzzy
 msgid "Advanced JavaScript"
-msgstr "JavaScript"
+msgstr "Fortgeschrittenes JavaScript"
 
 #: apps/landing/templates/landing/learn_javascript.html:113
 msgid ""
 "Douglas Crockford looks closely at code patterns from which JavaScript "
 "programmers can choose in authoring their applications."
 msgstr ""
+"Douglas Crockford betrachtet detailliert JavaScript-Code-Muster, die "
+"JavaScript-Programmierer beim Entwickeln ihrer Anwendungen nutzen können."
 
 #: apps/landing/templates/landing/learn_javascript.html:118
-#, fuzzy
 msgid "JavaScript Garden"
-msgstr "JavaScript"
+msgstr "JavaScript-Garten"
 
 #: apps/landing/templates/landing/learn_javascript.html:119
 msgid "Documentation of the most quirky parts of JavaScript."
-msgstr ""
+msgstr "Dokumentation der eigenartigsten Teile von JavaScript."
 
 #: apps/landing/templates/landing/learn_javascript.html:122
 msgid "Which JavaScript Framework?"
-msgstr ""
+msgstr "Welches JavaScript-Framework?"
 
 #: apps/landing/templates/landing/learn_javascript.html:124
 msgid "Advice on choosing a JavaScript framework."
-msgstr ""
+msgstr "Ratschläge zur Wahl eines JavaScript-Frameworks."
 
 #: apps/landing/templates/landing/learn_javascript.html:127
 msgid "Non-blocking JavaScript Downloads"
-msgstr ""
+msgstr "Nicht-blockierende JavaScript-Downloads"
 
 #: apps/landing/templates/landing/learn_javascript.html:129
 msgid ""
 "Tips on improving the download performance of pages containing JavaScript."
 msgstr ""
+"Tipps zur Verbesserung der Download-Leistung von Webseite, die JavaScript "
+"enthalten."
 
 #: apps/landing/templates/landing/learn_javascript.html:137
 msgid ""
@@ -4054,7 +4139,6 @@ msgstr "vor {timedelta}"
 
 #: templates/403.html:3
 #: templates/403.html:5
-#, fuzzy
 msgid "Permission Denied"
 msgstr "Zugriff verweigert"
 
