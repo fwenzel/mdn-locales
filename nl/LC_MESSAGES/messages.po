@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-04-26 17:26+0200\n"
-"PO-Revision-Date: 2011-03-11 22:52+0200\n"
+"PO-Revision-Date: 2011-05-02 18:55+0200\n"
 "Last-Translator: Tim Maks <thunderbird-nl@planet.nl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -267,7 +267,7 @@ msgid ""
 "typography like embedding own fonts via @font-face or controlling OpenType "
 "font features directly via CSS."
 msgstr ""
-"De CSS3-Font specificatie bevat verbeterde functies voor lettertypen  en "
+"De CSS3-Font specificatie bevat verbeterde functies voor lettertypen en "
 "typografie, zoals embedding van eigen lettertypen via @font-face of het "
 "regelen van OpenType-lettertypen eigenschappen rechtstreeks via CSS."
 
@@ -745,7 +745,7 @@ msgstr "Aanbevolen MDN-demo's"
 
 #: apps/demos/feeds.py:167
 msgid "Demos featured on MDN"
-msgstr "Aanbevolen demo's  op MDN"
+msgstr "Aanbevolen demo's op MDN"
 
 #: apps/demos/feeds.py:181
 msgid "MDN demos tagged %s"
@@ -871,11 +871,11 @@ msgstr "slug"
 
 #: apps/demos/models.py:385
 msgid "describe your demo in one line"
-msgstr "Beschrijf uw demo in een regel"
+msgstr "beschrijf uw demo in een regel"
 
 #: apps/demos/models.py:388
 msgid "describe your demo in more detail (optional)"
-msgstr "Beschrijf uw demo in meer detail (optioneel)"
+msgstr "beschrijf uw demo in meer detail (optioneel)"
 
 #: apps/demos/models.py:395
 msgid "control how your demo is launched"
@@ -891,11 +891,11 @@ msgstr "Navigatiebalk gebruiken, demo in <iframe> tonen"
 
 #: apps/demos/models.py:408
 msgid "select up to 5 tags that describe your demo"
-msgstr "Selecteer maximaal 5 labels die uw demo beschrijven"
+msgstr "selecteer maximaal 5 labels die uw demo beschrijven"
 
 #: apps/demos/models.py:412
 msgid "Screenshot #1"
-msgstr "Schermafbeelding # 1"
+msgstr "Schermafbeelding #1"
 
 #: apps/demos/models.py:418
 msgid "Screenshot #2"
@@ -919,7 +919,7 @@ msgstr "bezit een video van uw demo in actie? (optioneel)"
 
 #: apps/demos/models.py:447
 msgid "select a ZIP file containing your demo"
-msgstr "Selecteer aan zip-bestand met uw demo"
+msgstr "selecteer aan zip-bestand met uw demo"
 
 #: apps/demos/models.py:455
 msgid ""
@@ -948,11 +948,11 @@ msgstr "beschadigde ZIP-bestand"
 
 #: apps/demos/models.py:582
 msgid "ZIP file contains a file that is too large: %(filename)s"
-msgstr "ZIP-bestand bevat een bestand dat te groot is:% (filename) s"
+msgstr "ZIP-bestand bevat een bestand dat te groot is: %(filename)s"
 
 #: apps/demos/models.py:592
 msgid "ZIP file contains an unacceptable file: %(filename)s"
-msgstr "ZIP-bestand bevat een onaanvaardbare bestand:% (filename) s"
+msgstr "ZIP-bestand bevat een onaanvaardbare bestand: %(filename)s"
 
 #: apps/demos/models.py:597
 msgid "HTML index not found in ZIP"
@@ -970,9 +970,8 @@ msgstr "toegang geweigerd"
 #: apps/landing/templates/landing/base_learn.html:9
 #: templates/base.html:78
 #: templates/base_compact.html:18
-#, fuzzy
 msgid "Demos"
-msgstr "MDN-demo's"
+msgstr "Demo's"
 
 #: apps/demos/templates/demos/delete.html:10
 #: apps/demos/templates/demos/delete_comment.html:10
@@ -1045,10 +1044,10 @@ msgid ""
 "<strong>deleted</strong>.</p> <p>This action <strong>cannot be "
 "undone</strong>."
 msgstr ""
-"<p> U staat op het punt <strong>% (demo_title) s </ strong> van de Demo "
-"Studio te verwijderen.</ p> De demo's notering, broncode en statistieken "
-"zullen <strong> worden verwijderd </ strong>. </ p> Deze actie <strong> kan "
-"niet ongedaan worden gemaakt </ strong>."
+"<p>U staat op het punt <strong>%(demo_title)s</strong> van de Demo Studio te "
+"verwijderen.</p> <p>De demo's notering, broncode en statistieken zullen "
+"<strong>worden verwijderd </strong>.</p> <p>Deze actie <strong>kan niet "
+"ongedaan worden gemaakt</strong>."
 
 #: apps/demos/templates/demos/delete.html:48
 #: apps/demos/templates/demos/detail.html:69
@@ -1072,7 +1071,7 @@ msgstr "Deze reactie verwijderen?"
 
 #: apps/demos/templates/demos/delete_comment.html:39
 msgid "<p>Are you sure that you would like to delete this comment?</p>"
-msgstr "<p>Weet u zeker dat u deze reactie wilt verwijderen?</ p>"
+msgstr "<p>Weet u zeker dat u deze reactie wilt verwijderen?</p>"
 
 #: apps/demos/templates/demos/delete_comment.html:51
 msgid "Delete comment"
@@ -1174,21 +1173,21 @@ msgstr "Bekijk meer demo's gemaakt met {tag_title}"
 #: apps/demos/templates/demos/elements/submission_thumb.html:15
 msgid "This demo has been viewed {count} time"
 msgid_plural "This demo has been viewed {count} times"
-msgstr[0] "Deze demo is {count} keer bekeken "
+msgstr[0] "Deze demo is {count} keer bekeken"
 msgstr[1] "Deze demo is {count} keer bekeken"
 
 #: apps/demos/templates/demos/detail.html:135
 msgid "{count} view"
 msgid_plural "{count} views"
-msgstr[0] "{Count} keer bekeken"
-msgstr[1] "{Count} keer bekeken"
+msgstr[0] "{count} keer bekeken"
+msgstr[1] "{count} keer bekeken"
 
 #: apps/demos/templates/demos/detail.html:136
 #: apps/demos/templates/demos/elements/submission_thumb.html:16
 msgid "{count} person liked this demo"
 msgid_plural "{count} people liked this demo"
-msgstr[0] "{Count} persoon beviel deze demo"
-msgstr[1] "{Count} mensen beviel deze demo"
+msgstr[0] "{count} persoon beviel deze demo"
+msgstr[1] "{count} mensen beviel deze demo"
 
 #: apps/demos/templates/demos/detail.html:136
 #, fuzzy
@@ -1197,48 +1196,57 @@ msgid_plural "{count} likes"
 msgstr[0] "{count} bevalt"
 msgstr[1] "{count} bevallen"
 
+# 100%
 #: apps/demos/templates/demos/detail.html:137
 #: apps/demos/templates/demos/elements/submission_thumb.html:17
 msgid "There is {count} comment for this demo"
 msgid_plural "There are {count} comments for this demo"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Er is {count} reactie voor deze demo"
+msgstr[1] "Er zijn {count} reacties voor deze demo"
 
+# 100%
 #: apps/demos/templates/demos/detail.html:137
 msgid "{comment_count} comments"
-msgstr ""
+msgstr "{comment_count} reacties"
 
+# 100%
 #: apps/demos/templates/demos/detail.html:143
 msgid "See the previous image"
-msgstr ""
+msgstr "Zie de vorige afbeelding"
 
+# 100%
 #: apps/demos/templates/demos/detail.html:143
 #: apps/demos/templates/demos/home.html:43
 #: apps/demos/templates/demos/elements/submission_listing.html:54
 msgid "Previous"
-msgstr ""
+msgstr "Vorige"
 
+# 100%
 #: apps/demos/templates/demos/detail.html:144
 msgid "See the next image"
-msgstr ""
+msgstr "Zie de volgende afbeelding"
 
+# 100%
 #: apps/demos/templates/demos/detail.html:177
 msgid "More About This Demo From The Author"
-msgstr ""
+msgstr "Meer over deze demo van de maker"
 
+# 100%
 #: apps/demos/templates/demos/detail.html:185
 msgid "No comments yet."
-msgstr ""
+msgstr "Nog geen reacties."
 
+# 100%
 #: apps/demos/templates/demos/detail.html:187
 msgid "{comments_total} comment so far"
 msgid_plural "{comments_total} comments so far"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{comments_total} reactie tot nu toe"
+msgstr[1] "{comments_total} reacties tot nu toe"
 
+# 100%
 #: apps/demos/templates/demos/detail.html:190
 msgid "<p>Why not <a href=\"#comment-post\">Add your own</a>?</p>"
-msgstr ""
+msgstr "<p>Waarom niet <a href=\"#comment-post\">Je eigen toevoegen</a>?</p>"
 
 #: apps/demos/templates/demos/detail.html:194
 msgid ""
@@ -1246,18 +1254,21 @@ msgid ""
 "href=\"/Special:UserLogin\">log in</a> to add your own.</p>"
 msgstr ""
 
+# 100%
 #: apps/demos/templates/demos/detail.html:211
 msgid "Add your comment"
-msgstr ""
+msgstr "Reactie toevoegen"
 
+# 100%
 #: apps/demos/templates/demos/detail.html:213
 #: apps/demos/templates/demos/elements/comments_tree.html:50
 msgid "Comment"
-msgstr ""
+msgstr "Reactie"
 
+# 100%
 #: apps/demos/templates/demos/detail.html:224
 msgid "Get the Source Code"
-msgstr ""
+msgstr "Verkrijg de broncode"
 
 #: apps/demos/templates/demos/detail.html:225
 msgid ""
@@ -1278,46 +1289,56 @@ msgstr ""
 msgid "Report a Problem"
 msgstr ""
 
+# 100%
 #: apps/demos/templates/demos/detail.html:263
 msgid "Demo is not working"
-msgstr ""
+msgstr "Demo werkt niet"
 
+# 100%
 #: apps/demos/templates/demos/detail.html:264
 msgid "Demo is inappropriate"
-msgstr ""
+msgstr "Demo is ongepast"
 
+# 100%
 #: apps/demos/templates/demos/detail.html:265
 msgid "Demo is not by this author"
-msgstr ""
+msgstr "Demo is niet van deze maker"
 
+# 100%
 #: apps/demos/templates/demos/feed_item_description.html:7
 msgid "Submitted by:"
-msgstr ""
+msgstr "Ingestuurd door:"
 
+# 100%
 #: apps/demos/templates/demos/feed_item_description.html:9
 msgid "Tagged as:"
-msgstr ""
+msgstr "Gelabeld met:"
 
+# 100%
 #: apps/demos/templates/demos/flag.html:37
 msgid "Flag this demo?"
-msgstr ""
+msgstr "Demo markeren?"
 
+# 100%
 #: apps/demos/templates/demos/flag.html:43
 msgid "Flag content"
-msgstr ""
+msgstr "Inhoud markeren"
 
+# 100%
 #: apps/demos/templates/demos/home.html:8
 #: apps/demos/templates/demos/listing_all.html:7
 msgid "Recent demos"
-msgstr ""
+msgstr "Recente demo's"
 
+# 100%
 #: apps/demos/templates/demos/home.html:10
 msgid "Featured demos"
-msgstr ""
+msgstr "Aanbevolen demo's"
 
+# 100%
 #: apps/demos/templates/demos/home.html:22
 msgid "Mozilla Demo Studio"
-msgstr ""
+msgstr "Mozilla Demo Studio"
 
 #: apps/demos/templates/demos/home.html:23
 msgid ""
@@ -1330,17 +1351,20 @@ msgid ""
 "standards and technologies that power the Web.</li> </ul>"
 msgstr ""
 
+# 100%
 #: apps/demos/templates/demos/home.html:39
 msgid "Featured Demos"
-msgstr ""
+msgstr "Aanbevolen demo's"
 
+# 100%
 #: apps/demos/templates/demos/home.html:43
 msgid "See the previous three demos"
-msgstr ""
+msgstr "Zie de vorige drie demo's"
 
+# 100%
 #: apps/demos/templates/demos/home.html:44
 msgid "See the next three demos"
-msgstr ""
+msgstr "Zie de volgende drie demo's"
 
 #: apps/demos/templates/demos/home.html:65
 #: apps/demos/templates/demos/listing_tag.html:53
@@ -1426,14 +1450,17 @@ msgstr ""
 msgid "Edit {demo_title}"
 msgstr ""
 
+# 76%
+# 100%
 #: apps/demos/templates/demos/submit.html:10
 #: apps/demos/templates/demos/submit.html:47
 #: apps/demos/templates/demos/submit.html:62
 #: apps/demos/templates/demos/submit_noauth.html:10
 #: apps/demos/templates/demos/submit_noauth.html:20
 #: apps/demos/templates/demos/submit_noauth.html:30
+#, fuzzy
 msgid "Submit a New Demo"
-msgstr ""
+msgstr "Demo versturen"
 
 #: apps/demos/templates/demos/submit.html:67
 msgid ""
@@ -1523,9 +1550,12 @@ msgid ""
 "Details</a>"
 msgstr ""
 
+# 76%
+# 100%
 #: apps/demos/templates/demos/submit.html:181
+#, fuzzy
 msgid "Submit demo"
-msgstr ""
+msgstr "Demo versturen"
 
 #: apps/demos/templates/demos/submit.html:183
 msgid "Discard Demo"
@@ -1637,9 +1667,11 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
+# 95%
+# 100%
 #: apps/demos/templates/demos/elements/comments_tree.html:40
 msgid "Delete this comment"
-msgstr ""
+msgstr "Deze reactie verwijderen"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:40
 msgid "Delete"
@@ -3025,21 +3057,19 @@ msgstr ""
 
 #: apps/landing/templates/landing/learn_html.html:114
 msgid "HTML5 Examples"
-msgstr ""
+msgstr "HTML5 Voorbeelden"
 
 #: apps/landing/templates/landing/learn_html.html:117
-#, fuzzy
 msgid "Web o’ Wonder"
-msgstr "Web Workers"
+msgstr "Web o’ Wonder"
 
 #: apps/landing/templates/landing/learn_html.html:119
 msgid "Demos from Mozilla developers and evangelists."
 msgstr ""
 
 #: apps/landing/templates/landing/learn_html.html:122
-#, fuzzy
 msgid "MDN Demo Studio"
-msgstr "Demo Studio"
+msgstr "MDN-demo Studio"
 
 #: apps/landing/templates/landing/learn_html.html:124
 msgid ""
@@ -3151,9 +3181,8 @@ msgid "Video tutorial on making pages interactive with JavaScript"
 msgstr ""
 
 #: apps/landing/templates/landing/learn_javascript.html:50
-#, fuzzy
 msgid "/en/JavaScript/Guide"
-msgstr "JavaScript"
+msgstr "/en/JavaScript/Guide"
 
 #: apps/landing/templates/landing/learn_javascript.html:50
 #, fuzzy
@@ -3730,9 +3759,8 @@ msgstr ""
 
 #: templates/403.html:3
 #: templates/403.html:5
-#, fuzzy
 msgid "Permission Denied"
-msgstr "toegang geweigerd"
+msgstr "Toegang geweigerd"
 
 #: templates/403.html:9
 msgid "<p>I'm sorry %(name)s, I'm afraid I can't do that.</p>"
@@ -3810,40 +3838,48 @@ msgstr ""
 msgid "About MDN"
 msgstr ""
 
+# 100%
 #: templates/base.html:113
 msgid "Help"
-msgstr ""
+msgstr "Help"
 
+# 100%
 #: templates/includes/lang_switcher.html:2
 msgid "Other languages:"
-msgstr ""
+msgstr "Andere talen:"
 
+# 100%
 #: templates/includes/lang_switcher.html:10
 msgid "Go"
-msgstr ""
+msgstr "Ga"
 
+# 100%
 #: templates/includes/login.html:2
 #: templates/includes/login.html:9
 msgid "Welcome back"
-msgstr ""
+msgstr "Welkom terug"
 
+# 100%
 #: templates/includes/login.html:3
 #: templates/includes/login.html:10
 msgid "Log out"
-msgstr ""
+msgstr "Uitloggen"
 
+# 100%
 #: templates/includes/login.html:7
 msgid "Become an MDN member"
-msgstr ""
+msgstr "Wordt een MDN-lid"
 
+# 100%
 #: templates/includes/video_player.html:3
 msgid "Close"
-msgstr ""
+msgstr "Sluiten"
 
+# 100%
 #. Label used before a list of links to download the video
 #: templates/includes/video_player.html:5
 msgid "Download Formats:"
-msgstr ""
+msgstr "Dowloadformaten:"
 
 #. Browsers and Plugins useful for viewing video content
 #: templates/includes/video_player.html:7
