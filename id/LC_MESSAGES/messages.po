@@ -1272,7 +1272,7 @@ msgstr ""
 #: apps/demos/templates/demos/home.html:23
 msgid ""
 "<p>Welcome to Mozilla Demo Studio, where developers like you can develop, "
-"share, demonstrate, and learn all about Web technologies. See what's "
+"share, demonstrate, and learn all about Web technologies. See what’s "
 "possible by exploring Demo Studio:</p> <ul> <li>View <strong>demos</strong> "
 "that showcase what HTML, CSS, and JavaScript can do.</li> <li>Inspect the "
 "<strong>source code</strong> for those demos so you can see how they "
@@ -1436,7 +1436,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/submit.html:125
 msgid ""
-"<ul> <li>Your demo's source code should be packaged inside a ZIP file.</li> "
+"<ul> <li>Your demo’s source code should be packaged inside a ZIP file.</li> "
 "<li>The main page of your demo should be a file named "
 "<code>index.html</code> in the root of the ZIP.</li> <li>Your demo should be "
 "built on client-side technology (HTML, CSS, JavaScript). Server-side "
@@ -1503,8 +1503,8 @@ msgstr ""
 #: apps/demos/templates/demos/submit_noauth.html:41
 msgid ""
 "<ul> <li>You must be prepared to <strong>provide the source code</strong> "
-"for your demo. Demos are hosted on the Demo Studio's servers.</li> <li>Your "
-"demo's source code must be available under an <strong>open license</strong>, "
+"for your demo. Demos are hosted on the Demo Studio’s servers.</li> <li>Your "
+"demo’s source code must be available under an <strong>open license</strong>, "
 "such as MPL, GPL, or BSD.</li> <li>Your demo should showcase <strong>open "
 "web technologies</strong>, such as HTML5 and CSS3.</li> <li>Your demo should "
 "support a wide range of <strong>modern web browsers</strong>, like Firefox, "
@@ -1513,7 +1513,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/submit_noauth.html:53
 msgid ""
-"<ul> <li>Your demo's source code should be packaged inside a <strong>ZIP "
+"<ul> <li>Your demo’s source code should be packaged inside a <strong>ZIP "
 "file</strong>.</li> <li>The main page of your demo should be a file named "
 "<strong><code>index.html</code></strong> in the root of the ZIP.</li> "
 "<li>Your demo should be built on <strong>client-side technology</strong> "
@@ -2480,7 +2480,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/learn.html:11
 msgid ""
-"<p>Want to learn to use the technologies that power the Web? <br>We've put "
+"<p>Want to learn to use the technologies that power the Web? <br>We’ve put "
 "together a great collection of resources to get you started.</p>"
 msgstr ""
 
@@ -2488,12 +2488,12 @@ msgstr ""
 msgid ""
 "<p><strong>HyperText Markup Language</strong> is the core syntax for putting "
 "information on the worldwide web. If you want to create or modify web "
-"pages, it's best if you learn HTML.</p>"
+"pages, it’s best if you learn HTML.</p>"
 msgstr ""
 
 #: apps/landing/templates/landing/learn.html:33
 msgid ""
-"<p><strong>Cascading Style Sheets</strong> is a language for describing the "
+"<p><strong>Cascading Style Sheets</strong> ​is a language for describing the "
 "appearance of web pages. To create good-looking web pages, you need to "
 "learn CSS in order to define the appearance and location of the HTML "
 "elements within the pages.</p>"
@@ -2502,7 +2502,7 @@ msgstr ""
 #: apps/landing/templates/landing/learn.html:39
 msgid ""
 "<p><strong>JavaScript</strong> (JS for short) is the programming language "
-"that enables web pages to respond to user interaction beyond the basic "
+"that enables web pages ​to respond to user interaction beyond the basic "
 "level provided by HTML links and forms.</p>"
 msgstr ""
 
@@ -2545,11 +2545,11 @@ msgstr ""
 
 #: apps/landing/templates/landing/learn_css.html:12
 msgid ""
-"<p class=\"intro\">CSS (<strong>Cascading Style Sheets</strong>) is a "
+"<p class=\"intro\">CSS (<strong>Cascading Style Sheets</strong>) ​is a "
 "language for describing the appearance of web pages. To create good-looking "
 "web pages, you need to learn CSS in order to define the appearance and "
 "location of the HTML elements within the pages.</p> <p>The links on this "
-"page lead to a variety of CSS tutorials and CSS training materials. Whether "
+"page lead to a variety of CSS tutorials and CSS training materials. ​Whether "
 "you are just starting out, learning the basics of CSS, or are an "
 "experienced web developer wanting to learn <strong>CSS3</strong> (the newest "
 "version of the standard) and CSS best practices, you can find helpful "
@@ -2603,7 +2603,7 @@ msgid "Adding a Touch of Style"
 msgstr ""
 
 #: apps/landing/templates/landing/learn_css.html:54
-msgid "A brief beginner's guide to styling web pages with CSS."
+msgid "A brief beginner’s guide to styling web pages with CSS."
 msgstr ""
 
 #: apps/landing/templates/landing/learn_css.html:57
@@ -2767,7 +2767,7 @@ msgstr ""
 msgid ""
 "This site discusses <strong>CSS3</strong>, latest, still-evolving version of "
 "CSS. Many CSS3 features are supported in various ways by modern browsers, "
-"but many users still have older browsers and so can't take advantage."
+"but many users still have older browsers and so can’t take advantage."
 msgstr ""
 
 #: apps/landing/templates/landing/learn_html.html:5
@@ -2779,7 +2779,7 @@ msgstr ""
 msgid ""
 "<p class=\"intro\">HTML (<strong>HyperText Markup Language</strong>) is the "
 "core syntax for putting information on the worldwide web. If you want to "
-"create or modify web pages, it's best if you learn HTML.</p> <p>The links on "
+"create or modify web pages, it’s best if you learn HTML.</p> <p>The links on "
 "this page lead to a variety of HTML tutorials and HTML training materials. "
 "Whether you are just starting out, learning the basics of HTML, or are an "
 "old hand at web development wanting to learn <strong>HTML5</strong> (the "
@@ -2844,8 +2844,8 @@ msgstr ""
 
 #: apps/landing/templates/landing/learn_html.html:58
 msgid ""
-"Use these challenges to hone your HTML skills (for example, \"Should I use an "
-"&lt;h2&gt; element or a &lt;strong&gt; element?\"), focusing on meaningful "
+"Use these challenges to hone your HTML skills (for example, “Should I use an "
+"&lt;h2&gt; element or a &lt;strong&gt; element?”), focusing on meaningful "
 "mark-up."
 msgstr ""
 
@@ -2970,7 +2970,7 @@ msgid "HTML5 Examples"
 msgstr ""
 
 #: apps/landing/templates/landing/learn_html.html:117
-msgid "Web o' Wonder"
+msgid "Web o’ Wonder"
 msgstr ""
 
 #: apps/landing/templates/landing/learn_html.html:119
@@ -3018,7 +3018,7 @@ msgid ""
 "<h2>Tired of learning on your own?<br>Want to join a community of people "
 "learning HTML and other open web technologies?</h2> <p>Consider signing up "
 "for free online peer study groups through <a href=\"http://p2pu.org/\">Peer-"
-"to-Peer University's<span title=\"Peer-to-Peer University\"></span></a> <a "
+"to-Peer University’s<span title=\"Peer-to-Peer University\"></span></a> <a "
 "href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a>. Share "
 "your discoveries, struggles, and victories with others who are learning the "
 "same things.</p>"
@@ -3028,7 +3028,7 @@ msgstr ""
 msgid ""
 "<p>These resources are created by forward-thinking companies and web "
 "developers who have embraced open standards and best practices for web "
-"development. If you think we've omitted a great resource, please tell us "
+"development. If you think we’ve omitted a great resource, please tell us "
 "about it in the <a href=\"/forums/viewforum.php?f=4\">Open Web Forum</a>. We "
 "want to share these resources with our international community, so we prefer "
 "ones that provide or allow translations, through an open content license "
@@ -3040,7 +3040,7 @@ msgstr ""
 msgid ""
 "This site discusses <strong>HTML5</strong>, the upcoming latest version of "
 "the standard. Many HTML5 features are supported by modern browsers, but many "
-"users still have older browsers and so can't take advantage."
+"users still have older browsers and so can’t take advantage."
 msgstr ""
 
 #: apps/landing/templates/landing/learn_javascript.html:5
@@ -3051,8 +3051,8 @@ msgstr ""
 #: apps/landing/templates/landing/learn_javascript.html:12
 msgid ""
 "<p class=\"intro\"><strong>JavaScript</strong> (JS for short) is the "
-"programming language that enables web pages to respond to user interaction "
-"beyond the basic level provided by HTML links and forms.</p> <p>The links "
+"programming language that enables web pages ​to respond to user interaction "
+"beyond the basic level provided by HTML links and forms.</p> <p>​The links "
 "on this page lead to a variety of JavaScript tutorials and JavaScript "
 "training materials. Whether you are just starting out, wanting to learn JS "
 "basics, or are an old hand, wanting to sharpen your skills, you can find "
@@ -3171,7 +3171,7 @@ msgid "Learning Advanced JavaScript"
 msgstr ""
 
 #: apps/landing/templates/landing/learn_javascript.html:98
-msgid "John Resig's guide to advanced JavaScript."
+msgid "John Resig’s guide to advanced JavaScript."
 msgstr ""
 
 #: apps/landing/templates/landing/learn_javascript.html:101
