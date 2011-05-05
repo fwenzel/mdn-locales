@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-04-26 17:25+0200\n"
-"PO-Revision-Date: 2011-04-27 18:13+0200\n"
+"PO-Revision-Date: 2011-05-05 23:34+0200\n"
 "Last-Translator: Benoit <benoit.leseul@gmail.com>\n"
 "Language-Team: none\n"
 "Language: fr\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Pootle 2.1.5\n"
+"X-Generator: Pootle 2.1.6\n"
 
 #: apps/landing/templates/landing/mobile.html:158
 msgid ""
@@ -336,7 +336,6 @@ msgstr ""
 "\"></span></a>. Partagez vos découvertes, vos luttes et vos victoires avec d'autres qui apprennent en même temps que vous.</p>"
 
 #: apps/landing/templates/landing/learn_html.html:143
-#, fuzzy
 msgid ""
 "<h2>Tired of learning on your own?<br>Want to join a community of people learning HTML and other open web technologies?</h2> <p>Consider signing up for free online peer study groups through <a href="
 "\"http://p2pu.org/\">Peer-to-Peer University's<span title=\"Peer-to-Peer University\"></span></a> <a href=\"http://p2pu.org/webcraft/course-listing\">School of Webcraft</a>. Share your discoveries, "
@@ -363,7 +362,6 @@ msgid "<li><a href=\"/logout\">Log out</a> to try again.</li>"
 msgstr "<li><a href=\"/logout\">Déconnectez-vous</a> pour réessayer.</li>"
 
 #: apps/landing/templates/landing/learn_javascript.html:12
-#, fuzzy
 msgid ""
 "<p class=\"intro\"><strong>JavaScript</strong> (JS for short) is the programming language that enables web pages to respond to user interaction beyond the basic level provided by HTML links and "
 "forms.</p> <p>The links on this page lead to a variety of JavaScript tutorials and JavaScript training materials. Whether you are just starting out, wanting to learn JS basics, or are an old hand, "
@@ -375,7 +373,6 @@ msgstr ""
 "p>"
 
 #: apps/landing/templates/landing/learn_css.html:12
-#, fuzzy
 msgid ""
 "<p class=\"intro\">CSS (<strong>Cascading Style Sheets</strong>) is a language for describing the appearance of web pages. To create good-looking web pages, you need to learn CSS in order to define "
 "the appearance and location of the HTML elements within the pages.</p> <p>The links on this page lead to a variety of CSS tutorials and CSS training materials. Whether you are just starting out, "
@@ -388,7 +385,6 @@ msgstr ""
 "ici des ressources utiles pour apprendre les meilleures pratiques en CSS.</p>"
 
 #: apps/landing/templates/landing/learn_html.html:12
-#, fuzzy
 msgid ""
 "<p class=\"intro\">HTML (<strong>HyperText Markup Language</strong>) is the core syntax for putting information on the worldwide web. If you want to create or modify web pages, it's best if you "
 "learn HTML.</p> <p>The links on this page lead to a variety of HTML tutorials and HTML training materials. Whether you are just starting out, learning the basics of HTML, or are an old hand at web "
@@ -404,7 +400,6 @@ msgid "<p><a href=\"/Special:UserRegistration\">Register</a> or <a href=\"/Speci
 msgstr "<p><a href=\"/Special:UserRegistration\">Inscrivez-vous</a> ou <a href=\"/Special:UserLogin\">connectez-vous</a> pour ajouter la vôtre.</p>"
 
 #: apps/landing/templates/landing/learn.html:33
-#, fuzzy
 msgid ""
 "<p><strong>Cascading Style Sheets</strong> is a language for describing the appearance of web pages. To create good-looking web pages, you need to learn CSS in order to define the appearance and "
 "location of the HTML elements within the pages.</p>"
@@ -413,12 +408,10 @@ msgstr ""
 "la position des différents éléments HTML de vos pages.</p>"
 
 #: apps/landing/templates/landing/learn.html:27
-#, fuzzy
 msgid "<p><strong>HyperText Markup Language</strong> is the core syntax for putting information on the worldwide web. If you want to create or modify web pages, it's best if you learn HTML.</p>"
 msgstr "<p><strong>HyperText Markup Language</strong> est la syntaxe de base des informations placées sur le web. Si vous voulez créer ou modifier des pages web, il vaut mieux connaître HTML.</p>"
 
 #: apps/landing/templates/landing/learn.html:39
-#, fuzzy
 msgid "<p><strong>JavaScript</strong> (JS for short) is the programming language that enables web pages to respond to user interaction beyond the basic level provided by HTML links and forms.</p>"
 msgstr ""
 "<p><strong>JavaScript</strong> (JS en abrégé) est le langage de programmation qui permet aux pages web de répondre aux interactions de l'utilisateur au-delà du niveau de base fourni par les liens "
@@ -450,7 +443,6 @@ msgid "<p>Tell us more about your demo, including the name, description and the 
 msgstr "<p>Dites-nous en plus sur votre démo, en nous donnant son nom, une description et les technologies utilisées. Indiquez aussi la liste des navigateurs dans lesquels vous l'avez testée.</p>"
 
 #: apps/landing/templates/landing/learn_html.html:150
-#, fuzzy
 msgid ""
 "<p>These resources are created by forward-thinking companies and web developers who have embraced open standards and best practices for web development. If you think we've omitted a great resource, "
 "please tell us about it in the <a href=\"/forums/viewforum.php?f=4\">Open Web Forum</a>. We want to share these resources with our international community, so we prefer ones that provide or allow "
@@ -481,12 +473,10 @@ msgid "<p>Upload a ZIP file of your source code, in which the main page of your 
 msgstr "<p>Envoyez un fichier  ZIP de votre code source, dans lequel la page principale de votre démo est appelée <code>index.html</code> dans le répertoire racine.</p>"
 
 #: apps/landing/templates/landing/learn.html:11
-#, fuzzy
 msgid "<p>Want to learn to use the technologies that power the Web? <br>We've put together a great collection of resources to get you started.</p>"
 msgstr "<p>Vous désirez connaître les technologies qui font marcher le Web ? <br>Nous avons rassemblé une belle collection de ressources pour commencer.</p>"
 
 #: apps/demos/templates/demos/home.html:23
-#, fuzzy
 msgid ""
 "<p>Welcome to Mozilla Demo Studio, where developers like you can develop, share, demonstrate, and learn all about Web technologies. See what's possible by exploring Demo Studio:</p> <ul> <li>View "
 "<strong>demos</strong> that showcase what HTML, CSS, and JavaScript can do.</li> <li>Inspect the <strong>source code</strong> for those demos so you can see how they work.</li> <li>Read "
@@ -525,7 +515,6 @@ msgstr ""
 "<strong>ne peut pas être annulée</strong>."
 
 #: apps/demos/templates/demos/submit_noauth.html:41
-#, fuzzy
 msgid ""
 "<ul> <li>You must be prepared to <strong>provide the source code</strong> for your demo. Demos are hosted on the Demo Studio's servers.</li> <li>Your demo's source code must be available under an "
 "<strong>open license</strong>, such as MPL, GPL, or BSD.</li> <li>Your demo should showcase <strong>open web technologies</strong>, such as HTML5 and CSS3.</li> <li>Your demo should support a wide "
@@ -536,7 +525,6 @@ msgstr ""
 "li><li>Votre démo doit fonctionner sur un large éventail de <strong>navigateurs modernes</strong> tels que Firefox, Chrome, Safari et Opera.</li></ul>"
 
 #: apps/demos/templates/demos/submit_noauth.html:53
-#, fuzzy
 msgid ""
 "<ul> <li>Your demo's source code should be packaged inside a <strong>ZIP file</strong>.</li> <li>The main page of your demo should be a file named <strong><code>index.html</code></strong> in the "
 "root of the ZIP.</li> <li>Your demo should be built on <strong>client-side technology</strong> (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your "
@@ -549,7 +537,6 @@ msgstr ""
 "votre démo tout contenu externe qui ne puisse pas être fourni sous une licence CC-BY-SA et fournir des liens vers les sites web de leurs auteurs.</li></ul>"
 
 #: apps/demos/templates/demos/submit.html:125
-#, fuzzy
 msgid ""
 "<ul> <li>Your demo's source code should be packaged inside a ZIP file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the ZIP.</li> <li>Your demo "
 "should be built on client-side technology (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use AJAX "
@@ -574,7 +561,6 @@ msgid "A Re-introduction to JavaScript"
 msgstr "Une réintroduction à JavaScript"
 
 #: apps/landing/templates/landing/learn_css.html:54
-#, fuzzy
 msgid "A brief beginner's guide to styling web pages with CSS."
 msgstr "Un guide de base pour l'habillage de pages web avec CSS."
 
@@ -1623,7 +1609,6 @@ msgid "JavaScript is a lightweight, object-oriented programming language, common
 msgstr "JavaScript est un langage orienté objet léger, habituellement utilisé pour scripter des comportements interactifs sur des pages et applications web."
 
 #: apps/landing/templates/landing/learn_javascript.html:98
-#, fuzzy
 msgid "John Resig's guide to advanced JavaScript."
 msgstr "Le guide de John Resig du JavaScript avancé"
 
@@ -2558,7 +2543,6 @@ msgid "This is not working for me"
 msgstr "Ça ne fonctionne pas chez moi"
 
 #: apps/landing/templates/landing/learn_css.html:155
-#, fuzzy
 msgid ""
 "This site discusses <strong>CSS3</strong>, latest, still-evolving version of CSS. Many CSS3 features are supported in various ways by modern browsers, but many users still have older browsers and "
 "so can't take advantage."
@@ -2567,7 +2551,6 @@ msgstr ""
 "mais de nombreux utilisateurs utilisent encore des navigateurs plus anciens et ne peuvent donc pas en profiter."
 
 #: apps/landing/templates/landing/learn_html.html:157
-#, fuzzy
 msgid ""
 "This site discusses <strong>HTML5</strong>, the upcoming latest version of the standard. Many HTML5 features are supported by modern browsers, but many users still have older browsers and so can't "
 "take advantage."
@@ -2657,7 +2640,6 @@ msgid "Use navigation bar, display demo in <iframe>"
 msgstr "Utiliser la barre de navigation, afficher la démo dans un <iframe>"
 
 #: apps/landing/templates/landing/learn_html.html:58
-#, fuzzy
 msgid "Use these challenges to hone your HTML skills (for example, \"Should I use an &lt;h2&gt; element or a &lt;strong&gt; element?\"), focusing on meaningful mark-up."
 msgstr "Utilisez ces challenges pour aiguiser vos compétences en HTML (par exemple, faut-il utiliser un élément &lt;h2&gt; ou &lt;strong&gt; ?), en se concentrant sur le balisage sémantique."
 
@@ -2752,7 +2734,6 @@ msgid "Web Workers provide a simple means for web content to run scripts in back
 msgstr "Les Web Workers fournissent une manière simple pour le contenu web d'exécuter des scripts à l'arrière-plan."
 
 #: apps/landing/templates/landing/learn_html.html:117
-#, fuzzy
 msgid "Web o' Wonder"
 msgstr "Web O' Wonder"
 
