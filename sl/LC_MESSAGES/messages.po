@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-14 07:26-0700\n"
-"PO-Revision-Date: 2011-05-12 10:31+0200\n"
+"PO-Revision-Date: 2011-05-12 18:03+0200\n"
 "Last-Translator: Vito <smolejv@gmx.net>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -637,11 +637,11 @@ msgstr "http://creativecommons.org/publicdomain/zero/1.0/"
 
 #: apps/demos/feeds.py:87
 msgid "MDN demos"
-msgstr "MDN demos"
+msgstr "Primeri MDN"
 
 #: apps/demos/feeds.py:88
 msgid "Demos submitted by MDN users"
-msgstr "Demos submitted by MDN users"
+msgstr "Primeri, ki so jih poslali uporabniki MDN"
 
 #: apps/demos/feeds.py:154
 msgid "MDN recent demos"
@@ -653,7 +653,7 @@ msgstr "Primeri, ki so jih avtorji nedavno poslali MDN"
 
 #: apps/demos/feeds.py:166
 msgid "MDN featured demos"
-msgstr "MDN featured demos"
+msgstr "Predstavljeni primeri za MDN"
 
 #: apps/demos/feeds.py:167
 msgid "Demos featured on MDN"
@@ -661,23 +661,23 @@ msgstr "Primeri, izbrani na MDN"
 
 #: apps/demos/feeds.py:181
 msgid "MDN demos tagged %s"
-msgstr "MDN demos tagged %s"
+msgstr "Primeri MDN, označeni z %s"
 
 #: apps/demos/feeds.py:184
 msgid "MDN demos tagged \"%s\""
-msgstr "MDN demos tagged \"%s\""
+msgstr "Primeri MDN, označeni z \"%s\""
 
 #: apps/demos/feeds.py:199
 msgid "%s's MDN demos"
-msgstr "MDN demos %s"
+msgstr "Primeri MDN  %s"
 
 #: apps/demos/feeds.py:214
 msgid "MDN demo search for \"%s\""
-msgstr "MDN demo search for \"%s\""
+msgstr "Iskanje po primerih MDN  za \"%s\""
 
 #: apps/demos/feeds.py:215
 msgid "Search results for demo submissions matching \"%s\""
-msgstr "Search results for demo submissions matching \"%s\""
+msgstr "Rezultati iskanja za primere \"% s\""
 
 #: apps/demos/forms.py:138
 msgid "Cannot process image"
@@ -697,7 +697,7 @@ msgstr[1] "leti"
 msgid "month"
 msgid_plural "months"
 msgstr[0] "mesec"
-msgstr[1] "months"
+msgstr[1] "mescev"
 
 #: apps/demos/helpers.py:219
 msgid "week"
@@ -771,7 +771,7 @@ msgstr "Oznaka \"%s\" ni v naboru opisanih oznak"
 
 #: apps/demos/models.py:201
 msgid "Please keep filesize under %s. Current filesize %s"
-msgstr "Velikost datoteke naj bo prosim pod %s. > Current filesize %s "
+msgstr "Velikost datoteke naj bo prosim pod %s. Trenutna velikost datoteke %s"
 
 #: apps/demos/models.py:296
 msgid "what is your demo's name?"
@@ -787,11 +787,11 @@ msgstr "v eni vrstici opišite svoj primer"
 
 #: apps/demos/models.py:304
 msgid "describe your demo in more detail (optional)"
-msgstr "opišite primer malo podrobnejel (po želji)"
+msgstr "opišite primer malo podrobneje (po želji)"
 
 #: apps/demos/models.py:311
 msgid "control how your demo is launched"
-msgstr "nadzorujte, kdaj je vaš primer izvvede"
+msgstr "nadzorujte, kdaj je vaš primer izvede"
 
 #: apps/demos/models.py:313
 msgid "Disable navigation bar, launch demo in a new window"
@@ -827,7 +827,7 @@ msgstr "Posnetek zaslona #5"
 
 #: apps/demos/models.py:349
 msgid "have a video of your demo in action? (optional)"
-msgstr "imate video posnetek, kako vaš primer dela? (neobvezno)"
+msgstr "imate video posnetek, kako vaš primer dela? (neobvezno) (neobvezno)"
 
 #: apps/demos/models.py:353
 msgid "select a ZIP file containing your demo"
@@ -938,11 +938,7 @@ msgstr "Odstraniti ta primer?"
 
 #: apps/demos/templates/demos/delete.html:40
 msgid "<p>You are about to remove <strong>%(demo_title)s</strong> from the Demo Studio.</p> <p>The Demo's listing, source code, and statistics will be <strong>deleted</strong>.</p> <p>This action <strong>cannot be undone</strong>."
-msgstr ""
-"<p> Nameravate <strong>odstraniti %(demo_title)s</strong> iz Demo Studia. "
-"</p><p> Vnos v seznam, izvorno kodo, in statistične podatke <strong>se bo "
-"izbrisalo</strong> . </p><p> Tega koraka <strong>ni mogoče "
-"razveljaviti.</strong>"
+msgstr "<p> Nameravate <strong>odstraniti %(demo_title)s</strong> iz Demo Studia. </p><p> Vnos v seznam, izvorno kodo, in statistične podatke <strong>se bo izbrisalo</strong> . </p><p>Tega koraka <strong>ni mogoče razveljaviti.</strong>"
 
 #: apps/demos/templates/demos/delete.html:48
 #: apps/demos/templates/demos/detail.html:58
@@ -1147,15 +1143,15 @@ msgstr "Komentar"
 
 #: apps/demos/templates/demos/detail.html:213
 msgid "Get the Source Code"
-msgstr "Get the Source Code"
+msgstr "Priskrbi izvorno kodo"
 
 #: apps/demos/templates/demos/detail.html:214
 msgid "Download the Source <span class=\"note\">%(file_ksize)s KB &middot; ZIP File</span>"
-msgstr "Download the Source <span class=\"note\">%(file_ksize)s KB &middot; ZIP File</span>"
+msgstr "Prenesi izvorno kodo <span class=\"note\">%(file_ksize)s KB &middot; ZIP datoteka</span>"
 
 #: apps/demos/templates/demos/detail.html:232
 msgid "This demo is released under the <a href=\"%(link)s\">%(title)s</a> license."
-msgstr "This demo is released under the <a href=\"%(link)s\">%(title)s</a> license."
+msgstr "Ta primer je izdan pod <a href=\"%(link)s\">%(title)s</a>> licenco."
 
 #: apps/demos/templates/demos/detail.html:252
 msgid "Demo is not working"
@@ -1171,28 +1167,28 @@ msgstr "Demo ni iz rok tega avtorja"
 
 #: apps/demos/templates/demos/feed_item_description.html:7
 msgid "Submitted by:"
-msgstr "Submitted by:"
+msgstr "Objavil:"
 
 #: apps/demos/templates/demos/feed_item_description.html:9
 msgid "Tagged as:"
-msgstr "Tagged as:"
+msgstr "Označeno kot:"
 
 #: apps/demos/templates/demos/flag.html:37
 msgid "Flag this demo?"
-msgstr "Flag this demo?"
+msgstr "Zaznamuj ta primer?"
 
 #: apps/demos/templates/demos/flag.html:43
 msgid "Flag content"
-msgstr "Flag content"
+msgstr "Vsebina zastavice"
 
 #: apps/demos/templates/demos/home.html:8
 #: apps/demos/templates/demos/listing_all.html:7
 msgid "Recent demos"
-msgstr "Recent demos"
+msgstr "Nedavni primeri"
 
 #: apps/demos/templates/demos/home.html:10
 msgid "Featured demos"
-msgstr "Featured demos"
+msgstr "Predstavljeni primeri"
 
 #: apps/demos/templates/demos/home.html:22
 msgid "Mozilla Demo Studio"
@@ -1297,7 +1293,7 @@ msgstr "Abonirajte obvestila za primere {display_name}"
 #: apps/demos/templates/demos/submit.html:45
 #: apps/demos/templates/demos/submit.html:60
 msgid "Edit {demo_title}"
-msgstr "Edit {demo_title}"
+msgstr "Uredi {demo_title}"
 
 #: apps/demos/templates/demos/submit.html:10
 #: apps/demos/templates/demos/submit.html:47
@@ -1306,7 +1302,7 @@ msgstr "Edit {demo_title}"
 #: apps/demos/templates/demos/submit_noauth.html:20
 #: apps/demos/templates/demos/submit_noauth.html:30
 msgid "Submit a New Demo"
-msgstr "Submit a New Demo"
+msgstr "Pošlji nov primer"
 
 #: apps/demos/templates/demos/submit.html:67
 msgid "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other web developers.</p> <p>Please complete the form below to ensure your demo is submitted to the Demo Studio successfully.</p>"
@@ -1330,7 +1326,7 @@ msgstr "Postavite se s svojim primerom"
 
 #: apps/demos/templates/demos/submit.html:107
 msgid "Provide at least one screenshot of your demo in action"
-msgstr "Preiložite vsak en posnetek, kako vaš primer dela."
+msgstr "Preložite vsak en posnetek, kako vaš primer dela."
 
 #: apps/demos/templates/demos/submit.html:116
 msgid "JPEG and PNG supported. Minimum size of 480x360."
@@ -1352,14 +1348,14 @@ msgstr "Kako pripravite svoj demo"
 #: apps/demos/templates/demos/submit.html:125
 msgid "<ul> <li>Your demoâ€™s source code should be packaged inside a ZIP file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the ZIP.</li> <li>Your demo should be built on client-side technology (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use AJAX to access them.</li> <li>To submit your demo, you need an <a href=\"%(signup_url)s\">MDN account</a>.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
 msgstr ""
-"<ul> <li>Izvorno kodo za vaš primer je treba pakirati v ZIP datoteko. "
+"<ul><li> Izvorno kodo za vaš primer je treba pakirati v ZIP datoteko. "
 "</li><li> Glavna stran vašega primera mora biti datoteka z imenom "
 "<code>index.html</code> v korenu ZIP. </li><li> Vaš primer morala biti "
 "zgrajen na tehnologiji odjemalca (HTML, CSS, JavaScript). Jezikov za "
 "strežniško stran, kot sta PHP in Ruby, se ne podpira. </li><li> Če vaš demo "
-"potrebuje zunanje vire, mora za dostop do njih uporabljati AJAX. </li> "
-"<li>Da lahko primer objavite morate imeti  <a href=\"%(signup_url)s\">MDN "
-"račun</a>. </li><li> V polju za podrobnosti navedite vsebine s tretje "
+"potrebuje zunanje vire, mora za dostop do njih uporabljati AJAX. </li><li> "
+"Če želite svoj primer objaviti, morate imeti <a href=\"%(signup_url)s\"> račun "
+"MDN</a> . </li><li> Navedite v polju za podrobnosti vsebine s tretje "
 "strani, ki jih ni mogoče licencirati pod licenco CC-BY-SA in vključite "
 "povezave do avtorjev spletnih straneh. </li></ul>"
 
@@ -1420,15 +1416,15 @@ msgstr ""
 "Vaš primer morala biti zgrajen na <strong>tehnologiji odjemalca</strong> "
 "(HTML, CSS, JavaScript). Jezikov za strežniško stran, kot sta PHP in Ruby, "
 "se ne podpira. </li><li> Če vaš demo potrebuje zunanje vire, mora za dostop "
-"do njih uporabljati <strong>AJAX</strong>. </li><li> V polju za podrobnosti "
+"do njih uporabljati <strong>AJAX</strong>. </li><li>  V polju za podrobnosti "
 "navedite vsebine s tretje strani, ki jih ni mogoče licencirati pod licenco "
 "CC-BY-SA in vključite povezave do avtorjev spletnih straneh. </li></ul>"
 
 #: apps/demos/templates/demos/submit_noauth.html:65
 msgid "<p>To submit your demo, you need an <strong><a href=\"%(signup_url)s\">MDN account</a></strong>.</p>"
 msgstr ""
-" <p>Da lahko objavite svoj primer, morate imeti <strong><a href=\"%"
-"(signup_url)s\">račun MDN</a></strong> . </p>"
+"<p>Da lahko objavite svoj primer, morate imeti <strong><a href=\"%"
+"(signup_url)s\">račun MDN</a></strong>.</p>"
 
 #: apps/demos/templates/demos/submit_noauth.html:70
 msgid "Create an Account"
@@ -2207,7 +2203,7 @@ msgid "Learn more about <a href=\"%(devmo_mobile)s\">Fennec</a> and mobile-speci
 msgstr ""
 "Preberite več o <a href=\"%(devmo_mobile)s\">Fennec</a> in konkretni "
 "tehnologiji za mobilne naprave, kot je na primer <a href=\"%"
-"(devmo_geo)s\">geolokacija</a>.</p>"
+"(devmo_geo)s\">geolokacija</a> . </p>"
 
 #: apps/landing/templates/landing/home.html:140
 msgid "<a href=\"%(builder_url)s\">Build your own add-ons</a> and discuss them with the <a href=\"%(dev_url)s\">add-on developer community</a>."
@@ -2251,7 +2247,7 @@ msgstr "Kako ustvarjati razširitve, teme in vstavke za Firefox in Thunderbird."
 
 #: apps/landing/templates/landing/home.html:201
 msgid "/en/mobile"
-msgstr "[fuzzy]/en/Mobile"
+msgstr "/en/Mobile"
 
 #: apps/landing/templates/landing/home.html:201
 msgid "Developing for Mobile"
@@ -2531,7 +2527,7 @@ msgstr "Pridružite se spletnim razpravam!"
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:38
 msgid "Awesome <span class=\"web\">Web</span> Demos"
-msgstr "Awesome <span class=\"web\">Web</span> Demos"
+msgstr "Ogleda vredni <span class=\"web\">spletni</span> primeri"
 
 #: apps/landing/templates/landing/web.html:43
 msgid "Web O' Wonder"
@@ -2556,7 +2552,7 @@ msgstr "Preberite več o razvojnih funkcijah in najnovejših tehnologijah v čla
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:60
 msgid "Popular <span class=\"web\">Web</span> Documentation"
-msgstr "Priljubljena<span class=\"web\">spletna</span> dokumentacija "
+msgstr "Priljubljena <span class=\"web\">spletna</span> dokumentacija "
 
 #: apps/landing/templates/landing/web.html:66
 msgid "Find out what HTML5 is really all about and how you can develop for a better Web through open standards."
@@ -2572,9 +2568,7 @@ msgstr "Vse, kar potrebujete, boste našli v referenčni dokumentaciji za CSS in
 
 #: apps/landing/templates/landing/web.html:78
 msgid "The DOM is the architecture for Web documents; learn how to use the DOM and its API to look at and manipulate Web content."
-msgstr ""
-"DOM je arhitektura za spletne dokumente; naučite se, kako uporabljati DOM in "
-"API za DOM, da si boste lahko ogledovali in manipulirali spletne vsebine."
+msgstr "DOM je arhitektura za spletne dokumente; naučite se, kako uporabljati DOM in API za DOM, da si boste lahko ogledovali in in manipulirali spletne vsebine."
 
 #: apps/landing/templates/landing/web.html:81
 msgid "/en/Web_Development"
