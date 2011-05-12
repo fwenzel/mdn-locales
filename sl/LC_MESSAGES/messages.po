@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-14 07:26-0700\n"
-"PO-Revision-Date: 2011-05-12 18:03+0200\n"
+"PO-Revision-Date: 2011-05-12 18:19+0200\n"
 "Last-Translator: Vito <smolejv@gmx.net>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -266,7 +266,7 @@ msgstr "http://www.w3.org/TR/css3-fonts/"
 
 #: apps/demos/__init__.py:114
 msgid "Forms"
-msgstr "Predloge"
+msgstr "Obrazci"
 
 #: apps/demos/__init__.py:115
 msgid "Form elements and attributes in HTML5 provide a greater degree of semantic mark-up than HTML4 and remove a great deal of the need for tedious scripting and styling that was required in HTML4."
@@ -692,24 +692,32 @@ msgid "year"
 msgid_plural "years"
 msgstr[0] "leto"
 msgstr[1] "leti"
+msgstr[2] "leta"
+msgstr[3] "let"
 
 #: apps/demos/helpers.py:218
 msgid "month"
 msgid_plural "months"
 msgstr[0] "mesec"
-msgstr[1] "mescev"
+msgstr[1] "mesca"
+msgstr[2] "mesci"
+msgstr[3] "mescev"
 
 #: apps/demos/helpers.py:219
 msgid "week"
 msgid_plural "weeks"
 msgstr[0] "teden"
 msgstr[1] "tedna"
+msgstr[2] "tedni"
+msgstr[3] "tednov"
 
 #: apps/demos/helpers.py:220
 msgid "day"
 msgid_plural "days"
 msgstr[0] "dan"
-msgstr[1] "dni"
+msgstr[1] "dneva"
+msgstr[2] "dni"
+msgstr[3] "dni"
 
 #: apps/demos/helpers.py:228
 msgid "%(number)d %(type)s"
@@ -719,43 +727,57 @@ msgstr "%(number)d %(type)s"
 msgid "%(number)d year ago"
 msgid_plural "%(number)d years ago"
 msgstr[0] "Pred %(number)d letom"
-msgstr[1] "Pred %(number)d letu"
+msgstr[1] "Pred %(number)d leti"
+msgstr[2] "Pred %(number)d leti"
+msgstr[3] "Pred %(number)d leti"
 
 #: apps/demos/helpers.py:298
 msgid "%(number)d month ago"
 msgid_plural "%(number)d months ago"
 msgstr[0] "Pred %(number)d mescem"
 msgstr[1] "Pred %(number)d mesci"
+msgstr[2] "Pred %(number)d mesci"
+msgstr[3] "Pred %(number)d mesci"
 
 #: apps/demos/helpers.py:300
 msgid "%(number)d week ago"
 msgid_plural "%(number)d weeks ago"
 msgstr[0] "Pred %(number)d tednom"
 msgstr[1] "Pred %(number)d tedni"
+msgstr[2] "Pred %(number)d tedni"
+msgstr[3] "Pred %(number)d tedni"
 
 #: apps/demos/helpers.py:302
 msgid "%(number)d day ago"
 msgid_plural "%(number)d days ago"
 msgstr[0] "Pred %(number)d dnevom"
 msgstr[1] "Pred %(number)d dnevi"
+msgstr[2] "Pred %(number)d dnevi"
+msgstr[3] "Pred %(number)d dnevi"
 
 #: apps/demos/helpers.py:304
 msgid "%(number)d hour ago"
 msgid_plural "%(number)d hours ago"
 msgstr[0] "Pred %(number)d uro"
 msgstr[1] "Pred %(number)d urami"
+msgstr[2] "Pred %(number)d urami"
+msgstr[3] "Pred %(number)d urami"
 
 #: apps/demos/helpers.py:306
 msgid "%(number)d minute ago"
 msgid_plural "%(number)d minutes ago"
 msgstr[0] "Pred %(number)d minuto"
 msgstr[1] "Pred %(number)d minutami"
+msgstr[2] "Pred %(number)d minutami"
+msgstr[3] "Pred %(number)d minutami"
 
 #: apps/demos/helpers.py:308
 msgid "%(number)d second ago"
 msgid_plural "%(number)d seconds ago"
 msgstr[0] "Pred %(number)d sekundo"
 msgstr[1] "Pred %(number)d sekundami"
+msgstr[2] "Pred %(number)d sekundami"
+msgstr[3] "Pred %(number)d sekundami"
 
 #: apps/demos/helpers.py:362
 msgid "Today at %s"
@@ -1065,12 +1087,16 @@ msgid "This demo has been viewed {count} time"
 msgid_plural "This demo has been viewed {count} times"
 msgstr[0] "Ta primer so si ogledali {count}-krat"
 msgstr[1] "Ta primer so si ogledali {count}-krat"
+msgstr[2] "Ta primer so si ogledali {count}-krat"
+msgstr[3] "Ta primer so si ogledali {count}-krat"
 
 #: apps/demos/templates/demos/detail.html:124
 msgid "{count} view"
 msgid_plural "{count} views"
 msgstr[0] "{count} ogled"
-msgstr[1] "{count} ogledov"
+msgstr[1] "{count} ogleda"
+msgstr[2] "{count} ogledi"
+msgstr[3] "{count} ogledov"
 
 #: apps/demos/templates/demos/detail.html:125
 #: apps/demos/templates/demos/elements/submission_thumb.html:16
@@ -1078,19 +1104,25 @@ msgid "{count} person liked this demo"
 msgid_plural "{count} people liked this demo"
 msgstr[0] "{count} osebi je bil ta primer všeč"
 msgstr[1] "{count} osebam je bil ta primer všeč"
+msgstr[2] "{count} osebam je bil ta primer všeč"
+msgstr[3] "{count} osebam je bil ta primer všeč"
 
 #: apps/demos/templates/demos/detail.html:125
 msgid "{count} like"
 msgid_plural "{count} likes"
 msgstr[0] "{count} je všeč"
 msgstr[1] "{count} je všeč"
+msgstr[2] "{count} je všeč"
+msgstr[3] "{count} je všeč"
 
 #: apps/demos/templates/demos/detail.html:126
 #: apps/demos/templates/demos/elements/submission_thumb.html:17
 msgid "There is {count} comment for this demo"
 msgid_plural "There are {count} comments for this demo"
 msgstr[0] "Ta primer ima {count} komentar"
-msgstr[1] "Ta primer ima {count} komentarjev"
+msgstr[1] "Ta primer ima {count} komentarja"
+msgstr[2] "Ta primer ima {count} komentarje"
+msgstr[3] "Ta primer ima {count} komentarjev"
 
 #: apps/demos/templates/demos/detail.html:126
 msgid "{comment_count} comments"
@@ -1122,7 +1154,9 @@ msgstr "Brez komentarjev."
 msgid "{comments_total} comment so far"
 msgid_plural "{comments_total} comments so far"
 msgstr[0] "{comments_total} komentar doslej"
-msgstr[1] "{comments_total} komentarjev doslej"
+msgstr[1] "{comments_total} komentarja doslej"
+msgstr[2] "{comments_total} komentarje doslej"
+msgstr[3] "{comments_total} komentarjev doslej"
 
 #: apps/demos/templates/demos/detail.html:179
 msgid "<p>Why not <a href=\"#comment-post\">Add your own</a>?</p>"
@@ -1506,7 +1540,9 @@ msgstr "Iskanje"
 msgid "{count} Demo"
 msgid_plural "{count} Demos"
 msgstr[0] "{count} primer"
-msgstr[1] "{count} primerov"
+msgstr[1] "{count} primera"
+msgstr[2] "{count} primeri"
+msgstr[3] "{count} primerov"
 
 #: apps/demos/templates/demos/elements/submission_listing.html:11
 msgid "You are viewing up and coming demos"
@@ -1634,11 +1670,11 @@ msgstr "(večkratne)"
 #: templates/base.html:77
 #: templates/base_compact.html:26
 msgid "Doc Center"
-msgstr "Dok center"
+msgstr "Središče navodil"
 
 #: apps/docs/templates/docs/docs.html:17
 msgid "Search MDN Documentation"
-msgstr "Išči po dokumentaciji MDN"
+msgstr "Išči po navodilih MDN"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/docs/templates/docs/docs.html:28
@@ -1659,7 +1695,7 @@ msgstr "HTML"
 
 #: apps/docs/templates/docs/docs.html:33
 msgid "HyperText Markup Language, the core language of the web."
-msgstr "HyperText Markup Language, osrednji jezik spleta."
+msgstr "Hipertekstni označevalni jezik (HTML), osrednji jezik spleta."
 
 #: apps/docs/templates/docs/docs.html:36
 #: apps/docs/templates/docs/glossary.html:7
@@ -1700,7 +1736,9 @@ msgstr "CSS"
 
 #: apps/docs/templates/docs/docs.html:45
 msgid "Cascading Style Sheets provide advanced layout and formatting of web content."
-msgstr "Prekrivni slogi (Cascading Style Sheets) omogočajo napreden videz in oblikovanje spletne vsebine."
+msgstr ""
+"Prekrivni slogi - Cascading Style Sheets ali CSS - omogočajo napreden videz "
+"in oblikovanje spletne vsebine."
 
 #: apps/docs/templates/docs/docs.html:48
 #: apps/docs/templates/docs/glossary.html:8
@@ -1732,7 +1770,9 @@ msgstr "AJAX"
 
 #: apps/docs/templates/docs/docs.html:53
 msgid "\"Asynchronous JavaScript and XML\" is a term that describes the use of all these technologies together to create powerful web applications."
-msgstr "\"Asinhroni JavaScript in XML (\"Asynchronous JavaScript and XML\") je izraz, ki opisuje uporabo vseh navedenih tehnologij, s katerimi lahko ustvarjate zmogljive spletne aplikacije."
+msgstr ""
+"\"Asinhroni JavaScript in XML\" je izraz, ki opisuje uporabo vseh navedenih "
+"tehnologij, s katerimi lahko ustvarjate zmogljive spletne aplikacije."
 
 #. Please escape HTML entities here, like &amp;
 #: apps/docs/templates/docs/docs.html:59
@@ -1815,7 +1855,7 @@ msgstr "/en/Creating_OpenSearch_plugins_for_Firefox"
 
 #: apps/docs/templates/docs/docs.html:93
 msgid "Search engine plugins"
-msgstr "Vstavki za iskalnike "
+msgstr "Vstavki za iskalnike"
 
 #: apps/docs/templates/docs/docs.html:99
 #: apps/landing/templates/landing/home.html:149
@@ -1871,7 +1911,7 @@ msgstr "Dok dneva:"
 
 #: apps/docs/templates/docs/docs.html:129
 msgid "Modified by %(author)s on %(updated)s"
-msgstr "Spremenil %(avtor)s dne %(updated)s"
+msgstr "Spremenil %(author)s - %(updated)s"
 
 #: apps/docs/templates/docs/glossary.html:9
 msgid "/en/SVG"
@@ -1971,7 +2011,7 @@ msgstr "Naročite se"
 
 #: apps/landing/templates/landing/addons.html:24
 msgid "Join the Add-ons discussions!"
-msgstr "Pridružite se razpravam o dodatkih"
+msgstr "Pridružite se razpravam o dodatkih!"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/addons.html:38
@@ -2055,7 +2095,9 @@ msgstr "Program za pakiranje dodatkov"
 
 #: apps/landing/templates/landing/addons.html:105
 msgid "Auto-generate add-on packaging by entering basic info and picking UI parts. Get working without setup."
-msgstr "Avtomatično ustvarite embalažo za svoj dodatek, vnesti morate samo osnovne podatke in izbrati dele. Začni z delom brez nastavitev."
+msgstr ""
+"Avtomatično ustvarite embalažo za svoj dodatek, vnesti morate samo osnovne "
+"podatke in izbrati dele za UI. Začni z delom brez nastavitev."
 
 #: apps/landing/templates/landing/addons.html:108
 msgid "Add-on Validator"
@@ -2090,7 +2132,9 @@ msgstr "Najnovejše razprave iz naših forumov o <span class=\"addons\">Dodatkih
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/addons.html:150
 msgid "Latest <span class=\"addons\">Add-ons</span> Comments from Our Community:"
-msgstr "Najnovejši komentarji iz naših forumov o <span class=\"addons\">Dodatkih</span>:"
+msgstr ""
+"Najnovejši komentarji iz naše skupnosti o <span "
+"class=\"addons\">Dodatkih</span>:"
 
 #: apps/landing/templates/landing/discussions.html:6
 msgid "%(authorlink)s wrote %(summary)s"
@@ -2128,7 +2172,7 @@ msgstr "Lahko začnete kar tukaj"
 
 #: apps/landing/templates/landing/home.html:22
 msgid "Already a member?"
-msgstr "Ste že član?"
+msgstr "Že član?"
 
 #: apps/landing/templates/landing/home.html:23
 msgid "Customize your profile & fine-tune your participation within MDN."
@@ -2142,7 +2186,7 @@ msgstr "Prijava"
 #: apps/landing/templates/landing/home.html:45
 #: apps/landing/templates/landing/home.html:54
 msgid "School of Webcraft"
-msgstr "Šola čarovništva"
+msgstr "Šola spletnega čarovništva"
 
 #: apps/landing/templates/landing/home.html:47
 #: apps/landing/templates/landing/home.html:84
@@ -2152,11 +2196,18 @@ msgstr "Firefox 4 Beta"
 #: apps/landing/templates/landing/home.html:48
 #: apps/landing/templates/landing/home.html:99
 msgid "Addons Builder Preview"
-msgstr "Gradilnik za dodatke - predogled"
+msgstr "Gradilnik dodatkov - predogled"
 
 #: apps/landing/templates/landing/home.html:56
 msgid "Mozilla and <a href=\"%(p2pu)s\">P2PU</a> are creating the <a href=\"%(p2pu_drumbeat)s\">School of Webcraft</a>, a powerful new way to teach and learn web developer skills. Classes are globally accessible, 100%% free, and powered entirely by learners, mentors and contributors like you people. Our goal: a vibrant, peer-led system that helps people around the world easily access and build careers on open web technology."
-msgstr "Mozilla in <a href=\"%(p2pu)s\">P2PU</a> odpirata <a href=\"%(p2pu_drumbeat)s\">Šolo čarovništva</a> , močan nov pristop k poučevanju in učenju veščin za spletne razvijalce.  Razredi so globalno dostopni, 100%% brezplačni, v njih pa se dobivajo izključno učenci, mentorji in sodelavci, kot ste vi sami. Naš cilj: živahen, strokovno voden sistem, ki pomaga ljudem po vsem svetu, na enostaven način začeti in graditi kariero na odprti spletni tehnologiji."
+msgstr ""
+"Mozilla in <a href=\"%(p2pu)s\">P2PU</a> odpirata <a href=\"%"
+"(p2pu_drumbeat)s\">Šolo spletnega čarovništva</a> , zmogljiv nov pristop k "
+"poučevanju in učenju veščin spletnega razvijanja.  Razredi so globalno "
+"dostopni, 100%% brezplačni, v njih se dobivajo izključno učenci, mentorji in "
+"sodelavci, kot ste sami. Naš cilj: živahen, strokovno voden sistem, ki "
+"pomaga ljudem po svetu enostavno dostopati in graditi kariere na tehnologiji "
+"odprtega spleta."
 
 #: apps/landing/templates/landing/home.html:64
 #: apps/landing/templates/landing/home.html:78
@@ -2167,7 +2218,12 @@ msgstr "Več"
 
 #: apps/landing/templates/landing/home.html:72
 msgid "Mozilla continues to lead the charge in the adoption of HTML5 and other evolving open Web technologies. Find out more about the <a href=\"%(devmo_html5)s\">HTML5 spec</a> and the latest enhancements in HTML5, CSS3 and other <a href=\"%(devmo_fx4dev)s\">developer features for Firefox 4</a>."
-msgstr "Mozilla je še dalje na čelu vseh, ki se zavzemajo za sprejetje HTML5 in drugih razvijajočih odprtih spletnih tehnologij. Preberite več o <a href=\"%(devmo_html5)s\">specifikacijah za HTML5</a> in o najnovejših izboljšavah v HTML5, CSS3 in drugih <a href=\"%(devmo_fx4dev)s\">razvojnih tehnologijah za Firefox 4</a>."
+msgstr ""
+"Mozilla z naskokom nadaljuje vodstvo v sprejemanju HTML5 in drugih "
+"razvijajočih se odprtih spletnih tehnologij. Preberite več o <a href=\"%"
+"(devmo_html5)s\">specifikacijah za HTML5</a> in o najnovejših izboljšavah v "
+"HTML5, CSS3 in drugih <a href=\"%(devmo_fx4dev)s\">razvojnih tehnologijah za "
+"Firefox 4</a>."
 
 #: apps/landing/templates/landing/home.html:72
 #: apps/landing/templates/landing/home.html:166
@@ -2176,11 +2232,20 @@ msgstr "/en/Firefox_4_for_developers"
 
 #: apps/landing/templates/landing/home.html:86
 msgid "Test the <a href=\"%(fx4_features)s\">next version of Firefox</a> and help us make the world's best browser even better. Firefox 4 advances the modern web and we have a <a href=\"%(fx4_tech)s\">big chart full of check marks</a> to prove it."
-msgstr "Testirajte <a href=\"%(fx4_features)s\">najnovejšo različico Firefoxa</a> in nam pomagajte, najboljši brskalnik na svetu še izboljšati.  Firefox 4 predstavlja napredek za dandanašnji splet in za dokaz imamo <a href=\"%(fx4_tech)s\">velik grafikon, ki je poln kljukic</a> dokazati."
+msgstr ""
+"Testirajte <a href=\"%(fx4_features)s\">najnovejšo različico Firefoxa</a> in "
+"nam pomagajte, najboljši brskalnik na svetu še izboljšati. Firefox 4 "
+"predstavlja napredek za dandanašnji splet in za dokaz imamo <a href=\"%"
+"(fx4_tech)s\">velik grafikon, ki je poln kljukic</a> dokazati."
 
 #: apps/landing/templates/landing/home.html:101
 msgid "Use Add-ons Builder to quickly and easily develop an extension for Firefox using common web technologies. There is a <a href=\"%(tutorial)s\">tutorial</a> to get you started and a <a href=\"%(api)s\">variety of APIs in the core library</a> to add functionality to Firefox."
-msgstr "Uporabite Gradnik, da si ob uporabi običajnih spletnih tehnologij hitro in enostavno razvijete razširitev za Firefox. Na razpolago je<a href=\"%(tutorial)s\">učni primer</a> za začetnike in <a href=\"%(api)s\">množica APIs v osrednji knjižnici</a>, s katerimi lahko Firefoxu dodajate funkcionalnost."
+msgstr ""
+"Uporabite Gradnik za dodatke, da si ob uporabi običajnih spletnih tehnologij "
+"hitro in enostavno razvijete razširitev za Firefox. Na razpolago je<a "
+"href=\"%(tutorial)s\">učni primer</a> za začetnike in <a href=\"%"
+"(api)s\">množica APIs v osrednji knjižnici</a>, s katerimi lahko Firefoxu "
+"dodajate funkcionalnost."
 
 #: apps/landing/templates/landing/home.html:116
 msgid "News & Updates"
@@ -2192,7 +2257,7 @@ msgstr "Zanimive novice in posodobitve za razvijalce Mozille"
 
 #: apps/landing/templates/landing/home.html:120
 msgid "Docs"
-msgstr "Dokumentacija"
+msgstr "Navodila"
 
 #: apps/landing/templates/landing/home.html:122
 msgid "Key Topics for <a href=\"%(web_url)s\" class=\"web\">Web</a> Developers"
@@ -2215,15 +2280,15 @@ msgstr "Oglejte si, kako lahko <a href=\"%(devmo_participate)s\">sodelujete</a> 
 
 #: apps/landing/templates/landing/home.html:170
 msgid "See what's new for web developers in the latest version of Firefox"
-msgstr "Poglejte si, kaj je novega za spletne razvijalce v najnovejši različici Firefox"
+msgstr "Oglejte si novosti za spletne razvijalce v najnovejši različici Firefox"
 
 #: apps/landing/templates/landing/home.html:174
 msgid "Popular Docs"
-msgstr "Priljubljene dokumentacije"
+msgstr "Priljubljena navodila"
 
 #: apps/landing/templates/landing/home.html:178
 msgid "Hypertext Markup Language, the core technology of the web."
-msgstr "Hypertext Markup Language, osrednja spletna tehnologija."
+msgstr "Hipertekst - HTML -,  osrednja spletna tehnologija. "
 
 #: apps/landing/templates/landing/home.html:181
 msgid "CSS Reference"
@@ -2247,7 +2312,7 @@ msgstr "Kako ustvarjati razširitve, teme in vstavke za Firefox in Thunderbird."
 
 #: apps/landing/templates/landing/home.html:201
 msgid "/en/mobile"
-msgstr "/en/Mobile"
+msgstr "/en/mobile"
 
 #: apps/landing/templates/landing/home.html:201
 msgid "Developing for Mobile"
@@ -2267,11 +2332,11 @@ msgstr "Vse od prijave napake do njene rešitve"
 
 #: apps/landing/templates/landing/home.html:215
 msgid "Be Heard."
-msgstr "Naj se vas sliši. "
+msgstr "Naj se vas sliši."
 
 #: apps/landing/templates/landing/home.html:218
 msgid "Get Started Today!"
-msgstr "Začnite danes!"
+msgstr "Začnite še danes!"
 
 #: apps/landing/templates/landing/mobile.html:16
 msgid "Welcome to the Mobile Developer Community:"
@@ -2316,7 +2381,7 @@ msgstr "Preberite, kako uporabljati <a href=\"%(geo_url)s\"> API za geolokacijo<
 
 #: apps/landing/templates/landing/mobile.html:77
 msgid "Help build Firefox for Mobile"
-msgstr "Pomoč razvijati Firefox za mobilne naprave"
+msgstr "Pomagajte pri razvoju Firefoxa za mobilne naprave"
 
 #: apps/landing/templates/landing/mobile.html:79
 msgid "Your help is vital to the success of Firefox. Provide feedback on our <a href=\"%(irc_url)s\">IRC channel</a>, <a href=\"%(meeting_url)s\">join our Wednesday development meeting</a>, or even <a href=\"%(bugzilla_url)s\">file some bugs</a>."
@@ -2348,11 +2413,13 @@ msgstr "Fennec"
 
 #: apps/landing/templates/landing/mobile.html:123
 msgid "Pre-Alpha Fennec and HTML5 Demos"
-msgstr "Pres-Alfa Fennec in demonstracije HTML5"
+msgstr "Pred-Alfa Fennec in primeri HTML5"
 
 #: apps/landing/templates/landing/mobile.html:124
 msgid "See Stuart demo HTML5 capabilities on pre-alpha Fennec. Learn about the purpose and goals behind the development of Firefox 4 for mobile."
-msgstr "Oglejte si Stuartov demo možnosti HTML5 na Fennec pred-alfa. Seznanite se z nameni in cilji razvoja Firefox 4 za mobilne naprave."
+msgstr ""
+"Oglejte si Stuartov primer zmožnosti HTML5 na Fennec pred-alfa. Seznanite se "
+"z nameni in cilji razvoja Firefox 4 za mobilne naprave."
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/mobile.html:136
@@ -2365,19 +2432,30 @@ msgstr "Firefox za mobilne naprave: Kaj je sedaj pred nami"
 
 #: apps/landing/templates/landing/mobile.html:142
 msgid "The projects and planning never stops. We're cooking up some amazing new features and improvements for our next major release. Check it out and see how you can help us continue to make the world's best mobile Web browser."
-msgstr "Projektov in načrtov ni nikoli konec. Za našo naslednjo večjo izdajo kuhamo nekaj prima novih funkcij in izboljšav.  Oglejte si jih in premislite, kako nam lahko pomagate najboljši spletni brskalnik na svetu za mobilne naprave še izboljšati."
+msgstr ""
+"Projektov in načrtov ni nikoli konec. Za našo naslednjo večjo izdajo kuhamo "
+"nekaj prima novih funkcij in izboljšav. Oglejte si jih in premislite, kako "
+"nam lahko pomagate najboljši spletni brskalnik na svetu za mobilne naprave "
+"še izboljšati."
 
 #: apps/landing/templates/landing/mobile.html:150
 msgid "\"HTML5 is Great for Mobile, Developers Say\""
-msgstr "\"HTML5 je za mobilne naprave prima, pravijo razvijalci\""
+msgstr "\"HTML5 je za Mobi krasen, pravijo razvijalci\""
 
 #: apps/landing/templates/landing/mobile.html:152
 msgid "Hear from other developers about the advantages of HTML5 and developing for the mobile Web in this article from ReadWriteWeb:"
-msgstr "Preberite si v tem članku iz ReadWriteWeb, kaj si drugi razvijalci mislijo o prednostih HTML5 in o razvijanju za mobilni splet:"
+msgstr ""
+"Preberite v tem članku iz ReadWriteWeb, kaj si drugi razvijalci mislijo o "
+"prednostih HTML5 in o razvijanju za mobilni splet:"
 
 #: apps/landing/templates/landing/mobile.html:158
 msgid "\"'Hands down, the developer pool for HTML / JS rock stars is tenfold larger [and] there is no download attrition. You simply point people at a URL and there you go -- it's installed.' The fact that apps can be directly installed by URL rather than by waiting for an App Store download means that developers reduce barriers to virality.\""
-msgstr "\"'Število razvijalcev za kombinacijo HTML / JS je desetkrat večje [in] izgub zaradi prenosov ni. Ljudi se enostavno napoti na URL in konec -- zadeva je nameščena.' Da se dodatke namešča enostavno prek URL, namesto da ti je treba čakati v vrsti za App Store prenos, pomeni samo, da je bariera za izredne uspehe za razvijalca precej nižja.\""
+msgstr ""
+"\"'Kot rečeno, skupina razvijalcev za kombinacijo HTML / JS je desetkrat "
+"večja [in] izgub zaradi prenosov ni. Ljudi preprosto usmerite na URL in "
+"glejte -- nameščeno je.' Dejstvo, da se dodatke namešča enostavno prek URL "
+"namesto čakanja v vrsti za App Store prenos pomeni, da razvijalci spustijo "
+"mejo izrednega uspeha glede na razširjenost.\""
 
 #: apps/landing/templates/landing/mobile.html:168
 msgid "Android APIs"
@@ -2431,7 +2509,7 @@ msgstr "/en/The_Mozilla_platform"
 
 #: apps/landing/templates/landing/mozilla.html:52
 msgid "The Mozilla Platform"
-msgstr "Platforma Mozilla"
+msgstr "Podlaga Mozilla"
 
 #: apps/landing/templates/landing/mozilla.html:54
 msgid "Learn more about the technologies at the core of Mozilla products and services."
@@ -2514,11 +2592,11 @@ msgstr "Rezultati iskanja"
 
 #: apps/landing/templates/landing/web.html:16
 msgid "Welcome to the Web Developer Community:"
-msgstr "Dobrodošli v skupnosti spletnih razvijalcev:"
+msgstr "Dobrodošli v skupnost spletnih razvijalcev:"
 
 #: apps/landing/templates/landing/web.html:20
 msgid "Develop for an open and participatory Web."
-msgstr "Razvijajte za odprt in komunikativen splet."
+msgstr "Razvijajte za odprt in soudeležujoč splet."
 
 #: apps/landing/templates/landing/web.html:24
 msgid "Join the Web discussions!"
@@ -2556,7 +2634,9 @@ msgstr "Priljubljena <span class=\"web\">spletna</span> dokumentacija "
 
 #: apps/landing/templates/landing/web.html:66
 msgid "Find out what HTML5 is really all about and how you can develop for a better Web through open standards."
-msgstr "Ugotovite, za kaj pri HTML5 pravzaprav gre, in kako lahko z odprtimi standardi razvijate za boljši splet. "
+msgstr ""
+"Ugotovite, za kaj pri HTML5 pravzaprav gre, in kako lahko z odprtimi "
+"standardi razvijate za boljši splet."
 
 #: apps/landing/templates/landing/web.html:70
 msgid "A great resource for anyone working with JS."
@@ -2581,15 +2661,16 @@ msgstr "Vsa dokumentacija za spletni razvoj"
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:87
 msgid "Favorite <span class=\"web\">Web</span> Developer Tools"
-msgstr "Priljubljena razvojna orodja za <span class=\"web\">splet</span>"
+msgstr "Priljubljena <span class=\"web\">Spletna</span> razvojna orodja"
 
 #: apps/landing/templates/landing/web.html:92
 msgid "The most popular and powerful web development tool."
-msgstr "Najbolj priljubljeno in sposobno orodje za razvoj spletnih strani."
+msgstr "Najbolj priljubljeno in zmogljivo spletno razvojno orodje."
 
 #: apps/landing/templates/landing/web.html:93
 msgid "\"An absolute necessity for anyone doing serious web development. Awesome!!!!\""
-msgstr "\"Absolutno obvezno, če jemljete razvoj za splet resno.  Mega!!!\""
+msgstr ""
+"\"Či misliš resno razvijati za splet, brez tega absolutno ne bo šlo. Noro!!!\""
 
 #: apps/landing/templates/landing/web.html:93
 msgid "geckoday via AMO"
@@ -2597,7 +2678,9 @@ msgstr "geckoday preko AMO"
 
 #: apps/landing/templates/landing/web.html:97
 msgid "Firefox Add-on that adds a lot of great developer tools that are just a click away."
-msgstr "Dodatek za Firefox s številnimi in obsežnimi orodji za razvijalce, tako da ste samo en klik oddaljeni od njih.."
+msgstr ""
+"Dodatek za Firefox s številnimi in obsežnimi orodji za razvijalce, tako da "
+"ste samo en klik oddaljeni od njih."
 
 #: apps/landing/templates/landing/web.html:101
 msgid "Evaluate performance of web pages with this Firefox/Firebug Add-on"
@@ -2605,11 +2688,13 @@ msgstr "Ocenite uspešnost spletnih strani s tem Dodatkom za Firefox / Firebug"
 
 #: apps/landing/templates/landing/web.html:105
 msgid "Another great Firefox/Firebug Add-on that helps you view and manage cookies in your browser."
-msgstr "Še en odličen dodatek za Firefox / Firebug, s katerim si lahko ogledujete in upravljate piškotke v svojem brskalniku."
+msgstr ""
+"Še en izvrsten dodatek za Firefox / Firebug, ki pomaga pri ogledovanju in "
+"upravljanju piškotkov v vašem brskalniku."
 
 #: apps/landing/templates/landing/web.html:107
 msgid "All web development tools"
-msgstr "Vsa orodja za spletni razvoj "
+msgstr "Vsa spletna razvojna orodja"
 
 #. Please escape HTML entities here, like &amp;
 #: apps/landing/templates/landing/web.html:114
@@ -2618,7 +2703,7 @@ msgstr "Nedavne <span class=\"web\">spletne</span> novice in posodobitve"
 
 #: apps/landing/templates/landing/web.html:119
 msgid "All web development entries"
-msgstr "Vsi vnosi za spletni razvoj "
+msgstr "Vsi vnosi za razvoj za splet"
 
 #: apps/landing/templates/landing/web.html:126
 msgid "Correspondence on Twitter from the Web developer community."
@@ -2648,7 +2733,8 @@ msgstr "Notranja napaka strežnika"
 
 #: templates/base.html:49
 msgid "A comprehensive, usable, and accurate resource for everyone developing for the Open Web."
-msgstr "Celovit, uporaben in točen vir za vse, ki razvijajo za Odprti Splet. "
+msgstr ""
+"Celovit, uporaben in natančen vir za vse, ki razvijajo za Odprti splet. "
 
 #: templates/base.html:59
 msgid "Search MDN"
@@ -2657,7 +2743,7 @@ msgstr "Iskanje po MDN"
 #: templates/base.html:79
 #: templates/base_compact.html:27
 msgid "Forums"
-msgstr "Forumi"
+msgstr "Seznami"
 
 #: templates/base.html:94
 msgid "What do you think of the new MDN? Please <a href=\"%(uservoice_url)s\">share your feedback</a> with us."
@@ -2704,7 +2790,7 @@ msgstr "Zapri"
 #. Label used before a list of links to download the video
 #: templates/includes/video_player.html:5
 msgid "Download Formats:"
-msgstr "Formati za prenos:"
+msgstr "Oblike za prenos:"
 
 #. Browsers and Plugins useful for viewing video content
 #: templates/includes/video_player.html:7
