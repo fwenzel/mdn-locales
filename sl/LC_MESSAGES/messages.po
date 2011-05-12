@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-14 07:26-0700\n"
-"PO-Revision-Date: 2011-05-12 18:19+0200\n"
+"PO-Revision-Date: 2011-05-12 18:39+0200\n"
 "Last-Translator: Vito <smolejv@gmx.net>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -409,7 +409,7 @@ msgstr "http://www.w3.org/TR/html5/dnd.html"
 #: templates/base.html:71
 #: templates/base_compact.html:23
 msgid "Mobile"
-msgstr "Mobilna naprava"
+msgstr "Mobile"
 
 #: apps/demos/__init__.py:175
 msgid "Firefox Mobile brings the true Web experience to mobile phones and other non-PC devices."
@@ -2020,7 +2020,7 @@ msgstr "Priljubljena dokumentacija o <span class=\"addons\">dodatkih</span>"
 
 #: apps/landing/templates/landing/addons.html:43
 msgid "Add-ons Builder SDK Docs"
-msgstr "Dokumentacija za SDK za Graditelja dodatkov "
+msgstr "Navodila za SDK za Graditelja dodatkov "
 
 #: apps/landing/templates/landing/addons.html:45
 msgid "If you are comfortable with a command line and prefer working locally, the Add-ons Builder SDK gives you a development environment on your own computer."
@@ -2241,11 +2241,11 @@ msgstr ""
 #: apps/landing/templates/landing/home.html:101
 msgid "Use Add-ons Builder to quickly and easily develop an extension for Firefox using common web technologies. There is a <a href=\"%(tutorial)s\">tutorial</a> to get you started and a <a href=\"%(api)s\">variety of APIs in the core library</a> to add functionality to Firefox."
 msgstr ""
-"Uporabite Gradnik za dodatke, da si ob uporabi običajnih spletnih tehnologij "
-"hitro in enostavno razvijete razširitev za Firefox. Na razpolago je<a "
-"href=\"%(tutorial)s\">učni primer</a> za začetnike in <a href=\"%"
-"(api)s\">množica APIs v osrednji knjižnici</a>, s katerimi lahko Firefoxu "
-"dodajate funkcionalnost."
+"Uporabite Gradnik razširitev, da si hitro in enostavno razvijete razširitev "
+"za Firefox z uporabo običajnih spletnih tehnologij. Na razpolago je<a href=\""
+"%(tutorial)s\">učni primer</a> za začetnike in <a href=\"%(api)s\">množica APIs "
+"v osrednji knjižnici</a>, s katerimi lahko Firefoxu dodajate "
+"funkcionalnost."
 
 #: apps/landing/templates/landing/home.html:116
 msgid "News & Updates"
@@ -2795,7 +2795,13 @@ msgstr "Oblike za prenos:"
 #. Browsers and Plugins useful for viewing video content
 #: templates/includes/video_player.html:7
 msgid "This video requires a browser with support for open video: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 or greater</li> <li><a href=\"http://www.apple.com/safari/\">Safari</a> 3.1 or greater</li> </ul> or the <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Alternatively, you may use the video download links provided."
-msgstr "Ta video zahteva brskalnik s podporo za odprti video: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 ali več</li> <li><a href=\"http://www.apple.com/safari/\">Safari</a> 3.1 ali več</li> </ul> ali pa <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Lahko pa uporabite tudi povezave za prenos video posnetkov, ki so na voljo. "
+msgstr ""
+"Ta video zahteva brskalnik s podporo za odprti video: <ul> <li><a "
+"href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 ali več</li> <li><a "
+"href=\"http://www.apple.com/safari/\">Safari</a> 3.1 ali več</li> </ul> ali <a "
+"href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Kot "
+"nadomestilo lahko uporabite zagotovljene povezave za prenos video posnetkov. "
+""
 
 #~ msgid "Could you be the big winner?"
 #~ msgstr "Ste lahko veliki zmagovalec vi?"
