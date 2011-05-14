@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-05 19:46+0200\n"
-"PO-Revision-Date: 2011-03-02 16:48+0200\n"
-"Last-Translator: potappo <potappo@gmail.com>\n"
+"PO-Revision-Date: 2011-05-14 04:57+0200\n"
+"Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: none\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.1.5\n"
+"X-Generator: Pootle 2.1.6\n"
 
 #: apps/actioncounters/models.py:71
 #: apps/contentflagging/models.py:78
@@ -950,7 +950,6 @@ msgstr "アクセスが拒否されました"
 #: apps/landing/templates/landing/base_learn.html:9
 #: templates/base.html:78
 #: templates/base_compact.html:18
-#, fuzzy
 msgid "Demos"
 msgstr "MDN デモ"
 
@@ -1250,11 +1249,11 @@ msgstr "このデモは <a href=\"%(link)s\">%(title)s</a> ライセンスの下
 
 #: apps/demos/templates/demos/detail.html:250
 msgid "More by {creator_link}"
-msgstr ""
+msgstr "詳細は {creator_link}"
 
 #: apps/demos/templates/demos/detail.html:261
 msgid "Report a Problem"
-msgstr ""
+msgstr "問題を報告する"
 
 #: apps/demos/templates/demos/detail.html:263
 msgid "Demo is not working"
@@ -1300,7 +1299,6 @@ msgstr "Mozilla Demo Studio"
 
 # トップページのサイト説明の文言
 #: apps/demos/templates/demos/home.html:23
-#, fuzzy
 msgid ""
 "<p>Welcome to Mozilla Demo Studio, where developers like you can develop, "
 "share, demonstrate, and learn all about Web technologies. See what's "
@@ -1310,12 +1308,11 @@ msgid ""
 "work.</li> <li>Read <strong>documentation</strong> to learn about the open "
 "standards and technologies that power the Web.</li> </ul>"
 msgstr ""
-"<p>Mozilla Demo Studio へようこそ。ここはあなたのような開発者が Web "
-"技術に関するあらゆることについて、開発したり、共有したり、デモしたり、そして、学んだりできるところです。Demo Studio "
-"サイト内で可能なことは次のことです:</p> <ul> <li>HTML、CSS、JavaScript で行えることのショーケースとしての<strong"
-">デモ</strong>を見る。</li><li>デモがどうやって動いているかを理解するためにその<strong>ソースコード</strong>を調べる"
-"。</li> <li>Web "
-"に力を与えているオープンな標準および技術について学ぶために<strong>ドキュメンテーション</strong>を読む。</li> </ul>"
+"<p>Mozilla Demo Studio へようこそ。ここは、あなたのような開発者が Web "
+"技術に関するあらゆることを開発、共有、デモ、そして学ぶところです。Demo Studio サイト内では次のことができます:</p> <ul> "
+"<li>HTML, CSS, JavaScript を実演するショーケースの<strong>デモ</strong>を見る。</li><li>デモがが動作"
+"する仕組みを理解するために、その<strong>ソースコード</strong>を調べる。</li> <li>Web "
+"に力を与えているオープンな標準および技術について学ぶために、<strong>ドキュメンテーション</strong>を読む。</li> </ul>"
 
 #: apps/demos/templates/demos/home.html:39
 msgid "Featured Demos"
@@ -1477,7 +1474,6 @@ msgid "Preparing Your Demo"
 msgstr "デモ投稿のための準備"
 
 #: apps/demos/templates/demos/submit.html:125
-#, fuzzy
 msgid ""
 "<ul> <li>Your demo's source code should be packaged inside a ZIP file.</li> "
 "<li>The main page of your demo should be a file named "
@@ -1492,9 +1488,9 @@ msgid ""
 msgstr ""
 "<ul> <li>あなたのデモのソースコードは ZIP ファイルに格納してください。</li> <li>あなたのデモのメインページは ZIP "
 "のルートディレクトリ内の <code>index.html</code> という名前のファイルにしてください。</li> "
-"<li>あなたのデモはクライアントサイドの技術 (HTML, CSS, JavaScript) で作成されなければなりません。PHP や Ruby "
-"のようなサーバーサイド言語はサポートされていません。</li> <li>あなたのデモが外部リソースを必要とする場合は、それらに AJAX "
-"でアクセスしてください。</li> <li>あなたのデモを投稿するには、<a href=\"%(signup_url)s\">MDN "
+"<li>あなたのデモはクライアントサイドの技術 (HTML, CSS, JavaScript) で構成されなければなりません。PHP や Ruby "
+"のようなサーバサイド言語はサポートされていません。</li> <li>あなたのデモが外部リソースを必要とする場合は、それらに AJAX "
+"でアクセスしてください。</li> <li>デモを投稿するには、<a href=\"%(signup_url)s\">MDN "
 "アカウント</a>が必要です。</li> <li>デモの詳細欄に、CC-BY-SA (表示-継承) "
 "の下でライセンスすることができないサードパーティのコンテンツを明記し、その作者の Web サイトへのリンクを記述してください。</li> </ul>"
 
@@ -1561,7 +1557,6 @@ msgid "Before You Begin"
 msgstr "始める前に"
 
 #: apps/demos/templates/demos/submit_noauth.html:41
-#, fuzzy
 msgid ""
 "<ul> <li>You must be prepared to <strong>provide the source code</strong> "
 "for your demo. Demos are hosted on the Demo Studio's servers.</li> <li>Your "
@@ -1571,15 +1566,14 @@ msgid ""
 "support a wide range of <strong>modern web browsers</strong>, like Firefox, "
 "Chrome, Safari, and Opera.</li> </ul>"
 msgstr ""
-"<ul> <li>あなたのデモの<strong>ソースコードを提供する</strong>ための準備をしなければなりません。デモは Demo Studio "
-"のサーバーにホストされます。</li> <li>あなたのデモのソースコードのライセンスは、MPL, GPL, BSD "
+"<ul> <li>あなたはデモの<strong>ソースコードを提供する</strong>ための準備をしなければなりません。デモは Demo Studio "
+"のサーバに置かれます。</li> <li>あなたのデモのソースコードのライセンスは、MPL, GPL, BSD "
 "のような<strong>オープンライセンス</strong>にしなけれればなりません。</li> <li>あなたのデモは、HTML5 および CSS3 "
 "のような<strong>オープンな Web 技術</strong>を披露するものでなければなりません。</li> "
 "<li>あなたのデモは、Firefox, Chrome, Safari そして Opera のような<strong>モダン Web "
 "ブラウザ</strong>を幅広くサポートしなくてはなりません。</li> </ul>"
 
 #: apps/demos/templates/demos/submit_noauth.html:53
-#, fuzzy
 msgid ""
 "<ul> <li>Your demo's source code should be packaged inside a <strong>ZIP "
 "file</strong>.</li> <li>The main page of your demo should be a file named "
@@ -1591,10 +1585,10 @@ msgid ""
 "details box any 3rd party content that can't be licensed under the CC-BY-SA "
 "license and include links to the authors' websites.</li> </ul>"
 msgstr ""
-"<ul> <li>あなたのデモのソースコードは <strong>ZIP ファイル</strong>に格納してください。</li> "
-"<li>あなたのデモのメインページは ZIP のルートディレクトリ内の <strong><code>index.html</code></strong> "
-"という名前のファイルにしてください。</li> <li>あなたのデモは<strong>クライアントサイドの技術</strong> (HTML, "
-"CSS, JavaScript) で作成されなければなりません。PHP や Ruby のようなサーバーサイド言語はサポートされていません。</li> "
+"<ul> <li>デモのソースコードは <strong>ZIP ファイル</strong>に格納してください。</li> <li>デモのメインページは "
+"ZIP のルートディレクトリ内の <strong><code>index.html</code></strong> "
+"という名前のファイルにしてください。</li> <li>あなたのデモは<strong>クライアントサイドの技術</strong> (HTML, CSS, "
+"JavaScript) で構成されなければなりません。PHP や Ruby のようなサーバサイドの言語はサポートされていません。</li> "
 "<li>あなたのデモが外部リソースを必要とする場合は、それらに <strong>AJAX</strong> でアクセスしてください。</li> <li"
 ">デモの詳細欄に、CC-BY-SA (表示-継承) の下でライセンスすることができないサードパーティのコンテンツを明記し、その作者の Web "
 "サイトへのリンクを記述してください。</li> </ul>"
@@ -1778,7 +1772,6 @@ msgid "Launch {title}"
 msgstr "{title} を実行"
 
 #: apps/demos/templates/demos/elements/submission_thumb.html:20
-#, fuzzy
 msgid "Launch"
 msgstr "デモを実行"
 
@@ -2485,7 +2478,7 @@ msgstr "ログイン"
 #: apps/landing/templates/landing/home.html:45
 #: apps/landing/templates/landing/home.html:55
 msgid "Aurora"
-msgstr ""
+msgstr "Aurora"
 
 # メインページ, スライド2 - School of Webcraft タイトル
 #: apps/landing/templates/landing/home.html:46
@@ -2496,9 +2489,8 @@ msgstr "School of Webcraft"
 # メインページ, スライド4 - タイトル
 #: apps/landing/templates/landing/home.html:48
 #: apps/landing/templates/landing/home.html:100
-#, fuzzy
 msgid "Firefox 4"
-msgstr "Firefox 4 Beta"
+msgstr "Firefox 4"
 
 # メインページ、スライド5 - タイトル
 #: apps/landing/templates/landing/home.html:49
@@ -2516,7 +2508,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/home.html:64
 msgid "Get Aurora now"
-msgstr ""
+msgstr "Aurora チャンネルのビルドを入手"
 
 # メインページ, スライド2 - School of Webcraft テキスト
 #: apps/landing/templates/landing/home.html:72
@@ -2704,13 +2696,13 @@ msgstr "今日から始めませんか？"
 #: apps/landing/templates/landing/learn.html:5
 #: apps/landing/templates/landing/learn.html:10
 msgid "Learn How to Make Websites"
-msgstr ""
+msgstr "Web サイトの作り方を学ぶ"
 
 #: apps/landing/templates/landing/learn.html:11
 msgid ""
 "<p>Want to learn to use the technologies that power the Web? <br>We've put "
 "together a great collection of resources to get you started.</p>"
-msgstr ""
+msgstr "<p>Web を動かしている技術の使い方を学びたい？<br>私たちのサイトには、これから学ぶ方のためのすばらしいリソースがあります。</p>"
 
 #: apps/landing/templates/landing/learn.html:27
 msgid ""
@@ -2762,15 +2754,14 @@ msgstr ""
 
 #: apps/landing/templates/landing/learn_css.html:5
 #: apps/landing/templates/landing/learn_css.html:11
-#, fuzzy
 msgid "Learn CSS"
-msgstr "さらに学ぶ"
+msgstr "CSS について学ぶ"
 
 #: apps/landing/templates/landing/learn_css.html:10
 #: apps/landing/templates/landing/learn_html.html:10
 #: apps/landing/templates/landing/learn_javascript.html:10
 msgid "Back to Home"
-msgstr ""
+msgstr "最初のページへ戻る"
 
 #: apps/landing/templates/landing/learn_css.html:12
 msgid ""
@@ -2804,30 +2795,29 @@ msgstr ""
 
 # docs, Key Topics for Web Developers - リスト項目
 #: apps/landing/templates/landing/learn_css.html:37
-#, fuzzy
 msgid "CSS Basics"
-msgstr "CSS グラデーション"
+msgstr "CSS の基本"
 
 #: apps/landing/templates/landing/learn_css.html:39
 msgid ""
 "What CSS is, how to apply it to HTML, and what basic CSS syntax looks like."
-msgstr ""
+msgstr "CSS とは何か、HTML に適用する方法、CSS 構文の基本について。"
 
 #: apps/landing/templates/landing/learn_css.html:42
 msgid "CSS Selector Classes"
-msgstr ""
+msgstr "CSS セレクタ・クラス"
 
 #: apps/landing/templates/landing/learn_css.html:44
 msgid "What are classes in CSS?"
-msgstr ""
+msgstr "CSS におけるクラスとは何か？"
 
 #: apps/landing/templates/landing/learn_css.html:47
 msgid "External CSS"
-msgstr ""
+msgstr "外部 CSS"
 
 #: apps/landing/templates/landing/learn_css.html:49
 msgid "Using CSS from an external style sheet."
-msgstr ""
+msgstr "外部スタイルシートから CSS を使う"
 
 #: apps/landing/templates/landing/learn_css.html:52
 msgid "Adding a Touch of Style"
@@ -2864,20 +2854,18 @@ msgstr ""
 
 # メインページ, 右サイドバー Popular Docs - リンクテキスト
 #: apps/landing/templates/landing/learn_css.html:73
-#, fuzzy
 msgid "/en/CSS_Reference"
-msgstr "CSS リファレンス"
+msgstr "/ja/CSS_Reference"
 
 #: apps/landing/templates/landing/learn_css.html:75
 msgid ""
 "Complete reference to CSS, with details on support by Firefox and other "
 "browsers."
-msgstr ""
+msgstr "CSS の完全リファレンスガイド。Firefox と他のブラウザでサポートされたスタイルの詳細。"
 
 #: apps/landing/templates/landing/learn_css.html:78
-#, fuzzy
 msgid "CSS Challenges"
-msgstr "変更を保存"
+msgstr "CSS チャレンジ"
 
 #: apps/landing/templates/landing/learn_css.html:80
 msgid "Flex your CSS skills, and see where you need more practice."
@@ -2963,7 +2951,7 @@ msgstr "/ja/CSS/Using_CSS_transforms"
 #: apps/landing/templates/landing/learn_css.html:119
 #, fuzzy
 msgid "CSS Transitions"
-msgstr "CSS トランスフォーム"
+msgstr "CSS トランジション"
 
 #: apps/landing/templates/landing/learn_css.html:121
 msgid ""
@@ -3012,9 +3000,8 @@ msgstr ""
 
 #: apps/landing/templates/landing/learn_html.html:5
 #: apps/landing/templates/landing/learn_html.html:11
-#, fuzzy
 msgid "Learn HTML"
-msgstr "さらに学ぶ"
+msgstr "HTML について学ぶ"
 
 #: apps/landing/templates/landing/learn_html.html:12
 msgid ""
@@ -3030,7 +3017,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/learn_html.html:31
 msgid "The Basics of HTML"
-msgstr ""
+msgstr "HTML の基本"
 
 #: apps/landing/templates/landing/learn_html.html:33
 msgid ""
@@ -3081,7 +3068,7 @@ msgstr ""
 
 #: apps/landing/templates/landing/learn_html.html:56
 msgid "HTML Challenges"
-msgstr ""
+msgstr "HTML チャレンジ"
 
 #: apps/landing/templates/landing/learn_html.html:58
 msgid ""
@@ -3091,9 +3078,8 @@ msgid ""
 msgstr ""
 
 #: apps/landing/templates/landing/learn_html.html:61
-#, fuzzy
 msgid "/HTML/Element"
-msgstr "/ja/HTML/Element/canvas"
+msgstr "/HTML/Element"
 
 #: apps/landing/templates/landing/learn_html.html:63
 msgid ""
@@ -3216,18 +3202,16 @@ msgstr ""
 
 # docs, Key Topics for Web Developers - リスト項目
 #: apps/landing/templates/landing/learn_html.html:117
-#, fuzzy
 msgid "Web o' Wonder"
-msgstr "Web O' Wonder"
+msgstr "Web o' Wonder"
 
 #: apps/landing/templates/landing/learn_html.html:119
 msgid "Demos from Mozilla developers and evangelists."
 msgstr ""
 
 #: apps/landing/templates/landing/learn_html.html:122
-#, fuzzy
 msgid "MDN Demo Studio"
-msgstr "Demo Studio"
+msgstr "MDN Demo Studio"
 
 #: apps/landing/templates/landing/learn_html.html:124
 msgid ""
@@ -3293,9 +3277,8 @@ msgstr ""
 
 #: apps/landing/templates/landing/learn_javascript.html:5
 #: apps/landing/templates/landing/learn_javascript.html:11
-#, fuzzy
 msgid "Learn JavaScript"
-msgstr "/ja/JavaScript"
+msgstr "JavaScript について学ぶ"
 
 #: apps/landing/templates/landing/learn_javascript.html:12
 msgid ""
@@ -3309,9 +3292,8 @@ msgid ""
 msgstr ""
 
 #: apps/landing/templates/landing/learn_javascript.html:30
-#, fuzzy
 msgid "/en/JavaScript/Getting_Started"
-msgstr "/ja/JavaScript"
+msgstr "/ja/JavaScript/Getting_Started"
 
 #: apps/landing/templates/landing/learn_javascript.html:30
 msgid "Getting Started with JavaScript"
@@ -3340,14 +3322,12 @@ msgid "Video tutorial on making pages interactive with JavaScript"
 msgstr ""
 
 #: apps/landing/templates/landing/learn_javascript.html:50
-#, fuzzy
 msgid "/en/JavaScript/Guide"
-msgstr "/ja/JavaScript"
+msgstr "/ja/JavaScript/Guide"
 
 #: apps/landing/templates/landing/learn_javascript.html:50
-#, fuzzy
 msgid "JavaScript Guide"
-msgstr "JavaScript"
+msgstr "JavaScript ガイド"
 
 #: apps/landing/templates/landing/learn_javascript.html:52
 msgid ""
@@ -3380,9 +3360,8 @@ msgid ""
 msgstr ""
 
 #: apps/landing/templates/landing/learn_javascript.html:71
-#, fuzzy
 msgid "Eloquent JavaScript"
-msgstr "/ja/JavaScript"
+msgstr ""
 
 #: apps/landing/templates/landing/learn_javascript.html:72
 msgid ""
@@ -3448,7 +3427,7 @@ msgstr ""
 #: apps/landing/templates/landing/learn_javascript.html:111
 #, fuzzy
 msgid "Advanced JavaScript"
-msgstr "JavaScript"
+msgstr "Advanced JavaScript"
 
 #: apps/landing/templates/landing/learn_javascript.html:113
 msgid ""
@@ -3457,9 +3436,8 @@ msgid ""
 msgstr ""
 
 #: apps/landing/templates/landing/learn_javascript.html:118
-#, fuzzy
 msgid "JavaScript Garden"
-msgstr "JavaScript"
+msgstr "JavaScript Garden"
 
 #: apps/landing/templates/landing/learn_javascript.html:119
 msgid "Documentation of the most quirky parts of JavaScript."
@@ -4028,7 +4006,6 @@ msgstr "{timedelta} 前"
 
 #: templates/403.html:3
 #: templates/403.html:5
-#, fuzzy
 msgid "Permission Denied"
 msgstr "アクセスが拒否されました"
 
