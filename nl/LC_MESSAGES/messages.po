@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-05 19:46+0200\n"
-"PO-Revision-Date: 2011-05-22 14:14+0200\n"
+"PO-Revision-Date: 2011-05-22 14:23+0200\n"
 "Last-Translator: Tim Maks <thunderbird-nl@planet.nl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -1165,7 +1165,7 @@ msgstr "Bevalt deze demo?"
 #: apps/demos/templates/demos/detail.html:103
 #: apps/demos/templates/demos/launch.html:50
 msgid "Like It"
-msgstr "Bevalt het"
+msgstr "Vind ik leuk"
 
 #: apps/demos/templates/demos/detail.html:108
 #: apps/demos/templates/demos/launch.html:54
@@ -1176,7 +1176,7 @@ msgstr "Deel deze demo met uw sociale netwerk"
 #: apps/demos/templates/demos/detail.html:110
 #: apps/demos/templates/demos/launch.html:54
 msgid "Share It"
-msgstr "Deel het"
+msgstr "Delen"
 
 #: apps/demos/templates/demos/detail.html:111
 #: apps/demos/templates/demos/launch.html:56
@@ -1217,7 +1217,6 @@ msgstr[0] "{count} persoon beviel deze demo"
 msgstr[1] "{count} mensen beviel deze demo"
 
 #: apps/demos/templates/demos/detail.html:136
-#, fuzzy
 msgid "{count} like"
 msgid_plural "{count} likes"
 msgstr[0] "{count} bevalt"
@@ -1302,19 +1301,22 @@ msgid ""
 "Download the Source <span class=\"note\">%(file_ksize)s KB &middot; ZIP "
 "File</span>"
 msgstr ""
+"Download het bron <span class=\"note\">%(file_ksize)s KB &middot; ZIP-"
+"bestand</span>"
 
 #: apps/demos/templates/demos/detail.html:243
 msgid ""
 "This demo is released under the <a href=\"%(link)s\">%(title)s</a> license."
 msgstr ""
+"Deze demo is uitgebracht onder de <a href=\"%(link)s\">%(title)s</a> licentie."
 
 #: apps/demos/templates/demos/detail.html:250
 msgid "More by {creator_link}"
-msgstr ""
+msgstr "Meer door {creator_link}"
 
 #: apps/demos/templates/demos/detail.html:261
 msgid "Report a Problem"
-msgstr ""
+msgstr "Meld een probleem"
 
 # 100%
 #: apps/demos/templates/demos/detail.html:263
@@ -1396,86 +1398,86 @@ msgstr "Zie de volgende drie demo's"
 #: apps/demos/templates/demos/home.html:65
 #: apps/demos/templates/demos/listing_tag.html:53
 msgid "Subscribe to a feed of {tag_title} demos"
-msgstr ""
+msgstr "Abonneer op een feed van {tag_title} demo's"
 
 #: apps/demos/templates/demos/home.html:65
 msgid "recent"
-msgstr ""
+msgstr "recent"
 
 #: apps/demos/templates/demos/launch.html:30
 #: templates/base.html:4
 #: templates/base_popup.html:4
 msgid "Mozilla Developer Network"
-msgstr ""
+msgstr "Mozilla Developer Network"
 
 #: apps/demos/templates/demos/launch.html:34
 msgid "by %(profile_link)s"
-msgstr ""
+msgstr "door %(profile_link)s"
 
 #: apps/demos/templates/demos/launch.html:76
 msgid "Remove this toolbar"
-msgstr ""
+msgstr "Verwijder deze toolbar"
 
 #: apps/demos/templates/demos/launch.html:76
 msgid "Remove toolbar"
-msgstr ""
+msgstr "Verwijder werkbalk"
 
 #: apps/demos/templates/demos/listing_all.html:5
 #: apps/demos/templates/demos/listing_all.html:19
 #: apps/demos/templates/demos/listing_all.html:31
 msgid "Browse all demos"
-msgstr ""
+msgstr "Blader door alle demo's"
 
 #: apps/demos/templates/demos/listing_all.html:38
 msgid "Subscribe to a feed of all demos"
-msgstr ""
+msgstr "Abonneer op een feed van alle demo's"
 
 #: apps/demos/templates/demos/listing_search.html:10
 msgid "Search for \"{q}\""
-msgstr ""
+msgstr "Zoek naar \"{q}\""
 
 #: apps/demos/templates/demos/listing_search.html:14
 msgid "Search results for \"{q}\""
-msgstr ""
+msgstr "Zoekresultaten voor \"{q}\""
 
 #: apps/demos/templates/demos/listing_search.html:25
 #: apps/demos/templates/demos/listing_search.html:37
 msgid "Search demos for \"{q}\""
-msgstr ""
+msgstr "Zoek demo's voor \"{q}\""
 
 #: apps/demos/templates/demos/listing_search.html:44
 msgid "Subscribe to a feed of search results for \"{q}\""
-msgstr ""
+msgstr "Abonneer op een feed van de zoekresultaten voor \"{q}\""
 
 #: apps/demos/templates/demos/listing_tag.html:5
 msgid "{tag_title} Demos"
-msgstr ""
+msgstr "{tag_title} demo's"
 
 #: apps/demos/templates/demos/listing_tag.html:8
 msgid "Demos tagged {tag}"
-msgstr ""
+msgstr "Demo's met {tag}-label"
 
 #: apps/demos/templates/demos/listing_tag.html:39
 msgid "Learn More"
-msgstr ""
+msgstr "Meer informatie"
 
 #: apps/demos/templates/demos/profile_detail.html:8
 msgid "{display_name}"
-msgstr ""
+msgstr "{display_name}"
 
 #: apps/demos/templates/demos/profile_detail.html:12
 msgid "Demos for {display_name}"
-msgstr ""
+msgstr "Demo's voor {display_name}"
 
 #: apps/demos/templates/demos/profile_detail.html:55
 msgid "Subscribe to a feed of {display_name}'s demos"
-msgstr ""
+msgstr "Abonneer op een feed van {display_name}'s demo's"
 
 #: apps/demos/templates/demos/submit.html:8
 #: apps/demos/templates/demos/submit.html:45
 #: apps/demos/templates/demos/submit.html:60
 msgid "Edit {demo_title}"
-msgstr ""
+msgstr "{demo_title} bewerken"
 
 # 76%
 # 100%
@@ -1485,9 +1487,8 @@ msgstr ""
 #: apps/demos/templates/demos/submit_noauth.html:10
 #: apps/demos/templates/demos/submit_noauth.html:20
 #: apps/demos/templates/demos/submit_noauth.html:30
-#, fuzzy
 msgid "Submit a New Demo"
-msgstr "Demo versturen"
+msgstr "Nieuwe demo versturen"
 
 #: apps/demos/templates/demos/submit.html:67
 msgid ""
@@ -1500,43 +1501,48 @@ msgstr ""
 
 #: apps/demos/templates/demos/submit.html:79
 msgid "Describe Your Demo"
-msgstr ""
+msgstr "Beschrijf uw demo"
 
 #: apps/demos/templates/demos/submit.html:81
 msgid ""
 "<p>Tell us more about your demo, including the name, description and the "
 "technologies used. Please list the browsers you have tested it with.</p>"
 msgstr ""
+"<p>Vertel ons meer over uw demo, inclusief de naam, beschrijving en "
+"gebruikte technologieën. Geef een lijst van browsers waarmee u het hebt "
+"getest.</p>"
 
 #: apps/demos/templates/demos/submit.html:92
 msgid "Select up to five technologies used in your demo."
-msgstr ""
+msgstr "Selecteer maximaal vijf technologieën die worden gebruikt in uw demo."
 
 #: apps/demos/templates/demos/submit.html:103
 msgid "Show Off Your Demo"
-msgstr ""
+msgstr "Toon uw demo"
 
 #: apps/demos/templates/demos/submit.html:107
 msgid "Provide at least one screenshot of your demo in action"
-msgstr ""
+msgstr "Lever ten minste één schermafbeelding van uw demo in actie."
 
 #: apps/demos/templates/demos/submit.html:116
 msgid "JPEG and PNG supported. Minimum size of 480x360."
-msgstr ""
+msgstr "JPEG en PNG ondersteund. Minimale grootte van 480x360."
 
 #: apps/demos/templates/demos/submit.html:118
 msgid "We support YouTube and Vimeo"
-msgstr ""
+msgstr "Wij ondersteunen YouTube en Vimeo"
 
 #: apps/demos/templates/demos/submit.html:119
 msgid ""
 "If your demo has problems when displayed in an <iframe>, try changing this."
 msgstr ""
+"Als je demo problemen heeft wanneer deze wordt weergegeven in een <iframe>, "
+"probeer dit dan te veranderen."
 
 #: apps/demos/templates/demos/submit.html:124
 #: apps/demos/templates/demos/submit_noauth.html:52
 msgid "Preparing Your Demo"
-msgstr ""
+msgstr "De voorbereiding van uw demo"
 
 #: apps/demos/templates/demos/submit.html:125
 msgid ""
@@ -1554,7 +1560,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/submit.html:138
 msgid "Provide the Source Code"
-msgstr ""
+msgstr "Lever de broncode"
 
 #: apps/demos/templates/demos/submit.html:139
 msgid ""
@@ -1564,7 +1570,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/submit.html:147
 msgid "Source code ZIP file"
-msgstr ""
+msgstr "Broncode ZIP-bestand"
 
 #: apps/demos/templates/demos/submit.html:148
 msgid "Upload demo file&hellip;"
@@ -1590,11 +1596,11 @@ msgstr ""
 
 #: apps/demos/templates/demos/submit.html:185
 msgid "Save changes"
-msgstr ""
+msgstr "Wijzigingen opslaan"
 
 #: apps/demos/templates/demos/submit.html:187
 msgid "Discard Changes"
-msgstr ""
+msgstr "Wijzigingen annuleren"
 
 #: apps/demos/templates/demos/submit_noauth.html:32
 msgid ""
@@ -1605,7 +1611,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/submit_noauth.html:40
 msgid "Before You Begin"
-msgstr ""
+msgstr "Voordat u begint"
 
 #: apps/demos/templates/demos/submit_noauth.html:41
 msgid ""
@@ -1692,7 +1698,7 @@ msgstr ""
 
 #: apps/demos/templates/demos/elements/comments_tree.html:37
 msgid "Edit"
-msgstr ""
+msgstr "Bewerken"
 
 # 95%
 # 100%
@@ -1702,12 +1708,12 @@ msgstr "Deze reactie verwijderen"
 
 #: apps/demos/templates/demos/elements/comments_tree.html:40
 msgid "Delete"
-msgstr ""
+msgstr "Verwijderen"
 
 #: apps/demos/templates/demos/elements/profile_link.html:2
 #: apps/demos/templates/demos/elements/submission_creator.html:2
 msgid "See {display_name}'s profile"
-msgstr ""
+msgstr "Bekijk {display_name}'s profiel"
 
 #: apps/demos/templates/demos/elements/search_form.html:4
 msgid "Search the Demo Studio"
